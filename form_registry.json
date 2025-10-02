@@ -1,0 +1,84 @@
+{
+  "url_to_hash": {
+    "https://fomomonguest.s3.ap-south-1.amazonaws.com/keystone/IMG-20250924-WA0000.jpg": "f7cce0071f873f9ec20544209895df78",
+    "https://fomomonguest.s3.ap-south-1.amazonaws.com/keystone/IMG-20250924-WA0001.jpg": "e871f3d7848b25f20fe5f6732073bf8d",
+    "https://fomomonguest.s3.ap-south-1.amazonaws.com/keystone/IMG-20250924-WA0002.jpg": "90628d117298f88dc03d32a5150e87cf"
+  },
+  "hash_to_form_template": {
+    "f7cce0071f873f9ec20544209895df78": {
+      "form_id": "Form A - Tree list (DBH & phenology)",
+      "id_variables": [
+        "date",
+        "areaName",
+        "research_team",
+        "blockID",
+        "transectID",
+        "plotID"
+      ],
+      "row_represents": "one woody stem (tree/shrub) measured in the plot (one row = one individual with DBH)",
+      "row_variables": [
+        "S.No",
+        "species_local_name",
+        "habit",
+        "dbh_cm",
+        "phenological_condition",
+        "notes"
+      ],
+      "empty_fields_policy": "Top-level ID fields (blockID/transectID/plotID/date/areaName) should be propagated to each row if not repeated. Observation fields: leave as NA if unknown or not recorded; do NOT assume values. If DBH is blank treat as NA. Phenology/notes blank = NA.",
+      "source_file": "source_file: IMG-20250924-WA0000.jpg"
+    },
+    "e871f3d7848b25f20fe5f6732073bf8d": {
+      "form_id": "Form B - Seedlings & Saplings (subplot counts)",
+      "id_variables": [
+        "date",
+        "areaName",
+        "research_team",
+        "blockID",
+        "transectID",
+        "plotID",
+        "subplotID"
+      ],
+      "row_represents": "one species record within a given subplot (counts of seedlings and saplings for that species in that subplot)",
+      "row_variables": [
+        "subplot_no",
+        "S.No",
+        "species_local_name",
+        "habit",
+        "num_seedlings",
+        "num_saplings",
+        "notes"
+      ],
+      "empty_fields_policy": "Top-level ID fields should be filled for each row if missing. For count fields (#seedlings, #saplings) treat empty cells as 0 (assumed zero individuals). For text fields (species, habit, notes) record NA if blank. If subplot number is only given in the left column for a block of rows, propagate that subplotID to those rows.",
+      "source_file": "source_file: IMG-20250924-WA0001.jpg"
+    },
+    "90628d117298f88dc03d32a5150e87cf": {
+      "form_id": "Form C - Plot characteristics (canopy openness & soil)",
+      "id_variables": [
+        "blockID",
+        "transectID",
+        "plotID",
+        "subplotID",
+        "areaName"
+      ],
+      "row_represents": "one subplot (or plot-centre) measurement of canopy openness (by quadrant) and soil properties",
+      "row_variables": [
+        "subplot_no",
+        "canopy_north",
+        "canopy_east",
+        "canopy_west",
+        "canopy_south",
+        "soil_moisture_category",
+        "soil_temperature_C",
+        "soil_pH",
+        "notes_on_plot_characteristics"
+      ],
+      "empty_fields_policy": "Propagate ID fields from header to each row if not repeated. Measurement fields left blank should be recorded as NA (do not infer). If canopy quadrant counts missing, record NA. Soil moisture uses categorical codes (e.g. 1-5) \u2014 if blank record NA.",
+      "source_file": "source_file: IMG-20250924-WA0002.jpg"
+    }
+  },
+  "hash_to_form_instruction": {
+    "f7cce0071f873f9ec20544209895df78": "This is Form A - Tree list (DBH & phenology) form. Each row = one woody stem (tree/shrub) measured in the plot (one row = one individual with DBH). Fill only: S.No, species_local_name, habit, dbh_cm, phenological_condition, notes, and identifiers (date, areaName, research_team, blockID, transectID, plotID). Policy for empty fields: Top-level ID fields (blockID/transectID/plotID/date/areaName) should be propagated to each row if not repeated. Observation fields: leave as NA if unknown or not recorded; do NOT assume values. If DBH is blank treat as NA. Phenology/notes blank = NA..",
+    "e871f3d7848b25f20fe5f6732073bf8d": "This is Form B - Seedlings & Saplings (subplot counts) form. Each row = one species record within a given subplot (counts of seedlings and saplings for that species in that subplot). Fill only: subplot_no, S.No, species_local_name, habit, num_seedlings, num_saplings, notes, and identifiers (date, areaName, research_team, blockID, transectID, plotID, subplotID). Policy for empty fields: Top-level ID fields should be filled for each row if missing. For count fields (#seedlings, #saplings) treat empty cells as 0 (assumed zero individuals). For text fields (species, habit, notes) record NA if blank. If subplot number is only given in the left column for a block of rows, propagate that subplotID to those rows..",
+    "90628d117298f88dc03d32a5150e87cf": "This is Form C - Plot characteristics (canopy openness & soil) form. Each row = one subplot (or plot-centre) measurement of canopy openness (by quadrant) and soil properties. Fill only: subplot_no, canopy_north, canopy_east, canopy_west, canopy_south, soil_moisture_category, soil_temperature_C, soil_pH, notes_on_plot_characteristics, and identifiers (blockID, transectID, plotID, subplotID, areaName). Policy for empty fields: Propagate ID fields from header to each row if not repeated. Measurement fields left blank should be recorded as NA (do not infer). If canopy quadrant counts missing, record NA. Soil moisture uses categorical codes (e.g. 1-5) \u2014 if blank record NA.."
+  }
+}

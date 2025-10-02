@@ -1,0 +1,36 @@
+{
+  "model": "gpt-5-mini",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an OCR form classification assistant."
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "You are an assistant that classifies ecological survey forms and describes their structure.\n\nYou will be given multiple scanned forms from the same study.\n\nYour tasks:\n1. Decide whether the study uses a transect\u2013plot\u2013subplot design. Output this decision as a top-level JSON field: \"is_transect_subplot\": true or false.\n\n2. For each form, describe its structure as a JSON object with the following fields:\n   - \"form_id\": a short identifier (e.g. \"Form A\", or use the file name if provided).\n   - \"id_variables\": list the identifiers (e.g. transectID, blockID, plotID, subplotID, date, etc.).\n   - \"row_represents\": describe what one row of the form corresponds to (e.g. \"one woody stem >1 cm DBH in a 10x10m plot\", \"one species observation in a 2x2m subplot\").\n   - \"row_variables\": list the variables recorded in each row (e.g. species, dbh_cm, habit, phenology, num_seedlings, num_saplings, soil_moisture, canopy_openness, grass_cover_percent, bare_ground_percent, notes).\n   - \"empty_fields_policy\": explain what should be done with empty fields in this form (e.g. \"duplicate last filled value\", \"mark NA\", \"treat as 0\").\n\n3. Return all results in a single JSON object with the structure:\n{\n  \"is_transect_subplot\": true,\n  \"forms\": [\n    {\n      \"form_id\": \"...\",\n      \"id_variables\": [...],\n      \"row_represents\": \"...\",\n      \"row_variables\": [...],\n      \"empty_fields_policy\": \"...\"\n    },\n    ...\n  ]\n}\n\nGuidelines:\n- Be concise but precise in describing what each row represents.\n- Use consistent terminology (transectID, blockID, plotID, subplotID, date).\n- If unsure, make your best guess and mark the answer clearly.\n- Do not add extra text outside the JSON.\n"
+        },
+        {
+          "type": "image_url",
+          "image_url": {
+            "url": "https://fomomonguest.s3.ap-south-1.amazonaws.com/keystone/IMG-20250924-WA0000.jpg"
+          }
+        },
+        {
+          "type": "image_url",
+          "image_url": {
+            "url": "https://fomomonguest.s3.ap-south-1.amazonaws.com/keystone/IMG-20250924-WA0001.jpg"
+          }
+        },
+        {
+          "type": "image_url",
+          "image_url": {
+            "url": "https://fomomonguest.s3.ap-south-1.amazonaws.com/keystone/IMG-20250924-WA0002.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

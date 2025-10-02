@@ -1,0 +1,19 @@
+You are given a scanned ecological survey form.
+
+Task:
+- Extract only the printed words from the form (ignore all handwriting, numbers, and tally marks).
+- Normalize by:
+  - lowercase all text
+  - remove punctuation
+  - keep only alphabetic words
+- Return a JSON object with a sorted list of unique words.
+
+Output format:
+{
+  "printed_words": ["block", "dbh", "habit", "phenology", "plot", "transect"]
+}
+
+Rules:
+- Do not include handwritten names or numbers.
+- If a word is unclear, skip it.
+- Do not add explanations outside JSON.
