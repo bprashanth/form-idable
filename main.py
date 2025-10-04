@@ -23,6 +23,7 @@ import json
 import hashlib
 import os
 from pathlib import Path
+import pprint
 
 from client import ModelClient
 from registry import FormRegistry
@@ -37,10 +38,12 @@ def load_species_names(species_dict_path):
         species_dict = json.load(f)
     names = set()
     for entry in species_dict:
-        if entry.get("abbr"):
-            names.add(entry.get("abbr").strip())
-        if entry.get("toda_name"):
-            names.add(entry.get("toda_name").strip())
+        abbr = entry.get("abbr")
+        toda_name = entry.get("toda_name")
+        if abbr and abbr.strip().lower() != "na":
+            names.add(abbr.strip())
+        if toda_name and toda_name.strip().lower() != "na":
+            names.add(toda_name.strip())
     return sorted(names)
 
 
@@ -77,7 +80,8 @@ def main():
                         help="Path to classify_prompt.txt")
     parser.add_argument("--images", nargs="+",
                         required=True, help="List of image URLs")
-    parser.add_argument("--model", default="gpt-5-mini", help="Model name")
+    parser.add_argument(
+        "--model", default="gpt-5-mini", help="Model name")
     parser.add_argument("--identify", action="store_true", default=False,
                         help="Run identify step")
     parser.add_argument("--classify", action="store_true", default=False,
@@ -217,6 +221,10 @@ def main():
                 species_names=species_names,
                 form_instructions=form_instruction
             )
+
+            print("=================================================")
+            print(f"EXTRACT[{image_url}]:\n{extract_prompt.user()}")
+            print("=================================================")
 
             # Run extraction for this single URL
             raw_extract_response = client.infer(extract_prompt, image_url)
