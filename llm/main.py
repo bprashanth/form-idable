@@ -80,8 +80,10 @@ def main():
                         help="Path to classify_prompt.txt")
     parser.add_argument("--images", nargs="+",
                         required=True, help="List of image URLs")
+    # See https://platform.openai.com/docs/pricing for more model names
+    # Typically: gpt-4.1 or gpt-5-chat-latest
     parser.add_argument(
-        "--model", default="gpt-4.1", help="Model name")
+        "--model", default="gpt-5-mini", help="Model name")
     parser.add_argument("--identify", action="store_true", default=False,
                         help="Run identify step")
     parser.add_argument("--classify", action="store_true", default=False,
