@@ -1,0 +1,41 @@
+You are given:
+1. A scanned image of Form C – Plot characteristics (canopy openness & soil).
+2. The form layout showing several plots, each with 5 subplot rows.
+
+Your task:
+This is Form C - Plot characteristics (canopy openness & soil) form. Each row = one subplot (or plot-centre) measurement of canopy openness (by quadrant) and soil properties. Fill only: soil_moisture_category, soil_temperature_C, soil_pH, notes_on_plot_characteristics, and identifiers (blockID, transectID, plotID, subplotID, areaName). Policy for empty fields: Propagate ID fields from header to each row if not repeated. Measurement fields left blank should be recorded as NA (do not infer). If canopy quadrant counts missing, record NA. Soil moisture uses categorical codes (e.g. 1-5) — if blank record NA..
+
+Focus columns:
+Soil Moisture Category | Soil Temperature (°C) | Soil pH | Notes on Plot Characteristics
+
+Soil Rules (per subplot):
+- The soil_moisture_category field is a categorical variable representing how dry or wet the soil is. 
+    * It has 5 values that correspond to 5 numbers, namely: Dry+ =1, Dry- =2, Nor =3, Wet- =4, Wet+ =5. 
+    * Hence it may only contain the following words (Dry, Wet, Normal, Nor), symbols (+, -), numbers (1–5), or a combination of the two (e.g. "Dry+", "3", "Dry+ (1)").
+- Copy text or numbers exactly as seen. Do not map or normalize values.
+- For soil_temperature_C and soil_pH:
+    * Only contains numeric values. Ignore pencilled annotations or averages.
+- Even if the image is blurry, attempt a best-effort read and never ask for a new photo.
+
+Identifier mapping and propagation:
+- The form uses "#" or "Code" headings. Map them EXACTLY as:
+  • Block Code or Block #  → blockID
+  • Transect #             → transectID
+  • Plot #                 → plotID
+  • Subplot #              → subplotID
+- Identifiers may be sparsely filled. If an identifier cell in a row is blank, propagate the LAST SEEN value of THAT SAME identifier downward until a new value appears.
+- Do NOT assume a single block/transect per page. If a new blockID/transectID appears later, it overrides the previous from that row onward.
+- If subplotID changes while blockID/plotID are blank, interpret as subplots under the most recent blockID/plotID.
+- Never copy values across columns. Only fill a blank identifier by using the last seen value from the SAME column/heading.
+- If an identifier has no prior value and the cell is blank, record "NA".
+
+Table traversal & row emission (IMPORTANT):
+- Locate the main grid/table body using the column headings that include Subplot # and the canopy/soil columns.
+- Traverse the table TOP to BOTTOM, LEFT to RIGHT, across ALL visible body rows until the end of the grid (stop before the margins).
+- Output ONE JSON object for EVERY valid subplot row encountered in the grid.
+- The form design has 5 subplots per plot (subplotID typically 0–4). If a plot’s grid shows fewer than 5 visible rows, still emit objects for the missing subplots with the correct subplotID and "NA" for missing measurements.
+- Do NOT collapse or deduplicate rows. Emit one object per subplot row in order.
+
+Output:
+- Return **only** a JSON array of objects sorted by row_index (no Markdown or text).
+

@@ -1,0 +1,32 @@
+You will be given:
+1. A scanned image of a form.
+2. A list of valid species names.
+3. Instructions about the type of form.
+
+Your task is to read the form and output JSON objects, one per row in the form.
+
+Form type:
+{form_instructions}
+
+Special instructions:
+- Only include fields explicitly mentioned in the form_instructions. 
+  If the form_instructions do not include a "species" field, do not invent or add it.
+- When extracting species names (if required by the form_instructions), follow these heuristics:
+  1. Match species names only to the provided list.
+  2. Prioritize matches that share the same first letter as the handwritten entry.
+  3. Prefer species names with approximately the same length (±2 characters) as the handwritten entry.
+  4. If the handwritten entry exactly matches a known abbreviation in the species list (e.g., "CA"), expand it to the full species name.
+  5. Do not substitute abbreviations unless they are an exact match.
+  6. If no confident match is found, choose the closest match and set `species_doubt=true`. Never return "NA" or leave blank.
+  7. For repeated entries in the same form, prefer consistent mappings for similar-looking handwriting.
+- For every field, if handwriting is unclear, multiple interpretations are possible, or OCR confidence is low, mark `_doubt=true`.
+
+Output:
+- Respond **only with a JSON array of objects**. 
+- Do not include Markdown code fences, backticks, explanations, natural language, or extra text.
+- Each object must have the fields required by form_instructions, plus the top-level identifiers (transectID, blockID, plotID, date).
+
+Species names (use only these values):
+{species_names}
+
+Process the attached image.

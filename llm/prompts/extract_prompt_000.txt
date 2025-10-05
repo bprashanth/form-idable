@@ -1,0 +1,123 @@
+You will be given:
+1. A scanned image of a form.
+2. A list of valid species names.
+3. Instructions about the type of form.
+
+Your task is to read the form and output JSON objects, one per row in the form.
+
+Form type:
+This is Form A - Tree list (DBH & phenology) form. Each row = one woody stem (tree/shrub) measured in the plot (one row = one individual with DBH). Fill only: S.No, species_local_name, habit, dbh_cm, phenological_condition, notes, and identifiers (date, areaName, research_team, blockID, transectID, plotID). Policy for empty fields: Top-level ID fields (blockID/transectID/plotID/date/areaName) should be propagated to each row if not repeated. Observation fields: leave as NA if unknown or not recorded; do NOT assume values. If DBH is blank treat as NA. Phenology/notes blank = NA..
+
+Special instructions:
+- Only include fields explicitly mentioned in the form_instructions. 
+  If the form_instructions do not include a "species" field, do not invent or add it.
+- When extracting species names (if required by the form_instructions), follow these heuristics:
+  1. Match species names only to the provided list.
+  2. Prioritize matches that share the same first letter as the handwritten entry.
+  3. Prefer species names with approximately the same length (±2 characters) as the handwritten entry.
+  4. If the handwritten entry exactly matches a known abbreviation in the species list (e.g., "CA"), expand it to the full species name.
+  5. Do not substitute abbreviations unless they are an exact match.
+  6. If no confident match is found, choose the closest match and set `species_doubt=true`. Never return "NA" or leave blank.
+  7. For repeated entries in the same form, prefer consistent mappings for similar-looking handwriting.
+- For every field, if handwriting is unclear, multiple interpretations are possible, or OCR confidence is low, mark `_doubt=true`.
+
+Output:
+- Respond **only with a JSON array of objects**.
+- Do not include explanations, natural language, or extra text.
+- Each object must have the fields required by form_instructions, plus the top-level identifiers (transectID, blockID, plotID, date).
+
+Species names (use only these values):
+[
+  "Bilmek",
+  "Bobe thur",
+  "Boothakani",
+  "Garugu",
+  "Kaatu orange",
+  "Kabodi thur",
+  "Kadalai",
+  "Kage",
+  "Kark",
+  "Karvish",
+  "Kavas",
+  "Kersh",
+  "Kheel",
+  "Kishkir",
+  "Kishkir-2",
+  "Kobuvu",
+  "Kodiki",
+  "Kodub",
+  "Kokudh",
+  "Koli",
+  "Korai",
+  "Koregu",
+  "Korvu",
+  "Kuthavu",
+  "Mailanji thur",
+  "Mesthini",
+  "Mine",
+  "Morsh magao",
+  "Natia",
+  "Naval",
+  "Neeran",
+  "Oduthin",
+  "Pepper kodi",
+  "Pestheri",
+  "Pongon",
+  "Posh",
+  "Povet",
+  "Rubacea",
+  "Sarman thur",
+  "Thadu",
+  "Thagai",
+  "Thanugu",
+  "Thavuttu pazham",
+  "Theer",
+  "Thudai",
+  "Torie",
+  "Vattakaka",
+  "Virali",
+  "ageade",
+  "ari",
+  "celphi",
+  "celtet",
+  "cesaur",
+  "dapnei",
+  "dodvis",
+  "fer",
+  "glonei",
+  "ileden",
+  "isowig",
+  "ixonot",
+  "lapbul",
+  "ligper",
+  "litwig",
+  "maeind",
+  "magnil",
+  "mellun",
+  "melsim",
+  "memumb",
+  "micram",
+  "neoscr",
+  "notnim",
+  "phoser",
+  "pip",
+  "psybis",
+  "psytru",
+  "rapcap",
+  "rauver",
+  "rhotom",
+  "rubell",
+  "scocre",
+  "smiasp",
+  "stacoc",
+  "stevol",
+  "symcoc",
+  "syzcum",
+  "syzden",
+  "tarasi",
+  "tetdio",
+  "todasi",
+  "vacles",
+  "verarb"
+]
+
