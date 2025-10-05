@@ -18,7 +18,7 @@ class PlainResponse:
 
     def usage(self) -> Dict[str, int]:
         """Return the usage information from the OpenAI API response."""
-        if self.raw_response.usage:
+        if self.raw_response and self.raw_response.usage:
             return {
                 "prompt_tokens": self.raw_response.usage.prompt_tokens,
                 "completion_tokens": self.raw_response.usage.completion_tokens,

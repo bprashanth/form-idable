@@ -68,8 +68,8 @@ def main():
         "--schema_path", default="./schema.json", help="Path to schema.json")
     parser.add_argument("--species_dict_path",
                         default="./species_dict.json", help="Path to species_dict.json")
-    parser.add_argument("--extract_prompt",
-                        default="./prompts/extract_prompt.txt", help="Path to extract_prompt.txt")
+    parser.add_argument("--extract_prompts", nargs="+",
+                        default=["./prompts/extract_prompt.txt"], help="Paths to extract_prompt.txt files")
     parser.add_argument("--db_path", default="./db.json",
                         help="Path to db.json")
     parser.add_argument("--form_registry_path",
@@ -81,7 +81,7 @@ def main():
     parser.add_argument("--images", nargs="+",
                         required=True, help="List of image URLs")
     parser.add_argument(
-        "--model", default="gpt-5-mini", help="Model name")
+        "--model", default="gpt-4.1", help="Model name")
     parser.add_argument("--identify", action="store_true", default=False,
                         help="Run identify step")
     parser.add_argument("--classify", action="store_true", default=False,
@@ -215,32 +215,30 @@ def main():
                     f"Warning: No form instruction found for {image_url}, skipping extraction")
                 continue
 
-            # Create extract prompt with URL-specific form instruction
-            extract_prompt = ExtractPrompt(
-                args.extract_prompt,
-                species_names=species_names,
-                form_instructions=form_instruction
-            )
+            # Loop through each extract prompt for this image
+            for prompt_idx, extract_prompt_path in enumerate(args.extract_prompts):
+                # Create extract prompt with URL-specific form instruction
+                extract_prompt = ExtractPrompt(
+                    extract_prompt_path,
+                    species_names=species_names,
+                    form_instructions=form_instruction
+                )
 
-            print("=================================================")
-            print(f"EXTRACT[{image_url}]:\n{extract_prompt.user()}")
-            print("=================================================")
+                print("=================================================")
+                print(
+                    f"EXTRACT[{image_url}][Prompt {prompt_idx + 1}/{len(args.extract_prompts)}]:\n{extract_prompt.user()}")
+                print("=================================================")
 
-            # Run extraction for this single URL
-            raw_extract_response = client.infer(extract_prompt, image_url)
-            extract_response = ExtractResponse(raw_extract_response)
-            form_results.extend(extract_response.extracted_data())
-            extract_results.append(extract_response)
+                # Run extraction for this single URL with this prompt
+                raw_extract_response = client.infer(extract_prompt, image_url)
+                extract_response = ExtractResponse(raw_extract_response)
+                form_results.extend(extract_response.extracted_data())
+                extract_results.append(extract_response)
 
-        # Print cost if debug mode is enabled
-        if args.debug:
-            print(f"EXTRACT: {form_results}")
-            try:
-                for i, resp in enumerate(extract_results):
+                if args.debug:
+                    print(f"EXTRACT[{image_url}]: {extract_response}")
                     cost_calculator.print_cost(
-                        f"EXTRACT[{i}]", resp.usage(), args.model)
-            except Exception as e:
-                print(f"Error printing extract results: {e}")
+                        f"EXTRACT[{image_url}]", extract_response.usage(), args.model)
 
         # Append to db.json
         db_path = Path(args.db_path)
