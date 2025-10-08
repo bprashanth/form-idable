@@ -3,9 +3,9 @@ import cv2
 import numpy as np
 
 # === paths ===
-IMG_PATH = "../input_forms/IMG-20250924-WA0002.jpg"                  # original form image
-TEXTRACT_JSON = "output/textract_output.json"
-OUT_PATH = "textract_overlay.jpg"
+IMG_PATH = "../input_forms/IMG-20250924-WA0001.jpg"                  # original form image
+TEXTRACT_JSON = "output/001.json"
+OUT_PATH = "001.jpg"
 
 # === load data ===
 image = cv2.imread(IMG_PATH)
