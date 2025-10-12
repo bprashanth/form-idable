@@ -1,7 +1,8 @@
 <template>
   <div
-    class="absolute border rounded pointer-events-auto"
-    :class="[confidenceClass, selected && 'outline outline-2 outline-blue-400']"
+    v-if="shouldShow"
+    class="absolute text-[0.55rem] text-gray-200"
+    :class="[borderClass, selected && 'outline outline-2 outline-blue-400']"
     :style="{
       left: `${bbox.Left * 100}%`,
       top: `${bbox.Top * 100}%`,
@@ -9,8 +10,11 @@
       height: `${bbox.Height * 100}%`,
     }"
     @click.stop="emit('click')"
-    :title="`Confidence: ${confidence.toFixed(1)}%`"
-  ></div>
+  >
+    <div class="absolute top-0 right-0 pr-[2px] pt-[1px] text-[0.55rem] opacity-80">
+      {{ text }}
+    </div>
+  </div>
 </template>
 
 <script setup>
@@ -22,13 +26,14 @@ const props = defineProps({
   text: String,
   selected: Boolean,
 })
-
 const emit = defineEmits(['click'])
 
-const confidenceClass = computed(() => {
-  if (props.confidence < 70) return 'border-red-400 shadow-[0_0_3px_rgba(255,0,0,0.3)]'
-  if (props.confidence < 85) return 'border-orange-400 shadow-[0_0_3px_rgba(255,165,0,0.3)]'
-  return 'border-green-400 shadow-[0_0_3px_rgba(0,255,0,0.3)]'
+const shouldShow = computed(() => props.text && props.confidence < 85)
+
+const borderClass = computed(() => {
+  if (props.confidence < 70) return 'border border-red-500'
+  if (props.confidence < 85) return 'border border-orange-400'
+  return 'border-none'
 })
 </script>
 

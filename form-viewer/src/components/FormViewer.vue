@@ -1,5 +1,8 @@
 <template>
-  <div ref="container" class="relative mx-auto select-none" style="max-width: 900px">
+  <div
+    class="relative mx-auto select-none origin-top"
+    :style="{ transform: `scale(${zoom})`, transformOrigin: 'top center', maxWidth: '900px' }"
+  >
     <img :src="imageUrl" alt="Form" class="w-full h-auto block" />
 
     <!-- Render overlay boxes -->
@@ -24,6 +27,7 @@ import BoxOverlay from '@/components/BoxOverlay.vue'
 defineProps({
   formData: Object,
   imageUrl: String,
+  zoom: Number,
 })
 
 const emit = defineEmits(['select-row'])

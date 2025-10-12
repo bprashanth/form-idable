@@ -1,34 +1,36 @@
 <template>
-  <div class="flex items-center justify-between px-4 py-2 bg-white shadow-sm">
-    <div class="text-sm font-semibold">📄 FormViewer</div>
-    <div class="flex space-x-2">
-      <label class="text-sm bg-gray-200 px-2 py-1 rounded cursor-pointer hover:bg-gray-300">
-        Load JSON
+  <div class="flex items-center justify-between px-4 py-2 bg-gray-950 text-gray-100">
+    <div class="text-sm font-semibold">FormViewer</div>
+
+    <div class="flex items-center space-x-2">
+      <label class="bg-gray-800 px-2 py-1 rounded cursor-pointer hover:bg-gray-700">
+        JSON
         <input type="file" accept=".json" class="hidden" @change="handleJson" />
       </label>
-
-      <label class="text-sm bg-gray-200 px-2 py-1 rounded cursor-pointer hover:bg-gray-300">
-        Load Image
+      <label class="bg-gray-800 px-2 py-1 rounded cursor-pointer hover:bg-gray-700">
+        Image
         <input type="file" accept="image/*" class="hidden" @change="handleImage" />
       </label>
 
+      <button class="bg-gray-800 px-2 py-1 rounded hover:bg-gray-700" @click="$emit('zoom-out')">
+        −
+      </button>
+      <button class="bg-gray-800 px-2 py-1 rounded hover:bg-gray-700" @click="$emit('zoom-in')">
+        +
+      </button>
+
       <button
-        class="px-3 py-1 text-sm bg-blue-500 text-white rounded hover:bg-blue-600"
-        @click="saveJson"
-        :disabled="!jsonObject"
+        class="px-3 py-1 text-sm bg-blue-600 text-white rounded hover:bg-blue-700"
+        @click="$emit('save-json')"
       >
-        Save JSON
+        Save
       </button>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue'
-
-const emit = defineEmits(['json-loaded', 'image-loaded'])
-
-const jsonObject = ref(null)
+const emit = defineEmits(['json-loaded', 'image-loaded', 'save-json', 'zoom-in', 'zoom-out'])
 
 function handleJson(e) {
   const file = e.target.files[0]
@@ -36,11 +38,9 @@ function handleJson(e) {
   const reader = new FileReader()
   reader.onload = () => {
     try {
-      const data = JSON.parse(reader.result)
-      jsonObject.value = data
-      emit('json-loaded', data)
-    } catch (err) {
-      alert('Invalid JSON file' + err)
+      emit('json-loaded', JSON.parse(reader.result))
+    } catch {
+      alert('Invalid JSON file')
     }
   }
   reader.readAsText(file)
@@ -49,20 +49,6 @@ function handleJson(e) {
 function handleImage(e) {
   const file = e.target.files[0]
   if (!file) return
-  const url = URL.createObjectURL(file)
-  emit('image-loaded', url)
-}
-
-function saveJson() {
-  if (!jsonObject.value) return
-  const blob = new Blob([JSON.stringify(jsonObject.value, null, 2)], {
-    type: 'application/json',
-  })
-  const url = URL.createObjectURL(blob)
-  const a = document.createElement('a')
-  a.href = url
-  a.download = 'updated_output.json'
-  a.click()
-  URL.revokeObjectURL(url)
+  emit('image-loaded', URL.createObjectURL(file))
 }
 </script>
