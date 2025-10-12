@@ -9,7 +9,7 @@
       @zoom-out="zoomOut"
     />
 
-    <div class="flex flex-1 overflow-hidden">
+    <div class="flex flex-1 h-full overflow-hidden">
       <div class="flex-1 relative overflow-auto bg-gray-800">
         <FormViewer
           v-if="formData && imageUrl"
