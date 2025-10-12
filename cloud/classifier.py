@@ -84,6 +84,10 @@ class HandwrittenTableForm(BaseFormProcessor):
         header_map = self.build_header_map_from_cells(
             textract_json, rows, debug)
 
+        # Create structured output with system information
+        structured_output = self.create_structured_output(
+            textract_json, rows, universal_fields, header_map, debug)
+
         print(f"✅ Classified {len(rows)} rows:\n")
         if universal_fields:
             print("📋 Universal Fields:")
@@ -96,6 +100,11 @@ class HandwrittenTableForm(BaseFormProcessor):
             for key, value in header_map.items():
                 print(f"   • {key}: {value}")
             print()
+
+        if debug:
+            print("🔍 Structured Output:")
+            import json
+            print(json.dumps(structured_output, indent=2))
 
         for idx, row in enumerate(rows, start=1):
             text_preview = " ".join(w["text"] for w in row["words"])[:120]
@@ -121,6 +130,8 @@ class HandwrittenTableForm(BaseFormProcessor):
                     for col, texts in hand_cells.items():
                         print(
                             f"   • Column {col} handwriting: {' '.join(texts)}")
+
+        return structured_output
 
     # --------------------------
     # Helpers
@@ -506,6 +517,321 @@ class HandwrittenTableForm(BaseFormProcessor):
 
         return " ".join(text_parts).strip()
 
+    def create_structured_output(self, textract_json: Dict[str, Any], rows: List[Dict[str, Any]],
+                                 universal_fields: Dict[str, str], header_map: Dict[str, List[str]],
+                                 debug: bool = False) -> Dict[str, Any]:
+        """Create structured output with system information for each zone."""
+
+        # Build maps of all blocks by ID
+        word_map = {}
+        cell_map = {}
+        merged_cell_map = {}
+
+        for block in textract_json.get("Blocks", []):
+            if block["BlockType"] == "WORD":
+                word_map[block["Id"]] = block
+            elif block["BlockType"] == "CELL":
+                cell_map[block["Id"]] = block
+            elif block["BlockType"] == "MERGED_CELL":
+                merged_cell_map[block["Id"]] = block
+
+        if debug:
+            print("🔍 Creating structured output...")
+
+        # Create universal_fields with system info
+        universal_output = dict(universal_fields)
+        universal_bbox = self._get_universal_fields_bbox(
+            textract_json, rows, debug)
+        universal_output["system"] = {
+            "bbox": universal_bbox,
+            "group_id": "universal_fields"
+        }
+
+        # Create header_map with system info
+        header_output = self._create_enhanced_header_map(
+            header_map, textract_json, rows, debug)
+        header_bbox = self._get_header_map_bbox(textract_json, rows, debug)
+        header_output["system"] = {
+            "bbox": header_bbox,
+            "group_id": "header_map"
+        }
+
+        # Create rows with system info
+        rows_output = self._create_rows_output(
+            textract_json, rows, header_map, cell_map, merged_cell_map, word_map, debug)
+
+        structured_output = {
+            "universal_fields": universal_output,
+            "header_map": header_output,
+            "rows": rows_output
+        }
+
+        if debug:
+            print(
+                f"🔍 Created structured output with {len(rows_output)} data rows")
+
+        return structured_output
+
+    def _create_enhanced_header_map(self, header_map: Dict[str, List[str]], textract_json: Dict[str, Any],
+                                    rows: List[Dict[str, Any]], debug: bool = False) -> Dict[str, Any]:
+        """Create enhanced header map with metadata."""
+
+        enhanced_header_map = {}
+
+        for header_key, header_values in header_map.items():
+            if header_key == "system":  # Skip system key
+                continue
+
+            # Get the field name (first value in the list)
+            field_name = header_values[0] if header_values else header_key
+
+            # Determine if this is a merged field (contains hierarchical info)
+            merged = "_" in header_key and any(part in header_key for part in [
+                                               "north", "east", "west", "south"])
+
+            # Create enhanced header entry
+            enhanced_header_map[header_key] = {
+                "field_name": field_name,
+                "merged": merged,
+                "description": self._get_field_description(header_key, field_name),
+                "alt_names": []  # Empty for now as requested
+            }
+
+            if debug:
+                print(
+                    f"🔍 Enhanced header: {header_key} -> {field_name} (merged: {merged})")
+
+        return enhanced_header_map
+
+    def _get_field_description(self, header_key: str, field_name: str) -> str:
+        """Generate a description for a field based on its name."""
+        descriptions = {
+            "block_code": "The code of the block in the study",
+            "transect_number": "The transect number within the block",
+            "plot_number": "The plot number within the transect",
+            "subplot_number": "The subplot number within the plot",
+            "canopy_openness_north": "Canopy openness measurement in the north direction",
+            "canopy_openness_east": "Canopy openness measurement in the east direction",
+            "canopy_openness_west": "Canopy openness measurement in the west direction",
+            "canopy_openness_south": "Canopy openness measurement in the south direction",
+            "soil_moisture": "Soil moisture level measurement",
+            "soil_temper_ature_in_2": "Soil temperature measurement at 2cm depth",
+            "soil_ph": "Soil pH level measurement",
+            "notes_on_plot_characteristics_disturbance_physical_features_forest_structure": "Notes on plot characteristics including disturbance, physical features, and forest structure"
+        }
+
+        return descriptions.get(header_key, f"Field: {field_name}")
+
+    def _create_rows_output(self, textract_json: Dict[str, Any], rows: List[Dict[str, Any]],
+                            header_map: Dict[str, List[str]], cell_map: Dict[str, Any],
+                            merged_cell_map: Dict[str, Any], word_map: Dict[str, Any], debug: bool = False) -> List[Dict[str, Any]]:
+        """Create rows output with header->value mapping and system info."""
+
+        # Get data rows only
+        data_rows = [row for row in rows if row.get("row_type") == "DATA"]
+
+        if debug:
+            print(f"🔍 Processing {len(data_rows)} data rows")
+
+        rows_output = []
+
+        for row_idx, data_row in enumerate(data_rows):
+            if debug:
+                print(
+                    f"🔍 Processing data row {row_idx + 1} (RowIndex: {data_row['row_index']})")
+
+            # Create row object with header->value mapping
+            row_obj = {}
+            row_cells = {}
+
+            # Get all cells in this row
+            row_index = data_row["row_index"]
+            cells_in_row = []
+
+            # Add regular cells
+            for cell_id, cell in cell_map.items():
+                if cell.get("RowIndex") == row_index:
+                    cells_in_row.append({
+                        "id": cell_id,
+                        "cell": cell,
+                        "type": "CELL"
+                    })
+
+            # Add merged cells
+            for merged_id, merged_cell in merged_cell_map.items():
+                if merged_cell.get("RowIndex") == row_index:
+                    cells_in_row.append({
+                        "id": merged_id,
+                        "cell": merged_cell,
+                        "type": "MERGED_CELL"
+                    })
+
+            # Sort cells by column index
+            cells_in_row.sort(key=lambda c: c["cell"].get("ColumnIndex", 0))
+
+            if debug:
+                print(f"   Found {len(cells_in_row)} cells in row {row_index}")
+
+            # Process each cell
+            for cell_info in cells_in_row:
+                cell = cell_info["cell"]
+                col_index = cell.get("ColumnIndex", 0)
+
+                # Extract text from cell
+                cell_text = self._extract_text_from_relationships(
+                    cell, word_map, cell_map, {}, debug=False)
+
+                # Get header for this column
+                header_key = self._get_header_for_column(
+                    col_index, header_map, debug)
+
+                # Add to row object
+                row_obj[header_key] = cell_text
+
+                # Add cell info for system
+                cell_bbox = cell.get("Geometry", {}).get("BoundingBox", {})
+                cell_confidence = cell.get("Confidence", 0)
+
+                row_cells[f"row_{row_index}_col_{col_index}"] = {
+                    "bbox": cell_bbox,
+                    "confidence": cell_confidence,
+                    "text": cell_text,
+                    "header": header_key
+                }
+
+                if debug:
+                    print(
+                        f"   Column {col_index}: {header_key} = '{cell_text}' (conf: {cell_confidence:.2f})")
+
+            # Add system info for the row
+            row_bbox = self._get_row_bbox(cells_in_row)
+            row_obj["system"] = {
+                "bbox": row_bbox,
+                "group_id": f"row_{row_index}",
+                "cells": row_cells
+            }
+
+            rows_output.append(row_obj)
+
+        return rows_output
+
+    def _get_header_for_column(self, col_index: int, header_map: Dict[str, List[str]], debug: bool = False) -> str:
+        """Get the header key for a given column index."""
+        # Create a mapping from column index to header key based on the header_map structure
+        # This is a simplified approach - we'll need to implement proper column-to-header mapping
+
+        # For now, create a simple mapping based on column order
+        # This assumes the headers are in the same order as the columns
+        header_keys = list(header_map.keys())
+
+        # Remove the 'system' key if it exists
+        if 'system' in header_keys:
+            header_keys.remove('system')
+
+        # Map column index to header key
+        if col_index <= len(header_keys):
+            return header_keys[col_index - 1]  # Column indices are 1-based
+
+        # Fallback to generic column name
+        return f"col_{col_index}"
+
+    def _get_row_bbox(self, cells_in_row: List[Dict[str, Any]]) -> Dict[str, float]:
+        """Get bounding box for entire row."""
+        if not cells_in_row:
+            return {}
+
+        # Calculate union of all cell bounding boxes
+        left = min(cell["cell"].get("Geometry", {}).get(
+            "BoundingBox", {}).get("Left", 0) for cell in cells_in_row)
+        top = min(cell["cell"].get("Geometry", {}).get(
+            "BoundingBox", {}).get("Top", 0) for cell in cells_in_row)
+        right = max(cell["cell"].get("Geometry", {}).get("BoundingBox", {}).get("Left", 0) +
+                    cell["cell"].get("Geometry", {}).get("BoundingBox", {}).get("Width", 0) for cell in cells_in_row)
+        bottom = max(cell["cell"].get("Geometry", {}).get("BoundingBox", {}).get("Top", 0) +
+                     cell["cell"].get("Geometry", {}).get("BoundingBox", {}).get("Height", 0) for cell in cells_in_row)
+
+        return {
+            "Left": left,
+            "Top": top,
+            "Width": right - left,
+            "Height": bottom - top
+        }
+
+    def _get_universal_fields_bbox(self, textract_json: Dict[str, Any], rows: List[Dict[str, Any]], debug: bool = False) -> Dict[str, float]:
+        """Get bounding box for universal fields zone."""
+
+        # Find universal fields rows
+        universal_rows = [row for row in rows if row.get(
+            "row_type") == "UNIVERSAL"]
+
+        if not universal_rows:
+            if debug:
+                print("🔍 No universal fields rows found")
+            return {}
+
+        # Calculate bounding box from all universal field words
+        all_words = []
+        for row in universal_rows:
+            all_words.extend(row["words"])
+
+        if not all_words:
+            return {}
+
+        # Calculate union of all word bounding boxes
+        left = min(w["x_mid"] - 0.01 for w in all_words)  # Add small margin
+        right = max(w["x_mid"] + 0.01 for w in all_words)
+        top = min(w["y_mid"] - 0.01 for w in all_words)
+        bottom = max(w["y_mid"] + 0.01 for w in all_words)
+
+        bbox = {
+            "Left": left,
+            "Top": top,
+            "Width": right - left,
+            "Height": bottom - top
+        }
+
+        if debug:
+            print(f"🔍 Universal fields bbox: {bbox}")
+
+        return bbox
+
+    def _get_header_map_bbox(self, textract_json: Dict[str, Any], rows: List[Dict[str, Any]], debug: bool = False) -> Dict[str, float]:
+        """Get bounding box for header map zone."""
+
+        # Find header rows
+        header_rows = [row for row in rows if row.get("row_type") == "HEADER"]
+
+        if not header_rows:
+            if debug:
+                print("🔍 No header rows found")
+            return {}
+
+        # Calculate bounding box from all header words
+        all_words = []
+        for row in header_rows:
+            all_words.extend(row["words"])
+
+        if not all_words:
+            return {}
+
+        # Calculate union of all word bounding boxes
+        left = min(w["x_mid"] - 0.01 for w in all_words)  # Add small margin
+        right = max(w["x_mid"] + 0.01 for w in all_words)
+        top = min(w["y_mid"] - 0.01 for w in all_words)
+        bottom = max(w["y_mid"] + 0.01 for w in all_words)
+
+        bbox = {
+            "Left": left,
+            "Top": top,
+            "Width": right - left,
+            "Height": bottom - top
+        }
+
+        if debug:
+            print(f"🔍 Header map bbox: {bbox}")
+
+        return bbox
+
     def _bboxes_overlap(self, bbox1: Dict[str, float], bbox2: Dict[str, float], threshold: float = 0.05) -> bool:
         """Check if two bounding boxes overlap significantly."""
         # Calculate overlap area
@@ -710,6 +1036,132 @@ class HandwrittenTableForm(BaseFormProcessor):
                 row["row_type"] = "TITLE_LEGEND"
 
 
+def write_output_files(structured_output: Dict[str, Any], output_dir: Path, debug: bool = False):
+    """Write structured output to files."""
+
+    if debug:
+        print(f"🔍 Writing output files to {output_dir}")
+
+    # 1. Write unified.json (complete structured output - everything)
+    unified_file = output_dir / "unified.json"
+    with open(unified_file, 'w') as f:
+        json.dump(structured_output, f, indent=2)
+    print(f"✅ Written unified.json: {unified_file}")
+
+    # 2. Write rows.json (clean key/value pairs for scientists - no system info)
+    rows_data = extract_clean_rows_data(structured_output)
+    rows_file = output_dir / "rows.json"
+    with open(rows_file, 'w') as f:
+        json.dump(rows_data, f, indent=2)
+    print(f"✅ Written rows.json: {rows_file}")
+
+    # 3. Write boxes.json (pure layout/UI data for engineers)
+    boxes_data = extract_boxes_data(structured_output)
+    boxes_file = output_dir / "boxes.json"
+    with open(boxes_file, 'w') as f:
+        json.dump(boxes_data, f, indent=2)
+    print(f"✅ Written boxes.json: {boxes_file}")
+
+    if debug:
+        print(f"🔍 Output files created:")
+        print(f"   • {unified_file} - Complete structured data")
+        print(f"   • {rows_file} - Clean key/value pairs for scientists")
+        print(f"   • {boxes_file} - Layout/UI data for engineers")
+
+
+def extract_clean_rows_data(structured_output: Dict[str, Any]) -> Dict[str, Any]:
+    """Extract clean key/value pairs for scientists - no system info."""
+
+    clean_data = {
+        "universal_fields": {},
+        "rows": []
+    }
+
+    # Extract universal fields (clean key/value pairs only)
+    if "universal_fields" in structured_output:
+        for key, value in structured_output["universal_fields"].items():
+            if key != "system":  # Skip system info
+                clean_data["universal_fields"][key] = value
+
+    # Extract rows (clean key/value pairs only, no system info)
+    if "rows" in structured_output:
+        for row in structured_output["rows"]:
+            clean_row = {}
+            for key, value in row.items():
+                if key != "system":  # Skip system info
+                    clean_row[key] = value
+            clean_data["rows"].append(clean_row)
+
+    return clean_data
+
+
+def extract_boxes_data(structured_output: Dict[str, Any]) -> Dict[str, Any]:
+    """Extract pure layout/UI data for engineers - bounding boxes, group_ids, confidence scores."""
+
+    boxes_data = {
+        "universal_fields": {},
+        "header_map": {},
+        "rows": []
+    }
+
+    # Extract universal fields layout data
+    if "universal_fields" in structured_output:
+        universal_system = structured_output["universal_fields"].get(
+            "system", {})
+        boxes_data["universal_fields"] = {
+            "group_id": universal_system.get("group_id", "universal_fields"),
+            "bbox": universal_system.get("bbox", {}),
+            "confidence": universal_system.get("confidence", 0)
+        }
+
+    # Extract header map layout data
+    if "header_map" in structured_output:
+        header_system = structured_output["header_map"].get("system", {})
+        boxes_data["header_map"] = {
+            "group_id": header_system.get("group_id", "header_map"),
+            "bbox": header_system.get("bbox", {}),
+            "confidence": header_system.get("confidence", 0),
+            "fields": {}
+        }
+
+        # Extract individual header field boxes
+        for field_key, field_data in structured_output["header_map"].items():
+            if field_key != "system" and isinstance(field_data, dict):
+                boxes_data["header_map"]["fields"][field_key] = {
+                    "field_name": field_data.get("field_name", ""),
+                    "merged": field_data.get("merged", False),
+                    "description": field_data.get("description", ""),
+                    "alt_names": field_data.get("alt_names", [])
+                }
+
+    # Extract row layout data
+    if "rows" in structured_output:
+        for row in structured_output["rows"]:
+            row_system = row.get("system", {})
+            row_boxes = {
+                "group_id": row_system.get("group_id", ""),
+                "bbox": row_system.get("bbox", {}),
+                "confidence": row_system.get("confidence", 0),
+                "cells": {}
+            }
+
+            # Extract individual cell layout data
+            cells = row_system.get("cells", {})
+            for cell_id, cell_data in cells.items():
+                row_boxes["cells"][cell_id] = {
+                    "bbox": cell_data.get("bbox", {}),
+                    "confidence": cell_data.get("confidence", 0),
+                    "header": cell_data.get("header", ""),
+                    "text": cell_data.get("text", ""),
+                    # Flag low confidence
+                    "doubt": cell_data.get("confidence", 0) < 80
+                }
+
+            boxes_data["rows"].append(row_boxes)
+
+    return boxes_data
+
+
 # ======================================================
 # CLI Entrypoint
 # ======================================================
@@ -720,13 +1172,34 @@ def main():
     )
     parser.add_argument("--input", required=True,
                         help="Path to Textract JSON file.")
+    parser.add_argument("--output",
+                        help="Output directory path. If not specified, uses input path stem + '_output' suffix.")
     parser.add_argument("--debug", action="store_true",
                         help="Enable verbose debug output.")
     args = parser.parse_args()
 
+    # Determine output directory
+    if args.output:
+        output_dir = Path(args.output)
+    else:
+        # Auto-generate output directory from input path
+        input_path = Path(args.input)
+        output_dir = input_path.parent / f"{input_path.stem}_output"
+
+    # Create output directory if it doesn't exist
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    print(f"📁 Output directory: {output_dir}")
+
     textract_data = load_json(args.input)
     processor = HandwrittenTableForm()
-    processor.classify_rows(textract_data, debug=args.debug)
+
+    # Get structured output
+    structured_output = processor.classify_rows(
+        textract_data, debug=args.debug)
+
+    # Write output files
+    write_output_files(structured_output, output_dir, args.debug)
 
 
 if __name__ == "__main__":
