@@ -8,6 +8,7 @@
       @save-json="saveJson"
       @zoom-in="zoomIn"
       @zoom-out="zoomOut"
+      @visualize="onVisualize"
     />
 
     <!-- Main content -->
@@ -30,7 +31,9 @@
 
       <!-- Side panel -->
       <div class="w-80 border-l border-gray-700 bg-[#0f141a]">
+        <VisualizationPanel v-if="mode === 'visualization'" :formData="formData" />
         <SidePanel
+          v-else
           :mode="mode"
           :selectedRow="selectedRow"
           :headers="formData?.header_map || null"
@@ -49,6 +52,7 @@ import { ref } from 'vue'
 import ToolBar from '@/components/ToolBar.vue'
 import FormViewer from '@/components/FormViewer.vue'
 import SidePanel from '@/components/SidePanel.vue'
+import VisualizationPanel from '@/components/VisualizationPanel.vue'
 
 /**
  * State
@@ -58,7 +62,7 @@ const imageUrl = ref(null) // objectURL for the selected image
 const zoom = ref(1) // viewer zoom 0.5–2.0
 
 // selection / mode
-const mode = ref(null) // "row" | "header" | "universal" | null
+const mode = ref(null) // "row" | "header" | "universal" | "visualization" | null
 const selectedRow = ref(null) // currently selected row object
 const selectedHeaderKey = ref(null) // currently selected header key (string)
 
@@ -80,6 +84,11 @@ function zoomIn() {
 }
 function zoomOut() {
   zoom.value = Math.max(0.5, +(zoom.value - 0.1).toFixed(2))
+}
+function onVisualize() {
+  mode.value = 'visualization'
+  selectedRow.value = null
+  selectedHeaderKey.value = null
 }
 
 /**

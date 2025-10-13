@@ -20,6 +20,13 @@
       </button>
 
       <button
+        class="px-3 py-1 text-sm bg-green-600 text-white rounded hover:bg-green-700"
+        @click="$emit('visualize')"
+      >
+        Visualize
+      </button>
+
+      <button
         class="px-3 py-1 text-sm bg-blue-600 text-white rounded hover:bg-blue-700"
         @click="$emit('save-json')"
       >
@@ -30,7 +37,14 @@
 </template>
 
 <script setup>
-const emit = defineEmits(['json-loaded', 'image-loaded', 'save-json', 'zoom-in', 'zoom-out'])
+const emit = defineEmits([
+  'json-loaded',
+  'image-loaded',
+  'save-json',
+  'zoom-in',
+  'zoom-out',
+  'visualize',
+])
 
 function handleJson(e) {
   const file = e.target.files[0]

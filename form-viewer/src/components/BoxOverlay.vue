@@ -1,6 +1,5 @@
 <template>
   <div
-    v-if="shouldShow"
     class="absolute rounded-sm transition-all duration-150"
     :class="[borderClass, selected && 'selectedGlow']"
     :style="{
@@ -39,14 +38,15 @@ const emit = defineEmits(['click'])
 
 const hovered = ref(false)
 
-// Only show if there is text AND confidence is orange/red (< 85)
-const shouldShow = computed(() => !!props.text && props.confidence < 85)
+// Only draw border if there is text AND confidence is orange/red (< 85)
+const drawBorder = computed(() => !!props.text && props.confidence < 85)
 
 const borderClass = computed(() => {
+  if (!drawBorder.value) return 'border border-transparent'
   if (props.confidence < 70) return 'border border-red-500 shadow-[0_0_6px_rgba(239,68,68,0.6)]'
   if (props.confidence < 85)
     return 'border border-orange-400 shadow-[0_0_6px_rgba(251,146,60,0.55)]'
-  return 'border-none'
+  return 'border border-transparent'
 })
 </script>
 
