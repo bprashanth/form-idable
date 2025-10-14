@@ -73,7 +73,12 @@
       }
     },
     "system": {
-      "bbox": {},
+      "bbox": {
+        "Left": 0.12240104354918004,
+        "Top": 0.04566460220143199,
+        "Width": 0.7678135284036398,
+        "Height": 0.1046890024840832
+      },
       "group_id": "universal_fields",
       "row_index": -1,
       "column_index": -1

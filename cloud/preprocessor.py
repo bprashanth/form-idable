@@ -882,25 +882,86 @@ class HandwrittenTableForm(BaseFormProcessor):
     def _get_universal_fields_bbox(self, textract_json: Dict[str, Any], rows: List[Dict[str, Any]], debug: bool = False) -> Dict[str, float]:
         """Get bounding box for universal fields zone."""
 
-        # Find universal fields rows
+        # 1) Collect words from rows classified as UNIVERSAL
         universal_rows = [row for row in rows if row.get(
             "row_type") == "UNIVERSAL"]
-
-        if not universal_rows:
-            if debug:
-                print("🔍 No universal fields rows found")
-            return {}
-
-        # Calculate bounding box from all universal field words
-        all_words = []
+        row_words = []
         for row in universal_rows:
-            all_words.extend(row["words"])
+            row_words.extend(row.get("words", []))
 
+        # 2) Collect words from KEY_VALUE_SET blocks that are above the table top
+        #    (these often represent universal fields that sit above headers)
+        # Find table top boundary from rows (minimum y_mid across all rows)
+        table_top = None
+        if rows:
+            try:
+                table_top = min(r.get("y_mid", 1.0) for r in rows)
+            except Exception:
+                table_top = None
+
+        word_map: Dict[str, Any] = {}
+        for block in textract_json.get("Blocks", []):
+            if block.get("BlockType") == "WORD":
+                word_map[block["Id"]] = block
+
+        kv_words = []
+        if table_top is not None:
+            # Build map for VALUE follow-ups
+            kv_map: Dict[str, Any] = {}
+            for block in textract_json.get("Blocks", []):
+                if block.get("BlockType") == "KEY_VALUE_SET":
+                    kv_map[block["Id"]] = block
+
+            for block in textract_json.get("Blocks", []):
+                if block.get("BlockType") != "KEY_VALUE_SET":
+                    continue
+
+                block_top = block.get("Geometry", {}).get(
+                    "BoundingBox", {}).get("Top", 1.0)
+                # Only consider universal KV blocks ABOVE the table
+                if block_top >= table_top:
+                    continue
+
+                # Gather key words (CHILD) and value words (VALUE -> CHILD)
+                for rel in block.get("Relationships", []):
+                    if rel.get("Type") == "CHILD":
+                        for wid in rel.get("Ids", []):
+                            w = word_map.get(wid)
+                            if not w:
+                                continue
+                            bb = w.get("Geometry", {}).get("BoundingBox", {})
+                            kv_words.append({
+                                "x_mid": bb.get("Left", 0) + bb.get("Width", 0) / 2,
+                                "y_mid": bb.get("Top", 0) + bb.get("Height", 0) / 2,
+                            })
+                    elif rel.get("Type") == "VALUE":
+                        for val_id in rel.get("Ids", []):
+                            val_block = kv_map.get(val_id)
+                            if not val_block:
+                                continue
+                            for vrel in val_block.get("Relationships", []):
+                                if vrel.get("Type") == "CHILD":
+                                    for wid in vrel.get("Ids", []):
+                                        w = word_map.get(wid)
+                                        if not w:
+                                            continue
+                                        bb = w.get("Geometry", {}).get(
+                                            "BoundingBox", {})
+                                        kv_words.append({
+                                            "x_mid": bb.get("Left", 0) + bb.get("Width", 0) / 2,
+                                            "y_mid": bb.get("Top", 0) + bb.get("Height", 0) / 2,
+                                        })
+
+        # 3) Union all sources
+        all_words = row_words + kv_words
         if not all_words:
+            if debug:
+                print(
+                    "🔍 No universal fields rows/KEY_VALUE_SET above table found for bbox")
             return {}
 
-        # Calculate union of all word bounding boxes
-        left = min(w["x_mid"] - 0.01 for w in all_words)  # Add small margin
+        # Calculate union bbox with a small margin
+        left = min(w["x_mid"] - 0.01 for w in all_words)
         right = max(w["x_mid"] + 0.01 for w in all_words)
         top = min(w["y_mid"] - 0.01 for w in all_words)
         bottom = max(w["y_mid"] + 0.01 for w in all_words)
@@ -913,7 +974,7 @@ class HandwrittenTableForm(BaseFormProcessor):
         }
 
         if debug:
-            print(f"🔍 Universal fields bbox: {bbox}")
+            print(f"🔍 Universal fields bbox (rows + KV above table): {bbox}")
 
         return bbox
 

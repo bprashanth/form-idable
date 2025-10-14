@@ -11,18 +11,16 @@
     >
       <img :src="imageUrl" alt="Form" ref="imgRef" class="block w-full h-full" @load="onImgLoad" />
 
-      <!-- Universal Fields -->
-      <template v-for="(uf, key) in formData.universal_fields" :key="'uf-' + key">
-        <BoxOverlay
-          :bbox="uf.system?.bbox || { Left: 0, Top: 0, Width: 0, Height: 0 }"
-          :confidence="100"
-          :text="key"
-          :selected="selectedMode === 'universal'"
-          :disabled="!uf.system?.valid"
-          colorClass="border-cyan-400"
-          @click="selectUniversal()"
-        />
-      </template>
+      <!-- Universal fields overlay (single box) -->
+      <BoxOverlay
+        v-if="formData.universal_fields?.system?.bbox"
+        :bbox="formData.universal_fields.system.bbox"
+        :confidence="84"
+        text="Universal Fields"
+        :selected="selectedMode === 'universal'"
+        colorClass="border-cyan-400"
+        @click="selectUniversalMode"
+      />
 
       <!-- Header overlay (single box) -->
       <BoxOverlay
@@ -37,12 +35,12 @@
 
       <!-- Rows -->
       <template v-for="(row, rIndex) in formData.rows" :key="rIndex">
-        <template v-for="(cell, cellId) in row.system.cells" :key="cellId">
+        <template v-for="(cell, cellId) in row.system?.cells || {}" :key="cellId">
           <BoxOverlay
             :bbox="cell.bbox"
             :confidence="cell.confidence"
             :text="cell.text"
-            :selected="selectedMode === 'row' && selectedGroupId === row.system.group_id"
+            :selected="selectedMode === 'row' && selectedGroupId === row.system?.group_id"
             @click="selectRow(row)"
           />
         </template>
@@ -108,7 +106,7 @@ function selectHeaderMode() {
   emit('select-header')
 }
 
-function selectUniversal() {
+function selectUniversalMode() {
   selectedMode.value = 'universal'
   emit('select-universal')
 }

@@ -40,7 +40,7 @@
           :universals="formData?.universal_fields || null"
           @update-row="updateRow"
           @update-header="updateHeader"
-          @update-universal="updateUniversal"
+          @apply-universal="applyUniversalFields"
         />
       </div>
     </div>
@@ -163,12 +163,62 @@ function updateHeader({ key, field, value }) {
 }
 
 /**
- * Universal editing
- * Update universal_fields[key].value live. Validity is handled via v-model in SidePanel.
+ * Apply universal fields to all rows
+ * Called when user clicks "Save Universal Fields" button
+ * Updates universal_fields structure and merges valid fields into rows
  */
-function updateUniversal({ key, newVal }) {
-  if (!formData.value?.universal_fields?.[key]) return
-  formData.value.universal_fields[key].value = newVal
+function applyUniversalFields(localUniversals) {
+  if (!formData.value?.universal_fields || !localUniversals) return
+
+  // First, update the universal_fields structure with local changes
+  for (const [originalKey, uf] of Object.entries(localUniversals)) {
+    const newKey = uf._editKey
+
+    // Handle key rename
+    if (newKey !== originalKey) {
+      const universalFields = formData.value.universal_fields
+      universalFields[newKey] = { ...universalFields[originalKey] }
+      delete universalFields[originalKey]
+    }
+
+    // Update the universal field with new values
+    const targetKey = newKey !== originalKey ? newKey : originalKey
+    if (formData.value.universal_fields[targetKey]) {
+      formData.value.universal_fields[targetKey].value = uf.value
+      formData.value.universal_fields[targetKey].system.valid = uf.system.valid
+    }
+  }
+
+  // Now apply to rows
+  if (!formData.value?.rows) return
+
+  // Get all universal field keys (both valid and invalid) - exclude 'system' key
+  const allUniversalKeys = Object.keys(formData.value.universal_fields).filter(
+    (key) => key !== 'system',
+  )
+
+  // Get valid universal fields
+  const validUniversals = Object.fromEntries(
+    Object.entries(formData.value.universal_fields).filter(
+      ([key, v]) => key !== 'system' && v?.system?.valid !== false,
+    ),
+  )
+
+  // Update each row - only touch universal field keys, preserve everything else
+  formData.value.rows.forEach((row) => {
+    // Remove ALL universal fields first (including invalid ones) - but NOT 'system'
+    // Use __fieldname__ convention to avoid conflicts with regular row data
+    allUniversalKeys.forEach((key) => {
+      const universalKey = `__${key}__`
+      delete row[universalKey]
+    })
+
+    // Add only valid universal fields
+    Object.entries(validUniversals).forEach(([key, uf]) => {
+      const universalKey = `__${key}__`
+      row[universalKey] = uf.value
+    })
+  })
 }
 
 /**

@@ -4,11 +4,17 @@
     <template v-if="mode === 'row' && selectedRow">
       <h2 class="font-semibold mb-2">Row Fields</h2>
       <div v-for="[key, val] in filteredRowEntries" :key="`row-${key}`" class="mb-2">
-        <label class="block text-gray-400">{{ key }}</label>
+        <label class="block text-gray-400">
+          {{ key }}
+          <span v-if="isUniversalField(key)" class="text-cyan-400 text-xs ml-1">(universal)</span>
+        </label>
         <input
           :value="val"
           @input="emit('update-row', { ...selectedRow, [key]: $event.target.value })"
-          class="w-full border border-gray-600 bg-gray-800 rounded px-1 py-0.5 text-xs text-gray-100"
+          :class="[
+            'w-full border rounded px-1 py-0.5 text-xs text-gray-100',
+            isUniversalField(key) ? 'border-cyan-500 bg-gray-800' : 'border-gray-600 bg-gray-800',
+          ]"
         />
       </div>
     </template>
@@ -54,20 +60,41 @@
       </button>
     </template>
 
-    <!-- Universal editing (unchanged) -->
+    <!-- Universal editing -->
     <template v-else-if="mode === 'universal' && universals">
       <h2 class="font-semibold mb-2">Universal Fields</h2>
-      <div v-for="(uf, key) in universals" :key="key" class="mb-2 flex items-center gap-2">
-        <input type="checkbox" v-model="uf.system.valid" class="accent-cyan-500" title="Valid?" />
-        <div class="flex-1">
-          <label class="block text-gray-400">{{ key }}</label>
+
+      <div
+        v-for="[key, uf] in localUniversalEntries"
+        :key="`uf-${key}`"
+        class="mb-3 p-2 rounded border border-gray-700 bg-gray-800"
+      >
+        <div class="mb-1">
+          <label class="block text-gray-400 text-xs">Key</label>
           <input
-            :value="uf.value"
-            @input="updateUniversal(key, $event.target.value)"
-            class="w-full border border-cyan-500 bg-gray-800 rounded px-1 py-0.5 text-xs text-gray-100"
+            v-model="uf._editKey"
+            class="w-full border border-cyan-500 bg-gray-900 rounded px-1 py-0.5 text-xs text-gray-100"
           />
         </div>
+        <div class="mb-1">
+          <label class="block text-gray-400 text-xs">Value</label>
+          <input
+            v-model="uf.value"
+            class="w-full border border-cyan-400 bg-gray-900 rounded px-1 py-0.5 text-xs text-gray-100"
+          />
+        </div>
+        <div class="flex items-center gap-2">
+          <input type="checkbox" v-model="uf.system.valid" class="accent-cyan-500" title="Valid?" />
+          <label class="text-gray-400 text-xs">Valid</label>
+        </div>
       </div>
+
+      <button
+        class="mt-4 w-full py-1 text-sm bg-cyan-600 hover:bg-cyan-700 rounded text-white"
+        @click="saveUniversalChanges"
+      >
+        Save Universal Fields
+      </button>
     </template>
 
     <div v-else class="text-gray-500">Click a box to edit.</div>
@@ -85,6 +112,7 @@ const props = defineProps({
 })
 
 const localHeaders = ref({})
+const localUniversals = ref({})
 
 // sync local editable copy whenever headers prop changes
 watch(
@@ -109,6 +137,34 @@ watch(
 
 const localHeaderEntries = computed(() => Object.entries(localHeaders.value))
 
+// sync local editable copy whenever universals prop changes
+watch(
+  () => props.universals,
+  (newVal) => {
+    if (!newVal) {
+      localUniversals.value = {}
+      return
+    }
+    const copy = {}
+    for (const [key, uf] of Object.entries(newVal)) {
+      if (key === 'system') continue
+      copy[key] = {
+        ...uf,
+        _editKey: key, // store editable key separately
+      }
+    }
+    localUniversals.value = copy
+  },
+  { immediate: true, deep: true },
+)
+
+const localUniversalEntries = computed(() => Object.entries(localUniversals.value))
+
+// Check if a field is a universal field (using __fieldname__ convention)
+const isUniversalField = computed(() => (key) => {
+  return key.startsWith('__') && key.endsWith('__')
+})
+
 function saveHeaderChanges() {
   // Loop through local edits and emit final updates
   for (const [originalKey, hdr] of Object.entries(localHeaders.value)) {
@@ -128,9 +184,10 @@ const filteredRowEntries = computed(() => {
   return Object.entries(props.selectedRow).filter(([key]) => key !== 'system')
 })
 
-const emit = defineEmits(['update-row', 'update-header', 'update-universal'])
+const emit = defineEmits(['update-row', 'update-header', 'apply-universal'])
 
-function updateUniversal(key, value) {
-  emit('update-universal', { key, newVal: value })
+function saveUniversalChanges() {
+  // Send all local universal field changes to App.vue
+  emit('apply-universal', localUniversals.value)
 }
 </script>
