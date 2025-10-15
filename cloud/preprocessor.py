@@ -398,6 +398,7 @@ class HandwrittenTableForm(BaseFormProcessor):
     def build_header_map_from_cells(self, textract_json: Dict[str, Any], rows: List[Dict[str, Any]], debug: bool = False) -> Dict[str, List[str]]:
         """Build hierarchical header map using MERGED_CELL and ColumnSpan information."""
         header_map = {}
+        column_order = []  # Track column order
 
         # Build maps of all blocks by ID
         word_map = {}
@@ -478,6 +479,9 @@ class HandwrittenTableForm(BaseFormProcessor):
             for row_idx, cols in covered_columns_by_row.items():
                 print(f"🔍 Row {row_idx} covered columns: {sorted(cols)}")
 
+        # Collect all header cells with their column indices for proper ordering
+        header_cells = []
+
         for cell_id, cell in cell_map.items():
             row_index = cell.get("RowIndex", 0)
             col_index = cell.get("ColumnIndex", 0)
@@ -499,35 +503,50 @@ class HandwrittenTableForm(BaseFormProcessor):
                 cell, word_map, cell_map, layout_text_map, debug)
 
             if cell_text:
-                # Check if this cell is under a merged cell (hierarchical relationship)
-                parent_merged_cell = None
-                for merged_id, merged_info in merged_cell_info.items():
-                    if (merged_info["row_index"] < row_index and  # Merged cell is in a higher row
-                        col_index >= merged_info["col_start"] and
-                            col_index < merged_info["col_start"] + merged_info["col_span"]):
-                        parent_merged_cell = merged_info
-                        break
+                header_cells.append((row_index, col_index, cell_text))
 
-                if parent_merged_cell:
-                    # This cell is under a merged cell - create hierarchical key
-                    parent_text = parent_merged_cell["text"]
-                    combined_text = f"{parent_text} {cell_text}"
-                    snake_key = to_snake_case(combined_text)
+        # Sort header cells by row index, then column index
+        header_cells.sort(key=lambda x: (x[0], x[1]))
 
-                    if debug:
-                        print(
-                            f"   HIERARCHICAL CELL row {row_index} column {col_index}: {snake_key} -> {combined_text} (under '{parent_text}')")
-                else:
-                    # Regular cell not under a merged cell
-                    snake_key = to_snake_case(cell_text)
+        # Process header cells in order
+        for row_index, col_index, cell_text in header_cells:
+            # Check if this cell is under a merged cell (hierarchical relationship)
+            parent_merged_cell = None
+            for merged_id, merged_info in merged_cell_info.items():
+                if (merged_info["row_index"] < row_index and  # Merged cell is in a higher row
+                    col_index >= merged_info["col_start"] and
+                        col_index < merged_info["col_start"] + merged_info["col_span"]):
+                    parent_merged_cell = merged_info
+                    break
 
-                    if debug:
-                        print(
-                            f"   REGULAR CELL row {row_index} column {col_index}: {snake_key} -> {cell_text}")
+            if parent_merged_cell:
+                # This cell is under a merged cell - create hierarchical key
+                parent_text = parent_merged_cell["text"]
+                combined_text = f"{parent_text} {cell_text}"
+                snake_key = to_snake_case(combined_text)
 
-                if snake_key:
-                    header_map[snake_key] = [
-                        cell_text if not parent_merged_cell else combined_text]
+                if debug:
+                    print(
+                        f"   HIERARCHICAL CELL row {row_index} column {col_index}: {snake_key} -> {combined_text} (under '{parent_text}')")
+            else:
+                # Regular cell not under a merged cell
+                snake_key = to_snake_case(cell_text)
+
+                if debug:
+                    print(
+                        f"   REGULAR CELL row {row_index} column {col_index}: {snake_key} -> {cell_text}")
+
+            if snake_key:
+                header_map[snake_key] = [
+                    cell_text if not parent_merged_cell else combined_text]
+                column_order.append((col_index, snake_key)
+                                    )  # Track column order
+
+        if debug:
+            print(f"🔍 Column order: {[col for col, key in column_order]}")
+
+        # Store column order in the header map for later use
+        header_map["_column_order"] = column_order
 
         return header_map
 
@@ -596,7 +615,9 @@ class HandwrittenTableForm(BaseFormProcessor):
             textract_json, rows, debug)
         universal_output["system"] = {
             "bbox": universal_bbox,
-            "group_id": "universal_fields"
+            "group_id": "universal_fields",
+            "row_index": -1,  # Universal fields don't have specific rows
+            "column_index": -1  # Universal fields don't have specific columns
         }
 
         # Create header_map with system info
@@ -605,7 +626,9 @@ class HandwrittenTableForm(BaseFormProcessor):
         header_bbox = self._get_header_map_bbox(textract_json, rows, debug)
         header_output["system"] = {
             "bbox": header_bbox,
-            "group_id": "header_map"
+            "group_id": "header_map",
+            "row_index": -1,  # Header map doesn't have specific rows
+            "column_index": -1  # Header map doesn't have specific columns
         }
 
         # Create rows with system info
@@ -639,7 +662,9 @@ class HandwrittenTableForm(BaseFormProcessor):
                 "merged": False,  # Universal fields are not merged
                 "system": {
                     "group_id": f"universal_field_{field_index}",
-                    "valid": True  # Default to valid, can be changed by user
+                    "valid": True,  # Default to valid, can be changed by user
+                    "column_index": -1,  # Universal fields don't have specific columns
+                    "row_index": -1  # Universal fields don't have specific rows
                 }
             }
 
@@ -656,11 +681,19 @@ class HandwrittenTableForm(BaseFormProcessor):
         """Create enhanced header map with metadata and system info."""
 
         enhanced_header_map = {}
-        col_index = 1  # Start from column 1
 
-        for header_key, header_values in header_map.items():
-            if header_key == "system":  # Skip system key
+        # Get column order from header map
+        column_order = header_map.get("_column_order", [])
+
+        if debug:
+            print(
+                f"🔍 Using column order: {[col for col, key in column_order]}")
+
+        for col_index, header_key in column_order:
+            if header_key == "system" or header_key == "_column_order":  # Skip system keys
                 continue
+
+            header_values = header_map[header_key]
 
             # Get the field name (first value in the list)
             field_name = header_values[0] if header_values else header_key
@@ -669,12 +702,14 @@ class HandwrittenTableForm(BaseFormProcessor):
             merged = "_" in header_key and any(part in header_key for part in [
                                                "north", "east", "west", "south"])
 
-            # Create enhanced header entry with system subobject
+            # Create enhanced header entry with system subobject using actual Textract column index
             enhanced_header_map[header_key] = {
                 "field_name": field_name,
                 "system": {
                     "merged": merged,
-                    "group_id": f"col_{col_index}"
+                    "group_id": f"col_{col_index}",
+                    "column_index": col_index,
+                    "row_index": -1  # Headers don't have a specific row, use -1
                 },
                 "description": self._get_field_description(header_key, field_name),
                 "alt_names": []  # Empty for now as requested
@@ -682,9 +717,7 @@ class HandwrittenTableForm(BaseFormProcessor):
 
             if debug:
                 print(
-                    f"🔍 Enhanced header: {header_key} -> {field_name} (merged: {merged}, col: {col_index})")
-
-            col_index += 1
+                    f"🔍 Enhanced header: {header_key} -> {field_name} (merged: {merged}, actual_col: {col_index})")
 
         return enhanced_header_map
 
@@ -781,7 +814,9 @@ class HandwrittenTableForm(BaseFormProcessor):
                     "bbox": cell_bbox,
                     "confidence": cell_confidence,
                     "text": cell_text,
-                    "header": header_key
+                    "header": header_key,
+                    "row_index": row_index,  # Explicit Textract RowIndex
+                    "column_index": col_index  # Explicit Textract ColumnIndex
                 }
 
                 if debug:
@@ -793,6 +828,8 @@ class HandwrittenTableForm(BaseFormProcessor):
             row_obj["system"] = {
                 "bbox": row_bbox,
                 "group_id": f"row_{row_index}",
+                "row_index": row_index,  # Explicit Textract RowIndex
+                "column_index": -1,  # Rows don't have a specific column, use -1
                 "cells": row_cells
             }
 
@@ -801,23 +838,23 @@ class HandwrittenTableForm(BaseFormProcessor):
         return rows_output
 
     def _get_header_for_column(self, col_index: int, header_map: Dict[str, List[str]], debug: bool = False) -> str:
-        """Get the header key for a given column index."""
-        # Create a mapping from column index to header key based on the header_map structure
-        # This is a simplified approach - we'll need to implement proper column-to-header mapping
+        """Get the header key for a given Textract column index."""
 
-        # For now, create a simple mapping based on column order
-        # This assumes the headers are in the same order as the columns
-        header_keys = list(header_map.keys())
+        # Get column order from header map
+        column_order = header_map.get("_column_order", [])
 
-        # Remove the 'system' key if it exists
-        if 'system' in header_keys:
-            header_keys.remove('system')
+        # Find the header key for this column index
+        for col_idx, header_key in column_order:
+            if col_idx == col_index:
+                if debug:
+                    print(
+                        f"🔍 Mapped Textract col {col_index} to header: {header_key}")
+                return header_key
 
-        # Map column index to header key
-        if col_index <= len(header_keys):
-            return header_keys[col_index - 1]  # Column indices are 1-based
-
-        # Fallback to generic column name
+        # Fallback to generic column name if not found
+        if debug:
+            print(
+                f"🔍 No header found for Textract col {col_index}, using generic name")
         return f"col_{col_index}"
 
     def _get_row_bbox(self, cells_in_row: List[Dict[str, Any]]) -> Dict[str, float]:
@@ -845,25 +882,86 @@ class HandwrittenTableForm(BaseFormProcessor):
     def _get_universal_fields_bbox(self, textract_json: Dict[str, Any], rows: List[Dict[str, Any]], debug: bool = False) -> Dict[str, float]:
         """Get bounding box for universal fields zone."""
 
-        # Find universal fields rows
+        # 1) Collect words from rows classified as UNIVERSAL
         universal_rows = [row for row in rows if row.get(
             "row_type") == "UNIVERSAL"]
-
-        if not universal_rows:
-            if debug:
-                print("🔍 No universal fields rows found")
-            return {}
-
-        # Calculate bounding box from all universal field words
-        all_words = []
+        row_words = []
         for row in universal_rows:
-            all_words.extend(row["words"])
+            row_words.extend(row.get("words", []))
 
+        # 2) Collect words from KEY_VALUE_SET blocks that are above the table top
+        #    (these often represent universal fields that sit above headers)
+        # Find table top boundary from rows (minimum y_mid across all rows)
+        table_top = None
+        if rows:
+            try:
+                table_top = min(r.get("y_mid", 1.0) for r in rows)
+            except Exception:
+                table_top = None
+
+        word_map: Dict[str, Any] = {}
+        for block in textract_json.get("Blocks", []):
+            if block.get("BlockType") == "WORD":
+                word_map[block["Id"]] = block
+
+        kv_words = []
+        if table_top is not None:
+            # Build map for VALUE follow-ups
+            kv_map: Dict[str, Any] = {}
+            for block in textract_json.get("Blocks", []):
+                if block.get("BlockType") == "KEY_VALUE_SET":
+                    kv_map[block["Id"]] = block
+
+            for block in textract_json.get("Blocks", []):
+                if block.get("BlockType") != "KEY_VALUE_SET":
+                    continue
+
+                block_top = block.get("Geometry", {}).get(
+                    "BoundingBox", {}).get("Top", 1.0)
+                # Only consider universal KV blocks ABOVE the table
+                if block_top >= table_top:
+                    continue
+
+                # Gather key words (CHILD) and value words (VALUE -> CHILD)
+                for rel in block.get("Relationships", []):
+                    if rel.get("Type") == "CHILD":
+                        for wid in rel.get("Ids", []):
+                            w = word_map.get(wid)
+                            if not w:
+                                continue
+                            bb = w.get("Geometry", {}).get("BoundingBox", {})
+                            kv_words.append({
+                                "x_mid": bb.get("Left", 0) + bb.get("Width", 0) / 2,
+                                "y_mid": bb.get("Top", 0) + bb.get("Height", 0) / 2,
+                            })
+                    elif rel.get("Type") == "VALUE":
+                        for val_id in rel.get("Ids", []):
+                            val_block = kv_map.get(val_id)
+                            if not val_block:
+                                continue
+                            for vrel in val_block.get("Relationships", []):
+                                if vrel.get("Type") == "CHILD":
+                                    for wid in vrel.get("Ids", []):
+                                        w = word_map.get(wid)
+                                        if not w:
+                                            continue
+                                        bb = w.get("Geometry", {}).get(
+                                            "BoundingBox", {})
+                                        kv_words.append({
+                                            "x_mid": bb.get("Left", 0) + bb.get("Width", 0) / 2,
+                                            "y_mid": bb.get("Top", 0) + bb.get("Height", 0) / 2,
+                                        })
+
+        # 3) Union all sources
+        all_words = row_words + kv_words
         if not all_words:
+            if debug:
+                print(
+                    "🔍 No universal fields rows/KEY_VALUE_SET above table found for bbox")
             return {}
 
-        # Calculate union of all word bounding boxes
-        left = min(w["x_mid"] - 0.01 for w in all_words)  # Add small margin
+        # Calculate union bbox with a small margin
+        left = min(w["x_mid"] - 0.01 for w in all_words)
         right = max(w["x_mid"] + 0.01 for w in all_words)
         top = min(w["y_mid"] - 0.01 for w in all_words)
         bottom = max(w["y_mid"] + 0.01 for w in all_words)
@@ -876,7 +974,7 @@ class HandwrittenTableForm(BaseFormProcessor):
         }
 
         if debug:
-            print(f"🔍 Universal fields bbox: {bbox}")
+            print(f"🔍 Universal fields bbox (rows + KV above table): {bbox}")
 
         return bbox
 
