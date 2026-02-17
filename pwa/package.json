@@ -1,0 +1,27 @@
+{
+  "name": "form-idable-pwa",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^6.3.12",
+    "cropperjs": "^1.6.2",
+    "vue": "^3.5.22",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "prettier": "3.6.2",
+    "tailwindcss": "^3.4.18",
+    "vite": "^7.1.7",
+    "vite-plugin-pwa": "^1.2.0"
+  }
+}

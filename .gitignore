@@ -204,3 +204,6 @@ inference/
 *.webp
 *.heic
 *.png.aux.xml
+
+# Deploy outputs (contains resource IDs)
+deploy/outputs.env
