@@ -204,3 +204,7 @@ inference/
 *.webp
 *.heic
 *.png.aux.xml
+
+# Deploy outputs and test credentials (contain resource IDs and secrets)
+server/deploy/outputs.env
+server/deploy/test-credentials.env
