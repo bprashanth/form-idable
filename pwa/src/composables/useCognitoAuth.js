@@ -18,8 +18,8 @@ async function init() {
   const res = await fetch(AUTH_CONFIG_URL)
   const config = await res.json()
   userPool = new CognitoUserPool({
-    UserPoolId: config.user_pool_id,
-    ClientId: config.client_id,
+    UserPoolId: config.userPoolId,
+    ClientId: config.clientId,
   })
 }
 

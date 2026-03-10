@@ -205,5 +205,6 @@ inference/
 *.heic
 *.png.aux.xml
 
-# Deploy outputs (contains resource IDs)
-deploy/outputs.env
+# Deploy outputs and test credentials (contain resource IDs and secrets)
+server/deploy/outputs.env
+server/deploy/test-credentials.env
