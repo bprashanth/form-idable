@@ -1,6 +1,6 @@
 import { useCognitoAuth } from './useCognitoAuth.js'
 
-const baseUrl = import.meta.env.VITE_API_BASE_URL || ''
+const baseUrl = import.meta.env.VUE_APP_API_BASE_URL || ''
 
 export async function apiFetch(path, options = {}) {
   const { idToken, refreshSession } = useCognitoAuth()

@@ -9,14 +9,14 @@ Review happens in the spreadsheet, not on the phone.
 ```
 Phone (PWA)                    Server (FastAPI)                AWS
 -------------                  ----------------                ---
-Camera → Crop → Upload --POST /api/upload--→ Textract --→ analyze_document
+Camera -> Crop -> Upload --POST /api/upload---> Textract ---> analyze_document
                                    |
                                    v
                               textractor library (parse response)
-                              - Table.column_headers → header row
-                              - remaining cells → data rows
-                              - KEY_VALUE_SET → universal fields
-                              - cell.confidence → per-cell scores
+                              - Table.column_headers -> header row
+                              - remaining cells -> data rows
+                              - KEY_VALUE_SET -> universal fields
+                              - cell.confidence -> per-cell scores
                                    |
                                    v
                               Excel generation (openpyxl)
@@ -26,7 +26,7 @@ Camera → Crop → Upload --POST /api/upload--→ Textract --→ analyze_docume
                                    |
          <-- .xlsx file <----------|
          |
-Save ----POST /api/drive/save--→ Google Drive API
+Save ----POST /api/drive/save---> Google Drive API
 ```
 
 **Frontend: Vue 3 PWA.** FormViewer/BoxOverlay from form-viewer are reusable but not used here — review happens in Excel.
@@ -37,15 +37,15 @@ Save ----POST /api/drive/save--→ Google Drive API
 
 | Feature | How Textract provides it |
 |---|---|
-| Table structure | TABLE block → CELL blocks with RowIndex, ColumnIndex, ColumnSpan |
+| Table structure | TABLE block -> CELL blocks with RowIndex, ColumnIndex, ColumnSpan |
 | Column headers | `EntityTypes: ["COLUMN_HEADER"]` on CELL blocks |
 | Universal fields (Date, Area Name, etc.) | KEY_VALUE_SET blocks with EntityTypes `["KEY"]` / `["VALUE"]` |
 | Cell text + confidence | WORD blocks as children of CELL blocks |
 | Table type | `STRUCTURED_TABLE` or `SEMI_STRUCTURED_TABLE` entity type |
 
 The `amazon-textract-textractor` library (v1.9.2) wraps this:
-- `Table.column_headers` → `{header_text: [TableCell]}`
-- `TableCell.is_column_header` → boolean
+- `Table.column_headers` -> `{header_text: [TableCell]}`
+- `TableCell.is_column_header` -> boolean
 - KEY_VALUE_SET parsing built in
 
 For gaps beyond vanilla Textract+textractor, see [preprocessing.md](preprocessing.md).
@@ -204,13 +204,6 @@ Login with test user credentials. You should be able to take photographs and con
 
 ~~### Phase 4 - Google Drive + preprocessor fallbacks~~
 ~~10. OAuth 2.0 + Drive API~~
-
-### Deployment 
-
-1. Server image creation 
-2. Server image Deployment to AWS lambda (iam etc) + testing
-3. Frontend configuration to find server + testing 
-4. Frontend deployment to netlify
 
 ### Polish
 
