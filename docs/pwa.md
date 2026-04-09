@@ -11,14 +11,14 @@ Phone (PWA)                    Server (FastAPI)                AWS
 -------------                  ----------------                ---
 Camera → Crop → Upload --POST /api/upload--→ Textract --→ analyze_document
                                    |
-				   v
+                                   v
                               textractor library (parse response)
                               - Table.column_headers → header row
                               - remaining cells → data rows
                               - KEY_VALUE_SET → universal fields
                               - cell.confidence → per-cell scores
                                    |
-				   v
+                                   v
                               Excel generation (openpyxl)
                               - Red border: confidence < 70%
                               - Orange border: 70-85%
@@ -200,19 +200,19 @@ $ npm run dev
 ```
 Login with test user credentials. You should be able to take photographs and convert to excel. 
 
-## Phasing
+## Remaining work
 
 ~~### Phase 4 - Google Drive + preprocessor fallbacks~~
 ~~10. OAuth 2.0 + Drive API~~
 
-### Phase 1 - Deployment 
+### Deployment 
 
 1. Server image creation 
 2. Server image Deployment to AWS lambda (iam etc) + testing
 3. Frontend configuration to find server + testing 
 4. Frontend deployment to netlify
 
-### Phase 6 - Polish
+### Polish
 
 5. Client-side image contrast/brightness enhancement before upload. Textract misses
     handwriting in low-contrast regions (e.g. last rows near page edges where lighting
@@ -220,7 +220,3 @@ Login with test user credentials. You should be able to take photographs and con
     for these edge cases.
 ...
 
-## Dependencies
-
-- **Server**: fastapi, uvicorn, boto3, openpyxl, python-multipart, amazon-textract-textractor
-- **PWA**: vue, vue-router, pinia, cropperjs, tailwindcss, vite-plugin-pwa
