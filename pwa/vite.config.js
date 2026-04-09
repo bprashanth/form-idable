@@ -7,6 +7,7 @@ export default defineConfig({
   define: {
     global: 'globalThis',
   },
+  envPrefix: ['VITE_', 'VUE_APP_'],
   plugins: [
     vue(),
   ],
@@ -19,7 +20,7 @@ export default defineConfig({
     host: true,
     proxy: {
       '/api': {
-        target: 'http://localhost:8070',
+        target: process.env.API_TARGET || 'http://localhost:8070',
         changeOrigin: true,
       },
     },
