@@ -1,6 +1,6 @@
 # PWA Design
 
-Mobile PWA: photo → crop → Textract → structured Excel (confidence-colored cells) → Google Drive.
+Mobile PWA: photo -> crop -> Textract -> structured Excel (confidence-colored cells) -> Google Drive.
 
 Review happens in the spreadsheet, not on the phone.
 
@@ -10,19 +10,21 @@ Review happens in the spreadsheet, not on the phone.
 Phone (PWA)                    Server (FastAPI)                AWS
 -------------                  ----------------                ---
 Camera → Crop → Upload --POST /api/upload--→ Textract --→ analyze_document
-                                   ↓
+                                   |
+				   v
                               textractor library (parse response)
                               - Table.column_headers → header row
                               - remaining cells → data rows
                               - KEY_VALUE_SET → universal fields
                               - cell.confidence → per-cell scores
-                                   ↓
+                                   |
+				   v
                               Excel generation (openpyxl)
                               - Red border: confidence < 70%
                               - Orange border: 70-85%
                               - No border: 85%+
-                                   ↓
-         ←-- .xlsx file ←----------|
+                                   |
+         <-- .xlsx file <----------|
          |
 Save ----POST /api/drive/save--→ Google Drive API
 ```
@@ -50,10 +52,10 @@ For gaps beyond vanilla Textract+textractor, see [preprocessing.md](preprocessin
 
 ## UX flow (4 screens)
 
-1. **Capture** — camera button + gallery picker (`<input type="file" accept="image/*" capture="environment">`)
-2. **Crop** — cropperjs overlay to trim margins. "Crop & Send" button.
-3. **Processing** — spinner (~10-15 sec for Textract).
-4. **Done** — "Download Excel" / "Save to Drive" buttons. Summary: row count, flagged cell count.
+1. **Capture** - camera button + gallery picker (`<input type="file" accept="image/*" capture="environment">`)
+2. **Crop** - cropperjs overlay to trim margins. "Crop & Send" button.
+3. **Processing** - spinner (~10-15 sec for Textract).
+4. **Done** - "Download Excel" / "Save to Drive" buttons. Summary: row count, flagged cell count.
 
 ## Excel confidence formatting
 
@@ -67,18 +69,6 @@ For gaps beyond vanilla Textract+textractor, see [preprocessing.md](preprocessin
 ## Project structure
 
 ```
-server/                           FastAPI backend
-  main.py                         App entrypoint + CORS
-  routers/
-    upload.py                     POST /api/upload → returns .xlsx
-    analyze.py                    POST /api/analyze → diagnostic JSON (dev/test)
-    drive.py                      POST /api/drive/save
-  services/
-    textract_service.py           boto3 Textract sync call
-    table_extractor.py            textractor-based: headers, rows, universal fields
-    excel_service.py              openpyxl: data + confidence coloring
-  requirements.txt
-
 pwa/                              Minimal Vue 3 PWA
   src/
     App.vue                       Router shell
@@ -96,15 +86,17 @@ pwa/                              Minimal Vue 3 PWA
   public/manifest.json
   vite.config.js
 ```
+The server that this pwa uses is deployed via `good-shepherd/server`. 
 
 ## Header detection
 
 Implemented in `server/services/table_extractor.py`:
-1. **Primary**: textractor `Table.column_headers` (uses COLUMN_HEADER entity type)
-2. **Fallback**: First row of table = headers (when no COLUMN_HEADER entity type present)
+1. **Primary**: textractor `Table.column_headers` (uses `COLUMN_HEADER` entity type)
+2. **Fallback**: First row of table = headers (when no `COLUMN_HEADER` entity type present)
 
 ## API endpoints
 
+These are the API endpoints in the `good-shepherd/server` that are useful for form extraction. 
 ### POST /api/analyze (diagnostic)
 
 Accepts image (multipart) OR raw Textract JSON. Returns:
@@ -136,22 +128,17 @@ Accepts image (multipart) OR raw Textract JSON. Returns `.xlsx` file.
 
 Accepts `.xlsx` file + OAuth token. Uploads to Google Drive.
 
-## Phasing
-
-### Phase 1 — Diagnostic endpoint
-1. `docs/pwa.md`, `docs/preprocessing.md`
-2. Scaffold `server/`, `textract_service.py`, `table_extractor.py`
-3. `POST /api/analyze`
-4. Verify with existing Textract JSON from `cloud/output/`
-
-#### Phase 1 checkpoint
+## Testing
 
 Start the server:
 ```bash
-cd server && uvicorn main:app --port 8070 --host 0.0.0.0
+cd good-shepherd/server && uvicorn main:app --port 8070 --host 0.0.0.0
 ```
+Check the transformation of textract json -> 
+1. Column headers
+2. Univseral fields 
 
-**Check 1 — column headers detected for form 000:**
+**Check 1 - column headers detected for form 000:**
 ```bash
 curl -s -X POST http://localhost:8070/api/analyze/json \
   -H "Content-Type: application/json" \
@@ -160,14 +147,14 @@ curl -s -X POST http://localhost:8070/api/analyze/json \
 ```
 Expected: `["S.No", "SPP Name/Local Name", "Habit", "DBH in cms", "Phenological condition"]`
 
-**Check 2 — universal fields (KEY_VALUE_SET) present:**
+**Check 2 - universal fields (KEY_VALUE_SET) present:**
 ```bash
 curl -s -X POST http://localhost:8070/api/analyze/json \
   -H "Content-Type: application/json" \
   -d @../cloud/output/000_layout.json \
   | jq '[.key_value_pairs[] | {key, value, key_confidence}]'
 ```
-Expected (all 7 fields — nothing is filtered):
+Expected:
 ```json
 [
   {"key": "1210",                    "value": "10.12.30",          "key_confidence": 67.0},
@@ -180,23 +167,9 @@ Expected (all 7 fields — nothing is filtered):
 ]
 ```
 
-**Note:** No confidence filtering happens at extraction time. All fields — including low-confidence ones like "Block Code: ," (34.8%) and "1210" (67.0%) — are preserved. In Excel, these will appear with red borders/fill so the reviewer can see they need attention. The confidence score determines cell coloring, never whether to include the field.
+**Note:** No confidence filtering happens at extraction time. All fields - including low-confidence ones - are preserved. In Excel, these will appear with red borders/fill so the reviewer can see they need attention. The confidence score determines cell coloring, never whether to include the field.
 
-**Check 3 — diagnostics show COLUMN_HEADER entity type:**
-```bash
-curl -s -X POST http://localhost:8070/api/analyze/json \
-  -H "Content-Type: application/json" \
-  -d @../cloud/output/000_layout.json \
-  | jq '.diagnostics.entity_types'
-```
-Expected: `{"STRUCTURED_TABLE": 1, "COLUMN_HEADER": 5, "KEY": 7, "VALUE": 7}`
-
-### Phase 2 — Excel export
-5. `excel_service.py` with confidence coloring
-6. `POST /api/upload` (image → xlsx)
-7. Compare output against `cloud/results/form_001_classified.json`
-
-#### Phase 2 checkpoint
+**Check 3 - json to excel transformation:**
 
 ```bash
 # Generate Excel from existing Textract JSON (no AWS call)
@@ -218,28 +191,34 @@ Open `output.xlsx` and verify:
   - SPP Name, DBH columns should be mostly **plain** (85%+)
 - Distribution: ~43 red cells, ~33 orange, ~90 plain
 
-### Phase 3 — PWA frontend
-8. Scaffold `pwa/` (4 views)
-9. Camera → Crop → Process → Result
+**Check 4 - json to excel transformation:**
 
-### Phase 4 — Google Drive + preprocessor fallbacks
-10. OAuth 2.0 + Drive API
+```console 
+$ cd pwa/
+$ npm run dev
+# navigate to localhost:5174
+```
+Login with test user credentials. You should be able to take photographs and convert to excel. 
 
-### Phase 5 — Deployment 
+## Phasing
 
-11. Server image creation 
-12. Server image Deployment to AWS lambda (iam etc) + testing
-13. Frontend configuration to find server + testing 
-14. Frontend deployment to netlify
+~~### Phase 4 - Google Drive + preprocessor fallbacks~~
+~~10. OAuth 2.0 + Drive API~~
 
-### Phase 6 — Polish
+### Phase 1 - Deployment 
 
-11. Client-side image contrast/brightness enhancement before upload. Textract misses
+1. Server image creation 
+2. Server image Deployment to AWS lambda (iam etc) + testing
+3. Frontend configuration to find server + testing 
+4. Frontend deployment to netlify
+
+### Phase 6 - Polish
+
+5. Client-side image contrast/brightness enhancement before upload. Textract misses
     handwriting in low-contrast regions (e.g. last rows near page edges where lighting
     fades). Adjusting contrast before sending to Textract should improve OCR accuracy
     for these edge cases.
-12. Selective preprocessor functions if Phase 2 comparison shows gaps
-11. PWA installability, image compression, error handling
+...
 
 ## Dependencies
 
