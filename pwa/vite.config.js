@@ -23,6 +23,10 @@ export default defineConfig({
         target: process.env.API_TARGET || 'http://localhost:8070',
         changeOrigin: true,
       },
+      '/agent': {
+        target: process.env.AGENT_TARGET || 'http://localhost:8071',
+        changeOrigin: true,
+      },
     },
   },
 })
