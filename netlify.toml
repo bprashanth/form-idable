@@ -3,6 +3,14 @@
   command = "npm run build"
   publish = "dist"
 
+# Agent server (form-idable-agent Lambda Function URL).
+[[redirects]]
+  from = "/agent/*"
+  to = "https://snuavwy5e6nhv4qmgc6jz7aoc40jdcho.lambda-url.ap-south-1.on.aws/agent/:splat"
+  status = 200
+  force = true
+
+# SPA catch-all — must be last
 [[redirects]]
   from   = "/*"
   to     = "/index.html"

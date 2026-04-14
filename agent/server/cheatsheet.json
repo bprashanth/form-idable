@@ -1,0 +1,32 @@
+{
+  "types": {
+    "species": {
+      "keywords": [
+        "spp",
+        "species",
+        "sp.",
+        "local name",
+        "plant name",
+        "spp name",
+        "flora",
+        "botanical"
+      ],
+      "units": null,
+      "ignore_headers": []
+    },
+    "serial": {
+      "keywords": [
+        "s.no",
+        "sr.",
+        "sl.",
+        "serial",
+        "sl no",
+        "sr no",
+        "s no",
+        "sno"
+      ],
+      "units": null,
+      "ignore_headers": []
+    }
+  }
+}

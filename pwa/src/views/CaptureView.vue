@@ -1,9 +1,5 @@
 <template>
   <div class="flex flex-col items-center justify-center gap-6 p-6 h-full">
-    <p class="text-gray-400 text-center text-sm">
-      Take a photo of the form or select one from your gallery.
-    </p>
-
     <!-- Camera capture -->
     <label
       class="flex items-center justify-center w-full max-w-xs h-14 rounded-lg bg-blue-600 text-white font-medium text-lg active:bg-blue-700 cursor-pointer transition-colors"
