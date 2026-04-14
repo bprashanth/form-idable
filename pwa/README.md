@@ -1,8 +1,8 @@
-# Scribe frontend 
+# Scribe frontend
 
-See [../docs/pwa.md](../docs/pwa.md) for more details. 
-```console 
+See [../docs/pwa.md](../docs/pwa.md) for more details.
+
+```console
+# This sources the apiserver addresses via `vite.config` and `.env.local` on locahost
 $ npm run dev
 ```
-See [../docs/pwa_installation.md](../docs/pwa_installation.md) for info on installing as pwa. 
-See [../docs/pwa_gdrive.md](../docs/pwa_gdrive.md) for gdrive auth issues.

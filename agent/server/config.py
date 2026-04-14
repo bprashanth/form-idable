@@ -1,9 +1,7 @@
 from pathlib import Path
 
-# agent/ root — one level above server/
-AGENT_ROOT = Path(__file__).resolve().parents[1]
+# server/ root — same directory as this file
+SERVER_ROOT = Path(__file__).resolve().parent
 
-CHEATSHEET_PATH = AGENT_ROOT / "server" / "cheatsheet.json"
-SPECIES_CSV_PATH = AGENT_ROOT / "data" / "species_name.csv"
-SCRIPTS_DIR      = AGENT_ROOT / "scripts"
-PROMPTS_DIR      = AGENT_ROOT / "prompts"
+CHEATSHEET_PATH  = SERVER_ROOT / "cheatsheet.json"
+SPECIES_CSV_PATH = SERVER_ROOT / "data" / "species_name.csv"

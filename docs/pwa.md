@@ -200,6 +200,13 @@ $ npm run dev
 ```
 Login with test user credentials. You should be able to take photographs and convert to excel. 
 
+## POC server APIs
+
+The agent server (`agent/server/`) provides post-processing checks (serial
+renumbering, species fuzzy-matching) that run after the main upload pipeline.
+
+See [agent/server/README.md](../agent/server/README.md) for all endpoints.
+
 ## Remaining work
 
 ~~### Phase 4 - Google Drive + preprocessor fallbacks~~

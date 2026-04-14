@@ -4,7 +4,7 @@ from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 from fastapi.responses import Response
 
 from config import CHEATSHEET_PATH
-from services import excel, fuzzy, llm
+from services import excel, fuzzy, matcher
 
 router = APIRouter()
 
@@ -29,17 +29,25 @@ async def check_species(
     xlsx_bytes = await file.read()
     tm = json.loads(type_map)
     species_cols = [col for col, info in tm.items() if info["type"] == "species"]
+    serial_cols  = [col for col, info in tm.items() if info["type"] == "serial"]
     if not species_cols:
         raise HTTPException(400, "No species columns in type_map")
 
-    unique_values = excel.extract_unique_values(xlsx_bytes, species_cols)
-    if not unique_values:
+    species_with_serial = excel.extract_species_with_serial(xlsx_bytes, species_cols, serial_cols)
+    if not species_with_serial:
         return {"proposals": []}
 
+    unique_values = [e["value"] for e in species_with_serial]
+    serial_map    = {e["value"]: e["first_serial"] for e in species_with_serial}
+
     try:
-        proposals = llm.propose_species_corrections(unique_values)
+        proposals = matcher.propose_species_corrections(unique_values)
     except Exception as e:
         raise HTTPException(500, str(e))
+
+    for p in proposals:
+        p["first_serial"] = serial_map.get(p["original"], 9999)
+    proposals.sort(key=lambda x: x["first_serial"])
 
     return {"proposals": proposals}
 
@@ -72,9 +80,13 @@ async def check_serial(
     serial_cols = [col for col, info in tm.items() if info["type"] == "serial"]
     if not serial_cols:
         raise HTTPException(400, "No serial columns in type_map")
-    corrected = excel.apply_serial_numbering(xlsx_bytes, serial_cols)
+    corrected, count = excel.apply_serial_numbering(xlsx_bytes, serial_cols)
     return Response(
         content=corrected,
         media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        headers={"Content-Disposition": "attachment; filename=corrected.xlsx"},
+        headers={
+            "Content-Disposition": "attachment; filename=corrected.xlsx",
+            "X-Row-Count": str(count),
+            "Access-Control-Expose-Headers": "X-Row-Count",
+        },
     )
