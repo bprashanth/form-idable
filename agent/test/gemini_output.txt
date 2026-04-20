@@ -1,0 +1,155 @@
+$ cat /tmp/verify_prompt.md | gemini @/home/desinotorious/src/github.com/bprashanth/form-idable/agent/test/fuzz_proposals.json @/home/desinotorious/src/github.com/bprashanth/form-idable/agent/test/segmented_000.jpg
+
+
+
+```json
+{
+  "corrections": [
+    {
+      "original": "Kage",
+      "corrected": "Litsea wightiana"
+    },
+    {
+      "original": "Mine",
+      "corrected": "Neolitsea scrobiculata"
+    },
+    {
+      "original": "Pongon",
+      "corrected": "Memecylon umbellatum"
+    },
+    {
+      "original": "kage",
+      "corrected": "Litsea wightiana"
+    },
+    {
+      "original": "age",
+      "corrected": "Litsea wightiana"
+    },
+    {
+      "original": "Bongon",
+      "corrected": "Memecylon umbellatum"
+    },
+    {
+      "original": "koregn",
+      "corrected": "Melicope lunu-ankenda"
+    },
+    {
+      "original": "Borthakami",
+      "corrected": "Symplocos cochinchinensis"
+    },
+    {
+      "original": "Soothahani",
+      "corrected": "Symplocos cochinchinensis"
+    },
+    {
+      "original": "kutham",
+      "corrected": "Tetrapilus dioicus\u00a0"
+    },
+    {
+      "original": "Kase",
+      "corrected": "Litsea wightiana"
+    },
+    {
+      "original": "cage",
+      "corrected": "Litsea wightiana"
+    },
+    {
+      "original": "the",
+      "corrected": null
+    },
+    {
+      "original": "corre",
+      "corrected": "Scolopia crenata"
+    },
+    {
+      "original": "Boothe hami",
+      "corrected": "Symplocos cochinchinensis"
+    },
+    {
+      "original": "Boothern",
+      "corrected": "Symplocos cochinchinensis"
+    },
+    {
+      "original": "Kaji",
+      "corrected": null
+    },
+    {
+      "original": "course",
+      "corrected": "Scolopia crenata"
+    },
+    {
+      "original": "kegs",
+      "corrected": "Syzygium densiflorum"
+    },
+    {
+      "original": "leage",
+      "corrected": "Litsea wightiana"
+    },
+    {
+      "original": "them",
+      "corrected": null
+    },
+    {
+      "original": "Bosthaham",
+      "corrected": "Symplocos cochinchinensis"
+    },
+    {
+      "original": "Brothekam",
+      "corrected": "Symplocos cochinchinensis"
+    },
+    {
+      "original": "Kisbar",
+      "corrected": "Psychotria bisulcata"
+    },
+    {
+      "original": "karuse",
+      "corrected": "Photinia serratifolia"
+    },
+    {
+      "original": "kisler",
+      "corrected": "Psychotria bisulcata"
+    },
+    {
+      "original": "cape",
+      "corrected": null
+    },
+    {
+      "original": "(Cosi",
+      "corrected": "Toddalia asiatica"
+    },
+    {
+      "original": "/cape",
+      "corrected": null
+    },
+    {
+      "original": "kinlcar",
+      "corrected": null
+    },
+    {
+      "original": "loass",
+      "corrected": "Toddalia asiatica"
+    },
+    {
+      "original": "Borthdeam",
+      "corrected": "Meliosma simplicifolia"
+    },
+    {
+      "original": "Coburn",
+      "corrected": "Arisaema sp."
+    },
+    {
+      "original": "calcer",
+      "corrected": "Celtis tetrandra"
+    },
+    {
+      "original": "C.A",
+      "corrected": "Cestrum aurantiacum"
+    },
+    {
+      "original": "100ml",
+      "corrected": null
+    }
+  ]
+}
+```
+

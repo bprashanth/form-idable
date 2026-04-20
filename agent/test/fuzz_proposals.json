@@ -1,0 +1,220 @@
+{
+  "proposals": [
+    {
+      "original": "Kage",
+      "candidate": "Litsea wightiana",
+      "matched_key": "kage",
+      "score": 100.0
+    },
+    {
+      "original": "Mine",
+      "candidate": "Neolitsea scrobiculata",
+      "matched_key": "mine",
+      "score": 100.0
+    },
+    {
+      "original": "Pongon",
+      "candidate": "Memecylon umbellatum",
+      "matched_key": "pongon",
+      "score": 100.0
+    },
+    {
+      "original": "kage",
+      "candidate": "Litsea wightiana",
+      "matched_key": "kage",
+      "score": 100.0
+    },
+    {
+      "original": "age",
+      "candidate": "Litsea wightiana",
+      "matched_key": "kage",
+      "score": 85.7
+    },
+    {
+      "original": "Bongon",
+      "candidate": "Memecylon umbellatum",
+      "matched_key": "pongon",
+      "score": 83.3
+    },
+    {
+      "original": "koregn",
+      "candidate": "Melicope lunu-ankenda",
+      "matched_key": "koregu",
+      "score": 83.3
+    },
+    {
+      "original": "Borthakami",
+      "candidate": "Symplocos cochinchinensis",
+      "matched_key": "boothakani",
+      "score": 80.0
+    },
+    {
+      "original": "Soothahani",
+      "candidate": "Symplocos cochinchinensis",
+      "matched_key": "boothakani",
+      "score": 80.0
+    },
+    {
+      "original": "kutham",
+      "candidate": "Tetrapilus dioicus\u00a0",
+      "matched_key": "kuthavu",
+      "score": 76.9
+    },
+    {
+      "original": "Kase",
+      "candidate": "Litsea wightiana",
+      "matched_key": "kage",
+      "score": 75.0
+    },
+    {
+      "original": "cage",
+      "candidate": "Litsea wightiana",
+      "matched_key": "kage",
+      "score": 75.0
+    },
+    {
+      "original": "the",
+      "candidate": "NA",
+      "matched_key": "theer",
+      "score": 75.0
+    },
+    {
+      "original": "corre",
+      "candidate": "Scolopia crenata",
+      "matched_key": "scocre",
+      "score": 72.7
+    },
+    {
+      "original": "Boothe hami",
+      "candidate": "Symplocos cochinchinensis",
+      "matched_key": "boothakani",
+      "score": 66.7
+    },
+    {
+      "original": "Boothern",
+      "candidate": "Symplocos cochinchinensis",
+      "matched_key": "boothakani",
+      "score": 66.7
+    },
+    {
+      "original": "Kaji",
+      "candidate": "NA",
+      "matched_key": "korai",
+      "score": 66.7
+    },
+    {
+      "original": "course",
+      "candidate": "Scolopia crenata",
+      "matched_key": "scocre",
+      "score": 66.7
+    },
+    {
+      "original": "kegs",
+      "candidate": "Syzygium densiflorum",
+      "matched_key": "kersh",
+      "score": 66.7
+    },
+    {
+      "original": "leage",
+      "candidate": "Litsea wightiana",
+      "matched_key": "kage",
+      "score": 66.7
+    },
+    {
+      "original": "them",
+      "candidate": "NA",
+      "matched_key": "theer",
+      "score": 66.7
+    },
+    {
+      "original": "Bosthaham",
+      "candidate": "Symplocos cochinchinensis",
+      "matched_key": "boothakani",
+      "score": 63.2
+    },
+    {
+      "original": "Brothekam",
+      "candidate": "Symplocos cochinchinensis",
+      "matched_key": "boothakani",
+      "score": 63.2
+    },
+    {
+      "original": "Kisbar",
+      "candidate": "Psychotria bisulcata",
+      "matched_key": "kishkir",
+      "score": 61.5
+    },
+    {
+      "original": "karuse",
+      "candidate": "Photinia serratifolia",
+      "matched_key": "karvish",
+      "score": 61.5
+    },
+    {
+      "original": "kisler",
+      "candidate": "Psychotria bisulcata",
+      "matched_key": "kishkir",
+      "score": 61.5
+    },
+    {
+      "original": "cape",
+      "candidate": "Daphniphyllum neilgherrense",
+      "matched_key": "dapnei",
+      "score": 60.0
+    },
+    {
+      "original": "(Cosi",
+      "candidate": "Toddalia asiatica",
+      "matched_key": "todasi",
+      "score": 54.5
+    },
+    {
+      "original": "/cape",
+      "candidate": "Daphniphyllum neilgherrense",
+      "matched_key": "dapnei",
+      "score": 54.5
+    },
+    {
+      "original": "kinlcar",
+      "candidate": "NA",
+      "matched_key": "kark",
+      "score": 54.5
+    },
+    {
+      "original": "loass",
+      "candidate": "Toddalia asiatica",
+      "matched_key": "todasi",
+      "score": 54.5
+    },
+    {
+      "original": "Borthdeam",
+      "candidate": "Meliosma simplicifolia",
+      "matched_key": "thudai",
+      "score": 53.3
+    },
+    {
+      "original": "Coburn",
+      "candidate": "Arisaema sp.",
+      "matched_key": "bobe thur",
+      "score": 53.3
+    },
+    {
+      "original": "calcer",
+      "candidate": "Celtis tetrandra",
+      "matched_key": "celtet",
+      "score": 50.0
+    },
+    {
+      "original": "C.A",
+      "candidate": "Cestrum aurantiacum",
+      "matched_key": "cesaur",
+      "score": 44.4
+    },
+    {
+      "original": "100ml",
+      "candidate": "Magnolia nilagirica",
+      "matched_key": "magnil",
+      "score": 36.4
+    }
+  ]
+}

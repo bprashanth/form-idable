@@ -39,6 +39,31 @@ See `agent/test/TESTING.md` for how to run the AI verification step manually via
 Currently the species dict has only one format, see `data/species_name.csv`. 
 It also only supports one dialect, Toda. 
 
+## Testing
+
+Two scripts mirror the good-shepherd pattern:
+
+```console
+# Local — server must be running on :8071
+cd agent/server/test
+bash test_local.sh
+
+# Deployed Lambda — reads FUNCTION_URL from deploy/outputs.env
+bash test_deployment.sh
+```
+
+**Tests 1–5** (health, cheatsheet, species-db, lookup-species, validation) run without
+any test file. **Tests 6–9** (infer-types, check-serial, check-species, apply-species)
+require `pwa/output.xlsx`, which must be produced by the good-shepherd upload endpoint
+so it contains the `(Good Shepherd) Row ID` column. If the column is absent, steps 8–9
+are skipped with a message rather than failing.
+
+Generate a suitable xlsx by:
+1. Starting both servers locally
+2. Uploading a form image in the PWA (`npm run dev` → capture → process)
+3. Running the agent pipeline (Infer → Check Serial → Check Species → Save changes)
+4. The corrected file is saved over `xlsxBytes` in the store; Download it to `pwa/output.xlsx`
+
 ## Deployment 
 
 This server uses the setup in [heartwood](https://github.com/T4GC-Official/heartwood/blob/main/docs/how-to/onboard-new-component.md#api-servers). To push this it:    
