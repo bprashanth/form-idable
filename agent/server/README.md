@@ -115,7 +115,10 @@ Expected: `X-Row-Count: 44` (or however many data rows are in the file).
 
 Fuzzy-matches each unique species value in the Excel file against the species
 database (`data/species_name.csv`). Returns proposed corrections with match
-provenance, sorted by first serial number so proposals appear in document order.
+provenance, sorted by document order.
+
+Requires the workbook to contain a `(Good Shepherd) Row ID` column (present in all
+files produced by the Good Shepherd upload endpoint). Returns HTTP 400 otherwise.
 
 **Request:** multipart fields:
 - `file` — `.xlsx` file
@@ -131,15 +134,15 @@ provenance, sorted by first serial number so proposals appear in document order.
       "matched_display": "Kage",
       "match_field": "abbr",
       "score": 100.0,
-      "first_serial": 1
+      "system_serials": [1, 4, 7]
     }
   ]
 }
 ```
 
-`match_field` is one of `abbr`, `expanded`, or `toda_name` — which column of the
-species DB produced the match. `first_serial` is the serial number of the first row
-where this species value appears (from the post-serial-correction Excel).
+`match_field` is one of `abbr`, `expanded`, or `toda_name`. `system_serials` is the
+list of `(Good Shepherd) Row ID` values for every row containing this original value —
+used to target corrections and drive bbox highlighting in the UI.
 
 **Error:** HTTP 400 if `type_map` contains no `species`-typed column.
 
@@ -155,14 +158,22 @@ curl -s -X POST http://localhost:8071/agent/check-species \
 
 ### POST /agent/apply-species
 
-Applies species corrections to the Excel file, replacing original values with the
-corrected (expanded) species names.
+Applies species corrections to the Excel file, targeting only the specific rows
+identified by `system_serials` in each correction entry.
 
 **Request:** multipart fields:
 - `file` — `.xlsx` file
 - `type_map` — JSON string (output of `/agent/infer-types`)
-- `corrections` — JSON object mapping original value → corrected value:
-  `{"kage": "Litsea wightiana", "nelli": "Phyllanthus emblica"}`
+- `corrections` — JSON array of correction objects:
+  ```json
+  [
+    {"original": "kage",  "corrected": "Litsea wightiana",    "system_serials": [1, 4, 7]},
+    {"original": "nelli", "corrected": "Phyllanthus emblica", "system_serials": [2]}
+  ]
+  ```
+
+`system_serials` is required. Passing all row IDs for an original value corrects
+every occurrence; passing a single ID corrects only that row.
 
 **Response:** `.xlsx` file (binary).
 
@@ -171,10 +182,35 @@ corrected (expanded) species names.
 curl -s -X POST http://localhost:8071/agent/apply-species \
   -F "file=@corrected.xlsx" \
   -F 'type_map={"SPP Name/Local Name":{"type":"species"}}' \
-  -F 'corrections={"kage":"Litsea wightiana"}' \
+  -F 'corrections=[{"original":"kage","corrected":"Litsea wightiana","system_serials":[1,4,7]}]' \
   -o final.xlsx
 # Open final.xlsx and verify the species column values are updated.
 ```
+
+---
+
+### POST /agent/lookup-species
+
+Re-looks up a single query string against the species database. Used by the UI
+when a user edits a matched display word and wants a fresh match.
+
+**Request body (JSON):**
+```json
+{"query": "phoster"}
+```
+
+**Response:**
+```json
+{
+  "original": "phoster",
+  "corrected": "Photinia thunbergii",
+  "matched_display": "Phoster",
+  "match_field": "abbr",
+  "score": 88.0
+}
+```
+
+`corrected` may be `null` if no match is found.
 
 ---
 

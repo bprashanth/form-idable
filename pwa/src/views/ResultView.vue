@@ -9,10 +9,16 @@
       <div
         v-for="p in speciesProposals"
         :key="p.original"
-        class="rounded-lg bg-gray-800 border border-gray-700 p-3 flex flex-col gap-2 text-xs"
+        class="rounded-lg bg-gray-800 p-3 flex flex-col gap-2 text-xs cursor-pointer transition-colors"
+        :class="[
+          p.reviewed ? 'border border-green-800' : 'border border-gray-700',
+          activeProposal === p ? 'ring-1 ring-blue-600' : '',
+        ]"
+        @click="activeProposal = p"
       >
+        <!-- Match summary line -->
         <div class="flex items-baseline gap-1 flex-wrap">
-          <span class="text-gray-600 w-6 shrink-0">#{{ p.first_serial }}</span>
+          <span class="text-gray-600 w-6 shrink-0">#{{ p.system_serials[0] }}</span>
           <span class="font-mono text-gray-300">{{ p.original }}</span>
           <span class="text-gray-600 mx-1">→</span>
           <span v-if="p.matched_display && p.corrected" class="text-green-400">
@@ -23,7 +29,31 @@
         </div>
         <div v-if="p.match_field" class="text-gray-600">via {{ p.match_field }}</div>
 
-        <div v-if="p.editing" class="flex gap-1">
+        <!-- Looking up spinner -->
+        <div v-if="p.looking_up" class="flex items-center gap-2 text-gray-500">
+          <div class="w-3 h-3 border-2 border-gray-500 border-t-blue-400 rounded-full animate-spin shrink-0"></div>
+          <span>Looking up…</span>
+        </div>
+
+        <!-- "Update all / Just this row" confirmation -->
+        <div v-else-if="p.pending_confirm" class="flex flex-col gap-1.5">
+          <span class="text-gray-400">
+            Found in <span class="text-gray-200">{{ p.system_serials.length }}</span> rows — apply new match to all?
+          </span>
+          <div class="flex gap-1.5">
+            <button
+              class="flex-1 h-7 rounded bg-blue-700 text-white hover:bg-blue-600 transition-colors"
+              @click.stop="applyToAll(p)"
+            >Update all</button>
+            <button
+              class="flex-1 h-7 rounded bg-gray-700 text-gray-200 hover:bg-gray-600 transition-colors"
+              @click.stop="applyToOne(p)"
+            >Just this row</button>
+          </div>
+        </div>
+
+        <!-- Edit input -->
+        <div v-else-if="p.editing" class="flex gap-1" @click.stop>
           <input
             v-model="p.editValue"
             class="flex-1 h-8 bg-gray-700 border border-gray-600 rounded px-2 text-gray-100 focus:outline-none focus:border-blue-500"
@@ -31,32 +61,36 @@
           />
           <button
             class="px-3 h-8 rounded bg-gray-600 text-gray-200 hover:bg-gray-500 text-xs"
-            @click="doneEdit(p)"
+            @click.stop="doneEdit(p)"
           >done</button>
         </div>
+
+        <!-- Edit trigger -->
         <button
           v-else
           class="self-start text-gray-500 hover:text-gray-300 underline"
-          @click="toggleEdit(p)"
+          @click.stop="toggleEdit(p)"
         >edit</button>
       </div>
 
       <button
         class="w-full h-10 rounded-lg bg-green-700 text-white text-sm font-medium active:bg-green-800 transition-colors disabled:opacity-40 mt-auto shrink-0"
-        :disabled="applyingSpecies"
+        :disabled="applyingSpecies || speciesProposals.some(p => p.pending_confirm)"
         @click="applySpecies"
-      >{{ applyingSpecies ? 'Applying…' : 'Apply to Excel' }}</button>
+      >{{ applyingSpecies ? 'Saving…' : 'Save changes' }}</button>
 
+      <p v-if="speciesProposals.some(p => p.pending_confirm)" class="text-yellow-500 text-xs shrink-0">
+        Resolve all pending confirmations before saving.
+      </p>
       <p v-if="agentError" class="text-red-400 text-xs shrink-0">{{ agentError }}</p>
     </div>
 
-    <!-- Right: form image -->
+    <!-- Right: form image with bbox overlay -->
     <div class="flex-1 overflow-auto p-4 bg-gray-950 flex items-start justify-center">
-      <img
-        v-if="croppedImageUrl"
-        :src="croppedImageUrl"
-        class="max-w-full rounded shadow-lg"
-        alt="Original form"
+      <FormImageOverlay
+        :image-blob="croppedImage"
+        :primary-entries="primaryEntries"
+        :secondary-entries="secondaryEntries"
       />
     </div>
   </div>
@@ -79,12 +113,6 @@
     </div>
 
     <p class="text-gray-500 text-xs">{{ fileSizeLabel }}</p>
-
-    <!-- Download -->
-    <button
-      class="w-full max-w-xs h-14 rounded-lg bg-blue-600 text-white font-medium text-lg active:bg-blue-700 transition-colors"
-      @click="download"
-    >Download</button>
 
     <!-- ── Agent Pipeline ── -->
     <div class="w-full max-w-xs flex flex-col gap-3">
@@ -136,7 +164,7 @@
         <button class="underline hover:text-gray-300" @click="resetTypeMap">Re-infer</button>
       </div>
 
-      <!-- Stage 1: Serial (runs before species so numbers match the image) -->
+      <!-- Stage 1: Serial -->
       <button
         v-if="typeMapConfirmed && hasSerial"
         class="w-full h-12 rounded-lg border border-blue-700 text-blue-300 font-medium active:bg-gray-800 transition-colors disabled:opacity-40"
@@ -158,48 +186,11 @@
       <p v-if="agentError" class="text-red-400 text-xs">{{ agentError }}</p>
     </div>
 
-    <!-- Save to Google Drive -->
+    <!-- Download -->
     <button
-      v-if="driveState === 'idle'"
-      class="w-full max-w-xs h-14 rounded-lg bg-green-600 text-white font-medium text-lg active:bg-green-700 transition-colors"
-      @click="startDriveSave"
-    >Save to Google Drive</button>
-
-    <div v-if="driveState === 'auth' || driveState === 'picking'" class="text-gray-400 text-sm">
-      {{ driveState === 'auth' ? 'Signing in…' : 'Picking folder…' }}
-    </div>
-
-    <div v-if="driveState === 'ready'" class="w-full max-w-xs flex flex-col gap-3">
-      <div class="text-sm text-gray-400">Folder: <span class="text-gray-200">{{ selectedFolder.name }}</span></div>
-      <input
-        v-model="driveFileName"
-        type="text"
-        class="w-full h-10 rounded-lg bg-gray-800 border border-gray-600 px-3 text-sm text-gray-100 focus:border-green-500 focus:outline-none"
-        placeholder="File name"
-      />
-      <button
-        class="w-full h-12 rounded-lg bg-green-600 text-white font-medium active:bg-green-700 transition-colors"
-        @click="doUpload"
-      >Upload</button>
-    </div>
-
-    <button
-      v-if="driveState === 'uploading'"
-      class="w-full max-w-xs h-14 rounded-lg bg-green-800 text-green-200 font-medium text-lg cursor-not-allowed"
-      disabled
-    >Uploading…</button>
-
-    <div v-if="driveState === 'done'" class="flex flex-col items-center gap-2">
-      <span class="text-green-400 font-medium">Saved</span>
-      <a v-if="driveLink" :href="driveLink" target="_blank" rel="noopener" class="text-blue-400 underline text-sm">
-        Open in Drive
-      </a>
-    </div>
-
-    <div v-if="driveState === 'error'" class="flex flex-col items-center gap-2">
-      <span class="text-red-400 text-sm">{{ driveError }}</span>
-      <button class="text-gray-400 underline text-xs" @click="driveState = 'idle'">Try again</button>
-    </div>
+      class="w-full max-w-xs h-14 rounded-lg bg-blue-600 text-white font-medium text-lg active:bg-blue-700 transition-colors"
+      @click="download"
+    >Download</button>
 
     <button
       class="w-full max-w-xs h-14 rounded-lg border border-gray-600 text-gray-300 font-medium text-lg active:bg-gray-800 transition-colors"
@@ -213,14 +204,11 @@
 import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useFormStore } from '@/composables/useFormStore.js'
-import { useGoogleAuth } from '@/composables/useGoogleAuth.js'
-import { useDriveSave } from '@/composables/useDriveSave.js'
 import { useSidebar } from '@/composables/useSidebar.js'
+import FormImageOverlay from '@/components/FormImageOverlay.vue'
 
 const router = useRouter()
-const { xlsxBytes, croppedImage, summary, reset } = useFormStore()
-const { accessToken, requestAccessToken } = useGoogleAuth()
-const { pickFolder, uploadFile } = useDriveSave()
+const { xlsxBytes, croppedImage, summary, rowBboxes, reset } = useFormStore()
 const { open: openSidebar } = useSidebar()
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -231,8 +219,6 @@ function xlsxBlob() {
   })
 }
 
-// Agent calls always use relative paths so the Vite proxy routes them to
-// localhost:8071 regardless of VUE_APP_API_BASE_URL.
 async function agentPost(path, formData) {
   const res = await fetch(path, { method: 'POST', body: formData })
   if (!res.ok) {
@@ -242,11 +228,18 @@ async function agentPost(path, formData) {
   return res
 }
 
-// ── Image ─────────────────────────────────────────────────────────────────────
-
-const croppedImageUrl = computed(() =>
-  croppedImage.value ? URL.createObjectURL(croppedImage.value) : null
-)
+async function lookupSpecies(query) {
+  const res = await fetch('/agent/lookup-species', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ query }),
+  })
+  if (!res.ok) {
+    const text = await res.text().catch(() => res.statusText)
+    throw new Error(text)
+  }
+  return res.json()
+}
 
 // ── Download ──────────────────────────────────────────────────────────────────
 
@@ -266,17 +259,18 @@ function download() {
 
 // ── Agent state ───────────────────────────────────────────────────────────────
 
-const typeMap      = ref(null)   // {col: {type, confidence, matched_keyword}}
-const allHeaders   = ref([])
-const typeMapConfirmed = ref(false)
-const speciesProposals = ref([]) // [{original, corrected, status, editing, editValue}]
-const agentError   = ref('')
+const typeMap           = ref(null)
+const allHeaders        = ref([])
+const typeMapConfirmed  = ref(false)
+const speciesProposals  = ref([])
+const activeProposal    = ref(null)
+const agentError        = ref('')
 
 const inferringTypes  = ref(false)
 const checkingSpecies = ref(false)
 const applyingSpecies = ref(false)
 const checkingSerial  = ref(false)
-const serialCount     = ref(null)   // number of rows renumbered, set after check-serial
+const serialCount     = ref(null)
 
 const hasSpecies = computed(() =>
   typeMap.value && Object.values(typeMap.value).some(v => v.type === 'species')
@@ -288,12 +282,33 @@ const unmatchedHeaders = computed(() => {
   if (!typeMap.value || !allHeaders.value.length) return []
   return allHeaders.value.filter(h => h && !typeMap.value[h])
 })
+
+// Primary: the first system_serial ("this row") — shown in red
+const primaryEntries = computed(() => {
+  if (!activeProposal.value || !rowBboxes.value) return []
+  const first = activeProposal.value.system_serials?.[0]
+  if (first == null) return []
+  const bbox = rowBboxes.value.get(first)
+  return bbox ? [{ serial: first, bbox }] : []
+})
+
+// Secondary: all other system_serials for this proposal — shown in amber
+const secondaryEntries = computed(() => {
+  if (!activeProposal.value || !rowBboxes.value) return []
+  return (activeProposal.value.system_serials ?? [])
+    .slice(1)
+    .map(s => ({ serial: s, bbox: rowBboxes.value.get(s) }))
+    .filter(e => e.bbox)
+})
+
+// Corrections to send: only proposals with a corrected value and no pending confirm
 const confirmedCorrections = computed(() =>
   speciesProposals.value
-    .filter(p => p.corrected || (p.editing && p.editValue) || p.editValue)
+    .filter(p => !p.pending_confirm && (p.corrected || p.editValue))
     .map(p => ({
       original: p.original,
       corrected: p.editValue || p.corrected,
+      system_serials: p.system_serials,
     }))
 )
 
@@ -301,6 +316,7 @@ function resetTypeMap() {
   typeMap.value = null
   typeMapConfirmed.value = false
   speciesProposals.value = []
+  activeProposal.value = null
   serialCount.value = null
   agentError.value = ''
 }
@@ -323,56 +339,7 @@ async function inferTypes() {
   }
 }
 
-// Stage 1 — get proposals
-async function checkSpecies() {
-  checkingSpecies.value = true
-  agentError.value = ''
-  speciesProposals.value = []
-  try {
-    const fd = new FormData()
-    fd.append('file', xlsxBlob(), 'form.xlsx')
-    fd.append('type_map', JSON.stringify(typeMap.value))
-    const data = await (await agentPost('/agent/check-species', fd)).json()
-    speciesProposals.value = data.proposals.map(p => ({
-      ...p,
-      editing: false,
-      editValue: p.corrected || '',
-    }))
-  } catch (e) {
-    agentError.value = `Species check failed: ${e.message}`
-  } finally {
-    checkingSpecies.value = false
-  }
-}
-
-function toggleEdit(p) {
-  p.editing = true
-}
-
-function doneEdit(p) {
-  p.editing = false
-}
-
-// Stage 1 — apply confirmed corrections
-async function applySpecies() {
-  applyingSpecies.value = true
-  agentError.value = ''
-  try {
-    const fd = new FormData()
-    fd.append('file', xlsxBlob(), 'form.xlsx')
-    fd.append('type_map', JSON.stringify(typeMap.value))
-    fd.append('corrections', JSON.stringify(confirmedCorrections.value))
-    const buf = await (await agentPost('/agent/apply-species', fd)).arrayBuffer()
-    xlsxBytes.value = buf
-    speciesProposals.value = []
-  } catch (e) {
-    agentError.value = `Apply failed: ${e.message}`
-  } finally {
-    applyingSpecies.value = false
-  }
-}
-
-// Stage 1 — serial (auto-applies, records count)
+// Stage 1a — serial
 async function checkSerial() {
   checkingSerial.value = true
   agentError.value = ''
@@ -390,45 +357,100 @@ async function checkSerial() {
   }
 }
 
-// ── Google Drive ──────────────────────────────────────────────────
-
-const driveState    = ref('idle')
-const driveError    = ref('')
-const driveLink     = ref('')
-const selectedFolder = ref(null)
-const driveFileName = ref('form_output.xlsx')
-
-async function startDriveSave() {
+// Stage 1b — get species proposals
+async function checkSpecies() {
+  checkingSpecies.value = true
+  agentError.value = ''
+  speciesProposals.value = []
+  activeProposal.value = null
   try {
-    let token = accessToken.value
-    if (!token) {
-      driveState.value = 'auth'
-      token = await requestAccessToken()
-    }
-    driveState.value = 'picking'
-    selectedFolder.value = await pickFolder(token)
-    driveState.value = 'ready'
+    const fd = new FormData()
+    fd.append('file', xlsxBlob(), 'form.xlsx')
+    fd.append('type_map', JSON.stringify(typeMap.value))
+    const data = await (await agentPost('/agent/check-species', fd)).json()
+    speciesProposals.value = data.proposals.map(p => ({
+      ...p,
+      editing:         false,
+      editValue:       p.matched_display || '',  // show the "via" word, not the scientific name
+      looking_up:      false,
+      pending_confirm: false,
+      reviewed:        false,
+    }))
+    activeProposal.value = speciesProposals.value[0] ?? null
   } catch (e) {
-    driveError.value = e.message || 'Something went wrong'
-    driveState.value = 'error'
+    agentError.value = `Species check failed: ${e.message}`
+  } finally {
+    checkingSpecies.value = false
   }
 }
 
-async function doUpload() {
-  if (!selectedFolder.value || !driveFileName.value.trim()) return
+function toggleEdit(p) {
+  p.editing = true
+}
+
+async function doneEdit(p) {
+  const changed = p.editValue.trim() !== (p.matched_display || '')
+  p.editing = false
+
+  if (!changed) {
+    p.reviewed = true
+    return
+  }
+
+  p.looking_up = true
+  agentError.value = ''
   try {
-    driveState.value = 'uploading'
-    const result = await uploadFile(
-      accessToken.value,
-      selectedFolder.value.id,
-      driveFileName.value.trim(),
-      xlsxBytes.value,
-    )
-    driveLink.value = result.webViewLink || ''
-    driveState.value = 'done'
+    const match = await lookupSpecies(p.editValue.trim())
+    p.corrected      = match.corrected
+    p.matched_display = match.matched_display
+    p.match_field    = match.match_field
+    p.score          = match.score
+    // Reset edit box to the new matched display so next edit starts from there
+    p.editValue      = match.matched_display || p.editValue
+
+    if (p.system_serials.length > 1) {
+      p.pending_confirm = true
+    } else {
+      p.reviewed = true
+    }
   } catch (e) {
-    driveError.value = e.message || 'Upload failed'
-    driveState.value = 'error'
+    agentError.value = `Lookup failed: ${e.message}`
+    p.reviewed = true
+  } finally {
+    p.looking_up = false
+  }
+}
+
+// Apply new match to all rows this proposal covers
+function applyToAll(p) {
+  p.pending_confirm = false
+  p.reviewed = true
+}
+
+// Apply new match to the first (highlighted) row only
+function applyToOne(p) {
+  p.system_serials = [p.system_serials[0]]
+  p.pending_confirm = false
+  p.reviewed = true
+}
+
+// Stage 2 — write corrections back to xlsx
+async function applySpecies() {
+  applyingSpecies.value = true
+  agentError.value = ''
+  try {
+    const fd = new FormData()
+    fd.append('file', xlsxBlob(), 'form.xlsx')
+    fd.append('type_map', JSON.stringify(typeMap.value))
+    fd.append('corrections', JSON.stringify(confirmedCorrections.value))
+    const buf = await (await agentPost('/agent/apply-species', fd)).arrayBuffer()
+    xlsxBytes.value = buf
+    speciesProposals.value = []
+    activeProposal.value = null
+  } catch (e) {
+    agentError.value = `Save failed: ${e.message}`
+  } finally {
+    applyingSpecies.value = false
   }
 }
 

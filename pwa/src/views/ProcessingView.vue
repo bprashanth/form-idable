@@ -25,7 +25,7 @@ import { useFormStore } from '@/composables/useFormStore.js'
 import { apiFetch } from '@/composables/useApi.js'
 
 const router = useRouter()
-const { croppedImage, xlsxBytes, summary } = useFormStore()
+const { croppedImage, xlsxBytes, summary, rowBboxes } = useFormStore()
 const error = ref(null)
 
 async function upload() {
@@ -45,17 +45,12 @@ async function upload() {
       throw new Error(text || `Server error ${res.status}`)
     }
 
-    xlsxBytes.value = await res.arrayBuffer()
-
-    // Read optional summary header
-    const summaryHeader = res.headers.get('X-Form-Summary')
-    if (summaryHeader) {
-      try {
-        summary.value = JSON.parse(summaryHeader)
-      } catch {
-        // gracefully degrade — summary card won't render
-      }
-    }
+    const payload = await res.json()
+    xlsxBytes.value = Uint8Array.from(atob(payload.xlsx), c => c.charCodeAt(0)).buffer
+    summary.value = payload.summary ?? null
+    rowBboxes.value = new Map(
+      (payload.rows ?? []).map(r => [r.system_serial, r.bbox])
+    )
 
     router.push({ name: 'result' })
   } catch (e) {

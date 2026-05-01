@@ -1,6 +1,8 @@
 from io import BytesIO
 from openpyxl import load_workbook
 
+from config import SYSTEM_SERIAL_HEADER
+
 
 def _find_header_row(ws):
     """Return (row_idx, {col_int: col_name}) for the first row with 2+ bold cells."""
@@ -14,18 +16,16 @@ def _find_header_row(ws):
 def get_headers(xlsx_bytes: bytes) -> list:
     wb = load_workbook(BytesIO(xlsx_bytes))
     _, header_map = _find_header_row(wb.active)
-    return [str(v) for v in header_map.values()]
+    return [str(v) for v in header_map.values() if str(v) != SYSTEM_SERIAL_HEADER]
 
 
-def extract_species_with_serial(
-    xlsx_bytes: bytes, species_cols: list, serial_cols: list
-) -> list:
+def extract_species_with_system_serials(xlsx_bytes: bytes, species_cols: list) -> list:
     """
-    Walk rows once and collect unique species values alongside the serial number
-    of the first row they appear in (post serial-correction, serial values are
-    clean integers 1-N).  Falls back to row index when no serial column exists.
+    Walk data rows and collect unique species values with all system_serials
+    (from the SYSTEM_SERIAL_HEADER column) where each value appears.
 
-    Returns [{"value": str, "first_serial": int}] in insertion order.
+    Returns [{value, system_serials: [int]}] in first-appearance order.
+    Raises ValueError if the reserved column is absent.
     """
     wb = load_workbook(BytesIO(xlsx_bytes))
     ws = wb.active
@@ -35,38 +35,51 @@ def extract_species_with_serial(
 
     name_to_col = {str(v): k for k, v in header_map.items()}
     species_col_idxs = {name_to_col[n] for n in species_cols if n in name_to_col}
-    serial_col_idx = next(
-        (name_to_col[n] for n in serial_cols if n in name_to_col), None
-    )
+    system_serial_col = name_to_col.get(SYSTEM_SERIAL_HEADER)
 
-    seen: dict = {}
-    row_num = 1
+    if system_serial_col is None:
+        raise ValueError(
+            f"Reserved column '{SYSTEM_SERIAL_HEADER}' not found — "
+            "workbook must be produced by Good Shepherd upload"
+        )
+
+    seen: dict = {}  # value -> [system_serial, ...]
+
     for row in ws.iter_rows(min_row=header_row_idx + 1):
         row_by_col = {c.column: c for c in row}
 
-        serial = row_num  # fallback when no serial column or bad value
-        if serial_col_idx and serial_col_idx in row_by_col:
-            sv = row_by_col[serial_col_idx].value
-            if sv is not None:
-                try:
-                    serial = int(sv)
-                except (ValueError, TypeError):
-                    pass
+        sys_cell = row_by_col.get(system_serial_col)
+        if sys_cell is None or sys_cell.value is None:
+            continue
+        try:
+            system_serial = int(sys_cell.value)
+        except (ValueError, TypeError):
+            continue
 
         for cell in row:
             if cell.column in species_col_idxs and cell.value is not None:
                 v = str(cell.value).strip()
-                if v and v not in seen:
-                    seen[v] = serial
+                if v:
+                    seen.setdefault(v, []).append(system_serial)
 
-        row_num += 1
-
-    return [{"value": v, "first_serial": s} for v, s in seen.items()]
+    return [{"value": v, "system_serials": serials} for v, serials in seen.items()]
 
 
 def apply_species_corrections(xlsx_bytes: bytes, col_names: list, corrections: list) -> bytes:
-    """corrections: [{original, corrected}] — only the confirmed ones."""
-    correction_map = {c["original"]: c["corrected"] for c in corrections if c.get("corrected")}
+    """
+    corrections: [{original, corrected, system_serials: [int]}]
+
+    Applies each correction only to rows whose SYSTEM_SERIAL_HEADER value is in
+    the correction's system_serials list. system_serials is always required.
+    """
+    # Build lookup: original -> {corrected, system_serials_set}
+    correction_map = {}
+    for c in corrections:
+        if c.get("corrected") and c.get("system_serials"):
+            correction_map[c["original"]] = {
+                "corrected": c["corrected"],
+                "system_serials": set(c["system_serials"]),
+            }
 
     wb = load_workbook(BytesIO(xlsx_bytes))
     ws = wb.active
@@ -78,13 +91,26 @@ def apply_species_corrections(xlsx_bytes: bytes, col_names: list, corrections: l
 
     name_to_col = {str(v): k for k, v in header_map.items()}
     target_cols = {name_to_col[n] for n in col_names if n in name_to_col}
+    system_serial_col = name_to_col.get(SYSTEM_SERIAL_HEADER)
 
     for row in ws.iter_rows(min_row=header_row_idx + 1):
+        row_by_col = {c.column: c for c in row}
+
+        sys_cell = row_by_col.get(system_serial_col)
+        if sys_cell is None or sys_cell.value is None:
+            continue
+        try:
+            system_serial = int(sys_cell.value)
+        except (ValueError, TypeError):
+            continue
+
         for cell in row:
             if cell.column in target_cols and cell.value is not None:
                 v = str(cell.value).strip()
                 if v in correction_map:
-                    cell.value = correction_map[v]
+                    entry = correction_map[v]
+                    if system_serial in entry["system_serials"]:
+                        cell.value = entry["corrected"]
 
     out = BytesIO()
     wb.save(out)
@@ -92,8 +118,7 @@ def apply_species_corrections(xlsx_bytes: bytes, col_names: list, corrections: l
 
 
 def apply_serial_numbering(xlsx_bytes: bytes, col_names: list) -> tuple:
-    """Returns (corrected_bytes, row_count) where row_count is the number of
-    data rows renumbered (same across all serial columns)."""
+    """Returns (corrected_bytes, row_count). Skips the reserved system column."""
     wb = load_workbook(BytesIO(xlsx_bytes))
     ws = wb.active
     header_row_idx, header_map = _find_header_row(ws)
@@ -103,7 +128,10 @@ def apply_serial_numbering(xlsx_bytes: bytes, col_names: list) -> tuple:
         return out.getvalue(), 0
 
     name_to_col = {str(v): k for k, v in header_map.items()}
-    target_cols = {name_to_col[n] for n in col_names if n in name_to_col}
+    target_cols = {
+        name_to_col[n] for n in col_names
+        if n in name_to_col and n != SYSTEM_SERIAL_HEADER
+    }
 
     count = 0
     for col_idx in target_cols:
