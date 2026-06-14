@@ -1,168 +1,100 @@
 # form-idable
 
-A pipeline that converts handwritten field-survey forms into structured datasets using AWS Textract, with a human-in-the-loop review UI.
+A mobile-first tool for digitising ecological survey forms. Field workers photograph paper forms; the app extracts the data into a spreadsheet and applies ecological domain knowledge to correct common OCR errors before the researcher downloads the file.
 
-## The problem
-
-Researchers collect ecological data on printed paper forms in the field. These forms have handwritten entries like species names, DBH measurements, GPS coordinates, and plot metadata. Digitizing hundreds of these forms manually is slow and error-prone.
-
-## How it works
+## Components
 
 ```
-  Photo of a form (JPG/PNG)
-         |
-         v
-  |---------------|
-  | AWS Textract  |  Extracts tables, cells, key-value pairs
-  | (TABLES+FORMS |  with bounding boxes and confidence scores
-  |  +LAYOUT)     |
-  |---------------|
-         |  Raw Textract JSON (WORD, CELL, MERGED_CELL, KEY_VALUE_SET blocks)
-         v
-  |---------------|
-  | preprocessor  |  Classifies rows (header vs data vs universal),
-  | .py           |  builds header maps, extracts key-value fields,
-  |---------------|  outputs structured intermediate format
-         |
-         v
-  |---------------|
-  | form-viewer   |  Vue 3 app: overlays bounding boxes on the
-  | (UI)          |  original image, lets you review and correct
-  |---------------|  extracted values, then export clean JSON
-         |
-         v
-   Corrected structured JSON → ready for Excel/database
+pwa/           Vue 3 PWA — the mobile interface used in the field
+agent/         FastAPI post-processing server — ecological context handlers
+good-shepherd  Serverless OCR backend (separate repo, deployed independently)
 ```
 
-## Directory layout
+See [pwa/README.md](pwa/README.md) and [agent/README.md](agent/README.md) for component-level quickstart and deployment instructions.
+
+---
+
+## Architecture
+
+### End-to-end flow
 
 ```
-cloud/                  AWS Textract pipeline (the main processing code)
-  |--- preprocessor.py   Textract JSON → intermediate format (row classification,
-  |                     universal fields, hierarchical headers, bounding boxes)
-  |--- top_down_preprocess.py   Simpler alternative preprocessor
-  |--- overlay.py        Debug tool: draws colored bboxes on the original image
-  |--- forms/            Input images (original + segmented)
-  |--- output/           Raw Textract JSON and processing artifacts
-  |--- results/          Final classified JSON output
-  |--- hack/             AWS management scripts
-
-form-viewer/            Vue 3 review UI
-  |--- src/
-  |   |--- App.vue             Root layout + state management
-  |   |--- components/
-  |   |   |--- FormViewer.vue  Canvas: renders image + overlay boxes
-  |   |   |--- BoxOverlay.vue  Single bounding box (color-coded by confidence)
-  |   |   |--- ToolBar.vue     File upload, zoom, save
-  |   |   |--- SidePanel.vue   Edit rows, headers, universal fields
-  |   |   |--- VisualizationPanel.vue  AI-generated charts via Vega-Lite
-  |   |--- assets/
-  |--- package.json            Vue 3, Vite, Tailwind CSS
-
-docs/                   Design docs
-  |--- imf.md            Intermediate format spec (the JSON schema)
-  |--- form_types.md     Supported form types
-  |--- challenges.md     Known issues (sparse headers, merged cells, etc.)
-  |--- ui.md             UI architecture and phasing
-
-input_forms/            Sample form photos
-llm/                    (Legacy) LLM-based extraction using OpenAI prompts
+User (mobile)
+  │  captures photo of paper form
+  ▼
+pwa/ (Vue PWA, hosted on Netlify)
+  │  POST /api/upload  →  good-shepherd (AWS Lambda + Textract)
+  │                        • runs AWS Textract on the image
+  │                        • converts the table into an .xlsx workbook
+  │                        • writes a "(Good Shepherd) Row ID" column for row-stable joins
+  │                        • returns: xlsx (base64), row bboxes, summary
+  │
+  │  [user reviews the result screen]
+  │
+  │  POST /agent/infer-types  →  agent server (AWS Lambda)
+  │                               • fuzzy-matches column headers against cheatsheet.json
+  │                               • returns type_map: {col → {type, confidence, keyword}}
+  │
+  │  [user confirms the detected column types]
+  │
+  │  POST /agent/check-serial →  agent server
+  │                               • rewrites serial-number columns 1…N
+  │                               • returns corrected .xlsx
+  │
+  │  POST /agent/check-species → agent server
+  │                               • fuzzy-matches each unique species cell value against
+  │                                 the species dictionary (abbr / expanded / Toda name)
+  │                               • returns proposals: [{original, corrected, score, …}]
+  │
+  │  [user reviews proposals, edits if needed, confirms]
+  │
+  │  POST /agent/apply-species → agent server
+  │                               • writes accepted corrections back into the .xlsx
+  │                               • returns corrected .xlsx
+  │
+  ▼
+  user downloads corrected .xlsx
 ```
 
-## Quick start
+### Network routing
 
-### 1. Extract text with Textract
+| Request path | Dev (Vite proxy) | Production (Netlify) |
+|---|---|---|
+| `/api/*` | → `localhost:8070` (good-shepherd) | → absolute URL baked in at build time via `VUE_APP_API_BASE_URL` |
+| `/agent/*` | → `localhost:8071` (agent server) | → Lambda Function URL via `netlify.toml` redirect |
 
-From an S3 object:
-```bash
-aws textract analyze-document \
-  --region ap-south-1 \
-  --document '{"S3Object": {"Bucket":"your-bucket","Name":"form.png"}}' \
-  --feature-types '["TABLES","FORMS","LAYOUT"]' \
-  --output json > textract_output.json
-```
+See [docs/manuals/deployment.md](docs/manuals/deployment.md) for environment variable details.
 
-Or from a local file:
-```bash
-aws textract analyze-document \
-  --region ap-south-1 \
-  --document '{"Bytes": "'$(base64 form.png | tr -d '\n')'"}' \
-  --feature-types '["TABLES","FORMS","LAYOUT"]' \
-  --output json > textract_output.json
-```
+---
 
-### 2. Preprocess into intermediate format
+## The ecological context layer (agent server)
 
-```bash
-cd cloud
-python3 preprocessor.py \
-  --input textract_output.json \
-  --output classified.json \
-  --debug
-```
+Ecological forms contain columns that Textract handles poorly out of the box:
 
-This produces a JSON with three sections:
-- **`universal_fields`** -- metadata that applies to every row (date, plot number, researcher name, etc.)
-- **`header_map`** -- column definitions with Textract column indices and merge info
-- **`rows`** -- data rows, each with cell-level bounding boxes and confidence scores
+- **Species names** — hand-written abbreviations or local (Toda) dialect names that Textract guesses phonetically and gets wrong.
+- **Serial numbers** — OCR often misreads or skips cells; the true values are deterministic (1, 2, 3 …).
 
-See [docs/imf.md](docs/imf.md) for the full schema.
+The agent server encodes this domain knowledge in *handlers* — one per column type. Each handler lives in `agent/server/routers/` and is backed by a service in `agent/server/services/`. The column type assigned to a header (via `cheatsheet.json`) determines which handler runs.
 
-### 3. Review in the UI
+### Current handlers
 
-```bash
-cd form-viewer
-npm install
-npm run dev
-```
+| Type | Endpoints | What it does |
+|---|---|---|
+| `serial` | `/agent/check-serial` | Replaces OCR values with sequential integers; row count returned in `X-Row-Count` header |
+| `species` | `/agent/check-species`, `/agent/apply-species`, `/agent/lookup-species` | Fuzzy-matches cell values against `data/species_name.csv` (abbreviation, expanded Latin name, Toda dialect name) using rapidfuzz; user reviews and accepts/edits proposals before they are written back |
 
-Open the app, upload the classified JSON and the original form image. The UI overlays bounding boxes on the image color-coded by confidence:
-- **Red glow**: confidence < 70% (needs review)
-- **Orange glow**: 70-85%
-- **No border**: 85%+ (likely correct)
+### Column type discovery (cheatsheet)
 
-Click any box to edit its value in the side panel. Universal fields and headers are also editable. When done, hit Save to export corrected JSON.
+`agent/server/cheatsheet.json` maps type names to header keywords. `fuzzy.infer_types()` does a substring match (both directions) between each column header and the keyword list — returning `high` confidence on an exact match, `medium` on a substring match.
 
-### 4. Debug with overlay
+The cheatsheet is editable at runtime through the PWA sidebar (`/agent/cheatsheet` GET/PUT) without redeploying the server.
 
-To visually inspect what Textract detected on the raw image:
-```bash
-cd cloud
-python3 overlay.py --image forms/original/form.jpg --json output/form.json
-```
+### Species dictionary
 
-Draws color-coded rectangles for tables (yellow), key-value pairs (green), header cells (red), and data cells (blue).
+`agent/server/data/species_name.csv` has three fields per entry: `Species name Abbr`, `Species name expanded`, `Toda name`. The fuzzy matcher searches all three fields so that a field worker writing "kage" (the Toda name) or "Kage" (the abbreviation) both resolve to *Litsea wightiana*. New entries can be added through the PWA sidebar or via `POST /agent/species-db/entry`.
 
-## Intermediate format (summary)
+---
 
-```json
-{
-  "universal_fields": {
-    "date": { "value": "19/02/2025", "system": { "group_id": "universal_field_1", "valid": true } },
-    "area_name": { "value": "BKM", "system": { "group_id": "universal_field_2", "valid": true } }
-  },
-  "header_map": {
-    "s_no": { "field_name": "S.No", "system": { "column_index": 1, "merged": false } },
-    "spp_name": { "field_name": "SPP Name", "system": { "column_index": 2, "merged": false } }
-  },
-  "rows": [
-    {
-      "s_no": "1",
-      "spp_name": "cadelei",
-      "system": {
-        "row_index": 2,
-        "bbox": { "Left": 0.065, "Top": 0.227, "Width": 0.748, "Height": 0.012 },
-        "cells": {
-          "row_2_col_1": { "text": "1", "confidence": 95.2, "bbox": { "..." : "..." } }
-        }
-      }
-    }
-  ]
-}
-```
+## Adding a new ecological context handler
 
-## Requirements
-
-- **Python 3.10+** with packages in `requirements.txt`
-- **AWS CLI** configured with Textract access
-- **Node.js 20+** for the form-viewer UI
+See [docs/manuals/new-handler.md](docs/manuals/new-handler.md).
