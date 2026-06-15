@@ -21,6 +21,14 @@
       Choose from Gallery
       <input type="file" accept="image/*" class="sr-only" @change="onFile" />
     </label>
+
+    <!-- PDF flow -->
+    <button
+      class="flex items-center justify-center w-full max-w-xs h-14 rounded-lg border border-gray-600 text-gray-300 font-medium text-lg active:bg-gray-800 transition-colors"
+      @click="router.push({ name: 'pdf-upload' })"
+    >
+      Scan PDF
+    </button>
   </div>
 </template>
 
