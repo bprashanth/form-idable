@@ -1,0 +1,15 @@
+Done. I wrote `/workspace/output.xlsx` with one sheet named `v2`.
+
+Transcribed:
+- Header metadata: trail, date, observers, weather, start time, notes
+- Main tree phenology table: 37 data rows, 15 columns
+
+Corrections/handling:
+- Corrected observers to `Vanidas & Moorthi`
+- Normalized start time to `9:12 am`
+- Moved `DEAD/DRY tree (May 2017)` for tree 30 into the Notes column
+
+Flagged uncertain cells:
+- `F33:O33` are yellow-filled because the dead/dry annotation obscures the phenology columns for that row.
+
+No `v2_meta.json` was created because I did not add any section outside the existing v1 table/key-value structure.

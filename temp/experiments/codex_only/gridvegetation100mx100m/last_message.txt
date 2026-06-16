@@ -1,0 +1,12 @@
+Created `/workspace/output.xlsx` with one sheet named `v2`.
+
+It contains all 6 visible datasheets from the 3-page PDF: two forms per page, with metadata, alien-tree tables, alien-plant-prevalence tables, blank grid rows, “Other species” lines, disturbance notes, and marginal sketch/annotation notes.
+
+I flagged uncertain transcription cells in yellow. Main uncertainty areas are:
+
+- faint/unclear observers, dates, GPS/notes on page 3
+- ambiguous extra species names such as `Entimena (?)`, `B. oak (?)`, and crossed-out `Spathodea (?)`
+- several faint quarter marks on page 2 and page 3
+- page 3 bottom Q1 cells where a continuous vertical line appears, left blank and noted as no entry
+
+The workbook also lists all yellow-flagged cell coordinates near the bottom of `v2`.

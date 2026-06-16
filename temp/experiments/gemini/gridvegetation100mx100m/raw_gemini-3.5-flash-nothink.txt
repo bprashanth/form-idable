@@ -1,0 +1,295 @@
+{
+  "sheets": [
+    {
+      "name": "M13: Metadata",
+      "rows": [
+        ["Field", "Value"],
+        ["Grid no", "M13"],
+        ["Date", "29th April '16"],
+        ["Observer", "SK, S.P.S."],
+        ["Grid Centroid GPS", "10.31305 76.83210"],
+        ["Altitude", ""],
+        ["Slope (clinometer)", "15"],
+        ["Canopy density", "Open (<5%) / Sparse / Moderate / High"],
+        ["Canopy composition", "Mostly Exotic / Mixed / Mostly Native"],
+        ["Disturbance", "metal wires, drip-irrigat. pipes."],
+        ["Canopy Density Sketch", "N: S, S | S: S, S"],
+        ["Canopy Composition Sketch", "N: M, M | S: M, M"]
+      ]
+    },
+    {
+      "name": "M13: Alien trees (Presence/Absence)",
+      "rows": [
+        ["No", "Species", "Quarter1", "Quarter2", "Quarter3", "Quarter4", "Comments / notes"],
+        ["1", "Silver oak", "✓", "", "✓", "✓", ""],
+        ["2", "Maesopsis", "✓", "", "✓", "✓", ""],
+        ["3", "Spathodea", "✗", "✗", "✗", "✗", ""],
+        ["4", "Eucalyptus", "✗", "✗", "✗", "✗", ""],
+        ["5", "Other*", "", "", "", "", ""],
+        ["*", "Other species", "Coffee", "", "", "", ""]
+      ]
+    },
+    {
+      "name": "M13: Legend",
+      "rows": [
+        ["Legend", "Cover: 0 = Absent, 1 = Low <33%, 2 = Med 33-67%; 3 = High >67%; Quarters: note P/A"]
+      ]
+    },
+    {
+      "name": "M13: Alien plant prevalence",
+      "rows": [
+        ["Species", "Cover", "Quarter1", "Quarter2", "Quarter3", "Quarter4", "Comments / notes"],
+        ["Lantana", "", "✗", "✗", "✗", "✗", ""],
+        ["Chromolaena", "low", "✓", "✓", "✓", "✓", ""],
+        ["Mikania", "low", "✓", "✓", "✓", "✓", ""],
+        ["Wedelia", "", "✗", "✓", "✗", "✗", ""],
+        ["Montanoa", "", "✓", "✗", "✓", "✗", ""],
+        ["Gliricidia", "low", "✓", "✗", "✗", "✓", ""],
+        ["Polygonum", "low", "✓", "✓", "✓", "✓", ""],
+        ["Other*", "", "", "", "", "", ""]
+      ]
+    },
+    {
+      "name": "L13: Metadata",
+      "rows": [
+        ["Field", "Value"],
+        ["Grid no", "L13"],
+        ["Date", "29th Apr '16"],
+        ["Observer", "SK, PS"],
+        ["Grid Centroid GPS", "10.31309 76.83302"],
+        ["Altitude", ""],
+        ["Slope (clinometer)", "20"],
+        ["Canopy density", "Open (<5%) / Sparse / Moderate / High"],
+        ["Canopy composition", "Mostly Exotic / Mixed / Mostly Native"],
+        ["Disturbance", "Eucalyptus"],
+        ["Canopy Density Sketch", "N: S, S | S: S, S"],
+        ["Canopy Composition Sketch", "N: M, M | S: M, M"]
+      ]
+    },
+    {
+      "name": "L13: Alien trees (Presence/Absence)",
+      "rows": [
+        ["No", "Species", "Quarter1", "Quarter2", "Quarter3", "Quarter4", "Comments / notes"],
+        ["1", "Silver oak", "✗", "✗", "✓", "✓", ""],
+        ["2", "Maesopsis", "✓", "✓", "✓", "✓", ""],
+        ["3", "Spathodea", "✗", "✗", "✓", "✓", ""],
+        ["4", "Eucalyptus", "✗", "✗", "✓", "✓", ""],
+        ["5", "Other*", "", "", "", "", ""],
+        ["*", "Other species", "coffee", "", "", "", ""]
+      ]
+    },
+    {
+      "name": "L13: Legend",
+      "rows": [
+        ["Legend", "Cover: 0 = Absent, 1 = Low <33%, 2 = Med 33-67%; 3 = High >67%; Quarters: note P/A"]
+      ]
+    },
+    {
+      "name": "L13: Alien plant prevalence",
+      "rows": [
+        ["Species", "Cover", "Quarter1", "Quarter2", "Quarter3", "Quarter4", "Comments / notes"],
+        ["Lantana", "low", "✓", "✓", "✓", "✓", ""],
+        ["Chromolaena", "low", "✓", "✓", "✓", "✓", ""],
+        ["Mikania", "low", "✓", "✓", "✓", "✓", ""],
+        ["Wedelia", "High", "✓", "✓", "✓", "✓", ""],
+        ["Montanoa", "", "✗", "✗", "✗", "✗", ""],
+        ["Gliricidia", "low", "✓", "✓", "✓", "✓", ""],
+        ["Polygonum", "low", "✗", "✓", "✓", "✓", ""],
+        ["Other*", "", "", "", "", "", ""]
+      ]
+    },
+    {
+      "name": "K11: Metadata",
+      "rows": [
+        ["Field", "Value"],
+        ["Grid no", "K11"],
+        ["Date", "27/4/2016"],
+        ["Observer", "PS, MKS, CG, Sund, Sila"],
+        ["Grid Centroid GPS", "10.31125 76.83393"],
+        ["Altitude", ""],
+        ["Slope (clinometer)", "10°"],
+        ["Canopy density", "Open (<5%) / Sparse / Moderate / High"],
+        ["Canopy composition", "Mostly Exotic / Mixed / Mostly Native"],
+        ["Disturbance", "plastic pipes, metal wire, coffee"],
+        ["Canopy Sketch", "N: S, S | S: S, S"],
+        ["Canopy Composition Sketch", "N: N, N | S: N, N"]
+      ]
+    },
+    {
+      "name": "K11: Alien trees (Presence/Absence)",
+      "rows": [
+        ["No", "Species", "Quarter1", "Quarter2", "Quarter3", "Quarter4", "Comments / notes"],
+        ["1", "Silver oak", "∝", "✓", "∝", "✓", ""],
+        ["2", "Maesopsis", "✓", "✓", "✓", "✓", ""],
+        ["3", "Spathodea", "✓", "✓", "✓", "✓", ""],
+        ["4", "Eucalyptus", "∝", "∝", "✓", "✓", ""],
+        ["5", "Other*", "", "", "", "", ""]
+      ]
+    },
+    {
+      "name": "K11: Legend",
+      "rows": [
+        ["Legend", "Cover: 0 = Absent, 1 = Low <33%, 2 = Med 33-67%; 3 = High >67%; Quarters: note P/A"]
+      ]
+    },
+    {
+      "name": "K11: Alien plant prevalence",
+      "rows": [
+        ["Species", "Cover", "Quarter1", "Quarter2", "Quarter3", "Quarter4", "Comments / notes"],
+        ["Lantana", "low", "∝", "✓", "✓", "∝", ""],
+        ["Chromolaena", "low", "✓", "✓", "✓", "✓", ""],
+        ["Mikania", "low", "✓", "✓", "✓", "✓", ""],
+        ["Wedelia", "low", "∝", "✓", "✓", "∝", ""],
+        ["Montanoa", "0", "∝", "∝", "∝", "∝", ""],
+        ["Gliricidia", "0", "∝", "∝", "∝", "∝", ""],
+        ["Polygonum", "low", "✓", "✓", "✓", "✓", ""],
+        ["Other*", "", "", "", "", "", ""]
+      ]
+    },
+    {
+      "name": "J11-02: Metadata",
+      "rows": [
+        ["Field", "Value"],
+        ["Grid no", "J11-02 (South 160m from J11)"],
+        ["Date", "27/4/2016"],
+        ["Observer", "MKS, PS, CG, Sund, Sila"],
+        ["Grid Centroid GPS", "10.31113 76.83479"],
+        ["Altitude", "922 m"],
+        ["Slope (clinometer)", "27°"],
+        ["Canopy density", "Open (<5%) / Sparse / Moderate / High"],
+        ["Canopy composition", "Mostly Exotic / Mixed / Mostly Native"],
+        ["Disturbance", "Tea, plastic pipes"],
+        ["Canopy Sketch", "N: S, Tea | S: S, S"],
+        ["Canopy Composition Sketch", "N: E, E | S: N, N"]
+      ]
+    },
+    {
+      "name": "J11-02: Alien trees (Presence/Absence)",
+      "rows": [
+        ["No", "Species", "Quarter1", "Quarter2", "Quarter3", "Quarter4", "Comments / notes"],
+        ["1", "Silver oak", "✗", "✗", "✓", "✓", ""],
+        ["2", "Maesopsis", "✓", "✓", "✓", "✓", ""],
+        ["3", "Spathodea", "✓", "✓", "✓", "✓", ""],
+        ["4", "Eucalyptus", "✗", "✗", "✗", "✓", ""],
+        ["5", "Other*", "", "", "", "", ""]
+      ]
+    },
+    {
+      "name": "J11-02: Legend",
+      "rows": [
+        ["Legend", "Cover: 0 = Absent, 1 = Low <33%, 2 = Med 33-67%; 3 = High >67%; Quarters: note P/A"]
+      ]
+    },
+    {
+      "name": "J11-02: Alien plant prevalence",
+      "rows": [
+        ["Species", "Cover", "Quarter1", "Quarter2", "Quarter3", "Quarter4", "Comments / notes"],
+        ["Lantana", "low", "", "✓", "✓", "✓", ""],
+        ["Chromolaena", "low", "", "✓", "✓", "✓", ""],
+        ["Mikania", "low", "", "✓", "✓", "✓", ""],
+        ["Wedelia", "low", "", "✓", "✓", "✓", ""],
+        ["Montanoa", "", "∝", "∝", "∝", "∝", ""],
+        ["Gliricidia", "", "∝", "✓", "✓", "✓", ""],
+        ["Polygonum", "low", "", "✓", "✓", "✓", ""]
+      ]
+    },
+    {
+      "name": "M15: Metadata",
+      "rows": [
+        ["Field", "Value"],
+        ["Grid no", "M15"],
+        ["Date", "28.4.2016"],
+        ["Observer", "S.K., M.K.S., P.S., Sundery"],
+        ["Grid Centroid GPS", "10.31490 76.83122"],
+        ["Altitude", ""],
+        ["Slope (clinometer)", "20°"],
+        ["Canopy density", "Open (<5%) / Sparse / Moderate / High"],
+        ["Canopy composition", "Mostly Exotic / Mixed / Mostly Native"],
+        ["Disturbance", "Tree Cutting"],
+        ["Canopy Sketch", "N: M, S | S: S, S"],
+        ["Canopy Composition Sketch", "N: N, N | S: N, N"]
+      ]
+    },
+    {
+      "name": "M15: Alien trees (Presence/Absence)",
+      "rows": [
+        ["No", "Species", "Quarter1", "Quarter2", "Quarter3", "Quarter4", "Comments / notes"],
+        ["1", "Silver oak", "∝", "∝", "∝", "✓", ""],
+        ["2", "Maesopsis", "✓", "✓", "✓", "✓", ""],
+        ["3", "Spathodea", "∝", "∝", "∝", "✓", ""],
+        ["4", "Eucalyptus", "∝", "∝", "∝", "✓", ""],
+        ["5", "Other*", "", "", "", "", ""],
+        ["*", "Other species", "Erithrina (?)", "", "", "", ""]
+      ]
+    },
+    {
+      "name": "M15: Legend",
+      "rows": [
+        ["Legend", "Cover: 0 = Absent, 1 = Low <33%, 2 = Med 33-67%; 3 = High >67%; Quarters: note P/A"]
+      ]
+    },
+    {
+      "name": "M15: Alien plant prevalence",
+      "rows": [
+        ["Species", "Cover", "Quarter1", "Quarter2", "Quarter3", "Quarter4", "Comments / notes"],
+        ["Lantana", "0", "∝", "∝", "∝", "∝", ""],
+        ["Chromolaena", "low", "✓", "✓", "✓", "✓", ""],
+        ["Mikania", "low", "✓", "✓", "✓", "✓", ""],
+        ["Wedelia", "0", "∝", "∝", "∝", "∝", ""],
+        ["Montanoa", "0", "∝", "∝", "∝", "∝", ""],
+        ["Gliricidia", "0", "∝", "∝", "∝", "∝", ""],
+        ["Polygonum", "low", "✓", "✓", "✓", "✓", ""]
+      ]
+    },
+    {
+      "name": "M15 (Second Sheet): Metadata",
+      "rows": [
+        ["Field", "Value"],
+        ["Grid no", "M15"],
+        ["Date", "28.4.2016"],
+        ["Observer", "SK, MKS, PS, Sundery"],
+        ["Grid Centroid GPS", "10.31488 76.83214"],
+        ["Altitude", ""],
+        ["Slope (clinometer)", "21°"],
+        ["Canopy density", "Open (<5%) / Sparse / Moderate / High"],
+        ["Canopy composition", "Mostly Exotic / Mixed / Mostly Native"],
+        ["Disturbance", "Tree Cutting"],
+        ["Canopy Sketch", "N: S, S | S: S, S"],
+        ["Canopy Composition Sketch", "N: N, N | S: N, N"],
+        ["Notes", "Nilgiri langur"]
+      ]
+    },
+    {
+      "name": "M15 (Second Sheet): Alien trees (Presence/Absence)",
+      "rows": [
+        ["No", "Species", "Quarter1", "Quarter2", "Quarter3", "Quarter4", "Comments / notes"],
+        ["1", "Silver oak", "✗", "✓", "✓", "✓", ""],
+        ["2", "Maesopsis", "✓", "✓", "✓", "✓", ""],
+        ["3", "Spathodea", "✗", "✗", "✗", "✗", ""],
+        ["4", "Eucalyptus", "✗", "✗", "✓", "✓", ""],
+        ["5", "Other*", "", "", "", "", ""],
+        ["*", "Other species", "Erithrina", "", "", "", ""]
+      ]
+    },
+    {
+      "name": "M15 (Second Sheet): Legend",
+      "rows": [
+        ["Legend", "Cover: 0 = Absent, 1 = Low <33%, 2 = Med 33-67%; 3 = High >67%; Quarters: note P/A"]
+      ]
+    },
+    {
+      "name": "M15 (Second Sheet): Alien plant prevalence",
+      "rows": [
+        ["Species", "Cover", "Quarter1", "Quarter2", "Quarter3", "Quarter4", "Comments / notes"],
+        ["Lantana", "0", "∝", "∝", "∝", "∝", ""],
+        ["Chromolaena", "low", "✓", "✓", "✓", "✓", ""],
+        ["Mikania", "h", "✓", "✓", "✓", "✓", ""],
+        ["Wedelia", "0", "∝", "∝", "∝", "∝", ""],
+        ["Montanoa", "0", "∝", "∝", "∝", "∝", ""],
+        ["Gliricidia", "0", "∝", "∝", "∝", "∝", ""],
+        ["Polygonum", "L.", "✗", "✓", "✓", "✓", ""],
+        ["S. oak", "h", "✗", "✓", "✓", "✓", ""]
+      ]
+    }
+  ]
+}

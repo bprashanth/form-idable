@@ -1,0 +1,9 @@
+Created [output.xlsx](/workspace/output.xlsx) with sheet `v2`.
+
+Also created [v2_meta.json](/workspace/v2_meta.json) because I added four v1-less sections: the left-margin `CAN DENSITY` and `CAN. COMP` 2x2 grids for both `M13` and `L13`.
+
+Summary:
+- Transcribed both stacked datasheet forms: `M13` and `L13`.
+- Included metadata fields, alien trees tables, alien plant prevalence tables, other-species lines, and reconstructed canopy quadrant grids.
+- Verified the bottom disturbance line by crop; it is left blank.
+- Yellow-filled uncertain readings, mainly dates, top disturbance note, handwritten margin-grid entries, and one unclear top Wedelia quarter mark.

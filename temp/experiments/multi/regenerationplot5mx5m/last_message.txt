@@ -1,0 +1,11 @@
+Done. I created `/workspace/output.xlsx` with one sheet named `v2`, plus `/workspace/v2_meta.json` for the two bottom handwritten sections that were not represented as v1 tables/key-values.
+
+Transcribed:
+- Top metadata fields and title.
+- Full ruled regeneration table, including blank rows.
+- Added bottom sections: `Canopy above SAT` and `Other species`.
+
+Flagged yellow for reviewer attention:
+`B2`, `E4`, `B11`, `B12`, `C12`, `B14`, `B37`, `E36:E39`.
+
+The main uncertainty is handwritten species names and the row-2 seedling mark, which was not a clear tally/dot/blank-line notation.

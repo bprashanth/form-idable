@@ -1,0 +1,9 @@
+Done: wrote [output.xlsx](/workspace/output.xlsx) with sheet `v2`.
+
+I transcribed the page title, page number, header metadata grid, and the full 16-row annual growth/survival table. I did not create `v2_meta.json` because I found no additional unrepresented table/grid beyond the v1-detected structures; the only `other_text` item was the page title, which is included.
+
+Corrections/flags:
+- Corrected A11 Basal_Dia_1 #2 to `0.7`.
+- Corrected A16 Basal_Dia_2 #2 to `1.1`.
+- Yellow flagged `B7` for uncertain observer-name spelling.
+- Yellow flagged `I11` for A02 Shoot_L #2, a handwritten dash that Textract misread.
