@@ -4,7 +4,7 @@
     <!-- Sidebar -->
     <aside class="flex flex-col h-full py-6 px-4 bg-surface-container-low w-64 shrink-0 border-r border-outline-variant/20">
       <div class="mb-8 px-2 flex items-center gap-3">
-        <img src="/logo.png" class="w-8 h-8 shrink-0 border-[3px] border-black rounded-sm" alt="Formidable" />
+        <img :src="'/logo.png'" class="w-8 h-8 shrink-0 border-[3px] border-black rounded-sm" alt="Formidable" />
         <div>
           <h1 class="font-headline font-black text-lg text-primary leading-none tracking-tighter">FORMIDABLE</h1>
           <p class="text-[10px] uppercase tracking-widest text-on-surface-variant mt-0.5">Form Processing Engine</p>

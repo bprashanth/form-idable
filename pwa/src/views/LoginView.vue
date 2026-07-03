@@ -6,7 +6,7 @@
     <!-- Top bar -->
     <header class="flex items-center px-6 py-4">
       <div class="flex items-center gap-3">
-        <img src="/logo.png" class="w-8 h-8 shrink-0 border-[3px] border-black rounded-sm" alt="Formidable" />
+        <img :src="'/logo.png'" class="w-8 h-8 shrink-0 border-[3px] border-black rounded-sm" alt="Formidable" />
         <span class="font-headline font-black text-lg leading-none tracking-tighter text-[#111]">Formidable</span>
       </div>
     </header>
