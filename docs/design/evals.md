@@ -129,9 +129,43 @@ failure mode.
 
 ## Environment variables needed
 
-| Variable | Where | Notes |
-|---|---|---|
-| `GEMINI_API_KEY` | Lambda env / Secrets Manager | Gemini API key |
-| `GEMINI_MODEL` | Lambda env | e.g. `gemini-2.5-flash` |
+```
+GEMINI_API_KEY   Lambda env or Secrets Manager   Gemini API key
+GEMINI_MODEL     Lambda env                      e.g. gemini-2.5-flash
+```
 
 The Lambda already has access to S3 (to read xlsx + manifest) via its task role.
+
+---
+
+## Testing dev changes
+
+The review page has an end-to-end Playwright suite in `pwa/tests/`. It covers upload, job polling, and the review UI including crop overlays. To run it against a real job:
+
+```
+cd pwa
+npx playwright test
+```
+
+By default the tests run against the production API (set via `API_TARGET` in `pwa/.env.local`). To run against the local mock instead, set `API_TARGET=http://localhost:8072` and start the mock server first.
+
+When the `/vision/jobs/{job_id}/analyze` endpoint is built, add a test in `pwa/tests/review-flow.spec.js` that clicks the "QA Report" button and asserts that the result panel appears with at least one finding. The test should use a known seed job (e.g. `bd6a19ac-b14d-4a67-8cfa-50df8bd78121`) so the fixture data is stable and the Gemini call can be stubbed with `page.route()` to avoid live API costs in CI.
+
+For agents iterating on the prompt or the anomaly logic without touching the UI, the backend can be tested directly:
+
+```
+TOKEN=$(aws cognito-idp initiate-auth \
+  --auth-flow USER_PASSWORD_AUTH \
+  --client-id <client_id> \
+  --auth-parameters USERNAME=<user>,PASSWORD=<pass> \
+  --region ap-south-1 \
+  --query 'AuthenticationResult.IdToken' --output text)
+
+curl -s -X POST \
+  https://hachry61xe.execute-api.ap-south-1.amazonaws.com/prod/vision/jobs/bd6a19ac-b14d-4a67-8cfa-50df8bd78121/analyze \
+  -H "Authorization: Bearer $TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"query": null}' | jq .
+```
+
+Use the credentials in `good-shepherd/server/deploy/test-credentials.env` for the Cognito call. Pass `{"query": "plot treatment vs species count"}` in the body to test the distribution plot path instead.
