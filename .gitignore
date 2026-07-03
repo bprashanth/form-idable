@@ -208,3 +208,11 @@ inference/
 # Deploy outputs and test credentials (contain resource IDs and secrets)
 server/deploy/outputs.env
 server/deploy/test-credentials.env
+
+# Playwright test artifacts (screenshots, videos, traces)
+test-results/
+pwa/test-results/
+
+# Scratch / experiment directories — not production code
+temp/
+pwa/inspect_review.mjs

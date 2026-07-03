@@ -23,18 +23,12 @@ async function init() {
   })
 }
 
-function login(username, password) {
+async function login(username, password, { onNewPasswordRequired } = {}) {
+  if (!userPool) await init()
   return new Promise((resolve, reject) => {
-    if (!userPool) {
-      reject(new Error('Auth not initialised — call init() first'))
-      return
-    }
     authError.value = null
     const user = new CognitoUser({ Username: username, Pool: userPool })
-    const authDetails = new AuthenticationDetails({
-      Username: username,
-      Password: password,
-    })
+    const authDetails = new AuthenticationDetails({ Username: username, Password: password })
     user.authenticateUser(authDetails, {
       onSuccess(session) {
         idToken.value = session.getIdToken().getJwtToken()
@@ -44,16 +38,22 @@ function login(username, password) {
         authError.value = err.message || 'Login failed'
         reject(err)
       },
+      newPasswordRequired() {
+        if (onNewPasswordRequired) {
+          onNewPasswordRequired(user)
+          reject(new Error('newPasswordRequired'))
+        } else {
+          authError.value = 'A new password is required. Please contact your administrator.'
+          reject(new Error('newPasswordRequired'))
+        }
+      },
     })
   })
 }
 
-function refreshSession() {
+async function refreshSession() {
+  if (!userPool) await init()
   return new Promise((resolve) => {
-    if (!userPool) {
-      resolve(false)
-      return
-    }
     const user = userPool.getCurrentUser()
     if (!user) {
       idToken.value = null

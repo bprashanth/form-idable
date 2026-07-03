@@ -10,10 +10,14 @@ import ResultView from '@/views/ResultView.vue'
 import LoginView from '@/views/LoginView.vue'
 import PDFUploadView from '@/views/PDFUploadView.vue'
 import PDFReviewView from '@/views/PDFReviewView.vue'
+import DashboardView from '@/views/DashboardView.vue'
+import JobReviewView from '@/views/JobReviewView.vue'
 
 const routes = [
-  { path: '/login', name: 'login', component: LoginView },
-  { path: '/', name: 'capture', component: CaptureView },
+  { path: '/login', name: 'login', component: LoginView, meta: { newLayout: true } },
+  { path: '/dashboard', name: 'dashboard', component: DashboardView, meta: { newLayout: true } },
+  { path: '/review/:jobId', name: 'job-review', component: JobReviewView, meta: { newLayout: true } },
+  { path: '/', redirect: '/dashboard' },
   { path: '/crop', name: 'crop', component: CropView },
   { path: '/processing', name: 'processing', component: ProcessingView },
   { path: '/result', name: 'result', component: ResultView },
