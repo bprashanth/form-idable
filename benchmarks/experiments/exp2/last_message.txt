@@ -1,0 +1,5 @@
+Done. I wrote [output.xlsx](/workspace/output.xlsx) with one sheet named `v2`, and added [v2_meta.json](/workspace/v2_meta.json) because the ground-cover grid was reconstructed from `other_text`/image review rather than an existing `v1` table.
+
+Transcribed sections include the title/header metadata, canopy densitometer reading/status, ground-cover grid, full 26-row Trees table, and the blank Page/of field.
+
+Flagged yellow for review: `B3`, `I10`, `I14`, `B19`, `B21`, `B24`, `B25`, `B29`, `B31`, `C34`, `B37`, `C42`, `C44`. These are mostly uncertain handwritten species names, an unlabeled ground-cover column/X mark, and a few overwritten numeric entries.

@@ -1,0 +1,81 @@
+{
+  "is_transect_subplot": true,
+  "forms": [
+    {
+      "form_id": "Form A - Trees DBH",
+      "image_url": "https://fomomonguest.s3.ap-south-1.amazonaws.com/keystone/IMG-20250924-WA0000.jpg",
+      "id_variables": [
+        "date",
+        "areaName",
+        "blockID",
+        "transectID",
+        "plotID",
+        "research_team"
+      ],
+      "row_represents": "one woody stem (tree or large shrub) recorded inside the plot (individual with DBH measured in cm).",
+      "row_variables": [
+        "s_no",
+        "species_name_local",
+        "habit",
+        "dbh_cm",
+        "phenological_condition",
+        "notes"
+      ],
+      "empty_fields_policy": "For ID/header fields left blank on subsequent rows (date, areaName, blockID, transectID, plotID, research_team) duplicate the last filled value down the column. For species_name or habit left blank mark as NA. For numeric measurements: if dbh_cm is blank mark NA (do NOT treat as 0). For phenological_condition or notes blank = NA."
+    },
+    {
+      "form_id": "Form B - Seedlings & Saplings (by subplot)",
+      "image_url": "https://fomomonguest.s3.ap-south-1.amazonaws.com/keystone/IMG-20250924-WA0001.jpg",
+      "id_variables": [
+        "date",
+        "areaName",
+        "blockID",
+        "transectID",
+        "plotID",
+        "subplotID",
+        "research_team"
+      ],
+      "row_represents": "one species record within a given subplot (counts of seedlings and saplings of that species in the subplot).",
+      "row_variables": [
+        "subplotID",
+        "s_no",
+        "species_name_local",
+        "habit",
+        "num_seedlings",
+        "num_saplings",
+        "notes"
+      ],
+      "empty_fields_policy": "For ID/header fields left blank duplicate last filled value. For count columns (#seedlings, #saplings) blanks should be treated as 0 unless a separate note indicates missing data \u2014 if unsure mark NA. For species_name or habit missing = NA. Notes blank = NA."
+    },
+    {
+      "form_id": "Form C - Plot Characteristics",
+      "image_url": "https://fomomonguest.s3.ap-south-1.amazonaws.com/keystone/IMG-20250924-WA0002.jpg",
+      "id_variables": [
+        "date",
+        "areaName",
+        "blockID",
+        "transectID",
+        "plotID",
+        "subplotID",
+        "research_team"
+      ],
+      "row_represents": "one subplot (or plot centre measurement) recording canopy openness (by quadrant), soil moisture, temperature and pH and descriptive notes for that subplot/plot point.",
+      "row_variables": [
+        "blockID",
+        "transectID",
+        "plotID",
+        "subplotID",
+        "canopy_north_dots",
+        "canopy_east_dots",
+        "canopy_west_dots",
+        "canopy_south_dots",
+        "canopy_total_dots",
+        "soil_moisture_code",
+        "soil_temperature_C",
+        "soil_pH",
+        "notes_on_plot_characteristics"
+      ],
+      "empty_fields_policy": "For ID/header fields left blank duplicate last filled value. For canopy quadrant blank treat as 0 only if clearly intended (e.g. recorded 0 elsewhere); otherwise mark NA. canopy_total_dots can be computed from quadrant entries when missing. For soil_moisture/temperature/pH blank = NA. Notes blank = NA."
+    }
+  ]
+}

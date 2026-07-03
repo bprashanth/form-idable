@@ -1,0 +1,16 @@
+{
+  "model": "gemini-3.5-flash",
+  "pdf": "input.pdf",
+  "elapsed_s": 56.8,
+  "prompt_tokens": 1881,
+  "image_tokens": 1873,
+  "text_prompt_tokens": 8,
+  "output_tokens": 3901,
+  "thinking_tokens": 8795,
+  "total_tokens": 14577,
+  "cost_usd_approx": 0.156535,
+  "cost_inr_approx": 13.149,
+  "empirical_inr": 13.23,
+  "pricing_note": "$0.15/M in, $0.60/M out, $17.5/M think (calibrated to \u20b913.23 empirical billing)",
+  "cost_driver": "thinking tokens (8795) = 98% of total cost; input+output = 2%"
+}

@@ -1,0 +1,262 @@
+[
+  {
+    "abbr": "ageade",
+    "scientific_name": "Ageratina adenophora",
+    "toda_name": "Sarman thur"
+  },
+  {
+    "abbr": "ari",
+    "scientific_name": "Arisaema sp.",
+    "toda_name": "Bobe thur"
+  },
+  {
+    "abbr": "celphi",
+    "scientific_name": "Celtis philippensis",
+    "toda_name": "NA"
+  },
+  {
+    "abbr": "celtet",
+    "scientific_name": "Celtis tetrandra",
+    "toda_name": "Kadalai"
+  },
+  {
+    "abbr": "cesaur",
+    "scientific_name": "Cestrum aurantiacum",
+    "toda_name": "NA"
+  },
+  {
+    "abbr": "dapnei",
+    "scientific_name": "Daphniphyllum neilgherrense",
+    "toda_name": "Kavas"
+  },
+  {
+    "abbr": "dodvis",
+    "scientific_name": "Dodonaea viscosa",
+    "toda_name": "Virali"
+  },
+  {
+    "abbr": "glonei",
+    "scientific_name": "Glochidion neilgherrense",
+    "toda_name": "Kobuvu"
+  },
+  {
+    "abbr": "ileden",
+    "scientific_name": "Ilex denticulata",
+    "toda_name": "Kheel"
+  },
+  {
+    "abbr": "isowig",
+    "scientific_name": "Isodon wightii",
+    "toda_name": "Mailanji thur"
+  },
+  {
+    "abbr": "ixonot",
+    "scientific_name": "Ixora notoniana",
+    "toda_name": "Korvu"
+  },
+  {
+    "abbr": "lapbul",
+    "scientific_name": "Laportea bulbifera",
+    "toda_name": "Torie"
+  },
+  {
+    "abbr": "ligper",
+    "scientific_name": "Ligustrum perrottetii",
+    "toda_name": "Koli"
+  },
+  {
+    "abbr": "litwig",
+    "scientific_name": "Litsea wightiana",
+    "toda_name": "Kage"
+  },
+  {
+    "abbr": "maeind",
+    "scientific_name": "Maesa indica",
+    "toda_name": "Thanugu"
+  },
+  {
+    "abbr": "magnil",
+    "scientific_name": "Magnolia nilagirica",
+    "toda_name": "Morsh magao"
+  },
+  {
+    "abbr": "mellun",
+    "scientific_name": "Melicope lunu-ankenda",
+    "toda_name": "Koregu"
+  },
+  {
+    "abbr": "melsim",
+    "scientific_name": "Meliosma simplicifolia",
+    "toda_name": "Thudai"
+  },
+  {
+    "abbr": "memumb",
+    "scientific_name": "Memecylon umbellatum",
+    "toda_name": "Pongon"
+  },
+  {
+    "abbr": "micram",
+    "scientific_name": "Microtropis ramiflora",
+    "toda_name": "Kodub"
+  },
+  {
+    "abbr": "NA",
+    "scientific_name": "NA",
+    "toda_name": "Kabodi thur"
+  },
+  {
+    "abbr": "NA",
+    "scientific_name": "NA",
+    "toda_name": "Korai"
+  },
+  {
+    "abbr": "NA",
+    "scientific_name": "NA",
+    "toda_name": "Natia"
+  },
+  {
+    "abbr": "NA",
+    "scientific_name": "NA",
+    "toda_name": "Thadu"
+  },
+  {
+    "abbr": "NA",
+    "scientific_name": "NA",
+    "toda_name": "Theer"
+  },
+  {
+    "abbr": "NA",
+    "scientific_name": "NA",
+    "toda_name": "Bilmek"
+  },
+  {
+    "abbr": "NA",
+    "scientific_name": "NA",
+    "toda_name": "Kark"
+  },
+  {
+    "abbr": "neoscr",
+    "scientific_name": "Neolitsea scrobiculata",
+    "toda_name": "Mine"
+  },
+  {
+    "abbr": "notnim",
+    "scientific_name": "Nothapodytes nimmoniana",
+    "toda_name": "Kokudh"
+  },
+  {
+    "abbr": "phoser",
+    "scientific_name": "Photinia serratifolia",
+    "toda_name": "Karvish"
+  },
+  {
+    "abbr": "psybis",
+    "scientific_name": "Psychotria bisulcata",
+    "toda_name": "Kishkir"
+  },
+  {
+    "abbr": "psytru",
+    "scientific_name": "Psychotria truncata",
+    "toda_name": "Mesthini"
+  },
+  {
+    "abbr": "rapcap",
+    "scientific_name": "Rapanea capitellata",
+    "toda_name": "Kodiki"
+  },
+  {
+    "abbr": "rauver",
+    "scientific_name": "Rauvolfia verticillata",
+    "toda_name": "Posh"
+  },
+  {
+    "abbr": "rhotom",
+    "scientific_name": "Rhodomyrtus tomentosa",
+    "toda_name": "Thavuttu pazham"
+  },
+  {
+    "abbr": "Rubacea",
+    "scientific_name": "Rubacea species",
+    "toda_name": "NA"
+  },
+  {
+    "abbr": "rubell",
+    "scientific_name": "Rubus elliptica",
+    "toda_name": "NA"
+  },
+  {
+    "abbr": "scocre",
+    "scientific_name": "Scolopia crenata",
+    "toda_name": "Pestheri"
+  },
+  {
+    "abbr": "smiasp",
+    "scientific_name": "Smilax aspera",
+    "toda_name": "NA"
+  },
+  {
+    "abbr": "stacoc",
+    "scientific_name": "Staphylea cochinchinensis",
+    "toda_name": "Neeran"
+  },
+  {
+    "abbr": "symcoc",
+    "scientific_name": "Symplocos cochinchinensis",
+    "toda_name": "Boothakani"
+  },
+  {
+    "abbr": "syzcum",
+    "scientific_name": "Syzygium cumini",
+    "toda_name": "Naval"
+  },
+  {
+    "abbr": "syzden",
+    "scientific_name": "Syzygium densiflorum",
+    "toda_name": "Kersh"
+  },
+  {
+    "abbr": "tarasi",
+    "scientific_name": "Tarenna asiatica",
+    "toda_name": "Kishkir-2"
+  },
+  {
+    "abbr": "tetdio",
+    "scientific_name": "Tetrapilus dioicus",
+    "toda_name": "Kuthavu"
+  },
+  {
+    "abbr": "todasi",
+    "scientific_name": "Toddalia asiatica",
+    "toda_name": "Kaatu orange"
+  },
+  {
+    "abbr": "vacles",
+    "scientific_name": "Vaccium leschenaultii",
+    "toda_name": "Oduthin"
+  },
+  {
+    "abbr": "verarb",
+    "scientific_name": "Vernonia arborea",
+    "toda_name": "Garugu"
+  },
+  {
+    "abbr": "stevol",
+    "scientific_name": "Stephanotis volubilis",
+    "toda_name": "Vattakaka"
+  },
+  {
+    "abbr": "pip",
+    "scientific_name": "Piper sp.",
+    "toda_name": "Pepper kodi"
+  },
+  {
+    "abbr": "fer",
+    "scientific_name": "Fern sp.",
+    "toda_name": "Thagai"
+  },
+  {
+    "abbr": "NA",
+    "scientific_name": "NA",
+    "toda_name": "Povet"
+  }
+]

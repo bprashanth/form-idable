@@ -1,0 +1,88 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "render": "page_1.png",
+      "crops": [
+        {
+          "file": "crop_001.png",
+          "bbox": [
+            0.0,
+            0.07,
+            0.94,
+            0.49
+          ],
+          "rows": "3:32",
+          "note": "page 1 upper datasheet: metadata, margin sketches, alien trees and plant prevalence tables"
+        },
+        {
+          "file": "crop_002.png",
+          "bbox": [
+            0.0,
+            0.48,
+            0.94,
+            0.93
+          ],
+          "rows": "34:63",
+          "note": "page 1 lower datasheet: metadata, margin sketches, alien trees and plant prevalence tables"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "render": "page_2.png",
+      "crops": [
+        {
+          "file": "crop_003.png",
+          "bbox": [
+            0.0,
+            0.04,
+            0.96,
+            0.49
+          ],
+          "rows": "65:94",
+          "note": "page 2 upper datasheet: metadata, margin sketches, alien trees and plant prevalence tables"
+        },
+        {
+          "file": "crop_004.png",
+          "bbox": [
+            0.0,
+            0.49,
+            0.96,
+            0.94
+          ],
+          "rows": "96:125",
+          "note": "page 2 lower datasheet: metadata, margin sketches, alien trees and plant prevalence tables"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "render": "page_3.png",
+      "crops": [
+        {
+          "file": "crop_005.png",
+          "bbox": [
+            0.0,
+            0.05,
+            0.96,
+            0.49
+          ],
+          "rows": "127:156",
+          "note": "page 3 upper datasheet: metadata, margin sketches, alien trees and plant prevalence tables"
+        },
+        {
+          "file": "crop_006.png",
+          "bbox": [
+            0.0,
+            0.49,
+            0.96,
+            0.95
+          ],
+          "rows": "158:187",
+          "note": "page 3 lower datasheet: metadata, margin sketches, alien trees and plant prevalence tables"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "transectID": "",
+  "blockID": "",
+  "plotID": "",
+  "subplotID": null,
+  "date": "",
+
+  "species_name_raw": "",
+  "species_name_full": "",
+  "species_name_local": "",
+  "species_doubt": false,
+
+  "habit": "",
+  "habit_doubt": false,
+
+  "dbh_cm": null,
+  "dbh_doubt": false,
+
+  "phenology": "",
+  "phenology_doubt": false,
+
+  "num_seedlings": null,
+  "num_saplings": null,
+
+  "soil_moisture": null,
+  "soil_pH": null,
+  "canopy_openness": null,
+
+  "grass_cover_percent": null,
+  "bare_ground_percent": null,
+
+  "notes": "",
+  "notes_doubt": false,
+
+  "source_file": ""
+}

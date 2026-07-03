@@ -1,0 +1,14 @@
+{
+  "model": "gemini-3.5-flash",
+  "pdf": "input.pdf",
+  "elapsed_s": 28.7,
+  "prompt_tokens": 29074,
+  "image_tokens": 1596,
+  "text_prompt_tokens": 27478,
+  "output_tokens": 4138,
+  "thinking_tokens": 0,
+  "total_tokens": 33212,
+  "cost_usd_approx": 0.006844,
+  "cost_inr_approx": 0.5749,
+  "pricing_note": "$0.15/M in, $0.6/M out, $17.5/M think (empirically calibrated)"
+}

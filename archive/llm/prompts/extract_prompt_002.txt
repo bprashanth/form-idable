@@ -1,0 +1,49 @@
+Currently the prompt is
+1. A scanned image of a form.
+2. A list of valid species names.
+3. Instructions about the type of form.
+
+Your task is to read the form and output JSON objects, one per row in the form.
+
+Form instructions:
+This is Form C - Plot characteristics (canopy openness & soil) form. Each row = one subplot (or plot-centre) measurement of canopy openness (by quadrant) and soil properties. Fill only: canopy_north, canopy_east, canopy_west, canopy_south, soil_moisture_category, soil_temperature_C, soil_pH, notes_on_plot_characteristics, and identifiers (blockID, transectID, plotID, subplotID, areaName). Policy for empty fields: Propagate ID fields from header to each row if not repeated. Measurement fields left blank should be recorded as NA (do not infer). If canopy quadrant counts missing, record NA. Soil moisture uses categorical codes (e.g. 1-5) — if blank record NA..
+
+Special instructions:
+- Only include fields explicitly mentioned in the Form instructions. 
+
+Identifier mapping and propagation:
+- The form uses "#" or "Code" headings. Map them EXACTLY as:
+  • Block Code or Block #  → blockID
+  • Transect #             → transectID
+  • Plot #                 → plotID
+  • Subplot #              → subplotID
+- Identifiers may be sparsely filled. If an identifier cell in a row is blank, propagate the LAST SEEN value of THAT SAME identifier downward until a new value appears.
+- Do NOT assume a single block/transect per page. If a new blockID/transectID appears later, it overrides the previous from that row onward.
+- If subplotID changes while blockID/plotID are blank, interpret as subplots under the most recent blockID/plotID.
+- Never copy values across columns. Only fill a blank identifier by using the last seen value from the SAME column/heading.
+- If an identifier has no prior value and the cell is blank, record "NA".
+
+Table traversal & row emission (IMPORTANT):
+- Locate the main grid/table body using the column headings that include Subplot # and the canopy/soil columns.
+- Traverse the table TOP to BOTTOM, LEFT to RIGHT, across ALL visible body rows until the end of the grid (stop before the margins).
+- Output ONE JSON object for EVERY valid subplot row encountered in the grid.
+- The form design has 5 subplots per plot (subplotID typically 0–4). If a plot’s grid shows fewer than 5 visible rows, still emit objects for the missing subplots with the correct subplotID and "NA" for missing measurements.
+- Do NOT collapse or deduplicate rows. Emit one object per subplot row in order.
+
+Canopy rules (Quadrants):
+- Canopy openness (north, east, west, south) is measured ONCE per plot at the plot centre (subplotID = 0).
+- For rows with subplotID > 0 in the same plot, set canopy_north/east/west/south to "NA" even if numbers are present.
+
+Soil rules (per subplot):
+- Soil values (soil_moisture_category, soil_temperature_C, soil_pH) are recorded once per subplot row.
+- Unlike canopy (which is only recorded at subplotID=0), soil values should be read and extracted for EVERY subplot row (subplotID=0,1,2,3,4).
+- If a soil cell is filled, record its numeric value (map soil moisture words to codes as described below).
+- If a soil cell is blank, record "NA".
+- If handwriting is unclear, record your best interpretation and set a <field>_doubt=true flag.
+- Soil moisture may appear as words (Dry+, Dry-, Nor, Wet-, Wet+) or as numbers (1–5). Always map words to the corresponding numeric code:
+  Wet+ = 1, Wet- = 2, Normal (Nor) = 3, Dry- = 4, Dry+ = 5.
+
+Output:
+- Respond **only with a JSON array of objects**. Do not include Markdown code fences, backticks, or any natural language.  
+- Do not include explanations, natural language, or extra text.
+- Each object must have the fields required by form_instructions, plus the top-level identifiers (transectID, blockID, plotID, date).

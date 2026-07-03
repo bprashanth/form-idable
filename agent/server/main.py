@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from routers import checks, cheatsheet, species_db
+from routers import checks, cheatsheet, pdf, species_db
 
 app = FastAPI(title="Form Agent")
 
@@ -16,6 +16,7 @@ app.add_middleware(
 app.include_router(checks.router, prefix="/agent")
 app.include_router(cheatsheet.router, prefix="/agent")
 app.include_router(species_db.router, prefix="/agent")
+app.include_router(pdf.router, prefix="/agent")
 
 
 @app.get("/agent/health")

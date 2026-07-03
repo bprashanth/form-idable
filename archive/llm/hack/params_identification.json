@@ -1,0 +1,24 @@
+{
+  "model": "gpt-5-mini",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an OCR form classification assistant."
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "You are given a scanned ecological survey form.\n\nTask:\n- Extract only the printed words from the form (ignore all handwriting, numbers, and tally marks).\n- Normalize by:\n  - lowercase all text\n  - remove punctuation\n  - keep only alphabetic words\n- Return a JSON object with a sorted list of unique words.\n\nOutput format:\n{\n  \"printed_words\": [\"block\", \"dbh\", \"habit\", \"phenology\", \"plot\", \"transect\"]\n}\n\nRules:\n- Do not include handwritten names or numbers.\n- If a word is unclear, skip it.\n- Do not add explanations outside JSON.\n"
+        },
+        {
+          "type": "image_url",
+          "image_url": {
+            "url": "https://fomomonguest.s3.ap-south-1.amazonaws.com/keystone/IMG-20250924-WA0000.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

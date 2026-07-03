@@ -1,0 +1,18 @@
+You are given:
+1. A scanned image of Form C - Plot characteristics (canopy openness & soil).
+2. The form layout showing multiple plots, each with several subplot rows.
+
+Your task:
+Extract only the canopy openness readings (north, east, west, south) recorded once per plot.
+
+Rules:
+- Each plot has 5 subplot rows (subplotID = 0-4).
+- Canopy readings are taken only once per plot, at the plot centre (subplotID=0).
+- Identify these canopy readings and ignore any pencilled or marginal numbers in other subplot rows.
+- For each plot, output one JSON object containing:
+  blockID, transectID, plotID, subplotID=0, areaName, date,
+  canopy_north, canopy_east, canopy_west, canopy_south.
+- If a canopy cell is blank, record "NA".
+
+Output:
+- Respond only with a JSON array of objects, one per plot (i.e. one per canopy measurement).

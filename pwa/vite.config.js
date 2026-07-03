@@ -23,7 +23,11 @@ export default defineConfig(({ mode }) => {
       host: true,
       proxy: {
         '/api': {
-          target: env.API_TARGET || 'http://localhost:8070',
+          target: env.API_TARGET || 'http://localhost:8072',
+          changeOrigin: true,
+        },
+        '/vision': {
+          target: env.API_TARGET || 'http://localhost:8072',
           changeOrigin: true,
         },
         '/agent': {

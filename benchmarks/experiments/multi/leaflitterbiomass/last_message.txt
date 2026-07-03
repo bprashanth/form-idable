@@ -1,0 +1,12 @@
+Done. I wrote:
+
+- `/workspace/output.xlsx` with one sheet named `v2`
+- `/workspace/v2_meta.json` for the added bottom dry weight section
+
+Transcribed sections:
+- Header metadata
+- Full leaf litter biomass table, including remarks and trailing blank grid rows
+- Added dry weight measurements from the bottom margin: packet and cloth weights for traps 1-10
+
+Flagged uncertain cell:
+- `B46`: packet weight for trap 1, read as `3.64`, marked yellow because of a nearby crossed correction mark.

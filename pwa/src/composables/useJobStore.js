@@ -1,0 +1,236 @@
+import { ref } from 'vue'
+import * as XLSX from 'xlsx'
+import { useCognitoAuth } from '@/composables/useCognitoAuth.js'
+
+// Module-level singletons — shared across all callers
+const jobs        = ref([])
+const jobsLoading = ref(false)
+const cache       = {}
+
+// Non-reactive: File objects keyed by job_id for same-session upload retry
+const _pendingFiles = {}
+
+// VITE_API_BASE_URL is set in .env.production for direct API calls (no proxy).
+// In dev the Vite proxy handles /api/* and /vision/*, so no prefix is needed.
+const API_BASE = import.meta.env.VITE_API_BASE_URL || ''
+
+function _authHeaders() {
+  const { idToken } = useCognitoAuth()
+  const token = idToken.value
+  return token ? { Authorization: `Bearer ${token}` } : {}
+}
+
+export function useJobStore() {
+  async function fetchJobs() {
+    jobsLoading.value = true
+    try {
+      const res = await fetch(`${API_BASE}/api/jobs`, { headers: _authHeaders() })
+      jobs.value = res.ok ? await res.json() : []
+    } finally {
+      jobsLoading.value = false
+    }
+  }
+
+  async function fetchJobDetail(jobId) {
+    if (cache[jobId]) return cache[jobId]
+
+    const [mRes, xRes] = await Promise.all([
+      fetch(`${API_BASE}/api/jobs/${jobId}/manifest`, { headers: _authHeaders() }),
+      fetch(`${API_BASE}/api/jobs/${jobId}/xlsx`,     { headers: _authHeaders() }),
+    ])
+
+    if (!mRes.ok) throw new Error(`manifest fetch failed: ${mRes.status}`)
+    if (!xRes.ok) throw new Error(`xlsx fetch failed: ${xRes.status}`)
+
+    const manifest = await mRes.json()
+    const { url: xlsxPresigned } = await xRes.json()
+    const xlsxFetch = await fetch(xlsxPresigned)
+    if (!xlsxFetch.ok) throw new Error(`xlsx S3 fetch failed: ${xlsxFetch.status}`)
+    const xlsxBuf  = await xlsxFetch.arrayBuffer()
+    const wb       = XLSX.read(xlsxBuf, { type: 'array', cellStyles: true })
+    const ws       = wb.Sheets[wb.SheetNames[0]]
+    const xlsxRows = _parseSheet(ws)
+
+    cache[jobId] = { manifest, xlsxRows }
+    return cache[jobId]
+  }
+
+  async function initUpload(filename, name, email = '') {
+    const body = { filename, name }
+    if (email) body.notification_email = email
+    const res = await fetch(`${API_BASE}/vision/extract`, {
+      method:  'POST',
+      headers: { ..._authHeaders(), 'Content-Type': 'application/json' },
+      body:    JSON.stringify(body),
+    })
+    if (!res.ok) {
+      const text = await res.text().catch(() => res.status)
+      throw new Error(`Upload init failed (${res.status}): ${text}`)
+    }
+    return res.json()  // { job_id, upload_url, status }
+  }
+
+  async function s3Put(upload_url, file) {
+    const res = await fetch(upload_url, {
+      method:  'PUT',
+      headers: { 'Content-Type': 'application/octet-stream' },
+      body:    file,
+    })
+    if (!res.ok) throw new Error(`S3 upload failed (${res.status})`)
+  }
+
+  async function startJob(jobId) {
+    const res = await fetch(`${API_BASE}/api/jobs/${jobId}/start`, {
+      method:  'POST',
+      headers: _authHeaders(),
+    })
+    if (!res.ok) {
+      const text = await res.text().catch(() => res.status)
+      throw new Error(`Job start failed (${res.status}): ${text}`)
+    }
+    return res.json()  // { status: 'queued' } or { needs_upload: true, upload_url }
+  }
+
+  function savePendingFile(jobId, file) {
+    _pendingFiles[jobId] = file
+  }
+
+  function getPendingFile(jobId) {
+    return _pendingFiles[jobId] ?? null
+  }
+
+  async function fetchProgress(jobId) {
+    const res = await fetch(`${API_BASE}/api/jobs/${jobId}/progress`, {
+      headers: _authHeaders(),
+    })
+    if (!res.ok) return null
+    return res.json()
+  }
+
+  async function deleteJob(jobId) {
+    const res = await fetch(`${API_BASE}/api/jobs/${jobId}`, {
+      method:  'DELETE',
+      headers: _authHeaders(),
+    })
+    if (!res.ok) {
+      const text = await res.text().catch(() => res.status)
+      throw new Error(`Delete failed (${res.status}): ${text}`)
+    }
+    // Remove from cache
+    delete cache[jobId]
+  }
+
+  function pollJob(jobId, interval = 5000) {
+    const tick = async () => {
+      const res = await fetch(`${API_BASE}/api/jobs/${jobId}/status`, {
+        headers: _authHeaders(),
+      })
+      if (!res.ok) return
+      const data = await res.json()
+      const idx  = jobs.value.findIndex(j => j.job_id === jobId)
+      if (idx === -1) return
+      jobs.value[idx] = { ...jobs.value[idx], ...data }
+      if (data.status !== 'complete' && data.status !== 'failed') {
+        setTimeout(tick, interval)
+      }
+    }
+    setTimeout(tick, interval)
+  }
+
+  function _parseSheet(ws) {
+    if (!ws || !ws['!ref']) return []
+    const range = XLSX.utils.decode_range(ws['!ref'])
+    const rows  = []
+    for (let r = range.s.r; r <= range.e.r; r++) {
+      const cells = []
+      for (let c = range.s.c; c <= range.e.c; c++) {
+        const addr  = XLSX.utils.encode_cell({ r, c })
+        const cell  = ws[addr]
+        const value = cell ? (cell.v ?? '') : ''
+        cells.push({ value, color: _cellColor(cell) })
+      }
+      rows.push({ rowNum: r + 1, cells })
+    }
+    return rows
+  }
+
+  function _cellColor(cell) {
+    const rgb = cell?.s?.fgColor?.rgb
+    if (!rgb) return null
+    const hex = rgb.length === 8 ? rgb.slice(2) : rgb
+    if (['FFFFFF', '000000'].includes(hex.toUpperCase())) return null
+    return `#${hex}`
+  }
+
+  async function fetchAuthedUrl(url) {
+    try {
+      const res = await fetch(url, { headers: _authHeaders() })
+      if (!res.ok) return null
+      const { url: presigned } = await res.json()
+      return presigned ?? null
+    } catch {
+      return null
+    }
+  }
+
+  async function getXlsxUrl(jobId) {
+    const res = await fetch(`${API_BASE}/api/jobs/${jobId}/xlsx`, { headers: _authHeaders() })
+    if (!res.ok) throw new Error(`xlsx url fetch failed (${res.status})`)
+    return res.json()  // { url, filename }
+  }
+
+  function pageUrl(jobId, filename) {
+    return `${API_BASE}/api/jobs/${jobId}/pages/${filename}`
+  }
+
+  function cropUrl(jobId, filename) {
+    return `${API_BASE}/api/jobs/${jobId}/crops/${filename}`
+  }
+
+  function xlsxUrl(jobId) {
+    return `${API_BASE}/api/jobs/${jobId}/xlsx`
+  }
+
+  function estimateRows(fracY, xlsxRows, window = 4) {
+    const total = xlsxRows.length
+    const mid   = Math.round(fracY * total)
+    const start = Math.max(0, mid - window)
+    const end   = Math.min(total - 1, mid + window)
+    return xlsxRows.slice(start, end + 1)
+  }
+
+  function parseRowRange(rowsStr) {
+    if (!rowsStr) return null
+    const parts = String(rowsStr).split(':').map(Number)
+    return { start: parts[0], end: parts[1] ?? parts[0] }
+  }
+
+  function rowsForRange(rangeStr, xlsxRows) {
+    const r = parseRowRange(rangeStr)
+    if (!r) return []
+    // +2 buffer: codex manifest row ranges sometimes undercount by 1-2
+    return xlsxRows.filter(row => row.rowNum >= r.start && row.rowNum <= r.end + 2)
+  }
+
+  return {
+    jobs,
+    jobsLoading,
+    fetchJobs,
+    fetchJobDetail,
+    initUpload,
+    s3Put,
+    startJob,
+    savePendingFile,
+    getPendingFile,
+    deleteJob,
+    fetchProgress,
+    pollJob,
+    fetchAuthedUrl,
+    getXlsxUrl,
+    pageUrl,
+    cropUrl,
+    xlsxUrl,
+    estimateRows,
+    rowsForRange,
+  }
+}

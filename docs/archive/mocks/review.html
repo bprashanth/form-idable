@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Formidable | Document Review</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "tertiary-container": "#2f1500",
+                      "outline-variant": "#c4c7c7",
+                      "on-primary-fixed-variant": "#474646",
+                      "surface-container-highest": "#d3e4fe",
+                      "inverse-surface": "#213145",
+                      "surface": "#f8f9ff",
+                      "primary-fixed": "#e5e2e1",
+                      "primary": "#000000",
+                      "secondary-fixed-dim": "#71dc8e",
+                      "secondary": "#006d35",
+                      "secondary-fixed": "#8df9a8",
+                      "error-container": "#ffdad6",
+                      "on-primary-container": "#858383",
+                      "on-secondary-container": "#007439",
+                      "inverse-on-surface": "#eaf1ff",
+                      "surface-container-lowest": "#ffffff",
+                      "primary-container": "#1c1b1b",
+                      "on-primary-fixed": "#1c1b1b",
+                      "tertiary": "#000000",
+                      "on-primary": "#ffffff",
+                      "on-tertiary-container": "#c76c00",
+                      "on-surface-variant": "#444748",
+                      "background": "#f8f9ff",
+                      "on-secondary": "#ffffff",
+                      "surface-container-high": "#dce9ff",
+                      "surface-dim": "#cbdbf5",
+                      "on-tertiary-fixed": "#2f1500",
+                      "on-secondary-fixed": "#00210c",
+                      "inverse-primary": "#c8c6c5",
+                      "on-background": "#0b1c30",
+                      "on-error-container": "#93000a",
+                      "tertiary-fixed-dim": "#ffb77d",
+                      "error": "#ba1a1a",
+                      "tertiary-fixed": "#ffdcc3",
+                      "surface-container": "#e5eeff",
+                      "surface-bright": "#f8f9ff",
+                      "on-secondary-fixed-variant": "#005226",
+                      "surface-tint": "#5f5e5e",
+                      "on-error": "#ffffff",
+                      "on-surface": "#0b1c30",
+                      "on-tertiary": "#ffffff",
+                      "on-tertiary-fixed-variant": "#6e3900",
+                      "secondary-container": "#8df9a8",
+                      "surface-variant": "#d3e4fe",
+                      "surface-container-low": "#eff4ff",
+                      "primary-fixed-dim": "#c8c6c5",
+                      "outline": "#747878"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "fontFamily": {
+                      "headline": ["Manrope"],
+                      "display": ["Manrope"],
+                      "body": ["Inter"],
+                      "label": ["Inter"]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+        .glass-overlay {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface antialiased overflow-hidden">
+<!-- TopNavBar -->
+<header class="flex justify-between items-center w-full px-6 py-3 sticky top-0 z-50 bg-surface dark:bg-surface border-b border-outline-variant/10">
+<div class="flex items-center gap-8">
+<span class="font-headline text-2xl font-black tracking-tighter text-on-surface dark:text-on-surface">Formidable</span>
+<nav class="hidden md:flex gap-6">
+<a class="text-primary font-bold border-b-2 border-primary cursor-pointer active:opacity-80 transition-colors" href="#">Review</a>
+<a class="text-on-surface-variant font-medium hover:bg-surface-container-high transition-colors px-2 py-1" href="#">Dashboard</a>
+<a class="text-on-surface-variant font-medium hover:bg-surface-container-high transition-colors px-2 py-1" href="#">Analytics</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="flex items-center gap-2 px-3 py-1 bg-surface-container-low rounded-sm">
+<span class="material-symbols-outlined text-on-surface-variant text-sm">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm w-48" placeholder="Search forms..." type="text"/>
+</div>
+<span class="material-symbols-outlined cursor-pointer hover:bg-surface-container-high p-2 transition-colors">notifications</span>
+<span class="material-symbols-outlined cursor-pointer hover:bg-surface-container-high p-2 transition-colors">settings</span>
+<img alt="User profile" class="w-8 h-8 rounded-full border border-outline-variant/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQj_Zerkzc6wuyVtPmhNlfcXmHgwfwbkSlajW0pHAXV0BHX8xuG-stUHI0GLvfMB1VmgdPKr1SpKfZk5nVKhNFPTbAAFGlyDBzTLCNxHle0LXJbVy5uwdCvU6r2hlVYkibJ0rMbVvdtCMeOC6-Q6jN5g-MJqRL_GJYEwuqRH6LGWZp6ebsIS2cs6E5_6dFdD5iyothZ98bmnkPPlewx8nwROcsXUxAQEpyvhhjOBbPsEKzQ6utnOaSKWJ5aWCGBRy5f_47z3RlN6oG"/>
+</div>
+</header>
+<div class="flex h-[calc(100vh-64px)] overflow-hidden">
+<!-- SideNavBar (Desktop) -->
+<aside class="flex flex-col h-full py-6 px-4 bg-surface-container-low dark:bg-surface-container-low w-64 border-r border-outline-variant/10">
+<div class="flex flex-col gap-1 mb-8">
+<span class="font-headline text-xl font-bold text-on-surface">Formidable</span>
+<span class="font-label text-label-md text-on-surface-variant">Enterprise Analytics</span>
+</div>
+<nav class="flex flex-col gap-1 flex-grow">
+<div class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all cursor-pointer">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="font-label text-label-md">Dashboard</span>
+</div>
+<div class="flex items-center gap-3 px-3 py-2 bg-surface-container-highest text-on-surface font-semibold rounded-sm cursor-pointer">
+<span class="material-symbols-outlined">edit_document</span>
+<span class="font-label text-label-md">Form Builder</span>
+</div>
+<div class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all cursor-pointer">
+<span class="material-symbols-outlined">insights</span>
+<span class="font-label text-label-md">Analytics</span>
+</div>
+<div class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all cursor-pointer">
+<span class="material-symbols-outlined">database_search</span>
+<span class="font-label text-label-md">Query</span>
+</div>
+</nav>
+<div class="flex flex-col gap-1 pt-6 border-t border-outline-variant/10">
+<div class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all cursor-pointer">
+<span class="material-symbols-outlined">cloud</span>
+<span class="font-label text-label-md">Storage</span>
+</div>
+<div class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all cursor-pointer">
+<span class="material-symbols-outlined">person</span>
+<span class="font-label text-label-md">Account</span>
+</div>
+</div>
+</aside>
+<!-- Main Content: Document Review Area -->
+<main class="flex-grow flex flex-col bg-surface relative overflow-hidden">
+<!-- Document Toolbar -->
+<div class="w-full h-14 bg-surface-container-lowest flex items-center justify-between px-6 border-b border-outline-variant/10">
+<div class="flex items-center gap-4">
+<h2 class="text-on-surface font-bold text-lg">Transect Survey #4920</h2>
+<span class="px-2 py-0.5 bg-secondary-container text-on-secondary-container text-[10px] font-bold uppercase tracking-widest rounded-sm">Ecology</span>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex items-center gap-4">
+<button class="flex items-center justify-center p-2 hover:bg-surface-container-high rounded-sm transition-colors">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<span class="text-sm font-medium text-on-surface-variant">Page <span class="text-on-surface font-bold">1</span> of 3</span>
+<button class="flex items-center justify-center p-2 hover:bg-surface-container-high rounded-sm transition-colors">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+<div class="h-6 w-[1px] bg-outline-variant/20"></div>
+<div class="flex gap-2">
+<button class="px-4 py-1.5 text-xs font-bold border border-outline-variant/30 hover:bg-surface-container-low transition-colors">Download PDF</button>
+<button class="px-4 py-1.5 text-xs font-bold bg-primary text-on-primary hover:opacity-90 transition-opacity">Submit Review</button>
+</div>
+</div>
+</div>
+<!-- Full Document View -->
+<div class="flex-grow overflow-auto p-12 flex justify-center bg-surface-dim/30">
+<div class="relative w-[800px] bg-white shadow-xl min-h-[1100px] p-16 border border-outline-variant/10">
+<!-- Fake Document Content -->
+<div class="border-b-2 border-primary pb-4 mb-8">
+<h1 class="text-2xl font-black uppercase tracking-tight">Ecology Transect Survey Form</h1>
+<p class="text-xs text-on-surface-variant">Division of Environmental Conservation | Region 7</p>
+</div>
+<!-- Header Info -->
+<div class="grid grid-cols-2 gap-8 mb-12">
+<div class="space-y-4">
+<div class="relative">
+<p class="text-[10px] font-bold text-on-surface-variant uppercase mb-1">Site Location</p>
+<p class="text-lg font-medium">Boreal Forest Preserve - Sector B</p>
+<!-- Green Bounding Box -->
+<div class="absolute -inset-2 border-2 border-secondary/50 bg-secondary/5 rounded-sm cursor-pointer hover:bg-secondary/10 transition-colors"></div>
+</div>
+<div>
+<p class="text-[10px] font-bold text-on-surface-variant uppercase mb-1">Lead Investigator</p>
+<p class="text-lg font-medium">Dr. Elena Thorne</p>
+</div>
+</div>
+<div class="space-y-4">
+<div class="relative">
+<p class="text-[10px] font-bold text-on-surface-variant uppercase mb-1">Date of Survey</p>
+<p class="text-lg font-medium">October 14, 2023</p>
+<!-- Orange Bounding Box -->
+<div class="absolute -inset-2 border-2 border-tertiary-fixed-dim/50 bg-tertiary-fixed-dim/5 rounded-sm cursor-pointer hover:bg-tertiary-fixed-dim/10 transition-colors"></div>
+</div>
+<div>
+<p class="text-[10px] font-bold text-on-surface-variant uppercase mb-1">Weather Conditions</p>
+<p class="text-lg font-medium">Partly Cloudy, 14°C</p>
+</div>
+</div>
+</div>
+<!-- The Table Section -->
+<div class="relative mt-8">
+<div class="absolute -top-6 left-0 px-2 bg-primary text-on-primary text-[10px] font-bold py-0.5">Section 02: Species Observation</div>
+<table class="w-full border-collapse border border-outline-variant/30">
+<thead>
+<tr class="bg-surface-container-low">
+<th class="border border-outline-variant/30 p-2 text-left text-[10px] uppercase font-bold">Ref ID</th>
+<th class="border border-outline-variant/30 p-2 text-left text-[10px] uppercase font-bold">Species Name</th>
+<th class="border border-outline-variant/30 p-2 text-left text-[10px] uppercase font-bold">Count</th>
+<th class="border border-outline-variant/30 p-2 text-left text-[10px] uppercase font-bold">Health Index</th>
+</tr>
+</thead>
+<tbody class="text-sm">
+<tr>
+<td class="border border-outline-variant/30 p-2">T-01</td>
+<td class="border border-outline-variant/30 p-2 font-medium">Pinus strobus</td>
+<td class="border border-outline-variant/30 p-2 text-right">42</td>
+<td class="border border-outline-variant/30 p-2 text-right">0.85</td>
+</tr>
+<tr class="relative bg-tertiary-fixed-dim/5">
+<td class="border border-outline-variant/30 p-2">T-02</td>
+<td class="border border-outline-variant/30 p-2 font-medium">Acer saccharum</td>
+<td class="border border-outline-variant/30 p-2 text-right relative">
+                                        128
+                                        <!-- Active Fragment highlight -->
+<div class="absolute inset-0 border-2 border-primary bg-primary/5"></div>
+</td>
+<td class="border border-outline-variant/30 p-2 text-right">0.92</td>
+</tr>
+<tr>
+<td class="border border-outline-variant/30 p-2">T-03</td>
+<td class="border border-outline-variant/30 p-2 font-medium">Betula papyrifera</td>
+<td class="border border-outline-variant/30 p-2 text-right">67</td>
+<td class="border border-outline-variant/30 p-2 text-right">0.78</td>
+</tr>
+<tr>
+<td class="border border-outline-variant/30 p-2">T-04</td>
+<td class="border border-outline-variant/30 p-2 font-medium">Picea glauca</td>
+<td class="border border-outline-variant/30 p-2 text-right">15</td>
+<td class="border border-outline-variant/30 p-2 text-right">0.64</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Mock image for document realism -->
+<div class="mt-12 opacity-50">
+<img class="w-48 grayscale" data-alt="A professional scanned document footer showing a faint biological research stamp and a handwritten cursive signature at the bottom of a structured field report. The paper has a slight texture and off-white color, reinforcing its physical origin before digitization. The aesthetic is clean and authoritative, fitting into a high-stakes environmental data review application." src="https://lh3.googleusercontent.com/aida-public/AB6AXuByg30BoAJBpXsPdOJVfAFgBBtv7p7Tf5wQ5Yku1M0PygQSGnmiW8gJFO2tpMzNP6WYyMzfu5K1bj-Xd2cbZGSIwr6qvMullYHck9MG86B_NBCKB91Fo3ERYUGF6O-tIem78_mDrxv-zPJdGFp2w7vastEr9zh9PTu4Qjq13UkosxGyjWWkrypGjHampQ7f0UtkgDSHjlhctoEv4DmM5AA3s5kH6mV2KxbqnyphMW14Ok2oFSpFpB_dxvqTMkVSbKgmyryVWVXwTMYt"/>
+</div>
+</div>
+</div>
+<!-- ACTIVE MODAL OVERLAY: DATA FRAGMENT REVIEW -->
+<div class="absolute inset-0 z-[60] flex items-center justify-center bg-on-background/40 backdrop-blur-sm p-8" id="review-modal">
+<div class="bg-surface-container-lowest w-full max-w-5xl h-[500px] flex flex-col shadow-2xl border border-outline-variant/20 rounded-lg overflow-hidden animate-in fade-in zoom-in duration-300">
+<!-- Modal Header -->
+<div class="h-14 flex items-center justify-between px-6 bg-surface-container-low border-b border-outline-variant/10">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">data_object</span>
+<h3 class="font-bold text-on-surface">Review Fragment: Species Count</h3>
+</div>
+<button class="material-symbols-outlined p-1 hover:bg-surface-container-high transition-colors" onclick="document.getElementById('review-modal').style.display='none'">close</button>
+</div>
+<!-- Split Review Body -->
+<div class="flex-grow flex overflow-hidden">
+<!-- Left: Form Segment (Zoomed-in crop) -->
+<div class="w-1/2 bg-surface-container-highest/30 border-r border-outline-variant/10 flex flex-col items-center justify-center p-8 relative">
+<p class="absolute top-4 left-6 text-[10px] font-bold text-on-surface-variant uppercase">Captured Segment</p>
+<div class="bg-white p-1 shadow-md border border-outline-variant/20 transform rotate-[-0.5deg]">
+<img class="w-64 h-32 object-cover" data-alt="A macro close-up of a handwritten '128' on a gridded ecological survey form. The ink is dark blue from a ballpoint pen, showing slight pressure variations and a slightly shaky human touch. The paper has faint blue grid lines and a soft, natural texture, illuminated by bright, clinical light-mode studio lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2EIulTJFNiFiwhmbFcZY9Nv5ZrgPxHrpK7fL_rTSPoCPtS7SkOep6H18xBNKdjAuXQg4l65PC3fWJralwClZJaSR6IYWF8vXo0rkL3da0yx6bSOfWw97Cvr08L00soIlwMqIco8UWNNu2E20sqJluB6HvZYEoY0T6Yll7qvVHWHFEOw4wwdAJVk3S5UbMbD0oD7JtLj_MDseZL20R-Y927VmkoLkfeDlRkqS6IUFjHyHfEjsR_X2sPnr93vG036y-XinEAF433hTO"/>
+</div>
+<div class="mt-6 flex gap-4">
+<button class="p-2 bg-surface-container-lowest border border-outline-variant/20 rounded-sm hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined">zoom_in</span>
+</button>
+<button class="p-2 bg-surface-container-lowest border border-outline-variant/20 rounded-sm hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined">zoom_out</span>
+</button>
+</div>
+</div>
+<!-- Right: Extracted Data (Editable) -->
+<div class="w-1/2 p-8 flex flex-col">
+<p class="text-[10px] font-bold text-on-surface-variant uppercase mb-6">Extracted Properties</p>
+<div class="space-y-6">
+<div>
+<label class="block text-xs font-semibold text-on-surface-variant mb-1">Field Name</label>
+<div class="px-3 py-2 bg-surface-container-low text-sm font-medium border-b-2 border-outline-variant/20">Count_Total</div>
+</div>
+<div class="relative">
+<label class="block text-xs font-semibold text-on-surface-variant mb-1">Confidence Score</label>
+<div class="flex items-center gap-3">
+<div class="flex-grow h-2 bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-secondary w-[94%]"></div>
+</div>
+<span class="text-sm font-bold text-secondary">94%</span>
+</div>
+</div>
+<div>
+<label class="block text-xs font-semibold text-on-surface-variant mb-1">Parsed Value</label>
+<input class="w-full text-2xl font-bold bg-surface-container-lowest border-none border-b-2 border-primary focus:ring-0 px-0 py-2" type="text" value="128"/>
+<p class="mt-2 text-[10px] text-on-surface-variant">Press Enter to save changes instantly.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Modal Footer -->
+<div class="h-16 flex items-center justify-between px-8 bg-surface-container-low border-t border-outline-variant/10">
+<button class="flex items-center gap-2 px-4 py-2 text-sm font-bold text-error hover:bg-error-container/20 transition-colors">
+<span class="material-symbols-outlined text-[18px]">flag</span>
+                            Flag Error
+                        </button>
+<div class="flex gap-3">
+<button class="px-6 py-2 text-sm font-bold bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-colors">Skip</button>
+<button class="px-8 py-2 text-sm font-bold bg-secondary text-on-secondary hover:opacity-90 transition-opacity">Verify &amp; Next</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<!-- Micro-interaction JS -->
+<script>
+        // Simple hover effect visualization logic
+        document.querySelectorAll('.border-2').forEach(box => {
+            box.addEventListener('click', () => {
+                const modal = document.getElementById('review-modal');
+                modal.classList.remove('hidden');
+                modal.style.display = 'flex';
+            });
+        });
+
+        // Keydown listener for quick close
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                document.getElementById('review-modal').style.display = 'none';
+            }
+        });
+    </script>
+</body></html>

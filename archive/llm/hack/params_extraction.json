@@ -1,0 +1,24 @@
+{
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an OCR-to-JSON assistant."
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "You are an OCR and table extraction assistant for ecological survey forms.\n\nYou will be given:\n1. A scanned image of a form.\n2. A list of valid species names.\n3. Instructions about the type of form.\n\nYour task is to read the form and output JSON objects, one per row in the form.\n\nForm type:\nThis is a PLOT form (10x10m). Each row = one woody stem >1 cm DBH. Fill only: species, habit, dbh_cm, phenology, and identifiers (transectID, blockID, plotID, date, source_file). \n\nSpecial instructions:\n- Match species names only to the provided list. If unclear or ambiguous, choose the closest match and set `species_doubt=true`.\n- For seedling/sapling tallies, count the tally marks. If unsure, set `_doubt=true`.\n- Grass cover and bare ground values are percentages written in the notes column. If unclear, set both values and `notes_doubt=true`.\n- For every field, if handwriting is unclear, multiple interpretations are possible, or OCR confidence is low, mark `_doubt=true`.\n- If a field does not apply for this form type, leave it null.\n\nOutput:\n- Respond **only with a JSON object**.\n- Do not include explanations, natural language, or extra text.\n- Each object must have the fields: transectID, blockID, plotID, date.\n\nSpecies names (use only these values):\n[\n  \"Bilmek\",\n  \"Bobe thur\",\n  \"Boothakani\",\n  \"Garugu\",\n  \"Kaatu orange\",\n  \"Kabodi thur\",\n  \"Kadalai\",\n  \"Kage\",\n  \"Kark\",\n  \"Karvish\",\n  \"Kavas\",\n  \"Kersh\",\n  \"Kheel\",\n  \"Kishkir\",\n  \"Kishkir-2\",\n  \"Kobuvu\",\n  \"Kodiki\",\n  \"Kodub\",\n  \"Kokudh\",\n  \"Koli\",\n  \"Korai\",\n  \"Koregu\",\n  \"Korvu\",\n  \"Kuthavu\",\n  \"Mailanji thur\",\n  \"Mesthini\",\n  \"Mine\",\n  \"Morsh magao\",\n  \"NA\",\n  \"Natia\",\n  \"Naval\",\n  \"Neeran\",\n  \"Oduthin\",\n  \"Pepper kodi\",\n  \"Pestheri\",\n  \"Pongon\",\n  \"Posh\",\n  \"Povet\",\n  \"Rubacea\",\n  \"Sarman thur\",\n  \"Thadu\",\n  \"Thagai\",\n  \"Thanugu\",\n  \"Thavuttu pazham\",\n  \"Theer\",\n  \"Thudai\",\n  \"Torie\",\n  \"Vattakaka\",\n  \"Virali\",\n  \"ageade\",\n  \"ari\",\n  \"celphi\",\n  \"celtet\",\n  \"cesaur\",\n  \"dapnei\",\n  \"dodvis\",\n  \"fer\",\n  \"glonei\",\n  \"ileden\",\n  \"isowig\",\n  \"ixonot\",\n  \"lapbul\",\n  \"ligper\",\n  \"litwig\",\n  \"maeind\",\n  \"magnil\",\n  \"mellun\",\n  \"melsim\",\n  \"memumb\",\n  \"micram\",\n  \"neoscr\",\n  \"notnim\",\n  \"phoser\",\n  \"pip\",\n  \"psybis\",\n  \"psytru\",\n  \"rapcap\",\n  \"rauver\",\n  \"rhotom\",\n  \"rubell\",\n  \"scocre\",\n  \"smiasp\",\n  \"stacoc\",\n  \"stevol\",\n  \"symcoc\",\n  \"syzcum\",\n  \"syzden\",\n  \"tarasi\",\n  \"tetdio\",\n  \"todasi\",\n  \"vacles\",\n  \"verarb\"\n]\n\nProcess the attached image.\n"
+        },
+        {
+          "type": "image_url",
+          "image_url": {
+            "url": "https://fomomonguest.s3.ap-south-1.amazonaws.com/keystone/IMG-20250924-WA0000.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}
