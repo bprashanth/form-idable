@@ -205,6 +205,14 @@ inference/
 *.heic
 *.png.aux.xml
 
+# But DO track the PWA's static assets — Netlify builds from git, so these
+# must be committed or they 404 in prod (browser gets index.html for an image).
+!pwa/public/logo.png
+!pwa/public/apple-touch-icon.png
+!pwa/public/favicon-96x96.png
+!pwa/public/web-app-manifest-192x192.png
+!pwa/public/web-app-manifest-512x512.png
+
 # Deploy outputs and test credentials (contain resource IDs and secrets)
 server/deploy/outputs.env
 server/deploy/test-credentials.env
