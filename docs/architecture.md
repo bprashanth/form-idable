@@ -23,6 +23,36 @@ The Lambda handler and the Fargate worker are built from separate Docker images 
 
 ---
 
+## Repositories and infra ownership
+
+The system spans two repos, split along a frontend/data vs backend line:
+
+- **`form-idable` (this repo)** — the PWA (`pwa/`), documentation (`docs/`),
+  benchmarks and datasets (`benchmarks/`), and the golden regression fixture.
+  The old `agent/` FastAPI server here is the retired Textract-era code, not in
+  use.
+- **`good-shepherd/agents/formidable/`** — the entire live backend: the Lambda
+  handler (`main.py`), the Fargate worker (`worker.py`), Dockerfiles, deploy
+  scripts, prompts, and the nightly regression suite. The Python is
+  self-contained (no imports from `good-shepherd/server/`).
+
+The **AWS infra** belongs to neither repo — it's deployed in `ap-south-1` by the
+good-shepherd deploy scripts. Ownership matters when reasoning about changes:
+
+- The **`form-idable-api` API Gateway** and the **`cognito-jwt` authorizer** are
+  created by **`good-shepherd/server/deploy/setup.sh`**. The formidable agent
+  *reuses* them (hangs its `/vision/*` routes off the shared gateway) and never
+  creates them — so all backends sit behind one gateway in good-shepherd.
+- The **`form-idable-agents` ECS cluster** (VPC/subnet/SG) is shared config in
+  `good-shepherd/agents/deploy/config.sh`; `agents/formidable/deploy/config.sh`
+  sources it. `agents/` is structured as a multi-agent host — formidable is the
+  first agent.
+
+Practical consequence: working on the formidable **backend** requires the
+good-shepherd repo checked out alongside this one. Operational runbook: `ops.md`.
+
+---
+
 ## Data flow
 
 A user authenticates against Cognito through the PWA and receives a short-lived JWT. Every API call to the gateway includes that token in the Authorization header. The Cognito JWT authorizer on the gateway validates the token before routing the request to the Lambda.

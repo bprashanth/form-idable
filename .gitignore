@@ -224,3 +224,7 @@ pwa/test-results/
 # Scratch / experiment directories — not production code
 temp/
 pwa/inspect_review.mjs
+
+# Agent index files (local, per-developer pointers — not shared)
+CLAUDE.md
+AGENTS.md
