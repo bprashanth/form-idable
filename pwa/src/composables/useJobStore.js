@@ -120,6 +120,20 @@ export function useJobStore() {
     delete cache[jobId]
   }
 
+  // Rerun creates a NEW job from the source job's input (the original is left
+  // untouched). Returns { job_id, status } for the new job.
+  async function rerunJob(jobId) {
+    const res = await fetch(`${API_BASE}/api/jobs/${jobId}/rerun`, {
+      method:  'POST',
+      headers: _authHeaders(),
+    })
+    if (!res.ok) {
+      const text = await res.text().catch(() => res.status)
+      throw new Error(`Rerun failed (${res.status}): ${text}`)
+    }
+    return res.json()  // { job_id, status: 'queued' }
+  }
+
   function pollJob(jobId, interval = 5000) {
     const tick = async () => {
       const res = await fetch(`${API_BASE}/api/jobs/${jobId}/status`, {
@@ -223,6 +237,7 @@ export function useJobStore() {
     savePendingFile,
     getPendingFile,
     deleteJob,
+    rerunJob,
     fetchProgress,
     pollJob,
     fetchAuthedUrl,

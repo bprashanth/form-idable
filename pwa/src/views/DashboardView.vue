@@ -471,7 +471,7 @@ import { useCognitoAuth } from '@/composables/useCognitoAuth.js'
 
 const router = useRouter()
 const {
-  jobs, jobsLoading, fetchJobs, deleteJob,
+  jobs, jobsLoading, fetchJobs, deleteJob, rerunJob: rerunJobApi,
   initUpload, s3Put, startJob, savePendingFile, getPendingFile,
   fetchProgress, pollJob, fetchAuthedUrl, getXlsxUrl, pageUrl,
 } = useJobStore()
@@ -803,8 +803,15 @@ async function downloadXlsx(job) {
   }
 }
 
-function rerunJob(job) {
-  alert(`Rerun not yet wired (job: ${job.job_id})`)
+async function rerunJob(job) {
+  try {
+    const { job_id } = await rerunJobApi(job.job_id)
+    await fetchJobs()      // surface the new job in the list
+    pollJob(job_id)        // track its progress
+    showToast('Rerun started as a new job', 'success')
+  } catch (err) {
+    showToast(`Rerun failed: ${err.message}`, 'error')
+  }
 }
 
 function handleLogout() {
