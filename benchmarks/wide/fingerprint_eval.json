@@ -1,0 +1,66 @@
+{
+  "geometry": {
+    "dev_curve": {
+      "ap": 0.159,
+      "best_f1": 0.222,
+      "thr": 0.782,
+      "prec_at_best": 0.429,
+      "rec_at_best": 0.15
+    },
+    "test_at_dev_threshold": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 10
+    },
+    "test_curve": {
+      "ap": 0.137,
+      "best_f1": 0.333,
+      "thr": 0.491,
+      "prec_at_best": 0.219,
+      "rec_at_best": 0.7
+    },
+    "n_pairs": {
+      "dev": 780,
+      "test": 190
+    },
+    "n_pos": {
+      "dev": 20,
+      "test": 10
+    }
+  },
+  "embedding": {
+    "dev_curve": {
+      "ap": 0.474,
+      "best_f1": 0.558,
+      "thr": 0.9638,
+      "prec_at_best": 0.522,
+      "rec_at_best": 0.6
+    },
+    "test_at_dev_threshold": {
+      "precision": 0.75,
+      "recall": 0.3,
+      "f1": 0.429,
+      "tp": 3,
+      "fp": 1,
+      "fn": 7
+    },
+    "test_curve": {
+      "ap": 0.443,
+      "best_f1": 0.5,
+      "thr": 0.9243,
+      "prec_at_best": 0.364,
+      "rec_at_best": 0.8
+    },
+    "n_pairs": {
+      "dev": 780,
+      "test": 190
+    },
+    "n_pos": {
+      "dev": 20,
+      "test": 10
+    }
+  }
+}

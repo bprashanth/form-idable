@@ -1,0 +1,5 @@
+[
+  {"provider": "gemini",     "model": "gemini-2.5-flash",           "mode": "perpage"},
+  {"provider": "openrouter", "model": "qwen/qwen3-vl-32b-instruct", "mode": "perpage"},
+  {"provider": "openrouter", "model": "qwen/qwen3-vl-8b-instruct",  "mode": "perpage"}
+]

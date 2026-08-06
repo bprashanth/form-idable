@@ -228,3 +228,6 @@ pwa/inspect_review.mjs
 # Agent index files (local, per-developer pointers — not shared)
 CLAUDE.md
 AGENTS.md
+
+# Agent prompts / briefs — local working notes, not shared
+.prompts/

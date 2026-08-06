@@ -1,0 +1,11 @@
+[
+  {"provider": "gemini",     "model": "gemini-2.5-flash",           "mode": "perpage"},
+  {"provider": "gemini",     "model": "gemini-3.6-flash",           "mode": "perpage"},
+  {"provider": "openrouter", "model": "qwen/qwen3-vl-32b-instruct", "mode": "perpage"},
+  {"provider": "local",      "model": "qwen3-vl-8b-fp8",            "mode": "perpage",
+   "endpoint": "http://localhost:8010/v1"},
+  {"provider": "local",      "model": "qwen3-vl-2b",                "mode": "perpage",
+   "endpoint": "http://localhost:8010/v1"},
+  {"provider": "local",      "model": "qwen3-vl-2b-forms-lora",     "mode": "perpage",
+   "endpoint": "http://localhost:8010/v1"}
+]

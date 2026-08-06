@@ -1,0 +1,64 @@
+# ── generated corpora and derived artefacts (regenerable from gen/) ──────────
+train_forms/
+train_forms2/
+train_forms_v3/
+train_forms_v4/
+train_tpl_v3/
+train_tpl_v4/
+struct_eval/
+sft_data/
+sft_data2/
+sft_v3_arch/
+sft_v3_tpl/
+sft_v4_arch/
+sft_v4_tpl/
+sft_v3.jsonl
+sft_v4.jsonl
+
+# rendered pages / tiles / per-model outputs inside every form dir
+**/pages/
+**/tiles/
+**/outputs/
+**/codex_work/
+**/_tmp_page.jpg
+**/_t.jpg
+
+# ── large downloads (re-fetchable; see downloads/templates/SOURCES.md) ───────
+downloads/dataset/
+downloads/sd19/
+downloads/*.zip
+downloads/templates/*.pdf
+
+# ── the SD-19 glyph bank: 26k files, rebuild with gen/build_glyphbank.py ─────
+assets/glyphs/
+
+# ── logs, venv, scratch ─────────────────────────────────────────────────────
+*.log
+.venv/
+__pycache__/
+*.pyc
+template_fingerprints.json
+
+# ── KEPT ON PURPOSE (do not add to this file) ───────────────────────────────
+#   eval_forms/*/input.pdf      the 24 real partner forms
+#   eval_forms/*/golden.xlsx    their goldens
+#   eval_forms/*/provenance.md  + GOLDEN_NOTES.md
+#   eval_forms/*/source_map.json
+#   downloads/templates/SOURCES.md
+#   results.csv / results.json / fingerprint_eval.json
+#   every .py, .sh, .md in this directory
+
+# round-1 17-form suite (regenerable via gen/formgen.py seed 7) + dsocr dumps
+forms/
+dsocr_out/
+dsocr_hf_out/
+assets/fonts/
+
+# real partner form PDFs are large (65MB); originals live in ../../evals/
+# goldens, provenance and source_map are kept so the eval is reproducible
+eval_forms/*/input.pdf
+
+# band crops (regenerable via band_bench.py)
+**/_bands/
+# baseline copies of model outputs (regenerable; kept out of the diff)
+**/outputs/_baseline/

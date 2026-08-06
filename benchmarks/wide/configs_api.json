@@ -1,0 +1,14 @@
+[
+  {"provider": "gemini",     "model": "gemini-2.5-flash",                 "mode": "tiled"},
+  {"provider": "gemini",     "model": "gemini-2.5-flash",                 "mode": "oneshot"},
+  {"provider": "gemini",     "model": "gemini-3.5-flash-lite",            "mode": "tiled"},
+  {"provider": "gemini",     "model": "gemini-3.6-flash",                 "mode": "tiled"},
+  {"provider": "openrouter", "model": "qwen/qwen3-vl-32b-instruct",       "mode": "tiled"},
+  {"provider": "openrouter", "model": "qwen/qwen3-vl-8b-instruct",        "mode": "tiled"},
+  {"provider": "openrouter", "model": "qwen/qwen3-vl-30b-a3b-instruct",   "mode": "tiled"},
+  {"provider": "openrouter", "model": "qwen/qwen3-vl-235b-a22b-instruct", "mode": "tiled"},
+  {"provider": "openrouter", "model": "google/gemma-4-26b-a4b-it",        "mode": "tiled"},
+  {"provider": "openrouter", "model": "z-ai/glm-4.6v",                    "mode": "tiled"},
+  {"provider": "openrouter", "model": "mistralai/mistral-small-2603",     "mode": "tiled"},
+  {"provider": "textract",   "model": "textract",                         "mode": "oneshot"}
+]
