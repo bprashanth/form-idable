@@ -7,6 +7,28 @@ See [../docs/pwa.md](../docs/pwa.md) for more details.
 $ npm run dev
 ```
 
+## Optional attention-first review artifact
+
+The review page remains compatible with the production crop manifest. If
+`GET /api/jobs/{job_id}/review-manifest` returns a
+`formidable-review-v1` document, it also shows separate transcription-attention
+and ecology-anomaly views. Peer alternatives and ecology suggestions are never
+auto-applied. A missing or malformed optional artifact falls back to the
+existing page/crop/xlsx review UI.
+
+Multi-sheet workbooks are mapped one sheet per paper page; legacy one-sheet
+workbooks use sheet one as an explicit fallback.
+
+Local browser tests require the backend mock on port 8072. Playwright pins the
+Vite proxy to that mock, uses repository-local artifact fixtures, and enables a
+development-only auth bypass:
+
+```console
+$ npx playwright test
+```
+
+The backend endpoint is not deployed as part of this prototype.
+
 ## Server discovery
 
 There are two backend servers. How the PWA reaches them depends on whether it's

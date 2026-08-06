@@ -18,7 +18,7 @@ VERSION = "formidable-review-v1"
 
 
 def norm(value: Any) -> str:
-    text = " ".join(str(value or "").strip().split()).casefold()
+    text = "" if value is None else " ".join(str(value).strip().split()).casefold()
     if not text:
         return ""
     try:

@@ -114,6 +114,32 @@
         </span>
       </div>
 
+      <!-- Optional v2 review queues. Transcription uncertainty and ecology
+           plausibility stay separate so a domain hint is never mistaken for
+           a literal correction. -->
+      <div
+        v-if="reviewManifest"
+        class="flex items-center gap-2 px-4 py-2 border-b border-outline-variant/15 bg-surface-container-low shrink-0"
+        data-testid="review-summary"
+      >
+        <span class="text-[10px] uppercase tracking-widest font-black text-on-surface-variant mr-1">Review focus</span>
+        <button
+          v-for="choice in reviewChoices"
+          :key="choice.id"
+          class="px-3 py-1.5 text-[10px] font-black uppercase tracking-wide border transition-colors"
+          :class="reviewMode === choice.id
+            ? 'bg-primary text-on-primary border-primary'
+            : 'bg-surface text-on-surface-variant border-outline-variant/40 hover:border-primary/50'"
+          :data-testid="`review-mode-${choice.id}`"
+          @click="reviewMode = choice.id"
+        >
+          {{ choice.label }} <span class="font-mono">{{ choice.count }}</span>
+        </button>
+        <span class="ml-auto text-[10px] text-on-surface-variant">
+          Values shown are literal; alternatives and ecology flags are never auto-applied.
+        </span>
+      </div>
+
       <!-- Split content area: image (left) + Excel table (right) -->
       <div class="flex-1 flex min-h-0 overflow-hidden">
 
@@ -187,6 +213,20 @@
                 <span v-if="hasCropCorrections(crop)"
                       class="absolute -top-1.5 -right-1.5 w-3 h-3 bg-tertiary-fixed-dim rounded-full border border-white" />
               </div>
+
+              <!-- Cell-level attention overlays sit above broad production
+                   crops and open the same correction modal at the exact bbox. -->
+              <button
+                v-for="item in reviewMode === 'attention' ? currentAttention : []"
+                :key="item.cell_id"
+                class="absolute border-2 border-error bg-error/15 hover:bg-error/30 z-10"
+                :style="attentionStyle(item)"
+                :title="`${item.reason}: ${item.presented_value ?? 'blank'}`"
+                :data-testid="`attention-${item.cell_id}`"
+                @click.stop="onAttentionClick(item)"
+              >
+                <span class="sr-only">Review {{ item.cell_id }}</span>
+              </button>
             </div>
           </div>
         </div>
@@ -194,11 +234,13 @@
         <!-- Right: full Excel table panel -->
         <div class="w-[44%] shrink-0 flex flex-col border-l border-outline-variant/20 bg-surface overflow-hidden">
           <div class="px-4 py-2 border-b border-outline-variant/10 shrink-0 flex items-center gap-2 bg-surface-container-lowest">
-            <span class="material-symbols-outlined text-sm text-on-surface-variant">table_chart</span>
-            <span class="text-[10px] uppercase tracking-widest font-black text-on-surface-variant">Excel Output</span>
-            <span v-if="xlsxRows.length" class="ml-auto text-[10px] text-outline/60">{{ xlsxRows.length }} rows</span>
+            <span class="material-symbols-outlined text-sm text-on-surface-variant">{{ reviewMode === 'all' ? 'table_chart' : 'fact_check' }}</span>
+            <span class="text-[10px] uppercase tracking-widest font-black text-on-surface-variant">
+              {{ reviewMode === 'all' ? 'Excel Output' : reviewMode === 'attention' ? 'Transcription attention' : 'Ecology anomalies' }}
+            </span>
+            <span class="ml-auto text-[10px] text-outline/60">{{ panelCountLabel }}</span>
           </div>
-          <div ref="xlsxPanel" class="flex-1 overflow-auto min-h-0">
+          <div v-if="reviewMode === 'all'" ref="xlsxPanel" class="flex-1 overflow-auto min-h-0" data-testid="xlsx-panel">
             <div v-if="loading || !xlsxRows.length" class="p-4 text-xs text-on-surface-variant">
               {{ loading ? 'Loading…' : 'No data.' }}
             </div>
@@ -233,6 +275,44 @@
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div v-else-if="reviewMode === 'attention'" class="flex-1 overflow-auto min-h-0 p-3 space-y-2" data-testid="attention-queue">
+            <button
+              v-for="item in currentAttention"
+              :key="item.cell_id"
+              class="w-full text-left border border-error/25 bg-error-container/20 hover:bg-error-container/35 p-3 transition-colors"
+              @click="onAttentionClick(item)"
+            >
+              <div class="flex items-start justify-between gap-3">
+                <span class="font-mono text-xs font-black text-error">{{ item.presented_value ?? '∅' }}</span>
+                <span class="text-[9px] uppercase tracking-widest font-black text-error">{{ item.priority }}</span>
+              </div>
+              <p class="text-xs text-on-surface mt-1">{{ item.reason }}</p>
+              <p v-if="item.alternatives?.length" class="text-[10px] text-on-surface-variant mt-1">
+                Other reader: {{ item.alternatives.join(' · ') }}
+              </p>
+              <p class="text-[9px] font-mono text-outline mt-2 break-all">{{ item.cell_id }}</p>
+            </button>
+            <p v-if="!currentAttention.length" class="p-4 text-xs text-on-surface-variant">No transcription items on this page.</p>
+          </div>
+          <div v-else class="flex-1 overflow-auto min-h-0 p-3 space-y-2" data-testid="ecology-queue">
+            <button
+              v-for="item in currentEcology"
+              :key="item.finding_id"
+              class="w-full text-left border border-tertiary-fixed-dim/50 bg-tertiary-fixed/20 hover:bg-tertiary-fixed/35 p-3 transition-colors"
+              @click="goToFinding(item)"
+            >
+              <div class="flex items-start justify-between gap-3">
+                <span class="text-xs font-black text-on-surface">{{ item.label || item.code }}</span>
+                <span class="text-[9px] uppercase tracking-widest font-black text-on-surface-variant">{{ item.severity }}</span>
+              </div>
+              <p class="text-xs text-on-surface mt-1">{{ item.message }}</p>
+              <p class="text-[10px] text-on-surface-variant mt-1">
+                Observed {{ item.observed ?? '—' }}<span v-if="item.median != null"> · median {{ item.median }}</span><span v-if="item.mad != null"> · MAD {{ item.mad }}</span>
+              </p>
+              <p class="text-[9px] text-outline mt-2">Flag only—no value was changed.</p>
+            </button>
+            <p v-if="!currentEcology.length" class="p-4 text-xs text-on-surface-variant">No ecology findings on this page.</p>
           </div>
         </div>
 
@@ -486,11 +566,20 @@ function syncExcelScroll() {
 const loading     = ref(true)
 const loadError   = ref(null)
 const manifest    = ref(null)
-const xlsxRows    = ref([])
+const xlsxPages   = ref([])
+const reviewManifest = ref(null)
+const reviewMode  = ref('all')
 const currentPage = ref(1)
 const corrections = ref({})
 const modal       = ref(null)
 const zoomCanvas  = ref(null)
+
+// New exact-layout outputs contain one workbook sheet per paper page. Legacy
+// production workbooks may still be one flat sheet, so retain page one as the
+// explicit fallback instead of silently showing it as if it matched every page.
+const xlsxRows = computed(() =>
+  xlsxPages.value[currentPage.value - 1] ?? xlsxPages.value[0] ?? []
+)
 
 // ── Image / zoom refs ────────────────────────────────────────────────────────
 const pageImg    = ref(null)
@@ -555,6 +644,37 @@ const currentCrops   = computed(() => {
   const pages = manifest.value?.pages ?? []
   return pages[currentPage.value - 1]?.crops ?? []
 })
+const allAttention = computed(() => reviewManifest.value?.views?.transcription_attention ?? [])
+const allEcology = computed(() => reviewManifest.value?.views?.ecology_anomalies ?? [])
+const currentAttention = computed(() =>
+  allAttention.value.filter(item => Number(item.page) === currentPage.value)
+)
+const currentEcology = computed(() =>
+  allEcology.value.filter(item => Number(item.location?.page ?? item.page) === currentPage.value)
+)
+const reviewChoices = computed(() => [
+  { id: 'all', label: 'All cells', count: reviewManifest.value?.summary?.target_cells_including_blanks ?? xlsxRows.value.length },
+  { id: 'attention', label: 'Transcription', count: allAttention.value.length },
+  { id: 'ecology', label: 'Ecology', count: allEcology.value.length },
+])
+const panelCountLabel = computed(() => {
+  if (reviewMode.value === 'attention') return `${currentAttention.value.length} item${currentAttention.value.length === 1 ? '' : 's'}`
+  if (reviewMode.value === 'ecology') return `${currentEcology.value.length} item${currentEcology.value.length === 1 ? '' : 's'}`
+  return `${xlsxRows.value.length} rows`
+})
+const reviewCellsByCoordinate = computed(() => {
+  const result = new Map()
+  const attentionIds = new Set(allAttention.value.map(item => item.cell_id))
+  for (const cell of reviewManifest.value?.cells ?? []) {
+    if (attentionIds.has(cell.id) && cell.xlsx_row != null && cell.xlsx_column != null) {
+      result.set(`${cell.page}:${cell.xlsx_row}:${cell.xlsx_column}`, cell)
+    }
+  }
+  return result
+})
+const reviewCellsById = computed(() =>
+  new Map((reviewManifest.value?.cells ?? []).map(cell => [cell.id, cell]))
+)
 const correctionCount = computed(() => Object.keys(corrections.value).length)
 const modalHasCorrections = computed(() =>
   modal.value?.rows?.some(row => row.cells.some((_c, ci) => isCellCorrected(row.rowNum, ci))) ?? false
@@ -598,7 +718,8 @@ onMounted(async () => {
   try {
     const detail = await fetchJobDetail(jobId)
     manifest.value = detail.manifest
-    xlsxRows.value = detail.xlsxRows
+    xlsxPages.value = detail.xlsxPages?.length ? detail.xlsxPages : [detail.xlsxRows]
+    reviewManifest.value = detail.reviewManifest
   } catch (e) {
     console.error('Failed to load job detail', e)
     loadError.value = e.message ?? String(e)
@@ -618,7 +739,8 @@ async function retryLoad() {
   try {
     const detail = await fetchJobDetail(jobId)
     manifest.value = detail.manifest
-    xlsxRows.value = detail.xlsxRows
+    xlsxPages.value = detail.xlsxPages?.length ? detail.xlsxPages : [detail.xlsxRows]
+    reviewManifest.value = detail.reviewManifest
   } catch (e) {
     loadError.value = e.message ?? String(e)
   } finally {
@@ -755,8 +877,41 @@ function cropStyle(crop) {
   }
 }
 
+function attentionStyle(item) {
+  if (!Array.isArray(item.bbox) || item.bbox.length !== 4) return { display: 'none' }
+  const [x0, y0, x1, y1] = item.bbox
+  return {
+    left: `${x0 * 100}%`,
+    top: `${y0 * 100}%`,
+    width: `${Math.max(0.006, x1 - x0) * 100}%`,
+    height: `${Math.max(0.006, y1 - y0) * 100}%`,
+  }
+}
+
+function onAttentionClick(item) {
+  if (!item.bbox) return
+  resetModalZoom()
+  const cell = reviewCellsById.value.get(item.cell_id)
+  const [, y0, , y1] = item.bbox
+  const rows = cell?.xlsx_row != null
+    ? xlsxRows.value.filter(row => row.rowNum === cell.xlsx_row)
+    : estimateRows((y0 + y1) / 2, xlsxRows.value, 2)
+  const [x0, , x1] = item.bbox
+  modal.value = {
+    type: 'attention',
+    note: `${item.reason}; literal ${item.presented_value ?? 'blank'}`,
+    rows,
+  }
+  nextTick(() => drawZoom((x0 + x1) / 2, (y0 + y1) / 2))
+}
+
+function goToFinding(item) {
+  const page = Number(item.location?.page ?? item.page)
+  if (page >= 1 && page <= totalPages.value && page !== currentPage.value) goPage(page)
+}
+
 // ── Corrections ──────────────────────────────────────────────────────────────
-function cellKey(r, c)   { return `${r}:${c}` }
+function cellKey(r, c)   { return `${currentPage.value}:${r}:${c}` }
 function isCellCorrected(r, c) { return cellKey(r, c) in corrections.value }
 
 function getCellValue(rowNum, ci, cell) {
@@ -765,6 +920,9 @@ function getCellValue(rowNum, ci, cell) {
 
 function cellBgStyle(rowNum, ci, cell) {
   if (isCellCorrected(rowNum, ci)) return { backgroundColor: 'rgba(255,183,125,0.25)' }
+  if (reviewCellsByCoordinate.value.has(`${currentPage.value}:${rowNum}:${ci + 1}`)) {
+    return { backgroundColor: 'rgba(186,26,26,0.14)', boxShadow: 'inset 0 0 0 1px rgba(186,26,26,0.35)' }
+  }
   if (cell.color) {
     const r = parseInt(cell.color.slice(1, 3), 16)
     const g = parseInt(cell.color.slice(3, 5), 16)

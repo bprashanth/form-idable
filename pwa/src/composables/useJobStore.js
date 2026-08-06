@@ -34,9 +34,12 @@ export function useJobStore() {
   async function fetchJobDetail(jobId) {
     if (cache[jobId]) return cache[jobId]
 
-    const [mRes, xRes] = await Promise.all([
+    const [mRes, xRes, reviewRes] = await Promise.all([
       fetch(`${API_BASE}/api/jobs/${jobId}/manifest`, { headers: _authHeaders() }),
       fetch(`${API_BASE}/api/jobs/${jobId}/xlsx`,     { headers: _authHeaders() }),
+      // Optional v2 artifact. A 404 keeps the production v1 review path fully
+      // functional while local/new workers can expose focused review queues.
+      fetch(`${API_BASE}/api/jobs/${jobId}/review-manifest`, { headers: _authHeaders() }),
     ])
 
     if (!mRes.ok) throw new Error(`manifest fetch failed: ${mRes.status}`)
@@ -48,10 +51,20 @@ export function useJobStore() {
     if (!xlsxFetch.ok) throw new Error(`xlsx S3 fetch failed: ${xlsxFetch.status}`)
     const xlsxBuf  = await xlsxFetch.arrayBuffer()
     const wb       = XLSX.read(xlsxBuf, { type: 'array', cellStyles: true })
-    const ws       = wb.Sheets[wb.SheetNames[0]]
-    const xlsxRows = _parseSheet(ws)
+    const xlsxPages = wb.SheetNames.map(name => _parseSheet(wb.Sheets[name]))
+    const xlsxRows = xlsxPages[0] ?? []
+    let reviewManifest = null
+    if (reviewRes.ok) {
+      try {
+        const candidate = await reviewRes.json()
+        if (candidate?.version === 'formidable-review-v1') reviewManifest = candidate
+      } catch {
+        // The review manifest is additive. A malformed optional artifact must
+        // not make the form or its original xlsx impossible to review.
+      }
+    }
 
-    cache[jobId] = { manifest, xlsxRows }
+    cache[jobId] = { manifest, xlsxRows, xlsxPages, reviewManifest }
     return cache[jobId]
   }
 

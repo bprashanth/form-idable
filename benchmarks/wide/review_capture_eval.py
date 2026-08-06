@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 def norm(value):
-    text = " ".join(str(value or "").strip().split()).casefold()
+    text = "" if value is None else " ".join(str(value).strip().split()).casefold()
     if not text:
         return ""
     try:

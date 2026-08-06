@@ -18,6 +18,10 @@ const router = createRouter({
 })
 
 router.beforeEach(async (to) => {
+  // Browser tests run against the local mock API and have no Cognito session.
+  // Both conditions are required so a production build cannot enable this.
+  const e2eBypass = import.meta.env.DEV && import.meta.env.VITE_E2E_BYPASS_AUTH === 'true'
+  if (e2eBypass) return
   if (to.name !== 'login') {
     const { isAuthenticated, refreshSession } = useCognitoAuth()
     if (!isAuthenticated.value) {

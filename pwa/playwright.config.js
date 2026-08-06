@@ -8,7 +8,7 @@ export default defineConfig({
     headless: true,
   },
   webServer: {
-    command: 'npm run dev',
+    command: 'API_TARGET=http://127.0.0.1:8072 VITE_E2E_BYPASS_AUTH=true npm run dev',
     url: 'http://localhost:5173',
     reuseExistingServer: true,
     timeout: 30_000,

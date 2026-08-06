@@ -29,10 +29,12 @@ def main():
         primary, peer = root / "primary", root / "peer"
         write_run(primary, [("r0_c0", "literal", 0.9),
                             ("r0_c1", None, 0.95),
-                            ("r1_c0", "faint", 0.4)], "primary")
+                            ("r1_c0", "faint", 0.4),
+                            ("r1_c1", 0, 0.95)], "primary")
         write_run(peer, [("r0_c0", "alternative", 0.99),
                          ("r0_c1", None, 0.99),
-                         ("r1_c0", "faint", 0.9)], "peer")
+                         ("r1_c0", "faint", 0.9),
+                         ("r1_c1", "0", 0.99)], "peer")
         manifest = review_manifest.from_template(primary, peer)
         assert review_manifest.validate(manifest) == []
         cells = {cell["id"]: cell for cell in manifest["cells"]}
@@ -41,6 +43,7 @@ def main():
         assert cells["r0_c0"]["alternatives"] == ["alternative"]
         assert cells["r0_c1"]["status"] == "reader_agreement"
         assert cells["r1_c0"]["status"] == "low_confidence"
+        assert cells["r1_c1"]["status"] == "reader_agreement"
         assert manifest["summary"]["transcription_review_cells"] == 2
 
         cells["r0_c0"]["presented_value"] = "alternative"

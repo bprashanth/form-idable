@@ -13,7 +13,7 @@ eval, and `CHECKPOINT.md` for the full chronological log including failures.**
 The older local-model work below remains historical evidence, but the active
 system is now an API/CLI-only, integrity-first prototype. No local model or GPU
 job is used in this phase. Read `../../chronology/000_scope_and_audit.md`
-through `006_span_aware_pipeline.md` in order.
+through `008_frozen_false_routes.md` in order.
 
 Current components:
 
@@ -23,6 +23,7 @@ Current components:
 | `structured_pipeline.py` | unknown-form canonical structure plus independent literal readers |
 | `template_pipeline.py` | recognised blank template, exact merged lattice, whole-page or band reader |
 | `template_match.py` + `template_labels.py` | abstaining pixel shortlist plus independent printed-label confirmation |
+| `frozen_routing_eval.py` | one-shot false-route test on frozen real partner pages; never a threshold tuner |
 | `ecology_review.py` | separate physical/outlier/GBIF flags; never silently edits transcription |
 | `review_manifest.py` | stable transcription-attention and ecology-anomaly contract |
 | `pipeline_v2.py` | local-only orchestrator; contains no AWS/deploy operation |
@@ -55,6 +56,13 @@ The output directory contains `route.json`, `output.xlsx`,
 `review_manifest.json`, `ecology_review.json`, and `run.json`. A document uses
 the exact-template branch only when every page clears both identity gates;
 otherwise the entire document safely falls back to the generic canonical path.
+
+The fixed pixel shortlist alone falsely nominated 11/78 frozen unknown real
+pages (14.1%), including visually unrelated layouts. It is therefore never an
+identity decision. The one available actual printed-label check and 11/11
+workbook-token proxies rejected those candidates, but exact routing remains
+experimental until it has real duplicate-capture positives and more actual
+structure-gate negatives. See `../../chronology/008_frozen_false_routes.md`.
 
 ---
 

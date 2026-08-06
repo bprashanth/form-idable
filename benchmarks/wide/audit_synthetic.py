@@ -24,7 +24,7 @@ def norm(value):
 
 
 def valid_value(kind, value):
-    text = str(value or "").strip()
+    text = "" if value is None else str(value).strip()
     if kind in ("printed", "species", "vernacular", "short", "person", "code1"):
         return bool(text)
     if kind == "alpha_code":

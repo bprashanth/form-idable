@@ -264,7 +264,7 @@ def _resolve_item(item):
 
 
 def norm_value(value) -> str:
-    text = " ".join(str(value or "").strip().split()).casefold()
+    text = "" if value is None else " ".join(str(value).strip().split()).casefold()
     if not text:
         return ""
     try:
