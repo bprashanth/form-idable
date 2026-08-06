@@ -55,7 +55,10 @@ def main():
         sp = split_of(pdf)
         for pg in usable_pages(pdf):
             for k in range(a.per):
-                seed = abs(hash((pdf.stem, pg, k))) % 100000
+                # Python's built-in hash is salted per process, which made the
+                # supposedly reproducible corpus change between invocations.
+                seed_material = f"{pdf.stem}:{pg}:{k}".encode()
+                seed = int(hashlib.sha256(seed_material).hexdigest()[:8], 16) % 100000
                 rng = random.Random(seed)
                 hard = (k % 2 == 1)          # one clean + one degraded per pair
                 dens = rng.choice([0.25, 0.45, 0.6, 0.8])   # sparse..dense

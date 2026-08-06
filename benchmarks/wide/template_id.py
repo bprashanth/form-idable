@@ -21,7 +21,7 @@ import json, math, sys
 from pathlib import Path
 
 import numpy as np
-from PIL import Image
+from PIL import Image, ImageFilter
 
 try:
     import cv2
@@ -73,7 +73,7 @@ def _peaks(profile, min_frac=0.18, min_gap=3):
 def _rule_positions(gray):
     """Normalised positions of long horizontal and vertical rules."""
     if cv2 is None:
-        raise SystemExit("needs opencv-python (pip install opencv-python-headless)")
+        return _rule_positions_numpy(gray)
     # local contrast normalisation first — phone photos have strong lighting
     # gradients that swamp a global threshold
     gray = cv2.createCLAHE(clipLimit=2.5, tileGridSize=(8, 8)).apply(gray)
@@ -91,6 +91,78 @@ def _rule_positions(gray):
         n = h if axis == 1 else w
         out[key] = sorted(float(i / n) for i in _peaks(prof))
     return out
+
+
+def _longest_true_run(values):
+    """Length of the longest contiguous True run in a one-dimensional mask."""
+    false = np.flatnonzero(~values)
+    if not len(false):
+        return len(values)
+    boundaries = np.concatenate(([-1], false, [len(values)]))
+    return int(np.max(np.diff(boundaries) - 1))
+
+
+def _bridge_gaps(mask, axis, gap=2):
+    """Join anti-aliasing pinholes without joining neighbouring text glyphs."""
+    out = mask.copy()
+    shifted = np.moveaxis(out, axis, 0)
+    for index in range(shifted.shape[0]):
+        line = shifted[index]
+        false = np.flatnonzero(~line)
+        if len(false) == 0:
+            continue
+        numeric = line.astype(np.int8)
+        starts = np.flatnonzero(np.diff(np.concatenate(([1], numeric))) == -1)
+        ends = np.flatnonzero(np.diff(np.concatenate((numeric, [1]))) == 1)
+        for start, end in zip(starts, ends):
+            if start > 0 and end < len(line) and end - start <= gap:
+                line[start:end] = True
+    return np.moveaxis(shifted, 0, axis)
+
+
+def _rule_positions_numpy(gray):
+    """Dependency-free printed-rule detector using local contrast and run length.
+
+    Dense handwriting can have a high projection sum, but it rarely creates a
+    near-contiguous stroke over a substantial fraction of the page.  Longest
+    run is therefore a safer signal than raw ink coverage for this fallback.
+    """
+    image = Image.fromarray(gray.astype(np.uint8), mode="L")
+    radius = max(4, min(gray.shape) // 90)
+    local_mean = np.asarray(image.filter(ImageFilter.BoxBlur(radius)), dtype=np.int16)
+    source = gray.astype(np.int16)
+    ink = ((local_mean - source) >= 5) & (source < 252)
+    h, w = ink.shape
+
+    def opening_profile(axis, span):
+        oriented = ink if axis == 1 else ink.T
+        window = max(15, span // 20)
+        cumulative = np.pad(np.cumsum(oriented, axis=1, dtype=np.int32),
+                            ((0, 0), (1, 0)))
+        sums = cumulative[:, window:] - cumulative[:, :-window]
+        # A rule may have anti-aliasing gaps and intersections; text almost
+        # never keeps 75% of a long window dark.
+        return (sums >= 0.75 * window).mean(axis=1)
+
+    def local_peaks(profile):
+        threshold = max(0.03, 0.2 * float(profile.max()))
+        candidates = [i for i, value in enumerate(profile)
+                      if value >= threshold
+                      and value >= profile[max(0, i - 2):min(len(profile), i + 3)].max()]
+        out = []
+        for index in candidates:
+            if not out or index - out[-1] >= 3:
+                out.append(index)
+            elif profile[index] > profile[out[-1]]:
+                out[-1] = index
+        return out
+
+    horizontal = opening_profile(axis=1, span=w)
+    vertical = opening_profile(axis=0, span=h)
+    return {
+        "h": sorted(float(i / h) for i in local_peaks(horizontal)),
+        "v": sorted(float(i / w) for i in local_peaks(vertical)),
+    }
 
 
 def _dedupe(vals, tol=0.006):
@@ -123,23 +195,47 @@ def _align_score(a, b, tol=0.018):
     """
     if len(a) < 2 or len(b) < 2:
         return 0.0
+    # Exhaustive rule-pair RANSAC is quartic and becomes impractical on dense
+    # forms. Six evenly spaced anchors retain page extent and internal rules
+    # while bounding each comparison to at most 225 transforms.
+    def anchors(values, limit=6):
+        if len(values) <= limit:
+            return values
+        indices = sorted({round(i * (len(values) - 1) / (limit - 1))
+                          for i in range(limit)})
+        return [values[index] for index in indices]
+
+    def inliers(mapped, target):
+        hits = i = j = 0
+        while i < len(mapped) and j < len(target):
+            delta = mapped[i] - target[j]
+            if abs(delta) <= tol:
+                hits += 1
+                i += 1
+                j += 1
+            elif delta < 0:
+                i += 1
+            else:
+                j += 1
+        return hits
+
+    aa, bb = anchors(a), anchors(b)
     best = 0.0
-    for i in range(len(a)):
-        for j in range(i + 1, len(a)):
-            da = a[j] - a[i]
+    for i in range(len(aa)):
+        for j in range(i + 1, len(aa)):
+            da = aa[j] - aa[i]
             if da < 0.05:
                 continue
-            for p in range(len(b)):
-                for q in range(p + 1, len(b)):
-                    db = b[q] - b[p]
+            for p in range(len(bb)):
+                for q in range(p + 1, len(bb)):
+                    db = bb[q] - bb[p]
                     if db < 0.05:
                         continue
                     s = db / da
                     if not (0.75 < s < 1.33):        # implausible zoom
                         continue
-                    off = b[p] - s * a[i]
-                    hit = sum(1 for x in a
-                              if min(abs(s * x + off - y) for y in b) <= tol)
+                    off = bb[p] - s * aa[i]
+                    hit = inliers([s * x + off for x in a], b)
                     best = max(best, hit / max(len(a), len(b)))
     return best
 

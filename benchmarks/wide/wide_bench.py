@@ -288,6 +288,7 @@ _GEMINI_PRICES = {
     # July 2026 list prices (devtk.ai / pricepertoken.com)
     "gemini-3.5-flash":       (1.50, 9.00),
     "gemini-3.6-flash":       (1.50, 7.50),
+    "gemini-3.1-pro-preview": (2.00, 12.00),
     "gemini-3.5-flash-lite":  (0.30, 2.50),
 }
 def _gemini_cost(model, um):

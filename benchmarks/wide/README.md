@@ -8,6 +8,54 @@ architecture should wrap it, and what is actually making it hard.
 **Read `FINDINGS_wide.md` for round 1, `FINDINGS_evals_tree.md` for the partner
 eval, and `CHECKPOINT.md` for the full chronological log including failures.**
 
+## Current frontier-model phase (2026-08-06)
+
+The older local-model work below remains historical evidence, but the active
+system is now an API/CLI-only, integrity-first prototype. No local model or GPU
+job is used in this phase. Read `../../chronology/000_scope_and_audit.md`
+through `006_span_aware_pipeline.md` in order.
+
+Current components:
+
+| file | current role |
+| --- | --- |
+| `integrity_eval.py` | exact page/row/column, blank invention, omission, duplication, and modal-control metrics |
+| `structured_pipeline.py` | unknown-form canonical structure plus independent literal readers |
+| `template_pipeline.py` | recognised blank template, exact merged lattice, whole-page or band reader |
+| `template_match.py` + `template_labels.py` | abstaining pixel shortlist plus independent printed-label confirmation |
+| `ecology_review.py` | separate physical/outlier/GBIF flags; never silently edits transcription |
+| `review_manifest.py` | stable transcription-attention and ecology-anomaly contract |
+| `pipeline_v2.py` | local-only orchestrator; contains no AWS/deploy operation |
+
+The accepted span-aware synthetic corpus is
+`struct_eval_v5_exact_spans/`: 84 forms, 42 template pages, 20,238 ruled
+cells, 8,178 written cells, and zero value/bbox/span/workbook audit failures.
+`struct_eval_v4_exact_semantic/` remains as the experiment record but its Excel
+renderer omitted merged-header spans; do not use it for new layout claims.
+
+Route-only check using already cached generic structure (no provider call):
+
+```bash
+python3 pipeline_v2.py eval_forms/eval_09 \
+  --templates downloads/templates \
+  --registry template_registry_v2.json \
+  --tag canonical_v1_full --reuse-structure --route-only
+```
+
+Full local quality pipeline (provider calls, but still no AWS writes):
+
+```bash
+python3 pipeline_v2.py /path/to/form_dir \
+  --templates downloads/templates \
+  --registry template_registry_v2.json \
+  --tag formidable_v2
+```
+
+The output directory contains `route.json`, `output.xlsx`,
+`review_manifest.json`, `ecology_review.json`, and `run.json`. A document uses
+the exact-template branch only when every page clears both identity gates;
+otherwise the entire document safely falls back to the generic canonical path.
+
 ---
 
 ## TL;DR

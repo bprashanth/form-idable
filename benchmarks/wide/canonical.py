@@ -1,0 +1,383 @@
+#!/usr/bin/env python3
+"""Canonical, source-linked representation for form extraction experiments."""
+from __future__ import annotations
+
+import json
+import math
+import re
+from collections import Counter
+from pathlib import Path
+from typing import Any
+
+import openpyxl
+from openpyxl.comments import Comment
+from openpyxl.styles import Alignment, Font, PatternFill
+from openpyxl.utils import get_column_letter
+
+
+VERSION = "formidable-canonical-v1"
+GREEN = PatternFill("solid", fgColor="C6EFCE")
+YELLOW = PatternFill("solid", fgColor="FFF2CC")
+RED = PatternFill("solid", fgColor="F4CCCC")
+ORANGE = PatternFill("solid", fgColor="FCE4D6")
+
+
+def slug(text: str, fallback: str) -> str:
+    value = re.sub(r"[^a-z0-9]+", "_", str(text).casefold()).strip("_")
+    return value or fallback
+
+
+def bbox(value) -> list[float] | None:
+    if not isinstance(value, list) or len(value) != 4:
+        return None
+    try:
+        coords = [float(x) for x in value]
+    except (TypeError, ValueError):
+        return None
+    if max(coords) > 1:
+        scale = max(coords)
+        coords = [x / scale for x in coords]
+    x0, y0, x1, y1 = coords
+    x0, x1 = sorted((max(0.0, min(1.0, x0)), max(0.0, min(1.0, x1))))
+    y0, y1 = sorted((max(0.0, min(1.0, y0)), max(0.0, min(1.0, y1))))
+    if x1 - x0 < 0.001 or y1 - y0 < 0.001:
+        return None
+    return [round(x0, 6), round(y0, 6), round(x1, 6), round(y1, 6)]
+
+
+def normalize_structure(raw: dict[str, Any], page_number: int) -> dict[str, Any]:
+    """Repair harmless model formatting drift while rejecting ambiguous IDs."""
+    page = {
+        "page_number": page_number,
+        "metadata_fields": [],
+        "tables": [],
+        "free_text_regions": [],
+    }
+    used_fields = set()
+    for index, field in enumerate(raw.get("metadata_fields") or []):
+        label = str(field.get("label") or "").strip()
+        region = bbox(field.get("bbox"))
+        if not label or region is None:
+            continue
+        field_id = slug(field.get("id") or label, f"field_{index + 1}")
+        while field_id in used_fields:
+            field_id += "_2"
+        used_fields.add(field_id)
+        page["metadata_fields"].append({"id": field_id, "label": label, "bbox": region})
+
+    used_tables = set()
+    for table_index, table in enumerate(raw.get("tables") or []):
+        region = bbox(table.get("bbox"))
+        columns = []
+        used_columns = set()
+        for col_index, column in enumerate(table.get("columns") or []):
+            label = str(column.get("label") or "").strip() or f"Column {col_index + 1}"
+            column_id = slug(column.get("id") or label, f"column_{col_index + 1}")
+            while column_id in used_columns:
+                column_id += "_2"
+            used_columns.add(column_id)
+            try:
+                x0, x1 = float(column.get("x0")), float(column.get("x1"))
+            except (TypeError, ValueError):
+                x0 = col_index / max(1, len(table.get("columns") or []))
+                x1 = (col_index + 1) / max(1, len(table.get("columns") or []))
+            if max(x0, x1) > 1:
+                scale = max(x0, x1)
+                x0, x1 = x0 / scale, x1 / scale
+            x0, x1 = sorted((max(0.0, min(1.0, x0)), max(0.0, min(1.0, x1))))
+            columns.append({
+                "id": column_id,
+                "label": label,
+                "parent": str(column.get("parent") or "").strip() or None,
+                "value_kind": str(column.get("value_kind") or "unknown").strip().casefold(),
+                "x0": round(x0, 6),
+                "x1": round(x1, 6),
+            })
+        if region is None or not columns:
+            continue
+        table_id = slug(table.get("id") or table.get("title"), f"table_{table_index + 1}")
+        while table_id in used_tables:
+            table_id += "_2"
+        used_tables.add(table_id)
+        page["tables"].append({
+            "id": table_id,
+            "title": str(table.get("title") or "").strip(),
+            "bbox": region,
+            "estimated_rows": max(0, int(table.get("estimated_rows") or 0)),
+            "columns": columns,
+            "rows": [],
+        })
+
+    for index, item in enumerate(raw.get("free_text_regions") or []):
+        region = bbox(item.get("bbox"))
+        if region:
+            page["free_text_regions"].append({
+                "id": slug(item.get("id"), f"text_{index + 1}"),
+                "label": str(item.get("label") or "free text").strip(),
+                "bbox": region,
+            })
+    return page
+
+
+def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> dict[str, Any]:
+    """Attach one model's readings to a normalized page structure."""
+    field_map = {field["id"]: field for field in page["metadata_fields"]}
+    for reading in raw.get("metadata") or []:
+        target = field_map.get(slug(reading.get("field_id"), ""))
+        if target is None:
+            continue
+        target.setdefault("readings", []).append(_reading(reading, model, target["bbox"]))
+
+    raw_tables = {slug(table.get("table_id"), ""): table
+                  for table in raw.get("tables") or []}
+    for table in page["tables"]:
+        source = raw_tables.get(table["id"])
+        if source is None and len(page["tables"]) == len(raw.get("tables") or []):
+            source = (raw.get("tables") or [])[page["tables"].index(table)]
+        if not source:
+            continue
+        ncols = len(table["columns"])
+        for row_index, raw_row in enumerate(source.get("rows") or []):
+            region = bbox(raw_row.get("bbox"))
+            if region is None:
+                continue
+            # Some models emit row boxes as [y0,x0,y1,x1]. A row should be
+            # wide and short inside its table; transpose the conspicuous case.
+            if ((region[2] - region[0]) < 0.12
+                    and (region[3] - region[1]) > 0.35):
+                region = bbox([region[1], region[0], region[3], region[2]])
+            values = list(raw_row.get("values") or [])[:ncols]
+            values += [None] * (ncols - len(values))
+            confidences = list(raw_row.get("confidences") or [])[:ncols]
+            confidences += [0.0] * (ncols - len(confidences))
+            illegible = {int(x) for x in (raw_row.get("illegible_columns") or [])
+                         if str(x).lstrip("-").isdigit()}
+            row_id = str(raw_row.get("row_id") or f"y{region[1]:.4f}")
+            # Match rows from multiple models by explicit label first, then by
+            # vertical overlap. This never looks at the values being scored.
+            row = _match_row(table["rows"], row_id, region)
+            if row is None:
+                row = {"id": row_id, "bbox": region, "cells": []}
+                for col_index, column in enumerate(table["columns"]):
+                    row["cells"].append({
+                        "column_id": column["id"],
+                        "bbox": [column["x0"], region[1], column["x1"], region[3]],
+                        "readings": [],
+                    })
+                table["rows"].append(row)
+            for col_index, value in enumerate(values):
+                cell = row["cells"][col_index]
+                try:
+                    confidence = max(0.0, min(1.0, float(confidences[col_index])))
+                except (TypeError, ValueError):
+                    confidence = 0.0
+                cell["readings"].append({
+                    "model": model,
+                    "value": None if value is None else str(value).strip(),
+                    "confidence": round(confidence, 4),
+                    "illegible": col_index in illegible,
+                    "bbox": cell["bbox"],
+                })
+    return page
+
+
+def _reading(raw, model, default_bbox):
+    try:
+        confidence = max(0.0, min(1.0, float(raw.get("confidence") or 0)))
+    except (TypeError, ValueError):
+        confidence = 0.0
+    return {
+        "model": model,
+        "value": None if raw.get("value") is None else str(raw.get("value")).strip(),
+        "confidence": round(confidence, 4),
+        "illegible": bool(raw.get("illegible")),
+        "bbox": bbox(raw.get("bbox")) or default_bbox,
+    }
+
+
+def _match_row(rows, row_id, region):
+    labelled = [row for row in rows if row_id and row["id"] == row_id]
+    if len(labelled) == 1:
+        return labelled[0]
+    # A literal key is a stronger anchor than geometry. Never merge a new
+    # printed ID (including non-consecutive IDs) into a neighbouring row.
+    if row_id and not row_id.casefold().startswith("y_"):
+        return None
+    cy = (region[1] + region[3]) / 2
+    close = []
+    for row in rows:
+        ry = (row["bbox"][1] + row["bbox"][3]) / 2
+        overlap = max(0.0, min(region[3], row["bbox"][3]) - max(region[1], row["bbox"][1]))
+        if overlap > 0 or abs(cy - ry) < 0.012:
+            close.append((abs(cy - ry), row))
+    return min(close, default=(None, None), key=lambda pair: pair[0])[1]
+
+
+def resolve(document: dict[str, Any]) -> dict[str, Any]:
+    """Resolve exact agreement; preserve alternatives on disagreement."""
+    for page in document["pages"]:
+        for field in page["metadata_fields"]:
+            _resolve_item(field)
+        for table in page["tables"]:
+            table["rows"].sort(key=lambda row: row["bbox"][1])
+            for row in table["rows"]:
+                for cell in row["cells"]:
+                    _resolve_item(cell)
+    return document
+
+
+def _resolve_item(item):
+    readings = item.get("readings") or []
+    values = [(r.get("value") or "").strip() for r in readings]
+    normalized = [norm_value(value) for value in values]
+    nonempty = [value for value in values if value]
+    if readings and len(set(normalized)) == 1 and not any(r.get("illegible") for r in readings):
+        item.update({"value": readings[0].get("value"), "status": "agreement",
+                     "confidence": min(r.get("confidence", 0) for r in readings),
+                     "alternatives": []})
+    elif not nonempty and readings:
+        item.update({"value": None, "status": "blank_or_illegible",
+                     "confidence": 0.0, "alternatives": []})
+    elif len(readings) >= 3:
+        counts = Counter(normalized)
+        winner, votes = counts.most_common(1)[0]
+        if votes > len(readings) / 2:
+            chosen = next((r.get("value") for r in reversed(readings)
+                           if norm_value(r.get("value")) == winner), None)
+            # Correlated vision models are not independent voters. Keep the
+            # majority as a reviewable proposal until a held-out benchmark has
+            # calibrated this exact model/prompt combination.
+            item.update({"value": chosen, "status": "majority_after_reread",
+                         "confidence": max(r.get("confidence", 0) for r in readings
+                                           if norm_value(r.get("value")) == winner),
+                         "alternatives": sorted(set(nonempty), key=str.casefold)})
+            return
+        item.update({"value": nonempty[0] if nonempty else None,
+                     "status": "unresolved_after_reread", "confidence": 0.0,
+                     "alternatives": sorted(set(nonempty), key=str.casefold)})
+    else:
+        # No majority is silently promoted. Targeted reread or human review must
+        # resolve it; the first value is only a display placeholder.
+        item.update({"value": nonempty[0] if nonempty else None, "status": "disagreement",
+                     "confidence": 0.0,
+                     "alternatives": sorted(set(nonempty), key=str.casefold)})
+
+
+def norm_value(value) -> str:
+    text = " ".join(str(value or "").strip().split()).casefold()
+    if not text:
+        return ""
+    try:
+        number = float(text)
+        return str(int(number)) if math.isfinite(number) and number.is_integer() else str(number)
+    except ValueError:
+        return text
+
+
+def new_document(source: str, pages: list[dict[str, Any]], models: list[str]) -> dict[str, Any]:
+    return {"version": VERSION, "source": source, "models": models, "pages": pages}
+
+
+def validate(document: dict[str, Any]) -> list[str]:
+    errors = []
+    if document.get("version") != VERSION:
+        errors.append("unsupported version")
+    page_numbers = [page.get("page_number") for page in document.get("pages") or []]
+    if len(set(page_numbers)) != len(page_numbers):
+        errors.append("duplicate page numbers")
+    for page in document.get("pages") or []:
+        for table in page.get("tables") or []:
+            column_ids = [column["id"] for column in table.get("columns") or []]
+            if len(set(column_ids)) != len(column_ids):
+                errors.append(f"page {page['page_number']} table {table['id']}: duplicate columns")
+            for row in table.get("rows") or []:
+                cell_ids = [cell["column_id"] for cell in row.get("cells") or []]
+                if cell_ids != column_ids:
+                    errors.append(f"page {page['page_number']} table {table['id']} row {row['id']}: schema drift")
+    return errors
+
+
+def write_xlsx(document: dict[str, Any], destination: str | Path) -> Path:
+    workbook = openpyxl.Workbook()
+    workbook.remove(workbook.active)
+    for page in document["pages"]:
+        ws = workbook.create_sheet(f"page{page['page_number']}")
+        row_cursor = 1
+        for field in page["metadata_fields"]:
+            ws.cell(row_cursor, 1).value = field["label"]
+            _write_value(ws.cell(row_cursor, 2), field)
+            row_cursor += 1
+        if page["metadata_fields"]:
+            row_cursor += 1
+        for table in page["tables"]:
+            if table["title"]:
+                ws.cell(row_cursor, 1).value = table["title"]
+                ws.cell(row_cursor, 1).font = Font(bold=True)
+                if len(table["columns"]) > 1:
+                    ws.merge_cells(start_row=row_cursor, start_column=1,
+                                   end_row=row_cursor, end_column=len(table["columns"]))
+                row_cursor += 1
+            parent_row = row_cursor
+            label_row = row_cursor + 1
+            parents = [column.get("parent") for column in table["columns"]]
+            if any(parents):
+                start = 0
+                while start < len(parents):
+                    parent = parents[start]
+                    end = start
+                    while end + 1 < len(parents) and parents[end + 1] == parent:
+                        end += 1
+                    if parent:
+                        ws.cell(parent_row, start + 1).value = parent
+                        if end > start:
+                            ws.merge_cells(start_row=parent_row, start_column=start + 1,
+                                           end_row=parent_row, end_column=end + 1)
+                    start = end + 1
+                row_cursor += 1
+            for index, column in enumerate(table["columns"], 1):
+                cell = ws.cell(row_cursor, index)
+                cell.value = column["label"]
+                cell.font = Font(bold=True)
+                cell.alignment = Alignment(wrap_text=True, horizontal="center")
+            row_cursor += 1
+            for row in table["rows"]:
+                for index, item in enumerate(row["cells"], 1):
+                    _write_value(ws.cell(row_cursor, index), item)
+                row_cursor += 1
+            row_cursor += 2
+        ws.freeze_panes = "A2"
+        for column_index in range(1, ws.max_column + 1):
+            letter = get_column_letter(column_index)
+            values = (ws.cell(row, column_index).value for row in range(1, ws.max_row + 1))
+            ws.column_dimensions[letter].width = min(
+                40, max(10, max((len(str(value)) for value in values if value is not None),
+                                default=10) + 2))
+    workbook.save(destination)
+    return Path(destination)
+
+
+def _write_value(cell, item):
+    cell.value = item.get("value")
+    status = item.get("status")
+    ecology_flags = item.get("ecology_flags") or []
+    has_ecology_review = any(flag.get("severity") in ("high", "medium")
+                             for flag in ecology_flags)
+    cell.fill = (ORANGE if has_ecology_review else GREEN if status == "agreement"
+                 else RED if status == "blank_or_illegible" else YELLOW)
+    readings = item.get("readings") or []
+    details = [f"status: {status}", f"bbox: {item.get('bbox')}"]
+    details.extend(f"{r.get('model')}: {r.get('value')!r} (confidence {r.get('confidence')})"
+                   for r in readings)
+    if item.get("alternatives"):
+        details.append(f"alternatives: {item['alternatives']}")
+    for flag in ecology_flags:
+        details.append(f"ecology {flag.get('severity')}: {flag.get('code')} — "
+                       f"{flag.get('message')}")
+        if flag.get("proposed_value") is not None:
+            details.append(f"ecology suggestion (not applied): {flag['proposed_value']!r}")
+    cell.comment = Comment("\n".join(details), "Formidable")
+
+
+def dump(document: dict[str, Any], destination: str | Path) -> Path:
+    Path(destination).write_text(json.dumps(document, indent=2, ensure_ascii=False))
+    return Path(destination)
