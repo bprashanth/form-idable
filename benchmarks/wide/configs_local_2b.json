@@ -1,0 +1,4 @@
+[
+  {"provider": "local", "model": "qwen3-vl-2b", "mode": "tiled",   "endpoint": "http://localhost:8010/v1"},
+  {"provider": "local", "model": "qwen3-vl-2b", "mode": "oneshot", "endpoint": "http://localhost:8010/v1"}
+]
