@@ -49,6 +49,19 @@ def main():
         cells["r0_c0"]["presented_value"] = "alternative"
         assert "overwrote primary value" in review_manifest.validate(manifest)[0]
 
+        canonical_manifest = review_manifest.from_canonical({"pages": [{
+            "page_number": 1,
+            "tables": [{"id": "table", "columns": [{"id": "value", "label": "Value"}],
+                        "rows": [{"id": "1", "cells": [{
+                            "column_id": "value", "bbox": [0, 0, 1, 1],
+                            "value": "01", "status": "disagreement", "confidence": 0,
+                            "alternatives": ["0", "01"],
+                        }]}]}],
+        }]})
+        attention = canonical_manifest["views"]["transcription_attention"]
+        assert attention[0]["presented_value"] == "01"
+        assert attention[0]["alternatives"] == ["0"]
+
 
 if __name__ == "__main__":
     main()

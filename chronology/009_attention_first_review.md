@@ -42,6 +42,20 @@ paper page. The old implementation always displayed sheet one. Correction keys
 also include the page number, avoiding collisions between the same Excel
 coordinate on different sheets.
 
+A consolidation audit found that the generic orchestrator passed peer before
+primary even though its CLI named 3.6 as primary. Since canonical disagreement
+retains the first reading, that would have displayed 3.5. The order is now
+explicitly primary-first, duplicate readers are removed, the direct canonical
+CLI has the same default, and regression tests enforce it. Review alternatives
+also exclude the already-presented primary value.
+
+That audit exposed a second, more consequential edge case: the resolver chose
+the first *non-empty* reading on disagreement. A blank primary therefore became
+a peer false fill. The resolver now preserves the primary literally, including
+blank and numeric zero, even if two later readers agree. Reconstructing the
+six-page artifact after this fix reduced false fills from 61 to 16 while
+retaining 0.839 phenology and 0.891 overall value accuracy.
+
 ## Validation
 
 - production frontend build succeeds;

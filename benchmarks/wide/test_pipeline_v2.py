@@ -9,6 +9,9 @@ import pipeline_v2
 
 
 def main():
+    assert pipeline_v2.reader_order("primary", "peer") == ["primary", "peer"]
+    assert pipeline_v2.reader_order("primary", "") == ["primary"]
+    assert pipeline_v2.reader_order("primary", "primary") == ["primary"]
     with tempfile.TemporaryDirectory() as temporary:
         root = Path(temporary)
         source, output = root / "source.xlsx", root / "output.xlsx"

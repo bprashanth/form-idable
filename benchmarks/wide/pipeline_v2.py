@@ -227,6 +227,11 @@ def run_generic(form_dir, output, route, structure_tag, schema_model,
             "review": manifest["summary"]}
 
 
+def reader_order(primary: str, peer: str):
+    """Canonical disagreement keeps the first reader's literal on conflicts."""
+    return [primary, peer] if peer and peer != primary else [primary]
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("form", type=Path,
@@ -260,8 +265,8 @@ def main():
     else:
         report = run_generic(
             form_dir, output, route, args.tag, args.schema_model,
-            [args.peer_model, args.primary_model] if args.peer_model.strip()
-            else [args.primary_model], args.ecology_online)
+            reader_order(args.primary_model, args.peer_model.strip()),
+            args.ecology_online)
     report["output"] = str(output)
     (output / "run.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))

@@ -369,7 +369,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--form", required=True)
     parser.add_argument("--schema-model", default="gemini-3.5-flash")
-    parser.add_argument("--models", default="gemini-3.5-flash,gemini-3.6-flash")
+    parser.add_argument("--models", default="gemini-3.6-flash,gemini-3.5-flash",
+                        help="comma-separated readers; first is the immutable primary")
     parser.add_argument("--tag", default="canonical_v1")
     parser.add_argument("--pages", default="", help="comma-separated 1-based pages; default all")
     parser.add_argument("--rebuild", action="store_true",

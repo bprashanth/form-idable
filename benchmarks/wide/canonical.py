@@ -228,9 +228,15 @@ def resolve(document: dict[str, Any]) -> dict[str, Any]:
 
 def _resolve_item(item):
     readings = item.get("readings") or []
-    values = [(r.get("value") or "").strip() for r in readings]
+    values = ["" if r.get("value") is None else str(r.get("value")).strip()
+              for r in readings]
     normalized = [norm_value(value) for value in values]
     nonempty = [value for value in values if value]
+    primary_value = readings[0].get("value") if readings else None
+    primary_normalized = normalized[0] if normalized else ""
+    alternatives = sorted({value for value, normalized_value in zip(values, normalized)
+                           if value and normalized_value != primary_normalized},
+                          key=str.casefold)
     if readings and len(set(normalized)) == 1 and not any(r.get("illegible") for r in readings):
         item.update({"value": readings[0].get("value"), "status": "agreement",
                      "confidence": min(r.get("confidence", 0) for r in readings),
@@ -242,25 +248,22 @@ def _resolve_item(item):
         counts = Counter(normalized)
         winner, votes = counts.most_common(1)[0]
         if votes > len(readings) / 2:
-            chosen = next((r.get("value") for r in reversed(readings)
-                           if norm_value(r.get("value")) == winner), None)
             # Correlated vision models are not independent voters. Keep the
-            # majority as a reviewable proposal until a held-out benchmark has
-            # calibrated this exact model/prompt combination.
-            item.update({"value": chosen, "status": "majority_after_reread",
-                         "confidence": max(r.get("confidence", 0) for r in readings
-                                           if norm_value(r.get("value")) == winner),
-                         "alternatives": sorted(set(nonempty), key=str.casefold)})
+            # primary literal even when the other two agree. The majority is a
+            # review signal, not permission to replace source transcription.
+            item.update({"value": primary_value, "status": "majority_after_reread",
+                         "confidence": readings[0].get("confidence", 0),
+                         "alternatives": alternatives})
             return
-        item.update({"value": nonempty[0] if nonempty else None,
+        item.update({"value": primary_value,
                      "status": "unresolved_after_reread", "confidence": 0.0,
-                     "alternatives": sorted(set(nonempty), key=str.casefold)})
+                     "alternatives": alternatives})
     else:
         # No majority is silently promoted. Targeted reread or human review must
-        # resolve it; the first value is only a display placeholder.
-        item.update({"value": nonempty[0] if nonempty else None, "status": "disagreement",
+        # resolve it; the primary value (including blank) stays on display.
+        item.update({"value": primary_value, "status": "disagreement",
                      "confidence": 0.0,
-                     "alternatives": sorted(set(nonempty), key=str.casefold)})
+                     "alternatives": alternatives})
 
 
 def norm_value(value) -> str:

@@ -13,7 +13,8 @@ eval, and `CHECKPOINT.md` for the full chronological log including failures.**
 The older local-model work below remains historical evidence, but the active
 system is now an API/CLI-only, integrity-first prototype. No local model or GPU
 job is used in this phase. Read `../../chronology/000_scope_and_audit.md`
-through `008_frozen_false_routes.md` in order.
+through `010_system_decision_and_production_cut.md` in order. Experiment 010 is
+the consolidated decision matrix and production cut line.
 
 Current components:
 

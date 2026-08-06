@@ -152,11 +152,13 @@ def from_canonical(document: dict[str, Any], ecology: dict[str, Any] | None = No
                 for cell in row.get("cells") or []:
                     column = columns.get(cell.get("column_id"), {})
                     cell_id = f"p{page['page_number']}:{table['id']}:{row['id']}:{cell.get('column_id')}"
+                    alternatives = [value for value in cell.get("alternatives") or []
+                                    if norm(value) != norm(cell.get("value"))]
                     item = {"id": cell_id, "page": page["page_number"],
                             "bbox": cell.get("bbox"), "context": column.get("label"),
                             "presented_value": cell.get("value"), "status": cell.get("status"),
                             "confidence": cell.get("confidence"),
-                            "alternatives": cell.get("alternatives") or [],
+                            "alternatives": alternatives,
                             "ecology_flags": cell.get("ecology_flags") or []}
                     cells.append(item)
                     if item["status"] not in {"agreement", "blank_or_illegible"}:

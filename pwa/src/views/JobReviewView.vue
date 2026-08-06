@@ -288,8 +288,8 @@
                 <span class="text-[9px] uppercase tracking-widest font-black text-error">{{ item.priority }}</span>
               </div>
               <p class="text-xs text-on-surface mt-1">{{ item.reason }}</p>
-              <p v-if="item.alternatives?.length" class="text-[10px] text-on-surface-variant mt-1">
-                Other reader: {{ item.alternatives.join(' · ') }}
+              <p v-if="otherAlternatives(item).length" class="text-[10px] text-on-surface-variant mt-1">
+                Other reader: {{ otherAlternatives(item).join(' · ') }}
               </p>
               <p class="text-[9px] font-mono text-outline mt-2 break-all">{{ item.cell_id }}</p>
             </button>
@@ -886,6 +886,13 @@ function attentionStyle(item) {
     width: `${Math.max(0.006, x1 - x0) * 100}%`,
     height: `${Math.max(0.006, y1 - y0) * 100}%`,
   }
+}
+
+function otherAlternatives(item) {
+  const primary = String(item.presented_value ?? '').trim().toLocaleLowerCase()
+  return (item.alternatives ?? []).filter(value =>
+    String(value ?? '').trim().toLocaleLowerCase() !== primary
+  )
 }
 
 function onAttentionClick(item) {
