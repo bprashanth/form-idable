@@ -75,20 +75,30 @@ def aggregate(runs: list[dict[str, Any]]) -> dict[str, Any]:
         f1s = []
         costs, latencies = [], []
         for run in items:
+            literal = run.get("literal")
             score = run["integrity"]
-            errors = score["errors"]
-            g = int(score["golden_cells"])
-            c = int(score["candidate_cells"])
-            w = int(errors["wrong_value_at_occupied_position"])
-            o = int(errors["omitted"])
-            f = int(errors["false_fill_or_extra_position"])
+            if literal:
+                errors = literal["errors"]
+                g = int(literal["written_nonblank"])
+                w, o, f = (int(errors["wrong"]), int(errors["omitted"]),
+                           int(errors["false_fill"]))
+                c = g - o + f
+                exact_f1 = float(literal["exact_written"]["f1"])
+            else:
+                errors = score["errors"]
+                g = int(score["golden_cells"])
+                c = int(score["candidate_cells"])
+                w = int(errors["wrong_value_at_occupied_position"])
+                o = int(errors["omitted"])
+                f = int(errors["false_fill_or_extra_position"])
+                exact_f1 = float(score["exact_cell"]["f1"])
             golden += g
             candidate += c
             correct += g - w - o
             omitted += o
             wrong += w
             false_fill += f
-            f1s.append(float(score["exact_cell"]["f1"]))
+            f1s.append(exact_f1)
             if run.get("cost_usd") is not None:
                 costs.append(float(run["cost_usd"]))
             if run.get("latency_s") is not None:
@@ -96,6 +106,9 @@ def aggregate(runs: list[dict[str, Any]]) -> dict[str, Any]:
         result[tag] = {
             "model": sorted({str(x.get("model")) for x in items}),
             "mode": sorted({str(x.get("mode")) for x in items}),
+            "headline_metric": ("literal writable-cell F1 (printed excluded)"
+                                if all(x.get("literal") for x in items)
+                                else "mixed/legacy exact-cell F1"),
             "forms": len(items),
             "form_names": sorted(x["form"] for x in items),
             "macro_exact_f1": round(sum(f1s) / len(f1s), 4),
@@ -204,8 +217,10 @@ def compare_pair(root: Path, tag_a: str, tag_b: str) -> dict[str, Any]:
 
 
 def markdown(report: dict[str, Any]) -> str:
-    lines = ["# Exact-template experiment summary", "", "## Runs", "",
-             "| tag | forms | macro F1 | micro F1 | correct | wrong | omitted | false fill | known cost | latency |",
+    lines = ["# Exact-template literal-value summary", "",
+             "Printed cells are excluded from value F1; all writable blanks remain in false-fill checks.",
+             "", "## Runs", "",
+             "| tag | forms | macro literal F1 | micro literal F1 | correct | wrong | omitted | false fill | known cost | latency |",
              "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |"]
     for tag, item in report["runs"].items():
         c = item["counts"]

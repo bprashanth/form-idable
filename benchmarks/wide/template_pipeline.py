@@ -22,6 +22,7 @@ sys.path.insert(0, str(HERE / "gen"))
 import integrity_eval  # noqa: E402
 import structured_extract as legacy  # noqa: E402
 import structured_pipeline as api  # noqa: E402
+import template_value_eval  # noqa: E402
 import wide_bench  # noqa: E402
 from fill_template import (build_cells, cell_text, extract_structure,  # noqa: E402
                            nearest_header, semantic_context, writable_blanks)
@@ -112,6 +113,8 @@ def _claude_json(model, prompt, images, schema):
 def _model_json(provider, model, prompt, images, schema):
     if provider == "claude":
         return _claude_json(model, prompt, images, schema)
+    if provider == "external":
+        raise RuntimeError("external provider requires a pre-existing batch JSON and metadata")
     return _gemini_with_retry(model, prompt, images, schema)
 
 
@@ -297,10 +300,16 @@ def run(form_dir: Path, template: Path, page_no: int, model: str, mode: str,
     missing = sorted(expected_ids - decisions.keys())
     extra = sorted(decisions.keys() - expected_ids)
     candidate = output / "output.xlsx"
-    _write_candidate(st, cells, decisions, candidate, f"page{input_page + 1}")
     golden = form_dir / "layout_golden.xlsx"
+    # Synthetic form directories contain one extracted page but their exact
+    # golden deliberately retains the source template's page number. Real
+    # documents must instead use the filled input's page number.
+    sheet_number = page_no + 1 if golden.exists() else input_page + 1
+    _write_candidate(st, cells, decisions, candidate, f"page{sheet_number}")
     score = (integrity_eval.score(golden, candidate, golden_kind="exact_layout")
              if golden.exists() and input_page == 0 else None)
+    literal = (template_value_eval.score(form_dir / "ground_truth.json", decisions)
+               if (form_dir / "ground_truth.json").exists() and input_page == 0 else None)
     report = {
         "form": form_dir.name, "template": template.name,
         "page": page_no + 1,  # backwards-compatible alias for template_page
@@ -316,7 +325,8 @@ def run(form_dir: Path, template: Path, page_no: int, model: str, mode: str,
         "latency_s": (round(sum(call.get("latency_s") or 0 for call in calls), 1)
                       if all(call.get("latency_s") is not None for call in calls) else None),
         "latency_complete": all(call.get("latency_s") is not None for call in calls),
-        "wall_s": round(time.time() - started, 1), "integrity": score,
+        "wall_s": round(time.time() - started, 1),
+        "literal": literal, "integrity": score,
     }
     (output / "run.json").write_text(json.dumps(report, indent=2))
     return report
@@ -330,7 +340,8 @@ def main():
     parser.add_argument("--input-page", type=int, default=0,
                         help="zero-based page in the filled input PDF")
     parser.add_argument("--model", default="gemini-3.6-flash")
-    parser.add_argument("--provider", choices=("gemini", "claude"), default="gemini")
+    parser.add_argument("--provider", choices=("gemini", "claude", "external"),
+                        default="gemini")
     parser.add_argument("--mode", choices=("page", "bands"), default="bands")
     parser.add_argument("--tag")
     parser.add_argument("--rows-per-call", type=int, default=8)
@@ -346,8 +357,9 @@ def main():
         print(json.dumps(report, indent=2))
     else:
         print(json.dumps({key: report[key] for key in
-                          ("form", "model", "mode", "aligned", "targets", "decisions",
-                           "missing", "extra", "cost_usd", "latency_s", "integrity")}, indent=2))
+                           ("form", "model", "mode", "aligned", "targets", "decisions",
+                           "missing", "extra", "cost_usd", "latency_s", "literal",
+                           "integrity")}, indent=2))
 
 
 if __name__ == "__main__":
