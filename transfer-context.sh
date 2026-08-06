@@ -57,6 +57,9 @@ done
 # uncommitted changes). Excludes below are protected from --delete, so a
 # re-sync never wipes the deps the remote rebuilt for itself.
 EXCLUDES=(
+  # good-shepherd/examples/ is ~3G of unrelated demo stacks (mariadb data,
+  # frappe, research JSON dumps) — not part of the formidable flow. Skip it.
+  --exclude 'examples/'
   --exclude 'node_modules/'
   --exclude '.venv/'
   --exclude 'venv/'
@@ -84,7 +87,9 @@ for r in "${REPOS[@]}"; do
   echo "=== rsync $r  ->  $REMOTE:$REMOTE_PATH/$r ==="
   # trailing slashes: copy the CONTENTS of the source dir into the dest dir of
   # the same name (so form-idable/ lands as REMOTE_PATH/form-idable/).
-  rsync -az --delete "${EXCLUDES[@]}" \
+  # --partial: keep partially-transferred files so a dropped link resumes them
+  # on the next run instead of restarting each large file from zero.
+  rsync -az --partial --delete "${EXCLUDES[@]}" \
     "$PARENT/$r/" "$REMOTE:$REMOTE_PATH/$r/"
 done
 

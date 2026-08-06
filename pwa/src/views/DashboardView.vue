@@ -151,7 +151,7 @@
             </thead>
             <tbody class="divide-y divide-outline-variant/10">
               <tr
-                v-for="job in jobs"
+                v-for="job in sortedJobs"
                 :key="job.job_id"
                 class="hover:bg-surface-container-low transition-colors cursor-pointer"
                 :class="{ 'bg-primary/5': selectedIds.has(job.job_id) }"
@@ -185,7 +185,8 @@
                   <div class="flex flex-col gap-0.5">
                     <span class="font-bold text-primary">{{ job.name }}</span>
                     <span class="text-[10px] text-on-surface-variant">{{ job.pages }} pages · {{ job.crops }} crops</span>
-                    <span v-if="job.date" class="text-[10px] text-on-surface-variant">{{ job.date }}</span>
+                    <span v-if="job.date" class="text-[10px] text-on-surface-variant">Form date: {{ job.date }}</span>
+                    <span v-if="job.created_at" class="text-[10px] text-on-surface-variant">Submitted: {{ formatSubmitted(job.created_at) }}</span>
                     <span class="text-[10px] font-mono text-outline/60 tracking-tight">id: {{ job.job_id }}</span>
                   </div>
                 </td>
@@ -464,7 +465,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import { useRouter } from 'vue-router'
 import { useJobStore } from '@/composables/useJobStore.js'
 import { useCognitoAuth } from '@/composables/useCognitoAuth.js'
@@ -476,6 +477,25 @@ const {
   fetchProgress, pollJob, fetchAuthedUrl, getXlsxUrl, pageUrl,
 } = useJobStore()
 const { logout } = useCognitoAuth()
+
+// Always render newest-first by submission time. The backend also sorts by
+// created_at, but this keeps optimistic (uploading) entries and live poll
+// updates correctly ordered without waiting for a refetch.
+const sortedJobs = computed(() =>
+  [...jobs.value].sort((a, b) => (b.created_at || '').localeCompare(a.created_at || ''))
+)
+
+// "Submitted" timestamp — created_at is an ISO8601 string; show a compact
+// local date + time. Distinct from job.date, which is the date on the form.
+function formatSubmitted(iso) {
+  if (!iso) return ''
+  const d = new Date(iso)
+  if (isNaN(d.getTime())) return ''
+  return d.toLocaleString(undefined, {
+    year: 'numeric', month: 'short', day: 'numeric',
+    hour: '2-digit', minute: '2-digit',
+  })
+}
 
 const mapContainer       = ref(null)
 const lightbox           = ref(null)
