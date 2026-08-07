@@ -171,14 +171,21 @@
                 <!-- Thumbnail -->
                 <td class="py-3 px-6" @click.stop="selectMode ? toggleSelect(job.job_id) : (['queued','processing','uploading'].includes(job.status) ? handleRowClick(job) : openLightbox(job))">
                   <div class="w-10 h-14 bg-surface-container-highest border border-outline-variant/40 flex items-center justify-center overflow-hidden hover:border-primary/60 transition-colors group relative">
-                    <img
-                      :src="thumbnailUrls[job.job_id]"
-                      class="w-full h-full object-cover opacity-70 grayscale group-hover:opacity-90 group-hover:grayscale-0 transition-all"
-                      :alt="job.name"
-                    />
-                    <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/20 transition-opacity">
-                      <span class="material-symbols-outlined text-white text-sm">zoom_in</span>
-                    </div>
+                    <!-- Only render the <img> once we actually have a URL. Otherwise
+                         the browser draws its broken-image icon for every row without
+                         a thumbnail (non-complete jobs, or ones still loading). -->
+                    <template v-if="thumbnailUrls[job.job_id]">
+                      <img
+                        :src="thumbnailUrls[job.job_id]"
+                        class="w-full h-full object-cover opacity-70 grayscale group-hover:opacity-90 group-hover:grayscale-0 transition-all"
+                        :alt="job.name"
+                      />
+                      <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/20 transition-opacity">
+                        <span class="material-symbols-outlined text-white text-sm">zoom_in</span>
+                      </div>
+                    </template>
+                    <!-- Placeholder while there is no thumbnail yet. -->
+                    <span v-else class="material-symbols-outlined text-outline/40 text-lg">description</span>
                   </div>
                 </td>
                 <td class="py-3 px-6">
@@ -465,7 +472,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { useJobStore } from '@/composables/useJobStore.js'
 import { useCognitoAuth } from '@/composables/useCognitoAuth.js'
@@ -483,6 +490,15 @@ const { logout } = useCognitoAuth()
 // updates correctly ordered without waiting for a refetch.
 const sortedJobs = computed(() =>
   [...jobs.value].sort((a, b) => (b.created_at || '').localeCompare(a.created_at || ''))
+)
+
+// Re-fetch thumbnails whenever the set of complete jobs changes — e.g. a job
+// finishes via polling after the initial mount load, which loadThumbnails() (run
+// once in onMounted) would otherwise miss until a remount. loadThumbnails only
+// fetches URLs it doesn't already hold, so re-running it is cheap.
+watch(
+  () => jobs.value.filter(j => j.status === 'complete').map(j => j.job_id).join(','),
+  () => loadThumbnails(),
 )
 
 // "Submitted" timestamp — created_at is an ISO8601 string; show a compact
