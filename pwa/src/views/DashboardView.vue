@@ -179,6 +179,8 @@
                         :src="thumbnailUrls[job.job_id]"
                         class="w-full h-full object-cover opacity-70 grayscale group-hover:opacity-90 group-hover:grayscale-0 transition-all"
                         :alt="job.name"
+                        @error="reloadThumbnail(job.job_id)"
+                        @load="onThumbnailLoad(job.job_id)"
                       />
                       <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/20 transition-opacity">
                         <span class="material-symbols-outlined text-white text-sm">zoom_in</span>
@@ -744,14 +746,56 @@ function _clearUploadError(job_id, status) {
   uploadErrors.value = next
 }
 
+// Presign one page URL, retrying transient failures. The presign endpoint is a
+// Lambda that returns 503 ("Service Unavailable") when hit by a burst of
+// concurrent requests, so a single try loses thumbnails; retry with backoff.
+async function _fetchThumbUrl(jobId, attempts = 4) {
+  for (let a = 0; a < attempts; a++) {
+    const url = await fetchAuthedUrl(pageUrl(jobId, 'page_1.png'))
+    if (url) return url
+    // 200ms, 400ms, 800ms … with jitter — enough to ride out a throttle wave.
+    await new Promise(r => setTimeout(r, 200 * 2 ** a + Math.random() * 100))
+  }
+  return null
+}
+
+// Load all missing thumbnails through a small concurrency pool. Firing one
+// request per complete job all at once (25+ on a full dashboard) bursts the
+// presign Lambda and it 503s part of the batch — which showed up as "most
+// thumbnails broken on a fresh load". A pool keeps the backend under its limit;
+// _fetchThumbUrl recovers the occasional 503 that still slips through.
+const THUMB_CONCURRENCY = 4
 async function loadThumbnails() {
-  for (const job of jobs.value) {
-    if (job.status === 'complete' && !thumbnailUrls.value[job.job_id]) {
-      fetchAuthedUrl(pageUrl(job.job_id, 'page_1.png')).then(url => {
-        if (url) thumbnailUrls.value = { ...thumbnailUrls.value, [job.job_id]: url }
-      })
+  const pending = jobs.value
+    .filter(j => j.status === 'complete' && !thumbnailUrls.value[j.job_id])
+    .map(j => j.job_id)
+  let i = 0
+  const worker = async () => {
+    while (i < pending.length) {
+      const jobId = pending[i++]
+      const url = await _fetchThumbUrl(jobId)
+      if (url) thumbnailUrls.value = { ...thumbnailUrls.value, [jobId]: url }
     }
   }
+  await Promise.all(
+    Array.from({ length: Math.min(THUMB_CONCURRENCY, pending.length) }, worker)
+  )
+}
+
+// Page URLs are presigned with a 5-minute TTL (backend ExpiresIn=300). On a
+// dashboard left open longer than that — polling, navigating in and out — an
+// <img> outlives its URL and fails to load. Re-fetch (with the same retry) on
+// error, and reset the per-job attempt counter on a successful load so a later
+// expiry can retry again. The cap stops a genuinely missing image from looping.
+const thumbRetries = {}
+async function reloadThumbnail(jobId) {
+  if ((thumbRetries[jobId] ?? 0) >= 2) return
+  thumbRetries[jobId] = (thumbRetries[jobId] ?? 0) + 1
+  const url = await _fetchThumbUrl(jobId)
+  if (url) thumbnailUrls.value = { ...thumbnailUrls.value, [jobId]: url }
+}
+function onThumbnailLoad(jobId) {
+  delete thumbRetries[jobId]
 }
 
 // ── Lifecycle ──────────────────────────────────────────────────────────────────
