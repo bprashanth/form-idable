@@ -181,8 +181,11 @@ def taxonomy_findings(records, client, latitude=None, longitude=None):
                 gbif=match, source_url=source, proposed_value=None))
             continue
         distance = edit_distance(original, canonical_name)
-        if original.casefold() != canonical_name.casefold():
-            severity = "medium" if confidence >= 95 and distance <= 3 else "info"
+        # A large difference commonly means GBIF resolved a common name or
+        # synonym to its scientific canonical name. That is useful matching
+        # context, not evidence that the written value needs review.
+        if original.casefold() != canonical_name.casefold() and distance <= 3:
+            severity = "medium" if confidence >= 95 else "info"
             findings.append(finding(
                 record, "taxonomy_spelling_suggestion", severity,
                 f"GBIF matched this name to {canonical_name!r} (confidence {confidence})",
