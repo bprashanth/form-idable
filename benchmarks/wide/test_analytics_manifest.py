@@ -28,6 +28,14 @@ def main():
     categorical = next(chart for chart in result["charts"] if chart["type"] == "categorical")
     assert categorical["values"] == [{"label": "Y", "count": 4}, {"label": "N", "count": 4}]
 
+    identifier_document = {"pages": [{"page_number": 1, "tables": [{
+        "id": "t", "title": "", "columns": [{"id": "serial", "label": "S No",
+                                                  "value_kind": "identifier"}],
+        "rows": [{"cells": [{"value": str(index), "status": "agreement"}]}
+                 for index in range(8)],
+    }]}]}
+    assert analytics_manifest.build(identifier_document)["charts"] == []
+
     coordinates = ecology_review.location_coordinates([
         ecology_review.Record({"page": 1}, "GPS coordinates", "10.30217, 76.84301"),
     ])

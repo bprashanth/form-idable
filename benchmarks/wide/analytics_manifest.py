@@ -72,7 +72,8 @@ def build(document, ecology=None):
                     label = " / ".join(value for value in
                                        (table.get("title"), column.get("parent"), column.get("label"))
                                        if value)
-                    key = (table.get("id"), column.get("id"), label)
+                    key = (table.get("id"), column.get("id"), label,
+                           str(column.get("value_kind") or "unknown").casefold())
                     groups.setdefault(key, []).append(cell.get("value"))
                     total += 1
                     stats["cells"] += 1
@@ -84,7 +85,11 @@ def build(document, ecology=None):
                     stats["ecology_flags"] += len(cell.get("ecology_flags") or [])
 
     charts = []
-    for (_table, _column, label), raw_values in groups.items():
+    for (_table, _column, label, value_kind), raw_values in groups.items():
+        # Row keys, dates and timestamps have high cardinality by design; their
+        # histograms consume attention without describing the measured system.
+        if value_kind in {"identifier", "serial", "date", "time"}:
+            continue
         present = [value for value in raw_values if str(value or "").strip()]
         numeric = [value for value in (_number(item) for item in present) if value is not None]
         if len(numeric) >= 4 and len(numeric) >= 0.75 * len(present):
