@@ -62,7 +62,7 @@
           <p class="eyebrow">Numeric distributions</p><h3 class="section-title mb-3">Shape, centre and unusual tails</h3>
           <div class="grid lg:grid-cols-2 gap-4">
             <article v-for="chart in numericCharts" :key="chart.label" class="chart-card" data-testid="numeric-chart">
-              <div class="flex justify-between gap-4"><h4 class="font-black text-primary truncate">{{ chart.label }}</h4><span class="font-mono text-[10px]">n={{ chart.n }}</span></div>
+              <div class="flex justify-between gap-4"><h4 class="font-black text-primary leading-snug">{{ chart.label }}</h4><span class="font-mono text-[10px] shrink-0">n={{ chart.n }}</span></div>
               <div class="h-24 flex items-end gap-1 mt-5 border-b border-outline-variant/30">
                 <div v-for="(bin, index) in chart.histogram" :key="index" class="flex-1 bg-secondary/65 hover:bg-secondary transition-colors" :style="{ height: barHeight(bin.count, chart.histogram) }" :title="`${bin.x0}–${bin.x1}: ${bin.count}`" />
               </div>
@@ -78,7 +78,7 @@
           <p class="eyebrow">Categorical distributions</p><h3 class="section-title mb-3">Dominant and rare recorded states</h3>
           <div class="grid lg:grid-cols-2 gap-4">
             <article v-for="chart in categoricalCharts" :key="chart.label" class="chart-card" data-testid="categorical-chart">
-              <div class="flex justify-between"><h4 class="font-black text-primary truncate">{{ chart.label }}</h4><span class="font-mono text-[10px]">n={{ chart.n }}</span></div>
+              <div class="flex justify-between gap-4"><h4 class="font-black text-primary leading-snug">{{ chart.label }}</h4><span class="font-mono text-[10px] shrink-0">n={{ chart.n }}</span></div>
               <div class="space-y-2 mt-4"><div v-for="item in chart.values" :key="item.label" class="grid grid-cols-[7rem_1fr_2rem] items-center gap-2 text-xs">
                 <span class="truncate" :title="item.label">{{ item.label }}</span><div class="h-3 bg-surface-container-highest"><div class="h-full bg-primary" :style="{ width: percent(item.count, chart.values[0].count) }" /></div><span class="font-mono text-right">{{ item.count }}</span></div></div>
             </article>
