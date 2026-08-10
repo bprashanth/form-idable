@@ -3,9 +3,11 @@
 from __future__ import annotations
 
 import argparse
+import concurrent.futures
 import hashlib
 import json
 import math
+import os
 import re
 import statistics
 import sys
@@ -169,27 +171,35 @@ def numeric_findings(records):
 
 
 def taxonomy_findings(records, client, latitude=None, longitude=None):
-    findings, cache = [], {}
-    for record in records:
-        # A prose/legend region can mention species without being one taxon.
-        # Sending an entire multiline list to a taxonomic matcher creates a
-        # noisy orange review item with no defensible replacement.
-        if (kind_of(record.label) != "species"
-                or record.location.get("kind") == "free_text"
-                or not str(record.value or "").strip()):
-            continue
+    findings = []
+    eligible = [record for record in records
+                if (kind_of(record.label) == "species"
+                    and record.location.get("kind") != "free_text"
+                    and str(record.value or "").strip())]
+    queries = list(dict.fromkeys(taxon_query(record.value) for record in eligible))
+    cache = {}
+
+    # Catalogue lookups are independent I/O. A small fixed pool preserves the
+    # same calls and decisions while avoiding minutes of serial Fargate time on
+    # long species checklists.
+    workers = max(1, min(4, int(os.environ.get("FORMIDABLE_ECOLOGY_WORKERS", "4"))))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = {executor.submit(client.match, query): query for query in queries}
+        for future in concurrent.futures.as_completed(futures):
+            query = futures[future]
+            try:
+                cache[query.casefold()] = (*future.result(), None)
+            except Exception as error:
+                cache[query.casefold()] = (None, None, error)
+
+    for record in eligible:
         original = " ".join(str(record.value).split())
         query = taxon_query(record.value)
-        if query.casefold() in cache:
-            match, source = cache[query.casefold()]
-        else:
-            try:
-                match, source = client.match(query)
-            except Exception as error:  # network failure is not a data finding
-                findings.append(finding(record, "taxonomy_check_unavailable", "info",
-                                        f"GBIF lookup failed: {type(error).__name__}", proposed_value=None))
-                continue
-            cache[query.casefold()] = (match, source)
+        match, source, error = cache[query.casefold()]
+        if error is not None:  # network failure is not a data finding
+            findings.append(finding(record, "taxonomy_check_unavailable", "info",
+                                    f"GBIF lookup failed: {type(error).__name__}", proposed_value=None))
+            continue
         canonical_name = match.get("canonicalName")
         confidence = int(match.get("confidence") or 0)
         if not canonical_name or confidence < 90:
