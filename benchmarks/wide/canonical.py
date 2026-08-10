@@ -128,6 +128,13 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
             continue
         target.setdefault("readings", []).append(_reading(reading, model, target["bbox"]))
 
+    text_map = {item["id"]: item for item in page["free_text_regions"]}
+    for reading in raw.get("free_text") or []:
+        target = text_map.get(slug(reading.get("region_id"), ""))
+        if target is None:
+            continue
+        target.setdefault("readings", []).append(_reading(reading, model, target["bbox"]))
+
     raw_tables = {slug(table.get("table_id"), ""): table
                   for table in raw.get("tables") or []}
     for table in page["tables"]:
@@ -216,8 +223,10 @@ def _match_row(rows, row_id, region):
 def resolve(document: dict[str, Any]) -> dict[str, Any]:
     """Resolve exact agreement; preserve alternatives on disagreement."""
     for page in document["pages"]:
-        for field in page["metadata_fields"]:
+        for field in page.get("metadata_fields") or []:
             _resolve_item(field)
+        for item in page.get("free_text_regions") or []:
+            _resolve_item(item)
         for table in page["tables"]:
             table["rows"].sort(key=lambda row: row["bbox"][1])
             for row in table["rows"]:
@@ -289,6 +298,9 @@ def validate(document: dict[str, Any]) -> list[str]:
     if len(set(page_numbers)) != len(page_numbers):
         errors.append("duplicate page numbers")
     for page in document.get("pages") or []:
+        text_ids = [item["id"] for item in page.get("free_text_regions") or []]
+        if len(set(text_ids)) != len(text_ids):
+            errors.append(f"page {page['page_number']}: duplicate free-text IDs")
         for table in page.get("tables") or []:
             column_ids = [column["id"] for column in table.get("columns") or []]
             if len(set(column_ids)) != len(column_ids):
@@ -304,12 +316,15 @@ def assign_xlsx_coordinates(document: dict[str, Any]) -> dict[str, Any]:
     """Attach the exact page-local Excel coordinate used by ``write_xlsx``."""
     for page in document["pages"]:
         row_cursor = 1
-        for field in page["metadata_fields"]:
+        for field in page.get("metadata_fields") or []:
             field["xlsx_row"], field["xlsx_column"] = row_cursor, 2
             row_cursor += 1
-        if page["metadata_fields"]:
+        for item in page.get("free_text_regions") or []:
+            item["xlsx_row"], item["xlsx_column"] = row_cursor, 2
             row_cursor += 1
-        for table in page["tables"]:
+        if (page.get("metadata_fields") or page.get("free_text_regions")):
+            row_cursor += 1
+        for table in page.get("tables") or []:
             if table["title"]:
                 row_cursor += 1
             if any(column.get("parent") for column in table["columns"]):
@@ -330,13 +345,18 @@ def write_xlsx(document: dict[str, Any], destination: str | Path) -> Path:
     for page in document["pages"]:
         ws = workbook.create_sheet(f"page{page['page_number']}")
         row_cursor = 1
-        for field in page["metadata_fields"]:
+        for field in page.get("metadata_fields") or []:
             ws.cell(row_cursor, 1).value = field["label"]
             _write_value(ws.cell(row_cursor, 2), field)
             row_cursor += 1
-        if page["metadata_fields"]:
+        for item in page.get("free_text_regions") or []:
+            label = "Legend" if "legend" in f"{item['id']} {item['label']}".casefold() else "Note"
+            ws.cell(row_cursor, 1).value = label
+            _write_value(ws.cell(row_cursor, 2), item)
             row_cursor += 1
-        for table in page["tables"]:
+        if (page.get("metadata_fields") or page.get("free_text_regions")):
+            row_cursor += 1
+        for table in page.get("tables") or []:
             if table["title"]:
                 ws.cell(row_cursor, 1).value = table["title"]
                 ws.cell(row_cursor, 1).font = Font(bold=True)

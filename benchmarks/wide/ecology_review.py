@@ -237,6 +237,12 @@ def canonical_records(document):
                                    "xlsx_row": field.get("xlsx_row"),
                                    "xlsx_column": field.get("xlsx_column")},
                                   field["label"], field.get("value")))
+        for item in page.get("free_text_regions") or []:
+            records.append(Record({"page": page["page_number"], "field": item["id"],
+                                   "bbox": item.get("bbox"),
+                                   "xlsx_row": item.get("xlsx_row"),
+                                   "xlsx_column": item.get("xlsx_column")},
+                                  item["label"], item.get("value")))
         for table in page.get("tables") or []:
             columns = table.get("columns") or []
             for row in table.get("rows") or []:
@@ -257,6 +263,8 @@ def apply_findings(document, findings):
     for page in document.get("pages") or []:
         for field in page.get("metadata_fields") or []:
             lookup[(page["page_number"], None, None, None, field["id"])] = field
+        for item in page.get("free_text_regions") or []:
+            lookup[(page["page_number"], None, None, None, item["id"])] = item
         for table in page.get("tables") or []:
             for row in table.get("rows") or []:
                 for cell in row.get("cells") or []:

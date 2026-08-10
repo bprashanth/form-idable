@@ -55,6 +55,16 @@ def build(document, ecology=None):
         number = int(page.get("page_number") or 0)
         stats = page_stats.setdefault(number, {"page": number, "cells": 0, "filled": 0,
                                                 "disagreements": 0, "ecology_flags": 0})
+        for cell in [*(page.get("metadata_fields") or []),
+                     *(page.get("free_text_regions") or [])]:
+            total += 1
+            stats["cells"] += 1
+            if str(cell.get("value") or "").strip():
+                filled += 1
+                stats["filled"] += 1
+            if cell.get("status") not in {"agreement", "blank_or_illegible"}:
+                stats["disagreements"] += 1
+            stats["ecology_flags"] += len(cell.get("ecology_flags") or [])
         for table in page.get("tables") or []:
             columns = table.get("columns") or []
             for row in table.get("rows") or []:

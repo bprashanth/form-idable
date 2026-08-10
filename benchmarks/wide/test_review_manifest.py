@@ -51,6 +51,13 @@ def main():
 
         canonical_manifest = review_manifest.from_canonical({"pages": [{
             "page_number": 1,
+            "metadata_fields": [{"id": "site", "label": "Site", "bbox": [0, 0, .2, .1],
+                                 "xlsx_row": 1, "xlsx_column": 2, "value": "A",
+                                 "status": "agreement", "confidence": .9}],
+            "free_text_regions": [{"id": "note", "label": "Note", "bbox": [0, .9, .5, 1],
+                                   "xlsx_row": 2, "xlsx_column": 2, "value": "faint",
+                                   "status": "disagreement", "confidence": 0,
+                                   "alternatives": ["paint"]}],
             "tables": [{"id": "table", "columns": [{"id": "value", "label": "Value"}],
                         "rows": [{"id": "1", "cells": [{
                             "column_id": "value", "bbox": [0, 0, 1, 1],
@@ -60,10 +67,12 @@ def main():
                         }]}]}],
         }]})
         attention = canonical_manifest["views"]["transcription_attention"]
-        assert attention[0]["presented_value"] == "01"
-        assert attention[0]["alternatives"] == ["0"]
-        assert attention[0]["bbox"] == [0, 0, 1, 1]
-        assert canonical_manifest["cells"][0]["xlsx_row"] == 4
+        assert {item["presented_value"] for item in attention} == {"faint", "01"}
+        table_attention = next(item for item in attention if item["presented_value"] == "01")
+        assert table_attention["alternatives"] == ["0"]
+        assert table_attention["bbox"] == [0, 0, 1, 1]
+        assert len(canonical_manifest["cells"]) == 3
+        assert canonical_manifest["cells"][0]["xlsx_row"] == 1
 
         ecology_filtered = review_manifest.from_canonical({"pages": []}, {"findings": [
             {"severity": "info", "code": "context", "location": {"page": 1}},

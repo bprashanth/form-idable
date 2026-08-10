@@ -146,6 +146,30 @@ def from_template(primary_dir: Path, peer_dir: Path | None = None,
 def from_canonical(document: dict[str, Any], ecology: dict[str, Any] | None = None):
     attention, cells = [], []
     for page in document.get("pages") or []:
+        standalone = [
+            ("field", item) for item in page.get("metadata_fields") or []
+        ] + [
+            ("text", item) for item in page.get("free_text_regions") or []
+        ]
+        for kind, cell in standalone:
+            cell_id = f"p{page['page_number']}:{kind}:{cell['id']}"
+            alternatives = [value for value in cell.get("alternatives") or []
+                            if norm(value) != norm(cell.get("value"))]
+            item = {"id": cell_id, "page": page["page_number"],
+                    "bbox": cell.get("bbox"), "context": cell.get("label"),
+                    "xlsx_row": cell.get("xlsx_row"),
+                    "xlsx_column": cell.get("xlsx_column"),
+                    "presented_value": cell.get("value"), "status": cell.get("status"),
+                    "confidence": cell.get("confidence"),
+                    "alternatives": alternatives,
+                    "ecology_flags": cell.get("ecology_flags") or []}
+            cells.append(item)
+            if item["status"] not in {"agreement", "blank_or_illegible"}:
+                attention.append({"cell_id": cell_id, "page": item["page"],
+                                  "bbox": item["bbox"], "priority": "high",
+                                  "reason": item["status"],
+                                  "presented_value": item["presented_value"],
+                                  "alternatives": item["alternatives"]})
         for table in page.get("tables") or []:
             columns = {column["id"]: column for column in table.get("columns") or []}
             for row in table.get("rows") or []:

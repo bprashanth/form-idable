@@ -38,6 +38,21 @@ def main():
     assert outvoted_primary["value"] == "A"
     assert outvoted_primary["alternatives"] == ["B"]
 
+    page = canonical.normalize_structure({
+        "metadata_fields": [], "tables": [],
+        "free_text_regions": [{"id": "margin_note", "label": "margin note",
+                               "bbox": [0.1, 0.1, 0.4, 0.2]}],
+    }, 1)
+    canonical.attach_extraction(page, {"metadata": [], "tables": [], "free_text": [
+        {"region_id": "margin_note", "value": "do not drop me", "confidence": .9},
+    ]}, "primary")
+    canonical.attach_extraction(page, {"metadata": [], "tables": [], "free_text": [
+        {"region_id": "margin_note", "value": "do not drop me", "confidence": .95},
+    ]}, "peer")
+    canonical.resolve({"pages": [page]})
+    assert page["free_text_regions"][0]["value"] == "do not drop me"
+    assert page["free_text_regions"][0]["status"] == "agreement"
+
     with tempfile.TemporaryDirectory() as temporary:
         document = {"pages": [{"page_number": 1, "metadata_fields": [], "tables": [{
             "id": "t", "title": "", "columns": [
@@ -55,6 +70,12 @@ def main():
         sheet = openpyxl.load_workbook(path)["page1"]
         assert sheet["A2"].fill.fgColor.rgb.endswith("F4CCCC")
         assert sheet["B2"].fill.fgColor.rgb.endswith("FCE4D6")
+
+        notes = Path(temporary) / "notes.xlsx"
+        canonical.write_xlsx({"pages": [page]}, notes)
+        note_sheet = openpyxl.load_workbook(notes)["page1"]
+        assert note_sheet["A1"].value == "Note"
+        assert note_sheet["B1"].value == "do not drop me"
 
 
 if __name__ == "__main__":

@@ -53,6 +53,13 @@ letting a second model or ecological knowledge overwrite literal pixels.
   precision. Accuracy therefore scores the immutable page-only workbook; a
   separate packaging gate checks the deployed workbook's page order, styles,
   page count and final audit sheet.
+- The first all-form sweep was stopped after eval 01 because a strict layout
+  diagnostic exposed that the providers had correctly read marginal notes and
+  legends into `free_text`, but the canonicalizer never attached that branch.
+  The repair makes free text first-class in resolution, red disagreement
+  review, xlsx, crops, analytics and ecology coordinate discovery. Rebuilding
+  saved responses (no new calls) raised eval 01 semantic F1 0.828→0.838 and
+  eval 13 0.872→0.882; eval 13 content cell fraction became exactly 1.000.
 
 ## First real form result
 

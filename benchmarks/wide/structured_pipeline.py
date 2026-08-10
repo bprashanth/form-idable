@@ -423,6 +423,7 @@ def disagreement_stats(document):
     cells = []
     for page in document["pages"]:
         cells.extend(page["metadata_fields"])
+        cells.extend(page["free_text_regions"])
         for table in page["tables"]:
             for row in table["rows"]:
                 cells.extend(row["cells"])
