@@ -170,6 +170,38 @@ def main():
     assert [cell["readings"][0]["value"]
             for cell in shifted_table["rows"][2]["cells"]] == [None, "2", "A", "DRY WIG"]
 
+    padded_page = canonical.normalize_structure({
+        "metadata_fields": [], "free_text_regions": [], "tables": [{
+            "id": "padded", "bbox": [0, 0, 1, 1], "columns": [
+                {"id": f"c{index}", "label": f"c{index}",
+                 "value_kind": "text", "x0": index / 4, "x1": (index + 1) / 4}
+                for index in range(4)
+            ],
+        }],
+    }, 1)
+    primary_rows = [{
+        "row_id": str(index), "bbox": [0, index / 20, 1, (index + 1) / 20],
+        "values": [None, str(index), "A", "DRY WIG"],
+        "confidences": [.9] * 4,
+    } for index in range(8)]
+    padded_peer_rows = [{
+        "row_id": str(index), "bbox": [0, index / 20, 1, (index + 1) / 20],
+        "values": [str(index), "A", "DRY WIG", None],
+        "confidences": [.9] * 4,
+    } for index in range(8)]
+    canonical.attach_extraction(padded_page, {"tables": [{
+        "table_id": "padded", "rows": primary_rows,
+    }]}, "primary")
+    assert canonical._incoming_omitted_leading_column(
+        padded_page["tables"][0], padded_peer_rows, 4, "peer")
+    canonical.attach_extraction(padded_page, {"tables": [{
+        "table_id": "padded", "rows": padded_peer_rows,
+    }]}, "peer")
+    assert [next(reading["value"] for reading in cell["readings"]
+                 if reading["model"] == "peer")
+            for cell in padded_page["tables"][0]["rows"][2]["cells"]] == [
+                None, "2", "A", "DRY WIG"]
+
     sparse_table = {"columns": [
         {"id": "species", "value_kind": "species"},
         {"id": "height", "value_kind": "decimal"},

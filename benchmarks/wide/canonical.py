@@ -164,6 +164,8 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
         source_rows = source.get("rows") or []
         _repair_left_shifted_existing_readings(
             table, source_rows, ncols, model)
+        incoming_left_shifted = _incoming_omitted_leading_column(
+            table, source_rows, ncols, model)
         omitted_column = _omitted_compound_identifier_column(
             table["columns"], source_rows)
         omitted_leading = _omitted_sparse_leading_column(table["columns"], source_rows)
@@ -173,6 +175,8 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
             if region is None:
                 continue
             values = list(raw_row.get("values") or [])[:ncols]
+            if incoming_left_shifted:
+                values = [None, *values[:ncols - 1]]
             if omitted_leading and len(values) == ncols - 1:
                 values.insert(0, None)
             if omitted_column is not None and len(values) == ncols - 1:
@@ -184,6 +188,8 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
                     values.insert(target_index, match.group(2))
             values += [None] * (ncols - len(values))
             confidences = list(raw_row.get("confidences") or [])[:ncols]
+            if incoming_left_shifted:
+                confidences = [0.0, *confidences[:ncols - 1]]
             if omitted_leading and len(confidences) == ncols - 1:
                 confidences.insert(0, 0.0)
             if omitted_column is not None and len(confidences) == ncols - 1:
@@ -193,6 +199,8 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
             confidences += [0.0] * (ncols - len(confidences))
             illegible = {int(x) for x in (raw_row.get("illegible_columns") or [])
                          if str(x).lstrip("-").isdigit()}
+            if incoming_left_shifted:
+                illegible = {index + 1 for index in illegible if index + 1 < ncols}
             if omitted_leading:
                 illegible = {index + 1 for index in illegible}
             if omitted_column is not None:
@@ -392,6 +400,50 @@ def _repair_left_shifted_existing_readings(table, source_rows, ncols, model):
             values.append(reading.get("value") if reading else None)
         row["key_fingerprint"] = _row_key_fingerprint(table.get("columns") or [], values)
     return True
+
+
+def _incoming_omitted_leading_column(table, source_rows, ncols, model):
+    """Detect a padded, left-shifted incoming response using its peer.
+
+    Structured-output providers sometimes keep the declared field count by
+    placing a null at the end after omitting a visibly blank leading column.
+    Length checks cannot see that failure. Repair only when the existing reader
+    has a leading blank, the incoming reader has a trailing blank, row counts
+    agree, and shifting the incoming response right explains most nonblank
+    values over the entire table.
+    """
+    rows = table.get("rows") or []
+    if len(rows) < 8 or len(rows) != len(source_rows) or ncols < 3:
+        return False
+    existing_model = next((reading.get("model")
+                           for row in rows for cell in row.get("cells") or []
+                           for reading in cell.get("readings") or []
+                           if reading.get("model") != model), None)
+    if not existing_model:
+        return False
+
+    candidates = []
+    leading_blank = trailing_blank = padded_rows = 0
+    for row, raw_row in zip(rows, source_rows):
+        raw_values = list(raw_row.get("values") or [])
+        padded_rows += len(raw_values) == ncols
+        incoming = [norm_value(value) for value in raw_values[:ncols]]
+        incoming += [""] * (ncols - len(incoming))
+        existing = []
+        for cell in (row.get("cells") or [])[:ncols]:
+            reading = next((item for item in cell.get("readings") or []
+                            if item.get("model") == existing_model), None)
+            existing.append(norm_value(reading.get("value")) if reading else "")
+        leading_blank += not existing[0]
+        trailing_blank += not incoming[-1]
+        pairs = [(a, b) for a, b in zip(existing[1:], incoming[:-1]) if a and b]
+        if len(pairs) >= 2:
+            candidates.append(sum(a == b for a, b in pairs) / len(pairs))
+    return (padded_rows / len(rows) >= .9
+            and leading_blank / len(rows) >= .9
+            and trailing_blank / len(rows) >= .9
+            and len(candidates) >= len(rows) * .7
+            and sum(candidates) / len(candidates) >= .8)
 
 
 def _reading(raw, model, default_bbox):
