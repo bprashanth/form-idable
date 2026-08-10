@@ -1,0 +1,109 @@
+{
+  "version": "formidable-high-v1",
+  "route": "generic_canonical",
+  "extraction": {
+    "form": "form",
+    "tag": "high_v1",
+    "schema_model": "openrouter:google/gemini-3.5-flash",
+    "models": [
+      "openrouter:google/gemini-3.6-flash",
+      "openrouter:google/gemini-3.5-flash"
+    ],
+    "calls": [
+      {
+        "stage": "structure",
+        "page": 1,
+        "provider": "openrouter",
+        "model": "google/gemini-3.5-flash",
+        "in_tok": 2030,
+        "out_tok": 1178,
+        "thinking_tok": 0,
+        "cost_usd": 0.013647,
+        "latency_s": 8.1
+      },
+      {
+        "stage": "extract",
+        "page": 1,
+        "provider": "openrouter",
+        "model": "google/gemini-3.6-flash",
+        "in_tok": 7389,
+        "out_tok": 8426,
+        "thinking_tok": 0,
+        "cost_usd": 0.0742785,
+        "latency_s": 31.9
+      },
+      {
+        "stage": "extract",
+        "page": 1,
+        "provider": "openrouter",
+        "model": "google/gemini-3.5-flash",
+        "in_tok": 7389,
+        "out_tok": 8430,
+        "thinking_tok": 0,
+        "cost_usd": 0.0869535,
+        "latency_s": 36.5
+      },
+      {
+        "stage": "structure",
+        "page": 2,
+        "provider": "openrouter",
+        "model": "google/gemini-3.5-flash",
+        "in_tok": 2030,
+        "out_tok": 900,
+        "thinking_tok": 0,
+        "cost_usd": 0.011145,
+        "latency_s": 7.3
+      },
+      {
+        "stage": "extract",
+        "page": 2,
+        "provider": "openrouter",
+        "model": "google/gemini-3.6-flash",
+        "in_tok": 7185,
+        "out_tok": 8240,
+        "thinking_tok": 0,
+        "cost_usd": 0.0725775,
+        "latency_s": 35.1
+      },
+      {
+        "stage": "extract",
+        "page": 2,
+        "provider": "openrouter",
+        "model": "google/gemini-3.5-flash",
+        "in_tok": 7185,
+        "out_tok": 8204,
+        "thinking_tok": 0,
+        "cost_usd": 0.0846135,
+        "latency_s": 35.4
+      }
+    ],
+    "cost_usd": 0.34321,
+    "latency_s": 154.3,
+    "validation_errors": [],
+    "disagreement": {
+      "agreement": 810,
+      "majority_after_reread": 0,
+      "disagreement": 25,
+      "unresolved_after_reread": 0,
+      "blank_or_illegible": 0,
+      "total": 835,
+      "review_fraction": 0.0299
+    }
+  },
+  "review": {
+    "target_cells_including_blanks": 831,
+    "transcription_review_cells": 24,
+    "ecology_findings": 10
+  },
+  "analytics": {
+    "pages": 2,
+    "cells": 831,
+    "filled": 752,
+    "blank": 79,
+    "completeness": 0.9049,
+    "disagreements": 24,
+    "ecology_findings": 10,
+    "ecology_information": 19
+  },
+  "ecology_online": true
+}

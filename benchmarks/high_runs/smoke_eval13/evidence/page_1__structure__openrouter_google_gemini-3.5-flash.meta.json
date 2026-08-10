@@ -1,0 +1,9 @@
+{
+  "provider": "openrouter",
+  "model": "google/gemini-3.5-flash",
+  "in_tok": 2030,
+  "out_tok": 1178,
+  "thinking_tok": 0,
+  "cost_usd": 0.013647,
+  "latency_s": 8.1
+}

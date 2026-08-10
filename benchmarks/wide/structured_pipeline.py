@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import subprocess
 import sys
 import time
@@ -234,13 +235,84 @@ def gemini_json(model: str, prompt: str, images: list[Path], schema: dict,
     return json.loads(text), meta
 
 
+def openrouter_json(model: str, prompt: str, images: list[Path], schema: dict,
+                    *, thinking: str = "minimal") -> tuple[dict, dict]:
+    """Structured vision through OpenRouter, preserving the same JSON contract."""
+    content = [{"type": "text", "text": prompt}]
+    for image in images:
+        content.append({"type": "image_url", "image_url": {
+            "url": f"data:image/png;base64,{wide_bench._b64(image)}"}})
+    payload = {
+        "model": model,
+        "temperature": 0,
+        "max_tokens": 32768,
+        "messages": [{"role": "user", "content": content}],
+        "response_format": {"type": "json_schema", "json_schema": {
+            "name": "formidable_extraction", "strict": True, "schema": schema}},
+        "reasoning": {"effort": thinking},
+        "usage": {"include": True},
+    }
+    headers = {"Authorization": f"Bearer {wide_bench._key('openrouter')}",
+               "HTTP-Referer": "https://fomoscribe.netlify.app",
+               "X-Title": "Formidable high extraction"}
+    started = time.time()
+    retry_delays = (0, 2, 5, 10)
+    for attempt, delay in enumerate(retry_delays, start=1):
+        if delay:
+            time.sleep(delay)
+        try:
+            response = wide_bench._post(
+                "https://openrouter.ai/api/v1/chat/completions", payload, headers, timeout=900)
+            message = response["choices"][0]["message"]["content"]
+            if isinstance(message, list):
+                message = "".join(part.get("text", "") for part in message
+                                  if isinstance(part, dict))
+            parsed = json.loads(message)
+        except urllib.error.HTTPError as error:
+            body = error.read()[:500]
+            retryable = error.code in {408, 409, 429} or error.code >= 500
+            if retryable and attempt < len(retry_delays):
+                continue
+            raise RuntimeError(
+                f"OpenRouter {model} failed with HTTP {error.code}: {body!r}") from error
+        except (KeyError, IndexError, TypeError, json.JSONDecodeError) as error:
+            if attempt < len(retry_delays):
+                continue
+            raise RuntimeError(
+                f"OpenRouter {model} returned invalid structured output after "
+                f"{attempt} attempts: {error}") from error
+
+        usage = response.get("usage") or {}
+        return parsed, {
+            "provider": "openrouter", "model": model,
+            "in_tok": usage.get("prompt_tokens"), "out_tok": usage.get("completion_tokens"),
+            "thinking_tok": usage.get("reasoning_tokens", 0),
+            "cost_usd": usage.get("cost"), "latency_s": round(time.time() - started, 1),
+            "attempts": attempt,
+        }
+    raise AssertionError("unreachable")
+
+
+def provider_json(model_spec: str, prompt: str, images: list[Path], schema: dict,
+                  *, thinking: str = "minimal") -> tuple[dict, dict]:
+    if model_spec.startswith("openrouter:"):
+        return openrouter_json(model_spec.split(":", 1)[1], prompt, images, schema,
+                               thinking=thinking)
+    return gemini_json(model_spec, prompt, images, schema, thinking=thinking)
+
+
+def model_filename(model_spec: str) -> str:
+    return re.sub(r"[^a-zA-Z0-9._-]+", "_", model_spec).strip("_")
+
+
 def _read_structure(form_dir, output, page_number, schema_model, *, reuse=False):
     overview, tiles = render_page_inputs(form_dir, page_number)
-    raw_path = output / f"page_{page_number}__structure__{schema_model}.json"
-    meta_path = output / f"page_{page_number}__structure__{schema_model}.meta.json"
+    model_file = model_filename(schema_model)
+    raw_path = output / f"page_{page_number}__structure__{model_file}.json"
+    meta_path = output / f"page_{page_number}__structure__{model_file}.meta.json"
     if reuse and raw_path.exists() and meta_path.exists():
         return overview, tiles, json.loads(raw_path.read_text()), json.loads(meta_path.read_text())
-    raw, meta = gemini_json(schema_model, STRUCTURE_PROMPT, [overview], STRUCTURE_SCHEMA)
+    raw, meta = provider_json(schema_model, STRUCTURE_PROMPT, [overview], STRUCTURE_SCHEMA)
     raw_path.write_text(json.dumps(raw, indent=2))
     meta_path.write_text(json.dumps(meta, indent=2))
     return overview, tiles, raw, meta
@@ -289,9 +361,9 @@ def run(form_dir: Path, schema_model: str, models: list[str], tag: str,
         declared = {key: value for key, value in page.items() if key != "rows"}
         prompt = EXTRACT_PROMPT.format(schema=json.dumps(declared, ensure_ascii=False))
         for model in models:
-            raw, meta = gemini_json(model, prompt, [overview, *tiles], EXTRACTION_SCHEMA)
+            raw, meta = provider_json(model, prompt, [overview, *tiles], EXTRACTION_SCHEMA)
             calls.append({"stage": "extract", "page": page_number, **meta})
-            (output / f"page_{page_number}__extract__{model}.json").write_text(
+            (output / f"page_{page_number}__extract__{model_filename(model)}.json").write_text(
                 json.dumps(raw, indent=2))
             canonical.attach_extraction(page, raw, model)
         pages.append(page)
@@ -314,8 +386,8 @@ def run(form_dir: Path, schema_model: str, models: list[str], tag: str,
         "disagreement": stats,
     }
     document["run"] = report
-    canonical.dump(document, output / "canonical.json")
     canonical.write_xlsx(document, output / "output.xlsx")
+    canonical.dump(document, output / "canonical.json")
     (output / "run.json").write_text(json.dumps(report, indent=2))
     return report
 
@@ -325,13 +397,15 @@ def rebuild(form_dir: Path, tag: str) -> dict:
     output = form_dir / "canonical_outputs" / tag
     report = json.loads((output / "run.json").read_text())
     pages = []
-    structure_files = sorted(output.glob("page_*__structure__*.json"),
-                             key=lambda path: int(path.name.split("_")[1]))
+    structure_files = sorted(
+        (path for path in output.glob("page_*__structure__*.json")
+         if not path.name.endswith(".meta.json")),
+        key=lambda path: int(path.name.split("_")[1]))
     for structure_file in structure_files:
         page_number = int(structure_file.name.split("_")[1])
         page = canonical.normalize_structure(json.loads(structure_file.read_text()), page_number)
         for model in report["models"]:
-            raw = json.loads((output / f"page_{page_number}__extract__{model}.json").read_text())
+            raw = json.loads((output / f"page_{page_number}__extract__{model_filename(model)}.json").read_text())
             canonical.attach_extraction(page, raw, model)
         pages.append(page)
     document = canonical.new_document(str(form_dir / "input.pdf"), pages, report["models"])
@@ -339,8 +413,8 @@ def rebuild(form_dir: Path, tag: str) -> dict:
     report["validation_errors"] = canonical.validate(document)
     report["disagreement"] = disagreement_stats(document)
     document["run"] = report
-    canonical.dump(document, output / "canonical.json")
     canonical.write_xlsx(document, output / "output.xlsx")
+    canonical.dump(document, output / "canonical.json")
     (output / "run.json").write_text(json.dumps(report, indent=2))
     return report
 

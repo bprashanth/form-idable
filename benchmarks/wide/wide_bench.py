@@ -29,7 +29,7 @@ from pathlib import Path
 HERE   = Path(__file__).parent
 FORMID = Path.home() / "src/github.com/bprashanth/form-idable"
 GSHEP  = Path.home() / "src/github.com/bprashanth/good-shepherd/agents/formidable"
-RENDER = GSHEP / "tools/render_page.py"
+RENDER = Path(os.environ.get("FORMIDABLE_RENDER_TOOL", GSHEP / "tools/render_page.py"))
 CFG    = Path.home() / ".config/formidable"
 
 sys.path.insert(0, str(HERE))
@@ -38,6 +38,9 @@ import openpyxl                           # noqa: E402
 
 
 def _key(name):
+    env_name = f"{name.upper()}_API_KEY"
+    if os.environ.get(env_name):
+        return os.environ[env_name]
     return json.loads((CFG / f"{name}.json").read_text())["api_key"]
 
 

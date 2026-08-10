@@ -16,6 +16,7 @@ import fitz
 import openpyxl
 
 import canonical
+import analytics_manifest
 import ecology_review
 import review_manifest
 import structured_pipeline
@@ -203,6 +204,7 @@ def run_generic(form_dir, output, route, structure_tag, schema_model,
         form_dir, schema_model, models, structure_tag, reuse_structure=True)
     canonical_dir = form_dir / "canonical_outputs" / structure_tag
     document = json.loads((canonical_dir / "canonical.json").read_text())
+    canonical.assign_xlsx_coordinates(document)
     records = ecology_review.canonical_records(document)
     findings = ecology_review.numeric_findings(records)
     if ecology_online:
@@ -223,8 +225,11 @@ def run_generic(form_dir, output, route, structure_tag, schema_model,
     manifest["route"] = route
     (output / "review_manifest.json").write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
+    analytics = analytics_manifest.build(document, ecology_report)
+    (output / "analytics.json").write_text(
+        json.dumps(analytics, indent=2, ensure_ascii=False) + "\n")
     return {"route": "generic_canonical", "extraction": report,
-            "review": manifest["summary"]}
+            "review": manifest["summary"], "analytics": analytics["summary"]}
 
 
 def reader_order(primary: str, peer: str):

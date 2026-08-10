@@ -1,0 +1,22 @@
+{
+  "usageKey": 3032996,
+  "scientificName": "Symplocos Jacq.",
+  "canonicalName": "Symplocos",
+  "rank": "GENUS",
+  "status": "ACCEPTED",
+  "confidence": 94,
+  "note": "Similarity: name=100; classification=-2; rank=0; status=1; score=99; nextMatch=5",
+  "matchType": "HIGHERRANK",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Ericales",
+  "family": "Symplocaceae",
+  "genus": "Symplocos",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 1353,
+  "familyKey": 6708,
+  "genusKey": 3032996,
+  "class": "Magnoliopsida"
+}

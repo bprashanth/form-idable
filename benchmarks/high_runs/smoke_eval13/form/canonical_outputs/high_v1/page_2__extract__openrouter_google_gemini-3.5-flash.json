@@ -1,0 +1,1644 @@
+{
+  "page": 2,
+  "metadata": [
+    {
+      "field_id": "file_path",
+      "value": "C:\\Data\\Restoration\\BDPlot\\Planting 2005\\Iyerpadi 2005.xls",
+      "confidence": 0.99,
+      "illegible": false,
+      "bbox": [
+        0.269,
+        0.025,
+        0.719,
+        0.041
+      ]
+    },
+    {
+      "field_id": "page_number",
+      "value": "Page 1",
+      "confidence": 0.99,
+      "illegible": false,
+      "bbox": [
+        0.842,
+        0.027,
+        0.913,
+        0.041
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "species_monitoring_table",
+      "rows": [
+        {
+          "row_id": "1",
+          "bbox": [
+            0.083,
+            0.078,
+            0.814,
+            0.093
+          ],
+          "values": [
+            null,
+            "1",
+            "Palaquium ellipticum",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "2",
+          "bbox": [
+            0.083,
+            0.093,
+            0.814,
+            0.107
+          ],
+          "values": [
+            null,
+            "2",
+            "Litsea glabrata",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "3",
+          "bbox": [
+            0.083,
+            0.107,
+            0.814,
+            0.121
+          ],
+          "values": [
+            null,
+            "3",
+            "Lepisanthes decipiens",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "4",
+          "bbox": [
+            0.083,
+            0.121,
+            0.814,
+            0.135
+          ],
+          "values": [
+            null,
+            "4",
+            "Elaeocarpus munronii",
+            "\u2713",
+            "\u2713",
+            "X",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "5",
+          "bbox": [
+            0.083,
+            0.135,
+            0.814,
+            0.15
+          ],
+          "values": [
+            null,
+            "5",
+            "Palaquium ellipticum",
+            "\u2713",
+            "\u2713",
+            "\u2713 sprouts",
+            "X CUT"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.9,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "6",
+          "bbox": [
+            0.083,
+            0.15,
+            0.814,
+            0.164
+          ],
+          "values": [
+            null,
+            "6",
+            "Ficus nervosa",
+            "\u2713",
+            "\u2713",
+            "\u2713 sprouts",
+            "\u2713 CUT"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.9,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "7",
+          "bbox": [
+            0.083,
+            0.164,
+            0.814,
+            0.179
+          ],
+          "values": [
+            "*",
+            "7",
+            "Ormosia travancorica",
+            "X",
+            "X",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.95,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "8",
+          "bbox": [
+            0.083,
+            0.179,
+            0.814,
+            0.193
+          ],
+          "values": [
+            null,
+            "8",
+            "Trichilia connaroides",
+            "X",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "9",
+          "bbox": [
+            0.083,
+            0.193,
+            0.814,
+            0.207
+          ],
+          "values": [
+            null,
+            "9",
+            "Cinnamomum malabathrum",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "10",
+          "bbox": [
+            0.083,
+            0.207,
+            0.814,
+            0.221
+          ],
+          "values": [
+            null,
+            "10",
+            "Villebrunea integrifolia",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "11",
+          "bbox": [
+            0.083,
+            0.221,
+            0.814,
+            0.235
+          ],
+          "values": [
+            null,
+            "11",
+            "Canarium strictum",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "12",
+          "bbox": [
+            0.083,
+            0.235,
+            0.814,
+            0.25
+          ],
+          "values": [
+            null,
+            "12",
+            "Cullenia exarillata",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713 LL"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "13",
+          "bbox": [
+            0.083,
+            0.25,
+            0.814,
+            0.264
+          ],
+          "values": [
+            null,
+            "13",
+            "Cullenia exarillata",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "14",
+          "bbox": [
+            0.083,
+            0.264,
+            0.814,
+            0.279
+          ],
+          "values": [
+            null,
+            "14",
+            "Elaeocarpus tuberculatus",
+            "\u2713 BR",
+            "\u2713",
+            "\u2713",
+            "\u2713 LL"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.9,
+            0.95,
+            0.95,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "15",
+          "bbox": [
+            0.083,
+            0.279,
+            0.814,
+            0.293
+          ],
+          "values": [
+            null,
+            "15",
+            "Lepisanthes decipiens",
+            "\u2713",
+            "\u2713",
+            "\u2713 Leafless",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.9,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "16",
+          "bbox": [
+            0.083,
+            0.293,
+            0.814,
+            0.307
+          ],
+          "values": [
+            null,
+            "16",
+            "Myristica dactyloides",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "17",
+          "bbox": [
+            0.083,
+            0.307,
+            0.814,
+            0.321
+          ],
+          "values": [
+            null,
+            "17",
+            "Litsea glabrata",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "18",
+          "bbox": [
+            0.083,
+            0.321,
+            0.814,
+            0.335
+          ],
+          "values": [
+            null,
+            "18",
+            "Actinodaphne",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "19",
+          "bbox": [
+            0.083,
+            0.335,
+            0.814,
+            0.35
+          ],
+          "values": [
+            null,
+            "19",
+            "Dimocarpus longan",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "20",
+          "bbox": [
+            0.083,
+            0.35,
+            0.814,
+            0.364
+          ],
+          "values": [
+            null,
+            "20",
+            "Sarcostigma kleinii",
+            "\u2713 LL",
+            "\u2713",
+            "\u2713",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.9,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "21",
+          "bbox": [
+            0.083,
+            0.364,
+            0.814,
+            0.379
+          ],
+          "values": [
+            null,
+            "21",
+            "Elaeocarpus tuberculatus",
+            "\u2713",
+            "\u2713 LL",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.9,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "22",
+          "bbox": [
+            0.083,
+            0.379,
+            0.814,
+            0.393
+          ],
+          "values": [
+            null,
+            "22",
+            "Bhesa indica",
+            "\u2713",
+            "\u2713",
+            "\u2713 Br",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.9,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "23",
+          "bbox": [
+            0.083,
+            0.393,
+            0.814,
+            0.407
+          ],
+          "values": [
+            null,
+            "23",
+            "Cullenia exarillata",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "24",
+          "bbox": [
+            0.083,
+            0.407,
+            0.814,
+            0.421
+          ],
+          "values": [
+            null,
+            "24",
+            "Semecarpus tranvancorica",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "25",
+          "bbox": [
+            0.083,
+            0.421,
+            0.814,
+            0.435
+          ],
+          "values": [
+            null,
+            "25",
+            "Litsea stocksi",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "26",
+          "bbox": [
+            0.083,
+            0.435,
+            0.814,
+            0.45
+          ],
+          "values": [
+            null,
+            "26",
+            "Ormosia travancorica",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "27",
+          "bbox": [
+            0.083,
+            0.45,
+            0.814,
+            0.464
+          ],
+          "values": [
+            null,
+            "27",
+            "Holigarna nigra",
+            "\u2713",
+            "\u2713",
+            "X",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "28",
+          "bbox": [
+            0.083,
+            0.464,
+            0.814,
+            0.479
+          ],
+          "values": [
+            null,
+            "28",
+            "Ficus nervosa",
+            "\u2713",
+            "\u2713",
+            "X",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "29",
+          "bbox": [
+            0.083,
+            0.479,
+            0.814,
+            0.493
+          ],
+          "values": [
+            null,
+            "29",
+            "Litsea glabrata",
+            "\u2713",
+            "\u2713",
+            "\u2713 dry",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.9,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "30",
+          "bbox": [
+            0.083,
+            0.493,
+            0.814,
+            0.507
+          ],
+          "values": [
+            null,
+            "30",
+            "Syzygium densiflorum",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "31",
+          "bbox": [
+            0.083,
+            0.507,
+            0.814,
+            0.521
+          ],
+          "values": [
+            null,
+            "31",
+            "Bhesa indica",
+            "\u2713",
+            "\u2713",
+            "\u2713 Leafless",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.85,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "32",
+          "bbox": [
+            0.083,
+            0.521,
+            0.814,
+            0.535
+          ],
+          "values": [
+            null,
+            "32",
+            "Syzygium gardneri",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "33",
+          "bbox": [
+            0.083,
+            0.535,
+            0.814,
+            0.55
+          ],
+          "values": [
+            null,
+            "33",
+            "Actinodaphne",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713 LL"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "34",
+          "bbox": [
+            0.083,
+            0.55,
+            0.814,
+            0.564
+          ],
+          "values": [
+            null,
+            "34",
+            "Syzygium densiflorum",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "35",
+          "bbox": [
+            0.083,
+            0.564,
+            0.814,
+            0.579
+          ],
+          "values": [
+            null,
+            "35",
+            "Litsea stocksi",
+            "\u2713",
+            "\u2713",
+            "X dry",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.9,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "36",
+          "bbox": [
+            0.083,
+            0.579,
+            0.814,
+            0.593
+          ],
+          "values": [
+            null,
+            "36",
+            "Ormosia travancorica",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "37",
+          "bbox": [
+            0.083,
+            0.593,
+            0.814,
+            0.607
+          ],
+          "values": [
+            null,
+            "37",
+            "Palaquium ellipticum",
+            "\u2713 BE",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.9,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "38",
+          "bbox": [
+            0.083,
+            0.607,
+            0.814,
+            0.621
+          ],
+          "values": [
+            null,
+            "38",
+            "Calamus",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "39",
+          "bbox": [
+            0.083,
+            0.621,
+            0.814,
+            0.635
+          ],
+          "values": [
+            null,
+            "39",
+            "Myristica dactyloides",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "40",
+          "bbox": [
+            0.083,
+            0.635,
+            0.814,
+            0.65
+          ],
+          "values": [
+            null,
+            "40",
+            "Syzygium densiflorum",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "41",
+          "bbox": [
+            0.083,
+            0.65,
+            0.814,
+            0.664
+          ],
+          "values": [
+            null,
+            "41",
+            "Palaquium ellipticum",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "42",
+          "bbox": [
+            0.083,
+            0.664,
+            0.814,
+            0.679
+          ],
+          "values": [
+            null,
+            "42",
+            "Artocarpus heterophyllus",
+            "\u2713 BR",
+            "\u2713",
+            "X",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.9,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "43",
+          "bbox": [
+            0.083,
+            0.679,
+            0.814,
+            0.693
+          ],
+          "values": [
+            null,
+            "43",
+            "Ormosia travancorica",
+            "\u2713",
+            "\u2713",
+            "X",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "44",
+          "bbox": [
+            0.083,
+            0.693,
+            0.814,
+            0.707
+          ],
+          "values": [
+            null,
+            "44",
+            "Actinodaphne",
+            "\u2713",
+            "\u2713",
+            "X",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "45",
+          "bbox": [
+            0.083,
+            0.707,
+            0.814,
+            0.721
+          ],
+          "values": [
+            null,
+            "45",
+            "Semecarpus tranvancorica",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "46",
+          "bbox": [
+            0.083,
+            0.721,
+            0.814,
+            0.735
+          ],
+          "values": [
+            null,
+            "46",
+            "Cullenia exarillata",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "47",
+          "bbox": [
+            0.083,
+            0.735,
+            0.814,
+            0.75
+          ],
+          "values": [
+            null,
+            "47",
+            "Symplocos sp.",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "48",
+          "bbox": [
+            0.083,
+            0.75,
+            0.814,
+            0.764
+          ],
+          "values": [
+            null,
+            "48",
+            "Ormosia travancorica",
+            "\u2713",
+            "\u2713",
+            "\u2713 Leafless",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.9,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "49",
+          "bbox": [
+            0.083,
+            0.764,
+            0.814,
+            0.779
+          ],
+          "values": [
+            null,
+            "49",
+            "Syzygium densiflorum",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "50",
+          "bbox": [
+            0.083,
+            0.779,
+            0.814,
+            0.793
+          ],
+          "values": [
+            null,
+            "50",
+            "Actinodaphne",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "51",
+          "bbox": [
+            0.083,
+            0.793,
+            0.814,
+            0.807
+          ],
+          "values": [
+            null,
+            "51",
+            "Palaquium ellipticum",
+            "\u2713",
+            "\u2713",
+            "\u2713 Leafless",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.9,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "52",
+          "bbox": [
+            0.083,
+            0.807,
+            0.814,
+            0.821
+          ],
+          "values": [
+            null,
+            "52",
+            "Prunus ceylanica",
+            "\u2713 BR",
+            "\u2713",
+            "\u2713",
+            "\u2713 LL"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.9,
+            0.95,
+            0.95,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "53",
+          "bbox": [
+            0.083,
+            0.821,
+            0.814,
+            0.835
+          ],
+          "values": [
+            null,
+            "53",
+            "Cinnamomum malabathrum",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "54",
+          "bbox": [
+            0.083,
+            0.835,
+            0.814,
+            0.85
+          ],
+          "values": [
+            null,
+            "54",
+            "? Leafless",
+            "\u2713 LL",
+            "\u2713",
+            "X",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.9,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "55",
+          "bbox": [
+            0.083,
+            0.85,
+            0.814,
+            0.864
+          ],
+          "values": [
+            null,
+            "55",
+            "Dimocarpus longan",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "56",
+          "bbox": [
+            0.083,
+            0.864,
+            0.814,
+            0.879
+          ],
+          "values": [
+            null,
+            "56",
+            "Syzygium densiflorum",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "X"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "57",
+          "bbox": [
+            0.083,
+            0.879,
+            0.814,
+            0.893
+          ],
+          "values": [
+            null,
+            "57",
+            "Lepisanthes decipiens",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.5,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.95,
+            0.95
+          ],
+          "illegible_columns": []
+        }
+      ]
+    }
+  ],
+  "free_text": [
+    {
+      "region_id": "header_handwritten",
+      "value": "40th HPB",
+      "confidence": 0.99
+    },
+    {
+      "region_id": "footer_note",
+      "value": "*: did not find.",
+      "confidence": 0.95
+    }
+  ]
+}

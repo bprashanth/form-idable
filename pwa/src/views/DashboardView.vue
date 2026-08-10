@@ -187,6 +187,10 @@
                     <span class="text-[10px] text-on-surface-variant">{{ job.pages }} pages · {{ job.crops }} crops</span>
                     <span v-if="job.date" class="text-[10px] text-on-surface-variant">Form date: {{ job.date }}</span>
                     <span v-if="job.created_at" class="text-[10px] text-on-surface-variant">Submitted: {{ formatSubmitted(job.created_at) }}</span>
+                    <span class="text-[9px] uppercase tracking-widest font-black"
+                          :class="job.effort === 'high' ? 'text-error' : 'text-outline'">
+                      {{ job.effort === 'high' ? 'High · dual reader' : 'Low · standard' }}
+                    </span>
                     <span class="text-[10px] font-mono text-outline/60 tracking-tight">id: {{ job.job_id }}</span>
                   </div>
                 </td>
@@ -416,6 +420,35 @@
 
             <!-- Notification email -->
             <div>
+              <label class="text-[10px] uppercase tracking-widest font-bold text-on-surface-variant block mb-2">
+                Processing effort
+              </label>
+              <div class="grid grid-cols-2 gap-2" data-testid="effort-picker">
+                <button
+                  type="button"
+                  data-testid="effort-low"
+                  class="p-3 border text-left transition-colors"
+                  :class="uploadEffort === 'low' ? 'border-primary bg-primary/8' : 'border-outline-variant/40'"
+                  @click="uploadEffort = 'low'"
+                >
+                  <span class="block text-xs font-black text-primary">LOW</span>
+                  <span class="block text-[10px] text-on-surface-variant mt-1">Current Codex pipeline</span>
+                </button>
+                <button
+                  type="button"
+                  data-testid="effort-high"
+                  class="p-3 border text-left transition-colors"
+                  :class="uploadEffort === 'high' ? 'border-error bg-error/8' : 'border-outline-variant/40'"
+                  @click="uploadEffort = 'high'"
+                >
+                  <span class="block text-xs font-black text-error">HIGH</span>
+                  <span class="block text-[10px] text-on-surface-variant mt-1">Dual readers + ecology</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Notification email -->
+            <div>
               <label class="text-[10px] uppercase tracking-widest font-bold text-on-surface-variant block mb-1">
                 Notify when done (optional)
               </label>
@@ -510,10 +543,12 @@ const uploadModal        = ref(false)
 const modalFileInput     = ref(null)
 const modalSelectedFiles = ref([])
 const notifEmail         = ref('')
+const uploadEffort       = ref('low')
 
 function openUploadModal() {
   modalSelectedFiles.value = []
   notifEmail.value = ''
+  uploadEffort.value = 'low'
   uploadModal.value = true
 }
 
@@ -534,9 +569,10 @@ function removeModalFile(i) {
 async function submitUploadModal() {
   const files = [...modalSelectedFiles.value]
   const email = notifEmail.value.trim()
+  const effort = uploadEffort.value
   closeUploadModal()
   for (const file of files) {
-    await doNewUpload(file, email)
+    await doNewUpload(file, email, effort)
   }
 }
 
@@ -650,10 +686,10 @@ async function handleFileUpload(e) {
   }
 }
 
-async function doNewUpload(file, email = '') {
+async function doNewUpload(file, email = '', effort = 'low') {
   let job_id, upload_url
   try {
-    const r = await initUpload(file.name, file.name, email)
+    const r = await initUpload(file.name, file.name, email, effort)
     job_id = r.job_id; upload_url = r.upload_url
   } catch (err) {
     showToast(`Upload failed: ${err.message}`, 'error')
@@ -661,7 +697,7 @@ async function doNewUpload(file, email = '') {
   }
   // Optimistic prepend before S3 upload starts
   jobs.value = [
-    { job_id, name: file.name, status: 'uploading', review_state: 'unreviewed',
+    { job_id, name: file.name, status: 'uploading', review_state: 'unreviewed', effort,
       pages: 0, crops: 0, gps: null, grid_no: null, date: null,
       created_at: new Date().toISOString(), error: null, corrections: {} },
     ...jobs.value,

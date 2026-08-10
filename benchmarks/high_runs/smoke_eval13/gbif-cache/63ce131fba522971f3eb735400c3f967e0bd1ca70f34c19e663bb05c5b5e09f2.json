@@ -1,0 +1,20 @@
+{
+  "usageKey": 3065,
+  "scientificName": "Asteraceae",
+  "canonicalName": "Asteraceae",
+  "rank": "FAMILY",
+  "status": "ACCEPTED",
+  "confidence": 97,
+  "note": "nextMatch=0",
+  "matchType": "HIGHERRANK",
+  "kingdom": "Plantae",
+  "phylum": "Tracheophyta",
+  "order": "Asterales",
+  "family": "Asteraceae",
+  "kingdomKey": 6,
+  "phylumKey": 7707728,
+  "classKey": 220,
+  "orderKey": 414,
+  "familyKey": 3065,
+  "class": "Magnoliopsida"
+}

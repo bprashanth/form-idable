@@ -56,6 +56,35 @@ cd good-shepherd/agents/formidable/deploy
 ./push_secrets.sh
 ```
 
+### Additive High release (does not rebuild low)
+
+Use the high-only scripts when changing per-job effort routing, dual readers,
+ecology, or Analytics. `push_high.sh` builds/pushes the API handler and the new
+high image, and registers only `formidable-high-worker`. It never builds,
+pushes, or registers `formidable-worker`.
+
+```
+cd good-shepherd/agents/formidable/deploy
+./setup_high.sh       # idempotent: high ECR/role/secret/log/routes only
+./push_high.sh
+```
+
+The deployment host is ARM64 but the existing Lambda is x86_64. The script
+preflights amd64 emulation, cross-builds the handler for `linux/amd64`, builds
+the high worker for `linux/arm64`, and registers that runtime platform
+explicitly. If the preflight fails, install binfmt as instructed by the script
+and rerun. Roll back only the additive surfaces with:
+
+```
+./rollback_high.sh
+```
+
+The provider config is read from
+`~/.config/formidable/openrouter.json` (override with
+`FORMIDABLE_OPENROUTER_CONFIG`) and stored in Secrets Manager. Never use the
+ordinary `push.sh` for a high-only release because it intentionally rebuilds
+the low worker too.
+
 ---
 
 ## Verifying a deploy

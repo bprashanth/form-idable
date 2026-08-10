@@ -300,7 +300,31 @@ def validate(document: dict[str, Any]) -> list[str]:
     return errors
 
 
+def assign_xlsx_coordinates(document: dict[str, Any]) -> dict[str, Any]:
+    """Attach the exact page-local Excel coordinate used by ``write_xlsx``."""
+    for page in document["pages"]:
+        row_cursor = 1
+        for field in page["metadata_fields"]:
+            field["xlsx_row"], field["xlsx_column"] = row_cursor, 2
+            row_cursor += 1
+        if page["metadata_fields"]:
+            row_cursor += 1
+        for table in page["tables"]:
+            if table["title"]:
+                row_cursor += 1
+            if any(column.get("parent") for column in table["columns"]):
+                row_cursor += 1
+            row_cursor += 1  # leaf labels
+            for row in table["rows"]:
+                for index, item in enumerate(row["cells"], 1):
+                    item["xlsx_row"], item["xlsx_column"] = row_cursor, index
+                row_cursor += 1
+            row_cursor += 2
+    return document
+
+
 def write_xlsx(document: dict[str, Any], destination: str | Path) -> Path:
+    assign_xlsx_coordinates(document)
     workbook = openpyxl.Workbook()
     workbook.remove(workbook.active)
     for page in document["pages"]:
@@ -365,8 +389,12 @@ def _write_value(cell, item):
     ecology_flags = item.get("ecology_flags") or []
     has_ecology_review = any(flag.get("severity") in ("high", "medium")
                              for flag in ecology_flags)
-    cell.fill = (ORANGE if has_ecology_review else GREEN if status == "agreement"
-                 else RED if status == "blank_or_illegible" else YELLOW)
+    is_disagreement = status in {
+        "disagreement", "majority_after_reread", "unresolved_after_reread"}
+    # Human priority is transcription first: a cell that is both disputed and
+    # ecologically unusual stays red. Ecology-only cells are orange.
+    cell.fill = (RED if is_disagreement else ORANGE if has_ecology_review
+                 else GREEN if status == "agreement" else YELLOW)
     readings = item.get("readings") or []
     details = [f"status: {status}", f"bbox: {item.get('bbox')}"]
     details.extend(f"{r.get('model')}: {r.get('value')!r} (confidence {r.get('confidence')})"

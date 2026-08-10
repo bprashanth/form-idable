@@ -199,11 +199,43 @@ def taxonomy_findings(records, client, latitude=None, longitude=None):
     return findings
 
 
+def location_coordinates(records):
+    """Find defensible coordinates already present on the form, if any.
+
+    This is deliberately generic: separate latitude/longitude fields and a
+    combined GPS/coordinate field are supported. No project/site lookup is
+    used and ambiguous or physically invalid pairs are ignored.
+    """
+    latitude = longitude = None
+    for record in records:
+        kind = kind_of(record.label)
+        value = number(record.value)
+        if kind == "latitude" and value is not None and -90 <= value <= 90:
+            latitude = value
+        elif kind == "longitude" and value is not None and -180 <= value <= 180:
+            longitude = value
+    if latitude is not None and longitude is not None:
+        return latitude, longitude
+    for record in records:
+        label = " ".join(str(record.label).casefold().split())
+        if not any(term in label for term in ("gps", "coordinate", "location")):
+            continue
+        values = [float(value) for value in re.findall(
+            r"[-+]?\d{1,3}(?:\.\d+)?", str(record.value or "").replace(",", " "))]
+        for first, second in zip(values, values[1:]):
+            if -90 <= first <= 90 and -180 <= second <= 180:
+                return first, second
+    return None, None
+
+
 def canonical_records(document):
     records = []
     for page in document.get("pages") or []:
         for field in page.get("metadata_fields") or []:
-            records.append(Record({"page": page["page_number"], "field": field["id"]},
+            records.append(Record({"page": page["page_number"], "field": field["id"],
+                                   "bbox": field.get("bbox"),
+                                   "xlsx_row": field.get("xlsx_row"),
+                                   "xlsx_column": field.get("xlsx_column")},
                                   field["label"], field.get("value")))
         for table in page.get("tables") or []:
             columns = table.get("columns") or []
@@ -212,7 +244,11 @@ def canonical_records(document):
                     label = " ".join(x for x in (column.get("parent"), column.get("label")) if x)
                     records.append(Record(
                         {"page": page["page_number"], "table": table["id"],
-                         "row": row["id"], "column": column["id"]}, label, cell.get("value")))
+                         "row": row["id"], "column": column["id"],
+                         "bbox": cell.get("bbox"),
+                         "xlsx_row": cell.get("xlsx_row"),
+                         "xlsx_column": cell.get("xlsx_column")},
+                        label, cell.get("value")))
     return records
 
 
@@ -243,7 +279,9 @@ def add_review_sheet(path, findings):
     wb = openpyxl.load_workbook(path)
     if "ecology_review" in wb.sheetnames:
         del wb["ecology_review"]
-    ws = wb.create_sheet("ecology_review", 0)
+    # Keep paper-page sheets first. The review UI indexes those sheets by page;
+    # the audit sheet is useful for downloads but must never displace page 1.
+    ws = wb.create_sheet("ecology_review")
     headers = ["severity", "code", "page", "table/field", "row", "column",
                "observed", "suggestion (not applied)", "message", "source"]
     ws.append(headers)

@@ -1,0 +1,148 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "render": "page_1.png",
+      "crops": [
+        {
+          "file": "crop_p1_01.png",
+          "bbox": [
+            0.412,
+            0.04,
+            0.91,
+            0.068
+          ],
+          "rows": "1:2",
+          "note": "Header fields"
+        },
+        {
+          "file": "crop_p1_02.png",
+          "bbox": [
+            0.08199999999999999,
+            0.092,
+            0.896,
+            0.28400000000000003
+          ],
+          "rows": "6:17",
+          "note": "Matha Junction Plot Data Table"
+        },
+        {
+          "file": "crop_p1_03.png",
+          "bbox": [
+            0.08199999999999999,
+            0.272,
+            0.896,
+            0.464
+          ],
+          "rows": "18:29",
+          "note": "Matha Junction Plot Data Table"
+        },
+        {
+          "file": "crop_p1_04.png",
+          "bbox": [
+            0.08199999999999999,
+            0.452,
+            0.896,
+            0.644
+          ],
+          "rows": "30:41",
+          "note": "Matha Junction Plot Data Table"
+        },
+        {
+          "file": "crop_p1_05.png",
+          "bbox": [
+            0.08199999999999999,
+            0.632,
+            0.896,
+            0.824
+          ],
+          "rows": "42:53",
+          "note": "Matha Junction Plot Data Table"
+        },
+        {
+          "file": "crop_p1_06.png",
+          "bbox": [
+            0.08199999999999999,
+            0.8119999999999999,
+            0.896,
+            0.914
+          ],
+          "rows": "54:59",
+          "note": "Matha Junction Plot Data Table"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "render": "page_2.png",
+      "crops": [
+        {
+          "file": "crop_p2_01.png",
+          "bbox": [
+            0.263,
+            0.019000000000000003,
+            0.919,
+            0.047
+          ],
+          "rows": "1:2",
+          "note": "Header fields"
+        },
+        {
+          "file": "crop_p2_02.png",
+          "bbox": [
+            0.077,
+            0.075,
+            0.82,
+            0.267
+          ],
+          "rows": "6:17",
+          "note": "Species Monitoring Table"
+        },
+        {
+          "file": "crop_p2_03.png",
+          "bbox": [
+            0.077,
+            0.255,
+            0.82,
+            0.447
+          ],
+          "rows": "18:29",
+          "note": "Species Monitoring Table"
+        },
+        {
+          "file": "crop_p2_04.png",
+          "bbox": [
+            0.077,
+            0.435,
+            0.82,
+            0.627
+          ],
+          "rows": "30:41",
+          "note": "Species Monitoring Table"
+        },
+        {
+          "file": "crop_p2_05.png",
+          "bbox": [
+            0.077,
+            0.615,
+            0.82,
+            0.807
+          ],
+          "rows": "42:53",
+          "note": "Species Monitoring Table"
+        },
+        {
+          "file": "crop_p2_06.png",
+          "bbox": [
+            0.077,
+            0.795,
+            0.82,
+            0.9420000000000001
+          ],
+          "rows": "54:62",
+          "note": "Species Monitoring Table"
+        }
+      ]
+    }
+  ]
+}

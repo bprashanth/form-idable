@@ -4,7 +4,19 @@ Post-extraction quality layer. After the Fargate worker produces an xlsx,
 these features help a human reviewer decide whether the transcription is
 trustworthy before downloading it.
 
-**Status:** planned — not yet built.
+**Status:** the deterministic high-effort review/analytics layer is built
+locally; production deployment remains gated on the all-form benchmark. The
+older speculative design below is retained for context, but the implemented
+system does not ask an LLM to rewrite the spreadsheet or generate arbitrary
+Vega-Lite.
+
+Current high QA uses a canonical page/cell IR, immutable-primary two-reader
+diff, generic numeric/domain checks, GBIF taxonomy context, and deterministic
+histogram/categorical manifests. Raw accuracy metrics remain, plus semantic
+metrics that treat only visually equivalent checked marks (`✓`, `✔`, `☑`,
+`X`) as the same code. Ecology audit sheets must be excluded from extraction
+accuracy scoring. See `chronology/012_high_variant_local_gate.md` for the first
+real-container result and its low/high tradeoff.
 
 ---
 

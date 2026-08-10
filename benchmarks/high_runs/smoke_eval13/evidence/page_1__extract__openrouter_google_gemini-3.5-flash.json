@@ -1,0 +1,1683 @@
+{
+  "page": 1,
+  "metadata": [
+    {
+      "field_id": "title",
+      "value": "Matha Junction Plot",
+      "confidence": 0.99,
+      "illegible": false,
+      "bbox": [
+        0.418,
+        0.046,
+        0.58,
+        0.061
+      ]
+    },
+    {
+      "field_id": "page_number",
+      "value": "1 of 5",
+      "confidence": 0.99,
+      "illegible": false,
+      "bbox": [
+        0.858,
+        0.048,
+        0.904,
+        0.062
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "junction_plot_table",
+      "rows": [
+        {
+          "row_id": "1_1",
+          "bbox": [
+            0.098,
+            0.084,
+            0.114,
+            0.89
+          ],
+          "values": [
+            "1",
+            "1",
+            "Clerodendron infortunatum",
+            "\u2713",
+            "\u2713 h\u2191",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "1_2",
+          "bbox": [
+            0.114,
+            0.084,
+            0.13,
+            0.89
+          ],
+          "values": [
+            "1",
+            "2",
+            "Trichilia connaroides",
+            "\u2713",
+            "\u2713 h\u2193",
+            "\u2713",
+            "\u2713",
+            "S. L. grass. hopp."
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.99,
+            0.99,
+            0.95
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "1_3",
+          "bbox": [
+            0.13,
+            0.084,
+            0.146,
+            0.89
+          ],
+          "values": [
+            "1",
+            "3",
+            "Cinnamomum malabatrum",
+            "\u2713 (h)",
+            "\u2713 h\u2193",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "1_4",
+          "bbox": [
+            0.146,
+            0.084,
+            0.162,
+            0.89
+          ],
+          "values": [
+            "1",
+            "4",
+            "Persea macrantha",
+            "\u2713 (b)",
+            "\u2713 b\u2193",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "1_5",
+          "bbox": [
+            0.162,
+            0.084,
+            0.178,
+            0.89
+          ],
+          "values": [
+            "1",
+            "5",
+            "Ormosia travancorica",
+            "\u2713 (h)\u2191",
+            "\u2713 leaves size reviving",
+            "D",
+            "D",
+            "D"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.9,
+            0.99,
+            0.99,
+            0.99
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "1_6",
+          "bbox": [
+            0.178,
+            0.084,
+            0.194,
+            0.89
+          ],
+          "values": [
+            "1",
+            "6",
+            "Trichilia connaroides",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713 In-her.",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "1_7",
+          "bbox": [
+            0.194,
+            0.084,
+            0.21,
+            0.89
+          ],
+          "values": [
+            "1",
+            "7",
+            "Artocarpus heterophyllus",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "1_8",
+          "bbox": [
+            0.21,
+            0.084,
+            0.226,
+            0.89
+          ],
+          "values": [
+            "1",
+            "8",
+            "Dimocarpus longan",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "1_9",
+          "bbox": [
+            0.226,
+            0.084,
+            0.242,
+            0.89
+          ],
+          "values": [
+            "1",
+            "9",
+            "Actinodaphne",
+            "\u2713 (h)",
+            "\u2713 drying up mealy bugs",
+            "\u2713",
+            "\u2713 In. her.",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9,
+            0.99,
+            0.95,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "1_10",
+          "bbox": [
+            0.242,
+            0.084,
+            0.258,
+            0.89
+          ],
+          "values": [
+            "1",
+            "10",
+            "Michelia champaca",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "1_11",
+          "bbox": [
+            0.258,
+            0.084,
+            0.274,
+            0.89
+          ],
+          "values": [
+            "1",
+            "11",
+            "Dimocarpus longan",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "2_1",
+          "bbox": [
+            0.274,
+            0.084,
+            0.29,
+            0.89
+          ],
+          "values": [
+            "2",
+            "1",
+            "Croton spp (theag).",
+            "\u2713 (h)\u2191",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "2_2",
+          "bbox": [
+            0.29,
+            0.084,
+            0.306,
+            0.89
+          ],
+          "values": [
+            "2",
+            "2",
+            "Dimocarpus longan",
+            "\u2713",
+            "\u2713 h\u2191",
+            "\u2713",
+            "\u2713 In h.",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.99,
+            0.95,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "2_3",
+          "bbox": [
+            0.306,
+            0.084,
+            0.322,
+            0.89
+          ],
+          "values": [
+            "2",
+            "3",
+            "Actinodaphne",
+            "\u2713",
+            "\u2713 h\u2193",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "2_4",
+          "bbox": [
+            0.322,
+            0.084,
+            0.338,
+            0.89
+          ],
+          "values": [
+            "2",
+            "4",
+            "Symplocos type",
+            "\u2713 (h)",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "2_5",
+          "bbox": [
+            0.338,
+            0.084,
+            0.354,
+            0.89
+          ],
+          "values": [
+            "2",
+            "5",
+            "Artocarpus heterophyllus",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "2_6",
+          "bbox": [
+            0.354,
+            0.084,
+            0.37,
+            0.89
+          ],
+          "values": [
+            "2",
+            "6",
+            "Syzygium (long leaf)",
+            "\u2713 (b)",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "2_7",
+          "bbox": [
+            0.37,
+            0.084,
+            0.386,
+            0.89
+          ],
+          "values": [
+            "2",
+            "7",
+            "Trichilia connaroides",
+            "\u2713",
+            "\u2713 h\u2193",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "2_8",
+          "bbox": [
+            0.386,
+            0.084,
+            0.402,
+            0.89
+          ],
+          "values": [
+            "2",
+            "8",
+            "Persea macrantha",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713 In her.",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "2_9",
+          "bbox": [
+            0.402,
+            0.084,
+            0.418,
+            0.89
+          ],
+          "values": [
+            "2",
+            "9",
+            "Actinodaphne",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "2_10",
+          "bbox": [
+            0.418,
+            0.084,
+            0.434,
+            0.89
+          ],
+          "values": [
+            "2",
+            "10",
+            "Dimocarpus longan",
+            "\u2713",
+            "\u2713 b\u2193",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "2_11",
+          "bbox": [
+            0.434,
+            0.084,
+            0.45,
+            0.89
+          ],
+          "values": [
+            "2",
+            "11",
+            "Atalantia racemosa",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "3_1",
+          "bbox": [
+            0.45,
+            0.084,
+            0.466,
+            0.89
+          ],
+          "values": [
+            "3",
+            "1",
+            "Semecarpus travancorica",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "3_2",
+          "bbox": [
+            0.466,
+            0.084,
+            0.482,
+            0.89
+          ],
+          "values": [
+            "3",
+            "2",
+            "Elaeocarpus tuberculatus / Vernonia",
+            "\u2713 (h)",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "3_3",
+          "bbox": [
+            0.482,
+            0.084,
+            0.498,
+            0.89
+          ],
+          "values": [
+            "3",
+            "3",
+            "Dimocarpus longan",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "3_4",
+          "bbox": [
+            0.498,
+            0.084,
+            0.514,
+            0.89
+          ],
+          "values": [
+            "3",
+            "4",
+            "Trichilia connaroides",
+            "\u2713 (h)",
+            "\u2713",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "3_5",
+          "bbox": [
+            0.514,
+            0.084,
+            0.53,
+            0.89
+          ],
+          "values": [
+            "3",
+            "5",
+            "Persea macrantha",
+            "\u2713 (h)\u2191",
+            "\u2713",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.99,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "3_6",
+          "bbox": [
+            0.53,
+            0.084,
+            0.546,
+            0.89
+          ],
+          "values": [
+            "3",
+            "6",
+            "Dimocarpus longan",
+            "\u2713",
+            "\u2713",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "3_7",
+          "bbox": [
+            0.546,
+            0.084,
+            0.562,
+            0.89
+          ],
+          "values": [
+            "3",
+            "7",
+            "Actinodaphne",
+            "\u2713",
+            "\u2713",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "3_8",
+          "bbox": [
+            0.562,
+            0.084,
+            0.578,
+            0.89
+          ],
+          "values": [
+            "3",
+            "8",
+            "Michelia champaca",
+            "\u2713",
+            "\u2713",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "3_9",
+          "bbox": [
+            0.578,
+            0.084,
+            0.594,
+            0.89
+          ],
+          "values": [
+            "3",
+            "9",
+            "Trichilia connaroides",
+            "\u2713",
+            "\u2713",
+            null,
+            "\u2713 inter.",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.0,
+            0.95,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "3_10",
+          "bbox": [
+            0.594,
+            0.084,
+            0.61,
+            0.89
+          ],
+          "values": [
+            "3",
+            "10",
+            "Semecarpus travancorica",
+            "\u2713",
+            "\u2713 leaves shed",
+            "\u2713 no leaves",
+            "\u2713 no leaves",
+            "D"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9,
+            0.9,
+            0.9,
+            0.99
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "4_1",
+          "bbox": [
+            0.61,
+            0.084,
+            0.626,
+            0.89
+          ],
+          "values": [
+            "4",
+            "1",
+            "Vernonia arborea",
+            "\u2713 \u2193(b)",
+            "\u2713",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.99,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "4_2",
+          "bbox": [
+            0.626,
+            0.084,
+            0.642,
+            0.89
+          ],
+          "values": [
+            "4",
+            "2",
+            "Trichilia connaroides",
+            "\u2713",
+            "\u2713 h\u2191",
+            null,
+            "\u2713 inter.",
+            "g.h."
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.0,
+            0.95,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "4_3",
+          "bbox": [
+            0.642,
+            0.084,
+            0.658,
+            0.89
+          ],
+          "values": [
+            "4",
+            "3",
+            "Persea macrantha",
+            "\u2713 (b)",
+            "\u2713 h\u2193",
+            null,
+            "\u2713 inter.",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.0,
+            0.95,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "4_4",
+          "bbox": [
+            0.658,
+            0.084,
+            0.674,
+            0.89
+          ],
+          "values": [
+            "4",
+            "4",
+            "Atalantia racemosa",
+            "\u2713",
+            "\u2713",
+            null,
+            "X",
+            "D"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.0,
+            0.99,
+            0.99
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "4_5",
+          "bbox": [
+            0.674,
+            0.084,
+            0.69,
+            0.89
+          ],
+          "values": [
+            "4",
+            "5",
+            "Syzygium (long leaf)",
+            "\u2713 (b)",
+            "\u2713 b\u2193",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "4_6",
+          "bbox": [
+            0.69,
+            0.084,
+            0.706,
+            0.89
+          ],
+          "values": [
+            "4",
+            "6",
+            "Dimocarpus longan",
+            "\u2713 (b)\u2193",
+            "\u2713 b\u2193",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "4_7",
+          "bbox": [
+            0.706,
+            0.084,
+            0.722,
+            0.89
+          ],
+          "values": [
+            "4",
+            "7",
+            "Mallotus philippensis (?) Mallotus",
+            "\u2713",
+            "\u2713 h\u2191",
+            "no leaves",
+            "\u2713 inter.",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.9,
+            0.95,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "4_8",
+          "bbox": [
+            0.722,
+            0.084,
+            0.738,
+            0.89
+          ],
+          "values": [
+            "4",
+            "8",
+            "Trichilia connaroides",
+            "\u2713",
+            "\u2713",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "4_9",
+          "bbox": [
+            0.738,
+            0.084,
+            0.754,
+            0.89
+          ],
+          "values": [
+            "4",
+            "9",
+            "Artocarpus heterophyllus",
+            "\u2713",
+            "\u2713 h\u2193",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "4_10",
+          "bbox": [
+            0.754,
+            0.084,
+            0.77,
+            0.89
+          ],
+          "values": [
+            "4",
+            "10",
+            "Dimocarpus longan",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "4_11",
+          "bbox": [
+            0.77,
+            0.084,
+            0.786,
+            0.89
+          ],
+          "values": [
+            "4",
+            "11",
+            "Michelia champaca",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "5_1",
+          "bbox": [
+            0.786,
+            0.084,
+            0.802,
+            0.89
+          ],
+          "values": [
+            "5",
+            "1",
+            "Artocarpus heterophyllus",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "5_2",
+          "bbox": [
+            0.802,
+            0.084,
+            0.818,
+            0.89
+          ],
+          "values": [
+            "5",
+            "2",
+            "Michelia champaca",
+            "\u2713 (b)\u2193",
+            "\u2713 h\u2193",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "5_3",
+          "bbox": [
+            0.818,
+            0.084,
+            0.834,
+            0.89
+          ],
+          "values": [
+            "5",
+            "3",
+            "Vernonia arborea F. tuber.",
+            "\u2713 (h)\u2193",
+            "\u2713 h\u2193",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "5_4",
+          "bbox": [
+            0.834,
+            0.084,
+            0.85,
+            0.89
+          ],
+          "values": [
+            "5",
+            "4",
+            "Dimocarpus longan",
+            "\u2713",
+            "\u2713 b\u2193",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "5_5",
+          "bbox": [
+            0.85,
+            0.084,
+            0.866,
+            0.89
+          ],
+          "values": [
+            "5",
+            "5",
+            "Ficus hispida",
+            "\u2713",
+            "\u2713",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "5_6",
+          "bbox": [
+            0.866,
+            0.084,
+            0.882,
+            0.89
+          ],
+          "values": [
+            "5",
+            "6",
+            "Artocarpus heterophyllus",
+            "\u2713",
+            "\u2713",
+            "D",
+            "D",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "5_7",
+          "bbox": [
+            0.882,
+            0.084,
+            0.898,
+            0.89
+          ],
+          "values": [
+            "5",
+            "7",
+            "Trichilia connaroides",
+            "\u2713 (h)\u2193",
+            "\u2713 h\u2191",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.95,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "5_8",
+          "bbox": [
+            0.898,
+            0.084,
+            0.914,
+            0.89
+          ],
+          "values": [
+            "5",
+            "8",
+            "Persea macrantha",
+            "\u2713",
+            "\u2713 dried shed leaves",
+            "D",
+            "X",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.9,
+            0.99,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "5_9",
+          "bbox": [
+            0.914,
+            0.084,
+            0.93,
+            0.89
+          ],
+          "values": [
+            "5",
+            "9",
+            "Trichilia connaroides",
+            "\u2713",
+            "\u2713",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "5_10",
+          "bbox": [
+            0.93,
+            0.084,
+            0.946,
+            0.89
+          ],
+          "values": [
+            "5",
+            "10",
+            "Syzygium (long leaf)",
+            "\u2713 (b)\u2193",
+            "\u2713",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.99,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        },
+        {
+          "row_id": "5_11",
+          "bbox": [
+            0.946,
+            0.084,
+            0.962,
+            0.89
+          ],
+          "values": [
+            "5",
+            "11",
+            "Clerodendron infortunatum",
+            "\u2713",
+            "\u2713 h\u2191",
+            null,
+            "\u2713",
+            "L"
+          ],
+          "confidences": [
+            0.99,
+            0.99,
+            0.99,
+            0.99,
+            0.95,
+            0.0,
+            0.99,
+            0.9
+          ],
+          "illegible_columns": []
+        }
+      ]
+    }
+  ],
+  "free_text": [
+    {
+      "region_id": "top_right_note",
+      "value": "10,9 cattle browsed.",
+      "confidence": 0.95
+    },
+    {
+      "region_id": "grasshopper_note",
+      "value": "S. L. grass. hopp.",
+      "confidence": 0.95
+    },
+    {
+      "region_id": "bottom_left_note",
+      "value": "Mila: Outta for Apu",
+      "confidence": 0.9
+    },
+    {
+      "region_id": "bottom_center_fraction",
+      "value": "7/269",
+      "confidence": 0.99
+    },
+    {
+      "region_id": "bottom_legend",
+      "value": "h = herbivori, b = burnt, h high, d low",
+      "confidence": 0.95
+    }
+  ]
+}

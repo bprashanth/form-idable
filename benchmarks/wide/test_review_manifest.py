@@ -54,6 +54,7 @@ def main():
             "tables": [{"id": "table", "columns": [{"id": "value", "label": "Value"}],
                         "rows": [{"id": "1", "cells": [{
                             "column_id": "value", "bbox": [0, 0, 1, 1],
+                            "xlsx_row": 4, "xlsx_column": 2,
                             "value": "01", "status": "disagreement", "confidence": 0,
                             "alternatives": ["0", "01"],
                         }]}]}],
@@ -61,6 +62,14 @@ def main():
         attention = canonical_manifest["views"]["transcription_attention"]
         assert attention[0]["presented_value"] == "01"
         assert attention[0]["alternatives"] == ["0"]
+        assert attention[0]["bbox"] == [0, 0, 1, 1]
+        assert canonical_manifest["cells"][0]["xlsx_row"] == 4
+
+        ecology_filtered = review_manifest.from_canonical({"pages": []}, {"findings": [
+            {"severity": "info", "code": "context", "location": {"page": 1}},
+            {"severity": "medium", "code": "review", "location": {"page": 1}},
+        ]})
+        assert [item["code"] for item in ecology_filtered["views"]["ecology_anomalies"]] == ["review"]
 
 
 if __name__ == "__main__":

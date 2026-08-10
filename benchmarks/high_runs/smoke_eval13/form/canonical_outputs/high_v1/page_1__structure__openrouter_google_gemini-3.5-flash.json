@@ -1,0 +1,156 @@
+{
+  "page": 1,
+  "metadata_fields": [
+    {
+      "id": "title",
+      "label": "Title",
+      "bbox": [
+        0.418,
+        0.046,
+        0.58,
+        0.061
+      ]
+    },
+    {
+      "id": "page_number",
+      "label": "Page Number",
+      "bbox": [
+        0.858,
+        0.048,
+        0.904,
+        0.062
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "junction_plot_table",
+      "title": "Matha Junction Plot Data Table",
+      "bbox": [
+        0.88,
+        0.084,
+        0.89,
+        0.91
+      ],
+      "estimated_rows": 55,
+      "columns": [
+        {
+          "id": "col_row",
+          "label": "Row",
+          "parent": null,
+          "value_kind": "integer",
+          "x0": 0.088,
+          "x1": 0.135
+        },
+        {
+          "id": "col_plant",
+          "label": "Plant",
+          "parent": null,
+          "value_kind": "integer",
+          "x0": 0.135,
+          "x1": 0.185
+        },
+        {
+          "id": "col_species",
+          "label": "Species",
+          "parent": null,
+          "value_kind": "species",
+          "x0": 0.185,
+          "x1": 0.468
+        },
+        {
+          "id": "col_date_1",
+          "label": "24/2/03",
+          "parent": null,
+          "value_kind": "unknown",
+          "x0": 0.468,
+          "x1": 0.568
+        },
+        {
+          "id": "col_date_2",
+          "label": "01/08/03",
+          "parent": null,
+          "value_kind": "unknown",
+          "x0": 0.568,
+          "x1": 0.668
+        },
+        {
+          "id": "col_date_3",
+          "label": "17/2",
+          "parent": null,
+          "value_kind": "unknown",
+          "x0": 0.668,
+          "x1": 0.768
+        },
+        {
+          "id": "col_date_4",
+          "label": "6/8",
+          "parent": null,
+          "value_kind": "unknown",
+          "x0": 0.768,
+          "x1": 0.86
+        },
+        {
+          "id": "col_date_5",
+          "label": "13/06/05",
+          "parent": null,
+          "value_kind": "unknown",
+          "x0": 0.86,
+          "x1": 0.89
+        }
+      ]
+    }
+  ],
+  "free_text_regions": [
+    {
+      "id": "top_right_note",
+      "label": "10,9 cattle browsed.",
+      "bbox": [
+        0.738,
+        0.012,
+        0.91,
+        0.031
+      ]
+    },
+    {
+      "id": "grasshopper_note",
+      "label": "S. L. grass. hopp.",
+      "bbox": [
+        0.875,
+        0.115,
+        0.98,
+        0.138
+      ]
+    },
+    {
+      "id": "bottom_left_note",
+      "label": "Mila: Outta for Apu",
+      "bbox": [
+        0.235,
+        0.935,
+        0.385,
+        0.98
+      ]
+    },
+    {
+      "id": "bottom_center_fraction",
+      "label": "7/269",
+      "bbox": [
+        0.505,
+        0.905,
+        0.585,
+        0.935
+      ]
+    },
+    {
+      "id": "bottom_legend",
+      "label": "h = herbivori, b = burnt, h high, d low",
+      "bbox": [
+        0.595,
+        0.935,
+        0.955,
+        0.98
+      ]
+    }
+  ]
+}

@@ -131,6 +131,27 @@ test.describe('Dashboard', () => {
     const firstRow = page.locator('[data-testid^="job-row-"]').first()
     await expect(firstRow).toContainText('TestForm.pdf')
     await expect(firstRow).toContainText('queued')
+    await expect(firstRow).toContainText('Low · standard')
+  })
+
+  test('high effort is explicit per upload and visible on the queued job', async ({ page }) => {
+    let extractBody
+    page.on('request', request => {
+      if (request.method() === 'POST' && request.url().endsWith('/vision/extract')) {
+        extractBody = request.postDataJSON()
+      }
+    })
+    await page.goto('/dashboard')
+    await page.locator('[data-testid="add-forms-btn"]').click()
+    await page.locator('[data-testid="effort-high"]').click()
+    await page.locator('[data-testid="modal-file-input"]').setInputFiles({
+      name: 'HighForm.pdf', mimeType: 'application/pdf', buffer: Buffer.from('%PDF-1.4 high'),
+    })
+    await page.locator('[data-testid="upload-submit-btn"]').click()
+    const firstRow = page.locator('[data-testid^="job-row-"]').first()
+    await expect(firstRow).toContainText('HighForm.pdf')
+    await expect(firstRow).toContainText('High · dual reader')
+    expect(extractBody.effort).toBe('high')
   })
 })
 
@@ -188,6 +209,14 @@ test.describe('Review page', () => {
     await expect(page.locator('[data-testid="xlsx-panel"]')).toContainText('Page 2 workbook marker')
     await expect(page.locator('[data-testid="xlsx-panel"]')).not.toContainText('Page 1 workbook marker')
   })
+
+  test('low effort keeps the original review surface', async ({ page }) => {
+    await expect(page.locator('[data-testid="review-summary"]')).toHaveCount(0)
+    await expect(page.locator('[data-testid^="attention-"]')).toHaveCount(0)
+    await expect(page.locator('[data-testid^="ecology-overlay-"]')).toHaveCount(0)
+    await page.locator('[data-testid="analytics-nav"]').click()
+    await expect(page).toHaveURL(`/review/${JOB_ID}`)
+  })
 })
 
 test.describe('Focused review queues', () => {
@@ -222,7 +251,9 @@ test.describe('Focused review queues', () => {
               finding_id: 1, code: 'within_form_numeric_outlier', severity: 'medium',
               message: '150 is a robust within-column outlier', label: 'Soil temperature',
               observed: '150', median: 8.2, mad: 1.1,
-              proposed_value: null, location: { page: 1 },
+              proposed_value: null, bbox: [0.54, 0.3, 0.64, 0.35],
+              xlsx_row: 2, xlsx_column: 1,
+              location: { page: 1, bbox: [0.54, 0.3, 0.64, 0.35], xlsx_row: 2, xlsx_column: 1 },
             }],
           },
         }),
@@ -234,6 +265,8 @@ test.describe('Focused review queues', () => {
 
   test('keeps transcription and ecology findings in separate views', async ({ page }) => {
     await expect(page.locator('[data-testid="review-summary"]')).toBeVisible()
+    await expect(page.locator('[data-testid^="attention-"]').first()).toBeVisible()
+    await expect(page.locator('[data-testid^="ecology-overlay-"]').first()).toBeVisible()
 
     await page.locator('[data-testid="review-mode-attention"]').click()
     await expect(page.locator('[data-testid="attention-queue"]')).toContainText('literal readers disagree')
@@ -254,5 +287,33 @@ test.describe('Focused review queues', () => {
     await expect(page.locator('[data-testid="modal-zoom-canvas"]')).toBeVisible()
     await expect(page.locator('[data-testid="review-modal"]')).toContainText('literal readers disagree')
     await expect(page.locator('[data-testid="review-modal"] input')).toHaveCount(2)
+  })
+
+  test('analytics shows distributions without editing controls', async ({ page }) => {
+    await page.route(`**/api/jobs/${JOB_ID}/analytics`, route => route.fulfill({
+      status: 200, contentType: 'application/json', body: JSON.stringify({
+        version: 'formidable-analytics-v1',
+        summary: { pages: 3, cells: 120, filled: 80, blank: 40, completeness: 0.667,
+          disagreements: 1, ecology_findings: 1 },
+        pages: [{ page: 1, cells: 40, filled: 30, blank: 10, disagreements: 1, ecology_flags: 1 }],
+        charts: [
+          { type: 'numeric', label: 'Soil temperature', n: 8, min: 4, q1: 6, median: 8,
+            q3: 10, max: 150, histogram: [{ x0: 4, x1: 20, count: 7 }, { x0: 20, x1: 150, count: 1 }] },
+          { type: 'categorical', label: 'Phenophase', n: 4,
+            values: [{ label: 'leaf flush', count: 3 }, { label: 'flower', count: 1 }] },
+        ],
+        ecology_findings: [{ code: 'within_form_numeric_outlier', severity: 'medium',
+          label: 'Soil temperature', observed: 150, message: 'Investigate this tail', location: { page: 1 } }],
+      }),
+    }))
+    await page.locator('[data-testid="analytics-nav"]').click()
+    await expect(page).toHaveURL(`/analytics/${JOB_ID}`)
+    await expect(page.locator('[data-testid="analytics-view"]')).toBeVisible()
+    await expect(page.locator('[data-testid="numeric-chart"]')).toContainText('Soil temperature')
+    await expect(page.locator('[data-testid="categorical-chart"]')).toContainText('Phenophase')
+    await expect(page.getByText('SUBMIT REVIEW')).toHaveCount(0)
+    if (process.env.FORMIDABLE_ANALYTICS_SCREENSHOT) {
+      await page.screenshot({ path: process.env.FORMIDABLE_ANALYTICS_SCREENSHOT, fullPage: true })
+    }
   })
 })

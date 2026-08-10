@@ -156,6 +156,8 @@ def from_canonical(document: dict[str, Any], ecology: dict[str, Any] | None = No
                                     if norm(value) != norm(cell.get("value"))]
                     item = {"id": cell_id, "page": page["page_number"],
                             "bbox": cell.get("bbox"), "context": column.get("label"),
+                            "xlsx_row": cell.get("xlsx_row"),
+                            "xlsx_column": cell.get("xlsx_column"),
                             "presented_value": cell.get("value"), "status": cell.get("status"),
                             "confidence": cell.get("confidence"),
                             "alternatives": alternatives,
@@ -167,9 +169,18 @@ def from_canonical(document: dict[str, Any], ecology: dict[str, Any] | None = No
                                           "reason": item["status"],
                                           "presented_value": item["presented_value"],
                                           "alternatives": item["alternatives"]})
-    findings = (ecology or {}).get("findings") or []
-    anomalies = [{"finding_id": index + 1, **finding}
-                 for index, finding in enumerate(findings)]
+    # Informational taxonomy context belongs in analytics, not in the orange
+    # human queue. Only findings that ask for a decision receive an overlay.
+    findings = [finding for finding in (ecology or {}).get("findings") or []
+                if finding.get("severity") in {"medium", "high"}]
+    anomalies = []
+    for index, finding in enumerate(findings):
+        location = finding.get("location") or {}
+        anomaly = {"finding_id": index + 1, **finding,
+                   "page": location.get("page"), "bbox": location.get("bbox"),
+                   "xlsx_row": location.get("xlsx_row"),
+                   "xlsx_column": location.get("xlsx_column")}
+        anomalies.append(anomaly)
     return {
         "version": VERSION, "route": {"status": "unknown_template", "path": "canonical"},
         "policy": {

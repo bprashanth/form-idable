@@ -68,8 +68,8 @@ export function useJobStore() {
     return cache[jobId]
   }
 
-  async function initUpload(filename, name, email = '') {
-    const body = { filename, name }
+  async function initUpload(filename, name, email = '', effort = 'low') {
+    const body = { filename, name, effort }
     if (email) body.notification_email = email
     const res = await fetch(`${API_BASE}/vision/extract`, {
       method:  'POST',
@@ -118,6 +118,16 @@ export function useJobStore() {
     })
     if (!res.ok) return null
     return res.json()
+  }
+
+  async function fetchAnalytics(jobId) {
+    const res = await fetch(`${API_BASE}/api/jobs/${jobId}/analytics`, {
+      headers: _authHeaders(),
+    })
+    if (res.status === 404) return null
+    if (!res.ok) throw new Error(`analytics fetch failed (${res.status})`)
+    const value = await res.json()
+    return value?.version === 'formidable-analytics-v1' ? value : null
   }
 
   async function deleteJob(jobId) {
@@ -206,6 +216,17 @@ export function useJobStore() {
     return res.json()  // { url, filename }
   }
 
+  async function submitReview(jobId, corrections) {
+    const res = await fetch(`${API_BASE}/api/jobs/${jobId}/submit`, {
+      method: 'POST',
+      headers: { ..._authHeaders(), 'Content-Type': 'application/json' },
+      body: JSON.stringify({ corrections }),
+    })
+    if (!res.ok) throw new Error(`review submit failed (${res.status})`)
+    delete cache[jobId]
+    return res.json()
+  }
+
   function pageUrl(jobId, filename) {
     return `${API_BASE}/api/jobs/${jobId}/pages/${filename}`
   }
@@ -252,9 +273,11 @@ export function useJobStore() {
     deleteJob,
     rerunJob,
     fetchProgress,
+    fetchAnalytics,
     pollJob,
     fetchAuthedUrl,
     getXlsxUrl,
+    submitReview,
     pageUrl,
     cropUrl,
     xlsxUrl,

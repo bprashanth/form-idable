@@ -22,7 +22,13 @@
           <span class="material-symbols-outlined">find_in_page</span>
           <span>Review</span>
         </a>
-        <a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-colors cursor-pointer">
+        <a class="flex items-center gap-3 px-3 py-2 transition-colors"
+           data-testid="analytics-nav"
+           :class="reviewManifest
+             ? 'text-on-surface-variant hover:bg-surface-container-high cursor-pointer'
+             : 'text-outline/45 cursor-not-allowed'"
+           :title="reviewManifest ? 'Open read-only distributions' : 'Analytics is available for High effort jobs'"
+           @click="reviewManifest && router.push({ name: 'job-analytics', params: { jobId } })">
           <span class="material-symbols-outlined">analytics</span>
           <span>Analytics</span>
         </a>
@@ -217,7 +223,7 @@
               <!-- Cell-level attention overlays sit above broad production
                    crops and open the same correction modal at the exact bbox. -->
               <button
-                v-for="item in reviewMode === 'attention' ? currentAttention : []"
+                v-for="item in currentAttention"
                 :key="item.cell_id"
                 class="absolute border-2 border-error bg-error/15 hover:bg-error/30 z-10"
                 :style="attentionStyle(item)"
@@ -226,6 +232,18 @@
                 @click.stop="onAttentionClick(item)"
               >
                 <span class="sr-only">Review {{ item.cell_id }}</span>
+              </button>
+
+              <button
+                v-for="item in currentEcologyWithBoxes"
+                :key="`ecology-${item.finding_id}`"
+                class="absolute border-2 border-orange-500 bg-orange-400/15 hover:bg-orange-400/30 z-[9]"
+                :style="attentionStyle(item)"
+                :title="`${item.message}: ${item.observed ?? 'blank'}`"
+                :data-testid="`ecology-overlay-${item.finding_id}`"
+                @click.stop="goToFinding(item)"
+              >
+                <span class="sr-only">Ecology review {{ item.finding_id }}</span>
               </button>
             </div>
           </div>
@@ -263,6 +281,7 @@
                   <td
                     v-for="(cell, ci) in row.cells"
                     :key="ci"
+                    :data-testid="`xlsx-cell-${currentPage}-${row.rowNum}-${ci}`"
                     class="py-1 px-2 border-r border-outline-variant/10 align-top whitespace-nowrap"
                     :style="cellBgStyle(row.rowNum, ci, cell)"
                   >
@@ -458,7 +477,7 @@ import { useJobStore } from '@/composables/useJobStore.js'
 
 const route  = useRoute()
 const router = useRouter()
-const { fetchJobDetail, fetchAuthedUrl, pageUrl, cropUrl, estimateRows, rowsForRange } = useJobStore()
+const { fetchJobDetail, fetchAuthedUrl, pageUrl, cropUrl, estimateRows, rowsForRange, submitReview: submitReviewApi } = useJobStore()
 
 const jobId = route.params.jobId
 
@@ -652,6 +671,9 @@ const currentAttention = computed(() =>
 const currentEcology = computed(() =>
   allEcology.value.filter(item => Number(item.location?.page ?? item.page) === currentPage.value)
 )
+const currentEcologyWithBoxes = computed(() =>
+  currentEcology.value.filter(item => Array.isArray(item.bbox) && item.bbox.length === 4)
+)
 const reviewChoices = computed(() => [
   { id: 'all', label: 'All cells', count: reviewManifest.value?.summary?.target_cells_including_blanks ?? xlsxRows.value.length },
   { id: 'attention', label: 'Transcription', count: allAttention.value.length },
@@ -675,6 +697,15 @@ const reviewCellsByCoordinate = computed(() => {
 const reviewCellsById = computed(() =>
   new Map((reviewManifest.value?.cells ?? []).map(cell => [cell.id, cell]))
 )
+const ecologyCellsByCoordinate = computed(() => {
+  const result = new Map()
+  for (const item of allEcology.value) {
+    if (item.xlsx_row != null && item.xlsx_column != null) {
+      result.set(`${item.page}:${item.xlsx_row}:${item.xlsx_column}`, item)
+    }
+  }
+  return result
+})
 const correctionCount = computed(() => Object.keys(corrections.value).length)
 const modalHasCorrections = computed(() =>
   modal.value?.rows?.some(row => row.cells.some((_c, ci) => isCellCorrected(row.rowNum, ci))) ?? false
@@ -915,6 +946,7 @@ function onAttentionClick(item) {
 function goToFinding(item) {
   const page = Number(item.location?.page ?? item.page)
   if (page >= 1 && page <= totalPages.value && page !== currentPage.value) goPage(page)
+  reviewMode.value = 'ecology'
 }
 
 // ── Corrections ──────────────────────────────────────────────────────────────
@@ -929,6 +961,9 @@ function cellBgStyle(rowNum, ci, cell) {
   if (isCellCorrected(rowNum, ci)) return { backgroundColor: 'rgba(255,183,125,0.25)' }
   if (reviewCellsByCoordinate.value.has(`${currentPage.value}:${rowNum}:${ci + 1}`)) {
     return { backgroundColor: 'rgba(186,26,26,0.14)', boxShadow: 'inset 0 0 0 1px rgba(186,26,26,0.35)' }
+  }
+  if (ecologyCellsByCoordinate.value.has(`${currentPage.value}:${rowNum}:${ci + 1}`)) {
+    return { backgroundColor: 'rgba(251,146,60,0.18)', boxShadow: 'inset 0 0 0 1px rgba(234,88,12,0.35)' }
   }
   if (cell.color) {
     const r = parseInt(cell.color.slice(1, 3), 16)
@@ -1010,9 +1045,15 @@ function goPage(n) {
   closeModal()
 }
 
-function submitReview() {
+async function submitReview() {
   const count = correctionCount.value
-  alert((count > 0 ? `Submitting review with ${count} correction(s).` : 'No corrections.')
-    + '\n\n(Backend wiring pending)')
+  const values = Object.fromEntries(Object.entries(corrections.value)
+    .map(([key, change]) => [key, String(change.corrected ?? '')]))
+  try {
+    await submitReviewApi(jobId, values)
+    alert(count > 0 ? `Review submitted with ${count} correction(s).` : 'Review marked complete.')
+  } catch (error) {
+    alert(`Review could not be submitted: ${error.message}`)
+  }
 }
 </script>

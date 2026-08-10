@@ -12,7 +12,8 @@ Component          | What it does                                  | Runs on
 PWA                | Upload, review, and download interface        | Netlify (static)
 API Gateway        | HTTPS entry point, JWT auth                   | AWS HTTP API (hachry61xe)
 Lambda handler     | Receives uploads, queries jobs, returns URLs  | AWS Lambda (form-idable-vision)
-Fargate worker     | Runs codex on the PDF, writes outputs to S3   | AWS Fargate (formidable-worker)
+Low Fargate worker | Existing Codex extraction, unchanged          | AWS Fargate (formidable-worker)
+High Fargate worker| Dual readers, review evidence, ecology        | AWS Fargate (formidable-high-worker)
 S3                 | Stores PDFs, page images, crop images, xlsx   | formidable-storage bucket
 DynamoDB           | Job metadata and status                       | formidable-jobs table
 Cognito            | User accounts and JWT tokens                  | ap-south-1_28HVATwK2
@@ -57,9 +58,9 @@ good-shepherd repo checked out alongside this one. Operational runbook: `ops.md`
 
 A user authenticates against Cognito through the PWA and receives a short-lived JWT. Every API call to the gateway includes that token in the Authorization header. The Cognito JWT authorizer on the gateway validates the token before routing the request to the Lambda.
 
-When a user uploads a PDF, the Lambda writes the file to S3 under `formidable/jobs/{job_id}/input.pdf`, creates a DynamoDB record with status `queued`, and calls `ecs.run_task()` to launch a Fargate task with the job ID and S3 key passed as environment variables. The Lambda returns the job ID immediately without waiting for the worker.
+When a user uploads a PDF, the Lambda writes the file to S3 under `formidable/jobs/{job_id}/input.pdf`, creates a DynamoDB record with status `queued`, and stores the requested `effort`. `low` launches the existing `formidable-worker`; `high` launches the separate `formidable-high-worker`. Historical jobs without this field are always low. The Lambda returns the job ID immediately without waiting for the worker.
 
-The Fargate worker downloads the PDF, renders each page as a PNG, and runs `codex exec` with a prompt that instructs it to crop regions of interest, assign Excel row ranges to each crop, and produce `output.xlsx`. The worker writes the following to S3:
+The low worker downloads the PDF, renders each page, and runs `codex exec` exactly as before. The high worker first maps page geometry, then reads every declared cell with Gemini 3.6 Flash (immutable primary) and Gemini 3.5 Flash (peer) through OpenRouter. Disagreements select red human-attention regions and never replace the primary. A separate ecology pass creates orange, suggestion-only findings. High additionally writes `canonical.json`, `review_manifest.json`, `analytics.json`, `ecology_review.json`, `run.json`, and raw reader evidence.
 
 ```
 formidable/jobs/{job_id}/
@@ -118,12 +119,14 @@ All routes go through API Gateway and require a Cognito JWT except the health ch
 Method | Path                          | Auth | What it does
 ------ | ----------------------------- | ---- | -----------------------------------
 GET    | /vision/health                | none | Returns {"status":"ok"}
-POST   | /vision/extract               | JWT  | Upload PDF, create job, return job_id
+POST   | /vision/extract               | JWT  | Create low/high job, return upload URL + job_id
+GET    | /api/jobs/{job_id}/review-manifest | JWT | High-only disagreement/ecology contract
+GET    | /api/jobs/{job_id}/analytics  | JWT  | High-only read-only distributions
 GET    | /vision/jobs                  | JWT  | List all jobs for the authenticated user
 GET    | /vision/jobs/{job_id}         | JWT  | Return job status + presigned S3 URLs
 ```
 
-The POST /vision/extract body is JSON: `{"filename": "...", "name": "...", "notification_email": "..."}`. The PDF is uploaded separately to S3 via a presigned PUT URL that the Lambda returns alongside the job_id. The notification_email field is optional and is stored in DynamoDB; it receives the completion email if provided.
+The POST `/vision/extract` body is JSON: `{"filename":"...","name":"...","effort":"low|high","notification_email":"..."}`. Effort defaults to low. The PDF is uploaded separately to S3 via the returned presigned PUT URL.
 
 ---
 
@@ -149,6 +152,7 @@ S3_PREFIX            Key prefix within the bucket (formidable)
 DYNAMO_TABLE         DynamoDB table name (formidable-jobs)
 ECS_CLUSTER          Fargate cluster ARN
 FARGATE_TASK         Task definition name (formidable-worker)
+FARGATE_TASK_HIGH    Additive high task definition (formidable-high-worker)
 ECS_SG_NAME          Security group name for Fargate tasks
 ```
 
@@ -166,6 +170,11 @@ FILENAME                Original filename, injected per-task
 USER_ID                 Cognito user ID, injected per-task
 NOTIFICATION_EMAIL      Recipient email, injected per-task if provided
 ```
+
+The high worker instead reads `PROVIDER_SECRET_NAME` (the OpenRouter key) and
+publishes optional high-only artifacts. Its Fargate runtime is explicitly
+ARM64; the existing Lambda remains x86_64 and the low task/image is not
+re-registered by `push_high.sh`.
 
 The PWA reads one build-time variable:
 

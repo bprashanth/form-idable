@@ -49,6 +49,18 @@ def _codes(cells: list[str]) -> list[str]:
     return out
 
 
+def _semantic_codes(cells: list[str]) -> list[str]:
+    """Code tokens with visibly equivalent checked marks canonicalised to X.
+
+    Raw metrics remain unchanged. This companion metric prevents an evaluator
+    from declaring ``✓`` wrong merely because a golden author typed ``X`` for
+    the same visible mark (or vice versa).
+    """
+    translated = [str(cell).replace("✓", "X").replace("✔", "X").replace("☑", "X")
+                  for cell in cells]
+    return _codes(translated)
+
+
 def _prf(golden: list, candidate: list) -> dict:
     gc, ac = Counter(golden), Counter(candidate)
     matched = sum(min(ac[k], v) for k, v in gc.items())
@@ -69,10 +81,14 @@ def compare(golden_path: str, candidate_path: str) -> dict:
     c_nums, c_words = xlsx_diff._atoms(c_cells)
     num, word = _prf(g_nums, c_nums), _prf(g_words, c_words)
     code = _prf(_codes(g_cells), _codes(c_cells))
+    semantic_code = _prf(_semantic_codes(g_cells), _semantic_codes(c_cells))
     # combined view over everything a transcriber must get right
     allg = g_nums + g_words + _codes(g_cells)
     allc = c_nums + c_words + _codes(c_cells)
     tot = _prf([str(x) for x in allg], [str(x) for x in allc])
+    semantic_all = _prf(
+        [str(x) for x in g_nums + g_words + _semantic_codes(g_cells)],
+        [str(x) for x in c_nums + c_words + _semantic_codes(c_cells)])
     base["metrics"].update({
         "num_precision": num["precision"], "num_f1": num["f1"],
         "word_precision": word["precision"], "word_f1": word["f1"],
@@ -80,6 +96,12 @@ def compare(golden_path: str, candidate_path: str) -> dict:
         "code_f1": code["f1"], "code_total": code["golden_total"],
         "all_recall": tot["recall"], "all_precision": tot["precision"],
         "all_f1": tot["f1"], "all_total": tot["golden_total"],
+        "semantic_code_recall": semantic_code["recall"],
+        "semantic_code_precision": semantic_code["precision"],
+        "semantic_code_f1": semantic_code["f1"],
+        "semantic_all_recall": semantic_all["recall"],
+        "semantic_all_precision": semantic_all["precision"],
+        "semantic_all_f1": semantic_all["f1"],
     })
     return base
 

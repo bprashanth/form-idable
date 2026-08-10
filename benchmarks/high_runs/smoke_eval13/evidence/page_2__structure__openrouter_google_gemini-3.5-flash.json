@@ -1,0 +1,118 @@
+{
+  "page": 1,
+  "metadata_fields": [
+    {
+      "id": "file_path",
+      "label": "File Path",
+      "bbox": [
+        0.269,
+        0.025,
+        0.719,
+        0.041
+      ]
+    },
+    {
+      "id": "page_number",
+      "label": "Page Number",
+      "bbox": [
+        0.842,
+        0.027,
+        0.913,
+        0.041
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "species_monitoring_table",
+      "title": "Species Monitoring Table",
+      "bbox": [
+        0.083,
+        0.51,
+        0.814,
+        0.919
+      ],
+      "estimated_rows": 57,
+      "columns": [
+        {
+          "id": "col_note",
+          "label": "Note",
+          "parent": null,
+          "value_kind": "free_text",
+          "x0": 0.083,
+          "x1": 0.215
+        },
+        {
+          "id": "col_no",
+          "label": "No",
+          "parent": null,
+          "value_kind": "integer",
+          "x0": 0.215,
+          "x1": 0.249
+        },
+        {
+          "id": "col_species",
+          "label": "Species",
+          "parent": null,
+          "value_kind": "species",
+          "x0": 0.249,
+          "x1": 0.476
+        },
+        {
+          "id": "col_date_1",
+          "label": "29/12/05",
+          "parent": null,
+          "value_kind": "categorical_code",
+          "x0": 0.476,
+          "x1": 0.558
+        },
+        {
+          "id": "col_date_2",
+          "label": "7/1/06",
+          "parent": null,
+          "value_kind": "categorical_code",
+          "x0": 0.558,
+          "x1": 0.639
+        },
+        {
+          "id": "col_date_3",
+          "label": "17/6/06",
+          "parent": null,
+          "value_kind": "categorical_code",
+          "x0": 0.639,
+          "x1": 0.746
+        },
+        {
+          "id": "col_date_4",
+          "label": "26/5/07",
+          "parent": null,
+          "value_kind": "categorical_code",
+          "x0": 0.746,
+          "x1": 0.814
+        }
+      ]
+    }
+  ],
+  "free_text_regions": [
+    {
+      "id": "header_handwritten",
+      "label": "40th HPB",
+      "bbox": [
+        0.749,
+        0.005,
+        0.842,
+        0.25
+      ]
+    },
+    {
+      "id": "footer_note",
+      "label": "*: did not find.",
+      "bbox": [
+        0.115,
+        0.922,
+        0.258,
+        0.941
+      ]
+    }
+  ]
+}
