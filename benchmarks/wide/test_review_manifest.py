@@ -62,7 +62,8 @@ def main():
                         "rows": [{"id": "1", "cells": [{
                             "column_id": "value", "bbox": [0, 0, 1, 1],
                             "xlsx_row": 4, "xlsx_column": 2,
-                            "value": "01", "status": "disagreement", "confidence": 0,
+                            "value": "01", "status": "structural_anomaly", "confidence": 0,
+                            "structural_reason": "measurement after an empty descriptor",
                             "alternatives": ["0", "01"],
                         }]}]}],
         }]})
@@ -71,6 +72,7 @@ def main():
         table_attention = next(item for item in attention if item["presented_value"] == "01")
         assert table_attention["alternatives"] == ["0"]
         assert table_attention["bbox"] == [0, 0, 1, 1]
+        assert table_attention["reason"] == "measurement after an empty descriptor"
         assert len(canonical_manifest["cells"]) == 3
         assert canonical_manifest["cells"][0]["xlsx_row"] == 1
 

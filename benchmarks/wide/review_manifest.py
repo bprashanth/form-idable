@@ -167,7 +167,7 @@ def from_canonical(document: dict[str, Any], ecology: dict[str, Any] | None = No
             if item["status"] not in {"agreement", "blank_or_illegible"}:
                 attention.append({"cell_id": cell_id, "page": item["page"],
                                   "bbox": item["bbox"], "priority": "high",
-                                  "reason": item["status"],
+                                  "reason": cell.get("structural_reason") or item["status"],
                                   "presented_value": item["presented_value"],
                                   "alternatives": item["alternatives"]})
         for table in page.get("tables") or []:
@@ -190,7 +190,7 @@ def from_canonical(document: dict[str, Any], ecology: dict[str, Any] | None = No
                     if item["status"] not in {"agreement", "blank_or_illegible"}:
                         attention.append({"cell_id": cell_id, "page": item["page"],
                                           "bbox": item["bbox"], "priority": "high",
-                                          "reason": item["status"],
+                                          "reason": cell.get("structural_reason") or item["status"],
                                           "presented_value": item["presented_value"],
                                           "alternatives": item["alternatives"]})
     # Informational taxonomy context belongs in analytics, not in the orange
