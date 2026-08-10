@@ -164,11 +164,15 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
         source_rows = source.get("rows") or []
         omitted_column = _omitted_compound_identifier_column(
             table["columns"], source_rows)
+        omitted_leading = _omitted_sparse_leading_column(table["columns"], source_rows)
+        ordinal_alignment = _ordinal_alignment_is_safe(table["rows"], source_rows, ncols, model)
         for row_index, raw_row in enumerate(source_rows):
             region = row_bbox(raw_row.get("bbox"))
             if region is None:
                 continue
             values = list(raw_row.get("values") or [])[:ncols]
+            if omitted_leading and len(values) == ncols - 1:
+                values.insert(0, None)
             if omitted_column is not None and len(values) == ncols - 1:
                 source_index, target_index = omitted_column
                 match = re.fullmatch(
@@ -178,6 +182,8 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
                     values.insert(target_index, match.group(2))
             values += [None] * (ncols - len(values))
             confidences = list(raw_row.get("confidences") or [])[:ncols]
+            if omitted_leading and len(confidences) == ncols - 1:
+                confidences.insert(0, 0.0)
             if omitted_column is not None and len(confidences) == ncols - 1:
                 source_index, target_index = omitted_column
                 confidence = confidences[source_index] if source_index < len(confidences) else 0.0
@@ -185,6 +191,8 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
             confidences += [0.0] * (ncols - len(confidences))
             illegible = {int(x) for x in (raw_row.get("illegible_columns") or [])
                          if str(x).lstrip("-").isdigit()}
+            if omitted_leading:
+                illegible = {index + 1 for index in illegible}
             if omitted_column is not None:
                 _source_index, target_index = omitted_column
                 illegible = {index + 1 if index >= target_index else index
@@ -194,7 +202,8 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
             # Match rows by printed identifiers before geometry. Model bbox
             # scales can drift on dense pages even when their literal keys do
             # not; no reference/golden value participates in this join.
-            row = _match_row(table["rows"], row_id, region, model, fingerprint)
+            row = (table["rows"][row_index] if ordinal_alignment
+                   else _match_row(table["rows"], row_id, region, model, fingerprint))
             if row is None:
                 unique_row_id = row_id
                 used_row_ids = {existing["id"] for existing in table["rows"]}
@@ -253,6 +262,66 @@ def _omitted_compound_identifier_column(columns, rows):
         if eligible and sum(match is not None for match in matches) / len(eligible) >= .9:
             return source_index, source_index + 1
     return None
+
+
+def _omitted_sparse_leading_column(columns, rows):
+    """Detect an omitted sparse grouping column from schema/value types."""
+    if len(rows) < 8 or len(columns) < 2:
+        return False
+    value_rows = [list(row.get("values") or []) for row in rows]
+    if sum(len(values) == len(columns) - 1 for values in value_rows) / len(value_rows) < .9:
+        return False
+    first, second = columns[:2]
+    first_kind = str(first.get("value_kind") or "").casefold()
+    second_kind = str(second.get("value_kind") or "").casefold()
+    if first_kind not in {"integer", "identifier"}:
+        return False
+    if second_kind not in {"species", "local_name", "text", "categorical"}:
+        return False
+    observed = [str(values[0]).strip() for values in value_rows if values and values[0] is not None]
+    if not observed:
+        return False
+    nonnumeric = sum(not re.fullmatch(r"[-+]?\d+(?:\.\d+)?", value)
+                     for value in observed) / len(observed)
+    wordlike = sum(bool(re.search(r"[A-Za-z]{2,}", value)) for value in observed) / len(observed)
+    return nonnumeric >= .9 and wordlike >= .9
+
+
+def _ordinal_alignment_is_safe(rows, source_rows, ncols, model):
+    """Use order only when it is decisively better than a one-row shift."""
+    if len(rows) < 8 or len(rows) != len(source_rows):
+        return False
+    if any(reading.get("model") == model
+           for row in rows for cell in row.get("cells") or []
+           for reading in cell.get("readings") or []):
+        return False
+
+    def similarity(row, raw_row):
+        left = []
+        for cell in (row.get("cells") or [])[:ncols]:
+            reading = next((item for item in cell.get("readings") or []
+                            if not item.get("missing")), None)
+            left.append(norm_value(reading.get("value")) if reading else "")
+        right = [norm_value(value) for value in list(raw_row.get("values") or [])[:ncols]]
+        right += [""] * (ncols - len(right))
+        comparable = [(a, b) for a, b in zip(left, right) if a and b]
+        if len(comparable) < 2:
+            return None
+        return sum(a == b for a, b in comparable) / len(comparable)
+
+    def score(offset):
+        values = []
+        for index, raw_row in enumerate(source_rows):
+            existing_index = index + offset
+            if 0 <= existing_index < len(rows):
+                value = similarity(rows[existing_index], raw_row)
+                if value is not None:
+                    values.append(value)
+        return sum(values) / len(values) if len(values) >= len(rows) * .7 else 0.0
+
+    aligned = score(0)
+    shifted = max(score(-1), score(1))
+    return aligned >= .7 and aligned >= shifted + .15
 
 
 def _reading(raw, model, default_bbox):

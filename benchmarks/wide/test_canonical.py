@@ -123,6 +123,34 @@ def main():
         "MAN", "9", "6", "85", "A", "PALELL", "5.2"]
     assert first_shifted["key_fingerprint"] == "man9685a"
 
+    ordinal_rows = []
+    ordinal_source = []
+    species = ["Act mal", "Act mal", "Art het", "Ela tub"] * 3
+    soils = ["R", "E", "U"] * 4
+    for index, (taxon, soil) in enumerate(zip(species, soils)):
+        ordinal_rows.append({"cells": [
+            {"readings": [{"model": "primary", "value": taxon}]},
+            {"readings": [{"model": "primary", "value": soil}]},
+            {"readings": [{"model": "primary", "value": str(index)}]},
+        ]})
+        ordinal_source.append({"values": [taxon, soil, str(index)]})
+    assert canonical._ordinal_alignment_is_safe(
+        ordinal_rows, ordinal_source, 3, "peer")
+    shifted_source = ordinal_source[1:] + ordinal_source[:1]
+    assert not canonical._ordinal_alignment_is_safe(
+        ordinal_rows, shifted_source, 3, "peer")
+
+    sparse_columns = [
+        {"label": "", "value_kind": "integer"},
+        {"label": "Species", "value_kind": "species"},
+        {"label": "Soil", "value_kind": "categorical_code"},
+    ]
+    sparse_source = [{"values": [taxon, soil]} for taxon, soil in zip(species, soils)]
+    assert canonical._omitted_sparse_leading_column(sparse_columns, sparse_source)
+    assert canonical._omitted_sparse_leading_column(
+        [{"label": "Block", "value_kind": "integer"}, *sparse_columns[1:]],
+        sparse_source)
+
     sparse_table = {"columns": [
         {"id": "species", "value_kind": "species"},
         {"id": "height", "value_kind": "decimal"},
