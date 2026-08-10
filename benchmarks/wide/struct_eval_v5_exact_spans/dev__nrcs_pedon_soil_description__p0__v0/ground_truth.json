@@ -1,0 +1,1380 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nrcs_pedon_soil_description.pdf",
+  "page": 1,
+  "page_size_points": [
+    792.0,
+    612.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 0,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        48.705,
+        15.906,
+        80.385,
+        136.89
+      ],
+      "bbox_norm": [
+        0.061496,
+        0.02599,
+        0.101496,
+        0.223677
+      ],
+      "source": "printed",
+      "value": "(Tax.): Regime Moist. Soil",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "(Tax.): Regime Moist. Soil"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        175.41,
+        15.906,
+        207.0,
+        136.89
+      ],
+      "bbox_norm": [
+        0.221477,
+        0.02599,
+        0.261364,
+        0.223677
+      ],
+      "source": "printed",
+      "value": "Area: Physio. Local",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Area: Physio. Local"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        222.72,
+        342.96,
+        238.77,
+        374.51
+      ],
+      "bbox_norm": [
+        0.281212,
+        0.560392,
+        0.301477,
+        0.611944
+      ],
+      "source": "printed",
+      "value": "Ksat:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Ksat:"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        143.7,
+        374.51,
+        175.41,
+        423.51
+      ],
+      "bbox_norm": [
+        0.181439,
+        0.611944,
+        0.221477,
+        0.69201
+      ],
+      "source": "printed",
+      "value": "Aspect:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Aspect:"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        48.705,
+        423.51,
+        80.385,
+        479.68
+      ],
+      "bbox_norm": [
+        0.061496,
+        0.69201,
+        0.101496,
+        0.783791
+      ],
+      "source": "printed",
+      "value": "#: Photo",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "#: Photo"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        143.7,
+        423.51,
+        175.41,
+        479.68
+      ],
+      "bbox_norm": [
+        0.181439,
+        0.69201,
+        0.221477,
+        0.783791
+      ],
+      "source": "printed",
+      "value": "Elevation:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Elevation:"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.32,
+        479.68,
+        80.385,
+        505.535
+      ],
+      "bbox_norm": [
+        0.081212,
+        0.783791,
+        0.101496,
+        0.826038
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Photo Air: | ' \u00b0 Longitude: Latitude: Classification: DESCRIPTION Depth: #: Moisture Photo Soil: Air: Surface Physio. Kind: Temp.: Soil Fract.: Symbol:"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        286.08,
+        479.68,
+        302.13,
+        505.535
+      ],
+      "bbox_norm": [
+        0.361212,
+        0.783791,
+        0.381477,
+        0.826038
+      ],
+      "source": "printed",
+      "value": "Kind:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Kind:"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.32,
+        555.3,
+        80.385,
+        566.02
+      ],
+      "bbox_norm": [
+        0.081212,
+        0.907353,
+        0.101496,
+        0.924869
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Symbol: Unit | Longitude: Latitude: Classification: DESCRIPTION Depth: #: Photo Soil: Air: Temp.: Symbol: PEDON Microrelief: Ponding: Weather: Unit Anthro: Quad.: Kind: Map %:"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 5,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        80.385,
+        15.906,
+        111.96,
+        154.2
+      ],
+      "bbox_norm": [
+        0.101496,
+        0.02599,
+        0.141364,
+        0.251961
+      ],
+      "source": "printed",
+      "value": "R. T. Location: Sec.",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "R. T. Location: Sec."
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 6,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        111.96,
+        15.906,
+        143.7,
+        154.2
+      ],
+      "bbox_norm": [
+        0.141364,
+        0.02599,
+        0.181439,
+        0.251961
+      ],
+      "source": "printed",
+      "value": "Interval: ID: Transect: #: Stop",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Interval: ID: Transect: #: Stop"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 2,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        27.375,
+        15.906,
+        48.705,
+        171.42
+      ],
+      "bbox_norm": [
+        0.034564,
+        0.02599,
+        0.061496,
+        0.280098
+      ],
+      "source": "printed",
+      "value": "May-04 Course Soils Basic",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "May-04 Course Soils Basic"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 11,
+      "rowspan": 4,
+      "colspan": 2,
+      "bbox_points": [
+        207.0,
+        15.906,
+        238.77,
+        188.7
+      ],
+      "bbox_norm": [
+        0.261364,
+        0.02599,
+        0.301477,
+        0.308333
+      ],
+      "source": "printed",
+      "value": "Use: / Cover Land",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Use: / Cover Land"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 8,
+      "rowspan": 6,
+      "colspan": 2,
+      "bbox_points": [
+        143.7,
+        15.906,
+        175.41,
+        240.58
+      ],
+      "bbox_norm": [
+        0.181439,
+        0.02599,
+        0.221477,
+        0.393105
+      ],
+      "source": "printed",
+      "value": ") Across / Dn & (Up Shape: Slope",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": ") Across / Dn & (Up Shape: Slope"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 15,
+      "rowspan": 6,
+      "colspan": 2,
+      "bbox_points": [
+        270.42,
+        15.906,
+        302.13,
+        240.58
+      ],
+      "bbox_norm": [
+        0.341439,
+        0.02599,
+        0.381477,
+        0.393105
+      ],
+      "source": "printed",
+      "value": "Depth: Kind: Prop.: / Horz. Diagnostic",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Depth: Kind: Prop.: / Horz. Diagnostic"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 13,
+      "rowspan": 10,
+      "colspan": 2,
+      "bbox_points": [
+        238.77,
+        15.906,
+        270.42,
+        374.51
+      ],
+      "bbox_norm": [
+        0.301477,
+        0.02599,
+        0.341439,
+        0.611944
+      ],
+      "source": "printed",
+      "value": "Member: Formation: Group: Units: Lithostrat.",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Member: Formation: Group: Units: Lithostrat."
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 17,
+      "rowspan": 13,
+      "colspan": 1,
+      "bbox_points": [
+        302.13,
+        15.906,
+        333.72,
+        505.535
+      ],
+      "bbox_norm": [
+        0.381477,
+        0.02599,
+        0.421364,
+        0.826038
+      ],
+      "source": "written",
+      "value": "73",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Depth: Kind: : SKETCH Prop.: Member: / Horz. Diagnostic NOTES Formation: FIELD FL: MISCELLANEOUS CN: BD: ST: CB: GR: %: Frag Surface"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 19,
+      "rowspan": 13,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        15.906,
+        353.43,
+        505.535
+      ],
+      "bbox_norm": [
+        0.426136,
+        0.02599,
+        0.44625,
+        0.826038
+      ],
+      "source": "printed",
+      "value": ": SKETCH / NOTES FIELD MISCELLANEOUS",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": ": SKETCH / NOTES FIELD MISCELLANEOUS"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 20,
+      "rowspan": 13,
+      "colspan": 15,
+      "bbox_points": [
+        353.43,
+        15.906,
+        591.0,
+        505.535
+      ],
+      "bbox_norm": [
+        0.44625,
+        0.02599,
+        0.746212,
+        0.826038
+      ],
+      "source": "written",
+      "value": "100",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Depth: Kind: : SKETCH Prop.: Member: / Horz. Diagnostic NOTES Formation: FIELD FL: MISCELLANEOUS CN: BD: ST: CB: GR: %: Frag Surface"
+    },
+    {
+      "page": 1,
+      "row": 1,
+      "col": 10,
+      "rowspan": 5,
+      "colspan": 1,
+      "bbox_points": [
+        175.41,
+        136.89,
+        207.0,
+        240.58
+      ],
+      "bbox_norm": [
+        0.221477,
+        0.223677,
+        0.261364,
+        0.393105
+      ],
+      "source": "printed",
+      "value": "Area: Physio. State",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Area: Physio. State"
+    },
+    {
+      "page": 1,
+      "row": 1,
+      "col": 3,
+      "rowspan": 10,
+      "colspan": 1,
+      "bbox_points": [
+        48.705,
+        136.89,
+        64.32,
+        423.51
+      ],
+      "bbox_norm": [
+        0.061496,
+        0.223677,
+        0.081212,
+        0.69201
+      ],
+      "source": "printed",
+      "value": "Classification:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Classification:"
+    },
+    {
+      "page": 1,
+      "row": 1,
+      "col": 4,
+      "rowspan": 10,
+      "colspan": 1,
+      "bbox_points": [
+        64.32,
+        136.89,
+        80.385,
+        423.51
+      ],
+      "bbox_norm": [
+        0.081212,
+        0.223677,
+        0.101496,
+        0.69201
+      ],
+      "source": "written",
+      "value": "101",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Moist. Soil | Location: Soils Sec. Basic Datum: W N \" : # ID ' Pedon \u00b0 Longitude: Latitude: County: Classification: State: DESCRIPTION Depth:"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 6,
+      "rowspan": 3,
+      "colspan": 2,
+      "bbox_points": [
+        111.96,
+        154.2,
+        143.7,
+        206.04
+      ],
+      "bbox_norm": [
+        0.141364,
+        0.251961,
+        0.181439,
+        0.336667
+      ],
+      "source": "printed",
+      "value": "LRU: / MLRA",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "LRU: / MLRA"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 5,
+      "rowspan": 8,
+      "colspan": 1,
+      "bbox_points": [
+        80.385,
+        154.2,
+        111.96,
+        374.51
+      ],
+      "bbox_norm": [
+        0.101496,
+        0.251961,
+        0.141364,
+        0.611944
+      ],
+      "source": "printed",
+      "value": "Datum: W N \" \" ' ' \u00b0 \u00b0 Longitude: Latitude:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Datum: W N \" \" ' ' \u00b0 \u00b0 Longitude: Latitude:"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 2,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        27.375,
+        171.42,
+        48.705,
+        240.58
+      ],
+      "bbox_norm": [
+        0.034564,
+        0.280098,
+        0.061496,
+        0.393105
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "May-04 Course Soils Basic | Basic | Soils Basic Member: Area: Land (Up / Datum: Horz. MLRA Shape: Physio. Diagnostic Formation: Conductivity Slope State W N Survey \""
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 12,
+      "rowspan": 5,
+      "colspan": 1,
+      "bbox_points": [
+        222.72,
+        188.7,
+        238.77,
+        342.96
+      ],
+      "bbox_norm": [
+        0.281212,
+        0.308333,
+        0.301477,
+        0.560392
+      ],
+      "source": "written",
+      "value": "61",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Cover Member: Land | Horz. MLRA Shape: Physio. Diagnostic Area: Formation: Conductivity Slope State Survey Complexity: Soil Section: FL: Hydraulic Group: CN: Units: Saturated BD: (%):"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 6,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        111.96,
+        206.04,
+        143.7,
+        278.04
+      ],
+      "bbox_norm": [
+        0.141364,
+        0.336667,
+        0.181439,
+        0.454314
+      ],
+      "source": "printed",
+      "value": "Area: Survey Soil",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Area: Survey Soil"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 8,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        143.7,
+        240.58,
+        175.41,
+        328.38
+      ],
+      "bbox_norm": [
+        0.181439,
+        0.393105,
+        0.221477,
+        0.536569
+      ],
+      "source": "printed",
+      "value": "Complexity: Slope",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Complexity: Slope"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 10,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        175.41,
+        240.58,
+        207.0,
+        328.38
+      ],
+      "bbox_norm": [
+        0.221477,
+        0.393105,
+        0.261364,
+        0.536569
+      ],
+      "source": "printed",
+      "value": "Section: Physio.",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Section: Physio."
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 16,
+      "rowspan": 6,
+      "colspan": 1,
+      "bbox_points": [
+        286.08,
+        240.58,
+        302.13,
+        479.68
+      ],
+      "bbox_norm": [
+        0.361212,
+        0.393105,
+        0.381477,
+        0.783791
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Diagnostic | Formation: Conductivity FIELD Section: FL: Hydraulic Group: MISCELLANEOUS CN: Units: Saturated BD: Lithostrat. Profile ST: Ksat: CB: Depth: GR: Status: Hard.: %: Moisture Frag"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 2,
+      "rowspan": 9,
+      "colspan": 1,
+      "bbox_points": [
+        27.375,
+        240.58,
+        48.705,
+        555.3
+      ],
+      "bbox_norm": [
+        0.034564,
+        0.393105,
+        0.061496,
+        0.907353
+      ],
+      "source": "printed",
+      "value": ": # ID Pedon DESCRIPTION PEDON",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": ": # ID Pedon DESCRIPTION PEDON"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 6,
+      "rowspan": 5,
+      "colspan": 2,
+      "bbox_points": [
+        111.96,
+        278.04,
+        143.7,
+        479.68
+      ],
+      "bbox_norm": [
+        0.141364,
+        0.454314,
+        0.181439,
+        0.783791
+      ],
+      "source": "printed",
+      "value": "#: Pedon County: State: YR: ID: Site",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "#: Pedon County: State: YR: ID: Site"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 8,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        143.7,
+        328.38,
+        159.36,
+        374.51
+      ],
+      "bbox_norm": [
+        0.181439,
+        0.536569,
+        0.201212,
+        0.611944
+      ],
+      "source": "printed",
+      "value": "(%): Slope",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "(%): Slope"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 9,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        159.36,
+        328.38,
+        175.41,
+        374.51
+      ],
+      "bbox_norm": [
+        0.201212,
+        0.536569,
+        0.221477,
+        0.611944
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Complexity: Physio. Slope | & Area: (Up Shape: Physio. Slope State Complexity: Section: MISCELLANEOUS Saturated BD: Longitude: Lithostrat. (%): Latitude: County: Profile ST: Ksat: Province:"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 10,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        175.41,
+        328.38,
+        207.0,
+        423.51
+      ],
+      "bbox_norm": [
+        0.221477,
+        0.536569,
+        0.261364,
+        0.69201
+      ],
+      "source": "printed",
+      "value": "Province: Physio.",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Province: Physio."
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 11,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        207.0,
+        374.51,
+        222.72,
+        505.535
+      ],
+      "bbox_norm": [
+        0.261364,
+        0.611944,
+        0.281212,
+        0.826038
+      ],
+      "source": "printed",
+      "value": "Status: Moisture Soil",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Status: Moisture Soil"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 12,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        222.72,
+        374.51,
+        238.77,
+        505.535
+      ],
+      "bbox_norm": [
+        0.281212,
+        0.611944,
+        0.301477,
+        0.826038
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Ksat: | Ksat: | Province: CB: Aspect: State: Physio. Depth: GR: Status: YR: Division: Hard.: Elevation: %: ID: Moisture Frag Soil: Site Surface Kind: Soil Fract.:"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 5,
+      "rowspan": 6,
+      "colspan": 1,
+      "bbox_points": [
+        80.385,
+        374.51,
+        111.96,
+        566.02
+      ],
+      "bbox_norm": [
+        0.101496,
+        0.611944,
+        0.141364,
+        0.924869
+      ],
+      "source": "printed",
+      "value": "Depth: Soil: Air: Temp.: Weather:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Depth: Soil: Air: Temp.: Weather:"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 10,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        175.41,
+        423.51,
+        207.0,
+        505.535
+      ],
+      "bbox_norm": [
+        0.221477,
+        0.69201,
+        0.261364,
+        0.826038
+      ],
+      "source": "printed",
+      "value": "Division: Physio.",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Division: Physio."
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 8,
+      "rowspan": 4,
+      "colspan": 2,
+      "bbox_points": [
+        143.7,
+        479.68,
+        175.41,
+        566.02
+      ],
+      "bbox_norm": [
+        0.181439,
+        0.783791,
+        0.221477,
+        0.924869
+      ],
+      "source": "printed",
+      "value": "Anthro:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Anthro:"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 4,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        64.32,
+        505.535,
+        80.385,
+        555.3
+      ],
+      "bbox_norm": [
+        0.081212,
+        0.826038,
+        0.101496,
+        0.907353
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Photo Air: | \u00b0 Longitude: Latitude: Classification: DESCRIPTION Depth: #: Photo Soil: Air: Temp.: Fract.: Symbol: PEDON Microrelief: Ponding: Weather: Unit Anthro: Quad.: Kind: Map %:"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 10,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        175.41,
+        505.535,
+        207.0,
+        566.02
+      ],
+      "bbox_norm": [
+        0.221477,
+        0.826038,
+        0.261364,
+        0.924869
+      ],
+      "source": "printed",
+      "value": "Microrelief:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Microrelief:"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 20,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        353.43,
+        518.43,
+        369.3,
+        566.02
+      ],
+      "bbox_norm": [
+        0.44625,
+        0.847108,
+        0.466288,
+        0.924869
+      ],
+      "source": "printed",
+      "value": "COVER %GD",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "COVER %GD"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 21,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        369.3,
+        518.43,
+        385.08,
+        566.02
+      ],
+      "bbox_norm": [
+        0.466288,
+        0.847108,
+        0.486212,
+        0.924869
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ": SKETCH / NOTES FIELD MISCELLANEOUS COVER Microrelief: Ponding: Anthro: Quad.: Kind: %GD %:"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 22,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        385.08,
+        518.43,
+        400.92,
+        566.02
+      ],
+      "bbox_norm": [
+        0.486212,
+        0.847108,
+        0.506212,
+        0.924869
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "COVER Microrelief: Ponding: Anthro: Kind: %GD %:"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 23,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        400.92,
+        518.43,
+        416.76,
+        566.02
+      ],
+      "bbox_norm": [
+        0.506212,
+        0.847108,
+        0.526212,
+        0.924869
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "COVER Microrelief: Ponding: Anthro: Kind: %GD %:"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 24,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        416.76,
+        518.43,
+        432.6,
+        566.02
+      ],
+      "bbox_norm": [
+        0.526212,
+        0.847108,
+        0.546212,
+        0.924869
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "COVER Microrelief: Ponding: Kind: %GD %:"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 25,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        432.6,
+        518.43,
+        448.44,
+        566.02
+      ],
+      "bbox_norm": [
+        0.546212,
+        0.847108,
+        0.566212,
+        0.924869
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "COVER Microrelief: Ponding: Kind: %GD %:"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 26,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        448.44,
+        518.43,
+        464.28,
+        566.02
+      ],
+      "bbox_norm": [
+        0.566212,
+        0.847108,
+        0.586212,
+        0.924869
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "COVER Ponding: Kind: %GD %:"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 27,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        464.28,
+        518.43,
+        480.12,
+        566.02
+      ],
+      "bbox_norm": [
+        0.586212,
+        0.847108,
+        0.606212,
+        0.924869
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "COVER Ponding: Kind: %GD %:"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 28,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        480.12,
+        518.43,
+        495.96,
+        566.02
+      ],
+      "bbox_norm": [
+        0.606212,
+        0.847108,
+        0.626212,
+        0.924869
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "COVER Kind: %GD %:"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 29,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        495.96,
+        518.43,
+        511.8,
+        566.02
+      ],
+      "bbox_norm": [
+        0.626212,
+        0.847108,
+        0.646212,
+        0.924869
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "COVER Kind: %GD %:"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 30,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        511.8,
+        518.43,
+        527.64,
+        566.02
+      ],
+      "bbox_norm": [
+        0.646212,
+        0.847108,
+        0.666212,
+        0.924869
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "COVER %GD %:"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 31,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        527.64,
+        518.43,
+        543.48,
+        566.02
+      ],
+      "bbox_norm": [
+        0.666212,
+        0.847108,
+        0.686212,
+        0.924869
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "COVER %GD %:"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 32,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        543.48,
+        518.43,
+        559.32,
+        566.02
+      ],
+      "bbox_norm": [
+        0.686212,
+        0.847108,
+        0.706212,
+        0.924869
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "COVER %GD %:"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 33,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        559.32,
+        518.43,
+        575.16,
+        566.02
+      ],
+      "bbox_norm": [
+        0.706212,
+        0.847108,
+        0.726212,
+        0.924869
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "COVER %GD %:"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 34,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        575.16,
+        518.43,
+        591.0,
+        566.02
+      ],
+      "bbox_norm": [
+        0.726212,
+        0.847108,
+        0.746212,
+        0.924869
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "COVER %GD"
+    }
+  ]
+}

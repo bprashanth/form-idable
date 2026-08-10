@@ -1,0 +1,292 @@
+{
+  "cells": [
+    {
+      "cell_id": "r10_c0",
+      "value": "VTCR",
+      "confidence": 0.9388,
+      "evidence": "VTCR"
+    },
+    {
+      "cell_id": "r10_c1",
+      "value": "L",
+      "confidence": 0.9324,
+      "evidence": "L"
+    },
+    {
+      "cell_id": "r10_c3",
+      "value": "m",
+      "confidence": 0.8989,
+      "evidence": "m"
+    },
+    {
+      "cell_id": "r10_c4",
+      "value": null,
+      "confidence": 0.973,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r10_c5",
+      "value": "L",
+      "confidence": 0.9231,
+      "evidence": "L"
+    },
+    {
+      "cell_id": "r10_c6",
+      "value": "browsed by deer",
+      "confidence": 0.9255,
+      "evidence": "browsed by deer"
+    },
+    {
+      "cell_id": "r11_c0",
+      "value": null,
+      "confidence": 0.9796,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r11_c1",
+      "value": null,
+      "confidence": 0.9859,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r11_c3",
+      "value": null,
+      "confidence": 0.9858,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r11_c4",
+      "value": null,
+      "confidence": 0.9856,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r11_c5",
+      "value": null,
+      "confidence": 0.9856,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r11_c6",
+      "value": null,
+      "confidence": 0.9774,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r12_c0",
+      "value": null,
+      "confidence": 0.9822,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r12_c1",
+      "value": null,
+      "confidence": 0.9859,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r12_c3",
+      "value": null,
+      "confidence": 0.9859,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r12_c4",
+      "value": null,
+      "confidence": 0.9859,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r12_c5",
+      "value": null,
+      "confidence": 0.9857,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r12_c6",
+      "value": null,
+      "confidence": 0.9786,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r13_c0",
+      "value": null,
+      "confidence": 0.982,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r13_c1",
+      "value": null,
+      "confidence": 0.9858,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r13_c3",
+      "value": null,
+      "confidence": 0.9859,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r13_c4",
+      "value": null,
+      "confidence": 0.9859,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r13_c5",
+      "value": null,
+      "confidence": 0.9858,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r13_c6",
+      "value": null,
+      "confidence": 0.9784,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r14_c0",
+      "value": null,
+      "confidence": 0.9823,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r14_c1",
+      "value": null,
+      "confidence": 0.9858,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r14_c3",
+      "value": null,
+      "confidence": 0.9858,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r14_c4",
+      "value": null,
+      "confidence": 0.9859,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r14_c5",
+      "value": null,
+      "confidence": 0.9857,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r14_c6",
+      "value": null,
+      "confidence": 0.9784,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r15_c0",
+      "value": null,
+      "confidence": 0.9824,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r15_c1",
+      "value": null,
+      "confidence": 0.9858,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r15_c3",
+      "value": null,
+      "confidence": 0.9859,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r15_c4",
+      "value": null,
+      "confidence": 0.9859,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r15_c5",
+      "value": null,
+      "confidence": 0.9857,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r15_c6",
+      "value": null,
+      "confidence": 0.9783,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r16_c0",
+      "value": null,
+      "confidence": 0.9823,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r16_c1",
+      "value": null,
+      "confidence": 0.9859,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r16_c3",
+      "value": null,
+      "confidence": 0.9859,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r16_c4",
+      "value": null,
+      "confidence": 0.9859,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r16_c5",
+      "value": null,
+      "confidence": 0.9858,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r16_c6",
+      "value": null,
+      "confidence": 0.9781,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r17_c0",
+      "value": null,
+      "confidence": 0.9821,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r17_c1",
+      "value": null,
+      "confidence": 0.9858,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r17_c3",
+      "value": null,
+      "confidence": 0.9859,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r17_c4",
+      "value": null,
+      "confidence": 0.9859,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r17_c5",
+      "value": null,
+      "confidence": 0.9858,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r17_c6",
+      "value": null,
+      "confidence": 0.978,
+      "evidence": "blank"
+    }
+  ]
+}

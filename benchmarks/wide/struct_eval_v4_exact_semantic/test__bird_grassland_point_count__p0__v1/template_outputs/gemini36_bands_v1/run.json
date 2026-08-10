@@ -1,0 +1,105 @@
+{
+  "form": "test__bird_grassland_point_count__p0__v1",
+  "template": "bird_grassland_point_count.pdf",
+  "page": 1,
+  "model": "gemini-3.6-flash",
+  "mode": "bands",
+  "tag": "gemini36_bands_v1",
+  "aligned": true,
+  "cells": 126,
+  "targets": 120,
+  "decisions": 120,
+  "missing": [],
+  "extra": [],
+  "duplicates": [],
+  "calls": [
+    {
+      "batch": 0,
+      "model": "gemini-3.6-flash",
+      "in_tok": 10586,
+      "out_tok": 1768,
+      "thinking_tok": 0,
+      "cost_usd": 0.02914,
+      "latency_s": 9.1
+    },
+    {
+      "batch": 1,
+      "model": "gemini-3.6-flash",
+      "in_tok": 10924,
+      "out_tok": 2309,
+      "thinking_tok": 0,
+      "cost_usd": 0.0337,
+      "latency_s": 11.3
+    },
+    {
+      "batch": 2,
+      "model": "gemini-3.6-flash",
+      "in_tok": 5477,
+      "out_tok": 772,
+      "thinking_tok": 0,
+      "cost_usd": 0.01401,
+      "latency_s": 4.9
+    }
+  ],
+  "cost_usd": 0.07685,
+  "latency_s": 25.3,
+  "wall_s": 25.5,
+  "integrity": {
+    "golden_kind": "exact_layout",
+    "strict_metrics_are_headline": true,
+    "golden_cells": 70,
+    "candidate_cells": 70,
+    "cell_count_ratio": 1.0,
+    "pages": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "golden": 1,
+      "candidate": 1
+    },
+    "content_anywhere": {
+      "precision": 0.9571,
+      "recall": 0.9571,
+      "f1": 0.9571
+    },
+    "occupied_position": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "exact_cell": {
+      "precision": 0.9571,
+      "recall": 0.9571,
+      "f1": 0.9571
+    },
+    "class_imbalance_resistant": {
+      "offmode_accuracy_all": 0.9434,
+      "offmode_n": 53,
+      "balanced_class_recall": 0.9468,
+      "silent_columns": 0
+    },
+    "oracle_modal_control": {
+      "description": "oracle occupied positions plus per-page/column modes; reads no pixels",
+      "exact_cell_recall": 0.2429,
+      "content_anywhere_f1": 0.3714,
+      "constant_columns": 6,
+      "candidate_content_f1_lift": 0.5857,
+      "candidate_exact_recall_lift": 0.7142
+    },
+    "errors": {
+      "omitted": 0,
+      "wrong_value_at_occupied_position": 3,
+      "false_fill_or_extra_position": 0,
+      "duplicate_row_excess": 0
+    },
+    "shape": {
+      "row_extent_ratio": 1.0,
+      "column_extent_ratio": 1.0
+    },
+    "constancy": {
+      "max_excess_over_golden": 0.0,
+      "candidate_columns_ge_0_98": 0,
+      "golden_columns_ge_0_98": 0
+    }
+  }
+}

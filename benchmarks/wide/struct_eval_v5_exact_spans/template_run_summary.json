@@ -1,0 +1,217 @@
+{
+  "root": "benchmarks/wide/struct_eval_v5_exact_spans",
+  "runs": {
+    "claude_sonnet5_page_v2": {
+      "model": [
+        "claude-sonnet-5"
+      ],
+      "mode": [
+        "page"
+      ],
+      "headline_metric": "literal writable-cell F1 (printed excluded)",
+      "forms": 2,
+      "form_names": [
+        "test__ut_tennessee_field_soil_submission_sheet__p0__v0",
+        "test__ut_tennessee_field_soil_submission_sheet__p0__v1"
+      ],
+      "macro_exact_f1": 0.8776,
+      "micro_exact": {
+        "precision": 0.8776,
+        "recall": 0.8776,
+        "f1": 0.8776
+      },
+      "counts": {
+        "golden_nonblank": 49,
+        "correct": 43,
+        "wrong": 4,
+        "omitted": 2,
+        "false_fill": 2
+      },
+      "cost_usd_known_calls": null,
+      "provider_latency_s_known_calls": null,
+      "cost_complete": false,
+      "latency_complete": false
+    },
+    "cursor_gpt54mini_page_v1": {
+      "model": [
+        "gpt-5.4-mini-low"
+      ],
+      "mode": [
+        "page"
+      ],
+      "headline_metric": "literal writable-cell F1 (printed excluded)",
+      "forms": 2,
+      "form_names": [
+        "test__nvs_tier1_metadata_record__p0__v0",
+        "test__rbp_stream_habitat_highgradient_wv__p2__v0"
+      ],
+      "macro_exact_f1": 0.0527,
+      "micro_exact": {
+        "precision": 0.3333,
+        "recall": 0.05,
+        "f1": 0.087
+      },
+      "counts": {
+        "golden_nonblank": 20,
+        "correct": 1,
+        "wrong": 2,
+        "omitted": 17,
+        "false_fill": 0
+      },
+      "cost_usd_known_calls": null,
+      "provider_latency_s_known_calls": null,
+      "cost_complete": false,
+      "latency_complete": false
+    },
+    "gemini35_page_v1": {
+      "model": [
+        "gemini-3.5-flash"
+      ],
+      "mode": [
+        "page"
+      ],
+      "headline_metric": "literal writable-cell F1 (printed excluded)",
+      "forms": 5,
+      "form_names": [
+        "test__bird_grassland_point_count__p0__v0",
+        "test__bird_grassland_point_count__p0__v1",
+        "test__nvs_foliar_browse_index_datasheets__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v1"
+      ],
+      "macro_exact_f1": 0.9652,
+      "micro_exact": {
+        "precision": 0.9778,
+        "recall": 0.9566,
+        "f1": 0.9671
+      },
+      "counts": {
+        "golden_nonblank": 369,
+        "correct": 353,
+        "wrong": 8,
+        "omitted": 8,
+        "false_fill": 0
+      },
+      "cost_usd_known_calls": 0.38482,
+      "provider_latency_s_known_calls": 141.2,
+      "cost_complete": true,
+      "latency_complete": true
+    },
+    "gemini36_bands_v1": {
+      "model": [
+        "gemini-3.6-flash"
+      ],
+      "mode": [
+        "bands"
+      ],
+      "headline_metric": "literal writable-cell F1 (printed excluded)",
+      "forms": 4,
+      "form_names": [
+        "test__bird_grassland_point_count__p0__v0",
+        "test__bird_grassland_point_count__p0__v1",
+        "test__nvs_stem_diameter_sapling__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v1"
+      ],
+      "macro_exact_f1": 0.9796,
+      "micro_exact": {
+        "precision": 0.9766,
+        "recall": 0.9832,
+        "f1": 0.9799
+      },
+      "counts": {
+        "golden_nonblank": 297,
+        "correct": 292,
+        "wrong": 5,
+        "omitted": 0,
+        "false_fill": 2
+      },
+      "cost_usd_known_calls": 0.45449,
+      "provider_latency_s_known_calls": 158.1,
+      "cost_complete": true,
+      "latency_complete": true
+    },
+    "gemini36_page_v1": {
+      "model": [
+        "gemini-3.6-flash"
+      ],
+      "mode": [
+        "page"
+      ],
+      "headline_metric": "literal writable-cell F1 (printed excluded)",
+      "forms": 5,
+      "form_names": [
+        "test__bird_grassland_point_count__p0__v0",
+        "test__bird_grassland_point_count__p0__v1",
+        "test__nvs_foliar_browse_index_datasheets__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v1"
+      ],
+      "macro_exact_f1": 0.9629,
+      "micro_exact": {
+        "precision": 0.9751,
+        "recall": 0.9539,
+        "f1": 0.9644
+      },
+      "counts": {
+        "golden_nonblank": 369,
+        "correct": 352,
+        "wrong": 9,
+        "omitted": 8,
+        "false_fill": 0
+      },
+      "cost_usd_known_calls": 0.33659,
+      "provider_latency_s_known_calls": 140.1,
+      "cost_complete": true,
+      "latency_complete": true
+    }
+  },
+  "pairs": [
+    {
+      "tag_a": "gemini36_page_v1",
+      "tag_b": "gemini36_bands_v1",
+      "forms": 4,
+      "form_names": [
+        "test__bird_grassland_point_count__p0__v0",
+        "test__bird_grassland_point_count__p0__v1",
+        "test__nvs_stem_diameter_sapling__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v1"
+      ],
+      "cells_including_blanks": 708,
+      "disagreements": 13,
+      "disagreement_rate": 0.0184,
+      "a_errors": 8,
+      "b_errors": 7,
+      "a_error_capture": 0.875,
+      "b_error_capture": 0.8571,
+      "a_error_rate_disagreement": 0.5385,
+      "a_error_rate_agreement": 0.0014,
+      "a_only_correct": 6,
+      "b_only_correct": 7,
+      "both_wrong_different": 0
+    },
+    {
+      "tag_a": "gemini36_page_v1",
+      "tag_b": "gemini35_page_v1",
+      "forms": 5,
+      "form_names": [
+        "test__bird_grassland_point_count__p0__v0",
+        "test__bird_grassland_point_count__p0__v1",
+        "test__nvs_foliar_browse_index_datasheets__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v1"
+      ],
+      "cells_including_blanks": 877,
+      "disagreements": 18,
+      "disagreement_rate": 0.0205,
+      "a_errors": 17,
+      "b_errors": 16,
+      "a_error_capture": 0.7059,
+      "b_error_capture": 0.6875,
+      "a_error_rate_disagreement": 0.6667,
+      "a_error_rate_agreement": 0.0058,
+      "a_only_correct": 6,
+      "b_only_correct": 7,
+      "both_wrong_different": 5
+    }
+  ]
+}

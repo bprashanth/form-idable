@@ -1,0 +1,5111 @@
+[
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "8",
+    "column_id": "fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "01",
+      "0"
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "11",
+    "column_id": "flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "X",
+      "XX"
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "29",
+    "column_id": "flowers_buds",
+    "header": "Buds",
+    "parent": "FLOWERS",
+    "candidates": [
+      "0",
+      "D"
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "29",
+    "column_id": "flowers_open",
+    "header": "Open",
+    "parent": "FLOWERS",
+    "candidates": [
+      "0",
+      "D"
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "29",
+    "column_id": "fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "01"
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "29",
+    "column_id": "fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "N",
+      "Y"
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "30",
+    "column_id": "multistem",
+    "header": "Multistem",
+    "parent": null,
+    "candidates": [
+      null,
+      "DEAD/DRY tree (May 2017)"
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "30",
+    "column_id": "leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "1",
+      null
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "30",
+    "column_id": "leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "4",
+      null
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "30",
+    "column_id": "leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "30",
+    "column_id": "flowers_buds",
+    "header": "Buds",
+    "parent": "FLOWERS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "30",
+    "column_id": "flowers_open",
+    "header": "Open",
+    "parent": "FLOWERS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "30",
+    "column_id": "flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      null
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "30",
+    "column_id": "fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "1",
+      null
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "30",
+    "column_id": "fruits_ripe",
+    "header": "Ripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "1",
+      null
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "30",
+    "column_id": "fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "30",
+    "column_id": "notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      "DEAD/DRY tree (May 2017)",
+      null
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 1,
+    "table_id": "phenology_table",
+    "row_id": "48",
+    "column_id": "fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "N",
+      "2"
+    ],
+    "image_index": 0
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "52",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 1
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "54",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 1
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "55",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 1
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "57",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 1
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "61",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 1
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "66",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 1
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "67",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 2
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "68",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "0/1",
+      "0"
+    ],
+    "image_index": 2
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "68",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 2
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "69",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 2
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "70",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 2
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "71",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 2
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "71",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "1",
+      "0"
+    ],
+    "image_index": 2
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "73",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "4/1",
+      "1"
+    ],
+    "image_index": 2
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "79",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 3
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "80",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 3
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "81",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 3
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "84",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 3
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "90",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 3
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "91",
+    "column_id": "col_flowers_open",
+    "header": "Open",
+    "parent": "FLOWERS",
+    "candidates": [
+      "0",
+      "1"
+    ],
+    "image_index": 3
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "92",
+    "column_id": "col_flowers_open",
+    "header": "Open",
+    "parent": "FLOWERS",
+    "candidates": [
+      "1",
+      "0"
+    ],
+    "image_index": 4
+  },
+  {
+    "page": 2,
+    "table_id": "table_1",
+    "row_id": "92",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "N",
+      "2"
+    ],
+    "image_index": 4
+  },
+  {
+    "page": 3,
+    "table_id": "tree_survey_table",
+    "row_id": "117",
+    "column_id": "col_flowers_buds",
+    "header": "Buds",
+    "parent": "FLOWERS",
+    "candidates": [
+      "0",
+      "0 X"
+    ],
+    "image_index": 5
+  },
+  {
+    "page": 3,
+    "table_id": "tree_survey_table",
+    "row_id": "117",
+    "column_id": "col_flowers_open",
+    "header": "Open",
+    "parent": "FLOWERS",
+    "candidates": [
+      "0",
+      "0 X"
+    ],
+    "image_index": 5
+  },
+  {
+    "page": 3,
+    "table_id": "tree_survey_table",
+    "row_id": "117",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "N X"
+    ],
+    "image_index": 5
+  },
+  {
+    "page": 3,
+    "table_id": "tree_survey_table",
+    "row_id": "119",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "4",
+      "4 0 4"
+    ],
+    "image_index": 5
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "208",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 6
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "209",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 6
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "209",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 6
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "210",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 6
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "210",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 6
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "211",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 6
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "211",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 6
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "212",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "0",
+      "2"
+    ],
+    "image_index": 6
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "212",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 6
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "212",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 6
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "213",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 6
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "214",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "0",
+      "2"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "214",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "214",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "214",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "214",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "Y"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "214",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "216",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "216",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "216",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "216",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "216",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "217",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "217",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "217",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "217",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "217",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "218",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "218",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "218",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "218",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "1",
+      "Y"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "218",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "219",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "219",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "219",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "219",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "219",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "220",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "220",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "220",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "220",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "220",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 7
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "221",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "221",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "221",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "221",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "222",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "222",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "222",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "222",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "222",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "223",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "0",
+      "1"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "223",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "223",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "223",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "223",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "Y"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "223",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "224",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "1",
+      "4"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "224",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "224",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "224",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "224",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "224",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "225",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "4",
+      "0"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "225",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "225",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "225",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "225",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "225",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "226",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "226",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "226",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "226",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "226",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 8
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "227",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "227",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "227",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "227",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "227",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "229",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "229",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "229",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "229",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "229",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "230",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "0",
+      "2"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "230",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "230",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "230",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "Y"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "230",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "231",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "2",
+      "1"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "231",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "231",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "231",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "231",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "231",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "232",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "232",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "232",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "232",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "233",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "233",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "233",
+    "column_id": "col_fruits_ripe",
+    "header": "Ripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "1",
+      "0"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "233",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "4",
+      "Y"
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "233",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 9
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "234",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "234",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "234",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "234",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "235",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "1",
+      "4"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "235",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "235",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "N",
+      null
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "235",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "235",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "236",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "236",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "236",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "236",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "236",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "237",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "237",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "237",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "237",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "238",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "0",
+      "4"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "238",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "238",
+    "column_id": "col_flowers_buds",
+    "header": "Buds",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "0"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "238",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "238",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "238",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "239",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "4",
+      "0"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "239",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "239",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "239",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "239",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "239",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 10
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "240",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "240",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "240",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "240",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "242",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "242",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "242",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "N",
+      null
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "242",
+    "column_id": "col_fruits_ripe",
+    "header": "Ripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "1"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "242",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "1",
+      null
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "242",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      "Y",
+      "N"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "243",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "243",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "243",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "N",
+      null
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "243",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "243",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "244",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "244",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "244",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "244",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "244",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "245",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "4",
+      "0"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "245",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "245",
+    "column_id": "col_flowers_buds",
+    "header": "Buds",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "0"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "245",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "245",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "245",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "245",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "246",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "246",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "246",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "246",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "246",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 11
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "247",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 12
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "247",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 12
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "247",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 12
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "247",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 12
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "248",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 12
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "248",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 12
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "248",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 12
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "248",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 12
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "249",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 12
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "249",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      null
+    ],
+    "image_index": 12
+  },
+  {
+    "page": 4,
+    "table_id": "observation_table",
+    "row_id": "249",
+    "column_id": "col_notes",
+    "header": "Notes",
+    "parent": null,
+    "candidates": [
+      null,
+      "N"
+    ],
+    "image_index": 12
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "250",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 13
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "250",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 13
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "251",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 13
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "251",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 13
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "251",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "NO"
+    ],
+    "image_index": 13
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "252",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 13
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "252",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 13
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "252",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "NO"
+    ],
+    "image_index": 13
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "253",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 13
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "253",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 13
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "254",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 13
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "254",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "NO"
+    ],
+    "image_index": 13
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "256",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 13
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "256",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 13
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "256",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "NO"
+    ],
+    "image_index": 13
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "257",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "257",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "257",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "NO"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "258",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "258",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "259",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "259",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "259",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "NO"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "260",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "260",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "260",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "NO"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "262",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "262",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "262",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "NO"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "264",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "0",
+      "1"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "264",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "264",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "264",
+    "column_id": "col_flowers_open",
+    "header": "Open",
+    "parent": "FLOWERS",
+    "candidates": [
+      "1",
+      "0"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "264",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "X",
+      "1"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "264",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "1",
+      "0"
+    ],
+    "image_index": 14
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "264.1",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "264.1",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "264.1",
+    "column_id": "col_flowers_open",
+    "header": "Open",
+    "parent": "FLOWERS",
+    "candidates": [
+      "0",
+      "D"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "264.1",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "X"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "264.1",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "1",
+      "N"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "264.1",
+    "column_id": "col_fruits_ripe",
+    "header": "Ripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "1",
+      "0"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "265",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "265",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "265",
+    "column_id": "col_fruits_ripe",
+    "header": "Ripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "01"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "266",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "266",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "267",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "267",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "269",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "269",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "NO"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "270",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "270",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "270",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "NO"
+    ],
+    "image_index": 15
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "271",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "1"
+    ],
+    "image_index": 16
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "271",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 16
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "271",
+    "column_id": "col_flowers_buds",
+    "header": "Buds",
+    "parent": "FLOWERS",
+    "candidates": [
+      "0",
+      "1"
+    ],
+    "image_index": 16
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "271",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "NO"
+    ],
+    "image_index": 16
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "272",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 16
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "274",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 16
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "274",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 16
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "275",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "1",
+      "4"
+    ],
+    "image_index": 16
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "275",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 16
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "275",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 16
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "276",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 16
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "276",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 16
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "277",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 16
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "277",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 16
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "278",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "278",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "278",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "X",
+      "N"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "279",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "279",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "279",
+    "column_id": "col_flowers_buds",
+    "header": "Buds",
+    "parent": "FLOWERS",
+    "candidates": [
+      "1",
+      "0"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "279",
+    "column_id": "col_flowers_open",
+    "header": "Open",
+    "parent": "FLOWERS",
+    "candidates": [
+      "1",
+      "0"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "279",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "X",
+      "Y"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "280",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "280",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "280",
+    "column_id": "col_flowers_buds",
+    "header": "Buds",
+    "parent": "FLOWERS",
+    "candidates": [
+      "0",
+      "1"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "280",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "2"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "281",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "0",
+      "4"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "281",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "281",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "282",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "282",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "282",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "NO"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "283",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "283",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "283",
+    "column_id": "col_flowers_buds",
+    "header": "Buds",
+    "parent": "FLOWERS",
+    "candidates": [
+      "4",
+      "0"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "283",
+    "column_id": "col_flowers_open",
+    "header": "Open",
+    "parent": "FLOWERS",
+    "candidates": [
+      "2",
+      "0"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "283",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      "NO"
+    ],
+    "image_index": 17
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "284",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "0",
+      "1"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "284",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "284",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "284",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "285",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "1",
+      "0"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "285",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "285",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "285",
+    "column_id": "col_flowers_buds",
+    "header": "Buds",
+    "parent": "FLOWERS",
+    "candidates": [
+      "0",
+      "4"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "285",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "X"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "286",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "286",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "286",
+    "column_id": "col_flowers_buds",
+    "header": "Buds",
+    "parent": "FLOWERS",
+    "candidates": [
+      "1",
+      "0"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "288",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "288",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "288",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "NO"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "289",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "289",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "289",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "NO"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "290",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "290",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "290",
+    "column_id": "col_flowers_open",
+    "header": "Open",
+    "parent": "FLOWERS",
+    "candidates": [
+      "0",
+      "1"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "290",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "NO"
+    ],
+    "image_index": 18
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "291",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "2",
+      "0"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "291",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "291",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "291",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      "Y"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "292",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "0",
+      "08"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "292",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "292",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "292",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      "N"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "292",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "X",
+      "Y"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "293",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "1",
+      "4"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "293",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "H",
+      "4"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "293",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "294",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "294",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "X",
+      "Y"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "295",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "296",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "296",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "X",
+      "Y"
+    ],
+    "image_index": 19
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "297",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      "X"
+    ],
+    "image_index": 20
+  },
+  {
+    "page": 5,
+    "table_id": "table_1",
+    "row_id": "297",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "1"
+    ],
+    "image_index": 20
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "298",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "No",
+      "N"
+    ],
+    "image_index": 21
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "300",
+    "column_id": "col_flowers_open",
+    "header": "Open",
+    "parent": "FLOWERS",
+    "candidates": [
+      "1",
+      "0"
+    ],
+    "image_index": 21
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "300",
+    "column_id": "col_fruits_fallen",
+    "header": "Fallen",
+    "parent": "FRUITS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 21
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "302",
+    "column_id": "col_flowers_open",
+    "header": "Open",
+    "parent": "FLOWERS",
+    "candidates": [
+      "0",
+      "1"
+    ],
+    "image_index": 21
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "302",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "No",
+      "N"
+    ],
+    "image_index": 21
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "303",
+    "column_id": "col_flowers_open",
+    "header": "Open",
+    "parent": "FLOWERS",
+    "candidates": [
+      "1",
+      "0"
+    ],
+    "image_index": 21
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "304",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "1",
+      "4"
+    ],
+    "image_index": 21
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "304",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "No",
+      "N"
+    ],
+    "image_index": 21
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "305",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "No",
+      "N"
+    ],
+    "image_index": 21
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "306",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "No",
+      "N"
+    ],
+    "image_index": 22
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "308",
+    "column_id": "col_fruits_ripe",
+    "header": "Ripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "D",
+      "0"
+    ],
+    "image_index": 22
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "309",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "No",
+      "N"
+    ],
+    "image_index": 22
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "310",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "H2",
+      "1"
+    ],
+    "image_index": 22
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "312",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "No",
+      "N"
+    ],
+    "image_index": 22
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "315",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "0"
+    ],
+    "image_index": 22
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "317",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "319",
+    "column_id": "col_leaves_flush",
+    "header": "Flush",
+    "parent": "LEAVES",
+    "candidates": [
+      "1",
+      "0"
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "319",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      null
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "319",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "N"
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "320",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "0",
+      "4"
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "320",
+    "column_id": "col_flowers_buds",
+    "header": "Buds",
+    "parent": "FLOWERS",
+    "candidates": [
+      "No",
+      "N"
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "320",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      null
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "320",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "N"
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "321",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      null
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "321",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "N"
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "322",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "0",
+      "4"
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "322",
+    "column_id": "col_flowers_buds",
+    "header": "Buds",
+    "parent": "FLOWERS",
+    "candidates": [
+      "No",
+      "N"
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "322",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      null
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "322",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "N"
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "323",
+    "column_id": "col_leaves_mature",
+    "header": "Mature",
+    "parent": "LEAVES",
+    "candidates": [
+      "0",
+      "4"
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "323",
+    "column_id": "col_leaves_fallen",
+    "header": "Fallen",
+    "parent": "LEAVES",
+    "candidates": [
+      "Y",
+      null
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "323",
+    "column_id": "col_flowers_buds",
+    "header": "Buds",
+    "parent": "FLOWERS",
+    "candidates": [
+      "No",
+      "N"
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "323",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      null
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "323",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "N"
+    ],
+    "image_index": 23
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "324",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      null
+    ],
+    "image_index": 24
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "324",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "2",
+      "N"
+    ],
+    "image_index": 24
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "324",
+    "column_id": "col_fruits_ripe",
+    "header": "Ripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "2"
+    ],
+    "image_index": 24
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "325",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "N",
+      null
+    ],
+    "image_index": 24
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "325",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "N"
+    ],
+    "image_index": 24
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "326",
+    "column_id": "col_flowers_fallen",
+    "header": "Fallen",
+    "parent": "FLOWERS",
+    "candidates": [
+      "No",
+      null
+    ],
+    "image_index": 24
+  },
+  {
+    "page": 6,
+    "table_id": "tree_phenology_table",
+    "row_id": "326",
+    "column_id": "col_fruits_unripe",
+    "header": "Unripe",
+    "parent": "FRUITS",
+    "candidates": [
+      "0",
+      "N"
+    ],
+    "image_index": 24
+  }
+]

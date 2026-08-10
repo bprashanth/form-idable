@@ -1,0 +1,85 @@
+{
+  "form": "eval_09",
+  "source_tag": "canonical_v1_full",
+  "tag": "canonical_v1_reread_pro_strips",
+  "model": "gemini-3.1-pro-preview",
+  "thinking": "low",
+  "targets": 393,
+  "decisions": 393,
+  "applied": 393,
+  "missing": 0,
+  "calls": [
+    {
+      "stage": "targeted_reread",
+      "page": 1,
+      "model": "gemini-3.1-pro-preview",
+      "in_tok": 4663,
+      "out_tok": 1596,
+      "thinking_tok": 0,
+      "cost_usd": 0.02848,
+      "latency_s": 19.6
+    },
+    {
+      "stage": "targeted_reread",
+      "page": 2,
+      "model": "gemini-3.1-pro-preview",
+      "in_tok": 3793,
+      "out_tok": 1860,
+      "thinking_tok": 0,
+      "cost_usd": 0.02991,
+      "latency_s": 19.6
+    },
+    {
+      "stage": "targeted_reread",
+      "page": 3,
+      "model": "gemini-3.1-pro-preview",
+      "in_tok": 1589,
+      "out_tok": 389,
+      "thinking_tok": 0,
+      "cost_usd": 0.00785,
+      "latency_s": 7.7
+    },
+    {
+      "stage": "targeted_reread",
+      "page": 4,
+      "model": "gemini-3.1-pro-preview",
+      "in_tok": 14433,
+      "out_tok": 13403,
+      "thinking_tok": 0,
+      "cost_usd": 0.1897,
+      "latency_s": 70.0
+    },
+    {
+      "stage": "targeted_reread",
+      "page": 5,
+      "model": "gemini-3.1-pro-preview",
+      "in_tok": 11729,
+      "out_tok": 10249,
+      "thinking_tok": 0,
+      "cost_usd": 0.14645,
+      "latency_s": 67.4
+    },
+    {
+      "stage": "targeted_reread",
+      "page": 6,
+      "model": "gemini-3.1-pro-preview",
+      "in_tok": 6251,
+      "out_tok": 3222,
+      "thinking_tok": 0,
+      "cost_usd": 0.05117,
+      "latency_s": 24.4
+    }
+  ],
+  "cost_usd": 0.45356,
+  "latency_s": 208.7,
+  "disagreement": {
+    "agreement": 2816,
+    "majority_after_reread": 327,
+    "disagreement": 0,
+    "unresolved_after_reread": 66,
+    "blank_or_illegible": 0,
+    "total": 3209,
+    "review_fraction": 0.1225
+  },
+  "validation_errors": []
+}

@@ -1,0 +1,7596 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "agrra_fish_underwater_datasheet.pdf",
+  "page": 1,
+  "page_size_points": [
+    792.0,
+    612.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 0,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        20.19,
+        8.895,
+        108.589,
+        27.259
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.014534,
+        0.137107,
+        0.04454
+      ],
+      "source": "printed",
+      "value": "Surveyor:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Surveyor:"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        108.589,
+        8.895,
+        174.44,
+        27.259
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.014534,
+        0.220253,
+        0.04454
+      ],
+      "source": "printed",
+      "value": "Date:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Date:"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        174.44,
+        8.895,
+        306.65,
+        27.259
+      ],
+      "bbox_norm": [
+        0.220253,
+        0.014534,
+        0.387184,
+        0.04454
+      ],
+      "source": "printed",
+      "value": "Site Name:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Site Name:"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        306.65,
+        8.895,
+        396.11,
+        27.259
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.014534,
+        0.500139,
+        0.04454
+      ],
+      "source": "printed",
+      "value": "AGRRA Code:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "AGRRA Code:"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        396.11,
+        8.895,
+        485.556,
+        27.259
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.014534,
+        0.613076,
+        0.04454
+      ],
+      "source": "printed",
+      "value": "Surveyor:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Surveyor:"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        485.556,
+        8.895,
+        551.41,
+        27.259
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.014534,
+        0.696225,
+        0.04454
+      ],
+      "source": "printed",
+      "value": "Date:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Date:"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        551.41,
+        8.895,
+        683.62,
+        27.259
+      ],
+      "bbox_norm": [
+        0.696225,
+        0.014534,
+        0.863157,
+        0.04454
+      ],
+      "source": "printed",
+      "value": "Site Name:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Site Name:"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        683.62,
+        8.895,
+        772.0,
+        27.259
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.014534,
+        0.974747,
+        0.04454
+      ],
+      "source": "printed",
+      "value": "AGRRA Code:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "AGRRA Code:"
+    },
+    {
+      "page": 1,
+      "row": 1,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        27.259,
+        64.344,
+        45.66
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.04454,
+        0.081242,
+        0.074608
+      ],
+      "source": "printed",
+      "value": "Trans #:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Trans #:"
+    },
+    {
+      "page": 1,
+      "row": 1,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        27.259,
+        108.589,
+        45.66
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.04454,
+        0.137107,
+        0.074608
+      ],
+      "source": "printed",
+      "value": "Start Time:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Start Time:"
+    },
+    {
+      "page": 1,
+      "row": 1,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.589,
+        27.259,
+        196.34,
+        45.66
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.04454,
+        0.247904,
+        0.074608
+      ],
+      "source": "printed",
+      "value": "Start FT / M Depth:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Start FT / M Depth:"
+    },
+    {
+      "page": 1,
+      "row": 1,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        196.34,
+        27.259,
+        306.65,
+        45.66
+      ],
+      "bbox_norm": [
+        0.247904,
+        0.04454,
+        0.387184,
+        0.074608
+      ],
+      "source": "printed",
+      "value": "End FT / M Depth:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "End FT / M Depth:"
+    },
+    {
+      "page": 1,
+      "row": 1,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        306.65,
+        27.259,
+        396.11,
+        45.66
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.04454,
+        0.500139,
+        0.074608
+      ],
+      "source": "printed",
+      "value": "Bottom C / F Temp:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Bottom C / F Temp:"
+    },
+    {
+      "page": 1,
+      "row": 1,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        27.259,
+        441.31,
+        45.66
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.04454,
+        0.55721,
+        0.074608
+      ],
+      "source": "printed",
+      "value": "Trans #:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Trans #:"
+    },
+    {
+      "page": 1,
+      "row": 1,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        27.259,
+        485.556,
+        45.66
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.04454,
+        0.613076,
+        0.074608
+      ],
+      "source": "printed",
+      "value": "Start Time:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Start Time:"
+    },
+    {
+      "page": 1,
+      "row": 1,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        485.556,
+        27.259,
+        573.31,
+        45.66
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.04454,
+        0.723876,
+        0.074608
+      ],
+      "source": "printed",
+      "value": "Start FT / M Depth:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Start FT / M Depth:"
+    },
+    {
+      "page": 1,
+      "row": 1,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        573.31,
+        27.259,
+        683.62,
+        45.66
+      ],
+      "bbox_norm": [
+        0.723876,
+        0.04454,
+        0.863157,
+        0.074608
+      ],
+      "source": "printed",
+      "value": "End FT / M Depth:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "End FT / M Depth:"
+    },
+    {
+      "page": 1,
+      "row": 1,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        683.62,
+        27.259,
+        772.0,
+        45.66
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.04454,
+        0.974747,
+        0.074608
+      ],
+      "source": "printed",
+      "value": "Bottom C / F Temp:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Bottom C / F Temp:"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        20.19,
+        45.66,
+        240.53,
+        64.02
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.074608,
+        0.303699,
+        0.104608
+      ],
+      "source": "printed",
+      "value": "Max Relief:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Max Relief:"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        240.53,
+        45.66,
+        396.11,
+        64.02
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.074608,
+        0.500139,
+        0.104608
+      ],
+      "source": "printed",
+      "value": "Comments:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Comments:"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        396.11,
+        45.66,
+        617.5,
+        64.02
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.074608,
+        0.779672,
+        0.104608
+      ],
+      "source": "printed",
+      "value": "Max Relief:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Max Relief:"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        617.5,
+        45.66,
+        772.0,
+        64.02
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.074608,
+        0.974747,
+        0.104608
+      ],
+      "source": "printed",
+      "value": "Comments:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Comments:"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        64.02,
+        64.344,
+        81.24
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.104608,
+        0.081242,
+        0.132745
+      ],
+      "source": "printed",
+      "value": "Species",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Species"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        64.02,
+        108.589,
+        81.24
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.104608,
+        0.137107,
+        0.132745
+      ],
+      "source": "printed",
+      "value": "1-5 cm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        64.02,
+        152.42,
+        81.24
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.104608,
+        0.192449,
+        0.132745
+      ],
+      "source": "printed",
+      "value": "6-10 cm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        64.02,
+        240.53,
+        81.24
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.104608,
+        0.303699,
+        0.132745
+      ],
+      "source": "printed",
+      "value": "11-20 cm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        64.02,
+        306.65,
+        81.24
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.104608,
+        0.387184,
+        0.132745
+      ],
+      "source": "printed",
+      "value": "21-30 cm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        64.02,
+        350.81,
+        81.24
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.104608,
+        0.442942,
+        0.132745
+      ],
+      "source": "printed",
+      "value": "31-40 cm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        64.02,
+        396.11,
+        81.24
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.104608,
+        0.500139,
+        0.132745
+      ],
+      "source": "printed",
+      "value": "> 40 cm (cm interval)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "> 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        64.02,
+        441.31,
+        81.24
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.104608,
+        0.55721,
+        0.132745
+      ],
+      "source": "printed",
+      "value": "Species",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Species"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        64.02,
+        485.556,
+        81.24
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.104608,
+        0.613076,
+        0.132745
+      ],
+      "source": "printed",
+      "value": "1-5 cm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        64.02,
+        529.39,
+        81.24
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.104608,
+        0.668422,
+        0.132745
+      ],
+      "source": "printed",
+      "value": "6-10 cm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        64.02,
+        617.5,
+        81.24
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.104608,
+        0.779672,
+        0.132745
+      ],
+      "source": "printed",
+      "value": "11-20 cm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        64.02,
+        683.62,
+        81.24
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.104608,
+        0.863157,
+        0.132745
+      ],
+      "source": "printed",
+      "value": "21-30 cm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        64.02,
+        727.78,
+        81.24
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.104608,
+        0.918914,
+        0.132745
+      ],
+      "source": "printed",
+      "value": "31-40 cm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        64.02,
+        772.0,
+        81.24
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.104608,
+        0.974747,
+        0.132745
+      ],
+      "source": "printed",
+      "value": "> 40 cm (cm interval)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "> 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        81.24,
+        64.344,
+        106.7
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.132745,
+        0.081242,
+        0.174346
+      ],
+      "source": "written",
+      "value": "Drypetes wightii",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        81.24,
+        108.589,
+        106.7
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.132745,
+        0.137107,
+        0.174346
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        81.24,
+        152.42,
+        106.7
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.132745,
+        0.192449,
+        0.174346
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Date: Site Name: Start End FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        81.24,
+        240.53,
+        106.7
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.132745,
+        0.303699,
+        0.174346
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Start End FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        81.24,
+        306.65,
+        106.7
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.132745,
+        0.387184,
+        0.174346
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | End FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        81.24,
+        350.81,
+        106.7
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.132745,
+        0.442942,
+        0.174346
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | AGRRA Surveyor: Code: Bottom Trans FT / M C F Temp: Max Comments: Relief: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        81.24,
+        396.11,
+        106.7
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.132745,
+        0.500139,
+        0.174346
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | AGRRA Surveyor: Code: Bottom Trans #: Start / M C F Temp: Time: Max Relief: > 40 cm 31-40 Species (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        81.24,
+        441.31,
+        106.7
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.132745,
+        0.55721,
+        0.174346
+      ],
+      "source": "written",
+      "value": "Diospyros sylvatica",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Surveyor: Date: Trans #: Start C / F Time: Depth: Max Relief: > 40 cm Species 1-5 6-10 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        81.24,
+        485.556,
+        106.7
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.132745,
+        0.613076,
+        0.174346
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10 interval)"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        81.24,
+        529.39,
+        106.7
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.132745,
+        0.668422,
+        0.174346
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Date: Site Name: Start End FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        81.24,
+        617.5,
+        106.7
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.132745,
+        0.779672,
+        0.174346
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Start End FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        81.24,
+        683.62,
+        106.7
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.132745,
+        0.863157,
+        0.174346
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | End FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        81.24,
+        727.78,
+        106.7
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.132745,
+        0.918914,
+        0.174346
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | AGRRA Code: Bottom FT / M C F Temp: Comments: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        81.24,
+        772.0,
+        106.7
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.132745,
+        0.974747,
+        0.174346
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | AGRRA Code: Bottom / M C F Temp: > 40 cm 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        106.7,
+        64.344,
+        132.14
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.174346,
+        0.081242,
+        0.215915
+      ],
+      "source": "written",
+      "value": "Dimocarpus longan",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        106.7,
+        108.589,
+        132.14
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.174346,
+        0.137107,
+        0.215915
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        106.7,
+        152.42,
+        132.14
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.174346,
+        0.192449,
+        0.215915
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Date: Site Name: Start End FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        106.7,
+        240.53,
+        132.14
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.174346,
+        0.303699,
+        0.215915
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Start End FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        106.7,
+        306.65,
+        132.14
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.174346,
+        0.387184,
+        0.215915
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | End FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        106.7,
+        350.81,
+        132.14
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.174346,
+        0.442942,
+        0.215915
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | AGRRA Surveyor: Code: Bottom Trans FT / M C F Temp: Max Comments: Relief: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        106.7,
+        396.11,
+        132.14
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.174346,
+        0.500139,
+        0.215915
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | AGRRA Surveyor: Code: Bottom Trans #: Start / M C F Temp: Time: Max Relief: > 40 cm 31-40 Species (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        106.7,
+        441.31,
+        132.14
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.174346,
+        0.55721,
+        0.215915
+      ],
+      "source": "written",
+      "value": "Myristica beddomei",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Surveyor: Date: Trans #: Start C / F Time: Depth: Max Relief: > 40 cm Species 1-5 6-10 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        106.7,
+        485.556,
+        132.14
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.174346,
+        0.613076,
+        0.215915
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10 interval)"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        106.7,
+        529.39,
+        132.14
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.174346,
+        0.668422,
+        0.215915
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Date: Site Name: Start End FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        106.7,
+        617.5,
+        132.14
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.174346,
+        0.779672,
+        0.215915
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Start End FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        106.7,
+        683.62,
+        132.14
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.174346,
+        0.863157,
+        0.215915
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | End FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        106.7,
+        727.78,
+        132.14
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.174346,
+        0.918914,
+        0.215915
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | AGRRA Code: Bottom FT / M C F Temp: Comments: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        106.7,
+        772.0,
+        132.14
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.174346,
+        0.974747,
+        0.215915
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | AGRRA Code: Bottom / M C F Temp: > 40 cm 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        132.14,
+        64.344,
+        157.58
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.215915,
+        0.081242,
+        0.257484
+      ],
+      "source": "written",
+      "value": "Hopea parviflora",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        132.14,
+        108.589,
+        157.58
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.215915,
+        0.137107,
+        0.257484
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        132.14,
+        152.42,
+        157.58
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.215915,
+        0.192449,
+        0.257484
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Date: Site Name: Start End FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        132.14,
+        240.53,
+        157.58
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.215915,
+        0.303699,
+        0.257484
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Start End FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        132.14,
+        306.65,
+        157.58
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.215915,
+        0.387184,
+        0.257484
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | End FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        132.14,
+        350.81,
+        157.58
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.215915,
+        0.442942,
+        0.257484
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | AGRRA Surveyor: Code: Bottom Trans FT / M C F Temp: Max Comments: Relief: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        132.14,
+        396.11,
+        157.58
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.215915,
+        0.500139,
+        0.257484
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | AGRRA Surveyor: Code: Bottom Trans #: Start / M C F Temp: Time: Max Relief: > 40 cm 31-40 Species (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        132.14,
+        441.31,
+        157.58
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.215915,
+        0.55721,
+        0.257484
+      ],
+      "source": "written",
+      "value": "Holigarna nigra",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Surveyor: Date: Trans #: Start C / F Time: Depth: Max Relief: > 40 cm Species 1-5 6-10 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        132.14,
+        485.556,
+        157.58
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.215915,
+        0.613076,
+        0.257484
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10 interval)"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        132.14,
+        529.39,
+        157.58
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.215915,
+        0.668422,
+        0.257484
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Date: Site Name: Start End FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        132.14,
+        617.5,
+        157.58
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.215915,
+        0.779672,
+        0.257484
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Start End FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        132.14,
+        683.62,
+        157.58
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.215915,
+        0.863157,
+        0.257484
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | End FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        132.14,
+        727.78,
+        157.58
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.215915,
+        0.918914,
+        0.257484
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | AGRRA Code: Bottom FT / M C F Temp: Comments: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        132.14,
+        772.0,
+        157.58
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.215915,
+        0.974747,
+        0.257484
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | AGRRA Code: Bottom / M C F Temp: > 40 cm 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        157.58,
+        64.344,
+        183.02
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.257484,
+        0.081242,
+        0.299052
+      ],
+      "source": "written",
+      "value": "Knema attenuata",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        157.58,
+        108.589,
+        183.02
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.257484,
+        0.137107,
+        0.299052
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        157.58,
+        152.42,
+        183.02
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.257484,
+        0.192449,
+        0.299052
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Date: Site Name: Start End FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        157.58,
+        240.53,
+        183.02
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.257484,
+        0.303699,
+        0.299052
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Start End FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        157.58,
+        306.65,
+        183.02
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.257484,
+        0.387184,
+        0.299052
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | End FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        157.58,
+        350.81,
+        183.02
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.257484,
+        0.442942,
+        0.299052
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | AGRRA Surveyor: Code: Bottom Trans FT / M C F Temp: Max Comments: Relief: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        157.58,
+        396.11,
+        183.02
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.257484,
+        0.500139,
+        0.299052
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | AGRRA Surveyor: Code: Bottom Trans #: Start / M C F Temp: Time: Max Relief: > 40 cm 31-40 Species (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        157.58,
+        441.31,
+        183.02
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.257484,
+        0.55721,
+        0.299052
+      ],
+      "source": "written",
+      "value": "Aglaia elaeagnoidea",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Surveyor: Date: Trans #: Start C / F Time: Depth: Max Relief: > 40 cm Species 1-5 6-10 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        157.58,
+        485.556,
+        183.02
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.257484,
+        0.613076,
+        0.299052
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10 interval)"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        157.58,
+        529.39,
+        183.02
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.257484,
+        0.668422,
+        0.299052
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Date: Site Name: Start End FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        157.58,
+        617.5,
+        183.02
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.257484,
+        0.779672,
+        0.299052
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Start End FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        157.58,
+        683.62,
+        183.02
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.257484,
+        0.863157,
+        0.299052
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | End FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        157.58,
+        727.78,
+        183.02
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.257484,
+        0.918914,
+        0.299052
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | AGRRA Code: Bottom FT / M C F Temp: Comments: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        157.58,
+        772.0,
+        183.02
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.257484,
+        0.974747,
+        0.299052
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | AGRRA Code: Bottom / M C F Temp: > 40 cm 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        183.02,
+        64.344,
+        208.46
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.299052,
+        0.081242,
+        0.340621
+      ],
+      "source": "written",
+      "value": "Knema attenuata",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        183.02,
+        108.589,
+        208.46
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.299052,
+        0.137107,
+        0.340621
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        183.02,
+        152.42,
+        208.46
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.299052,
+        0.192449,
+        0.340621
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Date: Site Name: Start End FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        183.02,
+        240.53,
+        208.46
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.299052,
+        0.303699,
+        0.340621
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Start End FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        183.02,
+        306.65,
+        208.46
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.299052,
+        0.387184,
+        0.340621
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | End FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        183.02,
+        350.81,
+        208.46
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.299052,
+        0.442942,
+        0.340621
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | AGRRA Surveyor: Code: Bottom Trans FT / M C F Temp: Max Comments: Relief: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        183.02,
+        396.11,
+        208.46
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.299052,
+        0.500139,
+        0.340621
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | AGRRA Surveyor: Code: Bottom Trans #: Start / M C F Temp: Time: Max Relief: > 40 cm 31-40 Species (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        183.02,
+        441.31,
+        208.46
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.299052,
+        0.55721,
+        0.340621
+      ],
+      "source": "written",
+      "value": "Aglaia elaeagnoidea",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Surveyor: Date: Trans #: Start C / F Time: Depth: Max Relief: > 40 cm Species 1-5 6-10 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        183.02,
+        485.556,
+        208.46
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.299052,
+        0.613076,
+        0.340621
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10 interval)"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        183.02,
+        529.39,
+        208.46
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.299052,
+        0.668422,
+        0.340621
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Date: Site Name: Start End FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        183.02,
+        617.5,
+        208.46
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.299052,
+        0.779672,
+        0.340621
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Start End FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        183.02,
+        683.62,
+        208.46
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.299052,
+        0.863157,
+        0.340621
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | End FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        183.02,
+        727.78,
+        208.46
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.299052,
+        0.918914,
+        0.340621
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | AGRRA Code: Bottom FT / M C F Temp: Comments: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        183.02,
+        772.0,
+        208.46
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.299052,
+        0.974747,
+        0.340621
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | AGRRA Code: Bottom / M C F Temp: > 40 cm 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        208.46,
+        64.344,
+        233.93
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.340621,
+        0.081242,
+        0.382239
+      ],
+      "source": "written",
+      "value": "Beilschmiedia dalzelli",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        208.46,
+        108.589,
+        233.93
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.340621,
+        0.137107,
+        0.382239
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        208.46,
+        152.42,
+        233.93
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.340621,
+        0.192449,
+        0.382239
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Date: Site Name: Start End FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        208.46,
+        240.53,
+        233.93
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.340621,
+        0.303699,
+        0.382239
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Start End FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        208.46,
+        306.65,
+        233.93
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.340621,
+        0.387184,
+        0.382239
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | End FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        208.46,
+        350.81,
+        233.93
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.340621,
+        0.442942,
+        0.382239
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | AGRRA Surveyor: Code: Bottom Trans FT / M C F Temp: Max Comments: Relief: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        208.46,
+        396.11,
+        233.93
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.340621,
+        0.500139,
+        0.382239
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | AGRRA Surveyor: Code: Bottom Trans #: Start / M C F Temp: Time: Max Relief: > 40 cm 31-40 Species (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        208.46,
+        441.31,
+        233.93
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.340621,
+        0.55721,
+        0.382239
+      ],
+      "source": "written",
+      "value": "Vateria indica",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Surveyor: Date: Trans #: Start C / F Time: Depth: Max Relief: > 40 cm Species 1-5 6-10 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        208.46,
+        485.556,
+        233.93
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.340621,
+        0.613076,
+        0.382239
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10 interval)"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        208.46,
+        529.39,
+        233.93
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.340621,
+        0.668422,
+        0.382239
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Date: Site Name: Start End FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        208.46,
+        617.5,
+        233.93
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.340621,
+        0.779672,
+        0.382239
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Start End FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        208.46,
+        683.62,
+        233.93
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.340621,
+        0.863157,
+        0.382239
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | End FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        208.46,
+        727.78,
+        233.93
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.340621,
+        0.918914,
+        0.382239
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | AGRRA Code: Bottom FT / M C F Temp: Comments: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        208.46,
+        772.0,
+        233.93
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.340621,
+        0.974747,
+        0.382239
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | AGRRA Code: Bottom / M C F Temp: > 40 cm 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        233.93,
+        64.344,
+        259.37
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.382239,
+        0.081242,
+        0.423807
+      ],
+      "source": "written",
+      "value": "Drypetes wightii",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        233.93,
+        108.589,
+        259.37
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.382239,
+        0.137107,
+        0.423807
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        233.93,
+        152.42,
+        259.37
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.382239,
+        0.192449,
+        0.423807
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Date: Site Name: Start End FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        233.93,
+        240.53,
+        259.37
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.382239,
+        0.303699,
+        0.423807
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Start End FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        233.93,
+        306.65,
+        259.37
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.382239,
+        0.387184,
+        0.423807
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | End FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        233.93,
+        350.81,
+        259.37
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.382239,
+        0.442942,
+        0.423807
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | AGRRA Surveyor: Code: Bottom Trans FT / M C F Temp: Max Comments: Relief: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        233.93,
+        396.11,
+        259.37
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.382239,
+        0.500139,
+        0.423807
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | AGRRA Surveyor: Code: Bottom Trans #: Start / M C F Temp: Time: Max Relief: > 40 cm 31-40 Species (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        233.93,
+        441.31,
+        259.37
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.382239,
+        0.55721,
+        0.423807
+      ],
+      "source": "written",
+      "value": "Macaranga indica",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Surveyor: Date: Trans #: Start C / F Time: Depth: Max Relief: > 40 cm Species 1-5 6-10 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        233.93,
+        485.556,
+        259.37
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.382239,
+        0.613076,
+        0.423807
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Surveyor: Date: Trans #: Start Time: Depth: Max Relief: Species 1-5 cm 6-10 interval)"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        233.93,
+        529.39,
+        259.37
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.382239,
+        0.668422,
+        0.423807
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Date: Site Name: Start End FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        233.93,
+        617.5,
+        259.37
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.382239,
+        0.779672,
+        0.423807
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Start End FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        233.93,
+        683.62,
+        259.37
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.382239,
+        0.863157,
+        0.423807
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | End FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        233.93,
+        727.78,
+        259.37
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.382239,
+        0.918914,
+        0.423807
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | AGRRA Code: Bottom FT / M C F Temp: Comments: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        233.93,
+        772.0,
+        259.37
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.382239,
+        0.974747,
+        0.423807
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | AGRRA Code: Bottom / M C F Temp: > 40 cm 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        259.37,
+        64.344,
+        284.87
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.423807,
+        0.081242,
+        0.465474
+      ],
+      "source": "written",
+      "value": "Drypetes wightii",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        259.37,
+        108.589,
+        284.87
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.423807,
+        0.137107,
+        0.465474
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Time: Depth: Max Relief: Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        259.37,
+        152.42,
+        284.87
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.423807,
+        0.192449,
+        0.465474
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        259.37,
+        240.53,
+        284.87
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.423807,
+        0.303699,
+        0.465474
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        259.37,
+        306.65,
+        284.87
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.423807,
+        0.387184,
+        0.465474
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        259.37,
+        350.81,
+        284.87
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.423807,
+        0.442942,
+        0.465474
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | FT / M C F Temp: Max Comments: Relief: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        259.37,
+        396.11,
+        284.87
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.423807,
+        0.500139,
+        0.465474
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | / M C F Temp: Time: Max Relief: > 40 cm 31-40 Species (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        259.37,
+        441.31,
+        284.87
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.423807,
+        0.55721,
+        0.465474
+      ],
+      "source": "written",
+      "value": "Holigarna nigra",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | C / F Time: Depth: Max Relief: > 40 cm Species 1-5 6-10 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        259.37,
+        485.556,
+        284.87
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.423807,
+        0.613076,
+        0.465474
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Time: Depth: Max Relief: Species 1-5 cm 6-10 interval)"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        259.37,
+        529.39,
+        284.87
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.423807,
+        0.668422,
+        0.465474
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | FT / M Time: Depth: Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        259.37,
+        617.5,
+        284.87
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.423807,
+        0.779672,
+        0.465474
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | FT / M Time: Temp: Depth: Comments: Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        259.37,
+        683.62,
+        284.87
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.423807,
+        0.863157,
+        0.465474
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | FT / M C F Temp: Depth: Comments: > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        259.37,
+        727.78,
+        284.87
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.423807,
+        0.918914,
+        0.465474
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | FT / M C F Temp: Comments: > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        259.37,
+        772.0,
+        284.87
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.423807,
+        0.974747,
+        0.465474
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | / M C F Temp: > 40 cm 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        284.87,
+        64.344,
+        310.25
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.465474,
+        0.081242,
+        0.506944
+      ],
+      "source": "written",
+      "value": "Actinodaphne bourdillonii",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        284.87,
+        108.589,
+        310.25
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.465474,
+        0.137107,
+        0.506944
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Species 1-5 cm 6-10"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        284.87,
+        152.42,
+        310.25
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.465474,
+        0.192449,
+        0.506944
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        284.87,
+        240.53,
+        310.25
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.465474,
+        0.303699,
+        0.506944
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        284.87,
+        306.65,
+        310.25
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.465474,
+        0.387184,
+        0.506944
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        284.87,
+        350.81,
+        310.25
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.465474,
+        0.442942,
+        0.506944
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        284.87,
+        396.11,
+        310.25
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.465474,
+        0.500139,
+        0.506944
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | > 40 cm 31-40 Species (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        284.87,
+        441.31,
+        310.25
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.465474,
+        0.55721,
+        0.506944
+      ],
+      "source": "written",
+      "value": "Ficus nervosa",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species | > 40 cm Species 1-5 6-10 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        284.87,
+        485.556,
+        310.25
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.465474,
+        0.613076,
+        0.506944
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm | Species 1-5 cm 6-10 interval)"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        284.87,
+        529.39,
+        310.25
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.465474,
+        0.668422,
+        0.506944
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm | Species 1-5 cm 6-10 11-20"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        284.87,
+        617.5,
+        310.25
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.465474,
+        0.779672,
+        0.506944
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm | Species 1-5 cm 6-10 11-20 21-30 31-40"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        284.87,
+        683.62,
+        310.25
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.465474,
+        0.863157,
+        0.506944
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm | > 40 cm 11-20 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        284.87,
+        727.78,
+        310.25
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.465474,
+        0.918914,
+        0.506944
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm | > 40 cm 21-30 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        284.87,
+        772.0,
+        310.25
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.465474,
+        0.974747,
+        0.506944
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval) | > 40 cm 31-40 (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        310.25,
+        64.344,
+        335.71
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.506944,
+        0.081242,
+        0.548546
+      ],
+      "source": "written",
+      "value": "Aglaia elaeagnoidea",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        310.25,
+        108.589,
+        335.71
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.506944,
+        0.137107,
+        0.548546
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        310.25,
+        152.42,
+        335.71
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.506944,
+        0.192449,
+        0.548546
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        310.25,
+        240.53,
+        335.71
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.506944,
+        0.303699,
+        0.548546
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        310.25,
+        306.65,
+        335.71
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.506944,
+        0.387184,
+        0.548546
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        310.25,
+        350.81,
+        335.71
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.506944,
+        0.442942,
+        0.548546
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        310.25,
+        396.11,
+        335.71
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.506944,
+        0.500139,
+        0.548546
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        310.25,
+        441.31,
+        335.71
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.506944,
+        0.55721,
+        0.548546
+      ],
+      "source": "written",
+      "value": "Antidesma menasu",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        310.25,
+        485.556,
+        335.71
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.506944,
+        0.613076,
+        0.548546
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        310.25,
+        529.39,
+        335.71
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.506944,
+        0.668422,
+        0.548546
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        310.25,
+        617.5,
+        335.71
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.506944,
+        0.779672,
+        0.548546
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        310.25,
+        683.62,
+        335.71
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.506944,
+        0.863157,
+        0.548546
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        310.25,
+        727.78,
+        335.71
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.506944,
+        0.918914,
+        0.548546
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        310.25,
+        772.0,
+        335.71
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.506944,
+        0.974747,
+        0.548546
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        335.71,
+        64.344,
+        361.15
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.548546,
+        0.081242,
+        0.590114
+      ],
+      "source": "written",
+      "value": "Olea dioica",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        335.71,
+        108.589,
+        361.15
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.548546,
+        0.137107,
+        0.590114
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        335.71,
+        152.42,
+        361.15
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.548546,
+        0.192449,
+        0.590114
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        335.71,
+        240.53,
+        361.15
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.548546,
+        0.303699,
+        0.590114
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        335.71,
+        306.65,
+        361.15
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.548546,
+        0.387184,
+        0.590114
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        335.71,
+        350.81,
+        361.15
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.548546,
+        0.442942,
+        0.590114
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        335.71,
+        396.11,
+        361.15
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.548546,
+        0.500139,
+        0.590114
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        335.71,
+        441.31,
+        361.15
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.548546,
+        0.55721,
+        0.590114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        335.71,
+        485.556,
+        361.15
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.548546,
+        0.613076,
+        0.590114
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        335.71,
+        529.39,
+        361.15
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.548546,
+        0.668422,
+        0.590114
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        335.71,
+        617.5,
+        361.15
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.548546,
+        0.779672,
+        0.590114
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        335.71,
+        683.62,
+        361.15
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.548546,
+        0.863157,
+        0.590114
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        335.71,
+        727.78,
+        361.15
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.548546,
+        0.918914,
+        0.590114
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        335.71,
+        772.0,
+        361.15
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.548546,
+        0.974747,
+        0.590114
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        361.15,
+        64.344,
+        386.59
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.590114,
+        0.081242,
+        0.631683
+      ],
+      "source": "written",
+      "value": "Glochidion malabaricum",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        361.15,
+        108.589,
+        386.59
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.590114,
+        0.137107,
+        0.631683
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        361.15,
+        152.42,
+        386.59
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.590114,
+        0.192449,
+        0.631683
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        361.15,
+        240.53,
+        386.59
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.590114,
+        0.303699,
+        0.631683
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        361.15,
+        306.65,
+        386.59
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.590114,
+        0.387184,
+        0.631683
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        361.15,
+        350.81,
+        386.59
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.590114,
+        0.442942,
+        0.631683
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        361.15,
+        396.11,
+        386.59
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.590114,
+        0.500139,
+        0.631683
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        361.15,
+        441.31,
+        386.59
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.590114,
+        0.55721,
+        0.631683
+      ],
+      "source": "written",
+      "value": "Holigarna nigra",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        361.15,
+        485.556,
+        386.59
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.590114,
+        0.613076,
+        0.631683
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        361.15,
+        529.39,
+        386.59
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.590114,
+        0.668422,
+        0.631683
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        361.15,
+        617.5,
+        386.59
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.590114,
+        0.779672,
+        0.631683
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        361.15,
+        683.62,
+        386.59
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.590114,
+        0.863157,
+        0.631683
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        361.15,
+        727.78,
+        386.59
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.590114,
+        0.918914,
+        0.631683
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        361.15,
+        772.0,
+        386.59
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.590114,
+        0.974747,
+        0.631683
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        386.59,
+        64.344,
+        412.033
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.631683,
+        0.081242,
+        0.673257
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        386.59,
+        108.589,
+        412.033
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.631683,
+        0.137107,
+        0.673257
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        386.59,
+        152.42,
+        412.033
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.631683,
+        0.192449,
+        0.673257
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        386.59,
+        240.53,
+        412.033
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.631683,
+        0.303699,
+        0.673257
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        386.59,
+        306.65,
+        412.033
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.631683,
+        0.387184,
+        0.673257
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        386.59,
+        350.81,
+        412.033
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.631683,
+        0.442942,
+        0.673257
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        386.59,
+        396.11,
+        412.033
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.631683,
+        0.500139,
+        0.673257
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        386.59,
+        441.31,
+        412.033
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.631683,
+        0.55721,
+        0.673257
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        386.59,
+        485.556,
+        412.033
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.631683,
+        0.613076,
+        0.673257
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        386.59,
+        529.39,
+        412.033
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.631683,
+        0.668422,
+        0.673257
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        386.59,
+        617.5,
+        412.033
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.631683,
+        0.779672,
+        0.673257
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        386.59,
+        683.62,
+        412.033
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.631683,
+        0.863157,
+        0.673257
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        386.59,
+        727.78,
+        412.033
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.631683,
+        0.918914,
+        0.673257
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        386.59,
+        772.0,
+        412.033
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.631683,
+        0.974747,
+        0.673257
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        412.033,
+        64.344,
+        437.545
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.673257,
+        0.081242,
+        0.714943
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        412.033,
+        108.589,
+        437.545
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.673257,
+        0.137107,
+        0.714943
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        412.033,
+        152.42,
+        437.545
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.673257,
+        0.192449,
+        0.714943
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        412.033,
+        240.53,
+        437.545
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.673257,
+        0.303699,
+        0.714943
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        412.033,
+        306.65,
+        437.545
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.673257,
+        0.387184,
+        0.714943
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        412.033,
+        350.81,
+        437.545
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.673257,
+        0.442942,
+        0.714943
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        412.033,
+        396.11,
+        437.545
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.673257,
+        0.500139,
+        0.714943
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        412.033,
+        441.31,
+        437.545
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.673257,
+        0.55721,
+        0.714943
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        412.033,
+        485.556,
+        437.545
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.673257,
+        0.613076,
+        0.714943
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        412.033,
+        529.39,
+        437.545
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.673257,
+        0.668422,
+        0.714943
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        412.033,
+        617.5,
+        437.545
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.673257,
+        0.779672,
+        0.714943
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        412.033,
+        683.62,
+        437.545
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.673257,
+        0.863157,
+        0.714943
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        412.033,
+        727.78,
+        437.545
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.673257,
+        0.918914,
+        0.714943
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        412.033,
+        772.0,
+        437.545
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.673257,
+        0.974747,
+        0.714943
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        437.545,
+        64.344,
+        463.0
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.714943,
+        0.081242,
+        0.756536
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        437.545,
+        108.589,
+        463.0
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.714943,
+        0.137107,
+        0.756536
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        437.545,
+        152.42,
+        463.0
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.714943,
+        0.192449,
+        0.756536
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        437.545,
+        240.53,
+        463.0
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.714943,
+        0.303699,
+        0.756536
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        437.545,
+        306.65,
+        463.0
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.714943,
+        0.387184,
+        0.756536
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        437.545,
+        350.81,
+        463.0
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.714943,
+        0.442942,
+        0.756536
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        437.545,
+        396.11,
+        463.0
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.714943,
+        0.500139,
+        0.756536
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        437.545,
+        441.31,
+        463.0
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.714943,
+        0.55721,
+        0.756536
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        437.545,
+        485.556,
+        463.0
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.714943,
+        0.613076,
+        0.756536
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        437.545,
+        529.39,
+        463.0
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.714943,
+        0.668422,
+        0.756536
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        437.545,
+        617.5,
+        463.0
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.714943,
+        0.779672,
+        0.756536
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        437.545,
+        683.62,
+        463.0
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.714943,
+        0.863157,
+        0.756536
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        437.545,
+        727.78,
+        463.0
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.714943,
+        0.918914,
+        0.756536
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        437.545,
+        772.0,
+        463.0
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.714943,
+        0.974747,
+        0.756536
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        463.0,
+        64.344,
+        488.38
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.756536,
+        0.081242,
+        0.798007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        463.0,
+        108.589,
+        488.38
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.756536,
+        0.137107,
+        0.798007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        463.0,
+        152.42,
+        488.38
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.756536,
+        0.192449,
+        0.798007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        463.0,
+        240.53,
+        488.38
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.756536,
+        0.303699,
+        0.798007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        463.0,
+        306.65,
+        488.38
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.756536,
+        0.387184,
+        0.798007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        463.0,
+        350.81,
+        488.38
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.756536,
+        0.442942,
+        0.798007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        463.0,
+        396.11,
+        488.38
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.756536,
+        0.500139,
+        0.798007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        463.0,
+        441.31,
+        488.38
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.756536,
+        0.55721,
+        0.798007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        463.0,
+        485.556,
+        488.38
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.756536,
+        0.613076,
+        0.798007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        463.0,
+        529.39,
+        488.38
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.756536,
+        0.668422,
+        0.798007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        463.0,
+        617.5,
+        488.38
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.756536,
+        0.779672,
+        0.798007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        463.0,
+        683.62,
+        488.38
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.756536,
+        0.863157,
+        0.798007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        463.0,
+        727.78,
+        488.38
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.756536,
+        0.918914,
+        0.798007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        463.0,
+        772.0,
+        488.38
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.756536,
+        0.974747,
+        0.798007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        488.38,
+        64.344,
+        513.816
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.798007,
+        0.081242,
+        0.839569
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        488.38,
+        108.589,
+        513.816
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.798007,
+        0.137107,
+        0.839569
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        488.38,
+        152.42,
+        513.816
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.798007,
+        0.192449,
+        0.839569
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        488.38,
+        240.53,
+        513.816
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.798007,
+        0.303699,
+        0.839569
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        488.38,
+        306.65,
+        513.816
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.798007,
+        0.387184,
+        0.839569
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        488.38,
+        350.81,
+        513.816
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.798007,
+        0.442942,
+        0.839569
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        488.38,
+        396.11,
+        513.816
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.798007,
+        0.500139,
+        0.839569
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        488.38,
+        441.31,
+        513.816
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.798007,
+        0.55721,
+        0.839569
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        488.38,
+        485.556,
+        513.816
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.798007,
+        0.613076,
+        0.839569
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        488.38,
+        529.39,
+        513.816
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.798007,
+        0.668422,
+        0.839569
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        488.38,
+        617.5,
+        513.816
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.798007,
+        0.779672,
+        0.839569
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        488.38,
+        683.62,
+        513.816
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.798007,
+        0.863157,
+        0.839569
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        488.38,
+        727.78,
+        513.816
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.798007,
+        0.918914,
+        0.839569
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        488.38,
+        772.0,
+        513.816
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.798007,
+        0.974747,
+        0.839569
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        513.816,
+        64.344,
+        539.34
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.839569,
+        0.081242,
+        0.881275
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        513.816,
+        108.589,
+        539.34
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.839569,
+        0.137107,
+        0.881275
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        513.816,
+        152.42,
+        539.34
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.839569,
+        0.192449,
+        0.881275
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        513.816,
+        240.53,
+        539.34
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.839569,
+        0.303699,
+        0.881275
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        513.816,
+        306.65,
+        539.34
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.839569,
+        0.387184,
+        0.881275
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        513.816,
+        350.81,
+        539.34
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.839569,
+        0.442942,
+        0.881275
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        513.816,
+        396.11,
+        539.34
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.839569,
+        0.500139,
+        0.881275
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        513.816,
+        441.31,
+        539.34
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.839569,
+        0.55721,
+        0.881275
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        513.816,
+        485.556,
+        539.34
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.839569,
+        0.613076,
+        0.881275
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        513.816,
+        529.39,
+        539.34
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.839569,
+        0.668422,
+        0.881275
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        513.816,
+        617.5,
+        539.34
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.839569,
+        0.779672,
+        0.881275
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        513.816,
+        683.62,
+        539.34
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.839569,
+        0.863157,
+        0.881275
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        513.816,
+        727.78,
+        539.34
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.839569,
+        0.918914,
+        0.881275
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        513.816,
+        772.0,
+        539.34
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.839569,
+        0.974747,
+        0.881275
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        539.34,
+        64.344,
+        564.72
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.881275,
+        0.081242,
+        0.922745
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        539.34,
+        108.589,
+        564.72
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.881275,
+        0.137107,
+        0.922745
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        539.34,
+        152.42,
+        564.72
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.881275,
+        0.192449,
+        0.922745
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        539.34,
+        240.53,
+        564.72
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.881275,
+        0.303699,
+        0.922745
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        539.34,
+        306.65,
+        564.72
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.881275,
+        0.387184,
+        0.922745
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        539.34,
+        350.81,
+        564.72
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.881275,
+        0.442942,
+        0.922745
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        539.34,
+        396.11,
+        564.72
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.881275,
+        0.500139,
+        0.922745
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        539.34,
+        441.31,
+        564.72
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.881275,
+        0.55721,
+        0.922745
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        539.34,
+        485.556,
+        564.72
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.881275,
+        0.613076,
+        0.922745
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        539.34,
+        529.39,
+        564.72
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.881275,
+        0.668422,
+        0.922745
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        539.34,
+        617.5,
+        564.72
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.881275,
+        0.779672,
+        0.922745
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        539.34,
+        683.62,
+        564.72
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.881275,
+        0.863157,
+        0.922745
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        539.34,
+        727.78,
+        564.72
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.881275,
+        0.918914,
+        0.922745
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        539.34,
+        772.0,
+        564.72
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.881275,
+        0.974747,
+        0.922745
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        20.19,
+        564.72,
+        64.344,
+        590.22
+      ],
+      "bbox_norm": [
+        0.025492,
+        0.922745,
+        0.081242,
+        0.964412
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        64.344,
+        564.72,
+        108.589,
+        590.22
+      ],
+      "bbox_norm": [
+        0.081242,
+        0.922745,
+        0.137107,
+        0.964412
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        108.589,
+        564.72,
+        152.42,
+        590.22
+      ],
+      "bbox_norm": [
+        0.137107,
+        0.922745,
+        0.192449,
+        0.964412
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        152.42,
+        564.72,
+        240.53,
+        590.22
+      ],
+      "bbox_norm": [
+        0.192449,
+        0.922745,
+        0.303699,
+        0.964412
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        240.53,
+        564.72,
+        306.65,
+        590.22
+      ],
+      "bbox_norm": [
+        0.303699,
+        0.922745,
+        0.387184,
+        0.964412
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        306.65,
+        564.72,
+        350.81,
+        590.22
+      ],
+      "bbox_norm": [
+        0.387184,
+        0.922745,
+        0.442942,
+        0.964412
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        350.81,
+        564.72,
+        396.11,
+        590.22
+      ],
+      "bbox_norm": [
+        0.442942,
+        0.922745,
+        0.500139,
+        0.964412
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.11,
+        564.72,
+        441.31,
+        590.22
+      ],
+      "bbox_norm": [
+        0.500139,
+        0.922745,
+        0.55721,
+        0.964412
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Max Relief: Species"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        441.31,
+        564.72,
+        485.556,
+        590.22
+      ],
+      "bbox_norm": [
+        0.55721,
+        0.922745,
+        0.613076,
+        0.964412
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1-5 cm | 1-5 cm"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        485.556,
+        564.72,
+        529.39,
+        590.22
+      ],
+      "bbox_norm": [
+        0.613076,
+        0.922745,
+        0.668422,
+        0.964412
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6-10 cm | 6-10 cm"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        529.39,
+        564.72,
+        617.5,
+        590.22
+      ],
+      "bbox_norm": [
+        0.668422,
+        0.922745,
+        0.779672,
+        0.964412
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "11-20 cm | 11-20 cm"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        617.5,
+        564.72,
+        683.62,
+        590.22
+      ],
+      "bbox_norm": [
+        0.779672,
+        0.922745,
+        0.863157,
+        0.964412
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "21-30 cm | Comments: 21-30 cm"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        683.62,
+        564.72,
+        727.78,
+        590.22
+      ],
+      "bbox_norm": [
+        0.863157,
+        0.922745,
+        0.918914,
+        0.964412
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "31-40 cm | 31-40 cm"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        727.78,
+        564.72,
+        772.0,
+        590.22
+      ],
+      "bbox_norm": [
+        0.918914,
+        0.922745,
+        0.974747,
+        0.964412
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "> 40 cm (cm interval) | > 40 cm (cm interval)"
+    }
+  ]
+}

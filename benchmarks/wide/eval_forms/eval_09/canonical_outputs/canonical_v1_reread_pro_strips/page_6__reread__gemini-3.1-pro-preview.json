@@ -1,0 +1,332 @@
+{
+  "decisions": [
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "298",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "300",
+      "column_id": "col_flowers_open",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "300",
+      "column_id": "col_fruits_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "302",
+      "column_id": "col_flowers_open",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "302",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "303",
+      "column_id": "col_flowers_open",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "304",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '4'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "304",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "305",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "306",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "308",
+      "column_id": "col_fruits_ripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "309",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "310",
+      "column_id": "col_fruits_unripe",
+      "value": "1",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '1'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "312",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "315",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "317",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "319",
+      "column_id": "col_leaves_flush",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "319",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "319",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "320",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '4'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "320",
+      "column_id": "col_flowers_buds",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "320",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "320",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "321",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "321",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "322",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '4'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "322",
+      "column_id": "col_flowers_buds",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "322",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "322",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "323",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '4'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "323",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "The cell contains a 'Y'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "323",
+      "column_id": "col_flowers_buds",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "323",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "323",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "324",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "324",
+      "column_id": "col_fruits_unripe",
+      "value": "2",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '2'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "324",
+      "column_id": "col_fruits_ripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "325",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "325",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "326",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "The cell contains an 'N'."
+    },
+    {
+      "table_id": "tree_phenology_table",
+      "row_id": "326",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0'."
+    }
+  ]
+}

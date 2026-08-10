@@ -1,0 +1,5745 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nvs_recce_plot.pdf",
+  "page": 2,
+  "page_size_points": [
+    595.32,
+    842.04
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 2,
+      "row": 3,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        113.78,
+        105.38,
+        131.78
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.135124,
+        0.177014,
+        0.156501
+      ],
+      "source": "written",
+      "value": "219",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        113.78,
+        183.02,
+        131.78
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.135124,
+        0.307431,
+        0.156501
+      ],
+      "source": "printed",
+      "value": "Tier 1",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        113.78,
+        260.81,
+        131.78
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.135124,
+        0.438101,
+        0.156501
+      ],
+      "source": "printed",
+      "value": "Tier 2",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        113.78,
+        338.47,
+        131.78
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.135124,
+        0.568551,
+        0.156501
+      ],
+      "source": "printed",
+      "value": "Tier 3",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        113.78,
+        416.23,
+        131.78
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.135124,
+        0.69917,
+        0.156501
+      ],
+      "source": "printed",
+      "value": "Tier 4",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        113.78,
+        494.02,
+        131.78
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.135124,
+        0.829839,
+        0.156501
+      ],
+      "source": "printed",
+      "value": "Tier 5",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        113.78,
+        571.8,
+        131.78
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.135124,
+        0.960492,
+        0.156501
+      ],
+      "source": "printed",
+      "value": "Tier 6",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        131.78,
+        105.38,
+        150.62
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.156501,
+        0.177014,
+        0.178875
+      ],
+      "source": "written",
+      "value": "249",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        131.78,
+        183.02,
+        150.62
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.156501,
+        0.307431,
+        0.178875
+      ],
+      "source": "printed",
+      "value": ">25 m",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        131.78,
+        260.81,
+        150.62
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.156501,
+        0.438101,
+        0.178875
+      ],
+      "source": "printed",
+      "value": "12\u201325 m",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        131.78,
+        338.47,
+        150.62
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.156501,
+        0.568551,
+        0.178875
+      ],
+      "source": "printed",
+      "value": "5\u201312 m",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        131.78,
+        416.23,
+        150.62
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.156501,
+        0.69917,
+        0.178875
+      ],
+      "source": "printed",
+      "value": "2\u20135 m",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        131.78,
+        494.02,
+        150.62
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.156501,
+        0.829839,
+        0.178875
+      ],
+      "source": "printed",
+      "value": "0.3\u20132 m",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        131.78,
+        571.8,
+        150.62
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.156501,
+        0.960492,
+        0.178875
+      ],
+      "source": "printed",
+      "value": "<0.3 m",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        150.62,
+        105.38,
+        168.62
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.178875,
+        0.177014,
+        0.200252
+      ],
+      "source": "printed",
+      "value": "Overall Cover",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        150.62,
+        183.02,
+        168.62
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.178875,
+        0.307431,
+        0.200252
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        150.62,
+        260.81,
+        168.62
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.178875,
+        0.438101,
+        0.200252
+      ],
+      "source": "written",
+      "value": "75",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        150.62,
+        338.47,
+        168.62
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.178875,
+        0.568551,
+        0.200252
+      ],
+      "source": "written",
+      "value": "112",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        150.62,
+        416.23,
+        168.62
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.178875,
+        0.69917,
+        0.200252
+      ],
+      "source": "written",
+      "value": "Dinesh",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        150.62,
+        494.02,
+        168.62
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.178875,
+        0.829839,
+        0.200252
+      ],
+      "source": "written",
+      "value": "21.1",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        150.62,
+        571.8,
+        168.62
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.178875,
+        0.960492,
+        0.200252
+      ],
+      "source": "written",
+      "value": "Boothahami",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        168.62,
+        105.38,
+        185.78
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.200252,
+        0.177014,
+        0.220631
+      ],
+      "source": "written",
+      "value": "35",
+      "mark": "text",
+      "value_kind": "percent"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        168.62,
+        183.02,
+        185.78
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.200252,
+        0.307431,
+        0.220631
+      ],
+      "source": "written",
+      "value": "06/05/24",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        168.62,
+        260.81,
+        185.78
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.200252,
+        0.438101,
+        0.220631
+      ],
+      "source": "written",
+      "value": "190",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        168.62,
+        338.47,
+        185.78
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.200252,
+        0.568551,
+        0.220631
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        168.62,
+        416.23,
+        185.78
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.200252,
+        0.69917,
+        0.220631
+      ],
+      "source": "written",
+      "value": "Deepa",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        168.62,
+        494.02,
+        185.78
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.200252,
+        0.829839,
+        0.220631
+      ],
+      "source": "written",
+      "value": "147.6",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        168.62,
+        571.8,
+        185.78
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.200252,
+        0.960492,
+        0.220631
+      ],
+      "source": "written",
+      "value": "Selai",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        185.78,
+        105.38,
+        203.78
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.220631,
+        0.177014,
+        0.242007
+      ],
+      "source": "printed",
+      "value": "Tier 7",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        185.78,
+        183.02,
+        203.78
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.220631,
+        0.307431,
+        0.242007
+      ],
+      "source": "written",
+      "value": "14/02/21",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        185.78,
+        260.81,
+        203.78
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.220631,
+        0.438101,
+        0.242007
+      ],
+      "source": "written",
+      "value": "134",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        185.78,
+        338.47,
+        203.78
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.220631,
+        0.568551,
+        0.242007
+      ],
+      "source": "written",
+      "value": "1",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        185.78,
+        416.23,
+        203.78
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.220631,
+        0.69917,
+        0.242007
+      ],
+      "source": "written",
+      "value": "Priya",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        185.78,
+        494.02,
+        203.78
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.220631,
+        0.829839,
+        0.242007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        185.78,
+        571.8,
+        203.78
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.220631,
+        0.960492,
+        0.242007
+      ],
+      "source": "written",
+      "value": "Korum",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        203.78,
+        105.38,
+        221.793
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.242007,
+        0.177014,
+        0.2634
+      ],
+      "source": "printed",
+      "value": "Epiphytes",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        203.78,
+        183.02,
+        221.793
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.242007,
+        0.307431,
+        0.2634
+      ],
+      "source": "written",
+      "value": "27/06/23",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        203.78,
+        260.81,
+        221.793
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.242007,
+        0.438101,
+        0.2634
+      ],
+      "source": "written",
+      "value": "189",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        203.78,
+        338.47,
+        221.793
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.242007,
+        0.568551,
+        0.2634
+      ],
+      "source": "written",
+      "value": "17",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        203.78,
+        416.23,
+        221.793
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.242007,
+        0.69917,
+        0.2634
+      ],
+      "source": "written",
+      "value": "Ravi",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        203.78,
+        494.02,
+        221.793
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.242007,
+        0.829839,
+        0.2634
+      ],
+      "source": "written",
+      "value": "176.8",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        203.78,
+        571.8,
+        221.793
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.242007,
+        0.960492,
+        0.2634
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        221.793,
+        105.38,
+        239.78
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.2634,
+        0.177014,
+        0.284761
+      ],
+      "source": "written",
+      "value": "110",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        221.793,
+        183.02,
+        239.78
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.2634,
+        0.307431,
+        0.284761
+      ],
+      "source": "written",
+      "value": "02/12/23",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        221.793,
+        260.81,
+        239.78
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.2634,
+        0.438101,
+        0.284761
+      ],
+      "source": "written",
+      "value": "162",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        221.793,
+        338.47,
+        239.78
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.2634,
+        0.568551,
+        0.284761
+      ],
+      "source": "written",
+      "value": "29",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        221.793,
+        416.23,
+        239.78
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.2634,
+        0.69917,
+        0.284761
+      ],
+      "source": "written",
+      "value": "Mohan",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        221.793,
+        494.02,
+        239.78
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.2634,
+        0.829839,
+        0.284761
+      ],
+      "source": "written",
+      "value": "101.5",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        221.793,
+        571.8,
+        239.78
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.2634,
+        0.960492,
+        0.284761
+      ],
+      "source": "written",
+      "value": "Vengai",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        239.78,
+        105.38,
+        257.78
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.284761,
+        0.177014,
+        0.306137
+      ],
+      "source": "written",
+      "value": "133",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        239.78,
+        183.02,
+        257.78
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.284761,
+        0.307431,
+        0.306137
+      ],
+      "source": "written",
+      "value": "13/04/19",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        239.78,
+        260.81,
+        257.78
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.284761,
+        0.438101,
+        0.306137
+      ],
+      "source": "written",
+      "value": "55",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        239.78,
+        338.47,
+        257.78
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.284761,
+        0.568551,
+        0.306137
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        239.78,
+        416.23,
+        257.78
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.284761,
+        0.69917,
+        0.306137
+      ],
+      "source": "written",
+      "value": "Mohan",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        239.78,
+        494.02,
+        257.78
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.284761,
+        0.829839,
+        0.306137
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        239.78,
+        571.8,
+        257.78
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.284761,
+        0.960492,
+        0.306137
+      ],
+      "source": "written",
+      "value": "Ulumai",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        257.78,
+        105.38,
+        275.81
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.306137,
+        0.177014,
+        0.32755
+      ],
+      "source": "written",
+      "value": "154",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        257.78,
+        183.02,
+        275.81
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.306137,
+        0.307431,
+        0.32755
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        257.78,
+        260.81,
+        275.81
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.306137,
+        0.438101,
+        0.32755
+      ],
+      "source": "written",
+      "value": "18",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        257.78,
+        338.47,
+        275.81
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.306137,
+        0.568551,
+        0.32755
+      ],
+      "source": "written",
+      "value": "168",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        257.78,
+        416.23,
+        275.81
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.306137,
+        0.69917,
+        0.32755
+      ],
+      "source": "written",
+      "value": "Arjun",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        257.78,
+        494.02,
+        275.81
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.306137,
+        0.829839,
+        0.32755
+      ],
+      "source": "written",
+      "value": "135.8",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        257.78,
+        571.8,
+        275.81
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.306137,
+        0.960492,
+        0.32755
+      ],
+      "source": "written",
+      "value": "Nooli",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        275.81,
+        105.38,
+        293.81
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.32755,
+        0.177014,
+        0.348926
+      ],
+      "source": "written",
+      "value": "204",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        275.81,
+        183.02,
+        293.81
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.32755,
+        0.307431,
+        0.348926
+      ],
+      "source": "written",
+      "value": "10/07/24",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        275.81,
+        260.81,
+        293.81
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.32755,
+        0.438101,
+        0.348926
+      ],
+      "source": "written",
+      "value": "84",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        275.81,
+        338.47,
+        293.81
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.32755,
+        0.568551,
+        0.348926
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        275.81,
+        416.23,
+        293.81
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.32755,
+        0.69917,
+        0.348926
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        275.81,
+        494.02,
+        293.81
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.32755,
+        0.829839,
+        0.348926
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        275.81,
+        571.8,
+        293.81
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.32755,
+        0.960492,
+        0.348926
+      ],
+      "source": "written",
+      "value": "Vengai",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        293.81,
+        105.38,
+        311.81
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.348926,
+        0.177014,
+        0.370303
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        293.81,
+        183.02,
+        311.81
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.348926,
+        0.307431,
+        0.370303
+      ],
+      "source": "written",
+      "value": "27/05/24",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        293.81,
+        260.81,
+        311.81
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.348926,
+        0.438101,
+        0.370303
+      ],
+      "source": "written",
+      "value": "33",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        293.81,
+        338.47,
+        311.81
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.348926,
+        0.568551,
+        0.370303
+      ],
+      "source": "written",
+      "value": "125",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        293.81,
+        416.23,
+        311.81
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.348926,
+        0.69917,
+        0.370303
+      ],
+      "source": "written",
+      "value": "Kavita",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        293.81,
+        494.02,
+        311.81
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.348926,
+        0.829839,
+        0.370303
+      ],
+      "source": "written",
+      "value": "163.2",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        293.81,
+        571.8,
+        311.81
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.348926,
+        0.960492,
+        0.370303
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        311.81,
+        105.38,
+        329.81
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.370303,
+        0.177014,
+        0.39168
+      ],
+      "source": "written",
+      "value": "163",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        311.81,
+        183.02,
+        329.81
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.370303,
+        0.307431,
+        0.39168
+      ],
+      "source": "written",
+      "value": "25/07/19",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        311.81,
+        260.81,
+        329.81
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.370303,
+        0.438101,
+        0.39168
+      ],
+      "source": "written",
+      "value": "133",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        311.81,
+        338.47,
+        329.81
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.370303,
+        0.568551,
+        0.39168
+      ],
+      "source": "written",
+      "value": "115",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        311.81,
+        416.23,
+        329.81
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.370303,
+        0.69917,
+        0.39168
+      ],
+      "source": "written",
+      "value": "Sunita",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        311.81,
+        494.02,
+        329.81
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.370303,
+        0.829839,
+        0.39168
+      ],
+      "source": "written",
+      "value": "133.1",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        311.81,
+        571.8,
+        329.81
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.370303,
+        0.960492,
+        0.39168
+      ],
+      "source": "written",
+      "value": "Kadukai",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        329.81,
+        105.38,
+        347.81
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.39168,
+        0.177014,
+        0.413056
+      ],
+      "source": "written",
+      "value": "68",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        329.81,
+        183.02,
+        347.81
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.39168,
+        0.307431,
+        0.413056
+      ],
+      "source": "written",
+      "value": "09/11/23",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        329.81,
+        260.81,
+        347.81
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.39168,
+        0.438101,
+        0.413056
+      ],
+      "source": "written",
+      "value": "55",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        329.81,
+        338.47,
+        347.81
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.39168,
+        0.568551,
+        0.413056
+      ],
+      "source": "written",
+      "value": "119",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        329.81,
+        416.23,
+        347.81
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.39168,
+        0.69917,
+        0.413056
+      ],
+      "source": "written",
+      "value": "Selvam",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        329.81,
+        494.02,
+        347.81
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.39168,
+        0.829839,
+        0.413056
+      ],
+      "source": "written",
+      "value": "57.1",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        329.81,
+        571.8,
+        347.81
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.39168,
+        0.960492,
+        0.413056
+      ],
+      "source": "written",
+      "value": "Karimaram",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        347.81,
+        105.38,
+        365.81
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.413056,
+        0.177014,
+        0.434433
+      ],
+      "source": "written",
+      "value": "89",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        347.81,
+        183.02,
+        365.81
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.413056,
+        0.307431,
+        0.434433
+      ],
+      "source": "written",
+      "value": "22/11/25",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        347.81,
+        260.81,
+        365.81
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.413056,
+        0.438101,
+        0.434433
+      ],
+      "source": "written",
+      "value": "116",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        347.81,
+        338.47,
+        365.81
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.413056,
+        0.568551,
+        0.434433
+      ],
+      "source": "written",
+      "value": "67",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        347.81,
+        416.23,
+        365.81
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.413056,
+        0.69917,
+        0.434433
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        347.81,
+        494.02,
+        365.81
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.413056,
+        0.829839,
+        0.434433
+      ],
+      "source": "written",
+      "value": "118.6",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        347.81,
+        571.8,
+        365.81
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.413056,
+        0.960492,
+        0.434433
+      ],
+      "source": "written",
+      "value": "Maaki",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        365.81,
+        105.38,
+        383.81
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.434433,
+        0.177014,
+        0.45581
+      ],
+      "source": "written",
+      "value": "184",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        365.81,
+        183.02,
+        383.81
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.434433,
+        0.307431,
+        0.45581
+      ],
+      "source": "written",
+      "value": "23/07/19",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        365.81,
+        260.81,
+        383.81
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.434433,
+        0.438101,
+        0.45581
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        365.81,
+        338.47,
+        383.81
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.434433,
+        0.568551,
+        0.45581
+      ],
+      "source": "written",
+      "value": "190",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        365.81,
+        416.23,
+        383.81
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.434433,
+        0.69917,
+        0.45581
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        365.81,
+        494.02,
+        383.81
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.434433,
+        0.829839,
+        0.45581
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        365.81,
+        571.8,
+        383.81
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.434433,
+        0.960492,
+        0.45581
+      ],
+      "source": "written",
+      "value": "Vagai",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        383.81,
+        105.38,
+        401.81
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.45581,
+        0.177014,
+        0.477186
+      ],
+      "source": "written",
+      "value": "120",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        383.81,
+        183.02,
+        401.81
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.45581,
+        0.307431,
+        0.477186
+      ],
+      "source": "written",
+      "value": "19/09/19",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        383.81,
+        260.81,
+        401.81
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.45581,
+        0.438101,
+        0.477186
+      ],
+      "source": "written",
+      "value": "145",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        383.81,
+        338.47,
+        401.81
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.45581,
+        0.568551,
+        0.477186
+      ],
+      "source": "written",
+      "value": "208",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        383.81,
+        416.23,
+        401.81
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.45581,
+        0.69917,
+        0.477186
+      ],
+      "source": "written",
+      "value": "Ravi",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        383.81,
+        494.02,
+        401.81
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.45581,
+        0.829839,
+        0.477186
+      ],
+      "source": "written",
+      "value": "24.7",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        383.81,
+        571.8,
+        401.81
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.45581,
+        0.960492,
+        0.477186
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        401.81,
+        105.38,
+        419.81
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.477186,
+        0.177014,
+        0.498563
+      ],
+      "source": "written",
+      "value": "221",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        401.81,
+        183.02,
+        419.81
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.477186,
+        0.307431,
+        0.498563
+      ],
+      "source": "written",
+      "value": "12/05/23",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        401.81,
+        260.81,
+        419.81
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.477186,
+        0.438101,
+        0.498563
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        401.81,
+        338.47,
+        419.81
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.477186,
+        0.568551,
+        0.498563
+      ],
+      "source": "written",
+      "value": "57",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        401.81,
+        416.23,
+        419.81
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.477186,
+        0.69917,
+        0.498563
+      ],
+      "source": "written",
+      "value": "Vijay",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        401.81,
+        494.02,
+        419.81
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.477186,
+        0.829839,
+        0.498563
+      ],
+      "source": "written",
+      "value": "27.2",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        401.81,
+        571.8,
+        419.81
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.477186,
+        0.960492,
+        0.498563
+      ],
+      "source": "written",
+      "value": "Seengali",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        419.81,
+        105.38,
+        437.81
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.498563,
+        0.177014,
+        0.51994
+      ],
+      "source": "written",
+      "value": "182",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        419.81,
+        183.02,
+        437.81
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.498563,
+        0.307431,
+        0.51994
+      ],
+      "source": "written",
+      "value": "26/04/21",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        419.81,
+        260.81,
+        437.81
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.498563,
+        0.438101,
+        0.51994
+      ],
+      "source": "written",
+      "value": "231",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        419.81,
+        338.47,
+        437.81
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.498563,
+        0.568551,
+        0.51994
+      ],
+      "source": "written",
+      "value": "29",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        419.81,
+        416.23,
+        437.81
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.498563,
+        0.69917,
+        0.51994
+      ],
+      "source": "written",
+      "value": "Nandini",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        419.81,
+        494.02,
+        437.81
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.498563,
+        0.829839,
+        0.51994
+      ],
+      "source": "written",
+      "value": "56.4",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        419.81,
+        571.8,
+        437.81
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.498563,
+        0.960492,
+        0.51994
+      ],
+      "source": "written",
+      "value": "Pala",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        437.81,
+        105.38,
+        455.83
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.51994,
+        0.177014,
+        0.54134
+      ],
+      "source": "written",
+      "value": "179",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        437.81,
+        183.02,
+        455.83
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.51994,
+        0.307431,
+        0.54134
+      ],
+      "source": "written",
+      "value": "09/08/24",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        437.81,
+        260.81,
+        455.83
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.51994,
+        0.438101,
+        0.54134
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        437.81,
+        338.47,
+        455.83
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.51994,
+        0.568551,
+        0.54134
+      ],
+      "source": "written",
+      "value": "182",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        437.81,
+        416.23,
+        455.83
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.51994,
+        0.69917,
+        0.54134
+      ],
+      "source": "written",
+      "value": "Deepa",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        437.81,
+        494.02,
+        455.83
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.51994,
+        0.829839,
+        0.54134
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        437.81,
+        571.8,
+        455.83
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.51994,
+        0.960492,
+        0.54134
+      ],
+      "source": "written",
+      "value": "Thembavu",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        455.83,
+        105.38,
+        473.83
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.54134,
+        0.177014,
+        0.562717
+      ],
+      "source": "written",
+      "value": "89",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        455.83,
+        183.02,
+        473.83
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.54134,
+        0.307431,
+        0.562717
+      ],
+      "source": "written",
+      "value": "21/11/22",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        455.83,
+        260.81,
+        473.83
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.54134,
+        0.438101,
+        0.562717
+      ],
+      "source": "written",
+      "value": "188",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        455.83,
+        338.47,
+        473.83
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.54134,
+        0.568551,
+        0.562717
+      ],
+      "source": "written",
+      "value": "227",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        455.83,
+        416.23,
+        473.83
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.54134,
+        0.69917,
+        0.562717
+      ],
+      "source": "written",
+      "value": "Suresh",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        455.83,
+        494.02,
+        473.83
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.54134,
+        0.829839,
+        0.562717
+      ],
+      "source": "written",
+      "value": "40.4",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        455.83,
+        571.8,
+        473.83
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.54134,
+        0.960492,
+        0.562717
+      ],
+      "source": "written",
+      "value": "Icoruu",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        473.83,
+        105.38,
+        491.83
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.562717,
+        0.177014,
+        0.584093
+      ],
+      "source": "written",
+      "value": "129",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        473.83,
+        183.02,
+        491.83
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.562717,
+        0.307431,
+        0.584093
+      ],
+      "source": "written",
+      "value": "22/10/22",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        473.83,
+        260.81,
+        491.83
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.562717,
+        0.438101,
+        0.584093
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        473.83,
+        338.47,
+        491.83
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.562717,
+        0.568551,
+        0.584093
+      ],
+      "source": "written",
+      "value": "36",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        473.83,
+        416.23,
+        491.83
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.562717,
+        0.69917,
+        0.584093
+      ],
+      "source": "written",
+      "value": "Ganesh",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        473.83,
+        494.02,
+        491.83
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.562717,
+        0.829839,
+        0.584093
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        473.83,
+        571.8,
+        491.83
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.562717,
+        0.960492,
+        0.584093
+      ],
+      "source": "written",
+      "value": "Kanuvai",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        491.83,
+        105.38,
+        509.83
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.584093,
+        0.177014,
+        0.60547
+      ],
+      "source": "written",
+      "value": "109",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        491.83,
+        183.02,
+        509.83
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.584093,
+        0.307431,
+        0.60547
+      ],
+      "source": "written",
+      "value": "18/09/22",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        491.83,
+        260.81,
+        509.83
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.584093,
+        0.438101,
+        0.60547
+      ],
+      "source": "written",
+      "value": "153",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        491.83,
+        338.47,
+        509.83
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.584093,
+        0.568551,
+        0.60547
+      ],
+      "source": "written",
+      "value": "116",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        491.83,
+        416.23,
+        509.83
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.584093,
+        0.69917,
+        0.60547
+      ],
+      "source": "written",
+      "value": "Manoj",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        491.83,
+        494.02,
+        509.83
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.584093,
+        0.829839,
+        0.60547
+      ],
+      "source": "written",
+      "value": "66.1",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        491.83,
+        571.8,
+        509.83
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.584093,
+        0.960492,
+        0.60547
+      ],
+      "source": "written",
+      "value": "Kadukai",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        509.83,
+        105.38,
+        527.83
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.60547,
+        0.177014,
+        0.626847
+      ],
+      "source": "written",
+      "value": "135",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        509.83,
+        183.02,
+        527.83
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.60547,
+        0.307431,
+        0.626847
+      ],
+      "source": "written",
+      "value": "05/10/21",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        509.83,
+        260.81,
+        527.83
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.60547,
+        0.438101,
+        0.626847
+      ],
+      "source": "written",
+      "value": "9",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        509.83,
+        338.47,
+        527.83
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.60547,
+        0.568551,
+        0.626847
+      ],
+      "source": "written",
+      "value": "43",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        509.83,
+        416.23,
+        527.83
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.60547,
+        0.69917,
+        0.626847
+      ],
+      "source": "written",
+      "value": "Sarita",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        509.83,
+        494.02,
+        527.83
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.60547,
+        0.829839,
+        0.626847
+      ],
+      "source": "written",
+      "value": "179.5",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        509.83,
+        571.8,
+        527.83
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.60547,
+        0.960492,
+        0.626847
+      ],
+      "source": "written",
+      "value": "Nooli",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        527.83,
+        105.38,
+        545.83
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.626847,
+        0.177014,
+        0.648223
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        527.83,
+        183.02,
+        545.83
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.626847,
+        0.307431,
+        0.648223
+      ],
+      "source": "written",
+      "value": "06/01/23",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        527.83,
+        260.81,
+        545.83
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.626847,
+        0.438101,
+        0.648223
+      ],
+      "source": "written",
+      "value": "11",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        527.83,
+        338.47,
+        545.83
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.626847,
+        0.568551,
+        0.648223
+      ],
+      "source": "written",
+      "value": "214",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        527.83,
+        416.23,
+        545.83
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.626847,
+        0.69917,
+        0.648223
+      ],
+      "source": "written",
+      "value": "Kavita",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        527.83,
+        494.02,
+        545.83
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.626847,
+        0.829839,
+        0.648223
+      ],
+      "source": "written",
+      "value": "94.7",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        527.83,
+        571.8,
+        545.83
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.626847,
+        0.960492,
+        0.648223
+      ],
+      "source": "written",
+      "value": "Icoruu",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        545.83,
+        105.38,
+        563.83
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.648223,
+        0.177014,
+        0.6696
+      ],
+      "source": "written",
+      "value": "117",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        545.83,
+        183.02,
+        563.83
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.648223,
+        0.307431,
+        0.6696
+      ],
+      "source": "written",
+      "value": "15/03/23",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        545.83,
+        260.81,
+        563.83
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.648223,
+        0.438101,
+        0.6696
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        545.83,
+        338.47,
+        563.83
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.648223,
+        0.568551,
+        0.6696
+      ],
+      "source": "written",
+      "value": "114",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        545.83,
+        416.23,
+        563.83
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.648223,
+        0.69917,
+        0.6696
+      ],
+      "source": "written",
+      "value": "Latha",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        545.83,
+        494.02,
+        563.83
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.648223,
+        0.829839,
+        0.6696
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        545.83,
+        571.8,
+        563.83
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.648223,
+        0.960492,
+        0.6696
+      ],
+      "source": "written",
+      "value": "Belai",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        563.83,
+        105.38,
+        581.83
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.6696,
+        0.177014,
+        0.690977
+      ],
+      "source": "written",
+      "value": "208",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        563.83,
+        183.02,
+        581.83
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.6696,
+        0.307431,
+        0.690977
+      ],
+      "source": "written",
+      "value": "19/03/19",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        563.83,
+        260.81,
+        581.83
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.6696,
+        0.438101,
+        0.690977
+      ],
+      "source": "written",
+      "value": "128",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        563.83,
+        338.47,
+        581.83
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.6696,
+        0.568551,
+        0.690977
+      ],
+      "source": "written",
+      "value": "102",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        563.83,
+        416.23,
+        581.83
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.6696,
+        0.69917,
+        0.690977
+      ],
+      "source": "written",
+      "value": "Latha",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        563.83,
+        494.02,
+        581.83
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.6696,
+        0.829839,
+        0.690977
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        563.83,
+        571.8,
+        581.83
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.6696,
+        0.960492,
+        0.690977
+      ],
+      "source": "written",
+      "value": "Kadukai",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        581.83,
+        105.38,
+        599.83
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.690977,
+        0.177014,
+        0.712353
+      ],
+      "source": "written",
+      "value": "18",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        581.83,
+        183.02,
+        599.83
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.690977,
+        0.307431,
+        0.712353
+      ],
+      "source": "written",
+      "value": "27/03/23",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        581.83,
+        260.81,
+        599.83
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.690977,
+        0.438101,
+        0.712353
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        581.83,
+        338.47,
+        599.83
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.690977,
+        0.568551,
+        0.712353
+      ],
+      "source": "written",
+      "value": "138",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        581.83,
+        416.23,
+        599.83
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.690977,
+        0.69917,
+        0.712353
+      ],
+      "source": "written",
+      "value": "Deepa",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        581.83,
+        494.02,
+        599.83
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.690977,
+        0.829839,
+        0.712353
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        581.83,
+        571.8,
+        599.83
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.690977,
+        0.960492,
+        0.712353
+      ],
+      "source": "written",
+      "value": "Nooli",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        599.83,
+        105.38,
+        617.83
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.712353,
+        0.177014,
+        0.73373
+      ],
+      "source": "written",
+      "value": "75",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        599.83,
+        183.02,
+        617.83
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.712353,
+        0.307431,
+        0.73373
+      ],
+      "source": "written",
+      "value": "10/01/24",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        599.83,
+        260.81,
+        617.83
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.712353,
+        0.438101,
+        0.73373
+      ],
+      "source": "written",
+      "value": "196",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        599.83,
+        338.47,
+        617.83
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.712353,
+        0.568551,
+        0.73373
+      ],
+      "source": "written",
+      "value": "49",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        599.83,
+        416.23,
+        617.83
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.712353,
+        0.69917,
+        0.73373
+      ],
+      "source": "written",
+      "value": "Lakshmi",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        599.83,
+        494.02,
+        617.83
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.712353,
+        0.829839,
+        0.73373
+      ],
+      "source": "written",
+      "value": "23.4",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        599.83,
+        571.8,
+        617.83
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.712353,
+        0.960492,
+        0.73373
+      ],
+      "source": "written",
+      "value": "Vengai",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        617.83,
+        105.38,
+        635.86
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.73373,
+        0.177014,
+        0.755142
+      ],
+      "source": "written",
+      "value": "72",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        617.83,
+        183.02,
+        635.86
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.73373,
+        0.307431,
+        0.755142
+      ],
+      "source": "written",
+      "value": "05/08/21",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        617.83,
+        260.81,
+        635.86
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.73373,
+        0.438101,
+        0.755142
+      ],
+      "source": "written",
+      "value": "129",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        617.83,
+        338.47,
+        635.86
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.73373,
+        0.568551,
+        0.755142
+      ],
+      "source": "written",
+      "value": "234",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        617.83,
+        416.23,
+        635.86
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.73373,
+        0.69917,
+        0.755142
+      ],
+      "source": "written",
+      "value": "Deepa",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        617.83,
+        494.02,
+        635.86
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.73373,
+        0.829839,
+        0.755142
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        617.83,
+        571.8,
+        635.86
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.73373,
+        0.960492,
+        0.755142
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        635.86,
+        105.38,
+        653.86
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.755142,
+        0.177014,
+        0.776519
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        635.86,
+        183.02,
+        653.86
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.755142,
+        0.307431,
+        0.776519
+      ],
+      "source": "written",
+      "value": "08/12/25",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        635.86,
+        260.81,
+        653.86
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.755142,
+        0.438101,
+        0.776519
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        635.86,
+        338.47,
+        653.86
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.755142,
+        0.568551,
+        0.776519
+      ],
+      "source": "written",
+      "value": "7",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        635.86,
+        416.23,
+        653.86
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.755142,
+        0.69917,
+        0.776519
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        635.86,
+        494.02,
+        653.86
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.755142,
+        0.829839,
+        0.776519
+      ],
+      "source": "written",
+      "value": "38.6",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        635.86,
+        571.8,
+        653.86
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.755142,
+        0.960492,
+        0.776519
+      ],
+      "source": "written",
+      "value": "Boothahami",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        653.86,
+        105.38,
+        671.86
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.776519,
+        0.177014,
+        0.797896
+      ],
+      "source": "written",
+      "value": "82",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        653.86,
+        183.02,
+        671.86
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.776519,
+        0.307431,
+        0.797896
+      ],
+      "source": "written",
+      "value": "23/03/23",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        653.86,
+        260.81,
+        671.86
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.776519,
+        0.438101,
+        0.797896
+      ],
+      "source": "written",
+      "value": "120",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        653.86,
+        338.47,
+        671.86
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.776519,
+        0.568551,
+        0.797896
+      ],
+      "source": "written",
+      "value": "106",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        653.86,
+        416.23,
+        671.86
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.776519,
+        0.69917,
+        0.797896
+      ],
+      "source": "written",
+      "value": "Lakshmi",
+      "mark": "text",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        653.86,
+        494.02,
+        671.86
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.776519,
+        0.829839,
+        0.797896
+      ],
+      "source": "written",
+      "value": "141.6",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        653.86,
+        571.8,
+        671.86
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.776519,
+        0.960492,
+        0.797896
+      ],
+      "source": "written",
+      "value": "Kadukai",
+      "mark": "text",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        671.86,
+        105.38,
+        689.86
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.797896,
+        0.177014,
+        0.819272
+      ],
+      "source": "written",
+      "value": "66",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        671.86,
+        183.02,
+        689.86
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.797896,
+        0.307431,
+        0.819272
+      ],
+      "source": "written",
+      "value": "03/10/21",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        671.86,
+        260.81,
+        689.86
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.797896,
+        0.438101,
+        0.819272
+      ],
+      "source": "written",
+      "value": "113",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        671.86,
+        338.47,
+        689.86
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.797896,
+        0.568551,
+        0.819272
+      ],
+      "source": "written",
+      "value": "156",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        671.86,
+        416.23,
+        689.86
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.797896,
+        0.69917,
+        0.819272
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        671.86,
+        494.02,
+        689.86
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.797896,
+        0.829839,
+        0.819272
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        671.86,
+        571.8,
+        689.86
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.797896,
+        0.960492,
+        0.819272
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        689.86,
+        105.38,
+        707.86
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.819272,
+        0.177014,
+        0.840649
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        689.86,
+        183.02,
+        707.86
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.819272,
+        0.307431,
+        0.840649
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        689.86,
+        260.81,
+        707.86
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.819272,
+        0.438101,
+        0.840649
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        689.86,
+        338.47,
+        707.86
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.819272,
+        0.568551,
+        0.840649
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        689.86,
+        416.23,
+        707.86
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.819272,
+        0.69917,
+        0.840649
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        689.86,
+        494.02,
+        707.86
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.819272,
+        0.829839,
+        0.840649
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        689.86,
+        571.8,
+        707.86
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.819272,
+        0.960492,
+        0.840649
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        707.86,
+        105.38,
+        725.86
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.840649,
+        0.177014,
+        0.862026
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        707.86,
+        183.02,
+        725.86
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.840649,
+        0.307431,
+        0.862026
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        707.86,
+        260.81,
+        725.86
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.840649,
+        0.438101,
+        0.862026
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        707.86,
+        338.47,
+        725.86
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.840649,
+        0.568551,
+        0.862026
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        707.86,
+        416.23,
+        725.86
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.840649,
+        0.69917,
+        0.862026
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        707.86,
+        494.02,
+        725.86
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.840649,
+        0.829839,
+        0.862026
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        707.86,
+        571.8,
+        725.86
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.840649,
+        0.960492,
+        0.862026
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        725.86,
+        105.38,
+        743.856
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.862026,
+        0.177014,
+        0.883397
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        725.86,
+        183.02,
+        743.856
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.862026,
+        0.307431,
+        0.883397
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        725.86,
+        260.81,
+        743.856
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.862026,
+        0.438101,
+        0.883397
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        725.86,
+        338.47,
+        743.856
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.862026,
+        0.568551,
+        0.883397
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        725.86,
+        416.23,
+        743.856
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.862026,
+        0.69917,
+        0.883397
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        725.86,
+        494.02,
+        743.856
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.862026,
+        0.829839,
+        0.883397
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        725.86,
+        571.8,
+        743.856
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.862026,
+        0.960492,
+        0.883397
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        743.856,
+        105.38,
+        761.856
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.883397,
+        0.177014,
+        0.904774
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        743.856,
+        183.02,
+        761.856
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.883397,
+        0.307431,
+        0.904774
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        743.856,
+        260.81,
+        761.856
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.883397,
+        0.438101,
+        0.904774
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        743.856,
+        338.47,
+        761.856
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.883397,
+        0.568551,
+        0.904774
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        743.856,
+        416.23,
+        761.856
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.883397,
+        0.69917,
+        0.904774
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        743.856,
+        494.02,
+        761.856
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.883397,
+        0.829839,
+        0.904774
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        743.856,
+        571.8,
+        761.856
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.883397,
+        0.960492,
+        0.904774
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        761.856,
+        105.38,
+        779.856
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.904774,
+        0.177014,
+        0.926151
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        761.856,
+        183.02,
+        779.856
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.904774,
+        0.307431,
+        0.926151
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        761.856,
+        260.81,
+        779.856
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.904774,
+        0.438101,
+        0.926151
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        761.856,
+        338.47,
+        779.856
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.904774,
+        0.568551,
+        0.926151
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        761.856,
+        416.23,
+        779.856
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.904774,
+        0.69917,
+        0.926151
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        761.856,
+        494.02,
+        779.856
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.904774,
+        0.829839,
+        0.926151
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        761.856,
+        571.8,
+        779.856
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.904774,
+        0.960492,
+        0.926151
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        779.856,
+        105.38,
+        797.856
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.926151,
+        0.177014,
+        0.947527
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        779.856,
+        183.02,
+        797.856
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.926151,
+        0.307431,
+        0.947527
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        779.856,
+        260.81,
+        797.856
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.926151,
+        0.438101,
+        0.947527
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        779.856,
+        338.47,
+        797.856
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.926151,
+        0.568551,
+        0.947527
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        779.856,
+        416.23,
+        797.856
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.926151,
+        0.69917,
+        0.947527
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        779.856,
+        494.02,
+        797.856
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.926151,
+        0.829839,
+        0.947527
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        779.856,
+        571.8,
+        797.856
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.926151,
+        0.960492,
+        0.947527
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 0,
+      "bbox_points": [
+        27.6,
+        797.856,
+        105.38,
+        815.88
+      ],
+      "bbox_norm": [
+        0.046362,
+        0.947527,
+        0.177014,
+        0.968933
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 1,
+      "bbox_points": [
+        105.38,
+        797.856,
+        183.02,
+        815.88
+      ],
+      "bbox_norm": [
+        0.177014,
+        0.947527,
+        0.307431,
+        0.968933
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 2,
+      "bbox_points": [
+        183.02,
+        797.856,
+        260.81,
+        815.88
+      ],
+      "bbox_norm": [
+        0.307431,
+        0.947527,
+        0.438101,
+        0.968933
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 3,
+      "bbox_points": [
+        260.81,
+        797.856,
+        338.47,
+        815.88
+      ],
+      "bbox_norm": [
+        0.438101,
+        0.947527,
+        0.568551,
+        0.968933
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 4,
+      "bbox_points": [
+        338.47,
+        797.856,
+        416.23,
+        815.88
+      ],
+      "bbox_norm": [
+        0.568551,
+        0.947527,
+        0.69917,
+        0.968933
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 5,
+      "bbox_points": [
+        416.23,
+        797.856,
+        494.02,
+        815.88
+      ],
+      "bbox_norm": [
+        0.69917,
+        0.947527,
+        0.829839,
+        0.968933
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 6,
+      "bbox_points": [
+        494.02,
+        797.856,
+        571.8,
+        815.88
+      ],
+      "bbox_norm": [
+        0.829839,
+        0.947527,
+        0.960492,
+        0.968933
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular"
+    }
+  ]
+}

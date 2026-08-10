@@ -1,0 +1,8 @@
+{
+  "model": "gpt-5.4-mini-low-via-cursor-cli",
+  "in_tok": null,
+  "out_tok": null,
+  "cost_usd": null,
+  "latency_s": null,
+  "accounting_note": "Cursor subscription agent did not expose attributable request cost or token usage"
+}

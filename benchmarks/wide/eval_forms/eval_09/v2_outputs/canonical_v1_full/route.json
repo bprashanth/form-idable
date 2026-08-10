@@ -1,0 +1,174 @@
+{
+  "version": "formidable-route-v1",
+  "source": "/home/beeps/src/github.com/bprashanth/form-idable/benchmarks/wide/eval_forms/eval_09/input.pdf",
+  "policy": "exact route only when every page clears pixel and printed-label gates",
+  "document_route": "generic_canonical",
+  "mixed_page_policy": "generic_canonical",
+  "registry": "/home/beeps/src/github.com/bprashanth/form-idable/benchmarks/wide/template_registry.json",
+  "registry_pages": 40,
+  "pages": [
+    {
+      "input_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "template_page": null,
+      "pixel": {
+        "status": "unknown_template",
+        "template": null,
+        "page": null,
+        "candidate": "bird_grassland_point_count.pdf#page=2",
+        "score": 0.483418,
+        "runner_up_score": 0.467487,
+        "margin": 0.015931,
+        "thresholds": {
+          "min_score": 0.5,
+          "min_margin": 0.02
+        },
+        "reason": "pixel match did not clear both safety thresholds"
+      },
+      "printed_labels": null
+    },
+    {
+      "input_page": 2,
+      "status": "unknown_template",
+      "template": null,
+      "template_page": null,
+      "pixel": {
+        "status": "unknown_template",
+        "template": null,
+        "page": null,
+        "candidate": "hp_forest_nursery_germination_proforma.pdf#page=1",
+        "score": 0.516234,
+        "runner_up_score": 0.506023,
+        "margin": 0.010211,
+        "thresholds": {
+          "min_score": 0.5,
+          "min_margin": 0.02
+        },
+        "reason": "pixel match did not clear both safety thresholds"
+      },
+      "printed_labels": null
+    },
+    {
+      "input_page": 3,
+      "status": "unknown_template",
+      "template": null,
+      "template_page": null,
+      "pixel": {
+        "status": "unknown_template",
+        "template": null,
+        "page": null,
+        "candidate": "nrcs_pedon_soil_description.pdf#page=2",
+        "score": 0.434961,
+        "runner_up_score": 0.412385,
+        "margin": 0.022576,
+        "thresholds": {
+          "min_score": 0.5,
+          "min_margin": 0.02
+        },
+        "reason": "pixel match did not clear both safety thresholds"
+      },
+      "printed_labels": null
+    },
+    {
+      "input_page": 4,
+      "status": "unknown_template",
+      "template": null,
+      "template_page": null,
+      "pixel": {
+        "status": "unknown_template",
+        "template": null,
+        "page": null,
+        "candidate": "hp_forest_nursery_stock_position_proforma.pdf#page=1",
+        "score": 0.533925,
+        "runner_up_score": 0.523404,
+        "margin": 0.010521,
+        "thresholds": {
+          "min_score": 0.5,
+          "min_margin": 0.02
+        },
+        "reason": "pixel match did not clear both safety thresholds"
+      },
+      "printed_labels": null
+    },
+    {
+      "input_page": 5,
+      "status": "unknown_template",
+      "template": null,
+      "template_page": null,
+      "pixel": {
+        "status": "known_template",
+        "template": "bird_grassland_point_count.pdf",
+        "page": 2,
+        "candidate": "bird_grassland_point_count.pdf#page=2",
+        "score": 0.621336,
+        "runner_up_score": 0.577021,
+        "margin": 0.044315,
+        "thresholds": {
+          "min_score": 0.5,
+          "min_margin": 0.02
+        },
+        "reason": null
+      },
+      "printed_labels": {
+        "accepted": false,
+        "candidate": "bird_grassland_point_count.pdf#page=2",
+        "top": "nvs_tier1_coarse_woody_debris.pdf#page=1",
+        "score": 0.255126,
+        "runner_up_score": 0.255126,
+        "margin": 0.0,
+        "observed_tokens": [
+          "1",
+          "annotation",
+          "buds",
+          "cm",
+          "col",
+          "fallen",
+          "flowers",
+          "flush",
+          "fruits",
+          "gbh",
+          "leaves",
+          "mature",
+          "multistem",
+          "notes",
+          "number",
+          "observations",
+          "open",
+          "phenology",
+          "ripe",
+          "species",
+          "table",
+          "tree",
+          "unripe"
+        ],
+        "thresholds": {
+          "min_score": 0.5,
+          "min_margin": 0.1
+        },
+        "reason": "printed labels did not uniquely confirm the pixel candidate"
+      }
+    },
+    {
+      "input_page": 6,
+      "status": "unknown_template",
+      "template": null,
+      "template_page": null,
+      "pixel": {
+        "status": "unknown_template",
+        "template": null,
+        "page": null,
+        "candidate": "bird_grassland_point_count.pdf#page=2",
+        "score": 0.443511,
+        "runner_up_score": 0.442038,
+        "margin": 0.001473,
+        "thresholds": {
+          "min_score": 0.5,
+          "min_margin": 0.02
+        },
+        "reason": "pixel match did not clear both safety thresholds"
+      },
+      "printed_labels": null
+    }
+  ]
+}

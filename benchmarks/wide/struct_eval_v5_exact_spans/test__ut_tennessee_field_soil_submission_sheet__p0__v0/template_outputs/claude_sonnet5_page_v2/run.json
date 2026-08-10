@@ -1,0 +1,219 @@
+{
+  "form": "test__ut_tennessee_field_soil_submission_sheet__p0__v0",
+  "template": "ut_tennessee_field_soil_submission_sheet.pdf",
+  "page": 1,
+  "input_page": 1,
+  "template_page": 1,
+  "provider": "external",
+  "model": "claude-sonnet-5",
+  "mode": "page",
+  "tag": "claude_sonnet5_page_v2",
+  "aligned": false,
+  "cells": 120,
+  "targets": 109,
+  "decisions": 109,
+  "missing": [],
+  "extra": [],
+  "duplicates": [],
+  "calls": [
+    {
+      "batch": 0,
+      "model": "claude-sonnet-5-via-claude-cli",
+      "in_tok": null,
+      "out_tok": null,
+      "cost_usd": null,
+      "cost_upper_bound_usd": 0.45,
+      "latency_s": null,
+      "accounting_note": "CLI session JSONL was not attributable to this run; only the enforced --max-budget-usd upper bound is reported"
+    }
+  ],
+  "cost_usd": null,
+  "cost_complete": false,
+  "latency_s": null,
+  "latency_complete": false,
+  "wall_s": 0.1,
+  "literal": {
+    "golden_kind": "literal_writable_cells",
+    "strict_metrics_are_headline": true,
+    "printed_cells_excluded": true,
+    "writable_cells_including_blanks": 109,
+    "written_nonblank": 25,
+    "blank_or_struck": 84,
+    "exact_written": {
+      "precision": 0.9167,
+      "recall": 0.88,
+      "f1": 0.898
+    },
+    "all_writable_accuracy": 0.9725,
+    "blank_specificity": 1.0,
+    "modal_oracle": {
+      "description": "oracle written positions plus per-column mode; reads no pixels",
+      "exact_written_recall": 0.6
+    },
+    "errors": {
+      "wrong": 2,
+      "omitted": 1,
+      "false_fill": 0,
+      "total": 3
+    },
+    "error_cell_ids": {
+      "wrong": [
+        "r2_c23",
+        "r9_c7"
+      ],
+      "omitted": [
+        "r8_c21"
+      ],
+      "false_fill": []
+    },
+    "accuracy_by_value_kind": {
+      "code1": {
+        "correct": 32,
+        "total": 32,
+        "accuracy": 1.0
+      },
+      "date": {
+        "correct": 3,
+        "total": 3,
+        "accuracy": 1.0
+      },
+      "int": {
+        "correct": 40,
+        "total": 42,
+        "accuracy": 0.9524
+      },
+      "ph": {
+        "correct": 9,
+        "total": 10,
+        "accuracy": 0.9
+      },
+      "temperature": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      },
+      "yn": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      }
+    },
+    "accuracy_by_mark": {
+      "blank": {
+        "correct": 84,
+        "total": 84,
+        "accuracy": 1.0
+      },
+      "dot": {
+        "correct": 0,
+        "total": 1,
+        "accuracy": 0.0
+      },
+      "text": {
+        "correct": 22,
+        "total": 24,
+        "accuracy": 0.9167
+      }
+    },
+    "confidence_review_curve": [
+      {
+        "confidence_lte": 0.5,
+        "reviewed": 3,
+        "review_fraction": 0.0275,
+        "caught_errors": 3,
+        "error_recall": 1.0,
+        "queue_precision": 1.0
+      },
+      {
+        "confidence_lte": 0.6,
+        "reviewed": 3,
+        "review_fraction": 0.0275,
+        "caught_errors": 3,
+        "error_recall": 1.0,
+        "queue_precision": 1.0
+      },
+      {
+        "confidence_lte": 0.7,
+        "reviewed": 3,
+        "review_fraction": 0.0275,
+        "caught_errors": 3,
+        "error_recall": 1.0,
+        "queue_precision": 1.0
+      },
+      {
+        "confidence_lte": 0.8,
+        "reviewed": 4,
+        "review_fraction": 0.0367,
+        "caught_errors": 3,
+        "error_recall": 1.0,
+        "queue_precision": 0.75
+      },
+      {
+        "confidence_lte": 0.9,
+        "reviewed": 37,
+        "review_fraction": 0.3394,
+        "caught_errors": 3,
+        "error_recall": 1.0,
+        "queue_precision": 0.0811
+      }
+    ]
+  },
+  "integrity": {
+    "golden_kind": "exact_layout",
+    "strict_metrics_are_headline": true,
+    "golden_cells": 36,
+    "candidate_cells": 35,
+    "cell_count_ratio": 0.9722,
+    "pages": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "golden": 1,
+      "candidate": 1
+    },
+    "content_anywhere": {
+      "precision": 0.9429,
+      "recall": 0.9167,
+      "f1": 0.9296
+    },
+    "occupied_position": {
+      "precision": 1.0,
+      "recall": 0.9722,
+      "f1": 0.9859
+    },
+    "exact_cell": {
+      "precision": 0.9429,
+      "recall": 0.9167,
+      "f1": 0.9296
+    },
+    "class_imbalance_resistant": {
+      "offmode_accuracy_all": 0.875,
+      "offmode_n": 16,
+      "balanced_class_recall": 0.9118,
+      "silent_columns": 0
+    },
+    "oracle_modal_control": {
+      "description": "oracle occupied positions plus per-page/column modes; reads no pixels",
+      "exact_cell_recall": 0.5556,
+      "content_anywhere_f1": 0.5556,
+      "constant_columns": 0,
+      "candidate_content_f1_lift": 0.374,
+      "candidate_exact_recall_lift": 0.3611
+    },
+    "errors": {
+      "omitted": 1,
+      "wrong_value_at_occupied_position": 2,
+      "false_fill_or_extra_position": 0,
+      "duplicate_row_excess": 0
+    },
+    "shape": {
+      "row_extent_ratio": 1.0,
+      "column_extent_ratio": 1.0
+    },
+    "constancy": {
+      "max_excess_over_golden": 0.0,
+      "candidate_columns_ge_0_98": 0,
+      "golden_columns_ge_0_98": 0
+    }
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nvs_tier1_metadata_record.pdf",
+  "page": 2,
+  "page_size_points": [
+    595.0,
+    842.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 2,
+      "row": 30,
+      "col": 7,
+      "bbox_points": [
+        104.64,
+        595.74,
+        122.28,
+        610.44
+      ],
+      "bbox_norm": [
+        0.175866,
+        0.70753,
+        0.205513,
+        0.724988
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 8,
+      "bbox_points": [
+        122.28,
+        595.74,
+        156.84,
+        610.44
+      ],
+      "bbox_norm": [
+        0.205513,
+        0.70753,
+        0.263597,
+        0.724988
+      ],
+      "source": "printed",
+      "value": "Yes / No",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 11,
+      "bbox_points": [
+        167.64,
+        595.74,
+        205.38,
+        610.44
+      ],
+      "bbox_norm": [
+        0.281748,
+        0.70753,
+        0.345176,
+        0.724988
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 12,
+      "bbox_points": [
+        205.38,
+        595.74,
+        219.84,
+        610.44
+      ],
+      "bbox_norm": [
+        0.345176,
+        0.70753,
+        0.369479,
+        0.724988
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 15,
+      "bbox_points": [
+        230.64,
+        595.74,
+        274.38,
+        610.44
+      ],
+      "bbox_norm": [
+        0.38763,
+        0.70753,
+        0.461143,
+        0.724988
+      ],
+      "source": "printed",
+      "value": "Recce",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 19,
+      "bbox_points": [
+        293.64,
+        595.74,
+        343.38,
+        610.44
+      ],
+      "bbox_norm": [
+        0.493513,
+        0.70753,
+        0.577109,
+        0.724988
+      ],
+      "source": "printed",
+      "value": "/ No",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 7,
+      "bbox_points": [
+        104.64,
+        610.44,
+        122.28,
+        625.14
+      ],
+      "bbox_norm": [
+        0.175866,
+        0.724988,
+        0.205513,
+        0.742447
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 8,
+      "bbox_points": [
+        122.28,
+        610.44,
+        156.84,
+        625.14
+      ],
+      "bbox_norm": [
+        0.205513,
+        0.724988,
+        0.263597,
+        0.742447
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 19,
+      "bbox_points": [
+        293.64,
+        610.44,
+        343.38,
+        625.14
+      ],
+      "bbox_norm": [
+        0.493513,
+        0.724988,
+        0.577109,
+        0.742447
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 4,
+      "bbox_points": [
+        37.74,
+        658.26,
+        93.84,
+        667.5
+      ],
+      "bbox_norm": [
+        0.063429,
+        0.781781,
+        0.157714,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Substrate",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 7,
+      "bbox_points": [
+        104.64,
+        658.26,
+        122.28,
+        667.5
+      ],
+      "bbox_norm": [
+        0.175866,
+        0.781781,
+        0.205513,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Cover",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 8,
+      "bbox_points": [
+        122.28,
+        658.26,
+        156.84,
+        667.5
+      ],
+      "bbox_norm": [
+        0.205513,
+        0.781781,
+        0.263597,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "class 1",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 11,
+      "bbox_points": [
+        167.64,
+        658.26,
+        205.38,
+        667.5
+      ],
+      "bbox_norm": [
+        0.281748,
+        0.781781,
+        0.345176,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Cover class",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 12,
+      "bbox_points": [
+        205.38,
+        658.26,
+        219.84,
+        667.5
+      ],
+      "bbox_norm": [
+        0.345176,
+        0.781781,
+        0.369479,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 15,
+      "bbox_points": [
+        230.64,
+        658.26,
+        274.38,
+        667.5
+      ],
+      "bbox_norm": [
+        0.38763,
+        0.781781,
+        0.461143,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Cover class",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 19,
+      "bbox_points": [
+        293.64,
+        658.26,
+        343.38,
+        667.5
+      ],
+      "bbox_norm": [
+        0.493513,
+        0.781781,
+        0.577109,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Cover class 4",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 23,
+      "bbox_points": [
+        356.64,
+        658.26,
+        408.84,
+        667.5
+      ],
+      "bbox_norm": [
+        0.599395,
+        0.781781,
+        0.687126,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Cover class 5",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 26,
+      "bbox_points": [
+        419.64,
+        658.26,
+        471.84,
+        667.5
+      ],
+      "bbox_norm": [
+        0.705277,
+        0.781781,
+        0.793008,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Cover class 6",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 29,
+      "bbox_points": [
+        482.64,
+        658.26,
+        552.84,
+        667.5
+      ],
+      "bbox_norm": [
+        0.81116,
+        0.781781,
+        0.929143,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Number of bags",
+      "mark": "text",
+      "value_kind": "printed"
+    }
+  ]
+}

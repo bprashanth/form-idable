@@ -1,0 +1,292 @@
+{
+  "cells": [
+    {
+      "cell_id": "r5_c0",
+      "value": "0",
+      "confidence": 0.95,
+      "evidence": "a lone dot"
+    },
+    {
+      "cell_id": "r5_c1",
+      "value": "67",
+      "confidence": 0.95,
+      "evidence": "handwritten 67"
+    },
+    {
+      "cell_id": "r5_c2",
+      "value": "209",
+      "confidence": 0.95,
+      "evidence": "handwritten 209"
+    },
+    {
+      "cell_id": "r5_c3",
+      "value": "1",
+      "confidence": 0.95,
+      "evidence": "handwritten 1"
+    },
+    {
+      "cell_id": "r5_c4",
+      "value": "41",
+      "confidence": 0.95,
+      "evidence": "handwritten 41"
+    },
+    {
+      "cell_id": "r5_c5",
+      "value": "62",
+      "confidence": 0.95,
+      "evidence": "handwritten 62"
+    },
+    {
+      "cell_id": "r6_c0",
+      "value": "74",
+      "confidence": 0.95,
+      "evidence": "handwritten 74"
+    },
+    {
+      "cell_id": "r6_c1",
+      "value": "54",
+      "confidence": 0.95,
+      "evidence": "handwritten 54"
+    },
+    {
+      "cell_id": "r6_c2",
+      "value": "145",
+      "confidence": 0.95,
+      "evidence": "handwritten 145"
+    },
+    {
+      "cell_id": "r6_c3",
+      "value": "97",
+      "confidence": 0.95,
+      "evidence": "handwritten 97"
+    },
+    {
+      "cell_id": "r6_c4",
+      "value": "37",
+      "confidence": 0.95,
+      "evidence": "handwritten 37"
+    },
+    {
+      "cell_id": "r6_c5",
+      "value": "87",
+      "confidence": 0.95,
+      "evidence": "handwritten 87"
+    },
+    {
+      "cell_id": "r7_c0",
+      "value": "47",
+      "confidence": 0.95,
+      "evidence": "handwritten 47"
+    },
+    {
+      "cell_id": "r7_c1",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r7_c2",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "struck through line"
+    },
+    {
+      "cell_id": "r7_c3",
+      "value": "33",
+      "confidence": 0.95,
+      "evidence": "handwritten 33"
+    },
+    {
+      "cell_id": "r7_c4",
+      "value": "3",
+      "confidence": 0.95,
+      "evidence": "handwritten 3"
+    },
+    {
+      "cell_id": "r7_c5",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "struck through line"
+    },
+    {
+      "cell_id": "r8_c0",
+      "value": "173",
+      "confidence": 0.95,
+      "evidence": "handwritten 173"
+    },
+    {
+      "cell_id": "r8_c1",
+      "value": "76",
+      "confidence": 0.95,
+      "evidence": "handwritten 76"
+    },
+    {
+      "cell_id": "r8_c2",
+      "value": "221",
+      "confidence": 0.95,
+      "evidence": "handwritten 221"
+    },
+    {
+      "cell_id": "r8_c3",
+      "value": "248",
+      "confidence": 0.95,
+      "evidence": "handwritten 248"
+    },
+    {
+      "cell_id": "r8_c4",
+      "value": "74",
+      "confidence": 0.95,
+      "evidence": "handwritten 74"
+    },
+    {
+      "cell_id": "r8_c5",
+      "value": "68",
+      "confidence": 0.95,
+      "evidence": "handwritten 68"
+    },
+    {
+      "cell_id": "r9_c0",
+      "value": "89",
+      "confidence": 0.95,
+      "evidence": "handwritten 89"
+    },
+    {
+      "cell_id": "r9_c1",
+      "value": "0",
+      "confidence": 0.95,
+      "evidence": "a lone dot"
+    },
+    {
+      "cell_id": "r9_c2",
+      "value": "55",
+      "confidence": 0.95,
+      "evidence": "handwritten 55"
+    },
+    {
+      "cell_id": "r9_c3",
+      "value": "65",
+      "confidence": 0.95,
+      "evidence": "handwritten 65"
+    },
+    {
+      "cell_id": "r9_c4",
+      "value": "60",
+      "confidence": 0.95,
+      "evidence": "handwritten 60"
+    },
+    {
+      "cell_id": "r9_c5",
+      "value": "68",
+      "confidence": 0.95,
+      "evidence": "handwritten 68"
+    },
+    {
+      "cell_id": "r10_c0",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r10_c1",
+      "value": "12",
+      "confidence": 0.95,
+      "evidence": "handwritten 12"
+    },
+    {
+      "cell_id": "r10_c2",
+      "value": "226",
+      "confidence": 0.95,
+      "evidence": "handwritten 226"
+    },
+    {
+      "cell_id": "r10_c3",
+      "value": "198",
+      "confidence": 0.95,
+      "evidence": "handwritten 198"
+    },
+    {
+      "cell_id": "r10_c4",
+      "value": "32",
+      "confidence": 0.95,
+      "evidence": "handwritten 32"
+    },
+    {
+      "cell_id": "r10_c5",
+      "value": "39",
+      "confidence": 0.95,
+      "evidence": "handwritten 39"
+    },
+    {
+      "cell_id": "r11_c0",
+      "value": "237",
+      "confidence": 0.95,
+      "evidence": "handwritten 237"
+    },
+    {
+      "cell_id": "r11_c1",
+      "value": "119",
+      "confidence": 0.9,
+      "evidence": "handwritten 119"
+    },
+    {
+      "cell_id": "r11_c2",
+      "value": "250",
+      "confidence": 0.95,
+      "evidence": "handwritten 250"
+    },
+    {
+      "cell_id": "r11_c3",
+      "value": "69",
+      "confidence": 0.95,
+      "evidence": "handwritten 69"
+    },
+    {
+      "cell_id": "r11_c4",
+      "value": "24",
+      "confidence": 0.95,
+      "evidence": "handwritten 24"
+    },
+    {
+      "cell_id": "r11_c5",
+      "value": "79",
+      "confidence": 0.95,
+      "evidence": "handwritten 79"
+    },
+    {
+      "cell_id": "r12_c0",
+      "value": "202",
+      "confidence": 0.95,
+      "evidence": "handwritten 202"
+    },
+    {
+      "cell_id": "r12_c1",
+      "value": "191",
+      "confidence": 0.95,
+      "evidence": "handwritten 191"
+    },
+    {
+      "cell_id": "r12_c2",
+      "value": "235",
+      "confidence": 0.95,
+      "evidence": "handwritten 235"
+    },
+    {
+      "cell_id": "r12_c3",
+      "value": "50",
+      "confidence": 0.95,
+      "evidence": "handwritten 50"
+    },
+    {
+      "cell_id": "r12_c4",
+      "value": "24",
+      "confidence": 0.95,
+      "evidence": "handwritten 24"
+    },
+    {
+      "cell_id": "r12_c5",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    }
+  ]
+}

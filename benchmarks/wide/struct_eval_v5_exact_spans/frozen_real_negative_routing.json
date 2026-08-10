@@ -1,0 +1,1262 @@
+{
+  "version": "formidable-frozen-real-negative-routing-v1",
+  "policy": {
+    "min_score": 0.5,
+    "min_margin": 0.02,
+    "frozen_one_shot": true,
+    "role": "pixel candidate only; never sufficient for routing"
+  },
+  "documents": 24,
+  "pages": 78,
+  "accepted": 11,
+  "rows": [
+    {
+      "form": "eval_01",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "agrra_benthos_underwater_datasheet.pdf#page=1",
+      "score": 0.425641,
+      "runner_up_score": 0.406938,
+      "margin": 0.018703,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_01",
+      "source_page": 2,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "agrra_benthos_underwater_datasheet.pdf#page=1",
+      "score": 0.451172,
+      "runner_up_score": 0.431425,
+      "margin": 0.019747,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_01",
+      "source_page": 3,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "agrra_benthos_underwater_datasheet.pdf#page=1",
+      "score": 0.500368,
+      "runner_up_score": 0.488022,
+      "margin": 0.012346,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_01",
+      "source_page": 4,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "agrra_benthos_underwater_datasheet.pdf#page=1",
+      "score": 0.489709,
+      "runner_up_score": 0.488404,
+      "margin": 0.001305,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_02",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.493288,
+      "runner_up_score": 0.489394,
+      "margin": 0.003894,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_02",
+      "source_page": 2,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "hp_forest_nursery_stock_position_proforma.pdf#page=1",
+      "score": 0.604919,
+      "runner_up_score": 0.604877,
+      "margin": 4.2e-05,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_02",
+      "source_page": 3,
+      "status": "known_template",
+      "template": "hp_forest_nursery_infrastructure_proforma.pdf",
+      "page": 1,
+      "candidate": "hp_forest_nursery_infrastructure_proforma.pdf#page=1",
+      "score": 0.566109,
+      "runner_up_score": 0.542911,
+      "margin": 0.023198,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": null
+    },
+    {
+      "form": "eval_03",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "agrra_benthos_underwater_datasheet.pdf#page=1",
+      "score": 0.347359,
+      "runner_up_score": 0.333187,
+      "margin": 0.014172,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_03",
+      "source_page": 2,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "agrra_benthos_underwater_datasheet.pdf#page=1",
+      "score": 0.361762,
+      "runner_up_score": 0.346973,
+      "margin": 0.014789,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_03",
+      "source_page": 3,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nvs_tier1_understorey_record.pdf#page=1",
+      "score": 0.341341,
+      "runner_up_score": 0.31833,
+      "margin": 0.023011,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nvs_tier1_metadata_record.pdf#page=2",
+      "score": 0.24008,
+      "runner_up_score": 0.235893,
+      "margin": 0.004187,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 2,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nrcs_pedon_soil_description.pdf#page=2",
+      "score": 0.20622,
+      "runner_up_score": 0.171807,
+      "margin": 0.034413,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 3,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.21162,
+      "runner_up_score": 0.201763,
+      "margin": 0.009857,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 4,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.354853,
+      "runner_up_score": 0.350858,
+      "margin": 0.003995,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 5,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.306722,
+      "runner_up_score": 0.276947,
+      "margin": 0.029775,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 6,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.28806,
+      "runner_up_score": 0.242834,
+      "margin": 0.045226,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 7,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.278216,
+      "runner_up_score": 0.252619,
+      "margin": 0.025597,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 8,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.226207,
+      "runner_up_score": 0.165745,
+      "margin": 0.060462,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 9,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "agrra_coral_underwater_datasheet.pdf#page=1",
+      "score": 0.059644,
+      "runner_up_score": 0.059433,
+      "margin": 0.000211,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 10,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "agrra_coral_underwater_datasheet.pdf#page=1",
+      "score": 0.259303,
+      "runner_up_score": 0.247522,
+      "margin": 0.011781,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 11,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.285488,
+      "runner_up_score": 0.24861,
+      "margin": 0.036878,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 12,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.24678,
+      "runner_up_score": 0.209741,
+      "margin": 0.037039,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 13,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nvs_tier1_recce_site_description.pdf#page=1",
+      "score": 0.265243,
+      "runner_up_score": 0.261169,
+      "margin": 0.004074,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 14,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.270741,
+      "runner_up_score": 0.226883,
+      "margin": 0.043858,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 15,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.123189,
+      "runner_up_score": 0.109108,
+      "margin": 0.014081,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 16,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.287992,
+      "runner_up_score": 0.276953,
+      "margin": 0.011039,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 17,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nrcs_pedon_soil_description.pdf#page=1",
+      "score": 0.221517,
+      "runner_up_score": 0.209396,
+      "margin": 0.012121,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 18,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nrcs_pedon_soil_description.pdf#page=1",
+      "score": 0.16633,
+      "runner_up_score": 0.163721,
+      "margin": 0.002609,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 19,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.293311,
+      "runner_up_score": 0.252626,
+      "margin": 0.040685,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 20,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nrcs_pedon_soil_description.pdf#page=1",
+      "score": 0.242023,
+      "runner_up_score": 0.236799,
+      "margin": 0.005224,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 21,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.23737,
+      "runner_up_score": 0.188194,
+      "margin": 0.049176,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 22,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.294895,
+      "runner_up_score": 0.253271,
+      "margin": 0.041624,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 23,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.262475,
+      "runner_up_score": 0.208436,
+      "margin": 0.054039,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_04",
+      "source_page": 24,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.20741,
+      "runner_up_score": 0.167917,
+      "margin": 0.039493,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_05",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "score": 0.393366,
+      "runner_up_score": 0.377238,
+      "margin": 0.016128,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_05",
+      "source_page": 2,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nestwatch_nest_check_datasheet.pdf#page=1",
+      "score": 0.406072,
+      "runner_up_score": 0.387062,
+      "margin": 0.01901,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_05",
+      "source_page": 3,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "agrra_benthos_underwater_datasheet.pdf#page=1",
+      "score": 0.311032,
+      "runner_up_score": 0.306708,
+      "margin": 0.004324,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_06",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nvs_foliar_browse_index_datasheets.pdf#page=1",
+      "score": 0.391656,
+      "runner_up_score": 0.385037,
+      "margin": 0.006619,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_06",
+      "source_page": 2,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "hp_forest_nursery_stock_position_proforma.pdf#page=1",
+      "score": 0.452966,
+      "runner_up_score": 0.45267,
+      "margin": 0.000296,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_06",
+      "source_page": 3,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nvs_foliar_browse_index_datasheets.pdf#page=1",
+      "score": 0.488592,
+      "runner_up_score": 0.460066,
+      "margin": 0.028526,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_06",
+      "source_page": 4,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "hp_forest_nursery_stock_position_proforma.pdf#page=1",
+      "score": 0.425326,
+      "runner_up_score": 0.414377,
+      "margin": 0.010949,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_07",
+      "source_page": 1,
+      "status": "known_template",
+      "template": "rbp_stream_habitat_highgradient_wv.pdf",
+      "page": 3,
+      "candidate": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "score": 0.746196,
+      "runner_up_score": 0.713227,
+      "margin": 0.032969,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": null
+    },
+    {
+      "form": "eval_07",
+      "source_page": 2,
+      "status": "known_template",
+      "template": "rbp_stream_habitat_highgradient_wv.pdf",
+      "page": 3,
+      "candidate": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "score": 0.726323,
+      "runner_up_score": 0.69514,
+      "margin": 0.031183,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": null
+    },
+    {
+      "form": "eval_07",
+      "source_page": 3,
+      "status": "known_template",
+      "template": "rbp_stream_habitat_highgradient_wv.pdf",
+      "page": 3,
+      "candidate": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "score": 0.767829,
+      "runner_up_score": 0.728269,
+      "margin": 0.03956,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": null
+    },
+    {
+      "form": "eval_07",
+      "source_page": 4,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nvs_recce_grassland_height_tiers.pdf#page=1",
+      "score": 0.434707,
+      "runner_up_score": 0.414597,
+      "margin": 0.02011,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_07",
+      "source_page": 5,
+      "status": "known_template",
+      "template": "nvs_foliar_browse_index_datasheets.pdf",
+      "page": 1,
+      "candidate": "nvs_foliar_browse_index_datasheets.pdf#page=1",
+      "score": 0.623326,
+      "runner_up_score": 0.602015,
+      "margin": 0.021311,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": null
+    },
+    {
+      "form": "eval_07",
+      "source_page": 6,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "butterfly_pollard_walk.pdf#page=2",
+      "score": 0.775745,
+      "runner_up_score": 0.768796,
+      "margin": 0.006949,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_08",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nvs_foliar_browse_index_datasheets.pdf#page=1",
+      "score": 0.543317,
+      "runner_up_score": 0.533471,
+      "margin": 0.009846,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_08",
+      "source_page": 2,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "score": 0.484168,
+      "runner_up_score": 0.466974,
+      "margin": 0.017194,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_08",
+      "source_page": 3,
+      "status": "known_template",
+      "template": "nvs_foliar_browse_index_datasheets.pdf",
+      "page": 1,
+      "candidate": "nvs_foliar_browse_index_datasheets.pdf#page=1",
+      "score": 0.556859,
+      "runner_up_score": 0.516275,
+      "margin": 0.040584,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": null
+    },
+    {
+      "form": "eval_09",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.483418,
+      "runner_up_score": 0.467487,
+      "margin": 0.015931,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_09",
+      "source_page": 2,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "hp_forest_nursery_germination_proforma.pdf#page=1",
+      "score": 0.516234,
+      "runner_up_score": 0.506023,
+      "margin": 0.010211,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_09",
+      "source_page": 3,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nrcs_pedon_soil_description.pdf#page=2",
+      "score": 0.434961,
+      "runner_up_score": 0.412385,
+      "margin": 0.022576,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_09",
+      "source_page": 4,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "hp_forest_nursery_stock_position_proforma.pdf#page=1",
+      "score": 0.533925,
+      "runner_up_score": 0.523404,
+      "margin": 0.010521,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_09",
+      "source_page": 5,
+      "status": "known_template",
+      "template": "bird_grassland_point_count.pdf",
+      "page": 2,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.621336,
+      "runner_up_score": 0.577021,
+      "margin": 0.044315,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": null
+    },
+    {
+      "form": "eval_09",
+      "source_page": 6,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.443511,
+      "runner_up_score": 0.442038,
+      "margin": 0.001473,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_10",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "score": 0.49852,
+      "runner_up_score": 0.493599,
+      "margin": 0.004921,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_10",
+      "source_page": 2,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nvs_foliar_browse_index_datasheets.pdf#page=1",
+      "score": 0.485662,
+      "runner_up_score": 0.482568,
+      "margin": 0.003094,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_10",
+      "source_page": 3,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nrcs_rangeland_stubble_height_form.pdf#page=1",
+      "score": 0.510332,
+      "runner_up_score": 0.505276,
+      "margin": 0.005056,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_11",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "score": 0.669278,
+      "runner_up_score": 0.661483,
+      "margin": 0.007795,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_11",
+      "source_page": 2,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nvs_foliar_browse_index_datasheets.pdf#page=1",
+      "score": 0.600264,
+      "runner_up_score": 0.584376,
+      "margin": 0.015888,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_12",
+      "source_page": 1,
+      "status": "known_template",
+      "template": "rbp_stream_habitat_highgradient_wv.pdf",
+      "page": 3,
+      "candidate": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "score": 0.550842,
+      "runner_up_score": 0.529632,
+      "margin": 0.02121,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": null
+    },
+    {
+      "form": "eval_12",
+      "source_page": 2,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "score": 0.569592,
+      "runner_up_score": 0.552086,
+      "margin": 0.017506,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_12",
+      "source_page": 3,
+      "status": "known_template",
+      "template": "rbp_stream_habitat_highgradient_wv.pdf",
+      "page": 3,
+      "candidate": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "score": 0.57661,
+      "runner_up_score": 0.556562,
+      "margin": 0.020048,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": null
+    },
+    {
+      "form": "eval_13",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nestwatch_nest_check_datasheet.pdf#page=1",
+      "score": 0.359098,
+      "runner_up_score": 0.358228,
+      "margin": 0.00087,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_13",
+      "source_page": 2,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "score": 0.461689,
+      "runner_up_score": 0.379085,
+      "margin": 0.082604,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_14",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "iwla_save_our_streams_quality_survey.pdf#page=1",
+      "score": 0.734312,
+      "runner_up_score": 0.724863,
+      "margin": 0.009449,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_14",
+      "source_page": 2,
+      "status": "known_template",
+      "template": "rbp_stream_habitat_highgradient_wv.pdf",
+      "page": 3,
+      "candidate": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "score": 0.62706,
+      "runner_up_score": 0.596632,
+      "margin": 0.030428,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": null
+    },
+    {
+      "form": "eval_15",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nvs_tier1_understorey_record.pdf#page=1",
+      "score": 0.879426,
+      "runner_up_score": 0.874561,
+      "margin": 0.004865,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_16",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "nestwatch_nest_check_datasheet.pdf#page=1",
+      "score": 0.848589,
+      "runner_up_score": 0.847436,
+      "margin": 0.001153,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_17",
+      "source_page": 1,
+      "status": "known_template",
+      "template": "bird_grassland_point_count.pdf",
+      "page": 2,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.791561,
+      "runner_up_score": 0.727943,
+      "margin": 0.063618,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": null
+    },
+    {
+      "form": "eval_18",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.897933,
+      "runner_up_score": 0.879942,
+      "margin": 0.017991,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_19",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.897587,
+      "runner_up_score": 0.879641,
+      "margin": 0.017946,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_20",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.896607,
+      "runner_up_score": 0.87906,
+      "margin": 0.017547,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_21",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "bird_grassland_point_count.pdf#page=2",
+      "score": 0.897974,
+      "runner_up_score": 0.87974,
+      "margin": 0.018234,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_22",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "agrra_coral_underwater_datasheet.pdf#page=1",
+      "score": 0.888686,
+      "runner_up_score": 0.881385,
+      "margin": 0.007301,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_23",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "agrra_coral_underwater_datasheet.pdf#page=1",
+      "score": 0.891058,
+      "runner_up_score": 0.881438,
+      "margin": 0.00962,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    },
+    {
+      "form": "eval_24",
+      "source_page": 1,
+      "status": "unknown_template",
+      "template": null,
+      "page": null,
+      "candidate": "agrra_coral_underwater_datasheet.pdf#page=1",
+      "score": 0.891058,
+      "runner_up_score": 0.881438,
+      "margin": 0.00962,
+      "thresholds": {
+        "min_score": 0.5,
+        "min_margin": 0.02
+      },
+      "reason": "pixel match did not clear both safety thresholds"
+    }
+  ]
+}

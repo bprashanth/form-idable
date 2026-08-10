@@ -1,0 +1,8 @@
+{
+  "model": "gemini-3.5-flash",
+  "in_tok": 4665,
+  "out_tok": 1599,
+  "thinking_tok": 0,
+  "cost_usd": 0.02139,
+  "latency_s": 6.8
+}

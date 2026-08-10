@@ -1,0 +1,180 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nvs_tier1_coarse_woody_debris.pdf",
+  "page": 2,
+  "page_size_points": [
+    595.0,
+    842.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 2,
+      "row": 5,
+      "col": 7,
+      "bbox_points": [
+        53.46,
+        117.6,
+        100.14,
+        126.78
+      ],
+      "bbox_norm": [
+        0.089849,
+        0.139668,
+        0.168303,
+        0.15057
+      ],
+      "source": "printed",
+      "value": "Species",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 10,
+      "bbox_points": [
+        110.94,
+        117.6,
+        154.56,
+        126.78
+      ],
+      "bbox_norm": [
+        0.186454,
+        0.139668,
+        0.259765,
+        0.15057
+      ],
+      "source": "printed",
+      "value": "Tag No.",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 21,
+      "bbox_points": [
+        225.48,
+        117.6,
+        253.56,
+        126.78
+      ],
+      "bbox_norm": [
+        0.378958,
+        0.139668,
+        0.426151,
+        0.15057
+      ],
+      "source": "printed",
+      "value": "Length",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 24,
+      "bbox_points": [
+        264.36,
+        117.6,
+        298.56,
+        126.78
+      ],
+      "bbox_norm": [
+        0.444302,
+        0.139668,
+        0.501782,
+        0.15057
+      ],
+      "source": "printed",
+      "value": "LED",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 27,
+      "bbox_points": [
+        309.36,
+        117.6,
+        343.56,
+        126.78
+      ],
+      "bbox_norm": [
+        0.519933,
+        0.139668,
+        0.577412,
+        0.15057
+      ],
+      "source": "printed",
+      "value": "(cm) \u2126",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 30,
+      "bbox_points": [
+        354.36,
+        117.6,
+        388.56,
+        126.78
+      ],
+      "bbox_norm": [
+        0.595563,
+        0.139668,
+        0.653042,
+        0.15057
+      ],
+      "source": "printed",
+      "value": "SED",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 33,
+      "bbox_points": [
+        399.36,
+        117.6,
+        433.56,
+        126.78
+      ],
+      "bbox_norm": [
+        0.671193,
+        0.139668,
+        0.728672,
+        0.15057
+      ],
+      "source": "printed",
+      "value": "(cm) \u2126",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 36,
+      "bbox_points": [
+        444.36,
+        117.6,
+        568.56,
+        126.78
+      ],
+      "bbox_norm": [
+        0.746824,
+        0.139668,
+        0.955563,
+        0.15057
+      ],
+      "source": "printed",
+      "value": "Notes",
+      "mark": "text",
+      "value_kind": "printed"
+    }
+  ]
+}

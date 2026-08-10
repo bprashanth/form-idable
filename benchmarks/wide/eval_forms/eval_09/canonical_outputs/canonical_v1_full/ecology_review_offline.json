@@ -1,0 +1,88 @@
+{
+  "version": "formidable-ecology-review-v1",
+  "source": "benchmarks/wide/eval_forms/eval_09/canonical_outputs/canonical_v1_full/canonical.json",
+  "policy": "flags and suggestions only; extraction values are never changed",
+  "records": 3209,
+  "findings": [
+    {
+      "code": "within_form_numeric_outlier",
+      "severity": "medium",
+      "message": "555 is a robust within-column outlier (median 81.5, MAD 37)",
+      "location": {
+        "page": 2,
+        "table": "table_1",
+        "row": "92",
+        "column": "col_gbh"
+      },
+      "label": "GBH (cm)",
+      "observed": "555",
+      "median": 81.5,
+      "mad": 37.0,
+      "proposed_value": null
+    },
+    {
+      "code": "within_form_numeric_outlier",
+      "severity": "medium",
+      "message": "535 is a robust within-column outlier (median 75, MAD 39)",
+      "location": {
+        "page": 3,
+        "table": "tree_survey_table",
+        "row": "104",
+        "column": "col_gbh"
+      },
+      "label": "GBH (cm)",
+      "observed": "535",
+      "median": 75.0,
+      "mad": 39.0,
+      "proposed_value": null
+    },
+    {
+      "code": "within_form_numeric_outlier",
+      "severity": "medium",
+      "message": "710 is a robust within-column outlier (median 71.5, MAD 39.5)",
+      "location": {
+        "page": 4,
+        "table": "observation_table",
+        "row": "208",
+        "column": "col_gbh"
+      },
+      "label": "GBH (cm)",
+      "observed": "710",
+      "median": 71.5,
+      "mad": 39.5,
+      "proposed_value": null
+    },
+    {
+      "code": "within_form_numeric_outlier",
+      "severity": "medium",
+      "message": "565 is a robust within-column outlier (median 71.5, MAD 39.5)",
+      "location": {
+        "page": 4,
+        "table": "observation_table",
+        "row": "217",
+        "column": "col_gbh"
+      },
+      "label": "GBH (cm)",
+      "observed": "565",
+      "median": 71.5,
+      "mad": 39.5,
+      "proposed_value": null
+    },
+    {
+      "code": "within_form_numeric_outlier",
+      "severity": "medium",
+      "message": "627 is a robust within-column outlier (median 96, MAD 58)",
+      "location": {
+        "page": 5,
+        "table": "table_1",
+        "row": "293",
+        "column": "col_gbh"
+      },
+      "label": "GBH (cm)",
+      "observed": "627",
+      "median": 96.0,
+      "mad": 58.0,
+      "proposed_value": null
+    }
+  ]
+}

@@ -1,0 +1,2892 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "ut_tennessee_field_soil_submission_sheet.pdf",
+  "page": 1,
+  "page_size_points": [
+    612.0,
+    792.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 0,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 18,
+      "bbox_points": [
+        327.67,
+        114.623,
+        589.755,
+        214.52
+      ],
+      "bbox_norm": [
+        0.535409,
+        0.144726,
+        0.963652,
+        0.270858
+      ],
+      "source": "printed",
+      "value": "SPPC USE Amount: $_______ Date :_______________ Bill to:_______________ Cash CC approval #:_________ Check#___________ Online order #:_________ Receipt#__________",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "SPPC USE Amount: $_______ Date :_______________ Bill to:_______________ Cash CC approval #:_________ Check#___________ Online order #:_________ Receipt#__________"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 22,
+      "bbox_points": [
+        36.636,
+        262.149,
+        551.812,
+        276.102
+      ],
+      "bbox_norm": [
+        0.059863,
+        0.330996,
+        0.901654,
+        0.348614
+      ],
+      "source": "printed",
+      "value": "Flood Survey: Are these soil samples deposited soil or sediment from the 2024 Eastern TN flood? YES NO",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Flood Survey: Are these soil samples deposited soil or sediment from the 2024 Eastern TN flood? YES NO"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        565.712,
+        262.149,
+        589.755,
+        276.102
+      ],
+      "bbox_norm": [
+        0.924366,
+        0.330996,
+        0.963652,
+        0.348614
+      ],
+      "source": "written",
+      "value": "111",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "soillab.tennessee.edu Tennessee' | Center |Nashville, TN 37211 SoilLab@Tennessee.edu :_______________ to:_______________ #:_________ soillab.tennessee.edu Tennessee' sediment from the 2024 Eastern flood? YES NO"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        36.636,
+        313.85,
+        92.424,
+        348.77
+      ],
+      "bbox_norm": [
+        0.059863,
+        0.396275,
+        0.15102,
+        0.440366
+      ],
+      "source": "printed",
+      "value": "Sample Name (You provide)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Sample Name (You provide)"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        92.424,
+        313.85,
+        140.66,
+        348.77
+      ],
+      "bbox_norm": [
+        0.15102,
+        0.396275,
+        0.229837,
+        0.440366
+      ],
+      "source": "printed",
+      "value": "Farm ID (optional)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Farm ID (optional)"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        140.66,
+        313.85,
+        327.67,
+        348.77
+      ],
+      "bbox_norm": [
+        0.229837,
+        0.396275,
+        0.535409,
+        0.440366
+      ],
+      "source": "printed",
+      "value": "Crop 1 Crop 2 Crop 3 Crop 4 Use crop codes on back of sheet",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Crop 1 Crop 2 Crop 3 Crop 4 Use crop codes on back of sheet"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        327.67,
+        313.85,
+        370.07,
+        348.77
+      ],
+      "bbox_norm": [
+        0.535409,
+        0.396275,
+        0.60469,
+        0.440366
+      ],
+      "source": "printed",
+      "value": "pH and Nutrients $15",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "pH and Nutrients $15"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        370.07,
+        313.85,
+        410.91,
+        348.77
+      ],
+      "bbox_norm": [
+        0.60469,
+        0.396275,
+        0.671422,
+        0.440366
+      ],
+      "source": "printed",
+      "value": "Organic Matter $15",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Organic Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        410.91,
+        313.85,
+        451.39,
+        348.77
+      ],
+      "bbox_norm": [
+        0.671422,
+        0.396275,
+        0.737565,
+        0.440366
+      ],
+      "source": "printed",
+      "value": "Soluble Salts $10",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Soluble Salts $10"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        451.39,
+        313.85,
+        493.46,
+        348.77
+      ],
+      "bbox_norm": [
+        0.737565,
+        0.396275,
+        0.806307,
+        0.440366
+      ],
+      "source": "printed",
+      "value": "Texture (USDA) $30",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Texture (USDA) $30"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        493.46,
+        313.85,
+        528.1,
+        348.77
+      ],
+      "bbox_norm": [
+        0.806307,
+        0.396275,
+        0.862908,
+        0.440366
+      ],
+      "source": "printed",
+      "value": "Sulfur $10",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Sulfur $10"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        528.1,
+        313.85,
+        593.38,
+        348.77
+      ],
+      "bbox_norm": [
+        0.862908,
+        0.396275,
+        0.969575,
+        0.440366
+      ],
+      "source": "printed",
+      "value": "Lab ID (We provide)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Lab ID (We provide)"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.761,
+        353.052,
+        354.933,
+        370.071
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.445773,
+        0.579956,
+        0.467261
+      ],
+      "source": "written",
+      "value": "9.4",
+      "mark": "text",
+      "value_kind": "ph",
+      "semantic_context": "pH and Nutrients $15 | Check#___________ Receipt#__________ Payment may If using a check sediment from the 2024 of soil or two recommendations pH and 4 Organic Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        380.997,
+        353.052,
+        398.17,
+        370.071
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.445773,
+        0.650605,
+        0.467261
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Organic Matter $15 | Payment may be using a check make the 2024 Eastern two cups for multiple recommendations can given. and Organic Soluble Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        422.234,
+        353.052,
+        439.211,
+        370.071
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.445773,
+        0.717666,
+        0.467261
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Soluble Salts $10 | Check#___________ Receipt#__________ be made on-line make it out to Eastern TN flood? for multiple analyses. given. Texture Organic Soluble Matter Salts (USDA) $10"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        463.47,
+        353.052,
+        480.448,
+        370.071
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.445773,
+        0.785046,
+        0.467261
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Texture (USDA) $30 | Bill to:_______________ CC approval Online order at soillab.tennessee.edu on-line 'University out to TN flood? YES multiple analyses. given. Texture Soluble Sulfur Salts (USDA) $30"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        503.707,
+        353.052,
+        520.685,
+        370.071
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.445773,
+        0.850793,
+        0.467261
+      ],
+      "source": "written",
+      "value": "79",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sulfur $10 | Date :_______________ to:_______________ approval #:_________ Online order soillab.tennessee.edu 'University of Tennessee' YES NO analyses. Texture Sulfur (USDA) (We $10"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.761,
+        377.27,
+        354.933,
+        394.29
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.476351,
+        0.579956,
+        0.497841
+      ],
+      "source": "written",
+      "value": "8.4",
+      "mark": "text",
+      "value_kind": "ph",
+      "semantic_context": "pH and Nutrients $15 | Check#___________ Receipt#__________ Payment may If using a check sediment from the 2024 of soil or two recommendations pH and 4 Organic Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        380.997,
+        377.27,
+        398.17,
+        394.29
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.476351,
+        0.650605,
+        0.497841
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Organic Matter $15 | Payment may be using a check make the 2024 Eastern two cups for multiple recommendations can given. and Organic Soluble Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        422.234,
+        377.27,
+        439.211,
+        394.29
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.476351,
+        0.717666,
+        0.497841
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Soluble Salts $10 | Check#___________ Receipt#__________ be made on-line make it out to Eastern TN flood? for multiple analyses. given. Texture Organic Soluble Matter Salts (USDA) $10"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        463.47,
+        377.27,
+        480.448,
+        394.29
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.476351,
+        0.785046,
+        0.497841
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Texture (USDA) $30 | Bill to:_______________ CC approval Online order at soillab.tennessee.edu on-line 'University out to TN flood? YES multiple analyses. given. Texture Soluble Sulfur Salts (USDA) $30"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        503.707,
+        377.27,
+        520.685,
+        394.29
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.476351,
+        0.850793,
+        0.497841
+      ],
+      "source": "written",
+      "value": "226",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sulfur $10 | to:_______________ approval #:_________ Online order soillab.tennessee.edu 'University of Tennessee' YES NO analyses. Texture Sulfur (USDA) (We $10"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.761,
+        401.488,
+        354.933,
+        418.661
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.506929,
+        0.579956,
+        0.528612
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "ph",
+      "semantic_context": "pH and Nutrients $15 | Check#___________ Receipt#__________ Payment may If using a check sediment from the 2024 of soil or two recommendations pH and 4 Organic Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        380.997,
+        401.488,
+        398.17,
+        418.661
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.506929,
+        0.650605,
+        0.528612
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Organic Matter $15 | Payment may be using a check make the 2024 Eastern two cups for multiple recommendations can given. and Organic Soluble Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        422.234,
+        401.488,
+        439.211,
+        418.661
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.506929,
+        0.717666,
+        0.528612
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Soluble Salts $10 | Check#___________ Receipt#__________ be made on-line make it out to Eastern TN flood? for multiple analyses. given. Texture Organic Soluble Matter Salts (USDA) $10"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        463.47,
+        401.488,
+        480.448,
+        418.661
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.506929,
+        0.785046,
+        0.528612
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Texture (USDA) $30 | CC approval Online order at soillab.tennessee.edu on-line 'University out to TN flood? YES multiple analyses. given. Texture Soluble Sulfur Salts (USDA) $30"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        503.707,
+        401.488,
+        520.685,
+        418.661
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.506929,
+        0.850793,
+        0.528612
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sulfur $10 | approval #:_________ Online order soillab.tennessee.edu 'University of Tennessee' YES NO analyses. Texture Sulfur (USDA) (We $10"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.761,
+        425.706,
+        354.933,
+        442.879
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.537508,
+        0.579956,
+        0.559191
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "ph",
+      "semantic_context": "pH and Nutrients $15 | Receipt#__________ Payment may If using a check sediment from the 2024 of soil or two recommendations pH and 4 Organic Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        380.997,
+        425.706,
+        398.17,
+        442.879
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.537508,
+        0.650605,
+        0.559191
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Organic Matter $15 | Payment may be using a check make the 2024 Eastern two cups for multiple recommendations can given. and Organic Soluble Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        422.234,
+        425.706,
+        439.211,
+        442.879
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.537508,
+        0.717666,
+        0.559191
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Soluble Salts $10 | Receipt#__________ be made on-line make it out to Eastern TN flood? for multiple analyses. given. Texture Organic Soluble Matter Salts (USDA) $10"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        463.47,
+        425.706,
+        480.448,
+        442.879
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.537508,
+        0.785046,
+        0.559191
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Texture (USDA) $30 | Online order at soillab.tennessee.edu on-line 'University out to TN flood? YES multiple analyses. given. Texture Soluble Sulfur Salts (USDA) $30"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        503.707,
+        425.706,
+        520.685,
+        442.879
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.537508,
+        0.850793,
+        0.559191
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sulfur $10 | Online order #:_________ soillab.tennessee.edu 'University of Tennessee' YES NO analyses. Texture Sulfur (USDA) (We $10"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.761,
+        449.925,
+        354.933,
+        467.098
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.568087,
+        0.579956,
+        0.58977
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "ph",
+      "semantic_context": "pH and Nutrients $15 | If using a check sediment from the 2024 of soil or two recommendations pH and 4 Organic Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        380.997,
+        449.925,
+        398.17,
+        467.098
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.568087,
+        0.650605,
+        0.58977
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Organic Matter $15 | using a check make the 2024 Eastern two cups for multiple recommendations can be given. and Organic Soluble Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        422.234,
+        449.925,
+        439.211,
+        467.098
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.568087,
+        0.717666,
+        0.58977
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Soluble Salts $10 | make it out to Eastern TN flood? for multiple analyses. be given. Texture Organic Soluble Matter Salts (USDA) $10"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        463.47,
+        449.925,
+        480.448,
+        467.098
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.568087,
+        0.785046,
+        0.58977
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Texture (USDA) $30 | 'University out to TN flood? YES multiple analyses. given. Texture Soluble Sulfur Salts (USDA) $30"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        503.707,
+        449.925,
+        520.685,
+        467.098
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.568087,
+        0.850793,
+        0.58977
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sulfur $10 | 'University of Tennessee' YES NO analyses. Texture Sulfur (USDA) (We $10"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.761,
+        474.143,
+        354.933,
+        491.316
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.598665,
+        0.579956,
+        0.620348
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "ph",
+      "semantic_context": "pH and Nutrients $15 | sediment from the 2024 of soil or two recommendations pH and 4 Organic Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        380.997,
+        474.143,
+        398.17,
+        491.316
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.598665,
+        0.650605,
+        0.620348
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "temperature",
+      "semantic_context": "Organic Matter $15 | the 2024 Eastern two cups for multiple recommendations can be given. and Organic Soluble Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        422.234,
+        474.143,
+        439.211,
+        491.316
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.598665,
+        0.717666,
+        0.620348
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Soluble Salts $10 | Eastern TN flood? for multiple analyses. be given. Texture Organic Soluble Matter Salts (USDA) $10"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        463.47,
+        474.143,
+        480.448,
+        491.316
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.598665,
+        0.785046,
+        0.620348
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Texture (USDA) $30 | TN flood? YES multiple analyses. given. Texture Soluble Sulfur Salts (USDA) $30"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        503.707,
+        474.143,
+        520.685,
+        491.316
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.598665,
+        0.850793,
+        0.620348
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sulfur $10 | YES NO analyses. Texture Sulfur (USDA) (We $10"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.761,
+        498.208,
+        354.933,
+        515.534
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.62905,
+        0.579956,
+        0.650927
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "ph",
+      "semantic_context": "pH and Nutrients $15 | of soil or two recommendations pH and 4 Organic Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        380.997,
+        498.208,
+        398.17,
+        515.534
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.62905,
+        0.650605,
+        0.650927
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "temperature",
+      "semantic_context": "Organic Matter $15 | two cups for multiple recommendations can be given. and Organic Soluble Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        422.234,
+        498.208,
+        439.211,
+        515.534
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.62905,
+        0.717666,
+        0.650927
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Soluble Salts $10 | for multiple analyses. be given. Texture Organic Soluble Matter Salts (USDA) $10"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        463.47,
+        498.208,
+        480.448,
+        515.534
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.62905,
+        0.785046,
+        0.650927
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Texture (USDA) $30 | multiple analyses. given. Texture Soluble Sulfur Salts (USDA) $30"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        503.707,
+        498.208,
+        520.685,
+        515.534
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.62905,
+        0.850793,
+        0.650927
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Sulfur $10 | analyses. Texture Sulfur (USDA) (We $10"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.761,
+        522.427,
+        354.933,
+        539.599
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.65963,
+        0.579956,
+        0.681312
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "ph",
+      "semantic_context": "pH and Nutrients $15 | recommendations pH and 4 Organic Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        380.997,
+        522.427,
+        398.17,
+        539.599
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.65963,
+        0.650605,
+        0.681312
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Organic Matter $15 | recommendations can be given. and Organic Soluble Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        422.234,
+        522.427,
+        439.211,
+        539.599
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.65963,
+        0.717666,
+        0.681312
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Soluble Salts $10 | be given. Texture Organic Soluble Matter Salts (USDA) $10"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        463.47,
+        522.427,
+        480.448,
+        539.599
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.65963,
+        0.785046,
+        0.681312
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Texture (USDA) $30 | given. Texture Soluble Sulfur Salts (USDA) $30"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        503.707,
+        522.427,
+        520.685,
+        539.599
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.65963,
+        0.850793,
+        0.681312
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Sulfur $10 | Texture Sulfur (USDA) (We $10"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.761,
+        546.798,
+        354.933,
+        563.818
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.690402,
+        0.579956,
+        0.711891
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "ph",
+      "semantic_context": "pH and Nutrients $15 | Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        380.997,
+        546.798,
+        398.17,
+        563.818
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.690402,
+        0.650605,
+        0.711891
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Organic Matter $15 | Nutrients Matter $15"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        422.234,
+        546.798,
+        439.211,
+        563.818
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.690402,
+        0.717666,
+        0.711891
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Soluble Salts $10 | Matter Salts (USDA) $10"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        463.47,
+        546.798,
+        480.448,
+        563.818
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.690402,
+        0.785046,
+        0.711891
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Texture (USDA) $30 | Salts (USDA) $30"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        503.707,
+        546.798,
+        520.685,
+        563.818
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.690402,
+        0.850793,
+        0.711891
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Sulfur $10 | (USDA) (We $10"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 0,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        36.636,
+        348.77,
+        92.424,
+        373.13
+      ],
+      "bbox_norm": [
+        0.059863,
+        0.440366,
+        0.15102,
+        0.471124
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sample Name (You provide) | Sample Name (You provide) | County (Soil Phone: ____________________________________ Email: _____________________________________ Please print clearly, so Flood Survey: Are these soil Sample Crop Farm ID Name (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 1,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        92.424,
+        348.77,
+        140.66,
+        373.13
+      ],
+      "bbox_norm": [
+        0.15102,
+        0.440366,
+        0.229837,
+        0.471124
+      ],
+      "source": "written",
+      "value": "237",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Farm ID (optional) | Farm ID (optional) | Please print Flood Survey: Are these soil samples provide If no Sample Crop 1 Farm ID Name Use (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 2,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        140.66,
+        348.77,
+        187.462,
+        373.13
+      ],
+      "bbox_norm": [
+        0.229837,
+        0.440366,
+        0.30631,
+        0.471124
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Crop 1 Crop 2 Crop 3 Crop 4 Use crop codes on back of sheet | Crop 1 Use | Survey: Are one Please provide at least If no crop codes, 1 2 Farm ID Use codes on provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 3,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        187.462,
+        348.77,
+        234.877,
+        373.13
+      ],
+      "bbox_norm": [
+        0.30631,
+        0.440366,
+        0.383785,
+        0.471124
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Crop 2 Use crop codes | one heaping If no crop codes, then 1 2 3 ID Use codes on back of sheet (optional)"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 4,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        234.877,
+        348.77,
+        281.777,
+        373.13
+      ],
+      "bbox_norm": [
+        0.383785,
+        0.440366,
+        0.460419,
+        0.471124
+      ],
+      "source": "written",
+      "value": "176",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Crop 3 on back of | If no crop codes, then recommendations pH 1 2 3 4 Nutrients Use codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 5,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        281.777,
+        348.77,
+        327.67,
+        373.13
+      ],
+      "bbox_norm": [
+        0.460419,
+        0.440366,
+        0.535409,
+        0.471124
+      ],
+      "source": "written",
+      "value": "75",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Crop 4 sheet | one crop codes, then no recommendations can pH and 2 3 4 Organic Nutrients Matter codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 21,
+      "rowspan": 3,
+      "colspan": 4,
+      "bbox_points": [
+        528.1,
+        348.77,
+        593.38,
+        373.13
+      ],
+      "bbox_norm": [
+        0.862908,
+        0.440366,
+        0.969575,
+        0.471124
+      ],
+      "source": "written",
+      "value": "93",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Lab ID (We provide) | Lab ID (We provide) | Online at soillab.tennessee.edu on-line 'University of Tennessee' out to flood? YES NO multiple analyses. Texture Soluble Lab ID Sulfur (USDA) (We provide) $10 $30"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 0,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        36.636,
+        373.13,
+        92.424,
+        397.37
+      ],
+      "bbox_norm": [
+        0.059863,
+        0.471124,
+        0.15102,
+        0.50173
+      ],
+      "source": "written",
+      "value": "213",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sample Name (You provide) | Sample Name (You provide) | County (Soil Phone: ____________________________________ Email: _____________________________________ Please print clearly, so Flood Survey: Are these soil Sample Crop Farm ID Name (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 1,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        92.424,
+        373.13,
+        140.66,
+        397.37
+      ],
+      "bbox_norm": [
+        0.15102,
+        0.471124,
+        0.229837,
+        0.50173
+      ],
+      "source": "written",
+      "value": "187",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Farm ID (optional) | Farm ID (optional) | Please print Flood Survey: Are these soil samples provide If no Sample Crop 1 Farm ID Name Use (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 2,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        140.66,
+        373.13,
+        187.462,
+        397.37
+      ],
+      "bbox_norm": [
+        0.229837,
+        0.471124,
+        0.30631,
+        0.50173
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Crop 1 Crop 2 Crop 3 Crop 4 Use crop codes on back of sheet | Crop 1 Use | Survey: Are one Please provide at least If no crop codes, 1 2 Farm ID Use codes on provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 3,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        187.462,
+        373.13,
+        234.877,
+        397.37
+      ],
+      "bbox_norm": [
+        0.30631,
+        0.471124,
+        0.383785,
+        0.50173
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Crop 2 Use crop codes | one heaping If no crop codes, then 1 2 3 ID Use codes on back of sheet (optional)"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 4,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        234.877,
+        373.13,
+        281.777,
+        397.37
+      ],
+      "bbox_norm": [
+        0.383785,
+        0.471124,
+        0.460419,
+        0.50173
+      ],
+      "source": "written",
+      "value": "58",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Crop 3 on back of | If no crop codes, then recommendations pH 1 2 3 4 Nutrients Use codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 5,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        281.777,
+        373.13,
+        327.67,
+        397.37
+      ],
+      "bbox_norm": [
+        0.460419,
+        0.471124,
+        0.535409,
+        0.50173
+      ],
+      "source": "written",
+      "value": "27",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Crop 4 sheet | one crop codes, then no recommendations can pH and 2 3 4 Organic Nutrients Matter codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 21,
+      "rowspan": 3,
+      "colspan": 4,
+      "bbox_points": [
+        528.1,
+        373.13,
+        593.38,
+        397.37
+      ],
+      "bbox_norm": [
+        0.862908,
+        0.471124,
+        0.969575,
+        0.50173
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "Lab ID (We provide) | Lab ID (We provide) | Online at soillab.tennessee.edu on-line 'University of Tennessee' out to flood? YES NO multiple analyses. Texture Soluble Lab ID Sulfur (USDA) (We provide) $10 $30"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 0,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        36.636,
+        397.37,
+        92.424,
+        421.61
+      ],
+      "bbox_norm": [
+        0.059863,
+        0.50173,
+        0.15102,
+        0.532336
+      ],
+      "source": "written",
+      "value": "227",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sample Name (You provide) | Sample Name (You provide) | County (Soil Phone: ____________________________________ Email: _____________________________________ Please print clearly, so Flood Survey: Are these soil Sample Crop Farm ID Name (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 1,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        92.424,
+        397.37,
+        140.66,
+        421.61
+      ],
+      "bbox_norm": [
+        0.15102,
+        0.50173,
+        0.229837,
+        0.532336
+      ],
+      "source": "written",
+      "value": "185",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Farm ID (optional) | Farm ID (optional) | Please print Flood Survey: Are these soil samples provide If no Sample Crop 1 Farm ID Name Use (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 2,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        140.66,
+        397.37,
+        187.462,
+        421.61
+      ],
+      "bbox_norm": [
+        0.229837,
+        0.50173,
+        0.30631,
+        0.532336
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 1 Crop 2 Crop 3 Crop 4 Use crop codes on back of sheet | Crop 1 Use | Survey: Are one Please provide at least If no crop codes, 1 2 Farm ID Use codes on provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 3,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        187.462,
+        397.37,
+        234.877,
+        421.61
+      ],
+      "bbox_norm": [
+        0.30631,
+        0.50173,
+        0.383785,
+        0.532336
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 2 Use crop codes | one heaping If no crop codes, then 1 2 3 ID Use codes on back of sheet (optional)"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 4,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        234.877,
+        397.37,
+        281.777,
+        421.61
+      ],
+      "bbox_norm": [
+        0.383785,
+        0.50173,
+        0.460419,
+        0.532336
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Crop 3 on back of | If no crop codes, then recommendations pH 1 2 3 4 Nutrients Use codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 5,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        281.777,
+        397.37,
+        327.67,
+        421.61
+      ],
+      "bbox_norm": [
+        0.460419,
+        0.50173,
+        0.535409,
+        0.532336
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Crop 4 sheet | one crop codes, then no recommendations can pH and 2 3 4 Organic Nutrients Matter codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 21,
+      "rowspan": 3,
+      "colspan": 4,
+      "bbox_points": [
+        528.1,
+        397.37,
+        593.38,
+        421.61
+      ],
+      "bbox_norm": [
+        0.862908,
+        0.50173,
+        0.969575,
+        0.532336
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Lab ID (We provide) | Lab ID (We provide) | Online at soillab.tennessee.edu on-line 'University of Tennessee' out to flood? YES NO multiple analyses. Texture Soluble Lab ID Sulfur (USDA) (We provide) $10 $30"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 0,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        36.636,
+        421.61,
+        92.424,
+        445.87
+      ],
+      "bbox_norm": [
+        0.059863,
+        0.532336,
+        0.15102,
+        0.562967
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Sample Name (You provide) | Sample Name (You provide) | Phone: ____________________________________ Email: _____________________________________ Please print clearly, so Flood Survey: Are these soil Sample Crop Farm ID Name (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 1,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        92.424,
+        421.61,
+        140.66,
+        445.87
+      ],
+      "bbox_norm": [
+        0.15102,
+        0.532336,
+        0.229837,
+        0.562967
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Farm ID (optional) | Farm ID (optional) | Please print Flood Survey: Are these soil samples provide If no Sample Crop 1 Farm ID Name Use (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 2,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        140.66,
+        421.61,
+        187.462,
+        445.87
+      ],
+      "bbox_norm": [
+        0.229837,
+        0.532336,
+        0.30631,
+        0.562967
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 1 Crop 2 Crop 3 Crop 4 Use crop codes on back of sheet | Crop 1 Use | Survey: Are one Please provide at least If no crop codes, 1 2 Farm ID Use codes on provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 3,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        187.462,
+        421.61,
+        234.877,
+        445.87
+      ],
+      "bbox_norm": [
+        0.30631,
+        0.532336,
+        0.383785,
+        0.562967
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 2 Use crop codes | one heaping If no crop codes, then 1 2 3 ID Use codes on back of sheet (optional)"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 4,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        234.877,
+        421.61,
+        281.777,
+        445.87
+      ],
+      "bbox_norm": [
+        0.383785,
+        0.532336,
+        0.460419,
+        0.562967
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Crop 3 on back of | If no crop codes, then recommendations pH 1 2 3 4 Nutrients Use codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 5,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        281.777,
+        421.61,
+        327.67,
+        445.87
+      ],
+      "bbox_norm": [
+        0.460419,
+        0.532336,
+        0.535409,
+        0.562967
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Crop 4 sheet | one crop codes, then no recommendations can pH and 2 3 4 Organic Nutrients Matter codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 21,
+      "rowspan": 3,
+      "colspan": 4,
+      "bbox_points": [
+        528.1,
+        421.61,
+        593.38,
+        445.87
+      ],
+      "bbox_norm": [
+        0.862908,
+        0.532336,
+        0.969575,
+        0.562967
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Lab ID (We provide) | Lab ID (We provide) | Online at soillab.tennessee.edu on-line 'University of Tennessee' out to flood? YES NO multiple analyses. Texture Soluble Lab ID Sulfur (USDA) (We provide) $10 $30"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 0,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        36.636,
+        445.87,
+        92.424,
+        470.11
+      ],
+      "bbox_norm": [
+        0.059863,
+        0.562967,
+        0.15102,
+        0.593573
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Sample Name (You provide) | Sample Name (You provide) | Email: _____________________________________ Please print clearly, so Flood Survey: Are these soil Sample Crop Farm ID Name (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 1,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        92.424,
+        445.87,
+        140.66,
+        470.11
+      ],
+      "bbox_norm": [
+        0.15102,
+        0.562967,
+        0.229837,
+        0.593573
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Farm ID (optional) | Farm ID (optional) | Please print Flood Survey: Are these soil samples provide If no Sample Crop 1 Farm ID Name Use (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 2,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        140.66,
+        445.87,
+        187.462,
+        470.11
+      ],
+      "bbox_norm": [
+        0.229837,
+        0.562967,
+        0.30631,
+        0.593573
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 1 Crop 2 Crop 3 Crop 4 Use crop codes on back of sheet | Crop 1 Use | Survey: Are one Please provide at least If no crop codes, 1 2 Farm ID Use codes on provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 3,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        187.462,
+        445.87,
+        234.877,
+        470.11
+      ],
+      "bbox_norm": [
+        0.30631,
+        0.562967,
+        0.383785,
+        0.593573
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 2 Use crop codes | one heaping If no crop codes, then 1 2 3 ID Use codes on back of sheet (optional)"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 4,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        234.877,
+        445.87,
+        281.777,
+        470.11
+      ],
+      "bbox_norm": [
+        0.383785,
+        0.562967,
+        0.460419,
+        0.593573
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Crop 3 on back of | If no crop codes, then recommendations pH 1 2 3 4 Nutrients Use codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 5,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        281.777,
+        445.87,
+        327.67,
+        470.11
+      ],
+      "bbox_norm": [
+        0.460419,
+        0.562967,
+        0.535409,
+        0.593573
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Crop 4 sheet | one crop codes, then no recommendations can pH and 2 3 4 Organic Nutrients Matter codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 21,
+      "rowspan": 3,
+      "colspan": 4,
+      "bbox_points": [
+        528.1,
+        445.87,
+        593.38,
+        470.11
+      ],
+      "bbox_norm": [
+        0.862908,
+        0.562967,
+        0.969575,
+        0.593573
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Lab ID (We provide) | Lab ID (We provide) | at soillab.tennessee.edu on-line 'University of Tennessee' out to flood? YES NO multiple analyses. Texture Soluble Lab ID Sulfur (USDA) (We provide) $10 $30"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 0,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        36.636,
+        470.11,
+        92.424,
+        494.35
+      ],
+      "bbox_norm": [
+        0.059863,
+        0.593573,
+        0.15102,
+        0.624179
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Sample Name (You provide) | Sample Name (You provide) | Flood Survey: Are these soil Please Sample Crop Farm ID Name (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 1,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        92.424,
+        470.11,
+        140.66,
+        494.35
+      ],
+      "bbox_norm": [
+        0.15102,
+        0.593573,
+        0.229837,
+        0.624179
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Farm ID (optional) | Farm ID (optional) | Flood Survey: Are these soil samples Please provide If no Sample Crop 1 Farm ID Name Use (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 2,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        140.66,
+        470.11,
+        187.462,
+        494.35
+      ],
+      "bbox_norm": [
+        0.229837,
+        0.593573,
+        0.30631,
+        0.624179
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 1 Crop 2 Crop 3 Crop 4 Use crop codes on back of sheet | Crop 1 Use | Survey: Are one Please provide at least If no crop codes, 1 2 Farm ID Use codes on provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 3,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        187.462,
+        470.11,
+        234.877,
+        494.35
+      ],
+      "bbox_norm": [
+        0.30631,
+        0.593573,
+        0.383785,
+        0.624179
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 2 Use crop codes | one heaping If no crop codes, then 1 2 3 ID Use codes on back of sheet (optional)"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 4,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        234.877,
+        470.11,
+        281.777,
+        494.35
+      ],
+      "bbox_norm": [
+        0.383785,
+        0.593573,
+        0.460419,
+        0.624179
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Crop 3 on back of | If no crop codes, then recommendations pH 1 2 3 4 Nutrients Use codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 5,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        281.777,
+        470.11,
+        327.67,
+        494.35
+      ],
+      "bbox_norm": [
+        0.460419,
+        0.593573,
+        0.535409,
+        0.624179
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Crop 4 sheet | one crop codes, then no recommendations can pH and 2 3 4 Organic Nutrients Matter codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 21,
+      "rowspan": 3,
+      "colspan": 4,
+      "bbox_points": [
+        528.1,
+        470.11,
+        593.38,
+        494.35
+      ],
+      "bbox_norm": [
+        0.862908,
+        0.593573,
+        0.969575,
+        0.624179
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Lab ID (We provide) | Lab ID (We provide) | flood? YES NO multiple analyses. Texture Soluble Lab ID Sulfur (USDA) (We provide) $10 $30"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 0,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        36.636,
+        494.35,
+        92.424,
+        518.59
+      ],
+      "bbox_norm": [
+        0.059863,
+        0.624179,
+        0.15102,
+        0.654785
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Sample Name (You provide) | Sample Name (You provide) | Flood Survey: Are these soil Please Sample Crop Farm ID Name (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 1,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        92.424,
+        494.35,
+        140.66,
+        518.59
+      ],
+      "bbox_norm": [
+        0.15102,
+        0.624179,
+        0.229837,
+        0.654785
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Farm ID (optional) | Farm ID (optional) | Flood Survey: Are these soil samples Please provide If no Sample Crop 1 Farm ID Name Use (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 2,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        140.66,
+        494.35,
+        187.462,
+        518.59
+      ],
+      "bbox_norm": [
+        0.229837,
+        0.624179,
+        0.30631,
+        0.654785
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 1 Crop 2 Crop 3 Crop 4 Use crop codes on back of sheet | Crop 1 Use | Survey: Are one Please provide at least If no crop codes, 1 2 Farm ID Use codes on provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 3,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        187.462,
+        494.35,
+        234.877,
+        518.59
+      ],
+      "bbox_norm": [
+        0.30631,
+        0.624179,
+        0.383785,
+        0.654785
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 2 Use crop codes | one heaping If no crop codes, then 1 2 3 ID Use codes on back of sheet (optional)"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 4,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        234.877,
+        494.35,
+        281.777,
+        518.59
+      ],
+      "bbox_norm": [
+        0.383785,
+        0.624179,
+        0.460419,
+        0.654785
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Crop 3 on back of | If no crop codes, then recommendations pH 1 2 3 4 Nutrients Use codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 5,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        281.777,
+        494.35,
+        327.67,
+        518.59
+      ],
+      "bbox_norm": [
+        0.460419,
+        0.624179,
+        0.535409,
+        0.654785
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Crop 4 sheet | one crop codes, then no recommendations can pH and 2 3 4 Organic Nutrients Matter codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 21,
+      "rowspan": 3,
+      "colspan": 4,
+      "bbox_points": [
+        528.1,
+        494.35,
+        593.38,
+        518.59
+      ],
+      "bbox_norm": [
+        0.862908,
+        0.624179,
+        0.969575,
+        0.654785
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Lab ID (We provide) | Lab ID (We provide) | flood? YES NO multiple analyses. Texture Soluble Lab ID Sulfur (USDA) (We provide) $10 $30"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 0,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        36.636,
+        518.59,
+        92.424,
+        542.83
+      ],
+      "bbox_norm": [
+        0.059863,
+        0.654785,
+        0.15102,
+        0.685391
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Sample Name (You provide) | Sample Name (You provide) | Sample Crop Farm ID Name (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 1,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        92.424,
+        518.59,
+        140.66,
+        542.83
+      ],
+      "bbox_norm": [
+        0.15102,
+        0.654785,
+        0.229837,
+        0.685391
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Farm ID (optional) | Farm ID (optional) | If no Sample Crop 1 Farm ID Name Use (You provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 2,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        140.66,
+        518.59,
+        187.462,
+        542.83
+      ],
+      "bbox_norm": [
+        0.229837,
+        0.654785,
+        0.30631,
+        0.685391
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 1 Crop 2 Crop 3 Crop 4 Use crop codes on back of sheet | Crop 1 Use | If no crop codes, 1 2 Farm ID Use codes on provide) (optional)"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 3,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        187.462,
+        518.59,
+        234.877,
+        542.83
+      ],
+      "bbox_norm": [
+        0.30631,
+        0.654785,
+        0.383785,
+        0.685391
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 2 Use crop codes | If no crop codes, then 1 2 3 ID Use codes on back of sheet (optional)"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 4,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        234.877,
+        518.59,
+        281.777,
+        542.83
+      ],
+      "bbox_norm": [
+        0.383785,
+        0.654785,
+        0.460419,
+        0.685391
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Crop 3 on back of | If no crop codes, then recommendations pH 1 2 3 4 Nutrients Use codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 5,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        281.777,
+        518.59,
+        327.67,
+        542.83
+      ],
+      "bbox_norm": [
+        0.460419,
+        0.654785,
+        0.535409,
+        0.685391
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Crop 4 sheet | crop codes, then no recommendations can pH and 2 3 4 Organic Nutrients Matter codes on back of sheet $15"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 21,
+      "rowspan": 3,
+      "colspan": 4,
+      "bbox_points": [
+        528.1,
+        518.59,
+        593.38,
+        542.83
+      ],
+      "bbox_norm": [
+        0.862908,
+        0.654785,
+        0.969575,
+        0.685391
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Lab ID (We provide) | Lab ID (We provide) | Texture Soluble Lab ID Sulfur (USDA) (We provide) $10 $30"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 0,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        36.636,
+        542.83,
+        92.424,
+        567.07
+      ],
+      "bbox_norm": [
+        0.059863,
+        0.685391,
+        0.15102,
+        0.715997
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "ph",
+      "semantic_context": "Sample Name (You provide) | Sample Name (You provide) | Sample Crop Farm ID Name (You provide) (optional) \u2021pH and Nutrients"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 1,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        92.424,
+        542.83,
+        140.66,
+        567.07
+      ],
+      "bbox_norm": [
+        0.15102,
+        0.685391,
+        0.229837,
+        0.715997
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Farm ID (optional) | Farm ID (optional) | Sample Crop 1 Farm ID Name Use (You provide) (optional) Nutrients test"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 2,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        140.66,
+        542.83,
+        187.462,
+        567.07
+      ],
+      "bbox_norm": [
+        0.229837,
+        0.685391,
+        0.30631,
+        0.715997
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 1 Crop 2 Crop 3 Crop 4 Use crop codes on back of sheet | Crop 1 Use | Crop 1 2 Farm ID Use codes on provide) (optional) test includes: soil"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 3,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        187.462,
+        542.83,
+        234.877,
+        567.07
+      ],
+      "bbox_norm": [
+        0.30631,
+        0.685391,
+        0.383785,
+        0.715997
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 2 Use crop codes | Crop 1 2 3 ID Use codes on back of sheet (optional) soil pH, buffer"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 4,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        234.877,
+        542.83,
+        281.777,
+        567.07
+      ],
+      "bbox_norm": [
+        0.383785,
+        0.685391,
+        0.460419,
+        0.715997
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 3 on back of | pH 1 Crop 2 3 4 Nutrients Use codes on back of sheet $15 buffer pH, Mehlich-1"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 5,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        281.777,
+        542.83,
+        327.67,
+        567.07
+      ],
+      "bbox_norm": [
+        0.460419,
+        0.685391,
+        0.535409,
+        0.715997
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Crop 4 sheet | pH and 2 Crop 3 4 Organic Nutrients Matter codes on back of sheet $15 Mehlich-1 extractable"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 21,
+      "rowspan": 3,
+      "colspan": 4,
+      "bbox_points": [
+        528.1,
+        542.83,
+        593.38,
+        567.07
+      ],
+      "bbox_norm": [
+        0.862908,
+        0.685391,
+        0.969575,
+        0.715997
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Lab ID (We provide) | Lab ID (We provide) | Texture Soluble Lab ID Sulfur (USDA) (We provide) $10 $30 magnesium,"
+    }
+  ]
+}

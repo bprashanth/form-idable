@@ -1,0 +1,280 @@
+{
+  "cells": [
+    {
+      "cell_id": "r2_c23",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r6_c7",
+      "value": "5.1",
+      "confidence": 0.95,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r6_c10",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r6_c13",
+      "value": "Y",
+      "confidence": 0.95,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r6_c16",
+      "value": "S",
+      "confidence": 0.95,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r6_c19",
+      "value": "176",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r9_c7",
+      "value": "3.4",
+      "confidence": 0.95,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r9_c10",
+      "value": "Y",
+      "confidence": 0.95,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r9_c13",
+      "value": "Y",
+      "confidence": 0.95,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r9_c16",
+      "value": "T",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r9_c19",
+      "value": "6",
+      "confidence": 0.95,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r12_c7",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r12_c10",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r12_c13",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r12_c16",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r12_c19",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r15_c7",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r15_c10",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r15_c13",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r15_c16",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r15_c19",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r18_c7",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r18_c10",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r18_c13",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r18_c16",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r18_c19",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r21_c7",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r21_c10",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r21_c13",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r21_c16",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r21_c19",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r24_c7",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r24_c10",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r24_c13",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r24_c16",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r24_c19",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r27_c7",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r27_c10",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r27_c13",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r27_c16",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r27_c19",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r30_c7",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r30_c10",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r30_c13",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r30_c16",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "cell_id": "r30_c19",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+[
+  {
+    "cell_id": "r33_c5",
+    "row": 33,
+    "col": 5,
+    "bbox_1000": [
+      212,
+      726,
+      291,
+      749
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r33_c12",
+    "row": 33,
+    "col": 12,
+    "bbox_1000": [
+      461,
+      726,
+      545,
+      749
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r33_c15",
+    "row": 33,
+    "col": 15,
+    "bbox_1000": [
+      545,
+      726,
+      605,
+      749
+    ],
+    "context": "People",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r33_c21",
+    "row": 33,
+    "col": 21,
+    "bbox_1000": [
+      771,
+      726,
+      847,
+      749
+    ],
+    "context": "nested RECCE's hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r33_c24",
+    "row": 33,
+    "col": 24,
+    "bbox_1000": [
+      847,
+      726,
+      922,
+      749
+    ],
+    "context": "People",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r34_c5",
+    "row": 34,
+    "col": 5,
+    "bbox_1000": [
+      212,
+      749,
+      291,
+      772
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r34_c12",
+    "row": 34,
+    "col": 12,
+    "bbox_1000": [
+      461,
+      749,
+      545,
+      772
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r34_c15",
+    "row": 34,
+    "col": 15,
+    "bbox_1000": [
+      545,
+      749,
+      605,
+      772
+    ],
+    "context": "People",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r34_c21",
+    "row": 34,
+    "col": 21,
+    "bbox_1000": [
+      771,
+      749,
+      847,
+      772
+    ],
+    "context": "nested RECCE's hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r34_c24",
+    "row": 34,
+    "col": 24,
+    "bbox_1000": [
+      847,
+      749,
+      922,
+      772
+    ],
+    "context": "People",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r35_c5",
+    "row": 35,
+    "col": 5,
+    "bbox_1000": [
+      212,
+      772,
+      291,
+      793
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r35_c12",
+    "row": 35,
+    "col": 12,
+    "bbox_1000": [
+      461,
+      772,
+      545,
+      793
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r35_c15",
+    "row": 35,
+    "col": 15,
+    "bbox_1000": [
+      545,
+      772,
+      605,
+      793
+    ],
+    "context": "People",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r35_c19",
+    "row": 35,
+    "col": 19,
+    "bbox_1000": [
+      635,
+      772,
+      922,
+      793
+    ],
+    "context": "Non-vascular samples collection Soil samples",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r36_c5",
+    "row": 36,
+    "col": 5,
+    "bbox_1000": [
+      212,
+      793,
+      291,
+      822
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r36_c12",
+    "row": 36,
+    "col": 12,
+    "bbox_1000": [
+      461,
+      793,
+      545,
+      822
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r36_c15",
+    "row": 36,
+    "col": 15,
+    "bbox_1000": [
+      545,
+      793,
+      605,
+      822
+    ],
+    "context": "People",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r36_c21",
+    "row": 36,
+    "col": 21,
+    "bbox_1000": [
+      771,
+      793,
+      847,
+      822
+    ],
+    "context": "nested RECCE's hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r36_c24",
+    "row": 36,
+    "col": 24,
+    "bbox_1000": [
+      847,
+      793,
+      922,
+      822
+    ],
+    "context": "People",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r37_c5",
+    "row": 37,
+    "col": 5,
+    "bbox_1000": [
+      212,
+      822,
+      291,
+      852
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r37_c12",
+    "row": 37,
+    "col": 12,
+    "bbox_1000": [
+      461,
+      822,
+      545,
+      852
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r37_c15",
+    "row": 37,
+    "col": 15,
+    "bbox_1000": [
+      545,
+      822,
+      605,
+      852
+    ],
+    "context": "People",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r37_c21",
+    "row": 37,
+    "col": 21,
+    "bbox_1000": [
+      771,
+      822,
+      847,
+      852
+    ],
+    "context": "nested RECCE's hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r37_c24",
+    "row": 37,
+    "col": 24,
+    "bbox_1000": [
+      847,
+      822,
+      922,
+      852
+    ],
+    "context": "People",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r38_c5",
+    "row": 38,
+    "col": 5,
+    "bbox_1000": [
+      212,
+      852,
+      291,
+      882
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r38_c12",
+    "row": 38,
+    "col": 12,
+    "bbox_1000": [
+      461,
+      852,
+      545,
+      882
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r38_c15",
+    "row": 38,
+    "col": 15,
+    "bbox_1000": [
+      545,
+      852,
+      605,
+      882
+    ],
+    "context": "People",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r38_c21",
+    "row": 38,
+    "col": 21,
+    "bbox_1000": [
+      771,
+      852,
+      847,
+      882
+    ],
+    "context": "nested RECCE's hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r38_c24",
+    "row": 38,
+    "col": 24,
+    "bbox_1000": [
+      847,
+      852,
+      922,
+      882
+    ],
+    "context": "People",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r39_c12",
+    "row": 39,
+    "col": 12,
+    "bbox_1000": [
+      461,
+      882,
+      545,
+      903
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r39_c15",
+    "row": 39,
+    "col": 15,
+    "bbox_1000": [
+      545,
+      882,
+      605,
+      903
+    ],
+    "context": "People",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r40_c12",
+    "row": 40,
+    "col": 12,
+    "bbox_1000": [
+      461,
+      903,
+      545,
+      924
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r40_c15",
+    "row": 40,
+    "col": 15,
+    "bbox_1000": [
+      545,
+      903,
+      605,
+      924
+    ],
+    "context": "People",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r41_c12",
+    "row": 41,
+    "col": 12,
+    "bbox_1000": [
+      461,
+      924,
+      545,
+      947
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r41_c15",
+    "row": 41,
+    "col": 15,
+    "bbox_1000": [
+      545,
+      924,
+      605,
+      947
+    ],
+    "context": "People",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r29_c5",
+    "row": 29,
+    "col": 5,
+    "bbox_1000": [
+      212,
+      684,
+      291,
+      705
+    ],
+    "context": "data? access to location):",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r31_c12",
+    "row": 31,
+    "col": 12,
+    "bbox_1000": [
+      461,
+      705,
+      545,
+      726
+    ],
+    "context": "hh:mm",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r31_c15",
+    "row": 31,
+    "col": 15,
+    "bbox_1000": [
+      545,
+      705,
+      605,
+      726
+    ],
+    "context": "People",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r31_c19",
+    "row": 31,
+    "col": 19,
+    "bbox_1000": [
+      635,
+      705,
+      922,
+      726
+    ],
+    "context": "Collections and nested RECCE's Method hh:mm People",
+    "image_index": 0
+  }
+]

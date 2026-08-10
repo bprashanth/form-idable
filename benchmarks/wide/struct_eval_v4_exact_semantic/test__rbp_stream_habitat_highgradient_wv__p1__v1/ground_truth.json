@@ -1,0 +1,408 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "rbp_stream_habitat_highgradient_wv.pdf",
+  "page": 2,
+  "page_size_points": [
+    612.0,
+    792.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 2,
+      "row": 0,
+      "col": 0,
+      "bbox_points": [
+        90.6,
+        79.08,
+        263.64,
+        93.48
+      ],
+      "bbox_norm": [
+        0.148039,
+        0.099848,
+        0.430784,
+        0.11803
+      ],
+      "source": "printed",
+      "value": "STREAM NAME",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "STREAM NAME"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 2,
+      "bbox_points": [
+        263.64,
+        79.08,
+        539.64,
+        93.48
+      ],
+      "bbox_norm": [
+        0.430784,
+        0.099848,
+        0.881765,
+        0.11803
+      ],
+      "source": "printed",
+      "value": "LOCATION",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "LOCATION"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 0,
+      "bbox_points": [
+        90.6,
+        93.48,
+        263.64,
+        107.88
+      ],
+      "bbox_norm": [
+        0.148039,
+        0.11803,
+        0.430784,
+        0.136212
+      ],
+      "source": "printed",
+      "value": "STATION #_________ RIVERMILE_________",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "STATION #_________ RIVERMILE_________"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 2,
+      "bbox_points": [
+        263.64,
+        93.48,
+        539.64,
+        107.88
+      ],
+      "bbox_norm": [
+        0.430784,
+        0.11803,
+        0.881765,
+        0.136212
+      ],
+      "source": "printed",
+      "value": "STREAM CLASS",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "STREAM CLASS"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 0,
+      "bbox_points": [
+        90.6,
+        107.88,
+        263.64,
+        122.28
+      ],
+      "bbox_norm": [
+        0.148039,
+        0.136212,
+        0.430784,
+        0.154394
+      ],
+      "source": "printed",
+      "value": "LAT ______________ LONG ______________",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "LAT ______________ LONG ______________"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 2,
+      "bbox_points": [
+        263.64,
+        107.88,
+        539.64,
+        122.28
+      ],
+      "bbox_norm": [
+        0.430784,
+        0.136212,
+        0.881765,
+        0.154394
+      ],
+      "source": "printed",
+      "value": "RIVER BASIN",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "RIVER BASIN"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 0,
+      "bbox_points": [
+        90.6,
+        122.28,
+        263.64,
+        136.68
+      ],
+      "bbox_norm": [
+        0.148039,
+        0.154394,
+        0.430784,
+        0.172576
+      ],
+      "source": "printed",
+      "value": "STORET #",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "STORET #"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 2,
+      "bbox_points": [
+        263.64,
+        122.28,
+        539.64,
+        136.68
+      ],
+      "bbox_norm": [
+        0.430784,
+        0.154394,
+        0.881765,
+        0.172576
+      ],
+      "source": "printed",
+      "value": "AGENCY",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "AGENCY"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 0,
+      "bbox_points": [
+        90.6,
+        136.68,
+        539.64,
+        151.08
+      ],
+      "bbox_norm": [
+        0.148039,
+        0.172576,
+        0.881765,
+        0.190758
+      ],
+      "source": "printed",
+      "value": "INVESTIGATORS",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "INVESTIGATORS"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 0,
+      "bbox_points": [
+        90.6,
+        151.08,
+        263.64,
+        178.92
+      ],
+      "bbox_norm": [
+        0.148039,
+        0.190758,
+        0.430784,
+        0.225909
+      ],
+      "source": "printed",
+      "value": "FORM COMPLETED BY",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "FORM COMPLETED BY"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 2,
+      "bbox_points": [
+        263.64,
+        151.08,
+        367.56,
+        178.92
+      ],
+      "bbox_norm": [
+        0.430784,
+        0.190758,
+        0.600588,
+        0.225909
+      ],
+      "source": "printed",
+      "value": "DATE TIME _________ ________ AM PM",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "DATE TIME _________ ________ AM PM"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 3,
+      "bbox_points": [
+        367.56,
+        151.08,
+        539.64,
+        178.92
+      ],
+      "bbox_norm": [
+        0.600588,
+        0.190758,
+        0.881765,
+        0.225909
+      ],
+      "source": "printed",
+      "value": "REASON FOR SURVEY",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "REASON FOR SURVEY"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 0,
+      "bbox_points": [
+        90.6,
+        191.16,
+        184.2,
+        258.12
+      ],
+      "bbox_norm": [
+        0.148039,
+        0.241364,
+        0.30098,
+        0.325909
+      ],
+      "source": "printed",
+      "value": "CONDITIONS WEATHER",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "CONDITIONS WEATHER"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 1,
+      "bbox_points": [
+        184.2,
+        191.16,
+        539.64,
+        258.12
+      ],
+      "bbox_norm": [
+        0.30098,
+        0.241364,
+        0.881765,
+        0.325909
+      ],
+      "source": "printed",
+      "value": "____%\u2018 Now \u2018 \u2018 \u2018 \u2018 showers storm rain %cloud clear/sunny (steady (heavy (intermittent) cover rain) rain) Past hours \u2018 \u2018 \u2018 \u2018 \u2018____% 24 Air Has Other____________________________________ \u2018 Yes Temperature_____0 there been \u2018 No a heavy rain C in the last 7 days?",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "____%\u2018 Now \u2018 \u2018 \u2018 \u2018 showers storm rain %cloud clear/sunny (steady (heavy (intermittent) cover rain) rain) Past hours \u2018 \u2018 \u2018 \u2018 \u2018____% 24 Air Has Other____________________________________ \u2018 Yes Temperature_____0 there been \u2018 No a heavy rain C in the last 7 days?"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 0,
+      "bbox_points": [
+        90.6,
+        258.12,
+        184.2,
+        603.72
+      ],
+      "bbox_norm": [
+        0.148039,
+        0.325909,
+        0.30098,
+        0.762273
+      ],
+      "source": "printed",
+      "value": "SITE LOCATION/MAP",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "SITE LOCATION/MAP"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 1,
+      "bbox_points": [
+        184.2,
+        258.12,
+        539.64,
+        603.72
+      ],
+      "bbox_norm": [
+        0.30098,
+        0.325909,
+        0.881765,
+        0.762273
+      ],
+      "source": "printed",
+      "value": "Draw a map of the site and indicate the areas sampled (or attach a photograph)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Draw a map of the site and indicate the areas sampled (or attach a photograph)"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 0,
+      "bbox_points": [
+        90.6,
+        603.72,
+        184.2,
+        671.64
+      ],
+      "bbox_norm": [
+        0.148039,
+        0.762273,
+        0.30098,
+        0.84803
+      ],
+      "source": "printed",
+      "value": "CHARACTERIZATION STREAM",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "CHARACTERIZATION STREAM"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 1,
+      "bbox_points": [
+        184.2,
+        603.72,
+        539.64,
+        671.64
+      ],
+      "bbox_norm": [
+        0.30098,
+        0.762273,
+        0.881765,
+        0.84803
+      ],
+      "source": "printed",
+      "value": "Stream Stream \u2018 \u2018 \u2018 \u2018 Glacial Non-glacial Swamp Perennial Subsystem Origin and bog montane \u2018 Intermittent \u2018 \u2018 \u2018 Other__________ Spring-fed Mixture \u2018 Tidal of origins Catchment Stream \u2018 Coldwater Type Area__________km2 \u2018 Warmwater",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Stream Stream \u2018 \u2018 \u2018 \u2018 Glacial Non-glacial Swamp Perennial Subsystem Origin and bog montane \u2018 Intermittent \u2018 \u2018 \u2018 Other__________ Spring-fed Mixture \u2018 Tidal of origins Catchment Stream \u2018 Coldwater Type Area__________km2 \u2018 Warmwater"
+    }
+  ]
+}

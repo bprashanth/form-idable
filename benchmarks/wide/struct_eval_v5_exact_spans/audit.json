@@ -1,0 +1,34 @@
+{
+  "corpus": "benchmarks/wide/struct_eval_v5_exact_spans",
+  "forms": 84,
+  "forms_with_writing": 78,
+  "cells": 20238,
+  "written": 8178,
+  "kind_counts": {
+    "int": 1884,
+    "time": 79,
+    "code1": 2793,
+    "alpha_code": 59,
+    "dec": 524,
+    "percent": 668,
+    "short": 280,
+    "species": 456,
+    "yn": 1129,
+    "coordinate": 4,
+    "temperature": 14,
+    "date": 223,
+    "vernacular": 33,
+    "person": 28,
+    "ph": 4
+  },
+  "errors": 0,
+  "empty_forms": [
+    "dev__iwla_save_our_streams_quality_survey__p0__v0",
+    "dev__iwla_save_our_streams_quality_survey__p0__v1",
+    "test__bird_grassland_point_count__p1__v0",
+    "test__bird_grassland_point_count__p1__v1",
+    "test__rbp_stream_habitat_highgradient_wv__p1__v0",
+    "test__rbp_stream_habitat_highgradient_wv__p1__v1"
+  ],
+  "failed_forms": []
+}

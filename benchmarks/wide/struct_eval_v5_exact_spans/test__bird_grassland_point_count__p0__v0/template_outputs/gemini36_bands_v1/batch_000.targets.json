@@ -1,0 +1,338 @@
+[
+  {
+    "cell_id": "r2_c0",
+    "row": 2,
+    "col": 0,
+    "context": "ALPHA CODE (enter each bird individually)",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r2_c1",
+    "row": 2,
+    "col": 1,
+    "context": "Within 50m",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r2_c3",
+    "row": 2,
+    "col": 3,
+    "context": "Between 50m - 100m",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r2_c4",
+    "row": 2,
+    "col": 4,
+    "context": "Within 50m",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r2_c5",
+    "row": 2,
+    "col": 5,
+    "context": "Between 50m - 100m",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r2_c6",
+    "row": 2,
+    "col": 6,
+    "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r3_c0",
+    "row": 3,
+    "col": 0,
+    "context": "ALPHA CODE (enter each bird individually)",
+    "image_index": 1
+  },
+  {
+    "cell_id": "r3_c1",
+    "row": 3,
+    "col": 1,
+    "context": "Within 50m",
+    "image_index": 1
+  },
+  {
+    "cell_id": "r3_c3",
+    "row": 3,
+    "col": 3,
+    "context": "Between 50m - 100m",
+    "image_index": 1
+  },
+  {
+    "cell_id": "r3_c4",
+    "row": 3,
+    "col": 4,
+    "context": "Within 50m",
+    "image_index": 1
+  },
+  {
+    "cell_id": "r3_c5",
+    "row": 3,
+    "col": 5,
+    "context": "Between 50m - 100m",
+    "image_index": 1
+  },
+  {
+    "cell_id": "r3_c6",
+    "row": 3,
+    "col": 6,
+    "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+    "image_index": 1
+  },
+  {
+    "cell_id": "r4_c0",
+    "row": 4,
+    "col": 0,
+    "context": "ALPHA CODE (enter each bird individually)",
+    "image_index": 2
+  },
+  {
+    "cell_id": "r4_c1",
+    "row": 4,
+    "col": 1,
+    "context": "Within 50m",
+    "image_index": 2
+  },
+  {
+    "cell_id": "r4_c3",
+    "row": 4,
+    "col": 3,
+    "context": "Between 50m - 100m",
+    "image_index": 2
+  },
+  {
+    "cell_id": "r4_c4",
+    "row": 4,
+    "col": 4,
+    "context": "Within 50m",
+    "image_index": 2
+  },
+  {
+    "cell_id": "r4_c5",
+    "row": 4,
+    "col": 5,
+    "context": "Between 50m - 100m",
+    "image_index": 2
+  },
+  {
+    "cell_id": "r4_c6",
+    "row": 4,
+    "col": 6,
+    "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+    "image_index": 2
+  },
+  {
+    "cell_id": "r5_c0",
+    "row": 5,
+    "col": 0,
+    "context": "ALPHA CODE (enter each bird individually)",
+    "image_index": 3
+  },
+  {
+    "cell_id": "r5_c1",
+    "row": 5,
+    "col": 1,
+    "context": "Within 50m",
+    "image_index": 3
+  },
+  {
+    "cell_id": "r5_c3",
+    "row": 5,
+    "col": 3,
+    "context": "Between 50m - 100m",
+    "image_index": 3
+  },
+  {
+    "cell_id": "r5_c4",
+    "row": 5,
+    "col": 4,
+    "context": "Within 50m",
+    "image_index": 3
+  },
+  {
+    "cell_id": "r5_c5",
+    "row": 5,
+    "col": 5,
+    "context": "Between 50m - 100m",
+    "image_index": 3
+  },
+  {
+    "cell_id": "r5_c6",
+    "row": 5,
+    "col": 6,
+    "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+    "image_index": 3
+  },
+  {
+    "cell_id": "r6_c0",
+    "row": 6,
+    "col": 0,
+    "context": "ALPHA CODE (enter each bird individually)",
+    "image_index": 4
+  },
+  {
+    "cell_id": "r6_c1",
+    "row": 6,
+    "col": 1,
+    "context": "Within 50m",
+    "image_index": 4
+  },
+  {
+    "cell_id": "r6_c3",
+    "row": 6,
+    "col": 3,
+    "context": "Between 50m - 100m",
+    "image_index": 4
+  },
+  {
+    "cell_id": "r6_c4",
+    "row": 6,
+    "col": 4,
+    "context": "Within 50m",
+    "image_index": 4
+  },
+  {
+    "cell_id": "r6_c5",
+    "row": 6,
+    "col": 5,
+    "context": "Between 50m - 100m",
+    "image_index": 4
+  },
+  {
+    "cell_id": "r6_c6",
+    "row": 6,
+    "col": 6,
+    "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+    "image_index": 4
+  },
+  {
+    "cell_id": "r7_c0",
+    "row": 7,
+    "col": 0,
+    "context": "ALPHA CODE (enter each bird individually)",
+    "image_index": 5
+  },
+  {
+    "cell_id": "r7_c1",
+    "row": 7,
+    "col": 1,
+    "context": "Within 50m",
+    "image_index": 5
+  },
+  {
+    "cell_id": "r7_c3",
+    "row": 7,
+    "col": 3,
+    "context": "Between 50m - 100m",
+    "image_index": 5
+  },
+  {
+    "cell_id": "r7_c4",
+    "row": 7,
+    "col": 4,
+    "context": "Within 50m",
+    "image_index": 5
+  },
+  {
+    "cell_id": "r7_c5",
+    "row": 7,
+    "col": 5,
+    "context": "Between 50m - 100m",
+    "image_index": 5
+  },
+  {
+    "cell_id": "r7_c6",
+    "row": 7,
+    "col": 6,
+    "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+    "image_index": 5
+  },
+  {
+    "cell_id": "r8_c0",
+    "row": 8,
+    "col": 0,
+    "context": "ALPHA CODE (enter each bird individually)",
+    "image_index": 6
+  },
+  {
+    "cell_id": "r8_c1",
+    "row": 8,
+    "col": 1,
+    "context": "Within 50m",
+    "image_index": 6
+  },
+  {
+    "cell_id": "r8_c3",
+    "row": 8,
+    "col": 3,
+    "context": "Between 50m - 100m",
+    "image_index": 6
+  },
+  {
+    "cell_id": "r8_c4",
+    "row": 8,
+    "col": 4,
+    "context": "Within 50m",
+    "image_index": 6
+  },
+  {
+    "cell_id": "r8_c5",
+    "row": 8,
+    "col": 5,
+    "context": "Between 50m - 100m",
+    "image_index": 6
+  },
+  {
+    "cell_id": "r8_c6",
+    "row": 8,
+    "col": 6,
+    "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+    "image_index": 6
+  },
+  {
+    "cell_id": "r9_c0",
+    "row": 9,
+    "col": 0,
+    "context": "ALPHA CODE (enter each bird individually)",
+    "image_index": 7
+  },
+  {
+    "cell_id": "r9_c1",
+    "row": 9,
+    "col": 1,
+    "context": "Within 50m",
+    "image_index": 7
+  },
+  {
+    "cell_id": "r9_c3",
+    "row": 9,
+    "col": 3,
+    "context": "Between 50m - 100m",
+    "image_index": 7
+  },
+  {
+    "cell_id": "r9_c4",
+    "row": 9,
+    "col": 4,
+    "context": "Within 50m",
+    "image_index": 7
+  },
+  {
+    "cell_id": "r9_c5",
+    "row": 9,
+    "col": 5,
+    "context": "Between 50m - 100m",
+    "image_index": 7
+  },
+  {
+    "cell_id": "r9_c6",
+    "row": 9,
+    "col": 6,
+    "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+    "image_index": 7
+  }
+]

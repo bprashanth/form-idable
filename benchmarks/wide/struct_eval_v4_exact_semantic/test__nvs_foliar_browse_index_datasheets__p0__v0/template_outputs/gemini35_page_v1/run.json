@@ -1,0 +1,87 @@
+{
+  "form": "test__nvs_foliar_browse_index_datasheets__p0__v0",
+  "template": "nvs_foliar_browse_index_datasheets.pdf",
+  "page": 1,
+  "model": "gemini-3.5-flash",
+  "mode": "page",
+  "tag": "gemini35_page_v1",
+  "aligned": true,
+  "cells": 191,
+  "targets": 169,
+  "decisions": 169,
+  "missing": [],
+  "extra": [],
+  "duplicates": [],
+  "calls": [
+    {
+      "batch": 0,
+      "model": "gemini-3.5-flash",
+      "in_tok": 13323,
+      "out_tok": 6064,
+      "thinking_tok": 0,
+      "cost_usd": 0.07456,
+      "latency_s": 27.7
+    }
+  ],
+  "cost_usd": 0.07456,
+  "latency_s": 27.7,
+  "wall_s": 27.8,
+  "integrity": {
+    "golden_kind": "exact_layout",
+    "strict_metrics_are_headline": true,
+    "golden_cells": 93,
+    "candidate_cells": 85,
+    "cell_count_ratio": 0.914,
+    "pages": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "golden": 1,
+      "candidate": 1
+    },
+    "content_anywhere": {
+      "precision": 0.9882,
+      "recall": 0.9032,
+      "f1": 0.9438
+    },
+    "occupied_position": {
+      "precision": 1.0,
+      "recall": 0.914,
+      "f1": 0.9551
+    },
+    "exact_cell": {
+      "precision": 0.9294,
+      "recall": 0.8495,
+      "f1": 0.8876
+    },
+    "class_imbalance_resistant": {
+      "offmode_accuracy_all": 0.9118,
+      "offmode_n": 68,
+      "balanced_class_recall": 0.9024,
+      "silent_columns": 0
+    },
+    "oracle_modal_control": {
+      "description": "oracle occupied positions plus per-page/column modes; reads no pixels",
+      "exact_cell_recall": 0.2688,
+      "content_anywhere_f1": 0.3226,
+      "constant_columns": 6,
+      "candidate_content_f1_lift": 0.6212,
+      "candidate_exact_recall_lift": 0.5807
+    },
+    "errors": {
+      "omitted": 8,
+      "wrong_value_at_occupied_position": 6,
+      "false_fill_or_extra_position": 0,
+      "duplicate_row_excess": 1
+    },
+    "shape": {
+      "row_extent_ratio": 1.0,
+      "column_extent_ratio": 1.0
+    },
+    "constancy": {
+      "max_excess_over_golden": 0.4643,
+      "candidate_columns_ge_0_98": 0,
+      "golden_columns_ge_0_98": 0
+    }
+  }
+}

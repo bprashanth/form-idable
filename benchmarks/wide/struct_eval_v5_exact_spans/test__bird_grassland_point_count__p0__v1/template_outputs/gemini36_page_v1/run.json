@@ -1,0 +1,201 @@
+{
+  "form": "test__bird_grassland_point_count__p0__v1",
+  "template": "bird_grassland_point_count.pdf",
+  "page": 1,
+  "input_page": 1,
+  "template_page": 1,
+  "provider": "gemini",
+  "model": "gemini-3.6-flash",
+  "mode": "page",
+  "tag": "gemini36_page_v1",
+  "aligned": false,
+  "cells": 128,
+  "targets": 120,
+  "decisions": 120,
+  "missing": [],
+  "extra": [],
+  "duplicates": [],
+  "calls": [
+    {
+      "batch": 0,
+      "model": "gemini-3.6-flash",
+      "in_tok": 10315,
+      "out_tok": 3915,
+      "thinking_tok": 0,
+      "cost_usd": 0.04483,
+      "latency_s": 17.1
+    }
+  ],
+  "cost_usd": 0.04483,
+  "cost_complete": true,
+  "latency_s": 17.1,
+  "latency_complete": true,
+  "wall_s": 0.0,
+  "literal": {
+    "golden_kind": "literal_writable_cells",
+    "strict_metrics_are_headline": true,
+    "printed_cells_excluded": true,
+    "writable_cells_including_blanks": 120,
+    "written_nonblank": 64,
+    "blank_or_struck": 56,
+    "exact_written": {
+      "precision": 0.9688,
+      "recall": 0.9688,
+      "f1": 0.9688
+    },
+    "all_writable_accuracy": 0.9833,
+    "blank_specificity": 1.0,
+    "modal_oracle": {
+      "description": "oracle written positions plus per-column mode; reads no pixels",
+      "exact_written_recall": 0.2656
+    },
+    "errors": {
+      "wrong": 2,
+      "omitted": 0,
+      "false_fill": 0,
+      "total": 2
+    },
+    "error_cell_ids": {
+      "wrong": [
+        "r13_c0",
+        "r7_c0"
+      ],
+      "omitted": [],
+      "false_fill": []
+    },
+    "accuracy_by_value_kind": {
+      "alpha_code": {
+        "correct": 18,
+        "total": 20,
+        "accuracy": 0.9
+      },
+      "code1": {
+        "correct": 80,
+        "total": 80,
+        "accuracy": 1.0
+      },
+      "short": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      }
+    },
+    "accuracy_by_mark": {
+      "blank": {
+        "correct": 53,
+        "total": 53,
+        "accuracy": 1.0
+      },
+      "strike": {
+        "correct": 3,
+        "total": 3,
+        "accuracy": 1.0
+      },
+      "text": {
+        "correct": 62,
+        "total": 64,
+        "accuracy": 0.9688
+      }
+    },
+    "confidence_review_curve": [
+      {
+        "confidence_lte": 0.5,
+        "reviewed": 53,
+        "review_fraction": 0.4417,
+        "caught_errors": 0,
+        "error_recall": 0.0,
+        "queue_precision": 0.0
+      },
+      {
+        "confidence_lte": 0.6,
+        "reviewed": 53,
+        "review_fraction": 0.4417,
+        "caught_errors": 0,
+        "error_recall": 0.0,
+        "queue_precision": 0.0
+      },
+      {
+        "confidence_lte": 0.7,
+        "reviewed": 53,
+        "review_fraction": 0.4417,
+        "caught_errors": 0,
+        "error_recall": 0.0,
+        "queue_precision": 0.0
+      },
+      {
+        "confidence_lte": 0.8,
+        "reviewed": 53,
+        "review_fraction": 0.4417,
+        "caught_errors": 0,
+        "error_recall": 0.0,
+        "queue_precision": 0.0
+      },
+      {
+        "confidence_lte": 0.9,
+        "reviewed": 120,
+        "review_fraction": 1.0,
+        "caught_errors": 2,
+        "error_recall": 1.0,
+        "queue_precision": 0.0167
+      }
+    ]
+  },
+  "integrity": {
+    "golden_kind": "exact_layout",
+    "strict_metrics_are_headline": true,
+    "golden_cells": 72,
+    "candidate_cells": 72,
+    "cell_count_ratio": 1.0,
+    "pages": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "golden": 1,
+      "candidate": 1
+    },
+    "content_anywhere": {
+      "precision": 0.9722,
+      "recall": 0.9722,
+      "f1": 0.9722
+    },
+    "occupied_position": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "exact_cell": {
+      "precision": 0.9722,
+      "recall": 0.9722,
+      "f1": 0.9722
+    },
+    "class_imbalance_resistant": {
+      "offmode_accuracy_all": 0.9636,
+      "offmode_n": 55,
+      "balanced_class_recall": 0.9592,
+      "silent_columns": 0
+    },
+    "oracle_modal_control": {
+      "description": "oracle occupied positions plus per-page/column modes; reads no pixels",
+      "exact_cell_recall": 0.2361,
+      "content_anywhere_f1": 0.3611,
+      "constant_columns": 6,
+      "candidate_content_f1_lift": 0.6111,
+      "candidate_exact_recall_lift": 0.7361
+    },
+    "errors": {
+      "omitted": 0,
+      "wrong_value_at_occupied_position": 2,
+      "false_fill_or_extra_position": 0,
+      "duplicate_row_excess": 0
+    },
+    "shape": {
+      "row_extent_ratio": 1.0,
+      "column_extent_ratio": 1.0
+    },
+    "constancy": {
+      "max_excess_over_golden": 0.0,
+      "candidate_columns_ge_0_98": 0,
+      "golden_columns_ge_0_98": 0
+    }
+  }
+}

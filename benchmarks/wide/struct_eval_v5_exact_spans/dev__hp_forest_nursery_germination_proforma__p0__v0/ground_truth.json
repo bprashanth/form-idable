@@ -1,0 +1,7068 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "hp_forest_nursery_germination_proforma.pdf",
+  "page": 1,
+  "page_size_points": [
+    810.0,
+    630.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 0,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 56,
+      "bbox_points": [
+        47.18,
+        52.288,
+        762.82,
+        78.114
+      ],
+      "bbox_norm": [
+        0.058247,
+        0.082997,
+        0.941753,
+        0.123991
+      ],
+      "source": "printed",
+      "value": "PROFORMA No. 3 (Month wise Counting)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "PROFORMA No. 3 (Month wise Counting)"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 36,
+      "bbox_points": [
+        297.414,
+        123.016,
+        683.784,
+        172.258
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.195264,
+        0.844177,
+        0.273426
+      ],
+      "source": "written",
+      "value": "226",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sowing, Raising of cutting, Germination & Pricking | PROFORMA No. 3 (Month wise Counting) Record of Sowing, Raising cutting, Germination & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        123.016,
+        749.004,
+        172.258
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.195264,
+        0.924696,
+        0.273426
+      ],
+      "source": "written",
+      "value": "102",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        186.524,
+        94.823,
+        210.759
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.29607,
+        0.117065,
+        0.334537
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        94.823,
+        186.524,
+        126.752,
+        210.759
+      ],
+      "bbox_norm": [
+        0.117065,
+        0.29607,
+        0.156484,
+        0.334537
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        126.752,
+        186.524,
+        157.857,
+        210.759
+      ],
+      "bbox_norm": [
+        0.156484,
+        0.29607,
+        0.194885,
+        0.334537
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        157.857,
+        186.524,
+        203.482,
+        210.759
+      ],
+      "bbox_norm": [
+        0.194885,
+        0.29607,
+        0.251212,
+        0.334537
+      ],
+      "source": "written",
+      "value": "20/04/25",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Record | PROFORMA Record"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        203.482,
+        186.524,
+        247.787,
+        210.759
+      ],
+      "bbox_norm": [
+        0.251212,
+        0.29607,
+        0.30591,
+        0.334537
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Record | PROFORMA Record of Sowing,"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        247.787,
+        186.524,
+        297.414,
+        210.759
+      ],
+      "bbox_norm": [
+        0.30591,
+        0.29607,
+        0.367177,
+        0.334537
+      ],
+      "source": "written",
+      "value": "77",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Record of Sowing, | PROFORMA No. Record of Sowing, Raising"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        297.414,
+        186.524,
+        347.164,
+        210.759
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.29607,
+        0.428598,
+        0.334537
+      ],
+      "source": "written",
+      "value": "184",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sowing, Raising | PROFORMA No. 3 (Month Record of Sowing, Raising cutting,"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        347.164,
+        186.524,
+        377.361,
+        210.759
+      ],
+      "bbox_norm": [
+        0.428598,
+        0.29607,
+        0.465878,
+        0.334537
+      ],
+      "source": "written",
+      "value": "55",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Raising | PROFORMA No. 3 (Month Sowing, Raising of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        186.524,
+        406.072,
+        210.759
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.29607,
+        0.501324,
+        0.334537
+      ],
+      "source": "written",
+      "value": "53",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "of cutting, | PROFORMA No. 3 (Month Raising of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        406.072,
+        186.524,
+        436.187,
+        210.759
+      ],
+      "bbox_norm": [
+        0.501324,
+        0.29607,
+        0.538502,
+        0.334537
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "cutting, | No. 3 (Month wise Raising of cutting, Germination"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        436.187,
+        186.524,
+        467.085,
+        210.759
+      ],
+      "bbox_norm": [
+        0.538502,
+        0.29607,
+        0.576648,
+        0.334537
+      ],
+      "source": "written",
+      "value": "24",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Germination | (Month wise Counting) cutting, Germination"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        469.389,
+        186.524,
+        497.199,
+        210.759
+      ],
+      "bbox_norm": [
+        0.579492,
+        0.29607,
+        0.613826,
+        0.334537
+      ],
+      "source": "written",
+      "value": "182",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Germination | (Month wise Counting) cutting, Germination &"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 39,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        186.524,
+        528.468,
+        210.759
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.29607,
+        0.65243,
+        0.334537
+      ],
+      "source": "written",
+      "value": "229",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Germination & | wise Counting) Germination & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 42,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        186.524,
+        561.14,
+        210.759
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.29607,
+        0.692766,
+        0.334537
+      ],
+      "source": "written",
+      "value": "9",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "& Pricking | wise Counting) Germination & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 43,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        561.14,
+        186.524,
+        591.626,
+        210.759
+      ],
+      "bbox_norm": [
+        0.692766,
+        0.29607,
+        0.730402,
+        0.334537
+      ],
+      "source": "written",
+      "value": "164",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Pricking | Counting) & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 45,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        591.626,
+        186.524,
+        622.153,
+        210.759
+      ],
+      "bbox_norm": [
+        0.730402,
+        0.29607,
+        0.76809,
+        0.334537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "Pricking | Counting) Pricking"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 48,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        622.153,
+        186.524,
+        654.206,
+        210.759
+      ],
+      "bbox_norm": [
+        0.76809,
+        0.29607,
+        0.807662,
+        0.334537
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 50,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        186.524,
+        683.784,
+        210.759
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.29607,
+        0.844177,
+        0.334537
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        186.524,
+        749.004,
+        210.759
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.29607,
+        0.924696,
+        0.334537
+      ],
+      "source": "written",
+      "value": "175",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        210.759,
+        94.823,
+        234.649
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.334537,
+        0.117065,
+        0.37246
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        94.823,
+        210.759,
+        126.752,
+        234.649
+      ],
+      "bbox_norm": [
+        0.117065,
+        0.334537,
+        0.156484,
+        0.37246
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        126.752,
+        210.759,
+        157.857,
+        234.649
+      ],
+      "bbox_norm": [
+        0.156484,
+        0.334537,
+        0.194885,
+        0.37246
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        157.857,
+        210.759,
+        203.482,
+        234.649
+      ],
+      "bbox_norm": [
+        0.194885,
+        0.334537,
+        0.251212,
+        0.37246
+      ],
+      "source": "written",
+      "value": "16/01/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Record | PROFORMA Record"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        203.482,
+        210.759,
+        247.787,
+        234.649
+      ],
+      "bbox_norm": [
+        0.251212,
+        0.334537,
+        0.30591,
+        0.37246
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Record | PROFORMA Record of Sowing,"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        247.787,
+        210.759,
+        297.414,
+        234.649
+      ],
+      "bbox_norm": [
+        0.30591,
+        0.334537,
+        0.367177,
+        0.37246
+      ],
+      "source": "written",
+      "value": "7",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Record of Sowing, | PROFORMA No. Record of Sowing, Raising"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        297.414,
+        210.759,
+        347.164,
+        234.649
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.334537,
+        0.428598,
+        0.37246
+      ],
+      "source": "written",
+      "value": "246",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sowing, Raising | PROFORMA No. 3 (Month Record of Sowing, Raising cutting,"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        347.164,
+        210.759,
+        377.361,
+        234.649
+      ],
+      "bbox_norm": [
+        0.428598,
+        0.334537,
+        0.465878,
+        0.37246
+      ],
+      "source": "written",
+      "value": "24",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Raising | PROFORMA No. 3 (Month Sowing, Raising of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        210.759,
+        406.072,
+        234.649
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.334537,
+        0.501324,
+        0.37246
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "of cutting, | PROFORMA No. 3 (Month Raising of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        406.072,
+        210.759,
+        436.187,
+        234.649
+      ],
+      "bbox_norm": [
+        0.501324,
+        0.334537,
+        0.538502,
+        0.37246
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "cutting, | No. 3 (Month wise Raising of cutting, Germination"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        436.187,
+        210.759,
+        467.085,
+        234.649
+      ],
+      "bbox_norm": [
+        0.538502,
+        0.334537,
+        0.576648,
+        0.37246
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "Germination | (Month wise Counting) cutting, Germination"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        469.389,
+        210.759,
+        497.199,
+        234.649
+      ],
+      "bbox_norm": [
+        0.579492,
+        0.334537,
+        0.613826,
+        0.37246
+      ],
+      "source": "written",
+      "value": "104",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Germination | (Month wise Counting) cutting, Germination &"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 39,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        210.759,
+        528.468,
+        234.649
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.334537,
+        0.65243,
+        0.37246
+      ],
+      "source": "written",
+      "value": "124",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Germination & | wise Counting) Germination & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 42,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        210.759,
+        561.14,
+        234.649
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.334537,
+        0.692766,
+        0.37246
+      ],
+      "source": "written",
+      "value": "73",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "& Pricking | wise Counting) Germination & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 43,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        561.14,
+        210.759,
+        591.626,
+        234.649
+      ],
+      "bbox_norm": [
+        0.692766,
+        0.334537,
+        0.730402,
+        0.37246
+      ],
+      "source": "written",
+      "value": "55",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Pricking | Counting) & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 45,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        591.626,
+        210.759,
+        622.153,
+        234.649
+      ],
+      "bbox_norm": [
+        0.730402,
+        0.334537,
+        0.76809,
+        0.37246
+      ],
+      "source": "written",
+      "value": "154",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Pricking | Counting) Pricking"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 48,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        622.153,
+        210.759,
+        654.206,
+        234.649
+      ],
+      "bbox_norm": [
+        0.76809,
+        0.334537,
+        0.807662,
+        0.37246
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 50,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        210.759,
+        683.784,
+        234.649
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.334537,
+        0.844177,
+        0.37246
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        210.759,
+        749.004,
+        234.649
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.334537,
+        0.924696,
+        0.37246
+      ],
+      "source": "written",
+      "value": "215",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        234.649,
+        94.823,
+        258.884
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.37246,
+        0.117065,
+        0.410927
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        94.823,
+        234.649,
+        126.752,
+        258.884
+      ],
+      "bbox_norm": [
+        0.117065,
+        0.37246,
+        0.156484,
+        0.410927
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        126.752,
+        234.649,
+        157.857,
+        258.884
+      ],
+      "bbox_norm": [
+        0.156484,
+        0.37246,
+        0.194885,
+        0.410927
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        157.857,
+        234.649,
+        203.482,
+        258.884
+      ],
+      "bbox_norm": [
+        0.194885,
+        0.37246,
+        0.251212,
+        0.410927
+      ],
+      "source": "written",
+      "value": "03/04/23",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Record | PROFORMA Record"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        203.482,
+        234.649,
+        247.787,
+        258.884
+      ],
+      "bbox_norm": [
+        0.251212,
+        0.37246,
+        0.30591,
+        0.410927
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Record | PROFORMA Record of Sowing,"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        247.787,
+        234.649,
+        297.414,
+        258.884
+      ],
+      "bbox_norm": [
+        0.30591,
+        0.37246,
+        0.367177,
+        0.410927
+      ],
+      "source": "written",
+      "value": "187",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Record of Sowing, | PROFORMA No. Record of Sowing, Raising"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        297.414,
+        234.649,
+        347.164,
+        258.884
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.37246,
+        0.428598,
+        0.410927
+      ],
+      "source": "written",
+      "value": "203",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sowing, Raising | PROFORMA No. 3 (Month Record of Sowing, Raising cutting,"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        347.164,
+        234.649,
+        377.361,
+        258.884
+      ],
+      "bbox_norm": [
+        0.428598,
+        0.37246,
+        0.465878,
+        0.410927
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "Raising | PROFORMA No. 3 (Month Sowing, Raising of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        234.649,
+        406.072,
+        258.884
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.37246,
+        0.501324,
+        0.410927
+      ],
+      "source": "written",
+      "value": "83",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "of cutting, | PROFORMA No. 3 (Month Raising of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        406.072,
+        234.649,
+        436.187,
+        258.884
+      ],
+      "bbox_norm": [
+        0.501324,
+        0.37246,
+        0.538502,
+        0.410927
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "cutting, | No. 3 (Month wise Raising of cutting, Germination"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        436.187,
+        234.649,
+        467.085,
+        258.884
+      ],
+      "bbox_norm": [
+        0.538502,
+        0.37246,
+        0.576648,
+        0.410927
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "Germination | (Month wise Counting) cutting, Germination"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        469.389,
+        234.649,
+        497.199,
+        258.884
+      ],
+      "bbox_norm": [
+        0.579492,
+        0.37246,
+        0.613826,
+        0.410927
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "Germination | (Month wise Counting) cutting, Germination &"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 39,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        234.649,
+        528.468,
+        258.884
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.37246,
+        0.65243,
+        0.410927
+      ],
+      "source": "written",
+      "value": "220",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Germination & | wise Counting) Germination & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 42,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        234.649,
+        561.14,
+        258.884
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.37246,
+        0.692766,
+        0.410927
+      ],
+      "source": "written",
+      "value": "91",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "& Pricking | wise Counting) Germination & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 43,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        561.14,
+        234.649,
+        591.626,
+        258.884
+      ],
+      "bbox_norm": [
+        0.692766,
+        0.37246,
+        0.730402,
+        0.410927
+      ],
+      "source": "written",
+      "value": "129",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Pricking | Counting) & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 45,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        591.626,
+        234.649,
+        622.153,
+        258.884
+      ],
+      "bbox_norm": [
+        0.730402,
+        0.37246,
+        0.76809,
+        0.410927
+      ],
+      "source": "written",
+      "value": "213",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Pricking | Counting) Pricking"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 48,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        622.153,
+        234.649,
+        654.206,
+        258.884
+      ],
+      "bbox_norm": [
+        0.76809,
+        0.37246,
+        0.807662,
+        0.410927
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 50,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        234.649,
+        683.784,
+        258.884
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.37246,
+        0.844177,
+        0.410927
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        234.649,
+        749.004,
+        258.884
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.37246,
+        0.924696,
+        0.410927
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        258.884,
+        94.823,
+        283.118
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.410927,
+        0.117065,
+        0.449394
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        94.823,
+        258.884,
+        126.752,
+        283.118
+      ],
+      "bbox_norm": [
+        0.117065,
+        0.410927,
+        0.156484,
+        0.449394
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        126.752,
+        258.884,
+        157.857,
+        283.118
+      ],
+      "bbox_norm": [
+        0.156484,
+        0.410927,
+        0.194885,
+        0.449394
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        157.857,
+        258.884,
+        203.482,
+        283.118
+      ],
+      "bbox_norm": [
+        0.194885,
+        0.410927,
+        0.251212,
+        0.449394
+      ],
+      "source": "written",
+      "value": "23/07/20",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Record | PROFORMA Record"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        203.482,
+        258.884,
+        247.787,
+        283.118
+      ],
+      "bbox_norm": [
+        0.251212,
+        0.410927,
+        0.30591,
+        0.449394
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Record | PROFORMA Record of Sowing,"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        247.787,
+        258.884,
+        297.414,
+        283.118
+      ],
+      "bbox_norm": [
+        0.30591,
+        0.410927,
+        0.367177,
+        0.449394
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "Record of Sowing, | PROFORMA No. Record of Sowing, Raising"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        297.414,
+        258.884,
+        347.164,
+        283.118
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.410927,
+        0.428598,
+        0.449394
+      ],
+      "source": "written",
+      "value": "86",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sowing, Raising | PROFORMA No. 3 (Month Record of Sowing, Raising cutting,"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        347.164,
+        258.884,
+        377.361,
+        283.118
+      ],
+      "bbox_norm": [
+        0.428598,
+        0.410927,
+        0.465878,
+        0.449394
+      ],
+      "source": "written",
+      "value": "192",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Raising | PROFORMA No. 3 (Month Sowing, Raising of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        258.884,
+        406.072,
+        283.118
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.410927,
+        0.501324,
+        0.449394
+      ],
+      "source": "written",
+      "value": "83",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "of cutting, | PROFORMA No. 3 (Month Raising of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        406.072,
+        258.884,
+        436.187,
+        283.118
+      ],
+      "bbox_norm": [
+        0.501324,
+        0.410927,
+        0.538502,
+        0.449394
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "cutting, | No. 3 (Month wise Raising of cutting, Germination"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        436.187,
+        258.884,
+        467.085,
+        283.118
+      ],
+      "bbox_norm": [
+        0.538502,
+        0.410927,
+        0.576648,
+        0.449394
+      ],
+      "source": "written",
+      "value": "116",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Germination | (Month wise Counting) cutting, Germination"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        469.389,
+        258.884,
+        497.199,
+        283.118
+      ],
+      "bbox_norm": [
+        0.579492,
+        0.410927,
+        0.613826,
+        0.449394
+      ],
+      "source": "written",
+      "value": "51",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Germination | (Month wise Counting) cutting, Germination &"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 39,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        258.884,
+        528.468,
+        283.118
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.410927,
+        0.65243,
+        0.449394
+      ],
+      "source": "written",
+      "value": "74",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Germination & | wise Counting) Germination & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 42,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        258.884,
+        561.14,
+        283.118
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.410927,
+        0.692766,
+        0.449394
+      ],
+      "source": "written",
+      "value": "81",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "& Pricking | wise Counting) Germination & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 43,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        561.14,
+        258.884,
+        591.626,
+        283.118
+      ],
+      "bbox_norm": [
+        0.692766,
+        0.410927,
+        0.730402,
+        0.449394
+      ],
+      "source": "written",
+      "value": "100",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Pricking | Counting) & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 45,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        591.626,
+        258.884,
+        622.153,
+        283.118
+      ],
+      "bbox_norm": [
+        0.730402,
+        0.410927,
+        0.76809,
+        0.449394
+      ],
+      "source": "written",
+      "value": "172",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Pricking | Counting) Pricking"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 48,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        622.153,
+        258.884,
+        654.206,
+        283.118
+      ],
+      "bbox_norm": [
+        0.76809,
+        0.410927,
+        0.807662,
+        0.449394
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 50,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        258.884,
+        683.784,
+        283.118
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.410927,
+        0.844177,
+        0.449394
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        258.884,
+        749.004,
+        283.118
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.410927,
+        0.924696,
+        0.449394
+      ],
+      "source": "written",
+      "value": "177",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        283.118,
+        94.823,
+        307.353
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.449394,
+        0.117065,
+        0.487862
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        94.823,
+        283.118,
+        126.752,
+        307.353
+      ],
+      "bbox_norm": [
+        0.117065,
+        0.449394,
+        0.156484,
+        0.487862
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        126.752,
+        283.118,
+        157.857,
+        307.353
+      ],
+      "bbox_norm": [
+        0.156484,
+        0.449394,
+        0.194885,
+        0.487862
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        157.857,
+        283.118,
+        203.482,
+        307.353
+      ],
+      "bbox_norm": [
+        0.194885,
+        0.449394,
+        0.251212,
+        0.487862
+      ],
+      "source": "written",
+      "value": "24/12/23",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Record | PROFORMA Record"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        203.482,
+        283.118,
+        247.787,
+        307.353
+      ],
+      "bbox_norm": [
+        0.251212,
+        0.449394,
+        0.30591,
+        0.487862
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Record | PROFORMA Record of Sowing,"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        247.787,
+        283.118,
+        297.414,
+        307.353
+      ],
+      "bbox_norm": [
+        0.30591,
+        0.449394,
+        0.367177,
+        0.487862
+      ],
+      "source": "written",
+      "value": "138",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Record of Sowing, | PROFORMA No. Record of Sowing, Raising"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        297.414,
+        283.118,
+        347.164,
+        307.353
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.449394,
+        0.428598,
+        0.487862
+      ],
+      "source": "written",
+      "value": "195",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sowing, Raising | PROFORMA No. 3 (Month Record of Sowing, Raising cutting,"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        347.164,
+        283.118,
+        377.361,
+        307.353
+      ],
+      "bbox_norm": [
+        0.428598,
+        0.449394,
+        0.465878,
+        0.487862
+      ],
+      "source": "written",
+      "value": "20",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Raising | PROFORMA No. 3 (Month Sowing, Raising of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        283.118,
+        406.072,
+        307.353
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.449394,
+        0.501324,
+        0.487862
+      ],
+      "source": "written",
+      "value": "179",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "of cutting, | PROFORMA No. 3 (Month Raising of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        406.072,
+        283.118,
+        436.187,
+        307.353
+      ],
+      "bbox_norm": [
+        0.501324,
+        0.449394,
+        0.538502,
+        0.487862
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "cutting, | No. 3 (Month wise Raising of cutting, Germination"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        436.187,
+        283.118,
+        467.085,
+        307.353
+      ],
+      "bbox_norm": [
+        0.538502,
+        0.449394,
+        0.576648,
+        0.487862
+      ],
+      "source": "written",
+      "value": "143",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Germination | (Month wise Counting) cutting, Germination"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        469.389,
+        283.118,
+        497.199,
+        307.353
+      ],
+      "bbox_norm": [
+        0.579492,
+        0.449394,
+        0.613826,
+        0.487862
+      ],
+      "source": "written",
+      "value": "245",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Germination | (Month wise Counting) cutting, Germination &"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 39,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        283.118,
+        528.468,
+        307.353
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.449394,
+        0.65243,
+        0.487862
+      ],
+      "source": "written",
+      "value": "124",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Germination & | wise Counting) Germination & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 42,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        283.118,
+        561.14,
+        307.353
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.449394,
+        0.692766,
+        0.487862
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "& Pricking | wise Counting) Germination & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 43,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        561.14,
+        283.118,
+        591.626,
+        307.353
+      ],
+      "bbox_norm": [
+        0.692766,
+        0.449394,
+        0.730402,
+        0.487862
+      ],
+      "source": "written",
+      "value": "113",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Pricking | Counting) & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 45,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        591.626,
+        283.118,
+        622.153,
+        307.353
+      ],
+      "bbox_norm": [
+        0.730402,
+        0.449394,
+        0.76809,
+        0.487862
+      ],
+      "source": "written",
+      "value": "67",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Pricking | Counting) Pricking"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 48,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        622.153,
+        283.118,
+        654.206,
+        307.353
+      ],
+      "bbox_norm": [
+        0.76809,
+        0.449394,
+        0.807662,
+        0.487862
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 50,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        283.118,
+        683.784,
+        307.353
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.449394,
+        0.844177,
+        0.487862
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        283.118,
+        749.004,
+        307.353
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.449394,
+        0.924696,
+        0.487862
+      ],
+      "source": "written",
+      "value": "158",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        307.353,
+        94.823,
+        331.587
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.487862,
+        0.117065,
+        0.526329
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        94.823,
+        307.353,
+        126.752,
+        331.587
+      ],
+      "bbox_norm": [
+        0.117065,
+        0.487862,
+        0.156484,
+        0.526329
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        126.752,
+        307.353,
+        157.857,
+        331.587
+      ],
+      "bbox_norm": [
+        0.156484,
+        0.487862,
+        0.194885,
+        0.526329
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        157.857,
+        307.353,
+        203.482,
+        331.587
+      ],
+      "bbox_norm": [
+        0.194885,
+        0.487862,
+        0.251212,
+        0.526329
+      ],
+      "source": "written",
+      "value": "10/06/20",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Record | Record"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        203.482,
+        307.353,
+        247.787,
+        331.587
+      ],
+      "bbox_norm": [
+        0.251212,
+        0.487862,
+        0.30591,
+        0.526329
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Record | Record of Sowing,"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        247.787,
+        307.353,
+        297.414,
+        331.587
+      ],
+      "bbox_norm": [
+        0.30591,
+        0.487862,
+        0.367177,
+        0.526329
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Record of Sowing, | Record of Sowing, Raising"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        297.414,
+        307.353,
+        347.164,
+        331.587
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.487862,
+        0.428598,
+        0.526329
+      ],
+      "source": "written",
+      "value": "10/05/22",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Sowing, Raising | Record of Sowing, Raising cutting,"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        347.164,
+        307.353,
+        377.361,
+        331.587
+      ],
+      "bbox_norm": [
+        0.428598,
+        0.487862,
+        0.465878,
+        0.526329
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Raising | Sowing, Raising of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        307.353,
+        406.072,
+        331.587
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.487862,
+        0.501324,
+        0.526329
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "of cutting, | Raising of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        406.072,
+        307.353,
+        436.187,
+        331.587
+      ],
+      "bbox_norm": [
+        0.501324,
+        0.487862,
+        0.538502,
+        0.526329
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "cutting, | Raising of cutting, Germination"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        436.187,
+        307.353,
+        467.085,
+        331.587
+      ],
+      "bbox_norm": [
+        0.538502,
+        0.487862,
+        0.576648,
+        0.526329
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Germination | cutting, Germination"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        469.389,
+        307.353,
+        497.199,
+        331.587
+      ],
+      "bbox_norm": [
+        0.579492,
+        0.487862,
+        0.613826,
+        0.526329
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Germination | cutting, Germination &"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 39,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        307.353,
+        528.468,
+        331.587
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.487862,
+        0.65243,
+        0.526329
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Germination & | Germination & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 42,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        307.353,
+        561.14,
+        331.587
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.487862,
+        0.692766,
+        0.526329
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "& Pricking | Germination & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 43,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        561.14,
+        307.353,
+        591.626,
+        331.587
+      ],
+      "bbox_norm": [
+        0.692766,
+        0.487862,
+        0.730402,
+        0.526329
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Pricking | & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 45,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        591.626,
+        307.353,
+        622.153,
+        331.587
+      ],
+      "bbox_norm": [
+        0.730402,
+        0.487862,
+        0.76809,
+        0.526329
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Pricking | Pricking"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 48,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        622.153,
+        307.353,
+        654.206,
+        331.587
+      ],
+      "bbox_norm": [
+        0.76809,
+        0.487862,
+        0.807662,
+        0.526329
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 50,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        307.353,
+        683.784,
+        331.587
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.487862,
+        0.844177,
+        0.526329
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        307.353,
+        749.004,
+        331.587
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.487862,
+        0.924696,
+        0.526329
+      ],
+      "source": "written",
+      "value": "174",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        331.587,
+        94.823,
+        356.166
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.526329,
+        0.117065,
+        0.565342
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        94.823,
+        331.587,
+        126.752,
+        356.166
+      ],
+      "bbox_norm": [
+        0.117065,
+        0.526329,
+        0.156484,
+        0.565342
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        126.752,
+        331.587,
+        157.857,
+        356.166
+      ],
+      "bbox_norm": [
+        0.156484,
+        0.526329,
+        0.194885,
+        0.565342
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        157.857,
+        331.587,
+        203.482,
+        356.166
+      ],
+      "bbox_norm": [
+        0.194885,
+        0.526329,
+        0.251212,
+        0.565342
+      ],
+      "source": "written",
+      "value": "11/09/20",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        203.482,
+        331.587,
+        247.787,
+        356.166
+      ],
+      "bbox_norm": [
+        0.251212,
+        0.526329,
+        0.30591,
+        0.565342
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        247.787,
+        331.587,
+        297.414,
+        356.166
+      ],
+      "bbox_norm": [
+        0.30591,
+        0.526329,
+        0.367177,
+        0.565342
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Record of Sowing,"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        297.414,
+        331.587,
+        347.164,
+        356.166
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.526329,
+        0.428598,
+        0.565342
+      ],
+      "source": "written",
+      "value": "18/12/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Sowing, Raising"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        347.164,
+        331.587,
+        377.361,
+        356.166
+      ],
+      "bbox_norm": [
+        0.428598,
+        0.526329,
+        0.465878,
+        0.565342
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Raising"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        331.587,
+        406.072,
+        356.166
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.526329,
+        0.501324,
+        0.565342
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        406.072,
+        331.587,
+        436.187,
+        356.166
+      ],
+      "bbox_norm": [
+        0.501324,
+        0.526329,
+        0.538502,
+        0.565342
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "cutting,"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        436.187,
+        331.587,
+        467.085,
+        356.166
+      ],
+      "bbox_norm": [
+        0.538502,
+        0.526329,
+        0.576648,
+        0.565342
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        469.389,
+        331.587,
+        497.199,
+        356.166
+      ],
+      "bbox_norm": [
+        0.579492,
+        0.526329,
+        0.613826,
+        0.565342
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 39,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        331.587,
+        528.468,
+        356.166
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.526329,
+        0.65243,
+        0.565342
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Germination &"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 42,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        331.587,
+        561.14,
+        356.166
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.526329,
+        0.692766,
+        0.565342
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "& Pricking"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 43,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        561.14,
+        331.587,
+        591.626,
+        356.166
+      ],
+      "bbox_norm": [
+        0.692766,
+        0.526329,
+        0.730402,
+        0.565342
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 45,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        591.626,
+        331.587,
+        622.153,
+        356.166
+      ],
+      "bbox_norm": [
+        0.730402,
+        0.526329,
+        0.76809,
+        0.565342
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 48,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        622.153,
+        331.587,
+        654.206,
+        356.166
+      ],
+      "bbox_norm": [
+        0.76809,
+        0.526329,
+        0.807662,
+        0.565342
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 50,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        331.587,
+        683.784,
+        356.166
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.526329,
+        0.844177,
+        0.565342
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        331.587,
+        749.004,
+        356.166
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.526329,
+        0.924696,
+        0.565342
+      ],
+      "source": "written",
+      "value": "87",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        356.166,
+        94.823,
+        380.4
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.565342,
+        0.117065,
+        0.60381
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        94.823,
+        356.166,
+        126.752,
+        380.4
+      ],
+      "bbox_norm": [
+        0.117065,
+        0.565342,
+        0.156484,
+        0.60381
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        126.752,
+        356.166,
+        157.857,
+        380.4
+      ],
+      "bbox_norm": [
+        0.156484,
+        0.565342,
+        0.194885,
+        0.60381
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        157.857,
+        356.166,
+        203.482,
+        380.4
+      ],
+      "bbox_norm": [
+        0.194885,
+        0.565342,
+        0.251212,
+        0.60381
+      ],
+      "source": "written",
+      "value": "01/05/22",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        203.482,
+        356.166,
+        247.787,
+        380.4
+      ],
+      "bbox_norm": [
+        0.251212,
+        0.565342,
+        0.30591,
+        0.60381
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        247.787,
+        356.166,
+        297.414,
+        380.4
+      ],
+      "bbox_norm": [
+        0.30591,
+        0.565342,
+        0.367177,
+        0.60381
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Record of Sowing,"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        297.414,
+        356.166,
+        347.164,
+        380.4
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.565342,
+        0.428598,
+        0.60381
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Sowing, Raising"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        347.164,
+        356.166,
+        377.361,
+        380.4
+      ],
+      "bbox_norm": [
+        0.428598,
+        0.565342,
+        0.465878,
+        0.60381
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Raising"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        356.166,
+        406.072,
+        380.4
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.565342,
+        0.501324,
+        0.60381
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        406.072,
+        356.166,
+        436.187,
+        380.4
+      ],
+      "bbox_norm": [
+        0.501324,
+        0.565342,
+        0.538502,
+        0.60381
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "cutting,"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        436.187,
+        356.166,
+        467.085,
+        380.4
+      ],
+      "bbox_norm": [
+        0.538502,
+        0.565342,
+        0.576648,
+        0.60381
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        469.389,
+        356.166,
+        497.199,
+        380.4
+      ],
+      "bbox_norm": [
+        0.579492,
+        0.565342,
+        0.613826,
+        0.60381
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 39,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        356.166,
+        528.468,
+        380.4
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.565342,
+        0.65243,
+        0.60381
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Germination &"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 42,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        356.166,
+        561.14,
+        380.4
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.565342,
+        0.692766,
+        0.60381
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "& Pricking"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 43,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        561.14,
+        356.166,
+        591.626,
+        380.4
+      ],
+      "bbox_norm": [
+        0.692766,
+        0.565342,
+        0.730402,
+        0.60381
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 45,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        591.626,
+        356.166,
+        622.153,
+        380.4
+      ],
+      "bbox_norm": [
+        0.730402,
+        0.565342,
+        0.76809,
+        0.60381
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 48,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        622.153,
+        356.166,
+        654.206,
+        380.4
+      ],
+      "bbox_norm": [
+        0.76809,
+        0.565342,
+        0.807662,
+        0.60381
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 50,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        356.166,
+        683.784,
+        380.4
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.565342,
+        0.844177,
+        0.60381
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        356.166,
+        749.004,
+        380.4
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.565342,
+        0.924696,
+        0.60381
+      ],
+      "source": "written",
+      "value": "78",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        380.4,
+        94.823,
+        404.291
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.60381,
+        0.117065,
+        0.641731
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        94.823,
+        380.4,
+        126.752,
+        404.291
+      ],
+      "bbox_norm": [
+        0.117065,
+        0.60381,
+        0.156484,
+        0.641731
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        126.752,
+        380.4,
+        157.857,
+        404.291
+      ],
+      "bbox_norm": [
+        0.156484,
+        0.60381,
+        0.194885,
+        0.641731
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        157.857,
+        380.4,
+        203.482,
+        404.291
+      ],
+      "bbox_norm": [
+        0.194885,
+        0.60381,
+        0.251212,
+        0.641731
+      ],
+      "source": "written",
+      "value": "20/08/22",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        203.482,
+        380.4,
+        247.787,
+        404.291
+      ],
+      "bbox_norm": [
+        0.251212,
+        0.60381,
+        0.30591,
+        0.641731
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        247.787,
+        380.4,
+        297.414,
+        404.291
+      ],
+      "bbox_norm": [
+        0.30591,
+        0.60381,
+        0.367177,
+        0.641731
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Record of Sowing,"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        297.414,
+        380.4,
+        347.164,
+        404.291
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.60381,
+        0.428598,
+        0.641731
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Sowing, Raising"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        347.164,
+        380.4,
+        377.361,
+        404.291
+      ],
+      "bbox_norm": [
+        0.428598,
+        0.60381,
+        0.465878,
+        0.641731
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Raising"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        380.4,
+        406.072,
+        404.291
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.60381,
+        0.501324,
+        0.641731
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        406.072,
+        380.4,
+        436.187,
+        404.291
+      ],
+      "bbox_norm": [
+        0.501324,
+        0.60381,
+        0.538502,
+        0.641731
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "cutting,"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        436.187,
+        380.4,
+        467.085,
+        404.291
+      ],
+      "bbox_norm": [
+        0.538502,
+        0.60381,
+        0.576648,
+        0.641731
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        469.389,
+        380.4,
+        497.199,
+        404.291
+      ],
+      "bbox_norm": [
+        0.579492,
+        0.60381,
+        0.613826,
+        0.641731
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 39,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        380.4,
+        528.468,
+        404.291
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.60381,
+        0.65243,
+        0.641731
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Germination &"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 42,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        380.4,
+        561.14,
+        404.291
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.60381,
+        0.692766,
+        0.641731
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "& Pricking"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 43,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        561.14,
+        380.4,
+        591.626,
+        404.291
+      ],
+      "bbox_norm": [
+        0.692766,
+        0.60381,
+        0.730402,
+        0.641731
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 45,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        591.626,
+        380.4,
+        622.153,
+        404.291
+      ],
+      "bbox_norm": [
+        0.730402,
+        0.60381,
+        0.76809,
+        0.641731
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 48,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        622.153,
+        380.4,
+        654.206,
+        404.291
+      ],
+      "bbox_norm": [
+        0.76809,
+        0.60381,
+        0.807662,
+        0.641731
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 50,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        380.4,
+        683.784,
+        404.291
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.60381,
+        0.844177,
+        0.641731
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        380.4,
+        749.004,
+        404.291
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.60381,
+        0.924696,
+        0.641731
+      ],
+      "source": "written",
+      "value": "183",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        404.291,
+        94.823,
+        428.525
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.641731,
+        0.117065,
+        0.680199
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        94.823,
+        404.291,
+        126.752,
+        428.525
+      ],
+      "bbox_norm": [
+        0.117065,
+        0.641731,
+        0.156484,
+        0.680199
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        126.752,
+        404.291,
+        157.857,
+        428.525
+      ],
+      "bbox_norm": [
+        0.156484,
+        0.641731,
+        0.194885,
+        0.680199
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        157.857,
+        404.291,
+        203.482,
+        428.525
+      ],
+      "bbox_norm": [
+        0.194885,
+        0.641731,
+        0.251212,
+        0.680199
+      ],
+      "source": "written",
+      "value": "12/08/19",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        203.482,
+        404.291,
+        247.787,
+        428.525
+      ],
+      "bbox_norm": [
+        0.251212,
+        0.641731,
+        0.30591,
+        0.680199
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        247.787,
+        404.291,
+        297.414,
+        428.525
+      ],
+      "bbox_norm": [
+        0.30591,
+        0.641731,
+        0.367177,
+        0.680199
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Record of Sowing,"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        297.414,
+        404.291,
+        347.164,
+        428.525
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.641731,
+        0.428598,
+        0.680199
+      ],
+      "source": "written",
+      "value": "23/01/23",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Sowing, Raising"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        347.164,
+        404.291,
+        377.361,
+        428.525
+      ],
+      "bbox_norm": [
+        0.428598,
+        0.641731,
+        0.465878,
+        0.680199
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Raising"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        404.291,
+        406.072,
+        428.525
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.641731,
+        0.501324,
+        0.680199
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        406.072,
+        404.291,
+        436.187,
+        428.525
+      ],
+      "bbox_norm": [
+        0.501324,
+        0.641731,
+        0.538502,
+        0.680199
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "cutting,"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        436.187,
+        404.291,
+        467.085,
+        428.525
+      ],
+      "bbox_norm": [
+        0.538502,
+        0.641731,
+        0.576648,
+        0.680199
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        469.389,
+        404.291,
+        497.199,
+        428.525
+      ],
+      "bbox_norm": [
+        0.579492,
+        0.641731,
+        0.613826,
+        0.680199
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 39,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        404.291,
+        528.468,
+        428.525
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.641731,
+        0.65243,
+        0.680199
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Germination &"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 42,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        404.291,
+        561.14,
+        428.525
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.641731,
+        0.692766,
+        0.680199
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "& Pricking"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 43,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        561.14,
+        404.291,
+        591.626,
+        428.525
+      ],
+      "bbox_norm": [
+        0.692766,
+        0.641731,
+        0.730402,
+        0.680199
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 45,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        591.626,
+        404.291,
+        622.153,
+        428.525
+      ],
+      "bbox_norm": [
+        0.730402,
+        0.641731,
+        0.76809,
+        0.680199
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "yn",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 48,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        622.153,
+        404.291,
+        654.206,
+        428.525
+      ],
+      "bbox_norm": [
+        0.76809,
+        0.641731,
+        0.807662,
+        0.680199
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 50,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        404.291,
+        683.784,
+        428.525
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.641731,
+        0.844177,
+        0.680199
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        404.291,
+        749.004,
+        428.525
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.641731,
+        0.924696,
+        0.680199
+      ],
+      "source": "written",
+      "value": "39",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        428.525,
+        94.823,
+        452.76
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.680199,
+        0.117065,
+        0.718666
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        94.823,
+        428.525,
+        126.752,
+        452.76
+      ],
+      "bbox_norm": [
+        0.117065,
+        0.680199,
+        0.156484,
+        0.718666
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        126.752,
+        428.525,
+        157.857,
+        452.76
+      ],
+      "bbox_norm": [
+        0.156484,
+        0.680199,
+        0.194885,
+        0.718666
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        157.857,
+        428.525,
+        203.482,
+        452.76
+      ],
+      "bbox_norm": [
+        0.194885,
+        0.680199,
+        0.251212,
+        0.718666
+      ],
+      "source": "written",
+      "value": "26/10/23",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        203.482,
+        428.525,
+        247.787,
+        452.76
+      ],
+      "bbox_norm": [
+        0.251212,
+        0.680199,
+        0.30591,
+        0.718666
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        247.787,
+        428.525,
+        297.414,
+        452.76
+      ],
+      "bbox_norm": [
+        0.30591,
+        0.680199,
+        0.367177,
+        0.718666
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Record of Sowing,"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        297.414,
+        428.525,
+        347.164,
+        452.76
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.680199,
+        0.428598,
+        0.718666
+      ],
+      "source": "written",
+      "value": "19/10/21",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Sowing, Raising"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        347.164,
+        428.525,
+        377.361,
+        452.76
+      ],
+      "bbox_norm": [
+        0.428598,
+        0.680199,
+        0.465878,
+        0.718666
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Raising"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        428.525,
+        406.072,
+        452.76
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.680199,
+        0.501324,
+        0.718666
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        406.072,
+        428.525,
+        436.187,
+        452.76
+      ],
+      "bbox_norm": [
+        0.501324,
+        0.680199,
+        0.538502,
+        0.718666
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "cutting,"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        436.187,
+        428.525,
+        467.085,
+        452.76
+      ],
+      "bbox_norm": [
+        0.538502,
+        0.680199,
+        0.576648,
+        0.718666
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        469.389,
+        428.525,
+        497.199,
+        452.76
+      ],
+      "bbox_norm": [
+        0.579492,
+        0.680199,
+        0.613826,
+        0.718666
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 39,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        428.525,
+        528.468,
+        452.76
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.680199,
+        0.65243,
+        0.718666
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Germination &"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 42,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        428.525,
+        561.14,
+        452.76
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.680199,
+        0.692766,
+        0.718666
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "& Pricking"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 43,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        561.14,
+        428.525,
+        591.626,
+        452.76
+      ],
+      "bbox_norm": [
+        0.692766,
+        0.680199,
+        0.730402,
+        0.718666
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 45,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        591.626,
+        428.525,
+        622.153,
+        452.76
+      ],
+      "bbox_norm": [
+        0.730402,
+        0.680199,
+        0.76809,
+        0.718666
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 48,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        622.153,
+        428.525,
+        654.206,
+        452.76
+      ],
+      "bbox_norm": [
+        0.76809,
+        0.680199,
+        0.807662,
+        0.718666
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 50,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        428.525,
+        683.784,
+        452.76
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.680199,
+        0.844177,
+        0.718666
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        428.525,
+        749.004,
+        452.76
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.680199,
+        0.924696,
+        0.718666
+      ],
+      "source": "written",
+      "value": "205",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        452.76,
+        94.823,
+        476.865
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.718666,
+        0.117065,
+        0.756929
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        94.823,
+        452.76,
+        126.752,
+        476.865
+      ],
+      "bbox_norm": [
+        0.117065,
+        0.718666,
+        0.156484,
+        0.756929
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        126.752,
+        452.76,
+        157.857,
+        476.865
+      ],
+      "bbox_norm": [
+        0.156484,
+        0.718666,
+        0.194885,
+        0.756929
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        157.857,
+        452.76,
+        203.482,
+        476.865
+      ],
+      "bbox_norm": [
+        0.194885,
+        0.718666,
+        0.251212,
+        0.756929
+      ],
+      "source": "written",
+      "value": "23/11/20",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        203.482,
+        452.76,
+        247.787,
+        476.865
+      ],
+      "bbox_norm": [
+        0.251212,
+        0.718666,
+        0.30591,
+        0.756929
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        247.787,
+        452.76,
+        297.414,
+        476.865
+      ],
+      "bbox_norm": [
+        0.30591,
+        0.718666,
+        0.367177,
+        0.756929
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Record of Sowing,"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        297.414,
+        452.76,
+        347.164,
+        476.865
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.718666,
+        0.428598,
+        0.756929
+      ],
+      "source": "written",
+      "value": "27/09/23",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Sowing, Raising"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        347.164,
+        452.76,
+        377.361,
+        476.865
+      ],
+      "bbox_norm": [
+        0.428598,
+        0.718666,
+        0.465878,
+        0.756929
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Raising"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        452.76,
+        406.072,
+        476.865
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.718666,
+        0.501324,
+        0.756929
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        406.072,
+        452.76,
+        436.187,
+        476.865
+      ],
+      "bbox_norm": [
+        0.501324,
+        0.718666,
+        0.538502,
+        0.756929
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "cutting,"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        436.187,
+        452.76,
+        467.085,
+        476.865
+      ],
+      "bbox_norm": [
+        0.538502,
+        0.718666,
+        0.576648,
+        0.756929
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        469.389,
+        452.76,
+        497.199,
+        476.865
+      ],
+      "bbox_norm": [
+        0.579492,
+        0.718666,
+        0.613826,
+        0.756929
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 39,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        452.76,
+        528.468,
+        476.865
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.718666,
+        0.65243,
+        0.756929
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Germination &"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 42,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        452.76,
+        561.14,
+        476.865
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.718666,
+        0.692766,
+        0.756929
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "& Pricking"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 43,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        561.14,
+        452.76,
+        591.626,
+        476.865
+      ],
+      "bbox_norm": [
+        0.692766,
+        0.718666,
+        0.730402,
+        0.756929
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 45,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        591.626,
+        452.76,
+        622.153,
+        476.865
+      ],
+      "bbox_norm": [
+        0.730402,
+        0.718666,
+        0.76809,
+        0.756929
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 48,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        622.153,
+        452.76,
+        654.206,
+        476.865
+      ],
+      "bbox_norm": [
+        0.76809,
+        0.718666,
+        0.807662,
+        0.756929
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 50,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        452.76,
+        683.784,
+        476.865
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.718666,
+        0.844177,
+        0.756929
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        452.76,
+        749.004,
+        476.865
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.718666,
+        0.924696,
+        0.756929
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        476.865,
+        94.823,
+        501.1
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.756929,
+        0.117065,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        94.823,
+        476.865,
+        126.752,
+        501.1
+      ],
+      "bbox_norm": [
+        0.117065,
+        0.756929,
+        0.156484,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        126.752,
+        476.865,
+        157.857,
+        501.1
+      ],
+      "bbox_norm": [
+        0.156484,
+        0.756929,
+        0.194885,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        157.857,
+        476.865,
+        203.482,
+        501.1
+      ],
+      "bbox_norm": [
+        0.194885,
+        0.756929,
+        0.251212,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        203.482,
+        476.865,
+        247.787,
+        501.1
+      ],
+      "bbox_norm": [
+        0.251212,
+        0.756929,
+        0.30591,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        247.787,
+        476.865,
+        297.414,
+        501.1
+      ],
+      "bbox_norm": [
+        0.30591,
+        0.756929,
+        0.367177,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Record of Sowing,"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        297.414,
+        476.865,
+        347.164,
+        501.1
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.756929,
+        0.428598,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Sowing, Raising"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        347.164,
+        476.865,
+        377.361,
+        501.1
+      ],
+      "bbox_norm": [
+        0.428598,
+        0.756929,
+        0.465878,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Raising"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        476.865,
+        406.072,
+        501.1
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.756929,
+        0.501324,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        406.072,
+        476.865,
+        436.187,
+        501.1
+      ],
+      "bbox_norm": [
+        0.501324,
+        0.756929,
+        0.538502,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "cutting,"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        436.187,
+        476.865,
+        467.085,
+        501.1
+      ],
+      "bbox_norm": [
+        0.538502,
+        0.756929,
+        0.576648,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        469.389,
+        476.865,
+        497.199,
+        501.1
+      ],
+      "bbox_norm": [
+        0.579492,
+        0.756929,
+        0.613826,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 39,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        476.865,
+        528.468,
+        501.1
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.756929,
+        0.65243,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Germination &"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 42,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        476.865,
+        561.14,
+        501.1
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.756929,
+        0.692766,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "& Pricking"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 43,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        561.14,
+        476.865,
+        591.626,
+        501.1
+      ],
+      "bbox_norm": [
+        0.692766,
+        0.756929,
+        0.730402,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 45,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        591.626,
+        476.865,
+        622.153,
+        501.1
+      ],
+      "bbox_norm": [
+        0.730402,
+        0.756929,
+        0.76809,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 48,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        622.153,
+        476.865,
+        654.206,
+        501.1
+      ],
+      "bbox_norm": [
+        0.76809,
+        0.756929,
+        0.807662,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 50,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        476.865,
+        683.784,
+        501.1
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.756929,
+        0.844177,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        476.865,
+        749.004,
+        501.1
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.756929,
+        0.924696,
+        0.795396
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        501.1,
+        94.823,
+        525.678
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.795396,
+        0.117065,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        94.823,
+        501.1,
+        126.752,
+        525.678
+      ],
+      "bbox_norm": [
+        0.117065,
+        0.795396,
+        0.156484,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        126.752,
+        501.1,
+        157.857,
+        525.678
+      ],
+      "bbox_norm": [
+        0.156484,
+        0.795396,
+        0.194885,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        157.857,
+        501.1,
+        203.482,
+        525.678
+      ],
+      "bbox_norm": [
+        0.194885,
+        0.795396,
+        0.251212,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        203.482,
+        501.1,
+        247.787,
+        525.678
+      ],
+      "bbox_norm": [
+        0.251212,
+        0.795396,
+        0.30591,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        247.787,
+        501.1,
+        297.414,
+        525.678
+      ],
+      "bbox_norm": [
+        0.30591,
+        0.795396,
+        0.367177,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Record of Sowing,"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        297.414,
+        501.1,
+        347.164,
+        525.678
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.795396,
+        0.428598,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Sowing, Raising"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        347.164,
+        501.1,
+        377.361,
+        525.678
+      ],
+      "bbox_norm": [
+        0.428598,
+        0.795396,
+        0.465878,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Raising"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        501.1,
+        406.072,
+        525.678
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.795396,
+        0.501324,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        406.072,
+        501.1,
+        436.187,
+        525.678
+      ],
+      "bbox_norm": [
+        0.501324,
+        0.795396,
+        0.538502,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "cutting,"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        436.187,
+        501.1,
+        467.085,
+        525.678
+      ],
+      "bbox_norm": [
+        0.538502,
+        0.795396,
+        0.576648,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        469.389,
+        501.1,
+        497.199,
+        525.678
+      ],
+      "bbox_norm": [
+        0.579492,
+        0.795396,
+        0.613826,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 39,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        501.1,
+        528.468,
+        525.678
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.795396,
+        0.65243,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Germination &"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 42,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        501.1,
+        561.14,
+        525.678
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.795396,
+        0.692766,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "& Pricking"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 43,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        561.14,
+        501.1,
+        591.626,
+        525.678
+      ],
+      "bbox_norm": [
+        0.692766,
+        0.795396,
+        0.730402,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 45,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        591.626,
+        501.1,
+        622.153,
+        525.678
+      ],
+      "bbox_norm": [
+        0.730402,
+        0.795396,
+        0.76809,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 48,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        622.153,
+        501.1,
+        654.206,
+        525.678
+      ],
+      "bbox_norm": [
+        0.76809,
+        0.795396,
+        0.807662,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 50,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        501.1,
+        683.784,
+        525.678
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.795396,
+        0.844177,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        501.1,
+        749.004,
+        525.678
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.795396,
+        0.924696,
+        0.834409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        525.678,
+        94.823,
+        549.912
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.834409,
+        0.117065,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        94.823,
+        525.678,
+        126.752,
+        549.912
+      ],
+      "bbox_norm": [
+        0.117065,
+        0.834409,
+        0.156484,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        126.752,
+        525.678,
+        157.857,
+        549.912
+      ],
+      "bbox_norm": [
+        0.156484,
+        0.834409,
+        0.194885,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        157.857,
+        525.678,
+        203.482,
+        549.912
+      ],
+      "bbox_norm": [
+        0.194885,
+        0.834409,
+        0.251212,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        203.482,
+        525.678,
+        247.787,
+        549.912
+      ],
+      "bbox_norm": [
+        0.251212,
+        0.834409,
+        0.30591,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Record"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        247.787,
+        525.678,
+        297.414,
+        549.912
+      ],
+      "bbox_norm": [
+        0.30591,
+        0.834409,
+        0.367177,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Record of Sowing,"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        297.414,
+        525.678,
+        347.164,
+        549.912
+      ],
+      "bbox_norm": [
+        0.367177,
+        0.834409,
+        0.428598,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Sowing, Raising"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        347.164,
+        525.678,
+        377.361,
+        549.912
+      ],
+      "bbox_norm": [
+        0.428598,
+        0.834409,
+        0.465878,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Raising"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        525.678,
+        406.072,
+        549.912
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.834409,
+        0.501324,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        406.072,
+        525.678,
+        436.187,
+        549.912
+      ],
+      "bbox_norm": [
+        0.501324,
+        0.834409,
+        0.538502,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "cutting,"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        436.187,
+        525.678,
+        467.085,
+        549.912
+      ],
+      "bbox_norm": [
+        0.538502,
+        0.834409,
+        0.576648,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        469.389,
+        525.678,
+        497.199,
+        549.912
+      ],
+      "bbox_norm": [
+        0.579492,
+        0.834409,
+        0.613826,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Germination"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 39,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        525.678,
+        528.468,
+        549.912
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.834409,
+        0.65243,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Germination &"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 42,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        525.678,
+        561.14,
+        549.912
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.834409,
+        0.692766,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "& Pricking"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 43,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        561.14,
+        525.678,
+        591.626,
+        549.912
+      ],
+      "bbox_norm": [
+        0.692766,
+        0.834409,
+        0.730402,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 45,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        591.626,
+        525.678,
+        622.153,
+        549.912
+      ],
+      "bbox_norm": [
+        0.730402,
+        0.834409,
+        0.76809,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Pricking"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 48,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        622.153,
+        525.678,
+        654.206,
+        549.912
+      ],
+      "bbox_norm": [
+        0.76809,
+        0.834409,
+        0.807662,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 50,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        525.678,
+        683.784,
+        549.912
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.834409,
+        0.844177,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 51,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        525.678,
+        749.004,
+        549.912
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.834409,
+        0.924696,
+        0.872877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 1,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        61.161,
+        123.016,
+        94.823,
+        186.524
+      ],
+      "bbox_norm": [
+        0.075507,
+        0.195264,
+        0.117065,
+        0.29607
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 20,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        377.361,
+        172.258,
+        406.072,
+        186.524
+      ],
+      "bbox_norm": [
+        0.465878,
+        0.273426,
+        0.501324,
+        0.29607
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "of cutting, | PROFORMA No. 3 (Month Raising of cutting,"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 39,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        497.199,
+        172.258,
+        528.468,
+        186.524
+      ],
+      "bbox_norm": [
+        0.613826,
+        0.273426,
+        0.65243,
+        0.29607
+      ],
+      "source": "written",
+      "value": "212",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Germination & | wise Counting) Germination & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 42,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        528.468,
+        172.258,
+        561.14,
+        186.524
+      ],
+      "bbox_norm": [
+        0.65243,
+        0.273426,
+        0.692766,
+        0.29607
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "& Pricking | wise Counting) Germination & Pricking"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 50,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        654.206,
+        172.258,
+        683.784,
+        186.524
+      ],
+      "bbox_norm": [
+        0.807662,
+        0.273426,
+        0.844177,
+        0.29607
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 51,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        683.784,
+        172.258,
+        749.004,
+        186.524
+      ],
+      "bbox_norm": [
+        0.844177,
+        0.273426,
+        0.924696,
+        0.29607
+      ],
+      "source": "written",
+      "value": "169",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": ""
+    }
+  ]
+}

@@ -1,0 +1,3444 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nvs_recce_forest_height_tiers.pdf",
+  "page": 1,
+  "page_size_points": [
+    595.32,
+    842.04
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 8,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        204.38,
+        262.61,
+        218.78
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.24272,
+        0.441124,
+        0.259821
+      ],
+      "source": "printed",
+      "value": "SIZE OF RECCE",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "SIZE OF RECCE"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        366.55,
+        204.38,
+        571.68,
+        218.78
+      ],
+      "bbox_norm": [
+        0.615719,
+        0.24272,
+        0.96029,
+        0.259821
+      ],
+      "source": "printed",
+      "value": "SURFACE CHARACTERISTICS:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "SURFACE CHARACTERISTICS:"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        218.78,
+        262.61,
+        233.18
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.259821,
+        0.441124,
+        0.276923
+      ],
+      "source": "printed",
+      "value": "ALTITUDE (m)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "ALTITUDE (m)"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        366.55,
+        218.78,
+        571.68,
+        233.18
+      ],
+      "bbox_norm": [
+        0.615719,
+        0.259821,
+        0.96029,
+        0.276923
+      ],
+      "source": "printed",
+      "value": "Bedrock %",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Bedrock %"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        233.18,
+        262.61,
+        247.58
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.276923,
+        0.441124,
+        0.294024
+      ],
+      "source": "printed",
+      "value": "PHYSIOGRAPHY Ridge, Face, Gully, Terrace",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "PHYSIOGRAPHY Ridge, Face, Gully, Terrace"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        366.55,
+        233.18,
+        571.68,
+        247.58
+      ],
+      "bbox_norm": [
+        0.615719,
+        0.276923,
+        0.96029,
+        0.294024
+      ],
+      "source": "printed",
+      "value": "Broken rock %",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Broken rock %"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        247.58,
+        262.61,
+        261.98
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.294024,
+        0.441124,
+        0.311125
+      ],
+      "source": "printed",
+      "value": "ASPECT (1\u2013359\u00ba)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "ASPECT (1\u2013359\u00ba)"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        366.55,
+        247.58,
+        571.68,
+        261.98
+      ],
+      "bbox_norm": [
+        0.615719,
+        0.294024,
+        0.96029,
+        0.311125
+      ],
+      "source": "printed",
+      "value": "Size of broken rock <30cm / >30cm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Size of broken rock <30cm / >30cm"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        261.98,
+        262.61,
+        276.41
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.311125,
+        0.441124,
+        0.328262
+      ],
+      "source": "printed",
+      "value": "SLOPE (\u00ba)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "SLOPE (\u00ba)"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        262.61,
+        261.98,
+        297.29,
+        276.41
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.311125,
+        0.499378,
+        0.328262
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "coordinate",
+      "semantic_context": "MESOSCALE TOPOGRAPHIC & TERRAIN SHAPE INDEX (\u00ba, record +/\u2013) | TOPOGRAPHIC TERRAIN INDEX | Northing: GPS FIX: Single ACCURACY LOCATION: MESOSCALE TOPOGRAPHIC TERRAIN SHAPE Terrace INDEX (\u00ba, record SLOPE (\u00ba) MTI TSI Alluvial, Colluvial, Moraine, Volcanic"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        297.29,
+        261.98,
+        331.87,
+        276.41
+      ],
+      "bbox_norm": [
+        0.499378,
+        0.311125,
+        0.557465,
+        0.328262
+      ],
+      "source": "printed",
+      "value": "MTI",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "MTI"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        331.87,
+        261.98,
+        366.55,
+        276.41
+      ],
+      "bbox_norm": [
+        0.557465,
+        0.311125,
+        0.615719,
+        0.328262
+      ],
+      "source": "printed",
+      "value": "TSI",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "TSI"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        366.55,
+        261.98,
+        571.68,
+        276.41
+      ],
+      "bbox_norm": [
+        0.615719,
+        0.311125,
+        0.96029,
+        0.328262
+      ],
+      "source": "printed",
+      "value": "Alluvial, Colluvial, Moraine, Volcanic",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Alluvial, Colluvial, Moraine, Volcanic"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        262.61,
+        276.41,
+        297.29,
+        290.81
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.328262,
+        0.499378,
+        0.345364
+      ],
+      "source": "printed",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "N"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        297.29,
+        276.41,
+        331.87,
+        290.81
+      ],
+      "bbox_norm": [
+        0.499378,
+        0.328262,
+        0.557465,
+        0.345364
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "coordinate",
+      "semantic_context": "MTI | (\u00ba, record MTI | GPS LOCATION: CORNER SURFACE MESOSCALE Bedrock TOPOGRAPHIC & TERRAIN SHAPE Broken INDEX (\u00ba, record +/\u2013) Size MTI TSI PARENT MATERIAL N GROUND COVER %:"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        331.87,
+        276.41,
+        366.55,
+        290.81
+      ],
+      "bbox_norm": [
+        0.557465,
+        0.328262,
+        0.615719,
+        0.345364
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "TSI | record +/\u2013) TSI | MESOSCALE Bedrock % TOPOGRAPHIC & TERRAIN SHAPE Broken rock INDEX (\u00ba, record +/\u2013) Size of MTI TSI Alluvial, MATERIAL N GROUND COVER %:"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        366.55,
+        276.41,
+        571.68,
+        290.81
+      ],
+      "bbox_norm": [
+        0.615719,
+        0.328262,
+        0.96029,
+        0.345364
+      ],
+      "source": "printed",
+      "value": "GROUND COVER %:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "GROUND COVER %:"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        262.61,
+        290.81,
+        297.29,
+        305.21
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.345364,
+        0.499378,
+        0.362465
+      ],
+      "source": "printed",
+      "value": "NE",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "NE"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        297.29,
+        290.81,
+        331.87,
+        305.21
+      ],
+      "bbox_norm": [
+        0.499378,
+        0.345364,
+        0.557465,
+        0.362465
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "coordinate",
+      "semantic_context": "MTI | (\u00ba, record MTI | GPS LOCATION: SURFACE MESOSCALE Bedrock TOPOGRAPHIC & TERRAIN SHAPE Broken INDEX (\u00ba, record +/\u2013) Size MTI TSI N GROUND Mapped / Observed NE Vegetation"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        331.87,
+        290.81,
+        366.55,
+        305.21
+      ],
+      "bbox_norm": [
+        0.557465,
+        0.345364,
+        0.615719,
+        0.362465
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "TSI | record +/\u2013) TSI | Bedrock % TOPOGRAPHIC & TERRAIN SHAPE Broken rock INDEX (\u00ba, record +/\u2013) Size of MTI TSI Alluvial, GROUND Mapped / Observed NE Vegetation"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        366.55,
+        290.81,
+        571.68,
+        305.21
+      ],
+      "bbox_norm": [
+        0.615719,
+        0.345364,
+        0.96029,
+        0.362465
+      ],
+      "source": "printed",
+      "value": "Vegetation",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Vegetation"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        305.21,
+        262.61,
+        319.61
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.362465,
+        0.441124,
+        0.379566
+      ],
+      "source": "printed",
+      "value": "DRAINAGE: Good, Moderate, Poor",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "DRAINAGE: Good, Moderate, Poor"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        262.61,
+        305.21,
+        297.29,
+        319.61
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.362465,
+        0.499378,
+        0.379566
+      ],
+      "source": "printed",
+      "value": "E",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "E"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        297.29,
+        305.21,
+        331.87,
+        319.61
+      ],
+      "bbox_norm": [
+        0.499378,
+        0.362465,
+        0.557465,
+        0.379566
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "MTI | (\u00ba, record MTI | MESOSCALE Bedrock TOPOGRAPHIC & TERRAIN SHAPE Broken INDEX (\u00ba, record +/\u2013) Size MTI TSI N GROUND NE Vegetation DRAINAGE: Good, Moderate, Poor E Non-vascular"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        331.87,
+        305.21,
+        366.55,
+        319.61
+      ],
+      "bbox_norm": [
+        0.557465,
+        0.362465,
+        0.615719,
+        0.379566
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "TSI | record +/\u2013) TSI | TOPOGRAPHIC & TERRAIN SHAPE Broken rock INDEX (\u00ba, record +/\u2013) Size of MTI TSI Alluvial, GROUND Vegetation DRAINAGE: Good, Moderate, Poor E Non-vascular"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        366.55,
+        305.21,
+        571.68,
+        319.61
+      ],
+      "bbox_norm": [
+        0.615719,
+        0.362465,
+        0.96029,
+        0.379566
+      ],
+      "source": "printed",
+      "value": "Non-vascular",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Non-vascular"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        262.61,
+        319.61,
+        297.29,
+        334.01
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.379566,
+        0.499378,
+        0.396668
+      ],
+      "source": "printed",
+      "value": "SE",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "SE"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        297.29,
+        319.61,
+        331.87,
+        334.01
+      ],
+      "bbox_norm": [
+        0.499378,
+        0.379566,
+        0.557465,
+        0.396668
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "MTI | (\u00ba, record MTI | TOPOGRAPHIC TERRAIN SHAPE Broken INDEX (\u00ba, record +/\u2013) Size MTI TSI N GROUND NE Vegetation E Non-vascular CULTURAL None, Burnt, Logged, Cleared, SE Litter"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        331.87,
+        319.61,
+        366.55,
+        334.01
+      ],
+      "bbox_norm": [
+        0.557465,
+        0.379566,
+        0.615719,
+        0.396668
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "TSI | record +/\u2013) TSI | TERRAIN SHAPE Broken rock INDEX (\u00ba, record +/\u2013) Size of MTI TSI Alluvial, GROUND Vegetation Non-vascular CULTURAL None, Burnt, Logged, Cleared, SE Litter"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        366.55,
+        319.61,
+        571.68,
+        334.01
+      ],
+      "bbox_norm": [
+        0.615719,
+        0.379566,
+        0.96029,
+        0.396668
+      ],
+      "source": "printed",
+      "value": "Litter",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Litter"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        262.61,
+        334.01,
+        297.29,
+        348.41
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.396668,
+        0.499378,
+        0.413769
+      ],
+      "source": "printed",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "S"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        297.29,
+        334.01,
+        331.87,
+        348.41
+      ],
+      "bbox_norm": [
+        0.499378,
+        0.396668,
+        0.557465,
+        0.413769
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "MTI | (\u00ba, record MTI | TERRAIN SHAPE Broken INDEX (\u00ba, record +/\u2013) Size MTI TSI N GROUND NE Vegetation E Non-vascular SE Litter Mined, Grazed, Tracked S Bare"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        331.87,
+        334.01,
+        366.55,
+        348.41
+      ],
+      "bbox_norm": [
+        0.557465,
+        0.396668,
+        0.615719,
+        0.413769
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "TSI | record +/\u2013) TSI | TERRAIN SHAPE Broken rock INDEX (\u00ba, record +/\u2013) Size of MTI TSI Alluvial, GROUND Vegetation Non-vascular Litter Mined, Grazed, Tracked S Bare"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        366.55,
+        334.01,
+        571.68,
+        348.41
+      ],
+      "bbox_norm": [
+        0.615719,
+        0.396668,
+        0.96029,
+        0.413769
+      ],
+      "source": "printed",
+      "value": "Bare Ground",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Bare Ground"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        348.41,
+        262.61,
+        362.57
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.413769,
+        0.441124,
+        0.430585
+      ],
+      "source": "printed",
+      "value": "TREATMENT:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "TREATMENT:"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        262.61,
+        348.41,
+        297.29,
+        362.57
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.413769,
+        0.499378,
+        0.430585
+      ],
+      "source": "printed",
+      "value": "SW",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "SW"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        297.29,
+        348.41,
+        331.87,
+        362.57
+      ],
+      "bbox_norm": [
+        0.499378,
+        0.413769,
+        0.557465,
+        0.430585
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "MTI | (\u00ba, record MTI | TOPOGRAPHIC TERRAIN SHAPE Broken INDEX (\u00ba, record +/\u2013) Size MTI TSI N GROUND NE Vegetation E Non-vascular SE Litter S Bare TREATMENT: SW Rock"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        331.87,
+        348.41,
+        366.55,
+        362.57
+      ],
+      "bbox_norm": [
+        0.557465,
+        0.413769,
+        0.615719,
+        0.430585
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "TSI | record +/\u2013) TSI | TOPOGRAPHIC TERRAIN SHAPE Broken rock INDEX (\u00ba, record +/\u2013) Size of MTI TSI Alluvial, GROUND Vegetation Non-vascular Litter Bare TREATMENT: SW"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        366.55,
+        348.41,
+        571.68,
+        362.57
+      ],
+      "bbox_norm": [
+        0.615719,
+        0.413769,
+        0.96029,
+        0.430585
+      ],
+      "source": "printed",
+      "value": "Rock",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Rock"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        362.57,
+        262.61,
+        376.97
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.430585,
+        0.441124,
+        0.447687
+      ],
+      "source": "printed",
+      "value": "APPROACH:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "APPROACH:"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        262.61,
+        362.57,
+        297.29,
+        376.97
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.430585,
+        0.499378,
+        0.447687
+      ],
+      "source": "printed",
+      "value": "W",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "W"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        297.29,
+        362.57,
+        331.87,
+        376.97
+      ],
+      "bbox_norm": [
+        0.499378,
+        0.430585,
+        0.557465,
+        0.447687
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "MTI | (\u00ba, record MTI | INDEX (\u00ba, record Size MTI TSI N GROUND NE Vegetation E Non-vascular SE Litter S Bare SW Rock APPROACH: W AVERAGE TOP HEIGHT (m)"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        331.87,
+        362.57,
+        366.55,
+        376.97
+      ],
+      "bbox_norm": [
+        0.557465,
+        0.430585,
+        0.615719,
+        0.447687
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "TSI | record +/\u2013) TSI | Broken INDEX (\u00ba, record +/\u2013) Size of MTI TSI Alluvial, GROUND Vegetation Non-vascular Litter Bare Rock APPROACH: W AVERAGE TOP HEIGHT (m)"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        366.55,
+        362.57,
+        571.68,
+        376.97
+      ],
+      "bbox_norm": [
+        0.615719,
+        0.430585,
+        0.96029,
+        0.447687
+      ],
+      "source": "printed",
+      "value": "AVERAGE TOP HEIGHT (m)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "AVERAGE TOP HEIGHT (m)"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        376.97,
+        262.61,
+        391.37
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.447687,
+        0.441124,
+        0.464788
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH: | TREATMENT: APPROACH: | CULTURAL None, Burnt, Logged, Cleared, Mined, Grazed, Tracked S Bare Ground TREATMENT: SW Rock APPROACH: W AVERAGE TOP HEIGHT (m) NW CANOPY COVER (%)"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        262.61,
+        376.97,
+        297.29,
+        391.37
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.447687,
+        0.499378,
+        0.464788
+      ],
+      "source": "printed",
+      "value": "NW",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "NW"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        297.29,
+        376.97,
+        331.87,
+        391.37
+      ],
+      "bbox_norm": [
+        0.499378,
+        0.447687,
+        0.557465,
+        0.464788
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "MTI | (\u00ba, record MTI | INDEX (\u00ba, record Size MTI TSI N GROUND NE Vegetation E Non-vascular SE Litter S Bare SW Rock W AVERAGE NW CANOPY COVER (%)"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        331.87,
+        376.97,
+        366.55,
+        391.37
+      ],
+      "bbox_norm": [
+        0.557465,
+        0.447687,
+        0.615719,
+        0.464788
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "TSI | record +/\u2013) TSI | Broken rock INDEX (\u00ba, record +/\u2013) Size of MTI TSI Alluvial, GROUND Vegetation Non-vascular Litter Bare AVERAGE NW CANOPY COVER (%)"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        366.55,
+        376.97,
+        571.68,
+        391.37
+      ],
+      "bbox_norm": [
+        0.615719,
+        0.447687,
+        0.96029,
+        0.464788
+      ],
+      "source": "printed",
+      "value": "CANOPY COVER (%)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "CANOPY COVER (%)"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        391.37,
+        262.61,
+        405.77
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.464788,
+        0.441124,
+        0.481889
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH: | TREATMENT: APPROACH: | CULTURAL None, Burnt, Mined, Grazed, Tracked S Bare Ground TREATMENT: SW Rock APPROACH: W AVERAGE TOP HEIGHT (m) NW CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        405.77,
+        262.61,
+        420.17
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.481889,
+        0.441124,
+        0.498991
+      ],
+      "source": "written",
+      "value": "82",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH: | TREATMENT: APPROACH: | CULTURAL None, Burnt, Mined, Grazed, Tracked S Bare Ground TREATMENT: SW Rock APPROACH: W AVERAGE TOP HEIGHT (m) NW CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        420.17,
+        262.61,
+        434.57
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.498991,
+        0.441124,
+        0.516092
+      ],
+      "source": "written",
+      "value": "83",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH: | TREATMENT: APPROACH: | CULTURAL None, Burnt, Mined, Grazed, Tracked S Bare Ground TREATMENT: SW Rock APPROACH: W AVERAGE TOP HEIGHT (m) NW CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        434.57,
+        262.61,
+        450.43
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.516092,
+        0.441124,
+        0.534927
+      ],
+      "source": "written",
+      "value": "65",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH: | TREATMENT: APPROACH: | CULTURAL None, Burnt, Mined, Grazed, Tracked S Bare Ground TREATMENT: SW Rock APPROACH: W AVERAGE TOP HEIGHT (m) NW CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        450.43,
+        262.61,
+        464.83
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.534927,
+        0.441124,
+        0.552028
+      ],
+      "source": "written",
+      "value": "44",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH: | TREATMENT: APPROACH: | CULTURAL None, Burnt, Mined, Grazed, Tracked S Bare Ground TREATMENT: SW Rock APPROACH: W AVERAGE TOP HEIGHT (m) NW CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        464.83,
+        262.61,
+        479.23
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.552028,
+        0.441124,
+        0.56913
+      ],
+      "source": "written",
+      "value": "54",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH: | TREATMENT: APPROACH: | CULTURAL None, Burnt, Mined, Grazed, Tracked S Bare Ground TREATMENT: SW Rock APPROACH: W AVERAGE TOP HEIGHT (m) NW CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        479.23,
+        262.61,
+        493.63
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.56913,
+        0.441124,
+        0.586231
+      ],
+      "source": "written",
+      "value": "15",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH: | TREATMENT: APPROACH: | CULTURAL None, Burnt, Mined, Grazed, Tracked S Bare Ground TREATMENT: SW Rock APPROACH: W AVERAGE TOP HEIGHT (m) NW CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 28,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        493.63,
+        262.61,
+        508.03
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.586231,
+        0.441124,
+        0.603332
+      ],
+      "source": "written",
+      "value": "86",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH: | TREATMENT: APPROACH: | CULTURAL None, Burnt, Mined, Grazed, Tracked S Bare Ground TREATMENT: SW Rock APPROACH: W AVERAGE TOP HEIGHT (m) NW CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        508.03,
+        262.61,
+        522.43
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.603332,
+        0.441124,
+        0.620434
+      ],
+      "source": "written",
+      "value": "6",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH: | TREATMENT: APPROACH: | CULTURAL None, Burnt, Mined, Grazed, Tracked S Bare Ground TREATMENT: SW Rock APPROACH: W AVERAGE TOP HEIGHT (m) NW CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        522.43,
+        262.61,
+        536.83
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.620434,
+        0.441124,
+        0.637535
+      ],
+      "source": "written",
+      "value": "7",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH: | TREATMENT: APPROACH: | CULTURAL None, Burnt, Mined, Grazed, Tracked S Bare Ground TREATMENT: SW Rock APPROACH: W AVERAGE TOP HEIGHT (m) NW CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        536.83,
+        262.61,
+        551.23
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.637535,
+        0.441124,
+        0.654636
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH: | TREATMENT: APPROACH: | CULTURAL None, Burnt, Mined, Grazed, Tracked S Bare Ground TREATMENT: SW Rock APPROACH: W AVERAGE TOP HEIGHT (m) NW CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        551.23,
+        262.61,
+        565.63
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.654636,
+        0.441124,
+        0.671738
+      ],
+      "source": "printed",
+      "value": "VEGETATION DESCRIPTION & NOTES:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "VEGETATION DESCRIPTION & NOTES:"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        565.63,
+        262.61,
+        580.03
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.671738,
+        0.441124,
+        0.688839
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES: | Mined, Grazed, Tracked S Bare TREATMENT: SW Rock APPROACH: W AVERAGE TOP HEIGHT (m) NW CANOPY COVER (%) LOCATION DIAGRAM VEGETATION DESCRIPTION & NOTES:"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        580.03,
+        262.61,
+        594.43
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.688839,
+        0.441124,
+        0.70594
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES: | TREATMENT: SW Rock APPROACH: W AVERAGE TOP HEIGHT (m) NW CANOPY COVER (%) LOCATION DIAGRAM VEGETATION DESCRIPTION & NOTES:"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        594.43,
+        262.61,
+        608.83
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.70594,
+        0.441124,
+        0.723042
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES: | APPROACH: W AVERAGE TOP HEIGHT (m) NW CANOPY COVER (%) LOCATION DIAGRAM VEGETATION DESCRIPTION & NOTES:"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        608.83,
+        262.61,
+        623.26
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.723042,
+        0.441124,
+        0.740179
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES: | NW CANOPY COVER (%) LOCATION DIAGRAM VEGETATION DESCRIPTION & NOTES:"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        623.26,
+        262.61,
+        637.66
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.740179,
+        0.441124,
+        0.75728
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES: | LOCATION DIAGRAM VEGETATION DESCRIPTION & NOTES:"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        637.66,
+        262.61,
+        652.06
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.75728,
+        0.441124,
+        0.774381
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES:"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        652.06,
+        262.61,
+        666.46
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.774381,
+        0.441124,
+        0.791483
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES: BROWSE"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        262.61,
+        652.06,
+        571.68,
+        666.46
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.774381,
+        0.96029,
+        0.791483
+      ],
+      "source": "printed",
+      "value": "BROWSE",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "BROWSE"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        666.46,
+        262.61,
+        680.86
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.791483,
+        0.441124,
+        0.808584
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES: BROWSE Species Severity Herbivore"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        262.61,
+        666.46,
+        326.47,
+        680.86
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.791483,
+        0.548394,
+        0.808584
+      ],
+      "source": "printed",
+      "value": "Species",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Species"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.47,
+        666.46,
+        374.95,
+        680.86
+      ],
+      "bbox_norm": [
+        0.548394,
+        0.791483,
+        0.629829,
+        0.808584
+      ],
+      "source": "printed",
+      "value": "Severity",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Severity"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        374.95,
+        666.46,
+        423.07,
+        680.86
+      ],
+      "bbox_norm": [
+        0.629829,
+        0.791483,
+        0.71066,
+        0.808584
+      ],
+      "source": "printed",
+      "value": "Herbivore",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Herbivore"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        423.07,
+        666.46,
+        471.34,
+        680.86
+      ],
+      "bbox_norm": [
+        0.71066,
+        0.791483,
+        0.791742,
+        0.808584
+      ],
+      "source": "printed",
+      "value": "Species",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Species"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        471.34,
+        666.46,
+        522.7,
+        680.86
+      ],
+      "bbox_norm": [
+        0.791742,
+        0.791483,
+        0.878015,
+        0.808584
+      ],
+      "source": "printed",
+      "value": "Severity",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Severity"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        522.7,
+        666.46,
+        571.68,
+        680.86
+      ],
+      "bbox_norm": [
+        0.878015,
+        0.791483,
+        0.96029,
+        0.808584
+      ],
+      "source": "printed",
+      "value": "Herbivore",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Herbivore"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        680.86,
+        262.61,
+        695.26
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.808584,
+        0.441124,
+        0.825685
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES: BROWSE Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        262.61,
+        680.86,
+        326.47,
+        695.26
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.808584,
+        0.548394,
+        0.825685
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | BROWSE Species | NOTES: BROWSE Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.47,
+        680.86,
+        374.95,
+        695.26
+      ],
+      "bbox_norm": [
+        0.548394,
+        0.808584,
+        0.629829,
+        0.825685
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        374.95,
+        680.86,
+        423.07,
+        695.26
+      ],
+      "bbox_norm": [
+        0.629829,
+        0.808584,
+        0.71066,
+        0.825685
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Herbivore | Herbivore | Severity Herbivore Species L M H"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        423.07,
+        680.86,
+        471.34,
+        695.26
+      ],
+      "bbox_norm": [
+        0.71066,
+        0.808584,
+        0.791742,
+        0.825685
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Severity Herbivore Species L M H"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        471.34,
+        680.86,
+        522.7,
+        695.26
+      ],
+      "bbox_norm": [
+        0.791742,
+        0.808584,
+        0.878015,
+        0.825685
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        522.7,
+        680.86,
+        571.68,
+        695.26
+      ],
+      "bbox_norm": [
+        0.878015,
+        0.808584,
+        0.96029,
+        0.825685
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Herbivore | Herbivore | Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        695.26,
+        262.61,
+        709.66
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.825685,
+        0.441124,
+        0.842787
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES: BROWSE Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        262.61,
+        695.26,
+        326.47,
+        709.66
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.825685,
+        0.548394,
+        0.842787
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | BROWSE Species | NOTES: BROWSE Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.47,
+        695.26,
+        374.95,
+        709.66
+      ],
+      "bbox_norm": [
+        0.548394,
+        0.825685,
+        0.629829,
+        0.842787
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        374.95,
+        695.26,
+        423.07,
+        709.66
+      ],
+      "bbox_norm": [
+        0.629829,
+        0.825685,
+        0.71066,
+        0.842787
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Herbivore | Herbivore | Severity Herbivore Species L M H"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        423.07,
+        695.26,
+        471.34,
+        709.66
+      ],
+      "bbox_norm": [
+        0.71066,
+        0.825685,
+        0.791742,
+        0.842787
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Severity Herbivore Species H L M"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        471.34,
+        695.26,
+        522.7,
+        709.66
+      ],
+      "bbox_norm": [
+        0.791742,
+        0.825685,
+        0.878015,
+        0.842787
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        522.7,
+        695.26,
+        571.68,
+        709.66
+      ],
+      "bbox_norm": [
+        0.878015,
+        0.825685,
+        0.96029,
+        0.842787
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Herbivore | Herbivore | Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        709.66,
+        262.61,
+        724.06
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.842787,
+        0.441124,
+        0.859888
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION & NOTES: | VEGETATION DESCRIPTION & NOTES: | Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        262.61,
+        709.66,
+        326.47,
+        724.06
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.842787,
+        0.548394,
+        0.859888
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | BROWSE Species | NOTES: BROWSE Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.47,
+        709.66,
+        374.95,
+        724.06
+      ],
+      "bbox_norm": [
+        0.548394,
+        0.842787,
+        0.629829,
+        0.859888
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        374.95,
+        709.66,
+        423.07,
+        724.06
+      ],
+      "bbox_norm": [
+        0.629829,
+        0.842787,
+        0.71066,
+        0.859888
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Herbivore | Herbivore | Severity Herbivore Species L M H"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        423.07,
+        709.66,
+        471.34,
+        724.06
+      ],
+      "bbox_norm": [
+        0.71066,
+        0.842787,
+        0.791742,
+        0.859888
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Severity Herbivore Species H L M"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        471.34,
+        709.66,
+        522.7,
+        724.06
+      ],
+      "bbox_norm": [
+        0.791742,
+        0.842787,
+        0.878015,
+        0.859888
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        522.7,
+        709.66,
+        571.68,
+        724.06
+      ],
+      "bbox_norm": [
+        0.878015,
+        0.842787,
+        0.96029,
+        0.859888
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Herbivore | Herbivore | Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 44,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        724.06,
+        262.61,
+        738.46
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.859888,
+        0.441124,
+        0.876989
+      ],
+      "source": "printed",
+      "value": "FAUNA (e.g. mammal, bird, reptile, invertebrate)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "FAUNA (e.g. mammal, bird, reptile, invertebrate)"
+    },
+    {
+      "page": 1,
+      "row": 44,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        262.61,
+        724.06,
+        326.47,
+        738.46
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.859888,
+        0.548394,
+        0.876989
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | BROWSE Species | Species Severity Herbivore L M H FAUNA (e.g. mammal, bird, reptile, invertebrate)"
+    },
+    {
+      "page": 1,
+      "row": 44,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.47,
+        724.06,
+        374.95,
+        738.46
+      ],
+      "bbox_norm": [
+        0.548394,
+        0.859888,
+        0.629829,
+        0.876989
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 44,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        374.95,
+        724.06,
+        423.07,
+        738.46
+      ],
+      "bbox_norm": [
+        0.629829,
+        0.859888,
+        0.71066,
+        0.876989
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Herbivore | Herbivore | Severity Herbivore L M H mammal, bird, reptile, invertebrate)"
+    },
+    {
+      "page": 1,
+      "row": 44,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        423.07,
+        724.06,
+        471.34,
+        738.46
+      ],
+      "bbox_norm": [
+        0.71066,
+        0.859888,
+        0.791742,
+        0.876989
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Severity Herbivore Species H L M reptile, invertebrate)"
+    },
+    {
+      "page": 1,
+      "row": 44,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        471.34,
+        724.06,
+        522.7,
+        738.46
+      ],
+      "bbox_norm": [
+        0.791742,
+        0.859888,
+        0.878015,
+        0.876989
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 44,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        522.7,
+        724.06,
+        571.68,
+        738.46
+      ],
+      "bbox_norm": [
+        0.878015,
+        0.859888,
+        0.96029,
+        0.876989
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Herbivore | Herbivore | Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 45,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        738.46,
+        262.61,
+        752.856
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.876989,
+        0.441124,
+        0.894086
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "FAUNA (e.g. mammal, bird, reptile, invertebrate) | FAUNA (e.g. mammal, bird, reptile, invertebrate) | L M H FAUNA (e.g. mammal, bird, reptile, invertebrate)"
+    },
+    {
+      "page": 1,
+      "row": 45,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        262.61,
+        738.46,
+        326.47,
+        752.856
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.876989,
+        0.548394,
+        0.894086
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | BROWSE Species | BROWSE Species Severity Herbivore L M H reptile, invertebrate)"
+    },
+    {
+      "page": 1,
+      "row": 45,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.47,
+        738.46,
+        374.95,
+        752.856
+      ],
+      "bbox_norm": [
+        0.548394,
+        0.876989,
+        0.629829,
+        0.894086
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 45,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        374.95,
+        738.46,
+        423.07,
+        752.856
+      ],
+      "bbox_norm": [
+        0.629829,
+        0.876989,
+        0.71066,
+        0.894086
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Herbivore | Herbivore | Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 45,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        423.07,
+        738.46,
+        471.34,
+        752.856
+      ],
+      "bbox_norm": [
+        0.71066,
+        0.876989,
+        0.791742,
+        0.894086
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Severity Herbivore H L M"
+    },
+    {
+      "page": 1,
+      "row": 45,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        471.34,
+        738.46,
+        522.7,
+        752.856
+      ],
+      "bbox_norm": [
+        0.791742,
+        0.876989,
+        0.878015,
+        0.894086
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 45,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        522.7,
+        738.46,
+        571.68,
+        752.856
+      ],
+      "bbox_norm": [
+        0.878015,
+        0.876989,
+        0.96029,
+        0.894086
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Herbivore | Herbivore | Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        752.856,
+        262.61,
+        767.256
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.894086,
+        0.441124,
+        0.911187
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "FAUNA (e.g. mammal, bird, reptile, invertebrate) | FAUNA (e.g. mammal, bird, reptile, invertebrate) | FAUNA (e.g. mammal, bird, reptile, invertebrate) L M H"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        262.61,
+        752.856,
+        326.47,
+        767.256
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.894086,
+        0.548394,
+        0.911187
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | BROWSE Species | Species L M H reptile, invertebrate)"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.47,
+        752.856,
+        374.95,
+        767.256
+      ],
+      "bbox_norm": [
+        0.548394,
+        0.894086,
+        0.629829,
+        0.911187
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        374.95,
+        752.856,
+        423.07,
+        767.256
+      ],
+      "bbox_norm": [
+        0.629829,
+        0.894086,
+        0.71066,
+        0.911187
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Herbivore | Herbivore | L M H"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        423.07,
+        752.856,
+        471.34,
+        767.256
+      ],
+      "bbox_norm": [
+        0.71066,
+        0.894086,
+        0.791742,
+        0.911187
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | H L M"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        471.34,
+        752.856,
+        522.7,
+        767.256
+      ],
+      "bbox_norm": [
+        0.791742,
+        0.894086,
+        0.878015,
+        0.911187
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        522.7,
+        752.856,
+        571.68,
+        767.256
+      ],
+      "bbox_norm": [
+        0.878015,
+        0.894086,
+        0.96029,
+        0.911187
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Herbivore | Herbivore | Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        767.256,
+        262.61,
+        781.656
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.911187,
+        0.441124,
+        0.928288
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "FAUNA (e.g. mammal, bird, reptile, invertebrate) | FAUNA (e.g. mammal, bird, reptile, invertebrate) | FAUNA (e.g. mammal, bird, reptile, invertebrate) L M H"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        262.61,
+        767.256,
+        326.47,
+        781.656
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.911187,
+        0.548394,
+        0.928288
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | BROWSE Species | L M H reptile, invertebrate)"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.47,
+        767.256,
+        374.95,
+        781.656
+      ],
+      "bbox_norm": [
+        0.548394,
+        0.911187,
+        0.629829,
+        0.928288
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        374.95,
+        767.256,
+        423.07,
+        781.656
+      ],
+      "bbox_norm": [
+        0.629829,
+        0.911187,
+        0.71066,
+        0.928288
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Herbivore | Herbivore | L M H"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        423.07,
+        767.256,
+        471.34,
+        781.656
+      ],
+      "bbox_norm": [
+        0.71066,
+        0.911187,
+        0.791742,
+        0.928288
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | H L M"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        471.34,
+        767.256,
+        522.7,
+        781.656
+      ],
+      "bbox_norm": [
+        0.791742,
+        0.911187,
+        0.878015,
+        0.928288
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        522.7,
+        767.256,
+        571.68,
+        781.656
+      ],
+      "bbox_norm": [
+        0.878015,
+        0.911187,
+        0.96029,
+        0.928288
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Herbivore | Herbivore | L M H"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        781.656,
+        262.61,
+        796.056
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.928288,
+        0.441124,
+        0.94539
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "FAUNA (e.g. mammal, bird, reptile, invertebrate) | FAUNA (e.g. mammal, bird, reptile, invertebrate) | L M H"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        262.61,
+        781.656,
+        326.47,
+        796.056
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.928288,
+        0.548394,
+        0.94539
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | BROWSE Species | L M H reptile, invertebrate)"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.47,
+        781.656,
+        374.95,
+        796.056
+      ],
+      "bbox_norm": [
+        0.548394,
+        0.928288,
+        0.629829,
+        0.94539
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        374.95,
+        781.656,
+        423.07,
+        796.056
+      ],
+      "bbox_norm": [
+        0.629829,
+        0.928288,
+        0.71066,
+        0.94539
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Herbivore | Herbivore | L M H"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        423.07,
+        781.656,
+        471.34,
+        796.056
+      ],
+      "bbox_norm": [
+        0.71066,
+        0.928288,
+        0.791742,
+        0.94539
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | H L M"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        471.34,
+        781.656,
+        522.7,
+        796.056
+      ],
+      "bbox_norm": [
+        0.791742,
+        0.928288,
+        0.878015,
+        0.94539
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        522.7,
+        781.656,
+        571.68,
+        796.056
+      ],
+      "bbox_norm": [
+        0.878015,
+        0.928288,
+        0.96029,
+        0.94539
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Herbivore | Herbivore | L M H"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        796.056,
+        262.61,
+        810.48
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.94539,
+        0.441124,
+        0.96252
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "FAUNA (e.g. mammal, bird, reptile, invertebrate) | FAUNA (e.g. mammal, bird, reptile, invertebrate) | L M H"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        262.61,
+        796.056,
+        326.47,
+        810.48
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.94539,
+        0.548394,
+        0.96252
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | BROWSE Species | L reptile, invertebrate) M H"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.47,
+        796.056,
+        374.95,
+        810.48
+      ],
+      "bbox_norm": [
+        0.548394,
+        0.94539,
+        0.629829,
+        0.96252
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        374.95,
+        796.056,
+        423.07,
+        810.48
+      ],
+      "bbox_norm": [
+        0.629829,
+        0.94539,
+        0.71066,
+        0.96252
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Herbivore | Herbivore | L M H"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        423.07,
+        796.056,
+        471.34,
+        810.48
+      ],
+      "bbox_norm": [
+        0.71066,
+        0.94539,
+        0.791742,
+        0.96252
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | H L M"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        471.34,
+        796.056,
+        522.7,
+        810.48
+      ],
+      "bbox_norm": [
+        0.791742,
+        0.94539,
+        0.878015,
+        0.96252
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        522.7,
+        796.056,
+        571.68,
+        810.48
+      ],
+      "bbox_norm": [
+        0.878015,
+        0.94539,
+        0.96029,
+        0.96252
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "Herbivore | Herbivore | L M H"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 1,
+      "rowspan": 4,
+      "colspan": 4,
+      "bbox_points": [
+        262.61,
+        204.38,
+        366.55,
+        261.98
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.24272,
+        0.615719,
+        0.311125
+      ],
+      "source": "printed",
+      "value": "MESOSCALE TOPOGRAPHIC & TERRAIN SHAPE INDEX (\u00ba, record +/\u2013)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "MESOSCALE TOPOGRAPHIC & TERRAIN SHAPE INDEX (\u00ba, record +/\u2013)"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 0,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        276.41,
+        262.61,
+        305.21
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.328262,
+        0.441124,
+        0.362465
+      ],
+      "source": "printed",
+      "value": "PARENT MATERIAL Mapped / Observed",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "PARENT MATERIAL Mapped / Observed"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 0,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        21.6,
+        319.61,
+        262.61,
+        348.41
+      ],
+      "bbox_norm": [
+        0.036283,
+        0.379566,
+        0.441124,
+        0.413769
+      ],
+      "source": "printed",
+      "value": "CULTURAL None, Burnt, Logged, Cleared, Mined, Grazed, Tracked",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "CULTURAL None, Burnt, Logged, Cleared, Mined, Grazed, Tracked"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 1,
+      "rowspan": 18,
+      "colspan": 9,
+      "bbox_points": [
+        262.61,
+        391.37,
+        571.68,
+        652.06
+      ],
+      "bbox_norm": [
+        0.441124,
+        0.464788,
+        0.96029,
+        0.774381
+      ],
+      "source": "printed",
+      "value": "LOCATION DIAGRAM",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "LOCATION DIAGRAM"
+    }
+  ]
+}

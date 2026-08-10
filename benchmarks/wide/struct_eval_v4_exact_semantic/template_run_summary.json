@@ -1,0 +1,211 @@
+{
+  "root": "benchmarks/wide/struct_eval_v4_exact_semantic",
+  "runs": {
+    "claude_sonnet5_page_v1": {
+      "model": [
+        "claude_sonnet5_page_v1"
+      ],
+      "mode": [
+        "page"
+      ],
+      "forms": 1,
+      "form_names": [
+        "test__bird_grassland_point_count__p0__v0"
+      ],
+      "macro_exact_f1": 0.9828,
+      "micro_exact": {
+        "precision": 0.9828,
+        "recall": 0.9828,
+        "f1": 0.9828
+      },
+      "counts": {
+        "golden_nonblank": 58,
+        "correct": 57,
+        "wrong": 1,
+        "omitted": 0,
+        "false_fill": 0
+      },
+      "cost_usd_known_calls": null,
+      "provider_latency_s_known_calls": null,
+      "cost_complete": false,
+      "latency_complete": false
+    },
+    "gemini35_page_v1": {
+      "model": [
+        "gemini-3.5-flash"
+      ],
+      "mode": [
+        "page"
+      ],
+      "forms": 7,
+      "form_names": [
+        "test__bird_grassland_point_count__p0__v0",
+        "test__bird_grassland_point_count__p0__v1",
+        "test__nvs_foliar_browse_index_datasheets__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v1",
+        "test__ut_tennessee_field_soil_submission_sheet__p0__v0",
+        "test__ut_tennessee_field_soil_submission_sheet__p0__v1"
+      ],
+      "macro_exact_f1": 0.9706,
+      "micro_exact": {
+        "precision": 0.9797,
+        "recall": 0.9602,
+        "f1": 0.9698
+      },
+      "counts": {
+        "golden_nonblank": 452,
+        "correct": 434,
+        "wrong": 9,
+        "omitted": 9,
+        "false_fill": 0
+      },
+      "cost_usd_known_calls": 0.43352,
+      "provider_latency_s_known_calls": 156.4,
+      "cost_complete": true,
+      "latency_complete": true
+    },
+    "gemini36_bands_v1": {
+      "model": [
+        "gemini-3.6-flash"
+      ],
+      "mode": [
+        "bands"
+      ],
+      "forms": 6,
+      "form_names": [
+        "test__bird_grassland_point_count__p0__v0",
+        "test__bird_grassland_point_count__p0__v1",
+        "test__nvs_stem_diameter_sapling__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v1",
+        "test__ut_tennessee_field_soil_submission_sheet__p0__v0",
+        "test__ut_tennessee_field_soil_submission_sheet__p0__v1"
+      ],
+      "macro_exact_f1": 0.9723,
+      "micro_exact": {
+        "precision": 0.9751,
+        "recall": 0.9805,
+        "f1": 0.9778
+      },
+      "counts": {
+        "golden_nonblank": 359,
+        "correct": 352,
+        "wrong": 7,
+        "omitted": 0,
+        "false_fill": 2
+      },
+      "cost_usd_known_calls": 0.52826,
+      "provider_latency_s_known_calls": 186.7,
+      "cost_complete": true,
+      "latency_complete": true
+    },
+    "gemini36_page_v1": {
+      "model": [
+        "gemini-3.6-flash"
+      ],
+      "mode": [
+        "page"
+      ],
+      "forms": 7,
+      "form_names": [
+        "test__bird_grassland_point_count__p0__v0",
+        "test__bird_grassland_point_count__p0__v1",
+        "test__nvs_foliar_browse_index_datasheets__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v1",
+        "test__ut_tennessee_field_soil_submission_sheet__p0__v0",
+        "test__ut_tennessee_field_soil_submission_sheet__p0__v1"
+      ],
+      "macro_exact_f1": 0.9674,
+      "micro_exact": {
+        "precision": 0.9774,
+        "recall": 0.958,
+        "f1": 0.9676
+      },
+      "counts": {
+        "golden_nonblank": 452,
+        "correct": 433,
+        "wrong": 10,
+        "omitted": 9,
+        "false_fill": 0
+      },
+      "cost_usd_known_calls": 0.37434,
+      "provider_latency_s_known_calls": 157.1,
+      "cost_complete": true,
+      "latency_complete": true
+    }
+  },
+  "pairs": [
+    {
+      "tag_a": "gemini36_page_v1",
+      "tag_b": "gemini36_bands_v1",
+      "forms": 6,
+      "form_names": [
+        "test__bird_grassland_point_count__p0__v0",
+        "test__bird_grassland_point_count__p0__v1",
+        "test__nvs_stem_diameter_sapling__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v1",
+        "test__ut_tennessee_field_soil_submission_sheet__p0__v0",
+        "test__ut_tennessee_field_soil_submission_sheet__p0__v1"
+      ],
+      "cells_including_blanks": 800,
+      "disagreements": 15,
+      "disagreement_rate": 0.0187,
+      "a_errors": 10,
+      "b_errors": 9,
+      "a_error_capture": 0.8,
+      "b_error_capture": 0.7778,
+      "a_error_rate_disagreement": 0.5333,
+      "a_error_rate_agreement": 0.0025,
+      "a_only_correct": 7,
+      "b_only_correct": 8,
+      "both_wrong_different": 0
+    },
+    {
+      "tag_a": "gemini36_page_v1",
+      "tag_b": "gemini35_page_v1",
+      "forms": 7,
+      "form_names": [
+        "test__bird_grassland_point_count__p0__v0",
+        "test__bird_grassland_point_count__p0__v1",
+        "test__nvs_foliar_browse_index_datasheets__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v0",
+        "test__nvs_stem_diameter_sapling__p0__v1",
+        "test__ut_tennessee_field_soil_submission_sheet__p0__v0",
+        "test__ut_tennessee_field_soil_submission_sheet__p0__v1"
+      ],
+      "cells_including_blanks": 969,
+      "disagreements": 21,
+      "disagreement_rate": 0.0217,
+      "a_errors": 19,
+      "b_errors": 18,
+      "a_error_capture": 0.7368,
+      "b_error_capture": 0.7222,
+      "a_error_rate_disagreement": 0.6667,
+      "a_error_rate_agreement": 0.0053,
+      "a_only_correct": 7,
+      "b_only_correct": 8,
+      "both_wrong_different": 6
+    },
+    {
+      "tag_a": "gemini36_page_v1",
+      "tag_b": "claude_sonnet5_page_v1",
+      "forms": 1,
+      "form_names": [
+        "test__bird_grassland_point_count__p0__v0"
+      ],
+      "cells_including_blanks": 120,
+      "disagreements": 3,
+      "disagreement_rate": 0.025,
+      "a_errors": 3,
+      "b_errors": 1,
+      "a_error_capture": 1.0,
+      "b_error_capture": 1.0,
+      "a_error_rate_disagreement": 1.0,
+      "a_error_rate_agreement": 0.0,
+      "a_only_correct": 0,
+      "b_only_correct": 2,
+      "both_wrong_different": 1
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "iwla_save_our_streams_quality_survey.pdf",
+  "page": 1,
+  "page_size_points": [
+    612.0,
+    792.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 0,
+      "col": 1,
+      "bbox_points": [
+        105.28,
+        36.24,
+        216.902,
+        60.24
+      ],
+      "bbox_norm": [
+        0.172026,
+        0.045758,
+        0.354415,
+        0.076061
+      ],
+      "source": "printed",
+      "value": "THE IZAAK",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 5,
+      "bbox_points": [
+        396.422,
+        36.24,
+        576.003,
+        60.24
+      ],
+      "bbox_norm": [
+        0.647748,
+        0.045758,
+        0.941181,
+        0.076061
+      ],
+      "source": "printed",
+      "value": "OF AMERICA",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 0,
+      "bbox_points": [
+        36.477,
+        432.48,
+        105.28,
+        502.8
+      ],
+      "bbox_norm": [
+        0.059603,
+        0.546061,
+        0.172026,
+        0.634848
+      ],
+      "source": "printed",
+      "value": "Indicate Macroinvertebrate index the totals correct from value. if the category. each E.g.,",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 0,
+      "bbox_points": [
+        36.477,
+        516.058,
+        105.28,
+        638.149
+      ],
+      "bbox_norm": [
+        0.059603,
+        0.651589,
+        0.172026,
+        0.805743
+      ],
+      "source": "printed",
+      "value": "SENSITIVE _____ _____ _____ _____ _____ _____ _____ Water Water Caddisflies Mayflies Gilled Stoneflies Riffle",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 1,
+      "bbox_points": [
+        105.28,
+        516.058,
+        216.902,
+        638.149
+      ],
+      "bbox_norm": [
+        0.172026,
+        0.651589,
+        0.354415,
+        0.805743
+      ],
+      "source": "printed",
+      "value": "beetles snipe pennies snails (except flies net spinners)",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 2,
+      "bbox_points": [
+        216.902,
+        516.058,
+        341.04,
+        638.149
+      ],
+      "bbox_norm": [
+        0.354415,
+        0.651589,
+        0.557255,
+        0.805743
+      ],
+      "source": "printed",
+      "value": "LESS _____ _____ _____ _____ _____ _____ SENSITIVE Caddisflies net Dobsonflies Damselflies Common Crane Fishflies Dragonflies spinning flies _____ _____ _____ _____ _____ _____",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 4,
+      "bbox_points": [
+        344.64,
+        516.058,
+        396.422,
+        638.149
+      ],
+      "bbox_norm": [
+        0.563137,
+        0.651589,
+        0.647748,
+        0.805743
+      ],
+      "source": "printed",
+      "value": "sowbugs Crayfish Clams Scuds Aquatic Mussels Alderflies",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 5,
+      "bbox_points": [
+        396.422,
+        516.058,
+        576.003,
+        638.149
+      ],
+      "bbox_norm": [
+        0.647748,
+        0.651589,
+        0.941181,
+        0.805743
+      ],
+      "source": "printed",
+      "value": "TOLERANT _____ _____ _____ _____ _____ Leeches Black Aquatic Lunged Midge flies flies snails worms",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 0,
+      "bbox_points": [
+        36.477,
+        706.08,
+        105.28,
+        721.44
+      ],
+      "bbox_norm": [
+        0.059603,
+        0.891515,
+        0.172026,
+        0.910909
+      ],
+      "source": "printed",
+      "value": "Compare the final",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 28,
+      "col": 0,
+      "bbox_points": [
+        36.477,
+        721.44,
+        105.28,
+        756.24
+      ],
+      "bbox_norm": [
+        0.059603,
+        0.910909,
+        0.172026,
+        0.954848
+      ],
+      "source": "printed",
+      "value": "Water _____ Excellent Quality (",
+      "mark": "text",
+      "value_kind": "printed"
+    }
+  ]
+}

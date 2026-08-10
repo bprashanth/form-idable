@@ -1,0 +1,1420 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nvs_tier1_metadata_record.pdf",
+  "page": 1,
+  "page_size_points": [
+    595.0,
+    842.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 29,
+      "col": 10,
+      "bbox_points": [
+        193.98,
+        576.047,
+        268.68,
+        585.48
+      ],
+      "bbox_norm": [
+        0.326017,
+        0.684141,
+        0.451563,
+        0.695344
+      ],
+      "source": "printed",
+      "value": "Method",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Method"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 13,
+      "bbox_points": [
+        279.48,
+        576.047,
+        318.6,
+        585.48
+      ],
+      "bbox_norm": [
+        0.469714,
+        0.684141,
+        0.535462,
+        0.695344
+      ],
+      "source": "printed",
+      "value": "hh:mm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "hh:mm"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 16,
+      "bbox_points": [
+        329.4,
+        576.047,
+        354.54,
+        585.48
+      ],
+      "bbox_norm": [
+        0.553613,
+        0.684141,
+        0.595866,
+        0.695344
+      ],
+      "source": "printed",
+      "value": "People",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "People"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 22,
+      "bbox_points": [
+        464.28,
+        576.047,
+        498.48,
+        585.48
+      ],
+      "bbox_norm": [
+        0.780303,
+        0.684141,
+        0.837782,
+        0.695344
+      ],
+      "source": "printed",
+      "value": "hh:mm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "hh:mm"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 25,
+      "bbox_points": [
+        509.28,
+        576.047,
+        543.42,
+        585.48
+      ],
+      "bbox_norm": [
+        0.855933,
+        0.684141,
+        0.913311,
+        0.695344
+      ],
+      "source": "printed",
+      "value": "People",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "People"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 1,
+      "bbox_points": [
+        27.24,
+        593.635,
+        120.78,
+        603.3
+      ],
+      "bbox_norm": [
+        0.045782,
+        0.70503,
+        0.202992,
+        0.716508
+      ],
+      "source": "printed",
+      "value": "Travel method / time",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Travel method / time"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 6,
+      "bbox_points": [
+        131.58,
+        593.635,
+        167.58,
+        603.3
+      ],
+      "bbox_norm": [
+        0.221143,
+        0.70503,
+        0.281647,
+        0.716508
+      ],
+      "source": "printed",
+      "value": "hh:mm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "hh:mm"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 0,
+      "bbox_points": [
+        21.78,
+        611.345,
+        126.18,
+        630.6
+      ],
+      "bbox_norm": [
+        0.036605,
+        0.726063,
+        0.212068,
+        0.748931
+      ],
+      "source": "printed",
+      "value": "Drive start time to plot / line",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Drive start time to plot / line"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 5,
+      "bbox_points": [
+        126.18,
+        611.345,
+        172.98,
+        630.6
+      ],
+      "bbox_norm": [
+        0.212068,
+        0.726063,
+        0.290722,
+        0.748931
+      ],
+      "source": "written",
+      "value": "18:50",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "hh:mm | Vegetation Method based for plot / time hh:mm layout: Drive to line Recce description Non-vascular start (front) samples collection"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 9,
+      "bbox_points": [
+        188.58,
+        611.345,
+        274.08,
+        630.6
+      ],
+      "bbox_norm": [
+        0.316941,
+        0.726063,
+        0.460639,
+        0.748931
+      ],
+      "source": "printed",
+      "value": "(front) Recce description",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "(front) Recce description"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 12,
+      "bbox_points": [
+        274.08,
+        611.345,
+        324.0,
+        630.6
+      ],
+      "bbox_norm": [
+        0.460639,
+        0.726063,
+        0.544538,
+        0.748931
+      ],
+      "source": "written",
+      "value": "179",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "hh:mm | Yes / No Vegetation plot: Collections Method hh:mm People layout: Drive time to plot line Recce description Non-vascular start (front) samples collection"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 15,
+      "bbox_points": [
+        324.0,
+        611.345,
+        359.94,
+        630.6
+      ],
+      "bbox_norm": [
+        0.544538,
+        0.726063,
+        0.604941,
+        0.748931
+      ],
+      "source": "written",
+      "value": "132",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "People | Planned access date: Gate keys necessary: / No Collections hh:mm People Method to plot line Recce description Non-vascular (front) samples collection"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 19,
+      "bbox_points": [
+        377.941,
+        611.345,
+        458.885,
+        630.6
+      ],
+      "bbox_norm": [
+        0.635196,
+        0.726063,
+        0.771235,
+        0.748931
+      ],
+      "source": "printed",
+      "value": "samples Non-vascular collection",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "samples Non-vascular collection"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 21,
+      "bbox_points": [
+        458.885,
+        611.345,
+        503.875,
+        630.6
+      ],
+      "bbox_norm": [
+        0.771235,
+        0.726063,
+        0.846849,
+        0.748931
+      ],
+      "source": "written",
+      "value": "164",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "nested RECCE's hh:mm | contact by monitoring team: person: Yes / No Collections and nested RECCE's Method hh:mm People Recce description Non-vascular (front) samples collection"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 24,
+      "bbox_points": [
+        503.875,
+        611.345,
+        548.819,
+        630.6
+      ],
+      "bbox_norm": [
+        0.846849,
+        0.726063,
+        0.922385,
+        0.748931
+      ],
+      "source": "written",
+      "value": "browsed by deer",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "People | monitoring team: person: nested RECCE's hh:mm People description Non-vascular samples collection"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 0,
+      "bbox_points": [
+        21.78,
+        630.6,
+        126.18,
+        649.73
+      ],
+      "bbox_norm": [
+        0.036605,
+        0.748931,
+        0.212068,
+        0.771651
+      ],
+      "source": "printed",
+      "value": "Drive time to heli start",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Drive time to heli start"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 5,
+      "bbox_points": [
+        126.18,
+        630.6,
+        172.98,
+        649.73
+      ],
+      "bbox_norm": [
+        0.212068,
+        0.748931,
+        0.290722,
+        0.771651
+      ],
+      "source": "written",
+      "value": "10:00",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "hh:mm | based method / time hh:mm Plot layout: to line Recce description (front) Drive heli start Soil samples (back)"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 9,
+      "bbox_points": [
+        188.58,
+        630.6,
+        274.08,
+        649.73
+      ],
+      "bbox_norm": [
+        0.316941,
+        0.748931,
+        0.460639,
+        0.771651
+      ],
+      "source": "printed",
+      "value": "(back) Recce description",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "(back) Recce description"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 12,
+      "bbox_points": [
+        274.08,
+        630.6,
+        324.0,
+        649.73
+      ],
+      "bbox_norm": [
+        0.460639,
+        0.748931,
+        0.544538,
+        0.771651
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "time",
+      "semantic_context": "hh:mm | Yes Vegetation plot: Collections Method hh:mm People layout: Recce description Non-vascular (front) samples Drive time to heli start Soil (back)"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 15,
+      "bbox_points": [
+        324.0,
+        630.6,
+        359.94,
+        649.73
+      ],
+      "bbox_norm": [
+        0.544538,
+        0.748931,
+        0.604941,
+        0.771651
+      ],
+      "source": "written",
+      "value": "17",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "People | Planned access date: Gate keys necessary: / No Collections hh:mm People Method Non-vascular samples to heli start Recce description Soil (back)"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 19,
+      "bbox_points": [
+        377.941,
+        630.6,
+        458.885,
+        649.73
+      ],
+      "bbox_norm": [
+        0.635196,
+        0.748931,
+        0.771235,
+        0.771651
+      ],
+      "source": "printed",
+      "value": "Soil samples",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Soil samples"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 21,
+      "bbox_points": [
+        458.885,
+        630.6,
+        503.875,
+        649.73
+      ],
+      "bbox_norm": [
+        0.771235,
+        0.748931,
+        0.846849,
+        0.771651
+      ],
+      "source": "written",
+      "value": "215",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "nested RECCE's hh:mm | contact by monitoring team: person: Yes / No Collections and nested RECCE's Method hh:mm People Non-vascular samples collection Recce description Soil (back)"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 24,
+      "bbox_points": [
+        503.875,
+        630.6,
+        548.819,
+        649.73
+      ],
+      "bbox_norm": [
+        0.846849,
+        0.748931,
+        0.922385,
+        0.771651
+      ],
+      "source": "written",
+      "value": "leaning",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "People | monitoring team: person: nested RECCE's hh:mm People collection description Soil samples"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 0,
+      "bbox_points": [
+        21.78,
+        649.73,
+        126.18,
+        667.49
+      ],
+      "bbox_norm": [
+        0.036605,
+        0.771651,
+        0.212068,
+        0.792743
+      ],
+      "source": "printed",
+      "value": "Fly time to plot",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Fly time to plot"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 5,
+      "bbox_points": [
+        126.18,
+        649.73,
+        172.98,
+        667.49
+      ],
+      "bbox_norm": [
+        0.212068,
+        0.771651,
+        0.290722,
+        0.792743
+      ],
+      "source": "written",
+      "value": "10:40",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "hh:mm | method / time hh:mm Plot to line Recce description (front) heli start (back) Fly Horizontal distances"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 9,
+      "bbox_points": [
+        188.58,
+        649.73,
+        274.08,
+        667.49
+      ],
+      "bbox_norm": [
+        0.316941,
+        0.771651,
+        0.460639,
+        0.792743
+      ],
+      "source": "printed",
+      "value": "Horizontal distances",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Horizontal distances"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 12,
+      "bbox_points": [
+        274.08,
+        649.73,
+        324.0,
+        667.49
+      ],
+      "bbox_norm": [
+        0.460639,
+        0.771651,
+        0.544538,
+        0.792743
+      ],
+      "source": "written",
+      "value": "09:30",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "hh:mm | Yes Vegetation plot: Collections Method hh:mm People layout: Recce description Non-vascular (front) samples Soil (back) Fly time to plot Horizontal distances"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 15,
+      "bbox_points": [
+        324.0,
+        649.73,
+        359.94,
+        667.49
+      ],
+      "bbox_norm": [
+        0.544538,
+        0.771651,
+        0.604941,
+        0.792743
+      ],
+      "source": "written",
+      "value": "78",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "People | Name of Planned access date: Gate keys necessary: / No Collections hh:mm People Method Non-vascular samples Soil to plot Horizontal distances"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 19,
+      "bbox_points": [
+        377.941,
+        649.73,
+        548.819,
+        667.49
+      ],
+      "bbox_norm": [
+        0.635196,
+        0.771651,
+        0.922385,
+        0.792743
+      ],
+      "source": "written",
+      "value": "15:50",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "Soil samples | Non-vascular samples collection Soil samples | Method hh:mm People Plot layout: Recce description Non-vascular (front) samples collection Soil (back) Fly time to Horizontal distances"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 0,
+      "bbox_points": [
+        21.78,
+        667.49,
+        126.18,
+        692.46
+      ],
+      "bbox_norm": [
+        0.036605,
+        0.792743,
+        0.212068,
+        0.822399
+      ],
+      "source": "printed",
+      "value": "Boat time to plot",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Boat time to plot"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 5,
+      "bbox_points": [
+        126.18,
+        667.49,
+        172.98,
+        692.46
+      ],
+      "bbox_norm": [
+        0.212068,
+        0.792743,
+        0.290722,
+        0.822399
+      ],
+      "source": "written",
+      "value": "242",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "hh:mm | to plot / line (front) heli start Recce description (back) Horizontal Boat time Stem diameters saplings back 2x2"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 9,
+      "bbox_points": [
+        188.58,
+        667.49,
+        274.08,
+        692.46
+      ],
+      "bbox_norm": [
+        0.316941,
+        0.792743,
+        0.460639,
+        0.822399
+      ],
+      "source": "printed",
+      "value": "saplings Stem diameters /",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "saplings Stem diameters /"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 12,
+      "bbox_points": [
+        274.08,
+        667.49,
+        324.0,
+        692.46
+      ],
+      "bbox_norm": [
+        0.460639,
+        0.792743,
+        0.544538,
+        0.822399
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "hh:mm | Method layout: Recce description Non-vascular (front) samples Soil (back) Horizontal distances Boat time to plot Stem diameters / saplings back 2x2"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 15,
+      "bbox_points": [
+        324.0,
+        667.49,
+        359.94,
+        692.46
+      ],
+      "bbox_norm": [
+        0.544538,
+        0.792743,
+        0.604941,
+        0.822399
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "People | Gate keys necessary: / No Collections hh:mm People Method Non-vascular samples Soil to plot Stem diameters saplings Recce back 2x2"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 19,
+      "bbox_points": [
+        377.941,
+        667.49,
+        458.885,
+        692.46
+      ],
+      "bbox_norm": [
+        0.635196,
+        0.792743,
+        0.771235,
+        0.822399
+      ],
+      "source": "printed",
+      "value": "Recce back 2x2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Recce back 2x2"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 21,
+      "bbox_points": [
+        458.885,
+        667.49,
+        503.875,
+        692.46
+      ],
+      "bbox_norm": [
+        0.771235,
+        0.792743,
+        0.846849,
+        0.822399
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "nested RECCE's hh:mm | Yes / No Collections and nested RECCE's Method hh:mm People Non-vascular samples collection Stem diameters saplings Recce back 2x2"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 24,
+      "bbox_points": [
+        503.875,
+        667.49,
+        548.819,
+        692.46
+      ],
+      "bbox_norm": [
+        0.846849,
+        0.792743,
+        0.922385,
+        0.822399
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "People | nested RECCE's hh:mm People collection diameters / Recce back 2x2"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 0,
+      "bbox_points": [
+        21.78,
+        692.46,
+        126.18,
+        717.41
+      ],
+      "bbox_norm": [
+        0.036605,
+        0.822399,
+        0.212068,
+        0.852031
+      ],
+      "source": "printed",
+      "value": "Walk time to plot",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Walk time to plot"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 5,
+      "bbox_points": [
+        126.18,
+        692.46,
+        172.98,
+        717.41
+      ],
+      "bbox_norm": [
+        0.212068,
+        0.822399,
+        0.290722,
+        0.852031
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "hh:mm | to (front) heli start Recce description (back) plot Horizontal Stem diameters saplings Walk time Tree heights back 5x5"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 9,
+      "bbox_points": [
+        188.58,
+        692.46,
+        274.08,
+        717.41
+      ],
+      "bbox_norm": [
+        0.316941,
+        0.822399,
+        0.460639,
+        0.852031
+      ],
+      "source": "printed",
+      "value": "Tree heights",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Tree heights"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 12,
+      "bbox_points": [
+        274.08,
+        692.46,
+        324.0,
+        717.41
+      ],
+      "bbox_norm": [
+        0.460639,
+        0.822399,
+        0.544538,
+        0.852031
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "hh:mm | Recce description (front) samples Soil (back) Horizontal distances Stem diameters / saplings Walk time to plot Tree heights back 5x5"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 15,
+      "bbox_points": [
+        324.0,
+        692.46,
+        359.94,
+        717.41
+      ],
+      "bbox_norm": [
+        0.544538,
+        0.822399,
+        0.604941,
+        0.852031
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "People | / No Collections hh:mm People Method Non-vascular samples Soil Recce to plot Tree heights back 5x5"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 19,
+      "bbox_points": [
+        377.941,
+        692.46,
+        458.885,
+        717.41
+      ],
+      "bbox_norm": [
+        0.635196,
+        0.822399,
+        0.771235,
+        0.852031
+      ],
+      "source": "printed",
+      "value": "Recce back 5x5",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Recce back 5x5"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 21,
+      "bbox_points": [
+        458.885,
+        692.46,
+        503.875,
+        717.41
+      ],
+      "bbox_norm": [
+        0.771235,
+        0.822399,
+        0.846849,
+        0.852031
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "nested RECCE's hh:mm | Collections and nested RECCE's Method hh:mm People Non-vascular samples collection Recce back 2x2 Tree heights 5x5"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 24,
+      "bbox_points": [
+        503.875,
+        692.46,
+        548.819,
+        717.41
+      ],
+      "bbox_norm": [
+        0.846849,
+        0.822399,
+        0.922385,
+        0.852031
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "People | nested RECCE's hh:mm People collection Recce back 5x5"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 0,
+      "bbox_points": [
+        21.78,
+        717.41,
+        126.18,
+        742.37
+      ],
+      "bbox_norm": [
+        0.036605,
+        0.852031,
+        0.212068,
+        0.881675
+      ],
+      "source": "printed",
+      "value": "Search plot time to re-locate",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Search plot time to re-locate"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 5,
+      "bbox_points": [
+        126.18,
+        717.41,
+        172.98,
+        742.37
+      ],
+      "bbox_norm": [
+        0.212068,
+        0.852031,
+        0.290722,
+        0.881675
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "hh:mm | to (back) plot Horizontal Stem diameters saplings Tree heights Search time re-locate Coarse woody debris Recce back 10x10"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 9,
+      "bbox_points": [
+        188.58,
+        717.41,
+        274.08,
+        742.37
+      ],
+      "bbox_norm": [
+        0.316941,
+        0.852031,
+        0.460639,
+        0.881675
+      ],
+      "source": "printed",
+      "value": "debris Coarse woody",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "debris Coarse woody"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 12,
+      "bbox_points": [
+        274.08,
+        717.41,
+        324.0,
+        742.37
+      ],
+      "bbox_norm": [
+        0.460639,
+        0.852031,
+        0.544538,
+        0.881675
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "hh:mm | Recce description Soil (back) Horizontal distances Stem diameters / saplings heights Search time to re-locate Coarse woody plot debris back 10x10"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 15,
+      "bbox_points": [
+        324.0,
+        717.41,
+        359.94,
+        742.37
+      ],
+      "bbox_norm": [
+        0.544538,
+        0.852031,
+        0.604941,
+        0.881675
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "People | / No Collections hh:mm People Method Non-vascular samples Soil Recce time to re-locate Coarse woody debris back 10x10"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 19,
+      "bbox_points": [
+        377.941,
+        717.41,
+        458.885,
+        742.37
+      ],
+      "bbox_norm": [
+        0.635196,
+        0.852031,
+        0.771235,
+        0.881675
+      ],
+      "source": "printed",
+      "value": "Recce back 10x10",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Recce back 10x10"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 21,
+      "bbox_points": [
+        458.885,
+        717.41,
+        503.875,
+        742.37
+      ],
+      "bbox_norm": [
+        0.771235,
+        0.852031,
+        0.846849,
+        0.881675
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "nested RECCE's hh:mm | Collections and nested RECCE's Method hh:mm People Non-vascular samples collection Recce back 2x2 5x5 Coarse woody debris 10x10"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 24,
+      "bbox_points": [
+        503.875,
+        717.41,
+        548.819,
+        742.37
+      ],
+      "bbox_norm": [
+        0.846849,
+        0.852031,
+        0.922385,
+        0.881675
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "People | nested RECCE's hh:mm People collection woody Recce back 10x10"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 0,
+      "bbox_points": [
+        21.78,
+        742.37,
+        126.18,
+        760.2
+      ],
+      "bbox_norm": [
+        0.036605,
+        0.881675,
+        0.212068,
+        0.90285
+      ],
+      "source": "printed",
+      "value": "Alternate route used",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Alternate route used"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 5,
+      "bbox_points": [
+        126.18,
+        742.37,
+        172.98,
+        760.2
+      ],
+      "bbox_norm": [
+        0.212068,
+        0.881675,
+        0.290722,
+        0.90285
+      ],
+      "source": "printed",
+      "value": "Y / N",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Y / N"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 9,
+      "bbox_points": [
+        188.58,
+        742.37,
+        274.08,
+        760.2
+      ],
+      "bbox_norm": [
+        0.316941,
+        0.881675,
+        0.460639,
+        0.90285
+      ],
+      "source": "printed",
+      "value": "Understory plots",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Understory plots"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 12,
+      "bbox_points": [
+        274.08,
+        742.37,
+        324.0,
+        760.2
+      ],
+      "bbox_norm": [
+        0.460639,
+        0.881675,
+        0.544538,
+        0.90285
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "hh:mm | Recce description (back) Horizontal distances Stem diameters / saplings heights Coarse woody debris Alternate route used Y N Understory plots"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 15,
+      "bbox_points": [
+        324.0,
+        742.37,
+        359.94,
+        760.2
+      ],
+      "bbox_norm": [
+        0.544538,
+        0.881675,
+        0.604941,
+        0.90285
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "People | Collections hh:mm People Method Non-vascular samples Soil Recce route used Y / N Understory plots"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 9,
+      "bbox_points": [
+        188.58,
+        760.2,
+        274.08,
+        778.02
+      ],
+      "bbox_norm": [
+        0.316941,
+        0.90285,
+        0.460639,
+        0.924014
+      ],
+      "source": "printed",
+      "value": "External plot",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "External plot"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 12,
+      "bbox_points": [
+        274.08,
+        760.2,
+        324.0,
+        778.02
+      ],
+      "bbox_norm": [
+        0.460639,
+        0.90285,
+        0.544538,
+        0.924014
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "hh:mm | Recce (front) samples description Soil (back) Horizontal distances Stem diameters / saplings heights Coarse woody debris Understory plots External plot"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 15,
+      "bbox_points": [
+        324.0,
+        760.2,
+        359.94,
+        778.02
+      ],
+      "bbox_norm": [
+        0.544538,
+        0.90285,
+        0.604941,
+        0.924014
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "People | Collections hh:mm People Method Non-vascular samples Soil Recce External plot"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 9,
+      "bbox_points": [
+        188.58,
+        778.02,
+        274.08,
+        797.22
+      ],
+      "bbox_norm": [
+        0.316941,
+        0.924014,
+        0.460639,
+        0.946817
+      ],
+      "source": "printed",
+      "value": "plot Time * spent on a",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "plot Time * spent on a"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 12,
+      "bbox_points": [
+        274.08,
+        778.02,
+        324.0,
+        797.22
+      ],
+      "bbox_norm": [
+        0.460639,
+        0.924014,
+        0.544538,
+        0.946817
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "hh:mm | (back) Horizontal distances Stem diameters / saplings Recce heights Coarse woody debris Understory plots External plot Time spent on a *"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 15,
+      "bbox_points": [
+        324.0,
+        778.02,
+        359.94,
+        797.22
+      ],
+      "bbox_norm": [
+        0.544538,
+        0.924014,
+        0.604941,
+        0.946817
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "time",
+      "semantic_context": "People | Collections hh:mm People Method Non-vascular samples Soil Recce Time spent on a * plot"
+    }
+  ]
+}

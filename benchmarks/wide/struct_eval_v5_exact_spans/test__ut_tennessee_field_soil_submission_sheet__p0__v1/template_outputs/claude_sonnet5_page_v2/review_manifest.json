@@ -1,0 +1,3137 @@
+{
+  "version": "formidable-review-v1",
+  "route": {
+    "status": "known_template",
+    "evidence": "caller supplied"
+  },
+  "policy": {
+    "literal_transcription_is_immutable": true,
+    "peer_readers_select_review_regions_not_replacements": true,
+    "ecology_suggestions_are_separate": true
+  },
+  "readers": {
+    "primary": {
+      "tag": "claude_sonnet5_page_v2",
+      "provider": "claude",
+      "model": "claude-sonnet-5",
+      "mode": "page",
+      "cost_usd": null,
+      "latency_s": null
+    },
+    "peer": null
+  },
+  "summary": {
+    "target_cells_including_blanks": 109,
+    "reader_disagreements": 0,
+    "low_confidence_primary": 19,
+    "transcription_review_cells": 19,
+    "ecology_findings": 0
+  },
+  "cells": [
+    {
+      "id": "r2_c23",
+      "page": 1,
+      "source_cell_id": "r2_c23",
+      "xlsx_row": 3,
+      "xlsx_column": 24,
+      "bbox": [
+        0.924,
+        0.331,
+        0.964,
+        0.349
+      ],
+      "context": "soillab.tennessee.edu Tennessee'",
+      "presented_value": "153",
+      "primary": {
+        "value": "153",
+        "confidence": 0.6,
+        "evidence": "faint handwritten number near NO checkbox, top right",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r5_c0",
+      "page": 1,
+      "source_cell_id": "r5_c0",
+      "xlsx_row": 6,
+      "xlsx_column": 1,
+      "bbox": [
+        0.06,
+        0.44,
+        0.151,
+        0.471
+      ],
+      "context": "Sample Name (You provide)",
+      "presented_value": "19",
+      "primary": {
+        "value": "19",
+        "confidence": 0.85,
+        "evidence": "row1 Sample Name column, handwritten 19",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r5_c1",
+      "page": 1,
+      "source_cell_id": "r5_c1",
+      "xlsx_row": 6,
+      "xlsx_column": 2,
+      "bbox": [
+        0.151,
+        0.44,
+        0.23,
+        0.471
+      ],
+      "context": "Farm ID (optional)",
+      "presented_value": "241",
+      "primary": {
+        "value": "241",
+        "confidence": 0.85,
+        "evidence": "row1 Farm ID column, handwritten 241",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r5_c2",
+      "page": 1,
+      "source_cell_id": "r5_c2",
+      "xlsx_row": 6,
+      "xlsx_column": 3,
+      "bbox": [
+        0.23,
+        0.44,
+        0.306,
+        0.471
+      ],
+      "context": "Crop 1 Use",
+      "presented_value": "N",
+      "primary": {
+        "value": "N",
+        "confidence": 0.8,
+        "evidence": "row1 Crop 1 column, handwritten N",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r5_c3",
+      "page": 1,
+      "source_cell_id": "r5_c3",
+      "xlsx_row": 6,
+      "xlsx_column": 4,
+      "bbox": [
+        0.306,
+        0.44,
+        0.384,
+        0.471
+      ],
+      "context": "Crop 2 Use crop codes",
+      "presented_value": "X",
+      "primary": {
+        "value": "X",
+        "confidence": 0.8,
+        "evidence": "row1 Crop 2 column, handwritten X",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r5_c4",
+      "page": 1,
+      "source_cell_id": "r5_c4",
+      "xlsx_row": 6,
+      "xlsx_column": 5,
+      "bbox": [
+        0.384,
+        0.44,
+        0.46,
+        0.471
+      ],
+      "context": "Crop 3 on back of",
+      "presented_value": "8",
+      "primary": {
+        "value": "8",
+        "confidence": 0.8,
+        "evidence": "row1 Crop 3 column, handwritten 8",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r5_c5",
+      "page": 1,
+      "source_cell_id": "r5_c5",
+      "xlsx_row": 6,
+      "xlsx_column": 6,
+      "bbox": [
+        0.46,
+        0.44,
+        0.535,
+        0.471
+      ],
+      "context": "Crop 4 sheet",
+      "presented_value": "41",
+      "primary": {
+        "value": "41",
+        "confidence": 0.8,
+        "evidence": "row1 Crop 4 column, handwritten 41",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r5_c21",
+      "page": 1,
+      "source_cell_id": "r5_c21",
+      "xlsx_row": 6,
+      "xlsx_column": 22,
+      "bbox": [
+        0.863,
+        0.44,
+        0.97,
+        0.471
+      ],
+      "context": "Lab ID (We provide)",
+      "presented_value": "36",
+      "primary": {
+        "value": "36",
+        "confidence": 0.8,
+        "evidence": "row1 Lab ID column, handwritten 36",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r6_c7",
+      "page": 1,
+      "source_cell_id": "r6_c7",
+      "xlsx_row": 7,
+      "xlsx_column": 8,
+      "bbox": [
+        0.552,
+        0.446,
+        0.58,
+        0.467
+      ],
+      "context": "pH and Nutrients $15",
+      "presented_value": "3.9",
+      "primary": {
+        "value": "3.9",
+        "confidence": 0.85,
+        "evidence": "row1 pH and Nutrients column, handwritten 3.9",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r6_c10",
+      "page": 1,
+      "source_cell_id": "r6_c10",
+      "xlsx_row": 7,
+      "xlsx_column": 11,
+      "bbox": [
+        0.623,
+        0.446,
+        0.651,
+        0.467
+      ],
+      "context": "Organic Matter $15",
+      "presented_value": "~",
+      "primary": {
+        "value": "~",
+        "confidence": 0.4,
+        "evidence": "row1 Organic Matter column, tilde/dash mark",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r6_c13",
+      "page": 1,
+      "source_cell_id": "r6_c13",
+      "xlsx_row": 7,
+      "xlsx_column": 14,
+      "bbox": [
+        0.69,
+        0.446,
+        0.718,
+        0.467
+      ],
+      "context": "Soluble Salts $10",
+      "presented_value": "V",
+      "primary": {
+        "value": "V",
+        "confidence": 0.5,
+        "evidence": "row1 Soluble Salts column, handwritten V-like mark",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r6_c16",
+      "page": 1,
+      "source_cell_id": "r6_c16",
+      "xlsx_row": 7,
+      "xlsx_column": 17,
+      "bbox": [
+        0.757,
+        0.446,
+        0.785,
+        0.467
+      ],
+      "context": "Texture (USDA) $30",
+      "presented_value": "Y",
+      "primary": {
+        "value": "Y",
+        "confidence": 0.7,
+        "evidence": "row1 Texture (USDA) column, handwritten Y",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r6_c19",
+      "page": 1,
+      "source_cell_id": "r6_c19",
+      "xlsx_row": 7,
+      "xlsx_column": 20,
+      "bbox": [
+        0.823,
+        0.446,
+        0.851,
+        0.467
+      ],
+      "context": "Sulfur $10",
+      "presented_value": "197",
+      "primary": {
+        "value": "197",
+        "confidence": 0.4,
+        "evidence": "row1 Sulfur column, faint gray handwritten 197",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r8_c0",
+      "page": 1,
+      "source_cell_id": "r8_c0",
+      "xlsx_row": 9,
+      "xlsx_column": 1,
+      "bbox": [
+        0.06,
+        0.471,
+        0.151,
+        0.502
+      ],
+      "context": "Sample Name (You provide)",
+      "presented_value": "93",
+      "primary": {
+        "value": "93",
+        "confidence": 0.85,
+        "evidence": "row2 Sample Name column, handwritten 93",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r8_c1",
+      "page": 1,
+      "source_cell_id": "r8_c1",
+      "xlsx_row": 9,
+      "xlsx_column": 2,
+      "bbox": [
+        0.151,
+        0.471,
+        0.23,
+        0.502
+      ],
+      "context": "Farm ID (optional)",
+      "presented_value": "131",
+      "primary": {
+        "value": "131",
+        "confidence": 0.85,
+        "evidence": "row2 Farm ID column, handwritten 131",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r8_c2",
+      "page": 1,
+      "source_cell_id": "r8_c2",
+      "xlsx_row": 9,
+      "xlsx_column": 3,
+      "bbox": [
+        0.23,
+        0.471,
+        0.306,
+        0.502
+      ],
+      "context": "Crop 1 Use",
+      "presented_value": "J",
+      "primary": {
+        "value": "J",
+        "confidence": 0.8,
+        "evidence": "row2 Crop 1 column, handwritten J",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r8_c3",
+      "page": 1,
+      "source_cell_id": "r8_c3",
+      "xlsx_row": 9,
+      "xlsx_column": 4,
+      "bbox": [
+        0.306,
+        0.471,
+        0.384,
+        0.502
+      ],
+      "context": "Crop 2 Use crop codes",
+      "presented_value": "M",
+      "primary": {
+        "value": "M",
+        "confidence": 0.8,
+        "evidence": "row2 Crop 2 column, handwritten M",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r8_c4",
+      "page": 1,
+      "source_cell_id": "r8_c4",
+      "xlsx_row": 9,
+      "xlsx_column": 5,
+      "bbox": [
+        0.384,
+        0.471,
+        0.46,
+        0.502
+      ],
+      "context": "Crop 3 on back of",
+      "presented_value": "137",
+      "primary": {
+        "value": "137",
+        "confidence": 0.8,
+        "evidence": "row2 Crop 3 column, handwritten 137",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r8_c5",
+      "page": 1,
+      "source_cell_id": "r8_c5",
+      "xlsx_row": 9,
+      "xlsx_column": 6,
+      "bbox": [
+        0.46,
+        0.471,
+        0.535,
+        0.502
+      ],
+      "context": "Crop 4 sheet",
+      "presented_value": "210",
+      "primary": {
+        "value": "210",
+        "confidence": 0.8,
+        "evidence": "row2 Crop 4 column, handwritten 210",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r8_c21",
+      "page": 1,
+      "source_cell_id": "r8_c21",
+      "xlsx_row": 9,
+      "xlsx_column": 22,
+      "bbox": [
+        0.863,
+        0.471,
+        0.97,
+        0.502
+      ],
+      "context": "Lab ID (We provide)",
+      "presented_value": "241",
+      "primary": {
+        "value": "241",
+        "confidence": 0.8,
+        "evidence": "row2 Lab ID column, handwritten 241",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r9_c7",
+      "page": 1,
+      "source_cell_id": "r9_c7",
+      "xlsx_row": 10,
+      "xlsx_column": 8,
+      "bbox": [
+        0.552,
+        0.476,
+        0.58,
+        0.498
+      ],
+      "context": "pH and Nutrients $15",
+      "presented_value": "3.7",
+      "primary": {
+        "value": "3.7",
+        "confidence": 0.85,
+        "evidence": "row2 pH and Nutrients column, handwritten 3.7",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r9_c10",
+      "page": 1,
+      "source_cell_id": "r9_c10",
+      "xlsx_row": 10,
+      "xlsx_column": 11,
+      "bbox": [
+        0.623,
+        0.476,
+        0.651,
+        0.498
+      ],
+      "context": "Organic Matter $15",
+      "presented_value": "N",
+      "primary": {
+        "value": "N",
+        "confidence": 0.7,
+        "evidence": "row2 Organic Matter column, handwritten N",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r9_c13",
+      "page": 1,
+      "source_cell_id": "r9_c13",
+      "xlsx_row": 10,
+      "xlsx_column": 14,
+      "bbox": [
+        0.69,
+        0.476,
+        0.718,
+        0.498
+      ],
+      "context": "Soluble Salts $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.3,
+        "evidence": "row2 Soluble Salts column, mark present but illegible",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r9_c16",
+      "page": 1,
+      "source_cell_id": "r9_c16",
+      "xlsx_row": 10,
+      "xlsx_column": 17,
+      "bbox": [
+        0.757,
+        0.476,
+        0.785,
+        0.498
+      ],
+      "context": "Texture (USDA) $30",
+      "presented_value": "Y",
+      "primary": {
+        "value": "Y",
+        "confidence": 0.7,
+        "evidence": "row2 Texture (USDA) column, handwritten Y",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r9_c19",
+      "page": 1,
+      "source_cell_id": "r9_c19",
+      "xlsx_row": 10,
+      "xlsx_column": 20,
+      "bbox": [
+        0.823,
+        0.476,
+        0.851,
+        0.498
+      ],
+      "context": "Sulfur $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row2 Sulfur column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r11_c0",
+      "page": 1,
+      "source_cell_id": "r11_c0",
+      "xlsx_row": 12,
+      "xlsx_column": 1,
+      "bbox": [
+        0.06,
+        0.502,
+        0.151,
+        0.532
+      ],
+      "context": "Sample Name (You provide)",
+      "presented_value": "157",
+      "primary": {
+        "value": "157",
+        "confidence": 0.85,
+        "evidence": "row3 Sample Name column, handwritten 157",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r11_c1",
+      "page": 1,
+      "source_cell_id": "r11_c1",
+      "xlsx_row": 12,
+      "xlsx_column": 2,
+      "bbox": [
+        0.151,
+        0.502,
+        0.23,
+        0.532
+      ],
+      "context": "Farm ID (optional)",
+      "presented_value": "—",
+      "primary": {
+        "value": "—",
+        "confidence": 0.5,
+        "evidence": "row3 Farm ID column, wavy dash mark",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "low_confidence",
+      "review_priority": "medium",
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r11_c2",
+      "page": 1,
+      "source_cell_id": "r11_c2",
+      "xlsx_row": 12,
+      "xlsx_column": 3,
+      "bbox": [
+        0.23,
+        0.502,
+        0.306,
+        0.532
+      ],
+      "context": "Crop 1 Use",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row3 Crop 1 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r11_c3",
+      "page": 1,
+      "source_cell_id": "r11_c3",
+      "xlsx_row": 12,
+      "xlsx_column": 4,
+      "bbox": [
+        0.306,
+        0.502,
+        0.384,
+        0.532
+      ],
+      "context": "Crop 2 Use crop codes",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row3 Crop 2 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r11_c4",
+      "page": 1,
+      "source_cell_id": "r11_c4",
+      "xlsx_row": 12,
+      "xlsx_column": 5,
+      "bbox": [
+        0.384,
+        0.502,
+        0.46,
+        0.532
+      ],
+      "context": "Crop 3 on back of",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row3 Crop 3 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r11_c5",
+      "page": 1,
+      "source_cell_id": "r11_c5",
+      "xlsx_row": 12,
+      "xlsx_column": 6,
+      "bbox": [
+        0.46,
+        0.502,
+        0.535,
+        0.532
+      ],
+      "context": "Crop 4 sheet",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row3 Crop 4 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r11_c21",
+      "page": 1,
+      "source_cell_id": "r11_c21",
+      "xlsx_row": 12,
+      "xlsx_column": 22,
+      "bbox": [
+        0.863,
+        0.502,
+        0.97,
+        0.532
+      ],
+      "context": "Lab ID (We provide)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row3 Lab ID column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r12_c7",
+      "page": 1,
+      "source_cell_id": "r12_c7",
+      "xlsx_row": 13,
+      "xlsx_column": 8,
+      "bbox": [
+        0.552,
+        0.507,
+        0.58,
+        0.529
+      ],
+      "context": "pH and Nutrients $15",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row3 pH and Nutrients column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r12_c10",
+      "page": 1,
+      "source_cell_id": "r12_c10",
+      "xlsx_row": 13,
+      "xlsx_column": 11,
+      "bbox": [
+        0.623,
+        0.507,
+        0.651,
+        0.529
+      ],
+      "context": "Organic Matter $15",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row3 Organic Matter column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r12_c13",
+      "page": 1,
+      "source_cell_id": "r12_c13",
+      "xlsx_row": 13,
+      "xlsx_column": 14,
+      "bbox": [
+        0.69,
+        0.507,
+        0.718,
+        0.529
+      ],
+      "context": "Soluble Salts $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row3 Soluble Salts column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r12_c16",
+      "page": 1,
+      "source_cell_id": "r12_c16",
+      "xlsx_row": 13,
+      "xlsx_column": 17,
+      "bbox": [
+        0.757,
+        0.507,
+        0.785,
+        0.529
+      ],
+      "context": "Texture (USDA) $30",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row3 Texture (USDA) column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r12_c19",
+      "page": 1,
+      "source_cell_id": "r12_c19",
+      "xlsx_row": 13,
+      "xlsx_column": 20,
+      "bbox": [
+        0.823,
+        0.507,
+        0.851,
+        0.529
+      ],
+      "context": "Sulfur $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row3 Sulfur column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r14_c0",
+      "page": 1,
+      "source_cell_id": "r14_c0",
+      "xlsx_row": 15,
+      "xlsx_column": 1,
+      "bbox": [
+        0.06,
+        0.532,
+        0.151,
+        0.563
+      ],
+      "context": "Sample Name (You provide)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row4 Sample Name column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r14_c1",
+      "page": 1,
+      "source_cell_id": "r14_c1",
+      "xlsx_row": 15,
+      "xlsx_column": 2,
+      "bbox": [
+        0.151,
+        0.532,
+        0.23,
+        0.563
+      ],
+      "context": "Farm ID (optional)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row4 Farm ID column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r14_c2",
+      "page": 1,
+      "source_cell_id": "r14_c2",
+      "xlsx_row": 15,
+      "xlsx_column": 3,
+      "bbox": [
+        0.23,
+        0.532,
+        0.306,
+        0.563
+      ],
+      "context": "Crop 1 Use",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row4 Crop 1 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r14_c3",
+      "page": 1,
+      "source_cell_id": "r14_c3",
+      "xlsx_row": 15,
+      "xlsx_column": 4,
+      "bbox": [
+        0.306,
+        0.532,
+        0.384,
+        0.563
+      ],
+      "context": "Crop 2 Use crop codes",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row4 Crop 2 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r14_c4",
+      "page": 1,
+      "source_cell_id": "r14_c4",
+      "xlsx_row": 15,
+      "xlsx_column": 5,
+      "bbox": [
+        0.384,
+        0.532,
+        0.46,
+        0.563
+      ],
+      "context": "Crop 3 on back of",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row4 Crop 3 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r14_c5",
+      "page": 1,
+      "source_cell_id": "r14_c5",
+      "xlsx_row": 15,
+      "xlsx_column": 6,
+      "bbox": [
+        0.46,
+        0.532,
+        0.535,
+        0.563
+      ],
+      "context": "Crop 4 sheet",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row4 Crop 4 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r14_c21",
+      "page": 1,
+      "source_cell_id": "r14_c21",
+      "xlsx_row": 15,
+      "xlsx_column": 22,
+      "bbox": [
+        0.863,
+        0.532,
+        0.97,
+        0.563
+      ],
+      "context": "Lab ID (We provide)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row4 Lab ID column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r15_c7",
+      "page": 1,
+      "source_cell_id": "r15_c7",
+      "xlsx_row": 16,
+      "xlsx_column": 8,
+      "bbox": [
+        0.552,
+        0.538,
+        0.58,
+        0.559
+      ],
+      "context": "pH and Nutrients $15",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row4 pH and Nutrients column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r15_c10",
+      "page": 1,
+      "source_cell_id": "r15_c10",
+      "xlsx_row": 16,
+      "xlsx_column": 11,
+      "bbox": [
+        0.623,
+        0.538,
+        0.651,
+        0.559
+      ],
+      "context": "Organic Matter $15",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row4 Organic Matter column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r15_c13",
+      "page": 1,
+      "source_cell_id": "r15_c13",
+      "xlsx_row": 16,
+      "xlsx_column": 14,
+      "bbox": [
+        0.69,
+        0.538,
+        0.718,
+        0.559
+      ],
+      "context": "Soluble Salts $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row4 Soluble Salts column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r15_c16",
+      "page": 1,
+      "source_cell_id": "r15_c16",
+      "xlsx_row": 16,
+      "xlsx_column": 17,
+      "bbox": [
+        0.757,
+        0.538,
+        0.785,
+        0.559
+      ],
+      "context": "Texture (USDA) $30",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row4 Texture (USDA) column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r15_c19",
+      "page": 1,
+      "source_cell_id": "r15_c19",
+      "xlsx_row": 16,
+      "xlsx_column": 20,
+      "bbox": [
+        0.823,
+        0.538,
+        0.851,
+        0.559
+      ],
+      "context": "Sulfur $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row4 Sulfur column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r17_c0",
+      "page": 1,
+      "source_cell_id": "r17_c0",
+      "xlsx_row": 18,
+      "xlsx_column": 1,
+      "bbox": [
+        0.06,
+        0.563,
+        0.151,
+        0.594
+      ],
+      "context": "Sample Name (You provide)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row5 Sample Name column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r17_c1",
+      "page": 1,
+      "source_cell_id": "r17_c1",
+      "xlsx_row": 18,
+      "xlsx_column": 2,
+      "bbox": [
+        0.151,
+        0.563,
+        0.23,
+        0.594
+      ],
+      "context": "Farm ID (optional)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row5 Farm ID column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r17_c2",
+      "page": 1,
+      "source_cell_id": "r17_c2",
+      "xlsx_row": 18,
+      "xlsx_column": 3,
+      "bbox": [
+        0.23,
+        0.563,
+        0.306,
+        0.594
+      ],
+      "context": "Crop 1 Use",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row5 Crop 1 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r17_c3",
+      "page": 1,
+      "source_cell_id": "r17_c3",
+      "xlsx_row": 18,
+      "xlsx_column": 4,
+      "bbox": [
+        0.306,
+        0.563,
+        0.384,
+        0.594
+      ],
+      "context": "Crop 2 Use crop codes",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row5 Crop 2 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r17_c4",
+      "page": 1,
+      "source_cell_id": "r17_c4",
+      "xlsx_row": 18,
+      "xlsx_column": 5,
+      "bbox": [
+        0.384,
+        0.563,
+        0.46,
+        0.594
+      ],
+      "context": "Crop 3 on back of",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row5 Crop 3 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r17_c5",
+      "page": 1,
+      "source_cell_id": "r17_c5",
+      "xlsx_row": 18,
+      "xlsx_column": 6,
+      "bbox": [
+        0.46,
+        0.563,
+        0.535,
+        0.594
+      ],
+      "context": "Crop 4 sheet",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row5 Crop 4 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r17_c21",
+      "page": 1,
+      "source_cell_id": "r17_c21",
+      "xlsx_row": 18,
+      "xlsx_column": 22,
+      "bbox": [
+        0.863,
+        0.563,
+        0.97,
+        0.594
+      ],
+      "context": "Lab ID (We provide)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row5 Lab ID column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r18_c7",
+      "page": 1,
+      "source_cell_id": "r18_c7",
+      "xlsx_row": 19,
+      "xlsx_column": 8,
+      "bbox": [
+        0.552,
+        0.568,
+        0.58,
+        0.59
+      ],
+      "context": "pH and Nutrients $15",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row5 pH and Nutrients column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r18_c10",
+      "page": 1,
+      "source_cell_id": "r18_c10",
+      "xlsx_row": 19,
+      "xlsx_column": 11,
+      "bbox": [
+        0.623,
+        0.568,
+        0.651,
+        0.59
+      ],
+      "context": "Organic Matter $15",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row5 Organic Matter column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r18_c13",
+      "page": 1,
+      "source_cell_id": "r18_c13",
+      "xlsx_row": 19,
+      "xlsx_column": 14,
+      "bbox": [
+        0.69,
+        0.568,
+        0.718,
+        0.59
+      ],
+      "context": "Soluble Salts $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row5 Soluble Salts column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r18_c16",
+      "page": 1,
+      "source_cell_id": "r18_c16",
+      "xlsx_row": 19,
+      "xlsx_column": 17,
+      "bbox": [
+        0.757,
+        0.568,
+        0.785,
+        0.59
+      ],
+      "context": "Texture (USDA) $30",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row5 Texture (USDA) column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r18_c19",
+      "page": 1,
+      "source_cell_id": "r18_c19",
+      "xlsx_row": 19,
+      "xlsx_column": 20,
+      "bbox": [
+        0.823,
+        0.568,
+        0.851,
+        0.59
+      ],
+      "context": "Sulfur $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row5 Sulfur column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r20_c0",
+      "page": 1,
+      "source_cell_id": "r20_c0",
+      "xlsx_row": 21,
+      "xlsx_column": 1,
+      "bbox": [
+        0.06,
+        0.594,
+        0.151,
+        0.624
+      ],
+      "context": "Sample Name (You provide)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row6 Sample Name column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r20_c1",
+      "page": 1,
+      "source_cell_id": "r20_c1",
+      "xlsx_row": 21,
+      "xlsx_column": 2,
+      "bbox": [
+        0.151,
+        0.594,
+        0.23,
+        0.624
+      ],
+      "context": "Farm ID (optional)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row6 Farm ID column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r20_c2",
+      "page": 1,
+      "source_cell_id": "r20_c2",
+      "xlsx_row": 21,
+      "xlsx_column": 3,
+      "bbox": [
+        0.23,
+        0.594,
+        0.306,
+        0.624
+      ],
+      "context": "Crop 1 Use",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row6 Crop 1 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r20_c3",
+      "page": 1,
+      "source_cell_id": "r20_c3",
+      "xlsx_row": 21,
+      "xlsx_column": 4,
+      "bbox": [
+        0.306,
+        0.594,
+        0.384,
+        0.624
+      ],
+      "context": "Crop 2 Use crop codes",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row6 Crop 2 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r20_c4",
+      "page": 1,
+      "source_cell_id": "r20_c4",
+      "xlsx_row": 21,
+      "xlsx_column": 5,
+      "bbox": [
+        0.384,
+        0.594,
+        0.46,
+        0.624
+      ],
+      "context": "Crop 3 on back of",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row6 Crop 3 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r20_c5",
+      "page": 1,
+      "source_cell_id": "r20_c5",
+      "xlsx_row": 21,
+      "xlsx_column": 6,
+      "bbox": [
+        0.46,
+        0.594,
+        0.535,
+        0.624
+      ],
+      "context": "Crop 4 sheet",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row6 Crop 4 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r20_c21",
+      "page": 1,
+      "source_cell_id": "r20_c21",
+      "xlsx_row": 21,
+      "xlsx_column": 22,
+      "bbox": [
+        0.863,
+        0.594,
+        0.97,
+        0.624
+      ],
+      "context": "Lab ID (We provide)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row6 Lab ID column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r21_c7",
+      "page": 1,
+      "source_cell_id": "r21_c7",
+      "xlsx_row": 22,
+      "xlsx_column": 8,
+      "bbox": [
+        0.552,
+        0.599,
+        0.58,
+        0.62
+      ],
+      "context": "pH and Nutrients $15",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row6 pH and Nutrients column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r21_c10",
+      "page": 1,
+      "source_cell_id": "r21_c10",
+      "xlsx_row": 22,
+      "xlsx_column": 11,
+      "bbox": [
+        0.623,
+        0.599,
+        0.651,
+        0.62
+      ],
+      "context": "Organic Matter $15",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row6 Organic Matter column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r21_c13",
+      "page": 1,
+      "source_cell_id": "r21_c13",
+      "xlsx_row": 22,
+      "xlsx_column": 14,
+      "bbox": [
+        0.69,
+        0.599,
+        0.718,
+        0.62
+      ],
+      "context": "Soluble Salts $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row6 Soluble Salts column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r21_c16",
+      "page": 1,
+      "source_cell_id": "r21_c16",
+      "xlsx_row": 22,
+      "xlsx_column": 17,
+      "bbox": [
+        0.757,
+        0.599,
+        0.785,
+        0.62
+      ],
+      "context": "Texture (USDA) $30",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row6 Texture (USDA) column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r21_c19",
+      "page": 1,
+      "source_cell_id": "r21_c19",
+      "xlsx_row": 22,
+      "xlsx_column": 20,
+      "bbox": [
+        0.823,
+        0.599,
+        0.851,
+        0.62
+      ],
+      "context": "Sulfur $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row6 Sulfur column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r23_c0",
+      "page": 1,
+      "source_cell_id": "r23_c0",
+      "xlsx_row": 24,
+      "xlsx_column": 1,
+      "bbox": [
+        0.06,
+        0.624,
+        0.151,
+        0.655
+      ],
+      "context": "Sample Name (You provide)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row7 Sample Name column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r23_c1",
+      "page": 1,
+      "source_cell_id": "r23_c1",
+      "xlsx_row": 24,
+      "xlsx_column": 2,
+      "bbox": [
+        0.151,
+        0.624,
+        0.23,
+        0.655
+      ],
+      "context": "Farm ID (optional)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row7 Farm ID column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r23_c2",
+      "page": 1,
+      "source_cell_id": "r23_c2",
+      "xlsx_row": 24,
+      "xlsx_column": 3,
+      "bbox": [
+        0.23,
+        0.624,
+        0.306,
+        0.655
+      ],
+      "context": "Crop 1 Use",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row7 Crop 1 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r23_c3",
+      "page": 1,
+      "source_cell_id": "r23_c3",
+      "xlsx_row": 24,
+      "xlsx_column": 4,
+      "bbox": [
+        0.306,
+        0.624,
+        0.384,
+        0.655
+      ],
+      "context": "Crop 2 Use crop codes",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row7 Crop 2 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r23_c4",
+      "page": 1,
+      "source_cell_id": "r23_c4",
+      "xlsx_row": 24,
+      "xlsx_column": 5,
+      "bbox": [
+        0.384,
+        0.624,
+        0.46,
+        0.655
+      ],
+      "context": "Crop 3 on back of",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row7 Crop 3 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r23_c5",
+      "page": 1,
+      "source_cell_id": "r23_c5",
+      "xlsx_row": 24,
+      "xlsx_column": 6,
+      "bbox": [
+        0.46,
+        0.624,
+        0.535,
+        0.655
+      ],
+      "context": "Crop 4 sheet",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row7 Crop 4 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r23_c21",
+      "page": 1,
+      "source_cell_id": "r23_c21",
+      "xlsx_row": 24,
+      "xlsx_column": 22,
+      "bbox": [
+        0.863,
+        0.624,
+        0.97,
+        0.655
+      ],
+      "context": "Lab ID (We provide)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row7 Lab ID column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r24_c7",
+      "page": 1,
+      "source_cell_id": "r24_c7",
+      "xlsx_row": 25,
+      "xlsx_column": 8,
+      "bbox": [
+        0.552,
+        0.629,
+        0.58,
+        0.651
+      ],
+      "context": "pH and Nutrients $15",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row7 pH and Nutrients column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r24_c10",
+      "page": 1,
+      "source_cell_id": "r24_c10",
+      "xlsx_row": 25,
+      "xlsx_column": 11,
+      "bbox": [
+        0.623,
+        0.629,
+        0.651,
+        0.651
+      ],
+      "context": "Organic Matter $15",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row7 Organic Matter column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r24_c13",
+      "page": 1,
+      "source_cell_id": "r24_c13",
+      "xlsx_row": 25,
+      "xlsx_column": 14,
+      "bbox": [
+        0.69,
+        0.629,
+        0.718,
+        0.651
+      ],
+      "context": "Soluble Salts $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row7 Soluble Salts column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r24_c16",
+      "page": 1,
+      "source_cell_id": "r24_c16",
+      "xlsx_row": 25,
+      "xlsx_column": 17,
+      "bbox": [
+        0.757,
+        0.629,
+        0.785,
+        0.651
+      ],
+      "context": "Texture (USDA) $30",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row7 Texture (USDA) column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r24_c19",
+      "page": 1,
+      "source_cell_id": "r24_c19",
+      "xlsx_row": 25,
+      "xlsx_column": 20,
+      "bbox": [
+        0.823,
+        0.629,
+        0.851,
+        0.651
+      ],
+      "context": "Sulfur $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row7 Sulfur column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r26_c0",
+      "page": 1,
+      "source_cell_id": "r26_c0",
+      "xlsx_row": 27,
+      "xlsx_column": 1,
+      "bbox": [
+        0.06,
+        0.655,
+        0.151,
+        0.685
+      ],
+      "context": "Sample Name (You provide)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row8 Sample Name column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r26_c1",
+      "page": 1,
+      "source_cell_id": "r26_c1",
+      "xlsx_row": 27,
+      "xlsx_column": 2,
+      "bbox": [
+        0.151,
+        0.655,
+        0.23,
+        0.685
+      ],
+      "context": "Farm ID (optional)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row8 Farm ID column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r26_c2",
+      "page": 1,
+      "source_cell_id": "r26_c2",
+      "xlsx_row": 27,
+      "xlsx_column": 3,
+      "bbox": [
+        0.23,
+        0.655,
+        0.306,
+        0.685
+      ],
+      "context": "Crop 1 Use",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row8 Crop 1 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r26_c3",
+      "page": 1,
+      "source_cell_id": "r26_c3",
+      "xlsx_row": 27,
+      "xlsx_column": 4,
+      "bbox": [
+        0.306,
+        0.655,
+        0.384,
+        0.685
+      ],
+      "context": "Crop 2 Use crop codes",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row8 Crop 2 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r26_c4",
+      "page": 1,
+      "source_cell_id": "r26_c4",
+      "xlsx_row": 27,
+      "xlsx_column": 5,
+      "bbox": [
+        0.384,
+        0.655,
+        0.46,
+        0.685
+      ],
+      "context": "Crop 3 on back of",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row8 Crop 3 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r26_c5",
+      "page": 1,
+      "source_cell_id": "r26_c5",
+      "xlsx_row": 27,
+      "xlsx_column": 6,
+      "bbox": [
+        0.46,
+        0.655,
+        0.535,
+        0.685
+      ],
+      "context": "Crop 4 sheet",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row8 Crop 4 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r26_c21",
+      "page": 1,
+      "source_cell_id": "r26_c21",
+      "xlsx_row": 27,
+      "xlsx_column": 22,
+      "bbox": [
+        0.863,
+        0.655,
+        0.97,
+        0.685
+      ],
+      "context": "Lab ID (We provide)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row8 Lab ID column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r27_c7",
+      "page": 1,
+      "source_cell_id": "r27_c7",
+      "xlsx_row": 28,
+      "xlsx_column": 8,
+      "bbox": [
+        0.552,
+        0.66,
+        0.58,
+        0.681
+      ],
+      "context": "pH and Nutrients $15",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row8 pH and Nutrients column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r27_c10",
+      "page": 1,
+      "source_cell_id": "r27_c10",
+      "xlsx_row": 28,
+      "xlsx_column": 11,
+      "bbox": [
+        0.623,
+        0.66,
+        0.651,
+        0.681
+      ],
+      "context": "Organic Matter $15",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row8 Organic Matter column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r27_c13",
+      "page": 1,
+      "source_cell_id": "r27_c13",
+      "xlsx_row": 28,
+      "xlsx_column": 14,
+      "bbox": [
+        0.69,
+        0.66,
+        0.718,
+        0.681
+      ],
+      "context": "Soluble Salts $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row8 Soluble Salts column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r27_c16",
+      "page": 1,
+      "source_cell_id": "r27_c16",
+      "xlsx_row": 28,
+      "xlsx_column": 17,
+      "bbox": [
+        0.757,
+        0.66,
+        0.785,
+        0.681
+      ],
+      "context": "Texture (USDA) $30",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row8 Texture (USDA) column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r27_c19",
+      "page": 1,
+      "source_cell_id": "r27_c19",
+      "xlsx_row": 28,
+      "xlsx_column": 20,
+      "bbox": [
+        0.823,
+        0.66,
+        0.851,
+        0.681
+      ],
+      "context": "Sulfur $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row8 Sulfur column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r29_c0",
+      "page": 1,
+      "source_cell_id": "r29_c0",
+      "xlsx_row": 30,
+      "xlsx_column": 1,
+      "bbox": [
+        0.06,
+        0.685,
+        0.151,
+        0.716
+      ],
+      "context": "Sample Name (You provide)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row9 Sample Name column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r29_c1",
+      "page": 1,
+      "source_cell_id": "r29_c1",
+      "xlsx_row": 30,
+      "xlsx_column": 2,
+      "bbox": [
+        0.151,
+        0.685,
+        0.23,
+        0.716
+      ],
+      "context": "Farm ID (optional)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row9 Farm ID column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r29_c2",
+      "page": 1,
+      "source_cell_id": "r29_c2",
+      "xlsx_row": 30,
+      "xlsx_column": 3,
+      "bbox": [
+        0.23,
+        0.685,
+        0.306,
+        0.716
+      ],
+      "context": "Crop 1 Use",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row9 Crop 1 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r29_c3",
+      "page": 1,
+      "source_cell_id": "r29_c3",
+      "xlsx_row": 30,
+      "xlsx_column": 4,
+      "bbox": [
+        0.306,
+        0.685,
+        0.384,
+        0.716
+      ],
+      "context": "Crop 2 Use crop codes",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row9 Crop 2 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r29_c4",
+      "page": 1,
+      "source_cell_id": "r29_c4",
+      "xlsx_row": 30,
+      "xlsx_column": 5,
+      "bbox": [
+        0.384,
+        0.685,
+        0.46,
+        0.716
+      ],
+      "context": "Crop 3 on back of",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row9 Crop 3 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r29_c5",
+      "page": 1,
+      "source_cell_id": "r29_c5",
+      "xlsx_row": 30,
+      "xlsx_column": 6,
+      "bbox": [
+        0.46,
+        0.685,
+        0.535,
+        0.716
+      ],
+      "context": "Crop 4 sheet",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row9 Crop 4 column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r29_c21",
+      "page": 1,
+      "source_cell_id": "r29_c21",
+      "xlsx_row": 30,
+      "xlsx_column": 22,
+      "bbox": [
+        0.863,
+        0.685,
+        0.97,
+        0.716
+      ],
+      "context": "Lab ID (We provide)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row9 Lab ID column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r30_c7",
+      "page": 1,
+      "source_cell_id": "r30_c7",
+      "xlsx_row": 31,
+      "xlsx_column": 8,
+      "bbox": [
+        0.552,
+        0.69,
+        0.58,
+        0.712
+      ],
+      "context": "pH and Nutrients $15",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row9 pH and Nutrients column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r30_c10",
+      "page": 1,
+      "source_cell_id": "r30_c10",
+      "xlsx_row": 31,
+      "xlsx_column": 11,
+      "bbox": [
+        0.623,
+        0.69,
+        0.651,
+        0.712
+      ],
+      "context": "Organic Matter $15",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row9 Organic Matter column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r30_c13",
+      "page": 1,
+      "source_cell_id": "r30_c13",
+      "xlsx_row": 31,
+      "xlsx_column": 14,
+      "bbox": [
+        0.69,
+        0.69,
+        0.718,
+        0.712
+      ],
+      "context": "Soluble Salts $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row9 Soluble Salts column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r30_c16",
+      "page": 1,
+      "source_cell_id": "r30_c16",
+      "xlsx_row": 31,
+      "xlsx_column": 17,
+      "bbox": [
+        0.757,
+        0.69,
+        0.785,
+        0.712
+      ],
+      "context": "Texture (USDA) $30",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row9 Texture (USDA) column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r30_c19",
+      "page": 1,
+      "source_cell_id": "r30_c19",
+      "xlsx_row": 31,
+      "xlsx_column": 20,
+      "bbox": [
+        0.823,
+        0.69,
+        0.851,
+        0.712
+      ],
+      "context": "Sulfur $10",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "row9 Sulfur column, blank",
+        "model": "claude-sonnet-5"
+      },
+      "peer": null,
+      "status": "single_reader",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    }
+  ],
+  "views": {
+    "transcription_attention": [
+      {
+        "cell_id": "r2_c23",
+        "page": 1,
+        "bbox": [
+          0.924,
+          0.331,
+          0.964,
+          0.349
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "153",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r5_c2",
+        "page": 1,
+        "bbox": [
+          0.23,
+          0.44,
+          0.306,
+          0.471
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "N",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r5_c3",
+        "page": 1,
+        "bbox": [
+          0.306,
+          0.44,
+          0.384,
+          0.471
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "X",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r5_c4",
+        "page": 1,
+        "bbox": [
+          0.384,
+          0.44,
+          0.46,
+          0.471
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "8",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r5_c5",
+        "page": 1,
+        "bbox": [
+          0.46,
+          0.44,
+          0.535,
+          0.471
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "41",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r5_c21",
+        "page": 1,
+        "bbox": [
+          0.863,
+          0.44,
+          0.97,
+          0.471
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "36",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r6_c10",
+        "page": 1,
+        "bbox": [
+          0.623,
+          0.446,
+          0.651,
+          0.467
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "~",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r6_c13",
+        "page": 1,
+        "bbox": [
+          0.69,
+          0.446,
+          0.718,
+          0.467
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "V",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r6_c16",
+        "page": 1,
+        "bbox": [
+          0.757,
+          0.446,
+          0.785,
+          0.467
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "Y",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r6_c19",
+        "page": 1,
+        "bbox": [
+          0.823,
+          0.446,
+          0.851,
+          0.467
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "197",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r8_c2",
+        "page": 1,
+        "bbox": [
+          0.23,
+          0.471,
+          0.306,
+          0.502
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "J",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r8_c3",
+        "page": 1,
+        "bbox": [
+          0.306,
+          0.471,
+          0.384,
+          0.502
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "M",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r8_c4",
+        "page": 1,
+        "bbox": [
+          0.384,
+          0.471,
+          0.46,
+          0.502
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "137",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r8_c5",
+        "page": 1,
+        "bbox": [
+          0.46,
+          0.471,
+          0.535,
+          0.502
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "210",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r8_c21",
+        "page": 1,
+        "bbox": [
+          0.863,
+          0.471,
+          0.97,
+          0.502
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "241",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r9_c10",
+        "page": 1,
+        "bbox": [
+          0.623,
+          0.476,
+          0.651,
+          0.498
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "N",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r9_c13",
+        "page": 1,
+        "bbox": [
+          0.69,
+          0.476,
+          0.718,
+          0.498
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": null,
+        "alternatives": []
+      },
+      {
+        "cell_id": "r9_c16",
+        "page": 1,
+        "bbox": [
+          0.757,
+          0.476,
+          0.785,
+          0.498
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "Y",
+        "alternatives": []
+      },
+      {
+        "cell_id": "r11_c1",
+        "page": 1,
+        "bbox": [
+          0.151,
+          0.502,
+          0.23,
+          0.532
+        ],
+        "priority": "medium",
+        "reason": "primary confidence at or below 0.80",
+        "presented_value": "—",
+        "alternatives": []
+      }
+    ],
+    "ecology_anomalies": []
+  }
+}

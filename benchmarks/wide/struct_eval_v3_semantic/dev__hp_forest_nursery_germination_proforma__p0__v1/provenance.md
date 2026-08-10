@@ -1,0 +1,82 @@
+# dev__hp_forest_nursery_germination_proforma__p0__v1
+
+REAL blank template `hp_forest_nursery_germination_proforma.pdf` (page 1) filled with synthetic handwriting.
+Structure and printed labels read directly from the PDF's vector text/line data — exact, no CV thresholds.
+Golden is exact by construction: printed labels from the file + the values written here.
+
+```json
+{
+  "template": "hp_forest_nursery_germination_proforma.pdf",
+  "page": 0,
+  "seed": 12758,
+  "density": 0.25,
+  "hard": true,
+  "cells": 288,
+  "printed_cells": 1,
+  "filled": 67,
+  "fallback_coltypes": [
+    "dec",
+    "yn",
+    "yn",
+    "int",
+    "date",
+    "yn",
+    "yn",
+    "int",
+    "yn",
+    "date",
+    "date",
+    "date",
+    "date",
+    "date",
+    "code1",
+    "date",
+    "yn",
+    "date",
+    "yn",
+    "code1",
+    "code1",
+    "yn",
+    "code1",
+    "yn",
+    "int",
+    "code1",
+    "yn",
+    "yn",
+    "yn",
+    "int",
+    "int",
+    "int",
+    "int",
+    "yn",
+    "code1",
+    "yn",
+    "yn",
+    "date",
+    "code1",
+    "yn",
+    "date",
+    "yn",
+    "yn",
+    "yn",
+    "yn",
+    "code1",
+    "int",
+    "date",
+    "yn",
+    "date",
+    "code1",
+    "code1"
+  ],
+  "semantic_kind_counts": {
+    "printed": 1,
+    "int": 51,
+    "code1": 61,
+    "yn": 125,
+    "date": 50
+  },
+  "writer_cohort": "hsf_4",
+  "ground_truth": "ground_truth.json",
+  "layout_golden": "layout_golden.xlsx"
+}
+```

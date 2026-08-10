@@ -1,0 +1,5772 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nvs_stem_diameter_sapling.pdf",
+  "page": 1,
+  "page_size_points": [
+    595.0,
+    842.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 4,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        116.595,
+        63.6,
+        146.895
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.138473,
+        0.106891,
+        0.174459
+      ],
+      "source": "printed",
+      "value": "/",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        116.595,
+        147.6,
+        146.895
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.138473,
+        0.248067,
+        0.174459
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% # | !\"# $ % #$&$%' ,' %) .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        116.595,
+        205.59,
+        146.895
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.138473,
+        0.345529,
+        0.174459
+      ],
+      "source": "printed",
+      "value": "#",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "#"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        116.595,
+        263.61,
+        146.895
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.138473,
+        0.443042,
+        0.174459
+      ],
+      "source": "printed",
+      "value": "-+",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "-+"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        116.595,
+        321.6,
+        146.895
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.138473,
+        0.540504,
+        0.174459
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | () *\" #+ )%(' *%( ,'% -) '%.\"' % / # -+"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        116.595,
+        571.65,
+        146.895
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.138473,
+        0.960756,
+        0.174459
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' () *\" #+ )%(' ,' %) *%( ,'% -) '%.\"' .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        146.895,
+        63.6,
+        164.685
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.174459,
+        0.106891,
+        0.195587
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' ,' %) .(#.+*% # /"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        146.895,
+        147.6,
+        164.685
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.174459,
+        0.248067,
+        0.195587
+      ],
+      "source": "written",
+      "value": "67",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% # | !\"# $ % #$&$%' ,' %) .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        146.895,
+        205.59,
+        164.685
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.174459,
+        0.345529,
+        0.195587
+      ],
+      "source": "written",
+      "value": "209",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' .(#.+*% # -+"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        146.895,
+        263.61,
+        164.685
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.174459,
+        0.443042,
+        0.195587
+      ],
+      "source": "written",
+      "value": "1",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | () *\" *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        146.895,
+        321.6,
+        164.685
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.174459,
+        0.540504,
+        0.195587
+      ],
+      "source": "written",
+      "value": "41",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | () *\" #+ )%(' *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        146.895,
+        571.65,
+        164.685
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.174459,
+        0.960756,
+        0.195587
+      ],
+      "source": "written",
+      "value": "62",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' () *\" #+ )%(' ,' %) *%( ,'% -) '%.\"' .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        164.685,
+        63.6,
+        182.22
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.195587,
+        0.106891,
+        0.216413
+      ],
+      "source": "written",
+      "value": "74",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' ,' %) .(#.+*% # /"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        164.685,
+        147.6,
+        182.22
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.195587,
+        0.248067,
+        0.216413
+      ],
+      "source": "written",
+      "value": "54",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% # | !\"# $ % #$&$%' ,' %) .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        164.685,
+        205.59,
+        182.22
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.195587,
+        0.345529,
+        0.216413
+      ],
+      "source": "written",
+      "value": "145",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' .(#.+*% # -+"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        164.685,
+        263.61,
+        182.22
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.195587,
+        0.443042,
+        0.216413
+      ],
+      "source": "written",
+      "value": "97",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | () *\" *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        164.685,
+        321.6,
+        182.22
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.195587,
+        0.540504,
+        0.216413
+      ],
+      "source": "written",
+      "value": "37",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | () *\" #+ )%(' *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        164.685,
+        571.65,
+        182.22
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.195587,
+        0.960756,
+        0.216413
+      ],
+      "source": "written",
+      "value": "87",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' () *\" #+ )%(' ,' %) *%( ,'% -) '%.\"' .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        182.22,
+        63.6,
+        199.53
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.216413,
+        0.106891,
+        0.236971
+      ],
+      "source": "written",
+      "value": "47",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' ,' %) .(#.+*% # /"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        182.22,
+        147.6,
+        199.53
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.216413,
+        0.248067,
+        0.236971
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% # | !\"# $ % #$&$%' ,' %) .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        182.22,
+        205.59,
+        199.53
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.216413,
+        0.345529,
+        0.236971
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' .(#.+*% # -+"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        182.22,
+        263.61,
+        199.53
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.216413,
+        0.443042,
+        0.236971
+      ],
+      "source": "written",
+      "value": "33",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | () *\" *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        182.22,
+        321.6,
+        199.53
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.216413,
+        0.540504,
+        0.236971
+      ],
+      "source": "written",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | () *\" #+ )%(' *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        182.22,
+        571.65,
+        199.53
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.216413,
+        0.960756,
+        0.236971
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' () *\" #+ )%(' ,' %) *%( ,'% -) '%.\"' .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        199.53,
+        63.6,
+        216.84
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.236971,
+        0.106891,
+        0.257529
+      ],
+      "source": "written",
+      "value": "173",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' ,' %) .(#.+*% # /"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        199.53,
+        147.6,
+        216.84
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.236971,
+        0.248067,
+        0.257529
+      ],
+      "source": "written",
+      "value": "76",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% # | !\"# $ % #$&$%' ,' %) .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        199.53,
+        205.59,
+        216.84
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.236971,
+        0.345529,
+        0.257529
+      ],
+      "source": "written",
+      "value": "221",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' .(#.+*% # -+"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        199.53,
+        263.61,
+        216.84
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.236971,
+        0.443042,
+        0.257529
+      ],
+      "source": "written",
+      "value": "248",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | () *\" *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        199.53,
+        321.6,
+        216.84
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.236971,
+        0.540504,
+        0.257529
+      ],
+      "source": "written",
+      "value": "74",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | () *\" #+ )%(' *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        199.53,
+        571.65,
+        216.84
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.236971,
+        0.960756,
+        0.257529
+      ],
+      "source": "written",
+      "value": "68",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' () *\" #+ )%(' ,' %) *%( ,'% -) '%.\"' .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        216.84,
+        63.6,
+        234.12
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.257529,
+        0.106891,
+        0.278052
+      ],
+      "source": "written",
+      "value": "89",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' ,' %) .(#.+*% # /"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        216.84,
+        147.6,
+        234.12
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.257529,
+        0.248067,
+        0.278052
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% # | !\"# $ % #$&$%' ,' %) .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        216.84,
+        205.59,
+        234.12
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.257529,
+        0.345529,
+        0.278052
+      ],
+      "source": "written",
+      "value": "55",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' .(#.+*% # -+"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        216.84,
+        263.61,
+        234.12
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.257529,
+        0.443042,
+        0.278052
+      ],
+      "source": "written",
+      "value": "65",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | () *\" *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        216.84,
+        321.6,
+        234.12
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.257529,
+        0.540504,
+        0.278052
+      ],
+      "source": "written",
+      "value": "60",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | () *\" #+ )%(' *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        216.84,
+        571.65,
+        234.12
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.257529,
+        0.960756,
+        0.278052
+      ],
+      "source": "written",
+      "value": "68",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' () *\" #+ )%(' ,' %) *%( ,'% -) '%.\"' .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        234.12,
+        63.6,
+        251.43
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.278052,
+        0.106891,
+        0.29861
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' ,' %) .(#.+*% # /"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        234.12,
+        147.6,
+        251.43
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.278052,
+        0.248067,
+        0.29861
+      ],
+      "source": "written",
+      "value": "112",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% # | !\"# $ % #$&$%' ,' %) .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        234.12,
+        205.59,
+        251.43
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.278052,
+        0.345529,
+        0.29861
+      ],
+      "source": "written",
+      "value": "226",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' .(#.+*% # -+"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        234.12,
+        263.61,
+        251.43
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.278052,
+        0.443042,
+        0.29861
+      ],
+      "source": "written",
+      "value": "198",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | () *\" *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        234.12,
+        321.6,
+        251.43
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.278052,
+        0.540504,
+        0.29861
+      ],
+      "source": "written",
+      "value": "32",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | () *\" #+ )%(' *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        234.12,
+        571.65,
+        251.43
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.278052,
+        0.960756,
+        0.29861
+      ],
+      "source": "written",
+      "value": "39",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' () *\" #+ )%(' ,' %) *%( ,'% -) '%.\"' .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        251.43,
+        63.6,
+        268.74
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.29861,
+        0.106891,
+        0.319168
+      ],
+      "source": "written",
+      "value": "237",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' ,' %) .(#.+*% # /"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        251.43,
+        147.6,
+        268.74
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.29861,
+        0.248067,
+        0.319168
+      ],
+      "source": "written",
+      "value": "119",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% # | !\"# $ % #$&$%' ,' %) .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        251.43,
+        205.59,
+        268.74
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.29861,
+        0.345529,
+        0.319168
+      ],
+      "source": "written",
+      "value": "250",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' .(#.+*% # -+"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        251.43,
+        263.61,
+        268.74
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.29861,
+        0.443042,
+        0.319168
+      ],
+      "source": "written",
+      "value": "69",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | () *\" *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        251.43,
+        321.6,
+        268.74
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.29861,
+        0.540504,
+        0.319168
+      ],
+      "source": "written",
+      "value": "24",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | () *\" #+ )%(' *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        251.43,
+        571.65,
+        268.74
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.29861,
+        0.960756,
+        0.319168
+      ],
+      "source": "written",
+      "value": "79",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' () *\" #+ )%(' ,' %) *%( ,'% -) '%.\"' .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        268.74,
+        63.6,
+        286.02
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.319168,
+        0.106891,
+        0.339691
+      ],
+      "source": "written",
+      "value": "202",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' ,' %) .(#.+*% # /"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        268.74,
+        147.6,
+        286.02
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.319168,
+        0.248067,
+        0.339691
+      ],
+      "source": "written",
+      "value": "191",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% # | !\"# $ % #$&$%' ,' %) .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        268.74,
+        205.59,
+        286.02
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.319168,
+        0.345529,
+        0.339691
+      ],
+      "source": "written",
+      "value": "235",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' .(#.+*% # -+"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        268.74,
+        263.61,
+        286.02
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.319168,
+        0.443042,
+        0.339691
+      ],
+      "source": "written",
+      "value": "50",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | () *\" *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        268.74,
+        321.6,
+        286.02
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.319168,
+        0.540504,
+        0.339691
+      ],
+      "source": "written",
+      "value": "24",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | () *\" #+ )%(' *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        268.74,
+        571.65,
+        286.02
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.319168,
+        0.960756,
+        0.339691
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' () *\" #+ )%(' ,' %) *%( ,'% -) '%.\"' .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        286.02,
+        63.6,
+        303.33
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.339691,
+        0.106891,
+        0.360249
+      ],
+      "source": "written",
+      "value": "172",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' ,' %) .(#.+*% # /"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        286.02,
+        147.6,
+        303.33
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.339691,
+        0.248067,
+        0.360249
+      ],
+      "source": "written",
+      "value": "120",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% # | !\"# $ % #$&$%' ,' %) .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        286.02,
+        205.59,
+        303.33
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.339691,
+        0.345529,
+        0.360249
+      ],
+      "source": "written",
+      "value": "228",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' .(#.+*% # -+"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        286.02,
+        263.61,
+        303.33
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.339691,
+        0.443042,
+        0.360249
+      ],
+      "source": "written",
+      "value": "20",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | () *\" *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        286.02,
+        321.6,
+        303.33
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.339691,
+        0.540504,
+        0.360249
+      ],
+      "source": "written",
+      "value": "9",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | () *\" #+ )%(' *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        286.02,
+        571.65,
+        303.33
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.339691,
+        0.960756,
+        0.360249
+      ],
+      "source": "written",
+      "value": "6",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' () *\" #+ )%(' ,' %) *%( ,'% -) '%.\"' .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        303.33,
+        63.6,
+        320.61
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.360249,
+        0.106891,
+        0.380772
+      ],
+      "source": "written",
+      "value": "27",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | ,' %) .(#.+*% # /"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        303.33,
+        147.6,
+        320.61
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.360249,
+        0.248067,
+        0.380772
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% # | ,' %) .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        303.33,
+        205.59,
+        320.61
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.360249,
+        0.345529,
+        0.380772
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "# | # | .(#.+*% # -+"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        303.33,
+        263.61,
+        320.61
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.360249,
+        0.443042,
+        0.380772
+      ],
+      "source": "written",
+      "value": "49",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        303.33,
+        321.6,
+        320.61
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.360249,
+        0.540504,
+        0.380772
+      ],
+      "source": "written",
+      "value": "23",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        303.33,
+        571.65,
+        320.61
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.360249,
+        0.960756,
+        0.380772
+      ],
+      "source": "written",
+      "value": "87",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | ,' %) *%( ,'% -) '%.\"' % .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        320.61,
+        63.6,
+        337.92
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.380772,
+        0.106891,
+        0.40133
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "/ | / | .(#.+*% # /"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        320.61,
+        147.6,
+        337.92
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.380772,
+        0.248067,
+        0.40133
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% # | .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        320.61,
+        205.59,
+        337.92
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.380772,
+        0.345529,
+        0.40133
+      ],
+      "source": "written",
+      "value": "113",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | .(#.+*% # -+"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        320.61,
+        263.61,
+        337.92
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.380772,
+        0.443042,
+        0.40133
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | '%.\"' % # -+"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        320.61,
+        321.6,
+        337.92
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.380772,
+        0.540504,
+        0.40133
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | '%.\"' % -) -+"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        320.61,
+        571.65,
+        337.92
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.380772,
+        0.960756,
+        0.40133
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | '%.\"' % -) .(#.+*% # / -+"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        337.92,
+        63.6,
+        355.23
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.40133,
+        0.106891,
+        0.421888
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | / | /"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        337.92,
+        147.6,
+        355.23
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.40133,
+        0.248067,
+        0.421888
+      ],
+      "source": "written",
+      "value": "90",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% # | / # -+"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        337.92,
+        205.59,
+        355.23
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.40133,
+        0.345529,
+        0.421888
+      ],
+      "source": "written",
+      "value": "231",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | # -+"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        337.92,
+        263.61,
+        355.23
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.40133,
+        0.443042,
+        0.421888
+      ],
+      "source": "written",
+      "value": "137",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | # -+"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        337.92,
+        321.6,
+        355.23
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.40133,
+        0.540504,
+        0.421888
+      ],
+      "source": "written",
+      "value": "48",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | -+"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        337.92,
+        571.65,
+        355.23
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.40133,
+        0.960756,
+        0.421888
+      ],
+      "source": "written",
+      "value": "95",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | / # -+"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        355.23,
+        63.6,
+        372.51
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.421888,
+        0.106891,
+        0.442411
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        355.23,
+        147.6,
+        372.51
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.421888,
+        0.248067,
+        0.442411
+      ],
+      "source": "written",
+      "value": "106",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        355.23,
+        205.59,
+        372.51
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.421888,
+        0.345529,
+        0.442411
+      ],
+      "source": "written",
+      "value": "104",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        355.23,
+        263.61,
+        372.51
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.421888,
+        0.443042,
+        0.442411
+      ],
+      "source": "written",
+      "value": "237",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        355.23,
+        321.6,
+        372.51
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.421888,
+        0.540504,
+        0.442411
+      ],
+      "source": "written",
+      "value": "5",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        355.23,
+        571.65,
+        372.51
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.421888,
+        0.960756,
+        0.442411
+      ],
+      "source": "written",
+      "value": "64",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        372.51,
+        63.6,
+        389.82
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.442411,
+        0.106891,
+        0.462969
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        372.51,
+        147.6,
+        389.82
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.442411,
+        0.248067,
+        0.462969
+      ],
+      "source": "written",
+      "value": "66",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        372.51,
+        205.59,
+        389.82
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.442411,
+        0.345529,
+        0.462969
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        372.51,
+        263.61,
+        389.82
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.442411,
+        0.443042,
+        0.462969
+      ],
+      "source": "written",
+      "value": "204",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        372.51,
+        321.6,
+        389.82
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.442411,
+        0.540504,
+        0.462969
+      ],
+      "source": "written",
+      "value": "52",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        372.51,
+        571.65,
+        389.82
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.442411,
+        0.960756,
+        0.462969
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        389.82,
+        63.6,
+        407.13
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.462969,
+        0.106891,
+        0.483527
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        389.82,
+        147.6,
+        407.13
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.462969,
+        0.248067,
+        0.483527
+      ],
+      "source": "written",
+      "value": "59",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        389.82,
+        205.59,
+        407.13
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.462969,
+        0.345529,
+        0.483527
+      ],
+      "source": "written",
+      "value": "106",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        389.82,
+        263.61,
+        407.13
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.462969,
+        0.443042,
+        0.483527
+      ],
+      "source": "written",
+      "value": "124",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        389.82,
+        321.6,
+        407.13
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.462969,
+        0.540504,
+        0.483527
+      ],
+      "source": "written",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        389.82,
+        571.65,
+        407.13
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.462969,
+        0.960756,
+        0.483527
+      ],
+      "source": "written",
+      "value": "93",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        407.13,
+        63.6,
+        424.41
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.483527,
+        0.106891,
+        0.504049
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        407.13,
+        147.6,
+        424.41
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.483527,
+        0.248067,
+        0.504049
+      ],
+      "source": "written",
+      "value": "154",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        407.13,
+        205.59,
+        424.41
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.483527,
+        0.345529,
+        0.504049
+      ],
+      "source": "written",
+      "value": "43",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        407.13,
+        263.61,
+        424.41
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.483527,
+        0.443042,
+        0.504049
+      ],
+      "source": "written",
+      "value": "145",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        407.13,
+        321.6,
+        424.41
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.483527,
+        0.540504,
+        0.504049
+      ],
+      "source": "written",
+      "value": "25",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        407.13,
+        571.65,
+        424.41
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.483527,
+        0.960756,
+        0.504049
+      ],
+      "source": "written",
+      "value": "81",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        424.41,
+        63.6,
+        441.72
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.504049,
+        0.106891,
+        0.524608
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        424.41,
+        147.6,
+        441.72
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.504049,
+        0.248067,
+        0.524608
+      ],
+      "source": "written",
+      "value": "115",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        424.41,
+        205.59,
+        441.72
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.504049,
+        0.345529,
+        0.524608
+      ],
+      "source": "written",
+      "value": "91",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        424.41,
+        263.61,
+        441.72
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.504049,
+        0.443042,
+        0.524608
+      ],
+      "source": "written",
+      "value": "132",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        424.41,
+        321.6,
+        441.72
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.504049,
+        0.540504,
+        0.524608
+      ],
+      "source": "written",
+      "value": "90",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        424.41,
+        571.65,
+        441.72
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.504049,
+        0.960756,
+        0.524608
+      ],
+      "source": "written",
+      "value": "22",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        441.72,
+        63.6,
+        459.0
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.524608,
+        0.106891,
+        0.54513
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        441.72,
+        147.6,
+        459.0
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.524608,
+        0.248067,
+        0.54513
+      ],
+      "source": "written",
+      "value": "201",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        441.72,
+        205.59,
+        459.0
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.524608,
+        0.345529,
+        0.54513
+      ],
+      "source": "written",
+      "value": "137",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        441.72,
+        263.61,
+        459.0
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.524608,
+        0.443042,
+        0.54513
+      ],
+      "source": "written",
+      "value": "131",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        441.72,
+        321.6,
+        459.0
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.524608,
+        0.540504,
+        0.54513
+      ],
+      "source": "written",
+      "value": "77",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        441.72,
+        571.65,
+        459.0
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.524608,
+        0.960756,
+        0.54513
+      ],
+      "source": "written",
+      "value": "26",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        459.0,
+        63.6,
+        476.31
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.54513,
+        0.106891,
+        0.565688
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        459.0,
+        147.6,
+        476.31
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.54513,
+        0.248067,
+        0.565688
+      ],
+      "source": "written",
+      "value": "58",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        459.0,
+        205.59,
+        476.31
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.54513,
+        0.345529,
+        0.565688
+      ],
+      "source": "written",
+      "value": "17",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        459.0,
+        263.61,
+        476.31
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.54513,
+        0.443042,
+        0.565688
+      ],
+      "source": "written",
+      "value": "136",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        459.0,
+        321.6,
+        476.31
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.54513,
+        0.540504,
+        0.565688
+      ],
+      "source": "written",
+      "value": "93",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        459.0,
+        571.65,
+        476.31
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.54513,
+        0.960756,
+        0.565688
+      ],
+      "source": "written",
+      "value": "65",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        476.31,
+        63.6,
+        493.62
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.565688,
+        0.106891,
+        0.586247
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        476.31,
+        147.6,
+        493.62
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.565688,
+        0.248067,
+        0.586247
+      ],
+      "source": "written",
+      "value": "208",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        476.31,
+        205.59,
+        493.62
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.565688,
+        0.345529,
+        0.586247
+      ],
+      "source": "written",
+      "value": "52",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        476.31,
+        263.61,
+        493.62
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.565688,
+        0.443042,
+        0.586247
+      ],
+      "source": "written",
+      "value": "160",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        476.31,
+        321.6,
+        493.62
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.565688,
+        0.540504,
+        0.586247
+      ],
+      "source": "written",
+      "value": "34",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        476.31,
+        571.65,
+        493.62
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.565688,
+        0.960756,
+        0.586247
+      ],
+      "source": "written",
+      "value": "6",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        493.62,
+        63.6,
+        510.9
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.586247,
+        0.106891,
+        0.606769
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        493.62,
+        147.6,
+        510.9
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.586247,
+        0.248067,
+        0.606769
+      ],
+      "source": "written",
+      "value": "70",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        493.62,
+        205.59,
+        510.9
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.586247,
+        0.345529,
+        0.606769
+      ],
+      "source": "written",
+      "value": "4",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        493.62,
+        263.61,
+        510.9
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.586247,
+        0.443042,
+        0.606769
+      ],
+      "source": "written",
+      "value": "174",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        493.62,
+        321.6,
+        510.9
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.586247,
+        0.540504,
+        0.606769
+      ],
+      "source": "written",
+      "value": "22",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        493.62,
+        571.65,
+        510.9
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.586247,
+        0.960756,
+        0.606769
+      ],
+      "source": "written",
+      "value": "41",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        510.9,
+        63.6,
+        528.21
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.606769,
+        0.106891,
+        0.627327
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        510.9,
+        147.6,
+        528.21
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.606769,
+        0.248067,
+        0.627327
+      ],
+      "source": "written",
+      "value": "193",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        510.9,
+        205.59,
+        528.21
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.606769,
+        0.345529,
+        0.627327
+      ],
+      "source": "written",
+      "value": "36",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        510.9,
+        263.61,
+        528.21
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.606769,
+        0.443042,
+        0.627327
+      ],
+      "source": "written",
+      "value": "27",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        510.9,
+        321.6,
+        528.21
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.606769,
+        0.540504,
+        0.627327
+      ],
+      "source": "written",
+      "value": "37",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        510.9,
+        571.65,
+        528.21
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.606769,
+        0.960756,
+        0.627327
+      ],
+      "source": "written",
+      "value": "68",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        528.21,
+        63.6,
+        545.52
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.627327,
+        0.106891,
+        0.647886
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        528.21,
+        147.6,
+        545.52
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.627327,
+        0.248067,
+        0.647886
+      ],
+      "source": "written",
+      "value": "134",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        528.21,
+        205.59,
+        545.52
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.627327,
+        0.345529,
+        0.647886
+      ],
+      "source": "written",
+      "value": "221",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        528.21,
+        263.61,
+        545.52
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.627327,
+        0.443042,
+        0.647886
+      ],
+      "source": "written",
+      "value": "105",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        528.21,
+        321.6,
+        545.52
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.627327,
+        0.540504,
+        0.647886
+      ],
+      "source": "written",
+      "value": "69",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        528.21,
+        571.65,
+        545.52
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.627327,
+        0.960756,
+        0.647886
+      ],
+      "source": "written",
+      "value": "81",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 28,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        545.52,
+        63.6,
+        562.8
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.647886,
+        0.106891,
+        0.668408
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 28,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        545.52,
+        147.6,
+        562.8
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.647886,
+        0.248067,
+        0.668408
+      ],
+      "source": "written",
+      "value": "38",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 28,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        545.52,
+        205.59,
+        562.8
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.647886,
+        0.345529,
+        0.668408
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 28,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        545.52,
+        263.61,
+        562.8
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.647886,
+        0.443042,
+        0.668408
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 28,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        545.52,
+        321.6,
+        562.8
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.647886,
+        0.540504,
+        0.668408
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 28,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        545.52,
+        571.65,
+        562.8
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.647886,
+        0.960756,
+        0.668408
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        562.8,
+        63.6,
+        580.11
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.668408,
+        0.106891,
+        0.688966
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        562.8,
+        147.6,
+        580.11
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.668408,
+        0.248067,
+        0.688966
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        562.8,
+        205.59,
+        580.11
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.668408,
+        0.345529,
+        0.688966
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        562.8,
+        263.61,
+        580.11
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.668408,
+        0.443042,
+        0.688966
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        562.8,
+        321.6,
+        580.11
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.668408,
+        0.540504,
+        0.688966
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        562.8,
+        571.65,
+        580.11
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.668408,
+        0.960756,
+        0.688966
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        580.11,
+        63.6,
+        597.39
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.688966,
+        0.106891,
+        0.709489
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        580.11,
+        147.6,
+        597.39
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.688966,
+        0.248067,
+        0.709489
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        580.11,
+        205.59,
+        597.39
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.688966,
+        0.345529,
+        0.709489
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        580.11,
+        263.61,
+        597.39
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.688966,
+        0.443042,
+        0.709489
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        580.11,
+        321.6,
+        597.39
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.688966,
+        0.540504,
+        0.709489
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        580.11,
+        571.65,
+        597.39
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.688966,
+        0.960756,
+        0.709489
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        597.39,
+        63.6,
+        614.7
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.709489,
+        0.106891,
+        0.730047
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        597.39,
+        147.6,
+        614.7
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.709489,
+        0.248067,
+        0.730047
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        597.39,
+        205.59,
+        614.7
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.709489,
+        0.345529,
+        0.730047
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        597.39,
+        263.61,
+        614.7
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.709489,
+        0.443042,
+        0.730047
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        597.39,
+        321.6,
+        614.7
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.709489,
+        0.540504,
+        0.730047
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        597.39,
+        571.65,
+        614.7
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.709489,
+        0.960756,
+        0.730047
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        614.7,
+        63.6,
+        632.01
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.730047,
+        0.106891,
+        0.750605
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        614.7,
+        147.6,
+        632.01
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.730047,
+        0.248067,
+        0.750605
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        614.7,
+        205.59,
+        632.01
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.730047,
+        0.345529,
+        0.750605
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        614.7,
+        263.61,
+        632.01
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.730047,
+        0.443042,
+        0.750605
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        614.7,
+        321.6,
+        632.01
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.730047,
+        0.540504,
+        0.750605
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        614.7,
+        571.65,
+        632.01
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.730047,
+        0.960756,
+        0.750605
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        632.01,
+        63.6,
+        649.29
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.750605,
+        0.106891,
+        0.771128
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        632.01,
+        147.6,
+        649.29
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.750605,
+        0.248067,
+        0.771128
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        632.01,
+        205.59,
+        649.29
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.750605,
+        0.345529,
+        0.771128
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        632.01,
+        263.61,
+        649.29
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.750605,
+        0.443042,
+        0.771128
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        632.01,
+        321.6,
+        649.29
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.750605,
+        0.540504,
+        0.771128
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        632.01,
+        571.65,
+        649.29
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.750605,
+        0.960756,
+        0.771128
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        649.29,
+        63.6,
+        666.6
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.771128,
+        0.106891,
+        0.791686
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        649.29,
+        147.6,
+        666.6
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.771128,
+        0.248067,
+        0.791686
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        649.29,
+        205.59,
+        666.6
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.771128,
+        0.345529,
+        0.791686
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        649.29,
+        263.61,
+        666.6
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.771128,
+        0.443042,
+        0.791686
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        649.29,
+        321.6,
+        666.6
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.771128,
+        0.540504,
+        0.791686
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        649.29,
+        571.65,
+        666.6
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.771128,
+        0.960756,
+        0.791686
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        666.6,
+        63.6,
+        683.91
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.791686,
+        0.106891,
+        0.812244
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        666.6,
+        147.6,
+        683.91
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.791686,
+        0.248067,
+        0.812244
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        666.6,
+        205.59,
+        683.91
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.791686,
+        0.345529,
+        0.812244
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        666.6,
+        263.61,
+        683.91
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.791686,
+        0.443042,
+        0.812244
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        666.6,
+        321.6,
+        683.91
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.791686,
+        0.540504,
+        0.812244
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        666.6,
+        571.65,
+        683.91
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.791686,
+        0.960756,
+        0.812244
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        683.91,
+        63.6,
+        701.19
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.812244,
+        0.106891,
+        0.832767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        683.91,
+        147.6,
+        701.19
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.812244,
+        0.248067,
+        0.832767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        683.91,
+        205.59,
+        701.19
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.812244,
+        0.345529,
+        0.832767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        683.91,
+        263.61,
+        701.19
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.812244,
+        0.443042,
+        0.832767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        683.91,
+        321.6,
+        701.19
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.812244,
+        0.540504,
+        0.832767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        683.91,
+        571.65,
+        701.19
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.812244,
+        0.960756,
+        0.832767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        701.19,
+        63.6,
+        718.5
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.832767,
+        0.106891,
+        0.853325
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        701.19,
+        147.6,
+        718.5
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.832767,
+        0.248067,
+        0.853325
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        701.19,
+        205.59,
+        718.5
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.832767,
+        0.345529,
+        0.853325
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        701.19,
+        263.61,
+        718.5
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.832767,
+        0.443042,
+        0.853325
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        701.19,
+        321.6,
+        718.5
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.832767,
+        0.540504,
+        0.853325
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        701.19,
+        571.65,
+        718.5
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.832767,
+        0.960756,
+        0.853325
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        718.5,
+        63.6,
+        735.78
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.853325,
+        0.106891,
+        0.873848
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        718.5,
+        147.6,
+        735.78
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.853325,
+        0.248067,
+        0.873848
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        718.5,
+        205.59,
+        735.78
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.853325,
+        0.345529,
+        0.873848
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        718.5,
+        263.61,
+        735.78
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.853325,
+        0.443042,
+        0.873848
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        718.5,
+        321.6,
+        735.78
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.853325,
+        0.540504,
+        0.873848
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        718.5,
+        571.65,
+        735.78
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.853325,
+        0.960756,
+        0.873848
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        735.78,
+        63.6,
+        753.09
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.873848,
+        0.106891,
+        0.894406
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        735.78,
+        147.6,
+        753.09
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.873848,
+        0.248067,
+        0.894406
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        735.78,
+        205.59,
+        753.09
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.873848,
+        0.345529,
+        0.894406
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        735.78,
+        263.61,
+        753.09
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.873848,
+        0.443042,
+        0.894406
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        735.78,
+        321.6,
+        753.09
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.873848,
+        0.540504,
+        0.894406
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        735.78,
+        571.65,
+        753.09
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.873848,
+        0.960756,
+        0.894406
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        753.09,
+        63.6,
+        770.4
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.894406,
+        0.106891,
+        0.914964
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        753.09,
+        147.6,
+        770.4
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.894406,
+        0.248067,
+        0.914964
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        753.09,
+        205.59,
+        770.4
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.894406,
+        0.345529,
+        0.914964
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        753.09,
+        263.61,
+        770.4
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.894406,
+        0.443042,
+        0.914964
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        753.09,
+        321.6,
+        770.4
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.894406,
+        0.540504,
+        0.914964
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        753.09,
+        571.65,
+        770.4
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.894406,
+        0.960756,
+        0.914964
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        770.4,
+        63.6,
+        787.68
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.914964,
+        0.106891,
+        0.935486
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        770.4,
+        147.6,
+        787.68
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.914964,
+        0.248067,
+        0.935486
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        770.4,
+        205.59,
+        787.68
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.914964,
+        0.345529,
+        0.935486
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        770.4,
+        263.61,
+        787.68
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.914964,
+        0.443042,
+        0.935486
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        770.4,
+        321.6,
+        787.68
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.914964,
+        0.540504,
+        0.935486
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        770.4,
+        571.65,
+        787.68
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.914964,
+        0.960756,
+        0.935486
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        787.68,
+        63.6,
+        804.99
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.935486,
+        0.106891,
+        0.956045
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        787.68,
+        147.6,
+        804.99
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.935486,
+        0.248067,
+        0.956045
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        787.68,
+        205.59,
+        804.99
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.935486,
+        0.345529,
+        0.956045
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        787.68,
+        263.61,
+        804.99
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.935486,
+        0.443042,
+        0.956045
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        787.68,
+        321.6,
+        804.99
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.935486,
+        0.540504,
+        0.956045
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        787.68,
+        571.65,
+        804.99
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.935486,
+        0.960756,
+        0.956045
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        27.6,
+        804.99,
+        63.6,
+        822.27
+      ],
+      "bbox_norm": [
+        0.046387,
+        0.956045,
+        0.106891,
+        0.976567
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        63.6,
+        804.99,
+        147.6,
+        822.27
+      ],
+      "bbox_norm": [
+        0.106891,
+        0.956045,
+        0.248067,
+        0.976567
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "%) .(#.+*% #"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        147.6,
+        804.99,
+        205.59,
+        822.27
+      ],
+      "bbox_norm": [
+        0.248067,
+        0.956045,
+        0.345529,
+        0.976567
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        205.59,
+        804.99,
+        263.61,
+        822.27
+      ],
+      "bbox_norm": [
+        0.345529,
+        0.956045,
+        0.443042,
+        0.976567
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        263.61,
+        804.99,
+        321.6,
+        822.27
+      ],
+      "bbox_norm": [
+        0.443042,
+        0.956045,
+        0.540504,
+        0.976567
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        321.6,
+        804.99,
+        571.65,
+        822.27
+      ],
+      "bbox_norm": [
+        0.540504,
+        0.956045,
+        0.960756,
+        0.976567
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    }
+  ]
+}

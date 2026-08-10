@@ -1,0 +1,145 @@
+[
+  {
+    "cell_id": "r10_c1",
+    "row": 10,
+    "col": 1,
+    "bbox_1000": [
+      183,
+      743,
+      325,
+      762
+    ],
+    "context": "INORGANIC SUBSTRATE (should add up to Diameter",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r10_c3",
+    "row": 10,
+    "col": 3,
+    "bbox_1000": [
+      325,
+      743,
+      456,
+      762
+    ],
+    "context": "100%) % Composition in Sampling Reach",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r11_c3",
+    "row": 11,
+    "col": 3,
+    "bbox_1000": [
+      325,
+      762,
+      456,
+      780
+    ],
+    "context": "100%) % Composition in Sampling Reach",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r12_c3",
+    "row": 12,
+    "col": 3,
+    "bbox_1000": [
+      325,
+      780,
+      456,
+      798
+    ],
+    "context": "100%) % Composition in Sampling Reach",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r13_c3",
+    "row": 13,
+    "col": 3,
+    "bbox_1000": [
+      325,
+      798,
+      456,
+      816
+    ],
+    "context": "100%) % Composition in Sampling Reach",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r14_c3",
+    "row": 14,
+    "col": 3,
+    "bbox_1000": [
+      325,
+      816,
+      456,
+      834
+    ],
+    "context": "100%) % Composition in Sampling Reach",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r15_c3",
+    "row": 15,
+    "col": 3,
+    "bbox_1000": [
+      325,
+      834,
+      456,
+      853
+    ],
+    "context": "100%) % Composition in Sampling Reach",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r16_c3",
+    "row": 16,
+    "col": 3,
+    "bbox_1000": [
+      325,
+      853,
+      456,
+      870
+    ],
+    "context": "100%) % Composition in Sampling Reach",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r10_c6",
+    "row": 10,
+    "col": 6,
+    "bbox_1000": [
+      694,
+      743,
+      853,
+      780
+    ],
+    "context": "up to 100%) % Composition in Sampling Area",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r12_c6",
+    "row": 12,
+    "col": 6,
+    "bbox_1000": [
+      694,
+      780,
+      853,
+      816
+    ],
+    "context": "up to 100%) % Composition in Sampling Area",
+    "image_index": 0
+  },
+  {
+    "cell_id": "r14_c6",
+    "row": 14,
+    "col": 6,
+    "bbox_1000": [
+      694,
+      816,
+      853,
+      870
+    ],
+    "context": "up to 100%) % Composition in Sampling Area",
+    "image_index": 0
+  }
+]

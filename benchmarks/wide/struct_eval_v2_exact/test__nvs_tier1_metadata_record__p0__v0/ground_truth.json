@@ -1,0 +1,285 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nvs_tier1_metadata_record.pdf",
+  "page": 1,
+  "page_size_points": [
+    595.0,
+    842.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 29,
+      "col": 10,
+      "bbox_points": [
+        193.98,
+        576.047,
+        268.68,
+        585.48
+      ],
+      "bbox_norm": [
+        0.326017,
+        0.684141,
+        0.451563,
+        0.695344
+      ],
+      "source": "printed",
+      "value": "Method",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 13,
+      "bbox_points": [
+        279.48,
+        576.047,
+        318.6,
+        585.48
+      ],
+      "bbox_norm": [
+        0.469714,
+        0.684141,
+        0.535462,
+        0.695344
+      ],
+      "source": "printed",
+      "value": "hh:mm",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 16,
+      "bbox_points": [
+        329.4,
+        576.047,
+        354.54,
+        585.48
+      ],
+      "bbox_norm": [
+        0.553613,
+        0.684141,
+        0.595866,
+        0.695344
+      ],
+      "source": "printed",
+      "value": "People",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 22,
+      "bbox_points": [
+        464.28,
+        576.047,
+        498.48,
+        585.48
+      ],
+      "bbox_norm": [
+        0.780303,
+        0.684141,
+        0.837782,
+        0.695344
+      ],
+      "source": "printed",
+      "value": "hh:mm",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 25,
+      "bbox_points": [
+        509.28,
+        576.047,
+        543.42,
+        585.48
+      ],
+      "bbox_norm": [
+        0.855933,
+        0.684141,
+        0.913311,
+        0.695344
+      ],
+      "source": "printed",
+      "value": "People",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 3,
+      "bbox_points": [
+        37.8,
+        593.635,
+        120.78,
+        603.3
+      ],
+      "bbox_norm": [
+        0.063529,
+        0.70503,
+        0.202992,
+        0.716508
+      ],
+      "source": "printed",
+      "value": "Travel method / time",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 6,
+      "bbox_points": [
+        131.58,
+        593.635,
+        167.58,
+        603.3
+      ],
+      "bbox_norm": [
+        0.221143,
+        0.70503,
+        0.281647,
+        0.716508
+      ],
+      "source": "printed",
+      "value": "hh:mm",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 19,
+      "bbox_points": [
+        377.941,
+        611.345,
+        453.48,
+        630.6
+      ],
+      "bbox_norm": [
+        0.635196,
+        0.726063,
+        0.762151,
+        0.748931
+      ],
+      "source": "printed",
+      "value": "samples Non-vascular collection",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 19,
+      "bbox_points": [
+        377.941,
+        630.6,
+        453.48,
+        649.73
+      ],
+      "bbox_norm": [
+        0.635196,
+        0.748931,
+        0.762151,
+        0.771651
+      ],
+      "source": "printed",
+      "value": "Soil samples",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 19,
+      "bbox_points": [
+        377.941,
+        649.73,
+        453.48,
+        667.49
+      ],
+      "bbox_norm": [
+        0.635196,
+        0.771651,
+        0.762151,
+        0.792743
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 19,
+      "bbox_points": [
+        377.941,
+        667.49,
+        453.48,
+        692.46
+      ],
+      "bbox_norm": [
+        0.635196,
+        0.792743,
+        0.762151,
+        0.822399
+      ],
+      "source": "printed",
+      "value": "Recce back 2x2",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 19,
+      "bbox_points": [
+        377.941,
+        692.46,
+        453.48,
+        717.41
+      ],
+      "bbox_norm": [
+        0.635196,
+        0.822399,
+        0.762151,
+        0.852031
+      ],
+      "source": "printed",
+      "value": "Recce back 5x5",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 19,
+      "bbox_points": [
+        377.941,
+        717.41,
+        453.48,
+        742.37
+      ],
+      "bbox_norm": [
+        0.635196,
+        0.852031,
+        0.762151,
+        0.881675
+      ],
+      "source": "printed",
+      "value": "Recce back 10x10",
+      "mark": "text",
+      "value_kind": "printed"
+    }
+  ]
+}

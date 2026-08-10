@@ -1,0 +1,3816 @@
+{
+  "version": "formidable-review-v1",
+  "route": {
+    "status": "known_template",
+    "evidence": "caller supplied"
+  },
+  "policy": {
+    "literal_transcription_is_immutable": true,
+    "peer_readers_select_review_regions_not_replacements": true,
+    "ecology_suggestions_are_separate": true
+  },
+  "readers": {
+    "primary": {
+      "tag": "gemini36_page_v1",
+      "provider": null,
+      "model": "gemini-3.6-flash",
+      "mode": "page",
+      "cost_usd": 0.04504,
+      "latency_s": 17.0
+    },
+    "peer": {
+      "tag": "claude_sonnet5_page_v1",
+      "model": "claude_sonnet5_page_v1",
+      "cost_usd": null,
+      "latency_s": null
+    }
+  },
+  "summary": {
+    "target_cells_including_blanks": 120,
+    "reader_disagreements": 3,
+    "low_confidence_primary": 0,
+    "transcription_review_cells": 3,
+    "ecology_findings": 0
+  },
+  "cells": [
+    {
+      "id": "r2_c0",
+      "page": 1,
+      "source_cell_id": "r2_c0",
+      "xlsx_row": 3,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.35,
+        0.162,
+        0.372
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": "HBCA",
+      "primary": {
+        "value": "HBCA",
+        "confidence": 0.88,
+        "evidence": "HBCA",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "HBCA",
+        "confidence": 0.6,
+        "evidence": "handwritten alpha code row1",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r2_c1",
+      "page": 1,
+      "source_cell_id": "r2_c1",
+      "xlsx_row": 3,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.35,
+        0.294,
+        0.372
+      ],
+      "context": "Within 50m",
+      "presented_value": "f",
+      "primary": {
+        "value": "f",
+        "confidence": 0.88,
+        "evidence": "f",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "f",
+        "confidence": 0.7,
+        "evidence": "lowercase f",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r2_c3",
+      "page": 1,
+      "source_cell_id": "r2_c3",
+      "xlsx_row": 3,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.35,
+        0.427,
+        0.372
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "X",
+      "primary": {
+        "value": "X",
+        "confidence": 0.96,
+        "evidence": "X",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "X",
+        "confidence": 0.9,
+        "evidence": "X mark",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r2_c4",
+      "page": 1,
+      "source_cell_id": "r2_c4",
+      "xlsx_row": 3,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.35,
+        0.559,
+        0.372
+      ],
+      "context": "Within 50m",
+      "presented_value": "T",
+      "primary": {
+        "value": "T",
+        "confidence": 0.94,
+        "evidence": "T",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "T",
+        "confidence": 0.9,
+        "evidence": "capital T",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r2_c5",
+      "page": 1,
+      "source_cell_id": "r2_c5",
+      "xlsx_row": 3,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.35,
+        0.691,
+        0.372
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "C",
+      "primary": {
+        "value": "C",
+        "confidence": 0.91,
+        "evidence": "C",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "C",
+        "confidence": 0.8,
+        "evidence": "C mark",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r2_c6",
+      "page": 1,
+      "source_cell_id": "r2_c6",
+      "xlsx_row": 3,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.35,
+        0.956,
+        0.372
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": "climber load",
+      "primary": {
+        "value": "climber load",
+        "confidence": 0.93,
+        "evidence": "climber load",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "climber load",
+        "confidence": 0.8,
+        "evidence": "comment text",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r3_c0",
+      "page": 1,
+      "source_cell_id": "r3_c0",
+      "xlsx_row": 4,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.372,
+        0.162,
+        0.396
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": "BUFS",
+      "primary": {
+        "value": "BUFS",
+        "confidence": 0.94,
+        "evidence": "BUFS",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "BUFS",
+        "confidence": 0.6,
+        "evidence": "handwritten alpha code row2",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r3_c1",
+      "page": 1,
+      "source_cell_id": "r3_c1",
+      "xlsx_row": 4,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.372,
+        0.294,
+        0.396
+      ],
+      "context": "Within 50m",
+      "presented_value": "y",
+      "primary": {
+        "value": "y",
+        "confidence": 0.9,
+        "evidence": "y",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "Y",
+        "confidence": 0.8,
+        "evidence": "capital Y",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r3_c3",
+      "page": 1,
+      "source_cell_id": "r3_c3",
+      "xlsx_row": 4,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.372,
+        0.427,
+        0.396
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "m",
+      "primary": {
+        "value": "m",
+        "confidence": 0.95,
+        "evidence": "m",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "M",
+        "confidence": 0.8,
+        "evidence": "capital M",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r3_c4",
+      "page": 1,
+      "source_cell_id": "r3_c4",
+      "xlsx_row": 4,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.372,
+        0.559,
+        0.396
+      ],
+      "context": "Within 50m",
+      "presented_value": "D",
+      "primary": {
+        "value": "D",
+        "confidence": 0.91,
+        "evidence": "D",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "D",
+        "confidence": 0.8,
+        "evidence": "capital D",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r3_c5",
+      "page": 1,
+      "source_cell_id": "r3_c5",
+      "xlsx_row": 4,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.372,
+        0.691,
+        0.396
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "A",
+      "primary": {
+        "value": "A",
+        "confidence": 0.88,
+        "evidence": "A",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "D",
+        "confidence": 0.8,
+        "evidence": "capital D",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_disagreement",
+      "review_priority": "high",
+      "alternatives": [
+        "D"
+      ],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r3_c6",
+      "page": 1,
+      "source_cell_id": "r3_c6",
+      "xlsx_row": 4,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.372,
+        0.956,
+        0.396
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": "canopy gap",
+      "primary": {
+        "value": "canopy gap",
+        "confidence": 0.94,
+        "evidence": "canopy gap",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "canopy gap",
+        "confidence": 0.8,
+        "evidence": "comment text",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r4_c0",
+      "page": 1,
+      "source_cell_id": "r4_c0",
+      "xlsx_row": 5,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.396,
+        0.162,
+        0.418
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": "NTWL",
+      "primary": {
+        "value": "NTWL",
+        "confidence": 0.95,
+        "evidence": "NTWL",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "NTWL",
+        "confidence": 0.6,
+        "evidence": "handwritten alpha code row3",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r4_c1",
+      "page": 1,
+      "source_cell_id": "r4_c1",
+      "xlsx_row": 5,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.396,
+        0.294,
+        0.418
+      ],
+      "context": "Within 50m",
+      "presented_value": "m",
+      "primary": {
+        "value": "m",
+        "confidence": 0.92,
+        "evidence": "m",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "m",
+        "confidence": 0.7,
+        "evidence": "lowercase m",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r4_c3",
+      "page": 1,
+      "source_cell_id": "r4_c3",
+      "xlsx_row": 5,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.396,
+        0.427,
+        0.418
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "F",
+      "primary": {
+        "value": "F",
+        "confidence": 0.95,
+        "evidence": "F",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "F",
+        "confidence": 0.8,
+        "evidence": "capital F",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r4_c4",
+      "page": 1,
+      "source_cell_id": "r4_c4",
+      "xlsx_row": 5,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.396,
+        0.559,
+        0.418
+      ],
+      "context": "Within 50m",
+      "presented_value": "R",
+      "primary": {
+        "value": "R",
+        "confidence": 0.89,
+        "evidence": "R",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "R",
+        "confidence": 0.7,
+        "evidence": "capital R",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r4_c5",
+      "page": 1,
+      "source_cell_id": "r4_c5",
+      "xlsx_row": 5,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.396,
+        0.691,
+        0.418
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "N",
+      "primary": {
+        "value": "N",
+        "confidence": 0.92,
+        "evidence": "N",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "N",
+        "confidence": 0.8,
+        "evidence": "capital N",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r4_c6",
+      "page": 1,
+      "source_cell_id": "r4_c6",
+      "xlsx_row": 5,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.396,
+        0.956,
+        0.418
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": "leaning",
+      "primary": {
+        "value": "leaning",
+        "confidence": 0.92,
+        "evidence": "leaning",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "leaning",
+        "confidence": 0.6,
+        "evidence": "comment text",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r5_c0",
+      "page": 1,
+      "source_cell_id": "r5_c0",
+      "xlsx_row": 6,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.418,
+        0.162,
+        0.441
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": "YSTJ",
+      "primary": {
+        "value": "YSTJ",
+        "confidence": 0.91,
+        "evidence": "YSTJ",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "JJTJ",
+        "confidence": 0.5,
+        "evidence": "handwritten alpha code row4",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_disagreement",
+      "review_priority": "high",
+      "alternatives": [
+        "JJTJ"
+      ],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r5_c1",
+      "page": 1,
+      "source_cell_id": "r5_c1",
+      "xlsx_row": 6,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.418,
+        0.294,
+        0.441
+      ],
+      "context": "Within 50m",
+      "presented_value": "X",
+      "primary": {
+        "value": "X",
+        "confidence": 0.95,
+        "evidence": "X",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "X",
+        "confidence": 0.8,
+        "evidence": "X mark",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r5_c3",
+      "page": 1,
+      "source_cell_id": "r5_c3",
+      "xlsx_row": 6,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.418,
+        0.427,
+        0.441
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "R",
+      "primary": {
+        "value": "R",
+        "confidence": 0.91,
+        "evidence": "R",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "R",
+        "confidence": 0.7,
+        "evidence": "capital R",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r5_c4",
+      "page": 1,
+      "source_cell_id": "r5_c4",
+      "xlsx_row": 6,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.418,
+        0.559,
+        0.441
+      ],
+      "context": "Within 50m",
+      "presented_value": "X",
+      "primary": {
+        "value": "X",
+        "confidence": 0.96,
+        "evidence": "X",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "X",
+        "confidence": 0.8,
+        "evidence": "X mark",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r5_c5",
+      "page": 1,
+      "source_cell_id": "r5_c5",
+      "xlsx_row": 6,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.418,
+        0.691,
+        0.441
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "S",
+      "primary": {
+        "value": "S",
+        "confidence": 0.94,
+        "evidence": "S",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "S",
+        "confidence": 0.8,
+        "evidence": "capital S",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r5_c6",
+      "page": 1,
+      "source_cell_id": "r5_c6",
+      "xlsx_row": 6,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.418,
+        0.956,
+        0.441
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": "leaning",
+      "primary": {
+        "value": "leaning",
+        "confidence": 0.9,
+        "evidence": "leaning",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "leaning",
+        "confidence": 0.6,
+        "evidence": "comment text",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r6_c0",
+      "page": 1,
+      "source_cell_id": "r6_c0",
+      "xlsx_row": 7,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.441,
+        0.162,
+        0.463
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.97,
+        "evidence": "struck through",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank underline, no alpha code entered",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r6_c1",
+      "page": 1,
+      "source_cell_id": "r6_c1",
+      "xlsx_row": 7,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.441,
+        0.294,
+        0.463
+      ],
+      "context": "Within 50m",
+      "presented_value": "R",
+      "primary": {
+        "value": "R",
+        "confidence": 0.94,
+        "evidence": "R",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "R",
+        "confidence": 0.7,
+        "evidence": "capital R",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r6_c3",
+      "page": 1,
+      "source_cell_id": "r6_c3",
+      "xlsx_row": 7,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.441,
+        0.427,
+        0.463
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "1",
+      "primary": {
+        "value": "1",
+        "confidence": 0.89,
+        "evidence": "1",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "Y",
+        "confidence": 0.8,
+        "evidence": "capital Y",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_disagreement",
+      "review_priority": "high",
+      "alternatives": [
+        "Y"
+      ],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r6_c4",
+      "page": 1,
+      "source_cell_id": "r6_c4",
+      "xlsx_row": 7,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.441,
+        0.559,
+        0.463
+      ],
+      "context": "Within 50m",
+      "presented_value": "R",
+      "primary": {
+        "value": "R",
+        "confidence": 0.93,
+        "evidence": "R",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "R",
+        "confidence": 0.7,
+        "evidence": "capital R",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r6_c5",
+      "page": 1,
+      "source_cell_id": "r6_c5",
+      "xlsx_row": 7,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.441,
+        0.691,
+        0.463
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "D",
+      "primary": {
+        "value": "D",
+        "confidence": 0.93,
+        "evidence": "D",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "D",
+        "confidence": 0.8,
+        "evidence": "capital D",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r6_c6",
+      "page": 1,
+      "source_cell_id": "r6_c6",
+      "xlsx_row": 7,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.441,
+        0.956,
+        0.463
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": "top broken",
+      "primary": {
+        "value": "top broken",
+        "confidence": 0.95,
+        "evidence": "top broken",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "top broken",
+        "confidence": 0.8,
+        "evidence": "comment text",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r7_c0",
+      "page": 1,
+      "source_cell_id": "r7_c0",
+      "xlsx_row": 8,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.463,
+        0.162,
+        0.487
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": "NRYN",
+      "primary": {
+        "value": "NRYN",
+        "confidence": 0.94,
+        "evidence": "NRYN",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "NRYN",
+        "confidence": 0.6,
+        "evidence": "handwritten alpha code row6",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r7_c1",
+      "page": 1,
+      "source_cell_id": "r7_c1",
+      "xlsx_row": 8,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.463,
+        0.294,
+        0.487
+      ],
+      "context": "Within 50m",
+      "presented_value": "D",
+      "primary": {
+        "value": "D",
+        "confidence": 0.93,
+        "evidence": "D",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "D",
+        "confidence": 0.8,
+        "evidence": "capital D",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r7_c3",
+      "page": 1,
+      "source_cell_id": "r7_c3",
+      "xlsx_row": 8,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.463,
+        0.427,
+        0.487
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "L",
+      "primary": {
+        "value": "L",
+        "confidence": 0.94,
+        "evidence": "L",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "L",
+        "confidence": 0.8,
+        "evidence": "capital L",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r7_c4",
+      "page": 1,
+      "source_cell_id": "r7_c4",
+      "xlsx_row": 8,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.463,
+        0.559,
+        0.487
+      ],
+      "context": "Within 50m",
+      "presented_value": "m",
+      "primary": {
+        "value": "m",
+        "confidence": 0.93,
+        "evidence": "m",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "m",
+        "confidence": 0.7,
+        "evidence": "lowercase m",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r7_c5",
+      "page": 1,
+      "source_cell_id": "r7_c5",
+      "xlsx_row": 8,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.463,
+        0.691,
+        0.487
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "T",
+      "primary": {
+        "value": "T",
+        "confidence": 0.95,
+        "evidence": "T",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "T",
+        "confidence": 0.8,
+        "evidence": "capital T",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r7_c6",
+      "page": 1,
+      "source_cell_id": "r7_c6",
+      "xlsx_row": 8,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.463,
+        0.956,
+        0.487
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": "bark peeled",
+      "primary": {
+        "value": "bark peeled",
+        "confidence": 0.95,
+        "evidence": "bark peeled",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "bark peeled",
+        "confidence": 0.8,
+        "evidence": "comment text",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r8_c0",
+      "page": 1,
+      "source_cell_id": "r8_c0",
+      "xlsx_row": 9,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.487,
+        0.162,
+        0.509
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": "GCWN",
+      "primary": {
+        "value": "GCWN",
+        "confidence": 0.91,
+        "evidence": "GCWN",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "GCWN",
+        "confidence": 0.6,
+        "evidence": "handwritten alpha code row7",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r8_c1",
+      "page": 1,
+      "source_cell_id": "r8_c1",
+      "xlsx_row": 9,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.487,
+        0.294,
+        0.509
+      ],
+      "context": "Within 50m",
+      "presented_value": "C",
+      "primary": {
+        "value": "C",
+        "confidence": 0.92,
+        "evidence": "C",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "C",
+        "confidence": 0.8,
+        "evidence": "capital C",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r8_c3",
+      "page": 1,
+      "source_cell_id": "r8_c3",
+      "xlsx_row": 9,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.487,
+        0.427,
+        0.509
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "S",
+      "primary": {
+        "value": "S",
+        "confidence": 0.94,
+        "evidence": "S",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "S",
+        "confidence": 0.8,
+        "evidence": "capital S",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r8_c4",
+      "page": 1,
+      "source_cell_id": "r8_c4",
+      "xlsx_row": 9,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.487,
+        0.559,
+        0.509
+      ],
+      "context": "Within 50m",
+      "presented_value": "f",
+      "primary": {
+        "value": "f",
+        "confidence": 0.91,
+        "evidence": "f",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "f",
+        "confidence": 0.7,
+        "evidence": "lowercase f",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r8_c5",
+      "page": 1,
+      "source_cell_id": "r8_c5",
+      "xlsx_row": 9,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.487,
+        0.691,
+        0.509
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "X",
+      "primary": {
+        "value": "X",
+        "confidence": 0.96,
+        "evidence": "X",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "X",
+        "confidence": 0.8,
+        "evidence": "X mark",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r8_c6",
+      "page": 1,
+      "source_cell_id": "r8_c6",
+      "xlsx_row": 9,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.487,
+        0.956,
+        0.509
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": "leaning",
+      "primary": {
+        "value": "leaning",
+        "confidence": 0.92,
+        "evidence": "leaning",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "leaning",
+        "confidence": 0.6,
+        "evidence": "comment text",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r9_c0",
+      "page": 1,
+      "source_cell_id": "r9_c0",
+      "xlsx_row": 10,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.509,
+        0.162,
+        0.532
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": "MMVM",
+      "primary": {
+        "value": "MMVM",
+        "confidence": 0.88,
+        "evidence": "MMVM",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "mmvm",
+        "confidence": 0.5,
+        "evidence": "handwritten alpha code row8",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r9_c1",
+      "page": 1,
+      "source_cell_id": "r9_c1",
+      "xlsx_row": 10,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.509,
+        0.294,
+        0.532
+      ],
+      "context": "Within 50m",
+      "presented_value": "m",
+      "primary": {
+        "value": "m",
+        "confidence": 0.93,
+        "evidence": "m",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "m",
+        "confidence": 0.7,
+        "evidence": "lowercase m",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r9_c3",
+      "page": 1,
+      "source_cell_id": "r9_c3",
+      "xlsx_row": 10,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.509,
+        0.427,
+        0.532
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "D",
+      "primary": {
+        "value": "D",
+        "confidence": 0.93,
+        "evidence": "D",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "D",
+        "confidence": 0.8,
+        "evidence": "capital D",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r9_c4",
+      "page": 1,
+      "source_cell_id": "r9_c4",
+      "xlsx_row": 10,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.509,
+        0.559,
+        0.532
+      ],
+      "context": "Within 50m",
+      "presented_value": "f",
+      "primary": {
+        "value": "f",
+        "confidence": 0.93,
+        "evidence": "f",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "f",
+        "confidence": 0.7,
+        "evidence": "lowercase f",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r9_c5",
+      "page": 1,
+      "source_cell_id": "r9_c5",
+      "xlsx_row": 10,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.509,
+        0.691,
+        0.532
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "T",
+      "primary": {
+        "value": "T",
+        "confidence": 0.95,
+        "evidence": "T",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "T",
+        "confidence": 0.8,
+        "evidence": "capital T",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r9_c6",
+      "page": 1,
+      "source_cell_id": "r9_c6",
+      "xlsx_row": 10,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.509,
+        0.956,
+        0.532
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": "climber load",
+      "primary": {
+        "value": "climber load",
+        "confidence": 0.95,
+        "evidence": "climber load",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "climber load",
+        "confidence": 0.8,
+        "evidence": "comment text",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r10_c0",
+      "page": 1,
+      "source_cell_id": "r10_c0",
+      "xlsx_row": 11,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.532,
+        0.162,
+        0.555
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": "VTCR",
+      "primary": {
+        "value": "VTCR",
+        "confidence": 0.92,
+        "evidence": "VTCR",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "VTCR",
+        "confidence": 0.6,
+        "evidence": "handwritten alpha code row9",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r10_c1",
+      "page": 1,
+      "source_cell_id": "r10_c1",
+      "xlsx_row": 11,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.532,
+        0.294,
+        0.555
+      ],
+      "context": "Within 50m",
+      "presented_value": "L",
+      "primary": {
+        "value": "L",
+        "confidence": 0.94,
+        "evidence": "L",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "L",
+        "confidence": 0.8,
+        "evidence": "capital L",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r10_c3",
+      "page": 1,
+      "source_cell_id": "r10_c3",
+      "xlsx_row": 11,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.532,
+        0.427,
+        0.555
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "m",
+      "primary": {
+        "value": "m",
+        "confidence": 0.93,
+        "evidence": "m",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "m",
+        "confidence": 0.7,
+        "evidence": "lowercase m",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r10_c4",
+      "page": 1,
+      "source_cell_id": "r10_c4",
+      "xlsx_row": 11,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.532,
+        0.559,
+        0.555
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.8,
+        "evidence": "cell left blank",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r10_c5",
+      "page": 1,
+      "source_cell_id": "r10_c5",
+      "xlsx_row": 11,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.532,
+        0.691,
+        0.555
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": "L",
+      "primary": {
+        "value": "L",
+        "confidence": 0.95,
+        "evidence": "L",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "L",
+        "confidence": 0.8,
+        "evidence": "capital L",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r10_c6",
+      "page": 1,
+      "source_cell_id": "r10_c6",
+      "xlsx_row": 11,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.532,
+        0.956,
+        0.555
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": "browsed by deer",
+      "primary": {
+        "value": "browsed by deer",
+        "confidence": 0.95,
+        "evidence": "browsed by deer",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": "browsed by deer",
+        "confidence": 0.8,
+        "evidence": "comment text",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r11_c0",
+      "page": 1,
+      "source_cell_id": "r11_c0",
+      "xlsx_row": 12,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.555,
+        0.162,
+        0.577
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r11_c1",
+      "page": 1,
+      "source_cell_id": "r11_c1",
+      "xlsx_row": 12,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.555,
+        0.294,
+        0.577
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r11_c3",
+      "page": 1,
+      "source_cell_id": "r11_c3",
+      "xlsx_row": 12,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.555,
+        0.427,
+        0.577
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r11_c4",
+      "page": 1,
+      "source_cell_id": "r11_c4",
+      "xlsx_row": 12,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.555,
+        0.559,
+        0.577
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r11_c5",
+      "page": 1,
+      "source_cell_id": "r11_c5",
+      "xlsx_row": 12,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.555,
+        0.691,
+        0.577
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r11_c6",
+      "page": 1,
+      "source_cell_id": "r11_c6",
+      "xlsx_row": 12,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.555,
+        0.956,
+        0.577
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r12_c0",
+      "page": 1,
+      "source_cell_id": "r12_c0",
+      "xlsx_row": 13,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.577,
+        0.162,
+        0.6
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r12_c1",
+      "page": 1,
+      "source_cell_id": "r12_c1",
+      "xlsx_row": 13,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.577,
+        0.294,
+        0.6
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r12_c3",
+      "page": 1,
+      "source_cell_id": "r12_c3",
+      "xlsx_row": 13,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.577,
+        0.427,
+        0.6
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r12_c4",
+      "page": 1,
+      "source_cell_id": "r12_c4",
+      "xlsx_row": 13,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.577,
+        0.559,
+        0.6
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r12_c5",
+      "page": 1,
+      "source_cell_id": "r12_c5",
+      "xlsx_row": 13,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.577,
+        0.691,
+        0.6
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r12_c6",
+      "page": 1,
+      "source_cell_id": "r12_c6",
+      "xlsx_row": 13,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.577,
+        0.956,
+        0.6
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r13_c0",
+      "page": 1,
+      "source_cell_id": "r13_c0",
+      "xlsx_row": 14,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.6,
+        0.162,
+        0.623
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r13_c1",
+      "page": 1,
+      "source_cell_id": "r13_c1",
+      "xlsx_row": 14,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.6,
+        0.294,
+        0.623
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r13_c3",
+      "page": 1,
+      "source_cell_id": "r13_c3",
+      "xlsx_row": 14,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.6,
+        0.427,
+        0.623
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r13_c4",
+      "page": 1,
+      "source_cell_id": "r13_c4",
+      "xlsx_row": 14,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.6,
+        0.559,
+        0.623
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r13_c5",
+      "page": 1,
+      "source_cell_id": "r13_c5",
+      "xlsx_row": 14,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.6,
+        0.691,
+        0.623
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r13_c6",
+      "page": 1,
+      "source_cell_id": "r13_c6",
+      "xlsx_row": 14,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.6,
+        0.956,
+        0.623
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r14_c0",
+      "page": 1,
+      "source_cell_id": "r14_c0",
+      "xlsx_row": 15,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.623,
+        0.162,
+        0.645
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r14_c1",
+      "page": 1,
+      "source_cell_id": "r14_c1",
+      "xlsx_row": 15,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.623,
+        0.294,
+        0.645
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r14_c3",
+      "page": 1,
+      "source_cell_id": "r14_c3",
+      "xlsx_row": 15,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.623,
+        0.427,
+        0.645
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r14_c4",
+      "page": 1,
+      "source_cell_id": "r14_c4",
+      "xlsx_row": 15,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.623,
+        0.559,
+        0.645
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r14_c5",
+      "page": 1,
+      "source_cell_id": "r14_c5",
+      "xlsx_row": 15,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.623,
+        0.691,
+        0.645
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r14_c6",
+      "page": 1,
+      "source_cell_id": "r14_c6",
+      "xlsx_row": 15,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.623,
+        0.956,
+        0.645
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r15_c0",
+      "page": 1,
+      "source_cell_id": "r15_c0",
+      "xlsx_row": 16,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.645,
+        0.162,
+        0.668
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r15_c1",
+      "page": 1,
+      "source_cell_id": "r15_c1",
+      "xlsx_row": 16,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.645,
+        0.294,
+        0.668
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r15_c3",
+      "page": 1,
+      "source_cell_id": "r15_c3",
+      "xlsx_row": 16,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.645,
+        0.427,
+        0.668
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r15_c4",
+      "page": 1,
+      "source_cell_id": "r15_c4",
+      "xlsx_row": 16,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.645,
+        0.559,
+        0.668
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r15_c5",
+      "page": 1,
+      "source_cell_id": "r15_c5",
+      "xlsx_row": 16,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.645,
+        0.691,
+        0.668
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r15_c6",
+      "page": 1,
+      "source_cell_id": "r15_c6",
+      "xlsx_row": 16,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.645,
+        0.956,
+        0.668
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r16_c0",
+      "page": 1,
+      "source_cell_id": "r16_c0",
+      "xlsx_row": 17,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.668,
+        0.162,
+        0.691
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r16_c1",
+      "page": 1,
+      "source_cell_id": "r16_c1",
+      "xlsx_row": 17,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.668,
+        0.294,
+        0.691
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r16_c3",
+      "page": 1,
+      "source_cell_id": "r16_c3",
+      "xlsx_row": 17,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.668,
+        0.427,
+        0.691
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r16_c4",
+      "page": 1,
+      "source_cell_id": "r16_c4",
+      "xlsx_row": 17,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.668,
+        0.559,
+        0.691
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r16_c5",
+      "page": 1,
+      "source_cell_id": "r16_c5",
+      "xlsx_row": 17,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.668,
+        0.691,
+        0.691
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r16_c6",
+      "page": 1,
+      "source_cell_id": "r16_c6",
+      "xlsx_row": 17,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.668,
+        0.956,
+        0.691
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r17_c0",
+      "page": 1,
+      "source_cell_id": "r17_c0",
+      "xlsx_row": 18,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.691,
+        0.162,
+        0.714
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r17_c1",
+      "page": 1,
+      "source_cell_id": "r17_c1",
+      "xlsx_row": 18,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.691,
+        0.294,
+        0.714
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r17_c3",
+      "page": 1,
+      "source_cell_id": "r17_c3",
+      "xlsx_row": 18,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.691,
+        0.427,
+        0.714
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r17_c4",
+      "page": 1,
+      "source_cell_id": "r17_c4",
+      "xlsx_row": 18,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.691,
+        0.559,
+        0.714
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r17_c5",
+      "page": 1,
+      "source_cell_id": "r17_c5",
+      "xlsx_row": 18,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.691,
+        0.691,
+        0.714
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r17_c6",
+      "page": 1,
+      "source_cell_id": "r17_c6",
+      "xlsx_row": 18,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.691,
+        0.956,
+        0.714
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r18_c0",
+      "page": 1,
+      "source_cell_id": "r18_c0",
+      "xlsx_row": 19,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.714,
+        0.162,
+        0.736
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r18_c1",
+      "page": 1,
+      "source_cell_id": "r18_c1",
+      "xlsx_row": 19,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.714,
+        0.294,
+        0.736
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r18_c3",
+      "page": 1,
+      "source_cell_id": "r18_c3",
+      "xlsx_row": 19,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.714,
+        0.427,
+        0.736
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r18_c4",
+      "page": 1,
+      "source_cell_id": "r18_c4",
+      "xlsx_row": 19,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.714,
+        0.559,
+        0.736
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r18_c5",
+      "page": 1,
+      "source_cell_id": "r18_c5",
+      "xlsx_row": 19,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.714,
+        0.691,
+        0.736
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r18_c6",
+      "page": 1,
+      "source_cell_id": "r18_c6",
+      "xlsx_row": 19,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.714,
+        0.956,
+        0.736
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r19_c0",
+      "page": 1,
+      "source_cell_id": "r19_c0",
+      "xlsx_row": 20,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.736,
+        0.162,
+        0.759
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r19_c1",
+      "page": 1,
+      "source_cell_id": "r19_c1",
+      "xlsx_row": 20,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.736,
+        0.294,
+        0.759
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r19_c3",
+      "page": 1,
+      "source_cell_id": "r19_c3",
+      "xlsx_row": 20,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.736,
+        0.427,
+        0.759
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r19_c4",
+      "page": 1,
+      "source_cell_id": "r19_c4",
+      "xlsx_row": 20,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.736,
+        0.559,
+        0.759
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r19_c5",
+      "page": 1,
+      "source_cell_id": "r19_c5",
+      "xlsx_row": 20,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.736,
+        0.691,
+        0.759
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r19_c6",
+      "page": 1,
+      "source_cell_id": "r19_c6",
+      "xlsx_row": 20,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.736,
+        0.956,
+        0.759
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r20_c0",
+      "page": 1,
+      "source_cell_id": "r20_c0",
+      "xlsx_row": 21,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.759,
+        0.162,
+        0.782
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r20_c1",
+      "page": 1,
+      "source_cell_id": "r20_c1",
+      "xlsx_row": 21,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.759,
+        0.294,
+        0.782
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r20_c3",
+      "page": 1,
+      "source_cell_id": "r20_c3",
+      "xlsx_row": 21,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.759,
+        0.427,
+        0.782
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r20_c4",
+      "page": 1,
+      "source_cell_id": "r20_c4",
+      "xlsx_row": 21,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.759,
+        0.559,
+        0.782
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r20_c5",
+      "page": 1,
+      "source_cell_id": "r20_c5",
+      "xlsx_row": 21,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.759,
+        0.691,
+        0.782
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r20_c6",
+      "page": 1,
+      "source_cell_id": "r20_c6",
+      "xlsx_row": 21,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.759,
+        0.956,
+        0.782
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r21_c0",
+      "page": 1,
+      "source_cell_id": "r21_c0",
+      "xlsx_row": 22,
+      "xlsx_column": 1,
+      "bbox": [
+        0.044,
+        0.782,
+        0.162,
+        0.801
+      ],
+      "context": "ALPHA CODE (enter each bird individually)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r21_c1",
+      "page": 1,
+      "source_cell_id": "r21_c1",
+      "xlsx_row": 22,
+      "xlsx_column": 2,
+      "bbox": [
+        0.162,
+        0.782,
+        0.294,
+        0.801
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r21_c3",
+      "page": 1,
+      "source_cell_id": "r21_c3",
+      "xlsx_row": 22,
+      "xlsx_column": 4,
+      "bbox": [
+        0.294,
+        0.782,
+        0.427,
+        0.801
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r21_c4",
+      "page": 1,
+      "source_cell_id": "r21_c4",
+      "xlsx_row": 22,
+      "xlsx_column": 5,
+      "bbox": [
+        0.427,
+        0.782,
+        0.559,
+        0.801
+      ],
+      "context": "Within 50m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r21_c5",
+      "page": 1,
+      "source_cell_id": "r21_c5",
+      "xlsx_row": 22,
+      "xlsx_column": 6,
+      "bbox": [
+        0.559,
+        0.782,
+        0.691,
+        0.801
+      ],
+      "context": "Between 50m - 100m",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    },
+    {
+      "id": "r21_c6",
+      "page": 1,
+      "source_cell_id": "r21_c6",
+      "xlsx_row": 22,
+      "xlsx_column": 7,
+      "bbox": [
+        0.691,
+        0.782,
+        0.956,
+        0.801
+      ],
+      "context": "COMMENTS (breeding behavior, carrying food/nesting material, territorial aggression, etc.)",
+      "presented_value": null,
+      "primary": {
+        "value": null,
+        "confidence": 0.9,
+        "evidence": "blank",
+        "model": "gemini-3.6-flash"
+      },
+      "peer": {
+        "value": null,
+        "confidence": 0.95,
+        "evidence": "empty row",
+        "model": "claude_sonnet5_page_v1"
+      },
+      "status": "reader_agreement",
+      "review_priority": null,
+      "alternatives": [],
+      "policy": "primary literal value retained; alternatives are never auto-applied"
+    }
+  ],
+  "views": {
+    "transcription_attention": [
+      {
+        "cell_id": "r3_c5",
+        "page": 1,
+        "bbox": [
+          0.559,
+          0.372,
+          0.691,
+          0.396
+        ],
+        "priority": "high",
+        "reason": "literal readers disagree",
+        "presented_value": "A",
+        "alternatives": [
+          "D"
+        ]
+      },
+      {
+        "cell_id": "r5_c0",
+        "page": 1,
+        "bbox": [
+          0.044,
+          0.418,
+          0.162,
+          0.441
+        ],
+        "priority": "high",
+        "reason": "literal readers disagree",
+        "presented_value": "YSTJ",
+        "alternatives": [
+          "JJTJ"
+        ]
+      },
+      {
+        "cell_id": "r6_c3",
+        "page": 1,
+        "bbox": [
+          0.294,
+          0.441,
+          0.427,
+          0.463
+        ],
+        "priority": "high",
+        "reason": "literal readers disagree",
+        "presented_value": "1",
+        "alternatives": [
+          "Y"
+        ]
+      }
+    ],
+    "ecology_anomalies": []
+  }
+}

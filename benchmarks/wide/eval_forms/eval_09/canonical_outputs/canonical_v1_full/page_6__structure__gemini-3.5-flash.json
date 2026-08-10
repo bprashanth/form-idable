@@ -1,0 +1,172 @@
+{
+  "page": 1,
+  "metadata_fields": [
+    {
+      "id": "end_time",
+      "label": "End time:",
+      "bbox": [
+        0.112,
+        0.634,
+        0.262,
+        0.665
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "tree_phenology_table",
+      "title": "Tree Phenology Data Table",
+      "bbox": [
+        0.075,
+        0.38,
+        0.912,
+        0.622
+      ],
+      "estimated_rows": 29,
+      "columns": [
+        {
+          "id": "col_tree_no",
+          "label": "Tree No",
+          "parent": null,
+          "value_kind": "integer",
+          "x0": 0.075,
+          "x1": 0.115
+        },
+        {
+          "id": "col_species",
+          "label": "Species",
+          "parent": null,
+          "value_kind": "species",
+          "x0": 0.115,
+          "x1": 0.255
+        },
+        {
+          "id": "col_h",
+          "label": "H (m)",
+          "parent": null,
+          "value_kind": "decimal",
+          "x0": 0.255,
+          "x1": 0.282
+        },
+        {
+          "id": "col_gbh",
+          "label": "GBH (cm)",
+          "parent": null,
+          "value_kind": "integer",
+          "x0": 0.282,
+          "x1": 0.312
+        },
+        {
+          "id": "col_multistem",
+          "label": "Multistem",
+          "parent": null,
+          "value_kind": "free_text",
+          "x0": 0.312,
+          "x1": 0.442
+        },
+        {
+          "id": "col_leaves_flush",
+          "label": "Flush",
+          "parent": "LEAVES",
+          "value_kind": "categorical_code",
+          "x0": 0.442,
+          "x1": 0.485
+        },
+        {
+          "id": "col_leaves_mature",
+          "label": "Mature",
+          "parent": "LEAVES",
+          "value_kind": "categorical_code",
+          "x0": 0.485,
+          "x1": 0.528
+        },
+        {
+          "id": "col_leaves_fallen",
+          "label": "Fallen",
+          "parent": "LEAVES",
+          "value_kind": "yes_no",
+          "x0": 0.528,
+          "x1": 0.575
+        },
+        {
+          "id": "col_flowers_buds",
+          "label": "Buds",
+          "parent": "FLOWERS",
+          "value_kind": "categorical_code",
+          "x0": 0.575,
+          "x1": 0.612
+        },
+        {
+          "id": "col_flowers_open",
+          "label": "Open",
+          "parent": "FLOWERS",
+          "value_kind": "categorical_code",
+          "x0": 0.612,
+          "x1": 0.648
+        },
+        {
+          "id": "col_flowers_fallen",
+          "label": "Fallen",
+          "parent": "FLOWERS",
+          "value_kind": "yes_no",
+          "x0": 0.648,
+          "x1": 0.685
+        },
+        {
+          "id": "col_fruits_unripe",
+          "label": "Unripe",
+          "parent": "FRUITS",
+          "value_kind": "categorical_code",
+          "x0": 0.685,
+          "x1": 0.728
+        },
+        {
+          "id": "col_fruits_ripe",
+          "label": "Ripe",
+          "parent": "FRUITS",
+          "value_kind": "categorical_code",
+          "x0": 0.728,
+          "x1": 0.768
+        },
+        {
+          "id": "col_fruits_fallen",
+          "label": "Fallen",
+          "parent": "FRUITS",
+          "value_kind": "yes_no",
+          "x0": 0.768,
+          "x1": 0.812
+        },
+        {
+          "id": "col_notes",
+          "label": "Notes",
+          "parent": null,
+          "value_kind": "free_text",
+          "x0": 0.812,
+          "x1": 0.912
+        }
+      ]
+    }
+  ],
+  "free_text_regions": [
+    {
+      "id": "instructions_score",
+      "label": "Score instructions for Leaves, Flowers, Fruits",
+      "bbox": [
+        0.112,
+        0.672,
+        0.485,
+        0.805
+      ]
+    },
+    {
+      "id": "instructions_special_codes",
+      "label": "Special codes and Fallen score instructions",
+      "bbox": [
+        0.515,
+        0.715,
+        0.825,
+        0.79
+      ]
+    }
+  ]
+}

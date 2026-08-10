@@ -1,0 +1,292 @@
+{
+  "cells": [
+    {
+      "cell_id": "r2_c0",
+      "value": "CAJR",
+      "confidence": 0.9,
+      "evidence": "handwritten ALPHA CODE"
+    },
+    {
+      "cell_id": "r2_c1",
+      "value": "F",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r2_c3",
+      "value": "R",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r2_c4",
+      "value": "T",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r2_c5",
+      "value": "S",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r2_c6",
+      "value": "new flush",
+      "confidence": 0.9,
+      "evidence": "handwritten text in COMMENTS"
+    },
+    {
+      "cell_id": "r3_c0",
+      "value": "BRUM",
+      "confidence": 0.9,
+      "evidence": "handwritten ALPHA CODE"
+    },
+    {
+      "cell_id": "r3_c1",
+      "value": "L",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r3_c3",
+      "value": "D",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r3_c4",
+      "value": "R",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r3_c5",
+      "value": "R",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r3_c6",
+      "value": "browsed by deer",
+      "confidence": 0.9,
+      "evidence": "handwritten text in COMMENTS"
+    },
+    {
+      "cell_id": "r4_c0",
+      "value": "AFRM",
+      "confidence": 0.9,
+      "evidence": "handwritten ALPHA CODE"
+    },
+    {
+      "cell_id": "r4_c1",
+      "value": "L",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r4_c3",
+      "value": "M",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r4_c4",
+      "value": "R",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r4_c5",
+      "value": "R",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r4_c6",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "empty cell"
+    },
+    {
+      "cell_id": "r5_c0",
+      "value": "DPDL",
+      "confidence": 0.9,
+      "evidence": "handwritten ALPHA CODE"
+    },
+    {
+      "cell_id": "r5_c1",
+      "value": "M",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r5_c3",
+      "value": "M",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r5_c4",
+      "value": "X",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r5_c5",
+      "value": "D",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r5_c6",
+      "value": "lean/m",
+      "confidence": 0.8,
+      "evidence": "handwritten text in COMMENTS"
+    },
+    {
+      "cell_id": "r6_c0",
+      "value": "UUMA",
+      "confidence": 0.9,
+      "evidence": "handwritten ALPHA CODE"
+    },
+    {
+      "cell_id": "r6_c1",
+      "value": "D",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r6_c3",
+      "value": "F",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r6_c4",
+      "value": "F",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r6_c5",
+      "value": "F",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r6_c6",
+      "value": "dead branch",
+      "confidence": 0.9,
+      "evidence": "handwritten text in COMMENTS"
+    },
+    {
+      "cell_id": "r7_c0",
+      "value": "JYNC",
+      "confidence": 0.9,
+      "evidence": "handwritten ALPHA CODE"
+    },
+    {
+      "cell_id": "r7_c1",
+      "value": "X",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r7_c3",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "empty cell"
+    },
+    {
+      "cell_id": "r7_c4",
+      "value": "X",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r7_c5",
+      "value": "F",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r7_c6",
+      "value": "canopy gap",
+      "confidence": 0.9,
+      "evidence": "handwritten text in COMMENTS"
+    },
+    {
+      "cell_id": "r8_c0",
+      "value": "ANMB",
+      "confidence": 0.9,
+      "evidence": "handwritten ALPHA CODE"
+    },
+    {
+      "cell_id": "r8_c1",
+      "value": "M",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r8_c3",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r8_c4",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "struck through"
+    },
+    {
+      "cell_id": "r8_c5",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "struck through"
+    },
+    {
+      "cell_id": "r8_c6",
+      "value": "dead branch",
+      "confidence": 0.9,
+      "evidence": "handwritten text in COMMENTS"
+    },
+    {
+      "cell_id": "r9_c0",
+      "value": "NWKL",
+      "confidence": 0.9,
+      "evidence": "handwritten ALPHA CODE"
+    },
+    {
+      "cell_id": "r9_c1",
+      "value": "C",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r9_c3",
+      "value": "R",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r9_c4",
+      "value": "R",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r9_c5",
+      "value": "R",
+      "confidence": 0.9,
+      "evidence": "handwritten code"
+    },
+    {
+      "cell_id": "r9_c6",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "empty cell"
+    }
+  ]
+}

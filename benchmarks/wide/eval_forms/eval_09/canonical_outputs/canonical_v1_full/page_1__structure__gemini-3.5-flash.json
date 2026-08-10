@@ -1,0 +1,201 @@
+{
+  "page": 1,
+  "metadata_fields": [
+    {
+      "id": "trail",
+      "label": "Trail",
+      "bbox": [
+        0.115,
+        0.059,
+        0.269,
+        0.078
+      ]
+    },
+    {
+      "id": "date",
+      "label": "Date",
+      "bbox": [
+        0.312,
+        0.054,
+        0.439,
+        0.078
+      ]
+    },
+    {
+      "id": "observers",
+      "label": "Observers",
+      "bbox": [
+        0.462,
+        0.38,
+        0.769,
+        0.072
+      ]
+    },
+    {
+      "id": "weather",
+      "label": "Weather",
+      "bbox": [
+        0.115,
+        0.088,
+        0.24,
+        0.122
+      ]
+    },
+    {
+      "id": "notes",
+      "label": "Notes",
+      "bbox": [
+        0.312,
+        0.088,
+        0.44,
+        0.112
+      ]
+    },
+    {
+      "id": "start_time",
+      "label": "Start time",
+      "bbox": [
+        0.462,
+        0.088,
+        0.62,
+        0.112
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "phenology_table",
+      "title": "Phenology Data Table",
+      "bbox": [
+        0.115,
+        0.118,
+        0.928,
+        0.878
+      ],
+      "estimated_rows": 44,
+      "columns": [
+        {
+          "id": "tree_no",
+          "label": "Tree No",
+          "parent": null,
+          "value_kind": "integer",
+          "x0": 0.115,
+          "x1": 0.15
+        },
+        {
+          "id": "species",
+          "label": "Species",
+          "parent": null,
+          "value_kind": "species",
+          "x0": 0.15,
+          "x1": 0.285
+        },
+        {
+          "id": "h_m",
+          "label": "H (m)",
+          "parent": null,
+          "value_kind": "decimal",
+          "x0": 0.285,
+          "x1": 0.308
+        },
+        {
+          "id": "gbh_cm",
+          "label": "GBH (cm)",
+          "parent": null,
+          "value_kind": "decimal",
+          "x0": 0.308,
+          "x1": 0.338
+        },
+        {
+          "id": "multistem",
+          "label": "Multistem",
+          "parent": null,
+          "value_kind": "free_text",
+          "x0": 0.338,
+          "x1": 0.414
+        },
+        {
+          "id": "leaves_flush",
+          "label": "Flush",
+          "parent": "LEAVES",
+          "value_kind": "categorical_code",
+          "x0": 0.414,
+          "x1": 0.452
+        },
+        {
+          "id": "leaves_mature",
+          "label": "Mature",
+          "parent": "LEAVES",
+          "value_kind": "categorical_code",
+          "x0": 0.452,
+          "x1": 0.495
+        },
+        {
+          "id": "leaves_fallen",
+          "label": "Fallen",
+          "parent": "LEAVES",
+          "value_kind": "yes_no",
+          "x0": 0.495,
+          "x1": 0.535
+        },
+        {
+          "id": "flowers_buds",
+          "label": "Buds",
+          "parent": "FLOWERS",
+          "value_kind": "categorical_code",
+          "x0": 0.535,
+          "x1": 0.575
+        },
+        {
+          "id": "flowers_open",
+          "label": "Open",
+          "parent": "FLOWERS",
+          "value_kind": "categorical_code",
+          "x0": 0.575,
+          "x1": 0.615
+        },
+        {
+          "id": "flowers_fallen",
+          "label": "Fallen",
+          "parent": "FLOWERS",
+          "value_kind": "yes_no",
+          "x0": 0.615,
+          "x1": 0.655
+        },
+        {
+          "id": "fruits_unripe",
+          "label": "Unripe",
+          "parent": "FRUITS",
+          "value_kind": "categorical_code",
+          "x0": 0.655,
+          "x1": 0.695
+        },
+        {
+          "id": "fruits_ripe",
+          "label": "Ripe",
+          "parent": "FRUITS",
+          "value_kind": "categorical_code",
+          "x0": 0.695,
+          "x1": 0.735
+        },
+        {
+          "id": "fruits_fallen",
+          "label": "Fallen",
+          "parent": "FRUITS",
+          "value_kind": "yes_no",
+          "x0": 0.735,
+          "x1": 0.775
+        },
+        {
+          "id": "notes",
+          "label": "Notes",
+          "parent": null,
+          "value_kind": "free_text",
+          "x0": 0.775,
+          "x1": 0.928
+        }
+      ]
+    }
+  ],
+  "free_text_regions": []
+}

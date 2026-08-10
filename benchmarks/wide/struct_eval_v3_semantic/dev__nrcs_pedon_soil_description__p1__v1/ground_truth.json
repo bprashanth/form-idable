@@ -1,0 +1,1684 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nrcs_pedon_soil_description.pdf",
+  "page": 2,
+  "page_size_points": [
+    792.0,
+    612.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 2,
+      "row": 0,
+      "col": 25,
+      "bbox_points": [
+        344.895,
+        51.93,
+        370.32,
+        128.64
+      ],
+      "bbox_norm": [
+        0.435473,
+        0.084853,
+        0.467576,
+        0.210196
+      ],
+      "source": "written",
+      "value": "canopy gap",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 26,
+      "bbox_points": [
+        370.32,
+        51.93,
+        395.76,
+        128.64
+      ],
+      "bbox_norm": [
+        0.467576,
+        0.084853,
+        0.499697,
+        0.210196
+      ],
+      "source": "written",
+      "value": "bark peeled",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 27,
+      "bbox_points": [
+        395.76,
+        51.93,
+        421.2,
+        128.64
+      ],
+      "bbox_norm": [
+        0.499697,
+        0.084853,
+        0.531818,
+        0.210196
+      ],
+      "source": "written",
+      "value": "canopy gap",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 28,
+      "bbox_points": [
+        421.2,
+        51.93,
+        446.64,
+        128.64
+      ],
+      "bbox_norm": [
+        0.531818,
+        0.084853,
+        0.563939,
+        0.210196
+      ],
+      "source": "written",
+      "value": "termite damage",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 29,
+      "bbox_points": [
+        446.64,
+        51.93,
+        472.08,
+        128.64
+      ],
+      "bbox_norm": [
+        0.563939,
+        0.084853,
+        0.596061,
+        0.210196
+      ],
+      "source": "written",
+      "value": "termite damage",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 30,
+      "bbox_points": [
+        472.08,
+        51.93,
+        497.52,
+        128.64
+      ],
+      "bbox_norm": [
+        0.596061,
+        0.084853,
+        0.628182,
+        0.210196
+      ],
+      "source": "written",
+      "value": "termite damage",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 31,
+      "bbox_points": [
+        497.52,
+        51.93,
+        522.96,
+        128.64
+      ],
+      "bbox_norm": [
+        0.628182,
+        0.084853,
+        0.660303,
+        0.210196
+      ],
+      "source": "written",
+      "value": "climber load",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 32,
+      "bbox_points": [
+        522.96,
+        51.93,
+        548.4,
+        128.64
+      ],
+      "bbox_norm": [
+        0.660303,
+        0.084853,
+        0.692424,
+        0.210196
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 33,
+      "bbox_points": [
+        548.4,
+        51.93,
+        573.84,
+        128.64
+      ],
+      "bbox_norm": [
+        0.692424,
+        0.084853,
+        0.724545,
+        0.210196
+      ],
+      "source": "written",
+      "value": "fallen",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 34,
+      "bbox_points": [
+        573.84,
+        51.93,
+        599.49,
+        128.64
+      ],
+      "bbox_norm": [
+        0.724545,
+        0.084853,
+        0.756932,
+        0.210196
+      ],
+      "source": "written",
+      "value": "resprouting",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 25,
+      "bbox_points": [
+        344.895,
+        128.64,
+        370.32,
+        167.265
+      ],
+      "bbox_norm": [
+        0.435473,
+        0.210196,
+        0.467576,
+        0.273309
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 26,
+      "bbox_points": [
+        370.32,
+        128.64,
+        395.76,
+        167.265
+      ],
+      "bbox_norm": [
+        0.467576,
+        0.210196,
+        0.499697,
+        0.273309
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 27,
+      "bbox_points": [
+        395.76,
+        128.64,
+        421.2,
+        167.265
+      ],
+      "bbox_norm": [
+        0.499697,
+        0.210196,
+        0.531818,
+        0.273309
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 28,
+      "bbox_points": [
+        421.2,
+        128.64,
+        446.64,
+        167.265
+      ],
+      "bbox_norm": [
+        0.531818,
+        0.210196,
+        0.563939,
+        0.273309
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 29,
+      "bbox_points": [
+        446.64,
+        128.64,
+        472.08,
+        167.265
+      ],
+      "bbox_norm": [
+        0.563939,
+        0.210196,
+        0.596061,
+        0.273309
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 30,
+      "bbox_points": [
+        472.08,
+        128.64,
+        497.52,
+        167.265
+      ],
+      "bbox_norm": [
+        0.596061,
+        0.210196,
+        0.628182,
+        0.273309
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 31,
+      "bbox_points": [
+        497.52,
+        128.64,
+        522.96,
+        167.265
+      ],
+      "bbox_norm": [
+        0.628182,
+        0.210196,
+        0.660303,
+        0.273309
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 32,
+      "bbox_points": [
+        522.96,
+        128.64,
+        548.4,
+        167.265
+      ],
+      "bbox_norm": [
+        0.660303,
+        0.210196,
+        0.692424,
+        0.273309
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 33,
+      "bbox_points": [
+        548.4,
+        128.64,
+        573.84,
+        167.265
+      ],
+      "bbox_norm": [
+        0.692424,
+        0.210196,
+        0.724545,
+        0.273309
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 34,
+      "bbox_points": [
+        573.84,
+        128.64,
+        599.49,
+        167.265
+      ],
+      "bbox_norm": [
+        0.724545,
+        0.210196,
+        0.756932,
+        0.273309
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 0,
+      "bbox_points": [
+        19.44,
+        240.6,
+        35.993,
+        265.2
+      ],
+      "bbox_norm": [
+        0.024545,
+        0.393137,
+        0.045445,
+        0.433333
+      ],
+      "source": "written",
+      "value": "13/11/20",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Date: | Loc Shp Mst Col Cont. Mottles Date: Sz % LEP Clay Silt Sand"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 24,
+      "bbox_points": [
+        319.44,
+        265.2,
+        344.895,
+        311.28
+      ],
+      "bbox_norm": [
+        0.403333,
+        0.433333,
+        0.435473,
+        0.508627
+      ],
+      "source": "printed",
+      "value": "Pores Qty Shp Sz",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Pores Qty Shp Sz"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 25,
+      "bbox_points": [
+        344.895,
+        265.2,
+        370.32,
+        311.28
+      ],
+      "bbox_norm": [
+        0.435473,
+        0.433333,
+        0.467576,
+        0.508627
+      ],
+      "source": "written",
+      "value": "canopy gap",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Ksat | Notes Unified Ksat Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 26,
+      "bbox_points": [
+        370.32,
+        265.2,
+        395.76,
+        311.28
+      ],
+      "bbox_norm": [
+        0.467576,
+        0.433333,
+        0.499697,
+        0.508627
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Ksat | Unified Ksat Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 27,
+      "bbox_points": [
+        395.76,
+        265.2,
+        421.2,
+        311.28
+      ],
+      "bbox_norm": [
+        0.499697,
+        0.433333,
+        0.531818,
+        0.508627
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 28,
+      "bbox_points": [
+        421.2,
+        265.2,
+        446.64,
+        311.28
+      ],
+      "bbox_norm": [
+        0.531818,
+        0.433333,
+        0.563939,
+        0.508627
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 29,
+      "bbox_points": [
+        446.64,
+        265.2,
+        472.08,
+        311.28
+      ],
+      "bbox_norm": [
+        0.563939,
+        0.433333,
+        0.596061,
+        0.508627
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 30,
+      "bbox_points": [
+        472.08,
+        265.2,
+        497.52,
+        311.28
+      ],
+      "bbox_norm": [
+        0.596061,
+        0.433333,
+        0.628182,
+        0.508627
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 31,
+      "bbox_points": [
+        497.52,
+        265.2,
+        522.96,
+        311.28
+      ],
+      "bbox_norm": [
+        0.628182,
+        0.433333,
+        0.660303,
+        0.508627
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 32,
+      "bbox_points": [
+        522.96,
+        265.2,
+        548.4,
+        311.28
+      ],
+      "bbox_norm": [
+        0.660303,
+        0.433333,
+        0.692424,
+        0.508627
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 33,
+      "bbox_points": [
+        548.4,
+        265.2,
+        573.84,
+        311.28
+      ],
+      "bbox_norm": [
+        0.692424,
+        0.433333,
+        0.724545,
+        0.508627
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 34,
+      "bbox_points": [
+        573.84,
+        265.2,
+        599.49,
+        311.28
+      ],
+      "bbox_norm": [
+        0.724545,
+        0.433333,
+        0.756932,
+        0.508627
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 1,
+      "bbox_points": [
+        35.993,
+        406.32,
+        61.215,
+        443.64
+      ],
+      "bbox_norm": [
+        0.045445,
+        0.663922,
+        0.077292,
+        0.724902
+      ],
+      "source": "printed",
+      "value": "Texture",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Texture"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 3,
+      "bbox_points": [
+        61.215,
+        555.12,
+        86.719,
+        579.96
+      ],
+      "bbox_norm": [
+        0.077292,
+        0.907059,
+        0.109493,
+        0.947647
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Matrix Dry | Map Sz Frag Rnd Rock % Knd Texture Moist Color Matrix Concentrations Dry Cont. Bnd"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 5,
+      "bbox_points": [
+        86.719,
+        555.12,
+        112.159,
+        579.96
+      ],
+      "bbox_norm": [
+        0.109493,
+        0.907059,
+        0.141615,
+        0.947647
+      ],
+      "source": "written",
+      "value": "26",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Dry | Sz Rnd % Knd Moist Concentrations Dry Cont. Bnd"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 7,
+      "bbox_points": [
+        112.159,
+        555.12,
+        137.599,
+        579.96
+      ],
+      "bbox_norm": [
+        0.141615,
+        0.907059,
+        0.173736,
+        0.947647
+      ],
+      "source": "written",
+      "value": "90",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Concentrations Cont. Bnd Sz %"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 9,
+      "bbox_points": [
+        137.599,
+        555.12,
+        163.039,
+        579.96
+      ],
+      "bbox_norm": [
+        0.173736,
+        0.907059,
+        0.205857,
+        0.947647
+      ],
+      "source": "written",
+      "value": "61",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Concentrations Cont. Bnd Sz %"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 11,
+      "bbox_points": [
+        163.039,
+        555.12,
+        188.479,
+        579.96
+      ],
+      "bbox_norm": [
+        0.205857,
+        0.907059,
+        0.237978,
+        0.947647
+      ],
+      "source": "written",
+      "value": "82",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Concentrations Cont. Bnd Sz %"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 13,
+      "bbox_points": [
+        188.479,
+        555.12,
+        213.919,
+        579.96
+      ],
+      "bbox_norm": [
+        0.237978,
+        0.907059,
+        0.270099,
+        0.947647
+      ],
+      "source": "written",
+      "value": "77",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Concentrations Cont. Bnd Sz %"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 15,
+      "bbox_points": [
+        213.919,
+        555.12,
+        239.359,
+        579.96
+      ],
+      "bbox_norm": [
+        0.270099,
+        0.907059,
+        0.302221,
+        0.947647
+      ],
+      "source": "written",
+      "value": "31",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Concentrations Cont. Bnd Sz %"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 17,
+      "bbox_points": [
+        239.359,
+        555.12,
+        264.93,
+        579.96
+      ],
+      "bbox_norm": [
+        0.302221,
+        0.907059,
+        0.334508,
+        0.947647
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "percent",
+      "semantic_context": "Concentrations Cont. Bnd Sz %"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 19,
+      "bbox_points": [
+        264.93,
+        555.12,
+        290.239,
+        579.96
+      ],
+      "bbox_norm": [
+        0.334508,
+        0.907059,
+        0.366463,
+        0.947647
+      ],
+      "source": "written",
+      "value": "55",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Concentrations Cont. Bnd Sz %"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 21,
+      "bbox_points": [
+        290.239,
+        555.12,
+        315.81,
+        579.96
+      ],
+      "bbox_norm": [
+        0.366463,
+        0.907059,
+        0.39875,
+        0.947647
+      ],
+      "source": "written",
+      "value": "67",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Mst Col | Roots Sz Qty Mst Features Col Loc Surface Dst Con V. % / Ped LocKnd Shp Concentrations Cont. Bnd"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 0,
+      "bbox_points": [
+        19.44,
+        658.8,
+        35.993,
+        688.08
+      ],
+      "bbox_norm": [
+        0.024545,
+        1.076471,
+        0.045445,
+        1.124314
+      ],
+      "source": "written",
+      "value": "67.2",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Component | Texture Moist Color Matrix Dry Bnd Name: Horizon Component (BOT) (cm) Depth (TOP)"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 0,
+      "bbox_points": [
+        19.44,
+        688.08,
+        35.993,
+        728.4
+      ],
+      "bbox_norm": [
+        0.024545,
+        1.124314,
+        0.045445,
+        1.190196
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Component | Frag Rnd Rock % Knd Texture Moist Color Matrix Dry Bnd Name: Horizon Component (BOT) (cm) Depth (TOP) Method Obser."
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 1,
+      "bbox_points": [
+        35.993,
+        688.08,
+        61.215,
+        728.4
+      ],
+      "bbox_norm": [
+        0.045445,
+        1.124314,
+        0.077292,
+        1.190196
+      ],
+      "source": "printed",
+      "value": "Obser. Method",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Obser. Method"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 3,
+      "bbox_points": [
+        61.215,
+        688.08,
+        86.719,
+        728.4
+      ],
+      "bbox_norm": [
+        0.077292,
+        1.124314,
+        0.109493,
+        1.190196
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Depth (TOP) | Frag Rnd Rock % Knd Texture Moist Color Matrix Dry Bnd Name: Horizon Component (BOT) (cm) Redoximorphic Depth (TOP) Sz Method Obser."
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 5,
+      "bbox_points": [
+        86.719,
+        688.08,
+        112.159,
+        728.4
+      ],
+      "bbox_norm": [
+        0.109493,
+        1.124314,
+        0.141615,
+        1.190196
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "(TOP) | Rnd % Knd Moist Dry (BOT) Redoximorphic (TOP) Sz Method Obser."
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 7,
+      "bbox_points": [
+        112.159,
+        688.08,
+        137.599,
+        728.4
+      ],
+      "bbox_norm": [
+        0.141615,
+        1.124314,
+        0.173736,
+        1.190196
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Redoximorphic Sz Method Obser. % Knd"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 9,
+      "bbox_points": [
+        137.599,
+        688.08,
+        163.039,
+        728.4
+      ],
+      "bbox_norm": [
+        0.173736,
+        1.124314,
+        0.205857,
+        1.190196
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Redoximorphic Sz Method Obser. % Knd"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 11,
+      "bbox_points": [
+        163.039,
+        688.08,
+        188.479,
+        728.4
+      ],
+      "bbox_norm": [
+        0.205857,
+        1.124314,
+        0.237978,
+        1.190196
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Redoximorphic Sz Method Obser. % Knd"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 13,
+      "bbox_points": [
+        188.479,
+        688.08,
+        213.919,
+        728.4
+      ],
+      "bbox_norm": [
+        0.237978,
+        1.124314,
+        0.270099,
+        1.190196
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Redoximorphic Sz Method Obser. % Knd"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 15,
+      "bbox_points": [
+        213.919,
+        688.08,
+        239.359,
+        728.4
+      ],
+      "bbox_norm": [
+        0.270099,
+        1.124314,
+        0.302221,
+        1.190196
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Redoximorphic Sz Method Obser. % Knd"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 17,
+      "bbox_points": [
+        239.359,
+        688.08,
+        264.93,
+        728.4
+      ],
+      "bbox_norm": [
+        0.302221,
+        1.124314,
+        0.334508,
+        1.190196
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Redoximorphic Sz Method Obser. % Knd"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 19,
+      "bbox_points": [
+        264.93,
+        688.08,
+        290.239,
+        728.4
+      ],
+      "bbox_norm": [
+        0.334508,
+        1.124314,
+        0.366463,
+        1.190196
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Redoximorphic Sz Method Obser. % Knd"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 21,
+      "bbox_points": [
+        290.239,
+        688.08,
+        315.81,
+        728.4
+      ],
+      "bbox_norm": [
+        0.366463,
+        1.124314,
+        0.39875,
+        1.190196
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Col. Cont. | Con V. % / Ped LocKnd Shp Concentrations Mst Col Cont. Sz ShapeKnd Features Col. Redoximorphic Method Obser. Knd"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 3,
+      "bbox_points": [
+        61.215,
+        728.4,
+        86.719,
+        740.4
+      ],
+      "bbox_norm": [
+        0.077292,
+        1.190196,
+        0.109493,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 5,
+      "bbox_points": [
+        86.719,
+        728.4,
+        112.159,
+        740.4
+      ],
+      "bbox_norm": [
+        0.109493,
+        1.190196,
+        0.141615,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "2"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 7,
+      "bbox_points": [
+        112.159,
+        728.4,
+        137.599,
+        740.4
+      ],
+      "bbox_norm": [
+        0.141615,
+        1.190196,
+        0.173736,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "3"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 9,
+      "bbox_points": [
+        137.599,
+        728.4,
+        163.039,
+        740.4
+      ],
+      "bbox_norm": [
+        0.173736,
+        1.190196,
+        0.205857,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "4",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "4"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 11,
+      "bbox_points": [
+        163.039,
+        728.4,
+        188.479,
+        740.4
+      ],
+      "bbox_norm": [
+        0.205857,
+        1.190196,
+        0.237978,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "5",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "5"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 13,
+      "bbox_points": [
+        188.479,
+        728.4,
+        213.919,
+        740.4
+      ],
+      "bbox_norm": [
+        0.237978,
+        1.190196,
+        0.270099,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "6",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 15,
+      "bbox_points": [
+        213.919,
+        728.4,
+        239.359,
+        740.4
+      ],
+      "bbox_norm": [
+        0.270099,
+        1.190196,
+        0.302221,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "7",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "7"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 17,
+      "bbox_points": [
+        239.359,
+        728.4,
+        264.93,
+        740.4
+      ],
+      "bbox_norm": [
+        0.302221,
+        1.190196,
+        0.334508,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "8",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "8"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 19,
+      "bbox_points": [
+        264.93,
+        728.4,
+        290.239,
+        740.4
+      ],
+      "bbox_norm": [
+        0.334508,
+        1.190196,
+        0.366463,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "9",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "9"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 21,
+      "bbox_points": [
+        290.239,
+        728.4,
+        315.81,
+        740.4
+      ],
+      "bbox_norm": [
+        0.366463,
+        1.190196,
+        0.39875,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "10",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "10"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 25,
+      "bbox_points": [
+        344.895,
+        728.4,
+        370.32,
+        740.4
+      ],
+      "bbox_norm": [
+        0.435473,
+        1.190196,
+        0.467576,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 26,
+      "bbox_points": [
+        370.32,
+        728.4,
+        395.76,
+        740.4
+      ],
+      "bbox_norm": [
+        0.467576,
+        1.190196,
+        0.499697,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "2"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 27,
+      "bbox_points": [
+        395.76,
+        728.4,
+        421.2,
+        740.4
+      ],
+      "bbox_norm": [
+        0.499697,
+        1.190196,
+        0.531818,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "3"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 28,
+      "bbox_points": [
+        421.2,
+        728.4,
+        446.64,
+        740.4
+      ],
+      "bbox_norm": [
+        0.531818,
+        1.190196,
+        0.563939,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "4",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "4"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 29,
+      "bbox_points": [
+        446.64,
+        728.4,
+        472.08,
+        740.4
+      ],
+      "bbox_norm": [
+        0.563939,
+        1.190196,
+        0.596061,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "5",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "5"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 30,
+      "bbox_points": [
+        472.08,
+        728.4,
+        497.52,
+        740.4
+      ],
+      "bbox_norm": [
+        0.596061,
+        1.190196,
+        0.628182,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "6",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 31,
+      "bbox_points": [
+        497.52,
+        728.4,
+        522.96,
+        740.4
+      ],
+      "bbox_norm": [
+        0.628182,
+        1.190196,
+        0.660303,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "7",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "7"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 32,
+      "bbox_points": [
+        522.96,
+        728.4,
+        548.4,
+        740.4
+      ],
+      "bbox_norm": [
+        0.660303,
+        1.190196,
+        0.692424,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "8",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "8"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 33,
+      "bbox_points": [
+        548.4,
+        728.4,
+        573.84,
+        740.4
+      ],
+      "bbox_norm": [
+        0.692424,
+        1.190196,
+        0.724545,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "9",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "9"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 34,
+      "bbox_points": [
+        573.84,
+        728.4,
+        599.49,
+        740.4
+      ],
+      "bbox_norm": [
+        0.724545,
+        1.190196,
+        0.756932,
+        1.209804
+      ],
+      "source": "printed",
+      "value": "10",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "10"
+    }
+  ]
+}

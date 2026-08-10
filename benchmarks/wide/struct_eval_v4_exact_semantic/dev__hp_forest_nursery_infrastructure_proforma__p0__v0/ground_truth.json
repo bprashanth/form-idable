@@ -1,0 +1,2674 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "hp_forest_nursery_infrastructure_proforma.pdf",
+  "page": 1,
+  "page_size_points": [
+    810.0,
+    630.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 0,
+      "col": 0,
+      "bbox_points": [
+        47.18,
+        78.555,
+        762.82,
+        104.381
+      ],
+      "bbox_norm": [
+        0.058247,
+        0.12469,
+        0.941753,
+        0.165685
+      ],
+      "source": "printed",
+      "value": "PROFORMA No.2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "PROFORMA No.2"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 1,
+      "bbox_points": [
+        64.593,
+        191.956,
+        107.247,
+        216.436
+      ],
+      "bbox_norm": [
+        0.079744,
+        0.304693,
+        0.132403,
+        0.343549
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 4,
+      "bbox_points": [
+        107.247,
+        191.956,
+        220.62,
+        216.436
+      ],
+      "bbox_norm": [
+        0.132403,
+        0.304693,
+        0.27237,
+        0.343549
+      ],
+      "source": "written",
+      "value": "156",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Infrastructure | PROFORMA Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 5,
+      "bbox_points": [
+        220.62,
+        191.956,
+        357.648,
+        216.436
+      ],
+      "bbox_norm": [
+        0.27237,
+        0.304693,
+        0.441541,
+        0.343549
+      ],
+      "source": "written",
+      "value": "94",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA Infrastructure | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 10,
+      "bbox_points": [
+        357.648,
+        191.956,
+        452.806,
+        216.436
+      ],
+      "bbox_norm": [
+        0.441541,
+        0.304693,
+        0.559019,
+        0.343549
+      ],
+      "source": "written",
+      "value": "105",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA No.2 Infrastructure /Assets | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 16,
+      "bbox_points": [
+        452.806,
+        191.956,
+        542.07,
+        216.436
+      ],
+      "bbox_norm": [
+        0.559019,
+        0.304693,
+        0.669222,
+        0.343549
+      ],
+      "source": "written",
+      "value": "141",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "No.2 created | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 21,
+      "bbox_points": [
+        542.07,
+        191.956,
+        613.695,
+        216.436
+      ],
+      "bbox_norm": [
+        0.669222,
+        0.304693,
+        0.757649,
+        0.343549
+      ],
+      "source": "written",
+      "value": "15/11/21",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "No.2 created | No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 27,
+      "bbox_points": [
+        613.695,
+        191.956,
+        697.973,
+        216.436
+      ],
+      "bbox_norm": [
+        0.757649,
+        0.304693,
+        0.861695,
+        0.343549
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 29,
+      "bbox_points": [
+        697.973,
+        191.956,
+        756.493,
+        216.436
+      ],
+      "bbox_norm": [
+        0.861695,
+        0.304693,
+        0.933942,
+        0.343549
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 1,
+      "bbox_points": [
+        64.593,
+        216.436,
+        107.247,
+        239.432
+      ],
+      "bbox_norm": [
+        0.079744,
+        0.343549,
+        0.132403,
+        0.380051
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 4,
+      "bbox_points": [
+        107.247,
+        216.436,
+        220.62,
+        239.432
+      ],
+      "bbox_norm": [
+        0.132403,
+        0.343549,
+        0.27237,
+        0.380051
+      ],
+      "source": "written",
+      "value": "118",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Infrastructure | PROFORMA Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 5,
+      "bbox_points": [
+        220.62,
+        216.436,
+        357.648,
+        239.432
+      ],
+      "bbox_norm": [
+        0.27237,
+        0.343549,
+        0.441541,
+        0.380051
+      ],
+      "source": "written",
+      "value": "73",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA Infrastructure | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 10,
+      "bbox_points": [
+        357.648,
+        216.436,
+        452.806,
+        239.432
+      ],
+      "bbox_norm": [
+        0.441541,
+        0.343549,
+        0.559019,
+        0.380051
+      ],
+      "source": "written",
+      "value": "220",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA No.2 Infrastructure /Assets | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 16,
+      "bbox_points": [
+        452.806,
+        216.436,
+        542.07,
+        239.432
+      ],
+      "bbox_norm": [
+        0.559019,
+        0.343549,
+        0.669222,
+        0.380051
+      ],
+      "source": "written",
+      "value": "183",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "No.2 created | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 21,
+      "bbox_points": [
+        542.07,
+        216.436,
+        613.695,
+        239.432
+      ],
+      "bbox_norm": [
+        0.669222,
+        0.343549,
+        0.757649,
+        0.380051
+      ],
+      "source": "written",
+      "value": "10/08/19",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "No.2 created | No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 27,
+      "bbox_points": [
+        613.695,
+        216.436,
+        697.973,
+        239.432
+      ],
+      "bbox_norm": [
+        0.757649,
+        0.343549,
+        0.861695,
+        0.380051
+      ],
+      "source": "written",
+      "value": "18.2",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 29,
+      "bbox_points": [
+        697.973,
+        216.436,
+        756.493,
+        239.432
+      ],
+      "bbox_norm": [
+        0.861695,
+        0.343549,
+        0.933942,
+        0.380051
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 1,
+      "bbox_points": [
+        64.593,
+        239.432,
+        107.247,
+        263.788
+      ],
+      "bbox_norm": [
+        0.079744,
+        0.380051,
+        0.132403,
+        0.418712
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 4,
+      "bbox_points": [
+        107.247,
+        239.432,
+        220.62,
+        263.788
+      ],
+      "bbox_norm": [
+        0.132403,
+        0.380051,
+        0.27237,
+        0.418712
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "Infrastructure | PROFORMA Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 5,
+      "bbox_points": [
+        220.62,
+        239.432,
+        357.648,
+        263.788
+      ],
+      "bbox_norm": [
+        0.27237,
+        0.380051,
+        0.441541,
+        0.418712
+      ],
+      "source": "written",
+      "value": "115",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA Infrastructure | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 10,
+      "bbox_points": [
+        357.648,
+        239.432,
+        452.806,
+        263.788
+      ],
+      "bbox_norm": [
+        0.441541,
+        0.380051,
+        0.559019,
+        0.418712
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA No.2 Infrastructure /Assets | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 16,
+      "bbox_points": [
+        452.806,
+        239.432,
+        542.07,
+        263.788
+      ],
+      "bbox_norm": [
+        0.559019,
+        0.380051,
+        0.669222,
+        0.418712
+      ],
+      "source": "written",
+      "value": "36",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "No.2 created | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 21,
+      "bbox_points": [
+        542.07,
+        239.432,
+        613.695,
+        263.788
+      ],
+      "bbox_norm": [
+        0.669222,
+        0.380051,
+        0.757649,
+        0.418712
+      ],
+      "source": "written",
+      "value": "25/11/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "No.2 created | No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 27,
+      "bbox_points": [
+        613.695,
+        239.432,
+        697.973,
+        263.788
+      ],
+      "bbox_norm": [
+        0.757649,
+        0.380051,
+        0.861695,
+        0.418712
+      ],
+      "source": "written",
+      "value": "2.6",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 29,
+      "bbox_points": [
+        697.973,
+        239.432,
+        756.493,
+        263.788
+      ],
+      "bbox_norm": [
+        0.861695,
+        0.380051,
+        0.933942,
+        0.418712
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 1,
+      "bbox_points": [
+        64.593,
+        263.788,
+        107.247,
+        286.784
+      ],
+      "bbox_norm": [
+        0.079744,
+        0.418712,
+        0.132403,
+        0.455213
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 4,
+      "bbox_points": [
+        107.247,
+        263.788,
+        220.62,
+        286.784
+      ],
+      "bbox_norm": [
+        0.132403,
+        0.418712,
+        0.27237,
+        0.455213
+      ],
+      "source": "written",
+      "value": "4",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Infrastructure | PROFORMA Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 5,
+      "bbox_points": [
+        220.62,
+        263.788,
+        357.648,
+        286.784
+      ],
+      "bbox_norm": [
+        0.27237,
+        0.418712,
+        0.441541,
+        0.455213
+      ],
+      "source": "written",
+      "value": "15",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA Infrastructure | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 10,
+      "bbox_points": [
+        357.648,
+        263.788,
+        452.806,
+        286.784
+      ],
+      "bbox_norm": [
+        0.441541,
+        0.418712,
+        0.559019,
+        0.455213
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA No.2 Infrastructure /Assets | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 16,
+      "bbox_points": [
+        452.806,
+        263.788,
+        542.07,
+        286.784
+      ],
+      "bbox_norm": [
+        0.559019,
+        0.418712,
+        0.669222,
+        0.455213
+      ],
+      "source": "written",
+      "value": "182",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "No.2 created | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 21,
+      "bbox_points": [
+        542.07,
+        263.788,
+        613.695,
+        286.784
+      ],
+      "bbox_norm": [
+        0.669222,
+        0.418712,
+        0.757649,
+        0.455213
+      ],
+      "source": "written",
+      "value": "20/06/19",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "No.2 created | No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 27,
+      "bbox_points": [
+        613.695,
+        263.788,
+        697.973,
+        286.784
+      ],
+      "bbox_norm": [
+        0.757649,
+        0.418712,
+        0.861695,
+        0.455213
+      ],
+      "source": "written",
+      "value": "92.9",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 29,
+      "bbox_points": [
+        697.973,
+        263.788,
+        756.493,
+        286.784
+      ],
+      "bbox_norm": [
+        0.861695,
+        0.418712,
+        0.933942,
+        0.455213
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 1,
+      "bbox_points": [
+        64.593,
+        286.784,
+        107.247,
+        309.78
+      ],
+      "bbox_norm": [
+        0.079744,
+        0.455213,
+        0.132403,
+        0.491715
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 4,
+      "bbox_points": [
+        107.247,
+        286.784,
+        220.62,
+        309.78
+      ],
+      "bbox_norm": [
+        0.132403,
+        0.455213,
+        0.27237,
+        0.491715
+      ],
+      "source": "written",
+      "value": "80",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Infrastructure | PROFORMA Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 5,
+      "bbox_points": [
+        220.62,
+        286.784,
+        357.648,
+        309.78
+      ],
+      "bbox_norm": [
+        0.27237,
+        0.455213,
+        0.441541,
+        0.491715
+      ],
+      "source": "written",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA Infrastructure | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 10,
+      "bbox_points": [
+        357.648,
+        286.784,
+        452.806,
+        309.78
+      ],
+      "bbox_norm": [
+        0.441541,
+        0.455213,
+        0.559019,
+        0.491715
+      ],
+      "source": "written",
+      "value": "206",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA No.2 Infrastructure /Assets | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 16,
+      "bbox_points": [
+        452.806,
+        286.784,
+        542.07,
+        309.78
+      ],
+      "bbox_norm": [
+        0.559019,
+        0.455213,
+        0.669222,
+        0.491715
+      ],
+      "source": "written",
+      "value": "20",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "No.2 created | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 21,
+      "bbox_points": [
+        542.07,
+        286.784,
+        613.695,
+        309.78
+      ],
+      "bbox_norm": [
+        0.669222,
+        0.455213,
+        0.757649,
+        0.491715
+      ],
+      "source": "written",
+      "value": "23/11/25",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "No.2 created | No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 27,
+      "bbox_points": [
+        613.695,
+        286.784,
+        697.973,
+        309.78
+      ],
+      "bbox_norm": [
+        0.757649,
+        0.455213,
+        0.861695,
+        0.491715
+      ],
+      "source": "written",
+      "value": "21.1",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 29,
+      "bbox_points": [
+        697.973,
+        286.784,
+        756.493,
+        309.78
+      ],
+      "bbox_norm": [
+        0.861695,
+        0.455213,
+        0.933942,
+        0.491715
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 1,
+      "bbox_points": [
+        64.593,
+        309.78,
+        107.247,
+        334.136
+      ],
+      "bbox_norm": [
+        0.079744,
+        0.491715,
+        0.132403,
+        0.530375
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 4,
+      "bbox_points": [
+        107.247,
+        309.78,
+        220.62,
+        334.136
+      ],
+      "bbox_norm": [
+        0.132403,
+        0.491715,
+        0.27237,
+        0.530375
+      ],
+      "source": "written",
+      "value": "161",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Infrastructure | PROFORMA Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 5,
+      "bbox_points": [
+        220.62,
+        309.78,
+        357.648,
+        334.136
+      ],
+      "bbox_norm": [
+        0.27237,
+        0.491715,
+        0.441541,
+        0.530375
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA Infrastructure | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 10,
+      "bbox_points": [
+        357.648,
+        309.78,
+        452.806,
+        334.136
+      ],
+      "bbox_norm": [
+        0.441541,
+        0.491715,
+        0.559019,
+        0.530375
+      ],
+      "source": "written",
+      "value": "130",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA No.2 Infrastructure /Assets | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 16,
+      "bbox_points": [
+        452.806,
+        309.78,
+        542.07,
+        334.136
+      ],
+      "bbox_norm": [
+        0.559019,
+        0.491715,
+        0.669222,
+        0.530375
+      ],
+      "source": "written",
+      "value": "64",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "No.2 created | PROFORMA No.2 Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 21,
+      "bbox_points": [
+        542.07,
+        309.78,
+        613.695,
+        334.136
+      ],
+      "bbox_norm": [
+        0.669222,
+        0.491715,
+        0.757649,
+        0.530375
+      ],
+      "source": "written",
+      "value": "04/07/23",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "No.2 created | No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 27,
+      "bbox_points": [
+        613.695,
+        309.78,
+        697.973,
+        334.136
+      ],
+      "bbox_norm": [
+        0.757649,
+        0.491715,
+        0.861695,
+        0.530375
+      ],
+      "source": "written",
+      "value": "94.9",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 29,
+      "bbox_points": [
+        697.973,
+        309.78,
+        756.493,
+        334.136
+      ],
+      "bbox_norm": [
+        0.861695,
+        0.491715,
+        0.933942,
+        0.530375
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 1,
+      "bbox_points": [
+        64.593,
+        334.136,
+        107.247,
+        357.132
+      ],
+      "bbox_norm": [
+        0.079744,
+        0.530375,
+        0.132403,
+        0.566877
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 4,
+      "bbox_points": [
+        107.247,
+        334.136,
+        220.62,
+        357.132
+      ],
+      "bbox_norm": [
+        0.132403,
+        0.530375,
+        0.27237,
+        0.566877
+      ],
+      "source": "written",
+      "value": "234",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Infrastructure | Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 5,
+      "bbox_points": [
+        220.62,
+        334.136,
+        357.648,
+        357.132
+      ],
+      "bbox_norm": [
+        0.27237,
+        0.530375,
+        0.441541,
+        0.566877
+      ],
+      "source": "written",
+      "value": "new flush",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "PROFORMA Infrastructure | Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 10,
+      "bbox_points": [
+        357.648,
+        334.136,
+        452.806,
+        357.132
+      ],
+      "bbox_norm": [
+        0.441541,
+        0.530375,
+        0.559019,
+        0.566877
+      ],
+      "source": "written",
+      "value": "94",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA No.2 Infrastructure /Assets | Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 16,
+      "bbox_points": [
+        452.806,
+        334.136,
+        542.07,
+        357.132
+      ],
+      "bbox_norm": [
+        0.559019,
+        0.530375,
+        0.669222,
+        0.566877
+      ],
+      "source": "written",
+      "value": "Seengali",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "No.2 created | Infrastructure /Assets created"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 21,
+      "bbox_points": [
+        542.07,
+        334.136,
+        613.695,
+        357.132
+      ],
+      "bbox_norm": [
+        0.669222,
+        0.530375,
+        0.757649,
+        0.566877
+      ],
+      "source": "written",
+      "value": "27/10/19",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "No.2 created | created"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 27,
+      "bbox_points": [
+        613.695,
+        334.136,
+        697.973,
+        357.132
+      ],
+      "bbox_norm": [
+        0.757649,
+        0.530375,
+        0.861695,
+        0.566877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 29,
+      "bbox_points": [
+        697.973,
+        334.136,
+        756.493,
+        357.132
+      ],
+      "bbox_norm": [
+        0.861695,
+        0.530375,
+        0.933942,
+        0.566877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 1,
+      "bbox_points": [
+        64.593,
+        357.132,
+        107.247,
+        384.907
+      ],
+      "bbox_norm": [
+        0.079744,
+        0.566877,
+        0.132403,
+        0.610963
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 4,
+      "bbox_points": [
+        107.247,
+        357.132,
+        220.62,
+        384.907
+      ],
+      "bbox_norm": [
+        0.132403,
+        0.566877,
+        0.27237,
+        0.610963
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 5,
+      "bbox_points": [
+        220.62,
+        357.132,
+        357.648,
+        384.907
+      ],
+      "bbox_norm": [
+        0.27237,
+        0.566877,
+        0.441541,
+        0.610963
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "PROFORMA Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 10,
+      "bbox_points": [
+        357.648,
+        357.132,
+        452.806,
+        384.907
+      ],
+      "bbox_norm": [
+        0.441541,
+        0.566877,
+        0.559019,
+        0.610963
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA No.2 Infrastructure /Assets"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 16,
+      "bbox_points": [
+        452.806,
+        357.132,
+        542.07,
+        384.907
+      ],
+      "bbox_norm": [
+        0.559019,
+        0.566877,
+        0.669222,
+        0.610963
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 21,
+      "bbox_points": [
+        542.07,
+        357.132,
+        613.695,
+        384.907
+      ],
+      "bbox_norm": [
+        0.669222,
+        0.566877,
+        0.757649,
+        0.610963
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 27,
+      "bbox_points": [
+        613.695,
+        357.132,
+        697.973,
+        384.907
+      ],
+      "bbox_norm": [
+        0.757649,
+        0.566877,
+        0.861695,
+        0.610963
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 29,
+      "bbox_points": [
+        697.973,
+        357.132,
+        756.493,
+        384.907
+      ],
+      "bbox_norm": [
+        0.861695,
+        0.566877,
+        0.933942,
+        0.610963
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 1,
+      "bbox_points": [
+        64.593,
+        384.907,
+        107.247,
+        407.575
+      ],
+      "bbox_norm": [
+        0.079744,
+        0.610963,
+        0.132403,
+        0.646945
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 4,
+      "bbox_points": [
+        107.247,
+        384.907,
+        220.62,
+        407.575
+      ],
+      "bbox_norm": [
+        0.132403,
+        0.610963,
+        0.27237,
+        0.646945
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 5,
+      "bbox_points": [
+        220.62,
+        384.907,
+        357.648,
+        407.575
+      ],
+      "bbox_norm": [
+        0.27237,
+        0.610963,
+        0.441541,
+        0.646945
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "PROFORMA Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 10,
+      "bbox_points": [
+        357.648,
+        384.907,
+        452.806,
+        407.575
+      ],
+      "bbox_norm": [
+        0.441541,
+        0.610963,
+        0.559019,
+        0.646945
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA No.2 Infrastructure /Assets"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 16,
+      "bbox_points": [
+        452.806,
+        384.907,
+        542.07,
+        407.575
+      ],
+      "bbox_norm": [
+        0.559019,
+        0.610963,
+        0.669222,
+        0.646945
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 21,
+      "bbox_points": [
+        542.07,
+        384.907,
+        613.695,
+        407.575
+      ],
+      "bbox_norm": [
+        0.669222,
+        0.610963,
+        0.757649,
+        0.646945
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 27,
+      "bbox_points": [
+        613.695,
+        384.907,
+        697.973,
+        407.575
+      ],
+      "bbox_norm": [
+        0.757649,
+        0.610963,
+        0.861695,
+        0.646945
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 29,
+      "bbox_points": [
+        697.973,
+        384.907,
+        756.493,
+        407.575
+      ],
+      "bbox_norm": [
+        0.861695,
+        0.610963,
+        0.933942,
+        0.646945
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 1,
+      "bbox_points": [
+        64.593,
+        407.575,
+        107.247,
+        431.931
+      ],
+      "bbox_norm": [
+        0.079744,
+        0.646945,
+        0.132403,
+        0.685605
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 4,
+      "bbox_points": [
+        107.247,
+        407.575,
+        220.62,
+        431.931
+      ],
+      "bbox_norm": [
+        0.132403,
+        0.646945,
+        0.27237,
+        0.685605
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 5,
+      "bbox_points": [
+        220.62,
+        407.575,
+        357.648,
+        431.931
+      ],
+      "bbox_norm": [
+        0.27237,
+        0.646945,
+        0.441541,
+        0.685605
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "PROFORMA Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 10,
+      "bbox_points": [
+        357.648,
+        407.575,
+        452.806,
+        431.931
+      ],
+      "bbox_norm": [
+        0.441541,
+        0.646945,
+        0.559019,
+        0.685605
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA No.2 Infrastructure /Assets"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 16,
+      "bbox_points": [
+        452.806,
+        407.575,
+        542.07,
+        431.931
+      ],
+      "bbox_norm": [
+        0.559019,
+        0.646945,
+        0.669222,
+        0.685605
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 21,
+      "bbox_points": [
+        542.07,
+        407.575,
+        613.695,
+        431.931
+      ],
+      "bbox_norm": [
+        0.669222,
+        0.646945,
+        0.757649,
+        0.685605
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 27,
+      "bbox_points": [
+        613.695,
+        407.575,
+        697.973,
+        431.931
+      ],
+      "bbox_norm": [
+        0.757649,
+        0.646945,
+        0.861695,
+        0.685605
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 29,
+      "bbox_points": [
+        697.973,
+        407.575,
+        756.493,
+        431.931
+      ],
+      "bbox_norm": [
+        0.861695,
+        0.646945,
+        0.933942,
+        0.685605
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 1,
+      "bbox_points": [
+        64.593,
+        431.931,
+        107.247,
+        455.255
+      ],
+      "bbox_norm": [
+        0.079744,
+        0.685605,
+        0.132403,
+        0.722627
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 4,
+      "bbox_points": [
+        107.247,
+        431.931,
+        220.62,
+        455.255
+      ],
+      "bbox_norm": [
+        0.132403,
+        0.685605,
+        0.27237,
+        0.722627
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 5,
+      "bbox_points": [
+        220.62,
+        431.931,
+        357.648,
+        455.255
+      ],
+      "bbox_norm": [
+        0.27237,
+        0.685605,
+        0.441541,
+        0.722627
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "PROFORMA Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 10,
+      "bbox_points": [
+        357.648,
+        431.931,
+        452.806,
+        455.255
+      ],
+      "bbox_norm": [
+        0.441541,
+        0.685605,
+        0.559019,
+        0.722627
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA No.2 Infrastructure /Assets"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 16,
+      "bbox_points": [
+        452.806,
+        431.931,
+        542.07,
+        455.255
+      ],
+      "bbox_norm": [
+        0.559019,
+        0.685605,
+        0.669222,
+        0.722627
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 21,
+      "bbox_points": [
+        542.07,
+        431.931,
+        613.695,
+        455.255
+      ],
+      "bbox_norm": [
+        0.669222,
+        0.685605,
+        0.757649,
+        0.722627
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 27,
+      "bbox_points": [
+        613.695,
+        431.931,
+        697.973,
+        455.255
+      ],
+      "bbox_norm": [
+        0.757649,
+        0.685605,
+        0.861695,
+        0.722627
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 29,
+      "bbox_points": [
+        697.973,
+        431.931,
+        756.493,
+        455.255
+      ],
+      "bbox_norm": [
+        0.861695,
+        0.685605,
+        0.933942,
+        0.722627
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 1,
+      "bbox_points": [
+        64.593,
+        455.255,
+        107.247,
+        477.923
+      ],
+      "bbox_norm": [
+        0.079744,
+        0.722627,
+        0.132403,
+        0.758609
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 4,
+      "bbox_points": [
+        107.247,
+        455.255,
+        220.62,
+        477.923
+      ],
+      "bbox_norm": [
+        0.132403,
+        0.722627,
+        0.27237,
+        0.758609
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 5,
+      "bbox_points": [
+        220.62,
+        455.255,
+        357.648,
+        477.923
+      ],
+      "bbox_norm": [
+        0.27237,
+        0.722627,
+        0.441541,
+        0.758609
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "PROFORMA Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 10,
+      "bbox_points": [
+        357.648,
+        455.255,
+        452.806,
+        477.923
+      ],
+      "bbox_norm": [
+        0.441541,
+        0.722627,
+        0.559019,
+        0.758609
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA No.2 Infrastructure /Assets"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 16,
+      "bbox_points": [
+        452.806,
+        455.255,
+        542.07,
+        477.923
+      ],
+      "bbox_norm": [
+        0.559019,
+        0.722627,
+        0.669222,
+        0.758609
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 21,
+      "bbox_points": [
+        542.07,
+        455.255,
+        613.695,
+        477.923
+      ],
+      "bbox_norm": [
+        0.669222,
+        0.722627,
+        0.757649,
+        0.758609
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 27,
+      "bbox_points": [
+        613.695,
+        455.255,
+        697.973,
+        477.923
+      ],
+      "bbox_norm": [
+        0.757649,
+        0.722627,
+        0.861695,
+        0.758609
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 29,
+      "bbox_points": [
+        697.973,
+        455.255,
+        756.493,
+        477.923
+      ],
+      "bbox_norm": [
+        0.861695,
+        0.722627,
+        0.933942,
+        0.758609
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 1,
+      "bbox_points": [
+        64.593,
+        477.923,
+        107.247,
+        502.279
+      ],
+      "bbox_norm": [
+        0.079744,
+        0.758609,
+        0.132403,
+        0.797269
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 4,
+      "bbox_points": [
+        107.247,
+        477.923,
+        220.62,
+        502.279
+      ],
+      "bbox_norm": [
+        0.132403,
+        0.758609,
+        0.27237,
+        0.797269
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 5,
+      "bbox_points": [
+        220.62,
+        477.923,
+        357.648,
+        502.279
+      ],
+      "bbox_norm": [
+        0.27237,
+        0.758609,
+        0.441541,
+        0.797269
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "PROFORMA Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 10,
+      "bbox_points": [
+        357.648,
+        477.923,
+        452.806,
+        502.279
+      ],
+      "bbox_norm": [
+        0.441541,
+        0.758609,
+        0.559019,
+        0.797269
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA No.2 Infrastructure /Assets"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 16,
+      "bbox_points": [
+        452.806,
+        477.923,
+        542.07,
+        502.279
+      ],
+      "bbox_norm": [
+        0.559019,
+        0.758609,
+        0.669222,
+        0.797269
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 21,
+      "bbox_points": [
+        542.07,
+        477.923,
+        613.695,
+        502.279
+      ],
+      "bbox_norm": [
+        0.669222,
+        0.758609,
+        0.757649,
+        0.797269
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 27,
+      "bbox_points": [
+        613.695,
+        477.923,
+        697.973,
+        502.279
+      ],
+      "bbox_norm": [
+        0.757649,
+        0.758609,
+        0.861695,
+        0.797269
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 29,
+      "bbox_points": [
+        697.973,
+        477.923,
+        756.493,
+        502.279
+      ],
+      "bbox_norm": [
+        0.861695,
+        0.758609,
+        0.933942,
+        0.797269
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 1,
+      "bbox_points": [
+        64.593,
+        502.279,
+        107.247,
+        525.603
+      ],
+      "bbox_norm": [
+        0.079744,
+        0.797269,
+        0.132403,
+        0.834291
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 4,
+      "bbox_points": [
+        107.247,
+        502.279,
+        220.62,
+        525.603
+      ],
+      "bbox_norm": [
+        0.132403,
+        0.797269,
+        0.27237,
+        0.834291
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 5,
+      "bbox_points": [
+        220.62,
+        502.279,
+        357.648,
+        525.603
+      ],
+      "bbox_norm": [
+        0.27237,
+        0.797269,
+        0.441541,
+        0.834291
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "PROFORMA Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 10,
+      "bbox_points": [
+        357.648,
+        502.279,
+        452.806,
+        525.603
+      ],
+      "bbox_norm": [
+        0.441541,
+        0.797269,
+        0.559019,
+        0.834291
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA No.2 Infrastructure /Assets"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 16,
+      "bbox_points": [
+        452.806,
+        502.279,
+        542.07,
+        525.603
+      ],
+      "bbox_norm": [
+        0.559019,
+        0.797269,
+        0.669222,
+        0.834291
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 21,
+      "bbox_points": [
+        542.07,
+        502.279,
+        613.695,
+        525.603
+      ],
+      "bbox_norm": [
+        0.669222,
+        0.797269,
+        0.757649,
+        0.834291
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 27,
+      "bbox_points": [
+        613.695,
+        502.279,
+        697.973,
+        525.603
+      ],
+      "bbox_norm": [
+        0.757649,
+        0.797269,
+        0.861695,
+        0.834291
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 29,
+      "bbox_points": [
+        697.973,
+        502.279,
+        756.493,
+        525.603
+      ],
+      "bbox_norm": [
+        0.861695,
+        0.797269,
+        0.933942,
+        0.834291
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 1,
+      "bbox_points": [
+        64.593,
+        525.603,
+        107.247,
+        551.443
+      ],
+      "bbox_norm": [
+        0.079744,
+        0.834291,
+        0.132403,
+        0.875306
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 4,
+      "bbox_points": [
+        107.247,
+        525.603,
+        220.62,
+        551.443
+      ],
+      "bbox_norm": [
+        0.132403,
+        0.834291,
+        0.27237,
+        0.875306
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 5,
+      "bbox_points": [
+        220.62,
+        525.603,
+        357.648,
+        551.443
+      ],
+      "bbox_norm": [
+        0.27237,
+        0.834291,
+        0.441541,
+        0.875306
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "PROFORMA Infrastructure"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 10,
+      "bbox_points": [
+        357.648,
+        525.603,
+        452.806,
+        551.443
+      ],
+      "bbox_norm": [
+        0.441541,
+        0.834291,
+        0.559019,
+        0.875306
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "PROFORMA No.2 Infrastructure /Assets"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 16,
+      "bbox_points": [
+        452.806,
+        525.603,
+        542.07,
+        551.443
+      ],
+      "bbox_norm": [
+        0.559019,
+        0.834291,
+        0.669222,
+        0.875306
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 21,
+      "bbox_points": [
+        542.07,
+        525.603,
+        613.695,
+        551.443
+      ],
+      "bbox_norm": [
+        0.669222,
+        0.834291,
+        0.757649,
+        0.875306
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "No.2 created"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 27,
+      "bbox_points": [
+        613.695,
+        525.603,
+        697.973,
+        551.443
+      ],
+      "bbox_norm": [
+        0.757649,
+        0.834291,
+        0.861695,
+        0.875306
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": ""
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 29,
+      "bbox_points": [
+        697.973,
+        525.603,
+        756.493,
+        551.443
+      ],
+      "bbox_norm": [
+        0.861695,
+        0.834291,
+        0.933942,
+        0.875306
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": ""
+    }
+  ]
+}

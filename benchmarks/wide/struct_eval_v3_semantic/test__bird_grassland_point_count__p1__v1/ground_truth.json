@@ -1,0 +1,782 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "bird_grassland_point_count.pdf",
+  "page": 2,
+  "page_size_points": [
+    792.0,
+    612.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 2,
+      "row": 0,
+      "col": 11,
+      "bbox_points": [
+        396.89,
+        91.032,
+        566.11,
+        102.927
+      ],
+      "bbox_norm": [
+        0.501124,
+        0.148746,
+        0.714785,
+        0.168182
+      ],
+      "source": "printed",
+      "value": "If\u2026",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "If\u2026"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 17,
+      "bbox_points": [
+        576.94,
+        91.032,
+        759.72,
+        102.927
+      ],
+      "bbox_norm": [
+        0.72846,
+        0.148746,
+        0.959242,
+        0.168182
+      ],
+      "source": "printed",
+      "value": "Then\u2026",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Then\u2026"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 10,
+      "bbox_points": [
+        391.504,
+        102.927,
+        571.626,
+        126.98
+      ],
+      "bbox_norm": [
+        0.494323,
+        0.168182,
+        0.72175,
+        0.207484
+      ],
+      "source": "printed",
+      "value": "Individuals survey plot are moving for all 10 throughout mins",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Individuals survey plot are moving for all 10 throughout mins"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 16,
+      "bbox_points": [
+        571.626,
+        102.927,
+        765.111,
+        126.98
+      ],
+      "bbox_norm": [
+        0.72175,
+        0.168182,
+        0.966049,
+        0.207484
+      ],
+      "source": "printed",
+      "value": "was Record first the detected distance for band each where time the period bird",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "was Record first the detected distance for band each where time the period bird"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 10,
+      "bbox_points": [
+        391.504,
+        126.98,
+        571.626,
+        174.38
+      ],
+      "bbox_norm": [
+        0.494323,
+        0.207484,
+        0.72175,
+        0.284935
+      ],
+      "source": "printed",
+      "value": "bands, Same 0-5 mins, individual(s) are still detected within period during recorded survey 5-10 distance during mins",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "bands, Same 0-5 mins, individual(s) are still detected within period during recorded survey 5-10 distance during mins"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 16,
+      "bbox_points": [
+        571.626,
+        126.98,
+        765.111,
+        174.38
+      ],
+      "bbox_norm": [
+        0.72175,
+        0.207484,
+        0.966049,
+        0.284935
+      ],
+      "source": "printed",
+      "value": "Note individual(s) 5-10 detection min columns, were mins method recorded period. using and the distance on same during row in 0-5 the",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Note individual(s) 5-10 detection min columns, were mins method recorded period. using and the distance on same during row in 0-5 the"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 10,
+      "bbox_points": [
+        391.504,
+        174.38,
+        571.626,
+        210.17
+      ],
+      "bbox_norm": [
+        0.494323,
+        0.284935,
+        0.72175,
+        0.343415
+      ],
+      "source": "printed",
+      "value": "New individual(s) during 5-10 mins are detected period only",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "New individual(s) during 5-10 mins are detected period only"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 16,
+      "bbox_points": [
+        571.626,
+        174.38,
+        765.111,
+        210.17
+      ],
+      "bbox_norm": [
+        0.72175,
+        0.284935,
+        0.966049,
+        0.343415
+      ],
+      "source": "printed",
+      "value": "Note 5-10 min detection columns, the method individual(s) creating and distance a new row in the for",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Note 5-10 min detection columns, the method individual(s) creating and distance a new row in the for"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 1,
+      "bbox_points": [
+        19.2,
+        364.323,
+        75.6,
+        373.938
+      ],
+      "bbox_norm": [
+        0.024242,
+        0.595298,
+        0.095455,
+        0.611011
+      ],
+      "source": "printed",
+      "value": "Beaufort No.",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Beaufort No."
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 4,
+      "bbox_points": [
+        86.424,
+        364.323,
+        147.624,
+        373.938
+      ],
+      "bbox_norm": [
+        0.109121,
+        0.595298,
+        0.186394,
+        0.611011
+      ],
+      "source": "printed",
+      "value": "Speed in MPH",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Speed in MPH"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 7,
+      "bbox_points": [
+        158.42,
+        364.323,
+        363.4,
+        373.938
+      ],
+      "bbox_norm": [
+        0.200025,
+        0.595298,
+        0.458838,
+        0.611011
+      ],
+      "source": "printed",
+      "value": "Indicators of Wind Speed",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Indicators of Wind Speed"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 11,
+      "bbox_points": [
+        396.89,
+        364.323,
+        543.67,
+        373.938
+      ],
+      "bbox_norm": [
+        0.501124,
+        0.595298,
+        0.686452,
+        0.611011
+      ],
+      "source": "printed",
+      "value": "If\u2026 k",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "If\u2026 k"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 14,
+      "bbox_points": [
+        554.47,
+        364.323,
+        759.72,
+        373.938
+      ],
+      "bbox_norm": [
+        0.700088,
+        0.595298,
+        0.959242,
+        0.611011
+      ],
+      "source": "printed",
+      "value": "Then\u2026",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Then\u2026"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 0,
+      "bbox_points": [
+        13.802,
+        376.098,
+        81.119,
+        386.35
+      ],
+      "bbox_norm": [
+        0.017427,
+        0.614538,
+        0.102423,
+        0.631291
+      ],
+      "source": "printed",
+      "value": "0",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "0"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 3,
+      "bbox_points": [
+        81.119,
+        376.098,
+        153.139,
+        386.35
+      ],
+      "bbox_norm": [
+        0.102423,
+        0.614538,
+        0.193357,
+        0.631291
+      ],
+      "source": "printed",
+      "value": "0",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "0"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 6,
+      "bbox_points": [
+        153.139,
+        376.098,
+        368.808,
+        386.35
+      ],
+      "bbox_norm": [
+        0.193357,
+        0.614538,
+        0.465667,
+        0.631291
+      ],
+      "source": "printed",
+      "value": "Smoke rise vertically, absolutely still conditions",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Smoke rise vertically, absolutely still conditions"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 0,
+      "bbox_points": [
+        13.802,
+        386.35,
+        81.119,
+        399.37
+      ],
+      "bbox_norm": [
+        0.017427,
+        0.631291,
+        0.102423,
+        0.652565
+      ],
+      "source": "printed",
+      "value": "1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 3,
+      "bbox_points": [
+        81.119,
+        386.35,
+        153.139,
+        399.37
+      ],
+      "bbox_norm": [
+        0.102423,
+        0.631291,
+        0.193357,
+        0.652565
+      ],
+      "source": "printed",
+      "value": "1 to 3",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1 to 3"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 6,
+      "bbox_points": [
+        153.139,
+        386.35,
+        368.808,
+        399.37
+      ],
+      "bbox_norm": [
+        0.193357,
+        0.631291,
+        0.465667,
+        0.652565
+      ],
+      "source": "printed",
+      "value": "Wind direction shown by smoke drift",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Wind direction shown by smoke drift"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 0,
+      "bbox_points": [
+        13.802,
+        399.37,
+        81.119,
+        410.71
+      ],
+      "bbox_norm": [
+        0.017427,
+        0.652565,
+        0.102423,
+        0.671095
+      ],
+      "source": "printed",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "2"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 3,
+      "bbox_points": [
+        81.119,
+        399.37,
+        153.139,
+        410.71
+      ],
+      "bbox_norm": [
+        0.102423,
+        0.652565,
+        0.193357,
+        0.671095
+      ],
+      "source": "printed",
+      "value": "4 to 7",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "4 to 7"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 6,
+      "bbox_points": [
+        153.139,
+        399.37,
+        368.808,
+        410.71
+      ],
+      "bbox_norm": [
+        0.193357,
+        0.652565,
+        0.465667,
+        0.671095
+      ],
+      "source": "printed",
+      "value": "Wind felt on face; leaves rustle",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Wind felt on face; leaves rustle"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 0,
+      "bbox_points": [
+        13.802,
+        410.71,
+        81.119,
+        422.95
+      ],
+      "bbox_norm": [
+        0.017427,
+        0.671095,
+        0.102423,
+        0.691095
+      ],
+      "source": "printed",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "3"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 3,
+      "bbox_points": [
+        81.119,
+        410.71,
+        153.139,
+        422.95
+      ],
+      "bbox_norm": [
+        0.102423,
+        0.671095,
+        0.193357,
+        0.691095
+      ],
+      "source": "printed",
+      "value": "8 to 12",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "8 to 12"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 6,
+      "bbox_points": [
+        153.139,
+        410.71,
+        368.808,
+        422.95
+      ],
+      "bbox_norm": [
+        0.193357,
+        0.671095,
+        0.465667,
+        0.691095
+      ],
+      "source": "printed",
+      "value": "Leaves and small twigs in constant motion",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Leaves and small twigs in constant motion"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 0,
+      "bbox_points": [
+        13.802,
+        422.95,
+        81.119,
+        435.55
+      ],
+      "bbox_norm": [
+        0.017427,
+        0.691095,
+        0.102423,
+        0.711683
+      ],
+      "source": "printed",
+      "value": "4",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "4"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 3,
+      "bbox_points": [
+        81.119,
+        422.95,
+        153.139,
+        435.55
+      ],
+      "bbox_norm": [
+        0.102423,
+        0.691095,
+        0.193357,
+        0.711683
+      ],
+      "source": "printed",
+      "value": "13 to 18",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "13 to 18"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 6,
+      "bbox_points": [
+        153.139,
+        422.95,
+        368.808,
+        435.55
+      ],
+      "bbox_norm": [
+        0.193357,
+        0.691095,
+        0.465667,
+        0.711683
+      ],
+      "source": "printed",
+      "value": "Raises dust, loose paper and small branches",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Raises dust, loose paper and small branches"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 0,
+      "bbox_points": [
+        13.802,
+        435.55,
+        81.119,
+        447.43
+      ],
+      "bbox_norm": [
+        0.017427,
+        0.711683,
+        0.102423,
+        0.731095
+      ],
+      "source": "printed",
+      "value": "5",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "5"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 3,
+      "bbox_points": [
+        81.119,
+        435.55,
+        153.139,
+        447.43
+      ],
+      "bbox_norm": [
+        0.102423,
+        0.711683,
+        0.193357,
+        0.731095
+      ],
+      "source": "printed",
+      "value": "19 to 24",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "19 to 24"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 6,
+      "bbox_points": [
+        153.139,
+        435.55,
+        368.808,
+        447.43
+      ],
+      "bbox_norm": [
+        0.193357,
+        0.711683,
+        0.465667,
+        0.731095
+      ],
+      "source": "printed",
+      "value": "Small trees in leaf sway",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Small trees in leaf sway"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 10,
+      "bbox_points": [
+        391.504,
+        483.34,
+        549.07,
+        518.976
+      ],
+      "bbox_norm": [
+        0.494323,
+        0.789771,
+        0.69327,
+        0.848
+      ],
+      "source": "printed",
+      "value": "100m A bird survey is observed boundary survey outside during of the the",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "100m A bird survey is observed boundary survey outside during of the the"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 13,
+      "bbox_points": [
+        549.07,
+        483.34,
+        765.111,
+        518.976
+      ],
+      "bbox_norm": [
+        0.69327,
+        0.789771,
+        0.966049,
+        0.848
+      ],
+      "source": "printed",
+      "value": "The survey bird is observation recorded datasheet as a in before/after/outside section the bottom middle",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "The survey bird is observation recorded datasheet as a in before/after/outside section the bottom middle"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 10,
+      "bbox_points": [
+        391.504,
+        518.976,
+        549.07,
+        557.736
+      ],
+      "bbox_norm": [
+        0.494323,
+        0.848,
+        0.69327,
+        0.911333
+      ],
+      "source": "printed",
+      "value": "A bird survey to/from is observed field the while survey flying walking point over the",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "A bird survey to/from is observed field the while survey flying walking point over the"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 13,
+      "bbox_points": [
+        549.07,
+        518.976,
+        765.111,
+        557.736
+      ],
+      "bbox_norm": [
+        0.69327,
+        0.848,
+        0.966049,
+        0.911333
+      ],
+      "source": "printed",
+      "value": "The survey bird is observation recorded datasheet as a in before/after/outside section the bottom middle",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "The survey bird is observation recorded datasheet as a in before/after/outside section the bottom middle"
+    }
+  ]
+}

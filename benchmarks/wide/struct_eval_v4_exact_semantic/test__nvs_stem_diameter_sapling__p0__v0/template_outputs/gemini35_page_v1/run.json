@@ -1,0 +1,87 @@
+{
+  "form": "test__nvs_stem_diameter_sapling__p0__v0",
+  "template": "nvs_stem_diameter_sapling.pdf",
+  "page": 1,
+  "model": "gemini-3.5-flash",
+  "mode": "page",
+  "tag": "gemini35_page_v1",
+  "aligned": true,
+  "cells": 240,
+  "targets": 234,
+  "decisions": 234,
+  "missing": [],
+  "extra": [],
+  "duplicates": [],
+  "calls": [
+    {
+      "batch": 0,
+      "model": "gemini-3.5-flash",
+      "in_tok": 17405,
+      "out_tok": 8350,
+      "thinking_tok": 0,
+      "cost_usd": 0.10126,
+      "latency_s": 36.2
+    }
+  ],
+  "cost_usd": 0.10126,
+  "latency_s": 36.2,
+  "wall_s": 36.4,
+  "integrity": {
+    "golden_kind": "exact_layout",
+    "strict_metrics_are_headline": true,
+    "golden_cells": 55,
+    "candidate_cells": 55,
+    "cell_count_ratio": 1.0,
+    "pages": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "golden": 1,
+      "candidate": 1
+    },
+    "content_anywhere": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "occupied_position": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "exact_cell": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "class_imbalance_resistant": {
+      "offmode_accuracy_all": 1.0,
+      "offmode_n": 48,
+      "balanced_class_recall": 1.0,
+      "silent_columns": 0
+    },
+    "oracle_modal_control": {
+      "description": "oracle occupied positions plus per-page/column modes; reads no pixels",
+      "exact_cell_recall": 0.1273,
+      "content_anywhere_f1": 0.1273,
+      "constant_columns": 6,
+      "candidate_content_f1_lift": 0.8727,
+      "candidate_exact_recall_lift": 0.8727
+    },
+    "errors": {
+      "omitted": 0,
+      "wrong_value_at_occupied_position": 0,
+      "false_fill_or_extra_position": 0,
+      "duplicate_row_excess": 0
+    },
+    "shape": {
+      "row_extent_ratio": 1.0,
+      "column_extent_ratio": 1.0
+    },
+    "constancy": {
+      "max_excess_over_golden": 0.0,
+      "candidate_columns_ge_0_98": 0,
+      "golden_columns_ge_0_98": 0
+    }
+  }
+}

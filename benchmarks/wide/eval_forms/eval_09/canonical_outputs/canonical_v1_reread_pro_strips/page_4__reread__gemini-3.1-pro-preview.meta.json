@@ -1,0 +1,8 @@
+{
+  "model": "gemini-3.1-pro-preview",
+  "in_tok": 14433,
+  "out_tok": 13403,
+  "thinking_tok": 0,
+  "cost_usd": 0.1897,
+  "latency_s": 70.0
+}

@@ -1,0 +1,1419 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "rbp_stream_habitat_highgradient_wv.pdf",
+  "page": 3,
+  "page_size_points": [
+    612.0,
+    792.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 3,
+      "row": 0,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        81.0,
+        112.2,
+        135.24
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.102273,
+        0.183333,
+        0.170758
+      ],
+      "source": "printed",
+      "value": "FEATURES WATERSHED",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 0,
+      "col": 1,
+      "bbox_points": [
+        112.2,
+        81.0,
+        166.2,
+        135.24
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.102273,
+        0.271569,
+        0.170758
+      ],
+      "source": "written",
+      "value": "13/06/21",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 3,
+      "row": 0,
+      "col": 2,
+      "bbox_points": [
+        166.2,
+        81.0,
+        198.6,
+        135.24
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.102273,
+        0.32451,
+        0.170758
+      ],
+      "source": "printed",
+      "value": "Predominant \u2018 \u2018 \u2018 \u2018 Agricultural Forest Residential",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 0,
+      "col": 6,
+      "bbox_points": [
+        424.44,
+        81.0,
+        521.745,
+        135.24
+      ],
+      "bbox_norm": [
+        0.693529,
+        0.102273,
+        0.852525,
+        0.170758
+      ],
+      "source": "printed",
+      "value": "Pollution potential \u2018 Heavy sources",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 1,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        135.24,
+        112.2,
+        172.68
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.170758,
+        0.183333,
+        0.21803
+      ],
+      "source": "printed",
+      "value": "(18 RIPARIAN VEGETATION meter",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 1,
+      "col": 1,
+      "bbox_points": [
+        112.2,
+        135.24,
+        166.2,
+        172.68
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.170758,
+        0.271569,
+        0.21803
+      ],
+      "source": "printed",
+      "value": "buffer)",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 1,
+      "col": 2,
+      "bbox_points": [
+        166.2,
+        135.24,
+        198.6,
+        172.68
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.170758,
+        0.32451,
+        0.21803
+      ],
+      "source": "printed",
+      "value": "Indicate dominant \u2018 Trees",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 1,
+      "col": 6,
+      "bbox_points": [
+        424.44,
+        135.24,
+        521.745,
+        172.68
+      ],
+      "bbox_norm": [
+        0.693529,
+        0.170758,
+        0.852525,
+        0.21803
+      ],
+      "source": "printed",
+      "value": "Herbaceous",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 2,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        172.68,
+        112.2,
+        278.76
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.21803,
+        0.183333,
+        0.35197
+      ],
+      "source": "printed",
+      "value": "FEATURES INSTREAM",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 2,
+      "col": 1,
+      "bbox_points": [
+        112.2,
+        172.68,
+        166.2,
+        278.76
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.21803,
+        0.271569,
+        0.35197
+      ],
+      "source": "written",
+      "value": "22/04/20",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 3,
+      "row": 2,
+      "col": 2,
+      "bbox_points": [
+        166.2,
+        172.68,
+        198.6,
+        278.76
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.21803,
+        0.32451,
+        0.35197
+      ],
+      "source": "printed",
+      "value": "(at Area Estimated Estimated Sampling Surface Estimated thalweg) in",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 2,
+      "col": 6,
+      "bbox_points": [
+        424.44,
+        172.68,
+        521.745,
+        278.76
+      ],
+      "bbox_norm": [
+        0.693529,
+        0.21803,
+        0.852525,
+        0.35197
+      ],
+      "source": "printed",
+      "value": "Represented _______m Run_______% shaded \u2018 \u2018 No No \u2018 by Shaded Stream",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 3,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        278.76,
+        112.2,
+        309.96
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.35197,
+        0.183333,
+        0.391364
+      ],
+      "source": "printed",
+      "value": "DEBRIS LARGE",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 3,
+      "col": 1,
+      "bbox_points": [
+        112.2,
+        278.76,
+        166.2,
+        309.96
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.35197,
+        0.271569,
+        0.391364
+      ],
+      "source": "printed",
+      "value": "WOODY",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 3,
+      "col": 2,
+      "bbox_points": [
+        166.2,
+        278.76,
+        198.6,
+        309.96
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.35197,
+        0.32451,
+        0.391364
+      ],
+      "source": "printed",
+      "value": "Density LWD",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 3,
+      "col": 6,
+      "bbox_points": [
+        424.44,
+        278.76,
+        521.745,
+        309.96
+      ],
+      "bbox_norm": [
+        0.693529,
+        0.35197,
+        0.852525,
+        0.391364
+      ],
+      "source": "written",
+      "value": "65",
+      "mark": "text",
+      "value_kind": "percent"
+    },
+    {
+      "page": 3,
+      "row": 4,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        309.96,
+        112.2,
+        371.88
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.391364,
+        0.183333,
+        0.469545
+      ],
+      "source": "printed",
+      "value": "AQUATIC VEGETATION",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 4,
+      "col": 1,
+      "bbox_points": [
+        112.2,
+        309.96,
+        166.2,
+        371.88
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.391364,
+        0.271569,
+        0.469545
+      ],
+      "source": "written",
+      "value": "23/04/24",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 3,
+      "row": 4,
+      "col": 2,
+      "bbox_points": [
+        166.2,
+        309.96,
+        198.6,
+        371.88
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.391364,
+        0.32451,
+        0.469545
+      ],
+      "source": "printed",
+      "value": "Indicate Portion dominant \u2018 \u2018 Floating Rooted",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 4,
+      "col": 6,
+      "bbox_points": [
+        424.44,
+        309.96,
+        521.745,
+        371.88
+      ],
+      "bbox_norm": [
+        0.693529,
+        0.391364,
+        0.852525,
+        0.469545
+      ],
+      "source": "printed",
+      "value": "\u2018 Free floating",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 5,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        371.88,
+        112.2,
+        470.76
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.469545,
+        0.183333,
+        0.594394
+      ],
+      "source": "printed",
+      "value": "WATER",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 5,
+      "col": 1,
+      "bbox_points": [
+        112.2,
+        371.88,
+        166.2,
+        470.76
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.469545,
+        0.271569,
+        0.594394
+      ],
+      "source": "printed",
+      "value": "QUALITY",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 5,
+      "col": 2,
+      "bbox_points": [
+        166.2,
+        371.88,
+        198.6,
+        470.76
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.469545,
+        0.32451,
+        0.594394
+      ],
+      "source": "printed",
+      "value": "Dissolved Specific Turbidity WQ pH",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 5,
+      "col": 6,
+      "bbox_points": [
+        424.44,
+        371.88,
+        521.745,
+        470.76
+      ],
+      "bbox_norm": [
+        0.693529,
+        0.469545,
+        0.852525,
+        0.594394
+      ],
+      "source": "printed",
+      "value": "Other_________________________ turbid Chemical Globs Other________________ \u2018 \u2018 \u2018 Flecks Other________ Turbid",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 6,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        470.76,
+        112.2,
+        531.48
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.594394,
+        0.183333,
+        0.671061
+      ],
+      "source": "printed",
+      "value": "SEDIMENT/ SUBSTRATE",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 6,
+      "col": 1,
+      "bbox_points": [
+        112.2,
+        470.76,
+        166.2,
+        531.48
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.594394,
+        0.271569,
+        0.671061
+      ],
+      "source": "written",
+      "value": "26/11/24",
+      "mark": "text",
+      "value_kind": "date"
+    },
+    {
+      "page": 3,
+      "row": 6,
+      "col": 2,
+      "bbox_points": [
+        166.2,
+        470.76,
+        198.6,
+        531.48
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.594394,
+        0.32451,
+        0.671061
+      ],
+      "source": "printed",
+      "value": "Odors Oils \u2018 \u2018 \u2018 \u2018 Absent Chemical Normal",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 6,
+      "col": 6,
+      "bbox_points": [
+        424.44,
+        470.76,
+        521.745,
+        531.48
+      ],
+      "bbox_norm": [
+        0.693529,
+        0.594394,
+        0.852525,
+        0.671061
+      ],
+      "source": "printed",
+      "value": "Other_________________ are in \u2018 color? not Paper deeply fiber embedded, \u2018 Sand",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 8,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        539.64,
+        112.2,
+        564.84
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.681364,
+        0.183333,
+        0.713182
+      ],
+      "source": "written",
+      "value": "57",
+      "mark": "text",
+      "value_kind": "int"
+    },
+    {
+      "page": 3,
+      "row": 8,
+      "col": 3,
+      "bbox_points": [
+        198.6,
+        539.64,
+        279.24,
+        564.84
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.681364,
+        0.456275,
+        0.713182
+      ],
+      "source": "printed",
+      "value": "100%) COMPONENTS",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 8,
+      "col": 4,
+      "bbox_points": [
+        279.24,
+        539.64,
+        326.04,
+        564.84
+      ],
+      "bbox_norm": [
+        0.456275,
+        0.681364,
+        0.532745,
+        0.713182
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn"
+    },
+    {
+      "page": 3,
+      "row": 8,
+      "col": 6,
+      "bbox_points": [
+        424.44,
+        539.64,
+        521.745,
+        564.84
+      ],
+      "bbox_norm": [
+        0.693529,
+        0.681364,
+        0.852525,
+        0.713182
+      ],
+      "source": "printed",
+      "value": "COMPONENTS up to 100%)",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 9,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        564.84,
+        112.2,
+        588.84
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.713182,
+        0.183333,
+        0.743485
+      ],
+      "source": "printed",
+      "value": "Substrate Type",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 9,
+      "col": 1,
+      "bbox_points": [
+        112.2,
+        564.84,
+        166.2,
+        588.84
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.713182,
+        0.271569,
+        0.743485
+      ],
+      "source": "printed",
+      "value": "Diameter",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 9,
+      "col": 2,
+      "bbox_points": [
+        166.2,
+        564.84,
+        198.6,
+        588.84
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.713182,
+        0.32451,
+        0.743485
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1"
+    },
+    {
+      "page": 3,
+      "row": 9,
+      "col": 3,
+      "bbox_points": [
+        198.6,
+        564.84,
+        279.24,
+        588.84
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.713182,
+        0.456275,
+        0.743485
+      ],
+      "source": "printed",
+      "value": "% Sampling Composition Reach in",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 9,
+      "col": 4,
+      "bbox_points": [
+        279.24,
+        564.84,
+        326.04,
+        588.84
+      ],
+      "bbox_norm": [
+        0.456275,
+        0.713182,
+        0.532745,
+        0.743485
+      ],
+      "source": "printed",
+      "value": "Substrate Type",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 9,
+      "col": 5,
+      "bbox_points": [
+        326.04,
+        564.84,
+        424.44,
+        588.84
+      ],
+      "bbox_norm": [
+        0.532745,
+        0.713182,
+        0.693529,
+        0.743485
+      ],
+      "source": "printed",
+      "value": "Characteristic",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 9,
+      "col": 6,
+      "bbox_points": [
+        424.44,
+        564.84,
+        521.745,
+        588.84
+      ],
+      "bbox_norm": [
+        0.693529,
+        0.713182,
+        0.852525,
+        0.743485
+      ],
+      "source": "printed",
+      "value": "% Sampling Composition Area in",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 10,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        588.84,
+        112.2,
+        603.24
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.743485,
+        0.183333,
+        0.761667
+      ],
+      "source": "printed",
+      "value": "Bedrock",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 10,
+      "col": 1,
+      "bbox_points": [
+        112.2,
+        588.84,
+        166.2,
+        603.24
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.743485,
+        0.271569,
+        0.761667
+      ],
+      "source": "written",
+      "value": "33.8",
+      "mark": "text",
+      "value_kind": "dec"
+    },
+    {
+      "page": 3,
+      "row": 10,
+      "col": 2,
+      "bbox_points": [
+        166.2,
+        588.84,
+        198.6,
+        603.24
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.743485,
+        0.32451,
+        0.761667
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 3,
+      "row": 10,
+      "col": 3,
+      "bbox_points": [
+        198.6,
+        588.84,
+        279.24,
+        603.24
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.743485,
+        0.456275,
+        0.761667
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent"
+    },
+    {
+      "page": 3,
+      "row": 11,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        603.24,
+        112.2,
+        617.64
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.761667,
+        0.183333,
+        0.779849
+      ],
+      "source": "printed",
+      "value": "Boulder",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 11,
+      "col": 1,
+      "bbox_points": [
+        112.2,
+        603.24,
+        166.2,
+        617.64
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.761667,
+        0.271569,
+        0.779849
+      ],
+      "source": "printed",
+      "value": "> 256 mm (10\")",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 11,
+      "col": 2,
+      "bbox_points": [
+        166.2,
+        603.24,
+        198.6,
+        617.64
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.761667,
+        0.32451,
+        0.779849
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 3,
+      "row": 11,
+      "col": 3,
+      "bbox_points": [
+        198.6,
+        603.24,
+        279.24,
+        617.64
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.761667,
+        0.456275,
+        0.779849
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent"
+    },
+    {
+      "page": 3,
+      "row": 12,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        617.64,
+        112.2,
+        632.04
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.779849,
+        0.183333,
+        0.79803
+      ],
+      "source": "printed",
+      "value": "Cobble",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 12,
+      "col": 1,
+      "bbox_points": [
+        112.2,
+        617.64,
+        166.2,
+        632.04
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.779849,
+        0.271569,
+        0.79803
+      ],
+      "source": "printed",
+      "value": "64-256 mm",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 12,
+      "col": 2,
+      "bbox_points": [
+        166.2,
+        617.64,
+        198.6,
+        632.04
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.779849,
+        0.32451,
+        0.79803
+      ],
+      "source": "printed",
+      "value": "(2.5\"-10\")",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 12,
+      "col": 3,
+      "bbox_points": [
+        198.6,
+        617.64,
+        279.24,
+        632.04
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.779849,
+        0.456275,
+        0.79803
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent"
+    },
+    {
+      "page": 3,
+      "row": 13,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        632.04,
+        112.2,
+        646.44
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.79803,
+        0.183333,
+        0.816212
+      ],
+      "source": "printed",
+      "value": "Gravel",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 13,
+      "col": 1,
+      "bbox_points": [
+        112.2,
+        632.04,
+        166.2,
+        646.44
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.79803,
+        0.271569,
+        0.816212
+      ],
+      "source": "printed",
+      "value": "2-64 mm (0.1\"-2.5\")",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 13,
+      "col": 2,
+      "bbox_points": [
+        166.2,
+        632.04,
+        198.6,
+        646.44
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.79803,
+        0.32451,
+        0.816212
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 3,
+      "row": 13,
+      "col": 3,
+      "bbox_points": [
+        198.6,
+        632.04,
+        279.24,
+        646.44
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.79803,
+        0.456275,
+        0.816212
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent"
+    },
+    {
+      "page": 3,
+      "row": 14,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        646.44,
+        112.2,
+        660.84
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.816212,
+        0.183333,
+        0.834394
+      ],
+      "source": "printed",
+      "value": "Sand",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 14,
+      "col": 1,
+      "bbox_points": [
+        112.2,
+        646.44,
+        166.2,
+        660.84
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.816212,
+        0.271569,
+        0.834394
+      ],
+      "source": "printed",
+      "value": "0.06-2mm (gritty)",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 14,
+      "col": 2,
+      "bbox_points": [
+        166.2,
+        646.44,
+        198.6,
+        660.84
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.816212,
+        0.32451,
+        0.834394
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 3,
+      "row": 14,
+      "col": 3,
+      "bbox_points": [
+        198.6,
+        646.44,
+        279.24,
+        660.84
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.816212,
+        0.456275,
+        0.834394
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent"
+    },
+    {
+      "page": 3,
+      "row": 15,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        660.84,
+        112.2,
+        675.24
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.834394,
+        0.183333,
+        0.852576
+      ],
+      "source": "printed",
+      "value": "Silt",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 15,
+      "col": 1,
+      "bbox_points": [
+        112.2,
+        660.84,
+        166.2,
+        675.24
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.834394,
+        0.271569,
+        0.852576
+      ],
+      "source": "printed",
+      "value": "0.004-0.06 mm",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 15,
+      "col": 2,
+      "bbox_points": [
+        166.2,
+        660.84,
+        198.6,
+        675.24
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.834394,
+        0.32451,
+        0.852576
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 3,
+      "row": 15,
+      "col": 3,
+      "bbox_points": [
+        198.6,
+        660.84,
+        279.24,
+        675.24
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.834394,
+        0.456275,
+        0.852576
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent"
+    },
+    {
+      "page": 3,
+      "row": 16,
+      "col": 0,
+      "bbox_points": [
+        72.6,
+        675.24,
+        112.2,
+        688.68
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.852576,
+        0.183333,
+        0.869545
+      ],
+      "source": "printed",
+      "value": "Clay",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 16,
+      "col": 1,
+      "bbox_points": [
+        112.2,
+        675.24,
+        166.2,
+        688.68
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.852576,
+        0.271569,
+        0.869545
+      ],
+      "source": "printed",
+      "value": "< 0.004 mm (slick)",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 16,
+      "col": 2,
+      "bbox_points": [
+        166.2,
+        675.24,
+        198.6,
+        688.68
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.852576,
+        0.32451,
+        0.869545
+      ],
+      "source": "printed",
+      "value": "(slick)",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 3,
+      "row": 16,
+      "col": 3,
+      "bbox_points": [
+        198.6,
+        675.24,
+        279.24,
+        688.68
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.852576,
+        0.456275,
+        0.869545
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent"
+    }
+  ]
+}

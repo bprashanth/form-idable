@@ -1,0 +1,1156 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "kew_seed_collecting_field_data_form.pdf",
+  "page": 2,
+  "page_size_points": [
+    419.528,
+    595.276
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 2,
+      "row": 3,
+      "col": 0,
+      "bbox_points": [
+        25.385,
+        283.604,
+        54.485,
+        318.954
+      ],
+      "bbox_norm": [
+        0.060508,
+        0.476425,
+        0.129873,
+        0.535808
+      ],
+      "source": "printed",
+      "value": "Tree number",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Tree number"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 1,
+      "bbox_points": [
+        54.485,
+        283.604,
+        126.707,
+        318.954
+      ],
+      "bbox_norm": [
+        0.129873,
+        0.476425,
+        0.302023,
+        0.535808
+      ],
+      "source": "printed",
+      "value": "Grid ref or Lat longs",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Grid ref or Lat longs"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 2,
+      "bbox_points": [
+        126.707,
+        283.604,
+        160.42,
+        318.954
+      ],
+      "bbox_norm": [
+        0.302023,
+        0.476425,
+        0.382383,
+        0.535808
+      ],
+      "source": "printed",
+      "value": "Number Sampled of Trees",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Number Sampled of Trees"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 3,
+      "bbox_points": [
+        160.42,
+        283.604,
+        188.547,
+        318.954
+      ],
+      "bbox_norm": [
+        0.382383,
+        0.476425,
+        0.449428,
+        0.535808
+      ],
+      "source": "printed",
+      "value": "(Sq.m) Area sampled",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "(Sq.m) Area sampled"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 4,
+      "bbox_points": [
+        188.547,
+        283.604,
+        207.195,
+        318.954
+      ],
+      "bbox_norm": [
+        0.449428,
+        0.476425,
+        0.493877,
+        0.535808
+      ],
+      "source": "printed",
+      "value": "(\u00b0) Slope",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "(\u00b0) Slope"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 5,
+      "bbox_points": [
+        207.195,
+        283.604,
+        229.412,
+        318.954
+      ],
+      "bbox_norm": [
+        0.493877,
+        0.476425,
+        0.546834,
+        0.535808
+      ],
+      "source": "printed",
+      "value": "Aspect",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Aspect"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 6,
+      "bbox_points": [
+        229.412,
+        283.604,
+        280.066,
+        318.954
+      ],
+      "bbox_norm": [
+        0.546834,
+        0.476425,
+        0.667575,
+        0.535808
+      ],
+      "source": "printed",
+      "value": "Cut conducted) proportions test (if",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Cut conducted) proportions test (if"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 7,
+      "bbox_points": [
+        280.066,
+        283.604,
+        307.897,
+        318.954
+      ],
+      "bbox_norm": [
+        0.667575,
+        0.476425,
+        0.733913,
+        0.535808
+      ],
+      "source": "printed",
+      "value": "Harvest Season Seed",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Harvest Season Seed"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 8,
+      "bbox_points": [
+        307.897,
+        283.604,
+        342.485,
+        318.954
+      ],
+      "bbox_norm": [
+        0.733913,
+        0.476425,
+        0.816357,
+        0.535808
+      ],
+      "source": "printed",
+      "value": "Collected From Seed",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Collected From Seed"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 9,
+      "bbox_points": [
+        342.485,
+        283.604,
+        365.238,
+        318.954
+      ],
+      "bbox_norm": [
+        0.816357,
+        0.476425,
+        0.870592,
+        0.535808
+      ],
+      "source": "printed",
+      "value": "Seed State",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Seed State"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 10,
+      "bbox_points": [
+        365.238,
+        283.604,
+        394.183,
+        318.954
+      ],
+      "bbox_norm": [
+        0.870592,
+        0.476425,
+        0.939586,
+        0.535808
+      ],
+      "source": "printed",
+      "value": "Tagged? Trees",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Tagged? Trees"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 0,
+      "bbox_points": [
+        25.385,
+        318.954,
+        54.485,
+        359.282
+      ],
+      "bbox_norm": [
+        0.060508,
+        0.535808,
+        0.129873,
+        0.603556
+      ],
+      "source": "written",
+      "value": "134",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tree number | Tree number | the date of UK_Landowner_consent_%20formV10_April2024.pdf Signed: Print Name: Date: Genus Species Tree Grid ref or Lat number Plants Early Full Ground Mid Empty Late Infested"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 1,
+      "bbox_points": [
+        54.485,
+        318.954,
+        126.707,
+        359.282
+      ],
+      "bbox_norm": [
+        0.129873,
+        0.535808,
+        0.302023,
+        0.603556
+      ],
+      "source": "written",
+      "value": "-50.64325",
+      "mark": "text",
+      "value_kind": "coordinate",
+      "semantic_context": "Grid ref or Lat longs | Grid ref or Lat longs | (Sq.m) Aspect Grid ref or Lat longs Sampled number (\u00b0) Plants Dry Early Full Yes Ground Mid Empty Moist No Late Both Varied Infested"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 2,
+      "bbox_points": [
+        126.707,
+        318.954,
+        160.42,
+        359.282
+      ],
+      "bbox_norm": [
+        0.302023,
+        0.535808,
+        0.382383,
+        0.603556
+      ],
+      "source": "written",
+      "value": "182",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Number Sampled of Trees | Number of Trees Sampled | sampled of Trees Slope (Sq.m) or Lat longs (\u00b0) Plants Dry Early Full Yes Ground Mid Empty Moist No Late Both Varied Infested"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 3,
+      "bbox_points": [
+        160.42,
+        318.954,
+        188.547,
+        359.282
+      ],
+      "bbox_norm": [
+        0.382383,
+        0.535808,
+        0.449428,
+        0.603556
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "(Sq.m) Area sampled | Area sampled (Sq.m) | Area Number sampled of Trees Slope (Sq.m) Aspect (\u00b0) Plants Dry Early Full Yes Ground Mid Empty Moist No Late Both Varied Infested"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 4,
+      "bbox_points": [
+        188.547,
+        318.954,
+        207.195,
+        359.282
+      ],
+      "bbox_norm": [
+        0.449428,
+        0.535808,
+        0.493877,
+        0.603556
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "(\u00b0) Slope | Slope (\u00b0) | https://brahmsonline.kew.org/Content/Projects/msbp/resources/Training/ UK_Landowner_consent_%20formV10_April2024.pdf Collection Number Area sampled Slope (Sq.m) Aspect (\u00b0) Plants Dry Early Full Yes Ground Mid Empty Moist No Late Both Varied Infested"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 5,
+      "bbox_points": [
+        207.195,
+        318.954,
+        229.412,
+        359.282
+      ],
+      "bbox_norm": [
+        0.493877,
+        0.535808,
+        0.546834,
+        0.603556
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Aspect | Aspect | Number Cut test sampled proportions Slope (Sq.m) Aspect conducted) (\u00b0) Plants Dry Early Full Yes Ground Mid Empty Moist No Late Both Varied Infested"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 6,
+      "bbox_points": [
+        229.412,
+        318.954,
+        280.066,
+        359.282
+      ],
+      "bbox_norm": [
+        0.546834,
+        0.535808,
+        0.667575,
+        0.603556
+      ],
+      "source": "printed",
+      "value": "Infested Empty Full",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Infested Empty Full"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 7,
+      "bbox_points": [
+        280.066,
+        318.954,
+        307.897,
+        359.282
+      ],
+      "bbox_norm": [
+        0.667575,
+        0.535808,
+        0.733913,
+        0.603556
+      ],
+      "source": "printed",
+      "value": "Early Late Mid",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Early Late Mid"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 8,
+      "bbox_points": [
+        307.897,
+        318.954,
+        342.485,
+        359.282
+      ],
+      "bbox_norm": [
+        0.733913,
+        0.535808,
+        0.816357,
+        0.603556
+      ],
+      "source": "printed",
+      "value": "Ground Plants Both",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Ground Plants Both"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 9,
+      "bbox_points": [
+        342.485,
+        318.954,
+        365.238,
+        359.282
+      ],
+      "bbox_norm": [
+        0.816357,
+        0.535808,
+        0.870592,
+        0.603556
+      ],
+      "source": "printed",
+      "value": "Varied Moist Dry",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Varied Moist Dry"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 10,
+      "bbox_points": [
+        365.238,
+        318.954,
+        394.183,
+        359.282
+      ],
+      "bbox_norm": [
+        0.870592,
+        0.535808,
+        0.939586,
+        0.603556
+      ],
+      "source": "printed",
+      "value": "Yes No",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Yes No"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 0,
+      "bbox_points": [
+        25.385,
+        359.282,
+        394.183,
+        379.637
+      ],
+      "bbox_norm": [
+        0.060508,
+        0.603556,
+        0.939586,
+        0.63775
+      ],
+      "source": "printed",
+      "value": "Notes",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 7,
+      "bbox_points": [
+        280.066,
+        379.637,
+        307.897,
+        420.008
+      ],
+      "bbox_norm": [
+        0.667575,
+        0.63775,
+        0.733913,
+        0.705568
+      ],
+      "source": "printed",
+      "value": "Early Late Mid",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Early Late Mid"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 8,
+      "bbox_points": [
+        307.897,
+        379.637,
+        342.485,
+        420.008
+      ],
+      "bbox_norm": [
+        0.733913,
+        0.63775,
+        0.816357,
+        0.705568
+      ],
+      "source": "printed",
+      "value": "Ground Plants Both",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Ground Plants Both"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 9,
+      "bbox_points": [
+        342.485,
+        379.637,
+        365.238,
+        420.008
+      ],
+      "bbox_norm": [
+        0.816357,
+        0.63775,
+        0.870592,
+        0.705568
+      ],
+      "source": "printed",
+      "value": "Varied Moist Dry",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Varied Moist Dry"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 10,
+      "bbox_points": [
+        365.238,
+        379.637,
+        394.183,
+        420.008
+      ],
+      "bbox_norm": [
+        0.870592,
+        0.63775,
+        0.939586,
+        0.705568
+      ],
+      "source": "printed",
+      "value": "Yes No",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Yes No"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 7,
+      "bbox_points": [
+        280.066,
+        420.008,
+        394.183,
+        440.32
+      ],
+      "bbox_norm": [
+        0.667575,
+        0.705568,
+        0.939586,
+        0.739691
+      ],
+      "source": "written",
+      "value": "58",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Early Late Mid | Ground Mid Moist No Late Both Varied | Ground Mid Empty Moist No Late Both Varied Infested Plants Dry Early Full Yes Notes"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 0,
+      "bbox_points": [
+        25.385,
+        440.32,
+        54.485,
+        480.691
+      ],
+      "bbox_norm": [
+        0.060508,
+        0.739691,
+        0.129873,
+        0.80751
+      ],
+      "source": "written",
+      "value": "new flush",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | the UK_Landowner_consent_%20formV10_April2024.pdf Signed: Print Name: Date: Genus Species Tree Grid ref or Lat number Notes Plants Early Full Ground Mid Empty Late Infested"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 1,
+      "bbox_points": [
+        54.485,
+        440.32,
+        126.707,
+        480.691
+      ],
+      "bbox_norm": [
+        0.129873,
+        0.739691,
+        0.302023,
+        0.80751
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "coordinate",
+      "semantic_context": "Grid ref or Lat longs | Grid ref or Lat longs | Grid ref or Lat longs Sampled number (\u00b0) Notes Plants Dry Early Full Yes Ground Mid Empty Moist No Late Both Varied Infested"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 2,
+      "bbox_points": [
+        126.707,
+        440.32,
+        160.42,
+        480.691
+      ],
+      "bbox_norm": [
+        0.302023,
+        0.739691,
+        0.382383,
+        0.80751
+      ],
+      "source": "written",
+      "value": "99",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Number Sampled of Trees | Number of Trees Sampled | sampled of Trees Slope (Sq.m) or Lat longs (\u00b0) Plants Dry Early Full Yes Ground Mid Empty Moist No Late Both Varied Infested"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 3,
+      "bbox_points": [
+        160.42,
+        440.32,
+        188.547,
+        480.691
+      ],
+      "bbox_norm": [
+        0.382383,
+        0.739691,
+        0.449428,
+        0.80751
+      ],
+      "source": "written",
+      "value": "51",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "(Sq.m) Area sampled | Area sampled (Sq.m) | Area Number sampled of Trees Slope (Sq.m) Aspect (\u00b0) Plants Dry Early Full Yes Ground Mid Empty Moist No Late Both Varied Infested"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 4,
+      "bbox_points": [
+        188.547,
+        440.32,
+        207.195,
+        480.691
+      ],
+      "bbox_norm": [
+        0.449428,
+        0.739691,
+        0.493877,
+        0.80751
+      ],
+      "source": "written",
+      "value": "35",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "(\u00b0) Slope | Slope (\u00b0) | https://brahmsonline.kew.org/Content/Projects/msbp/resources/Training/ UK_Landowner_consent_%20formV10_April2024.pdf Collection Number Area sampled Slope (Sq.m) Aspect (\u00b0) Plants Dry Early Full Yes Ground Mid Empty Moist No Late Both Varied Infested"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 5,
+      "bbox_points": [
+        207.195,
+        440.32,
+        229.412,
+        480.691
+      ],
+      "bbox_norm": [
+        0.493877,
+        0.739691,
+        0.546834,
+        0.80751
+      ],
+      "source": "written",
+      "value": "106",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Aspect | Aspect | (Sq.m) Aspect conducted) (\u00b0) Full Empty Infested Plants Dry Early Yes Ground Mid Moist No Late Both Varied"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 6,
+      "bbox_points": [
+        229.412,
+        440.32,
+        280.066,
+        480.691
+      ],
+      "bbox_norm": [
+        0.546834,
+        0.739691,
+        0.667575,
+        0.80751
+      ],
+      "source": "printed",
+      "value": "Infested Empty Full",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Infested Empty Full"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 7,
+      "bbox_points": [
+        280.066,
+        440.32,
+        307.897,
+        480.691
+      ],
+      "bbox_norm": [
+        0.667575,
+        0.739691,
+        0.733913,
+        0.80751
+      ],
+      "source": "printed",
+      "value": "Early Late Mid",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Early Late Mid"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 8,
+      "bbox_points": [
+        307.897,
+        440.32,
+        342.485,
+        480.691
+      ],
+      "bbox_norm": [
+        0.733913,
+        0.739691,
+        0.816357,
+        0.80751
+      ],
+      "source": "printed",
+      "value": "Ground Plants Both",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Ground Plants Both"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 9,
+      "bbox_points": [
+        342.485,
+        440.32,
+        365.238,
+        480.691
+      ],
+      "bbox_norm": [
+        0.816357,
+        0.739691,
+        0.870592,
+        0.80751
+      ],
+      "source": "printed",
+      "value": "Varied Moist Dry",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Varied Moist Dry"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 10,
+      "bbox_points": [
+        365.238,
+        440.32,
+        394.183,
+        480.691
+      ],
+      "bbox_norm": [
+        0.870592,
+        0.739691,
+        0.939586,
+        0.80751
+      ],
+      "source": "printed",
+      "value": "Yes No",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Yes No"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 0,
+      "bbox_points": [
+        25.385,
+        480.691,
+        394.183,
+        501.06
+      ],
+      "bbox_norm": [
+        0.060508,
+        0.80751,
+        0.939586,
+        0.841728
+      ],
+      "source": "printed",
+      "value": "Notes",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 0,
+      "bbox_points": [
+        25.385,
+        501.06,
+        54.485,
+        541.389
+      ],
+      "bbox_norm": [
+        0.060508,
+        0.841728,
+        0.129873,
+        0.909476
+      ],
+      "source": "written",
+      "value": "termite damage",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | Genus Species Tree Grid ref or Lat number Notes Plants Early Full Ground Mid Empty Late Infested"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 1,
+      "bbox_points": [
+        54.485,
+        501.06,
+        126.707,
+        541.389
+      ],
+      "bbox_norm": [
+        0.129873,
+        0.841728,
+        0.302023,
+        0.909476
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "coordinate",
+      "semantic_context": "Grid ref or Lat longs | Grid ref or Lat longs | Grid ref or Lat Sampled number (\u00b0) Notes Plants Dry Early Full Yes Ground Mid Empty Moist No Late Both Varied Infested"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 2,
+      "bbox_points": [
+        126.707,
+        501.06,
+        160.42,
+        541.389
+      ],
+      "bbox_norm": [
+        0.302023,
+        0.841728,
+        0.382383,
+        0.909476
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Number Sampled of Trees | Number of Trees Sampled | sampled of Trees Slope (Sq.m) or Lat longs (\u00b0) Plants Dry Early Full Yes Ground Mid Empty Moist No Late Both Varied Infested"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 3,
+      "bbox_points": [
+        160.42,
+        501.06,
+        188.547,
+        541.389
+      ],
+      "bbox_norm": [
+        0.382383,
+        0.841728,
+        0.449428,
+        0.909476
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "(Sq.m) Area sampled | Area sampled (Sq.m) | Area Number sampled of Trees Slope (Sq.m) Aspect (\u00b0) Plants Dry Early Full Yes Ground Mid Empty Moist No Late Both Varied Infested"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 4,
+      "bbox_points": [
+        188.547,
+        501.06,
+        207.195,
+        541.389
+      ],
+      "bbox_norm": [
+        0.449428,
+        0.841728,
+        0.493877,
+        0.909476
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "(\u00b0) Slope | Slope (\u00b0) | Collection Number Area sampled Slope (Sq.m) Aspect (\u00b0) Plants Dry Early Full Yes Ground Mid Empty Moist No Late Both Varied Infested"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 5,
+      "bbox_points": [
+        207.195,
+        501.06,
+        229.412,
+        541.389
+      ],
+      "bbox_norm": [
+        0.493877,
+        0.841728,
+        0.546834,
+        0.909476
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Aspect | Aspect | (\u00b0) Full Empty Infested Plants Dry Early Yes Ground Mid Moist No Late Both Varied"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 6,
+      "bbox_points": [
+        229.412,
+        501.06,
+        280.066,
+        541.389
+      ],
+      "bbox_norm": [
+        0.546834,
+        0.841728,
+        0.667575,
+        0.909476
+      ],
+      "source": "printed",
+      "value": "Infested Empty Full",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Infested Empty Full"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 7,
+      "bbox_points": [
+        280.066,
+        501.06,
+        307.897,
+        541.389
+      ],
+      "bbox_norm": [
+        0.667575,
+        0.841728,
+        0.733913,
+        0.909476
+      ],
+      "source": "printed",
+      "value": "Early Late Mid",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Early Late Mid"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 8,
+      "bbox_points": [
+        307.897,
+        501.06,
+        342.485,
+        541.389
+      ],
+      "bbox_norm": [
+        0.733913,
+        0.841728,
+        0.816357,
+        0.909476
+      ],
+      "source": "printed",
+      "value": "Ground Plants Both",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Ground Plants Both"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 9,
+      "bbox_points": [
+        342.485,
+        501.06,
+        365.238,
+        541.389
+      ],
+      "bbox_norm": [
+        0.816357,
+        0.841728,
+        0.870592,
+        0.909476
+      ],
+      "source": "printed",
+      "value": "Varied Moist Dry",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Varied Moist Dry"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 10,
+      "bbox_points": [
+        365.238,
+        501.06,
+        394.183,
+        541.389
+      ],
+      "bbox_norm": [
+        0.870592,
+        0.841728,
+        0.939586,
+        0.909476
+      ],
+      "source": "printed",
+      "value": "Yes No",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Yes No"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 0,
+      "bbox_points": [
+        25.385,
+        541.389,
+        394.183,
+        561.744
+      ],
+      "bbox_norm": [
+        0.060508,
+        0.909476,
+        0.939586,
+        0.94367
+      ],
+      "source": "printed",
+      "value": "Notes",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Notes"
+    }
+  ]
+}

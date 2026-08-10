@@ -1,0 +1,9 @@
+{
+  "model": "claude-sonnet-5-via-claude-cli",
+  "in_tok": null,
+  "out_tok": null,
+  "cost_usd": null,
+  "cost_upper_bound_usd": 0.45,
+  "latency_s": null,
+  "accounting_note": "CLI session JSONL was not attributable to this run; only the enforced --max-budget-usd upper bound is reported"
+}

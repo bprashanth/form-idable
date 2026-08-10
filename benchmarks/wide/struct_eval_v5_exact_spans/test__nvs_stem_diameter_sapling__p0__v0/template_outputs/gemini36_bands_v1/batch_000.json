@@ -1,0 +1,292 @@
+{
+  "cells": [
+    {
+      "cell_id": "r5_c0",
+      "value": "159",
+      "confidence": 0.95,
+      "evidence": "handwritten 159"
+    },
+    {
+      "cell_id": "r5_c1",
+      "value": "236",
+      "confidence": 0.98,
+      "evidence": "handwritten 236"
+    },
+    {
+      "cell_id": "r5_c2",
+      "value": "231",
+      "confidence": 0.98,
+      "evidence": "handwritten 231"
+    },
+    {
+      "cell_id": "r5_c3",
+      "value": "188",
+      "confidence": 0.98,
+      "evidence": "handwritten 188"
+    },
+    {
+      "cell_id": "r5_c4",
+      "value": "48",
+      "confidence": 0.98,
+      "evidence": "handwritten 48"
+    },
+    {
+      "cell_id": "r5_c5",
+      "value": null,
+      "confidence": 0.99,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r6_c0",
+      "value": "246",
+      "confidence": 0.98,
+      "evidence": "handwritten 246"
+    },
+    {
+      "cell_id": "r6_c1",
+      "value": "202",
+      "confidence": 0.98,
+      "evidence": "handwritten 202"
+    },
+    {
+      "cell_id": "r6_c2",
+      "value": "178",
+      "confidence": 0.98,
+      "evidence": "handwritten 178"
+    },
+    {
+      "cell_id": "r6_c3",
+      "value": "149",
+      "confidence": 0.98,
+      "evidence": "handwritten 149"
+    },
+    {
+      "cell_id": "r6_c4",
+      "value": "17",
+      "confidence": 0.98,
+      "evidence": "handwritten 17"
+    },
+    {
+      "cell_id": "r6_c5",
+      "value": "18",
+      "confidence": 0.98,
+      "evidence": "handwritten 18"
+    },
+    {
+      "cell_id": "r7_c0",
+      "value": "235",
+      "confidence": 0.98,
+      "evidence": "handwritten 235"
+    },
+    {
+      "cell_id": "r7_c1",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "struck through"
+    },
+    {
+      "cell_id": "r7_c2",
+      "value": "82",
+      "confidence": 0.98,
+      "evidence": "handwritten 82"
+    },
+    {
+      "cell_id": "r7_c3",
+      "value": "40",
+      "confidence": 0.98,
+      "evidence": "handwritten 40"
+    },
+    {
+      "cell_id": "r7_c4",
+      "value": "24",
+      "confidence": 0.98,
+      "evidence": "handwritten 24"
+    },
+    {
+      "cell_id": "r7_c5",
+      "value": "70",
+      "confidence": 0.98,
+      "evidence": "handwritten 70"
+    },
+    {
+      "cell_id": "r8_c0",
+      "value": "26",
+      "confidence": 0.98,
+      "evidence": "handwritten 26"
+    },
+    {
+      "cell_id": "r8_c1",
+      "value": "66",
+      "confidence": 0.98,
+      "evidence": "handwritten 66"
+    },
+    {
+      "cell_id": "r8_c2",
+      "value": "216",
+      "confidence": 0.98,
+      "evidence": "handwritten 216"
+    },
+    {
+      "cell_id": "r8_c3",
+      "value": "81",
+      "confidence": 0.98,
+      "evidence": "handwritten 81"
+    },
+    {
+      "cell_id": "r8_c4",
+      "value": "92",
+      "confidence": 0.98,
+      "evidence": "handwritten 92"
+    },
+    {
+      "cell_id": "r8_c5",
+      "value": "30",
+      "confidence": 0.98,
+      "evidence": "handwritten 30"
+    },
+    {
+      "cell_id": "r9_c0",
+      "value": "0",
+      "confidence": 0.95,
+      "evidence": "lone dot"
+    },
+    {
+      "cell_id": "r9_c1",
+      "value": "224",
+      "confidence": 0.98,
+      "evidence": "handwritten 224"
+    },
+    {
+      "cell_id": "r9_c2",
+      "value": "35",
+      "confidence": 0.98,
+      "evidence": "handwritten 35"
+    },
+    {
+      "cell_id": "r9_c3",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "struck through"
+    },
+    {
+      "cell_id": "r9_c4",
+      "value": "38",
+      "confidence": 0.98,
+      "evidence": "handwritten 38"
+    },
+    {
+      "cell_id": "r9_c5",
+      "value": "79",
+      "confidence": 0.98,
+      "evidence": "handwritten 79"
+    },
+    {
+      "cell_id": "r10_c0",
+      "value": "187",
+      "confidence": 0.98,
+      "evidence": "handwritten 187"
+    },
+    {
+      "cell_id": "r10_c1",
+      "value": "126",
+      "confidence": 0.98,
+      "evidence": "handwritten 126"
+    },
+    {
+      "cell_id": "r10_c2",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "struck through"
+    },
+    {
+      "cell_id": "r10_c3",
+      "value": "166",
+      "confidence": 0.98,
+      "evidence": "handwritten 166"
+    },
+    {
+      "cell_id": "r10_c4",
+      "value": "69",
+      "confidence": 0.98,
+      "evidence": "handwritten 69"
+    },
+    {
+      "cell_id": "r10_c5",
+      "value": "72",
+      "confidence": 0.98,
+      "evidence": "handwritten 72"
+    },
+    {
+      "cell_id": "r11_c0",
+      "value": "20",
+      "confidence": 0.98,
+      "evidence": "handwritten 20"
+    },
+    {
+      "cell_id": "r11_c1",
+      "value": "182",
+      "confidence": 0.98,
+      "evidence": "handwritten 182"
+    },
+    {
+      "cell_id": "r11_c2",
+      "value": "183",
+      "confidence": 0.98,
+      "evidence": "handwritten 183"
+    },
+    {
+      "cell_id": "r11_c3",
+      "value": "78",
+      "confidence": 0.98,
+      "evidence": "handwritten 78"
+    },
+    {
+      "cell_id": "r11_c4",
+      "value": "87",
+      "confidence": 0.95,
+      "evidence": "handwritten 87"
+    },
+    {
+      "cell_id": "r11_c5",
+      "value": "8",
+      "confidence": 0.98,
+      "evidence": "handwritten 8"
+    },
+    {
+      "cell_id": "r12_c0",
+      "value": "84",
+      "confidence": 0.98,
+      "evidence": "handwritten 84"
+    },
+    {
+      "cell_id": "r12_c1",
+      "value": "150",
+      "confidence": 0.98,
+      "evidence": "handwritten 150"
+    },
+    {
+      "cell_id": "r12_c2",
+      "value": "234",
+      "confidence": 0.98,
+      "evidence": "handwritten 234"
+    },
+    {
+      "cell_id": "r12_c3",
+      "value": "139",
+      "confidence": 0.98,
+      "evidence": "handwritten 139"
+    },
+    {
+      "cell_id": "r12_c4",
+      "value": null,
+      "confidence": 0.99,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r12_c5",
+      "value": "74",
+      "confidence": 0.98,
+      "evidence": "handwritten 74"
+    }
+  ]
+}

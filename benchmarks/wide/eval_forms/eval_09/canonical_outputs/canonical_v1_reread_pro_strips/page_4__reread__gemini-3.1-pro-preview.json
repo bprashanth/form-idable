@@ -1,0 +1,1420 @@
+{
+  "decisions": [
+    {
+      "table_id": "observation_table",
+      "row_id": "208",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "209",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "209",
+      "column_id": "col_fruits_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "210",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "210",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "211",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "211",
+      "column_id": "col_flowers_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "212",
+      "column_id": "col_leaves_flush",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "212",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "212",
+      "column_id": "col_flowers_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "213",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "214",
+      "column_id": "col_leaves_flush",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "214",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "214",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "214",
+      "column_id": "col_fruits_unripe",
+      "value": "4",
+      "confidence": 0.9,
+      "evidence": "Clear '4' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "214",
+      "column_id": "col_fruits_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "214",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "216",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "216",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "216",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "216",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "216",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "217",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "217",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "217",
+      "column_id": "col_fruits_unripe",
+      "value": "2",
+      "confidence": 0.9,
+      "evidence": "Clear '2' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "217",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "217",
+      "column_id": "col_notes",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "218",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "218",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "218",
+      "column_id": "col_fruits_unripe",
+      "value": "1",
+      "confidence": 0.9,
+      "evidence": "Clear '1' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "218",
+      "column_id": "col_fruits_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "218",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "219",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "219",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "219",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "219",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "219",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "220",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "220",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "220",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "220",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "220",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "221",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "221",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "221",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "221",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "222",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "222",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "222",
+      "column_id": "col_fruits_unripe",
+      "value": "4",
+      "confidence": 0.9,
+      "evidence": "Clear '4' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "222",
+      "column_id": "col_fruits_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "222",
+      "column_id": "col_notes",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "223",
+      "column_id": "col_leaves_flush",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "223",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "223",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "223",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "223",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "223",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "224",
+      "column_id": "col_leaves_flush",
+      "value": "1",
+      "confidence": 0.9,
+      "evidence": "Clear '1' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "224",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "224",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "224",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "224",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "224",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "225",
+      "column_id": "col_leaves_flush",
+      "value": "4",
+      "confidence": 0.9,
+      "evidence": "Clear '4' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "225",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "225",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "225",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "225",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "225",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "226",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "226",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "226",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "226",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "226",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "227",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "227",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "227",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "227",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "227",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "229",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "229",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "229",
+      "column_id": "col_fruits_unripe",
+      "value": "2",
+      "confidence": 0.9,
+      "evidence": "Clear '2' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "229",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "229",
+      "column_id": "col_notes",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "230",
+      "column_id": "col_leaves_flush",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "230",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "230",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "230",
+      "column_id": "col_fruits_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "230",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "231",
+      "column_id": "col_leaves_flush",
+      "value": "2",
+      "confidence": 0.9,
+      "evidence": "Clear '2' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "231",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "231",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "231",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "231",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "231",
+      "column_id": "col_notes",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "232",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "232",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "232",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "232",
+      "column_id": "col_fruits_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "233",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "233",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "233",
+      "column_id": "col_fruits_ripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "233",
+      "column_id": "col_fruits_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "233",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "234",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "234",
+      "column_id": "col_flowers_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "234",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "234",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "235",
+      "column_id": "col_leaves_flush",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "235",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "235",
+      "column_id": "col_fruits_unripe",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "235",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "235",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "236",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "236",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "236",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "236",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "236",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "237",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "237",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "237",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "237",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "238",
+      "column_id": "col_leaves_mature",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "238",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "238",
+      "column_id": "col_flowers_buds",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "238",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "238",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "238",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "239",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.9,
+      "evidence": "Clear '4' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "239",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "239",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "239",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "239",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "239",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "240",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "240",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "240",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "240",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "242",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "242",
+      "column_id": "col_flowers_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "242",
+      "column_id": "col_fruits_unripe",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "242",
+      "column_id": "col_fruits_ripe",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "242",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "242",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "243",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "243",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "243",
+      "column_id": "col_fruits_unripe",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "243",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "243",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "244",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "244",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "244",
+      "column_id": "col_fruits_unripe",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "244",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "244",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "245",
+      "column_id": "col_leaves_mature",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "Clear '0' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "245",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "245",
+      "column_id": "col_flowers_buds",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "245",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "245",
+      "column_id": "col_fruits_unripe",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "245",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "245",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "246",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "246",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "246",
+      "column_id": "col_fruits_unripe",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "246",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "246",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "247",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "247",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "247",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "247",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "248",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Clear 'Y' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "248",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "248",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "248",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "249",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "249",
+      "column_id": "col_fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "Cell is blank."
+    },
+    {
+      "table_id": "observation_table",
+      "row_id": "249",
+      "column_id": "col_notes",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "Clear 'N' mark in the cell."
+    }
+  ]
+}

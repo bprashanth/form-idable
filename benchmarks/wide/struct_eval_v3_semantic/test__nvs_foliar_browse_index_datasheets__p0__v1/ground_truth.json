@@ -1,0 +1,4214 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nvs_foliar_browse_index_datasheets.pdf",
+  "page": 1,
+  "page_size_points": [
+    419.528,
+    595.276
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 0,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        52.028,
+        211.132,
+        62.379
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.087401,
+        0.503262,
+        0.10479
+      ],
+      "source": "printed",
+      "value": "S U R V E Y N A M E",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "S U R V E Y N A M E"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 17,
+      "bbox_points": [
+        211.132,
+        52.028,
+        376.505,
+        62.379
+      ],
+      "bbox_norm": [
+        0.503262,
+        0.087401,
+        0.897448,
+        0.10479
+      ],
+      "source": "printed",
+      "value": "F O R E S T T Y P E",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "F O R E S T T Y P E"
+    },
+    {
+      "page": 1,
+      "row": 1,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        62.379,
+        211.132,
+        72.602
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.10479,
+        0.503262,
+        0.121964
+      ],
+      "source": "printed",
+      "value": "T R A N S E C T N U M B E R",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "T R A N S E C T N U M B E R"
+    },
+    {
+      "page": 1,
+      "row": 1,
+      "col": 17,
+      "bbox_points": [
+        211.132,
+        62.379,
+        376.505,
+        72.602
+      ],
+      "bbox_norm": [
+        0.503262,
+        0.10479,
+        0.897448,
+        0.121964
+      ],
+      "source": "printed",
+      "value": "M E A S U R E D B Y",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "M E A S U R E D B Y"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        72.602,
+        211.132,
+        82.782
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.121964,
+        0.503262,
+        0.139065
+      ],
+      "source": "printed",
+      "value": "C A T C H M E N T",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "C A T C H M E N T"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 17,
+      "bbox_points": [
+        211.132,
+        72.602,
+        376.505,
+        82.782
+      ],
+      "bbox_norm": [
+        0.503262,
+        0.121964,
+        0.897448,
+        0.139065
+      ],
+      "source": "printed",
+      "value": "R E C O R D E D B Y",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "R E C O R D E D B Y"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        82.782,
+        211.132,
+        92.962
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.139065,
+        0.503262,
+        0.156166
+      ],
+      "source": "printed",
+      "value": "G P S M O D E L",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "G P S M O D E L"
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "col": 17,
+      "bbox_points": [
+        211.132,
+        82.782,
+        376.505,
+        92.962
+      ],
+      "bbox_norm": [
+        0.503262,
+        0.139065,
+        0.897448,
+        0.156166
+      ],
+      "source": "printed",
+      "value": "D A Y / M O N T H / Y E A R",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "D A Y / M O N T H / Y E A R"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        92.962,
+        105.396,
+        109.451
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.156166,
+        0.251225,
+        0.183866
+      ],
+      "source": "printed",
+      "value": "ORIGIN TRANSECT",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "ORIGIN TRANSECT"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 6,
+      "bbox_points": [
+        105.396,
+        92.962,
+        172.316,
+        109.451
+      ],
+      "bbox_norm": [
+        0.251225,
+        0.156166,
+        0.410737,
+        0.183866
+      ],
+      "source": "printed",
+      "value": "E",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "E"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 13,
+      "bbox_points": [
+        175.245,
+        92.962,
+        251.147,
+        109.451
+      ],
+      "bbox_norm": [
+        0.417721,
+        0.156166,
+        0.598642,
+        0.183866
+      ],
+      "source": "printed",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "N"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 21,
+      "bbox_points": [
+        251.147,
+        92.962,
+        301.064,
+        109.451
+      ],
+      "bbox_norm": [
+        0.598642,
+        0.156166,
+        0.717624,
+        0.183866
+      ],
+      "source": "printed",
+      "value": "+ / \u2212",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "+ / \u2212"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 30,
+      "bbox_points": [
+        301.064,
+        92.962,
+        376.505,
+        109.451
+      ],
+      "bbox_norm": [
+        0.717624,
+        0.156166,
+        0.897448,
+        0.183866
+      ],
+      "source": "printed",
+      "value": "BEARING",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "BEARING"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        109.451,
+        211.132,
+        119.802
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.183866,
+        0.503262,
+        0.201255
+      ],
+      "source": "printed",
+      "value": "A P P R O A C H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "A P P R O A C H"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        119.802,
+        211.132,
+        130.004
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.201255,
+        0.503262,
+        0.218393
+      ],
+      "source": "written",
+      "value": "129",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "A P P R O A C H | TRANSECT N E ORIGIN A P P R O A C H | ORIGIN A P R O C H L T I N D G M"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        130.004,
+        211.132,
+        140.184
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.218393,
+        0.503262,
+        0.235494
+      ],
+      "source": "written",
+      "value": "17",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "A P P R O A C H | TRANSECT N E ORIGIN A P P R O A C H | ORIGIN A P R O C H L T I N D G M"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        140.184,
+        211.132,
+        150.364
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.235494,
+        0.503262,
+        0.252595
+      ],
+      "source": "written",
+      "value": "239",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "A P P R O A C H | TRANSECT N E ORIGIN A P P R O A C H | ORIGIN A P R O C H L T I N D G M"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        150.364,
+        211.132,
+        160.565
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.252595,
+        0.503262,
+        0.269733
+      ],
+      "source": "written",
+      "value": "50",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "A P P R O A C H | TRANSECT N E ORIGIN A P P R O A C H | ORIGIN A P R O C H L T I N D G M"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        160.565,
+        211.132,
+        170.767
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.269733,
+        0.503262,
+        0.28687
+      ],
+      "source": "written",
+      "value": "202",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "A P P R O A C H | TRANSECT N E ORIGIN A P P R O A C H | ORIGIN A P R O C H L T I N D G M"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        170.767,
+        211.132,
+        180.947
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.28687,
+        0.503262,
+        0.303972
+      ],
+      "source": "written",
+      "value": "127",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "A P P R O A C H | TRANSECT N E ORIGIN A P P R O A C H | ORIGIN A P R O C H L T I N D G M"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        180.947,
+        211.132,
+        191.127
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.303972,
+        0.503262,
+        0.321073
+      ],
+      "source": "written",
+      "value": "29",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "A P P R O A C H | TRANSECT N E ORIGIN A P P R O A C H | ORIGIN A P R O C H L T I N D G M"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        191.127,
+        211.132,
+        201.328
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.321073,
+        0.503262,
+        0.33821
+      ],
+      "source": "written",
+      "value": "210",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "A P P R O A C H | TRANSECT N E ORIGIN A P P R O A C H | ORIGIN A P R O C H L T I N D G M"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        201.328,
+        211.132,
+        211.529
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.33821,
+        0.503262,
+        0.355346
+      ],
+      "source": "written",
+      "value": "235",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "A P P R O A C H | TRANSECT N E ORIGIN A P P R O A C H | ORIGIN A P R O C H L T I N D G M"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        211.529,
+        211.132,
+        221.88
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.355346,
+        0.503262,
+        0.372735
+      ],
+      "source": "written",
+      "value": "138",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "A P P R O A C H | TRANSECT N E ORIGIN A P P R O A C H | ORIGIN A P R O C H L T I N D G M"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        221.88,
+        211.132,
+        232.232
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.372735,
+        0.503262,
+        0.390125
+      ],
+      "source": "printed",
+      "value": "NOTES: e.g. birds, forest character, pests",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 17,
+      "bbox_points": [
+        211.132,
+        221.88,
+        376.505,
+        232.232
+      ],
+      "bbox_norm": [
+        0.503262,
+        0.372735,
+        0.897448,
+        0.390125
+      ],
+      "source": "printed",
+      "value": "NON-POSSUM BROWSE",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "NON-POSSUM BROWSE"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        232.232,
+        211.132,
+        248.528
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.390125,
+        0.503262,
+        0.4175
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | NOTES: e.g. birds, forest character, pests | A P R O C H L NOTES: e.g. birds, forest character, pests NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No."
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 17,
+      "bbox_points": [
+        211.132,
+        232.232,
+        269.027,
+        248.528
+      ],
+      "bbox_norm": [
+        0.503262,
+        0.390125,
+        0.64126,
+        0.4175
+      ],
+      "source": "printed",
+      "value": "Plot No. Species",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Plot No. Species"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 25,
+      "bbox_points": [
+        269.027,
+        232.232,
+        298.262,
+        248.528
+      ],
+      "bbox_norm": [
+        0.64126,
+        0.390125,
+        0.710947,
+        0.4175
+      ],
+      "source": "printed",
+      "value": "Low",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Low"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 29,
+      "bbox_points": [
+        298.262,
+        232.232,
+        320.205,
+        248.528
+      ],
+      "bbox_norm": [
+        0.710947,
+        0.390125,
+        0.763251,
+        0.4175
+      ],
+      "source": "printed",
+      "value": "Mod",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Mod"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 31,
+      "bbox_points": [
+        320.205,
+        232.232,
+        346.895,
+        248.528
+      ],
+      "bbox_norm": [
+        0.763251,
+        0.390125,
+        0.82687,
+        0.4175
+      ],
+      "source": "printed",
+      "value": "Heavy",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Heavy"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 32,
+      "bbox_points": [
+        346.895,
+        232.232,
+        376.505,
+        248.528
+      ],
+      "bbox_norm": [
+        0.82687,
+        0.390125,
+        0.897448,
+        0.4175
+      ],
+      "source": "printed",
+      "value": "Animal",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Animal"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        248.528,
+        211.132,
+        258.73
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.4175,
+        0.503262,
+        0.434639
+      ],
+      "source": "written",
+      "value": "new flush",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | NOTES: e.g. birds, forest character, pests | A P R O C H L NOTES: e.g. birds, forest character, pests NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No."
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 17,
+      "bbox_points": [
+        211.132,
+        248.528,
+        269.027,
+        258.73
+      ],
+      "bbox_norm": [
+        0.503262,
+        0.4175,
+        0.64126,
+        0.434639
+      ],
+      "source": "written",
+      "value": "236",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Plot No. Species | NON-POSSUM BROWSE Plot Species No. | L O C A T I N D G R character, pests NON-POSSUM BROWSE Plot Species Low Mod Heavy No."
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 25,
+      "bbox_points": [
+        269.027,
+        248.528,
+        298.262,
+        258.73
+      ],
+      "bbox_norm": [
+        0.64126,
+        0.4175,
+        0.710947,
+        0.434639
+      ],
+      "source": "written",
+      "value": "Diospyros sylvatica",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Low | BROWSE Low | M O + / \u2212 BEARING A T I N D G R NON-POSSUM BROWSE Species Low Mod Heavy"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 29,
+      "bbox_points": [
+        298.262,
+        248.528,
+        320.205,
+        258.73
+      ],
+      "bbox_norm": [
+        0.710947,
+        0.4175,
+        0.763251,
+        0.434639
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Mod | Mod | sheet A R BEARING M BROWSE Low Mod Heavy"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 31,
+      "bbox_points": [
+        320.205,
+        248.528,
+        346.895,
+        258.73
+      ],
+      "bbox_norm": [
+        0.763251,
+        0.4175,
+        0.82687,
+        0.434639
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Heavy | Heavy | BEARING BROWSE Low Mod Heavy Animal"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 32,
+      "bbox_points": [
+        346.895,
+        248.528,
+        376.505,
+        258.73
+      ],
+      "bbox_norm": [
+        0.82687,
+        0.4175,
+        0.897448,
+        0.434639
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Animal | Animal | BEARING Mod Heavy Animal"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        258.73,
+        211.132,
+        268.932
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.434639,
+        0.503262,
+        0.451777
+      ],
+      "source": "written",
+      "value": "termite damage",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | NOTES: e.g. birds, forest character, pests | A P R O C H L NOTES: e.g. birds, forest character, pests NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No."
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 17,
+      "bbox_points": [
+        211.132,
+        258.73,
+        269.027,
+        268.932
+      ],
+      "bbox_norm": [
+        0.503262,
+        0.434639,
+        0.64126,
+        0.451777
+      ],
+      "source": "written",
+      "value": "169",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Plot No. Species | NON-POSSUM BROWSE Plot Species No. | L O C A T I N D G R character, pests NON-POSSUM BROWSE Plot Species Low Mod Heavy No."
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 25,
+      "bbox_points": [
+        269.027,
+        258.73,
+        298.262,
+        268.932
+      ],
+      "bbox_norm": [
+        0.64126,
+        0.434639,
+        0.710947,
+        0.451777
+      ],
+      "source": "written",
+      "value": "Persea macrantha",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Low | BROWSE Low | M O + / \u2212 BEARING A T I N D G R NON-POSSUM BROWSE Species Low Mod Heavy"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 29,
+      "bbox_points": [
+        298.262,
+        258.73,
+        320.205,
+        268.932
+      ],
+      "bbox_norm": [
+        0.710947,
+        0.434639,
+        0.763251,
+        0.451777
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Mod | Mod | sheet A R BEARING M BROWSE Low Mod Heavy"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 31,
+      "bbox_points": [
+        320.205,
+        258.73,
+        346.895,
+        268.932
+      ],
+      "bbox_norm": [
+        0.763251,
+        0.434639,
+        0.82687,
+        0.451777
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Heavy | Heavy | BEARING BROWSE Low Mod Heavy Animal"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 32,
+      "bbox_points": [
+        346.895,
+        258.73,
+        376.505,
+        268.932
+      ],
+      "bbox_norm": [
+        0.82687,
+        0.434639,
+        0.897448,
+        0.451777
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Animal | Animal | BEARING Mod Heavy Animal"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        268.932,
+        211.132,
+        279.111
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.451777,
+        0.503262,
+        0.468877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "short",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | NOTES: e.g. birds, forest character, pests | A P R O C H L NOTES: e.g. birds, forest character, pests NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No."
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 17,
+      "bbox_points": [
+        211.132,
+        268.932,
+        269.027,
+        279.111
+      ],
+      "bbox_norm": [
+        0.503262,
+        0.451777,
+        0.64126,
+        0.468877
+      ],
+      "source": "written",
+      "value": "115",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Plot No. Species | NON-POSSUM BROWSE Plot Species No. | L O C A T I N D G R character, pests NON-POSSUM BROWSE Plot Species Low Mod Heavy No."
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 25,
+      "bbox_points": [
+        269.027,
+        268.932,
+        298.262,
+        279.111
+      ],
+      "bbox_norm": [
+        0.64126,
+        0.451777,
+        0.710947,
+        0.468877
+      ],
+      "source": "written",
+      "value": "Palaquium ravii",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Low | BROWSE Low | M O + / \u2212 BEARING A T I N D G R NON-POSSUM BROWSE Species Low Mod Heavy"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 29,
+      "bbox_points": [
+        298.262,
+        268.932,
+        320.205,
+        279.111
+      ],
+      "bbox_norm": [
+        0.710947,
+        0.451777,
+        0.763251,
+        0.468877
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Mod | Mod | A R BEARING M BROWSE Low Mod Heavy"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 31,
+      "bbox_points": [
+        320.205,
+        268.932,
+        346.895,
+        279.111
+      ],
+      "bbox_norm": [
+        0.763251,
+        0.451777,
+        0.82687,
+        0.468877
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Heavy | Heavy | BEARING BROWSE Low Mod Heavy Animal"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 32,
+      "bbox_points": [
+        346.895,
+        268.932,
+        376.505,
+        279.111
+      ],
+      "bbox_norm": [
+        0.82687,
+        0.451777,
+        0.897448,
+        0.468877
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Animal | Animal | BEARING Mod Heavy Animal"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        279.111,
+        211.132,
+        289.292
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.468877,
+        0.503262,
+        0.485979
+      ],
+      "source": "written",
+      "value": "browsed by deer",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | NOTES: e.g. birds, forest character, pests | A P R O C H L NOTES: e.g. birds, forest character, pests NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No."
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 17,
+      "bbox_points": [
+        211.132,
+        279.111,
+        269.027,
+        289.292
+      ],
+      "bbox_norm": [
+        0.503262,
+        0.468877,
+        0.64126,
+        0.485979
+      ],
+      "source": "written",
+      "value": "248",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Plot No. Species | NON-POSSUM BROWSE Plot Species No. | L O C A T I N D G R character, pests NON-POSSUM BROWSE Plot Species Low Mod Heavy No."
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 25,
+      "bbox_points": [
+        269.027,
+        279.111,
+        298.262,
+        289.292
+      ],
+      "bbox_norm": [
+        0.64126,
+        0.468877,
+        0.710947,
+        0.485979
+      ],
+      "source": "written",
+      "value": "Vateria indica",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Low | BROWSE Low | M O + / \u2212 BEARING A T I N D G R NON-POSSUM BROWSE Species Low Mod Heavy"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 29,
+      "bbox_points": [
+        298.262,
+        279.111,
+        320.205,
+        289.292
+      ],
+      "bbox_norm": [
+        0.710947,
+        0.468877,
+        0.763251,
+        0.485979
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "code1",
+      "semantic_context": "Mod | Mod | A R BEARING M BROWSE Low Mod Heavy"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 31,
+      "bbox_points": [
+        320.205,
+        279.111,
+        346.895,
+        289.292
+      ],
+      "bbox_norm": [
+        0.763251,
+        0.468877,
+        0.82687,
+        0.485979
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Heavy | Heavy | BEARING BROWSE Low Mod Heavy Animal"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 32,
+      "bbox_points": [
+        346.895,
+        279.111,
+        376.505,
+        289.292
+      ],
+      "bbox_norm": [
+        0.82687,
+        0.468877,
+        0.897448,
+        0.485979
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Animal | Animal | BEARING Mod Heavy Animal"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        289.292,
+        211.132,
+        299.514
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.485979,
+        0.503262,
+        0.503151
+      ],
+      "source": "written",
+      "value": "top broken",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | NOTES: e.g. birds, forest character, pests | A P R O C H L NOTES: e.g. birds, forest character, pests NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No."
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 17,
+      "bbox_points": [
+        211.132,
+        289.292,
+        269.027,
+        299.514
+      ],
+      "bbox_norm": [
+        0.503262,
+        0.485979,
+        0.64126,
+        0.503151
+      ],
+      "source": "written",
+      "value": "193",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Plot No. Species | NON-POSSUM BROWSE Plot Species No. | L O C A T I N D G R character, pests NON-POSSUM BROWSE Plot Species Low Mod Heavy No."
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 25,
+      "bbox_points": [
+        269.027,
+        289.292,
+        298.262,
+        299.514
+      ],
+      "bbox_norm": [
+        0.64126,
+        0.485979,
+        0.710947,
+        0.503151
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Low | BROWSE Low | M O + / \u2212 BEARING A T I N D G R NON-POSSUM BROWSE Species Low Mod Heavy"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 29,
+      "bbox_points": [
+        298.262,
+        289.292,
+        320.205,
+        299.514
+      ],
+      "bbox_norm": [
+        0.710947,
+        0.485979,
+        0.763251,
+        0.503151
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Mod | Mod | A R BEARING M BROWSE Low Mod Heavy"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 31,
+      "bbox_points": [
+        320.205,
+        289.292,
+        346.895,
+        299.514
+      ],
+      "bbox_norm": [
+        0.763251,
+        0.485979,
+        0.82687,
+        0.503151
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Heavy | Heavy | BEARING BROWSE Low Mod Heavy Animal"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 32,
+      "bbox_points": [
+        346.895,
+        289.292,
+        376.505,
+        299.514
+      ],
+      "bbox_norm": [
+        0.82687,
+        0.485979,
+        0.897448,
+        0.503151
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Animal | Animal | BEARING Mod Heavy Animal"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        299.514,
+        211.132,
+        309.695
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.503151,
+        0.503262,
+        0.520254
+      ],
+      "source": "written",
+      "value": "resprouting",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | NOTES: e.g. birds, forest character, pests | A P R O C H L NOTES: e.g. birds, forest character, pests NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No."
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 17,
+      "bbox_points": [
+        211.132,
+        299.514,
+        269.027,
+        309.695
+      ],
+      "bbox_norm": [
+        0.503262,
+        0.503151,
+        0.64126,
+        0.520254
+      ],
+      "source": "written",
+      "value": "106",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Plot No. Species | NON-POSSUM BROWSE Plot Species No. | L O C A T I N D G R character, pests NON-POSSUM BROWSE Plot Species Low Mod Heavy No."
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 25,
+      "bbox_points": [
+        269.027,
+        299.514,
+        298.262,
+        309.695
+      ],
+      "bbox_norm": [
+        0.64126,
+        0.503151,
+        0.710947,
+        0.520254
+      ],
+      "source": "written",
+      "value": "Dimocarpus longan",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Low | BROWSE Low | M O + / \u2212 BEARING A T I N D G R NON-POSSUM BROWSE Species Low Mod Heavy"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 29,
+      "bbox_points": [
+        298.262,
+        299.514,
+        320.205,
+        309.695
+      ],
+      "bbox_norm": [
+        0.710947,
+        0.503151,
+        0.763251,
+        0.520254
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Mod | Mod | A R BEARING M BROWSE Low Mod Heavy"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 31,
+      "bbox_points": [
+        320.205,
+        299.514,
+        346.895,
+        309.695
+      ],
+      "bbox_norm": [
+        0.763251,
+        0.503151,
+        0.82687,
+        0.520254
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Heavy | Heavy | BEARING BROWSE Low Mod Heavy Animal"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 32,
+      "bbox_points": [
+        346.895,
+        299.514,
+        376.505,
+        309.695
+      ],
+      "bbox_norm": [
+        0.82687,
+        0.503151,
+        0.897448,
+        0.520254
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Animal | Animal | BEARING Mod Heavy Animal"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        309.695,
+        211.132,
+        320.289
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.520254,
+        0.503262,
+        0.538051
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | NOTES: e.g. birds, forest character, pests | A P R O C H NOTES: e.g. birds, forest character, pests NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No."
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 17,
+      "bbox_points": [
+        211.132,
+        309.695,
+        269.027,
+        320.289
+      ],
+      "bbox_norm": [
+        0.503262,
+        0.520254,
+        0.64126,
+        0.538051
+      ],
+      "source": "written",
+      "value": "137",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Plot No. Species | NON-POSSUM BROWSE Plot Species No. | L O C A T I N D G R character, pests NON-POSSUM BROWSE Plot Species Low Mod Heavy No."
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 25,
+      "bbox_points": [
+        269.027,
+        309.695,
+        298.262,
+        320.289
+      ],
+      "bbox_norm": [
+        0.64126,
+        0.520254,
+        0.710947,
+        0.538051
+      ],
+      "source": "written",
+      "value": "Prunus ceylanica",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Low | BROWSE Low | M O + / \u2212 BEARING A T I N D G R NON-POSSUM BROWSE Species Low Mod Heavy"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 29,
+      "bbox_points": [
+        298.262,
+        309.695,
+        320.205,
+        320.289
+      ],
+      "bbox_norm": [
+        0.710947,
+        0.520254,
+        0.763251,
+        0.538051
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Mod | Mod | A R BEARING M BROWSE Low Mod Heavy"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 31,
+      "bbox_points": [
+        320.205,
+        309.695,
+        346.895,
+        320.289
+      ],
+      "bbox_norm": [
+        0.763251,
+        0.520254,
+        0.82687,
+        0.538051
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Heavy | Heavy | BEARING BROWSE Low Mod Heavy Animal"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 32,
+      "bbox_points": [
+        346.895,
+        309.695,
+        376.505,
+        320.289
+      ],
+      "bbox_norm": [
+        0.82687,
+        0.520254,
+        0.897448,
+        0.538051
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Animal | Animal | BEARING Mod Heavy Animal"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        336.342,
+        65.19,
+        346.715
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.565019,
+        0.155389,
+        0.582444
+      ],
+      "source": "written",
+      "value": "81",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | Plot No. | A P R O C H NOTES: e.g. birds, Plot Easting No."
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 3,
+      "bbox_points": [
+        65.19,
+        336.342,
+        105.396,
+        346.715
+      ],
+      "bbox_norm": [
+        0.155389,
+        0.565019,
+        0.251225,
+        0.582444
+      ],
+      "source": "written",
+      "value": "68",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Easting | A P R O C H NOTES: e.g. birds, forest character, pests Plot Easting Northing Error No."
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 6,
+      "bbox_points": [
+        105.396,
+        336.342,
+        145.604,
+        346.715
+      ],
+      "bbox_norm": [
+        0.251225,
+        0.565019,
+        0.347066,
+        0.582444
+      ],
+      "source": "written",
+      "value": "155",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "E | Northing | P R O A C H NOTES: e.g. birds, forest character, pests Plot Easting Northing Error Altitude No."
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 9,
+      "bbox_points": [
+        145.604,
+        336.342,
+        172.316,
+        346.715
+      ],
+      "bbox_norm": [
+        0.347066,
+        0.565019,
+        0.410737,
+        0.582444
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Error | forest character, pests Northing Error Altitude"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 12,
+      "bbox_points": [
+        172.316,
+        336.342,
+        204.631,
+        346.715
+      ],
+      "bbox_norm": [
+        0.410737,
+        0.565019,
+        0.487765,
+        0.582444
+      ],
+      "source": "written",
+      "value": "88",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Altitude | L O C A T I character, pests NON-POSSUM Plot Species No. Northing Error Altitude Aspect Slope"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 15,
+      "bbox_points": [
+        204.631,
+        336.342,
+        233.418,
+        346.715
+      ],
+      "bbox_norm": [
+        0.487765,
+        0.565019,
+        0.556382,
+        0.582444
+      ],
+      "source": "written",
+      "value": "108",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Aspect | L O C A T I N D G R NON-POSSUM BROWSE Plot Species No. Altitude Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 19,
+      "bbox_points": [
+        233.418,
+        336.342,
+        259.295,
+        346.715
+      ],
+      "bbox_norm": [
+        0.556382,
+        0.565019,
+        0.618064,
+        0.582444
+      ],
+      "source": "written",
+      "value": "118",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Slope | L O C A T I N D G R M NON-POSSUM BROWSE Plot Species Low No. Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 23,
+      "bbox_points": [
+        259.295,
+        336.342,
+        291.289,
+        346.715
+      ],
+      "bbox_norm": [
+        0.618064,
+        0.565019,
+        0.694326,
+        0.582444
+      ],
+      "source": "written",
+      "value": "208",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Physiog | O C A T I N D G NON-POSSUM BROWSE Plot Species Low Mod Heavy No. Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 27,
+      "bbox_points": [
+        291.289,
+        336.342,
+        376.505,
+        346.715
+      ],
+      "bbox_norm": [
+        0.694326,
+        0.565019,
+        0.897448,
+        0.582444
+      ],
+      "source": "written",
+      "value": "84",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Canopy Dominants | L O C A T I N D NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No. Altitude Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        346.715,
+        65.19,
+        356.916
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.582444,
+        0.155389,
+        0.599581
+      ],
+      "source": "written",
+      "value": "92",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | Plot No. | NOTES: e.g. birds, Plot Easting No."
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 3,
+      "bbox_points": [
+        65.19,
+        346.715,
+        105.396,
+        356.916
+      ],
+      "bbox_norm": [
+        0.155389,
+        0.582444,
+        0.251225,
+        0.599581
+      ],
+      "source": "written",
+      "value": "217",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Easting | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error No."
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 6,
+      "bbox_points": [
+        105.396,
+        346.715,
+        145.604,
+        356.916
+      ],
+      "bbox_norm": [
+        0.251225,
+        0.582444,
+        0.347066,
+        0.599581
+      ],
+      "source": "written",
+      "value": "103",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "E | Northing | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error Altitude No."
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 9,
+      "bbox_points": [
+        145.604,
+        346.715,
+        172.316,
+        356.916
+      ],
+      "bbox_norm": [
+        0.347066,
+        0.582444,
+        0.410737,
+        0.599581
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Error | forest character, pests Northing Error Altitude"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 12,
+      "bbox_points": [
+        172.316,
+        346.715,
+        204.631,
+        356.916
+      ],
+      "bbox_norm": [
+        0.410737,
+        0.582444,
+        0.487765,
+        0.599581
+      ],
+      "source": "written",
+      "value": "37",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Altitude | character, pests NON-POSSUM Plot Species No. Northing Error Altitude Aspect Slope"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 15,
+      "bbox_points": [
+        204.631,
+        346.715,
+        233.418,
+        356.916
+      ],
+      "bbox_norm": [
+        0.487765,
+        0.582444,
+        0.556382,
+        0.599581
+      ],
+      "source": "written",
+      "value": "205",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Aspect | NON-POSSUM BROWSE Plot Species No. Altitude Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 19,
+      "bbox_points": [
+        233.418,
+        346.715,
+        259.295,
+        356.916
+      ],
+      "bbox_norm": [
+        0.556382,
+        0.582444,
+        0.618064,
+        0.599581
+      ],
+      "source": "written",
+      "value": "47",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Slope | NON-POSSUM BROWSE Plot Species Low No. Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 23,
+      "bbox_points": [
+        259.295,
+        346.715,
+        291.289,
+        356.916
+      ],
+      "bbox_norm": [
+        0.618064,
+        0.582444,
+        0.694326,
+        0.599581
+      ],
+      "source": "written",
+      "value": "136",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Physiog | NON-POSSUM BROWSE Plot Species Low Mod Heavy No. Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 27,
+      "bbox_points": [
+        291.289,
+        346.715,
+        376.505,
+        356.916
+      ],
+      "bbox_norm": [
+        0.694326,
+        0.582444,
+        0.897448,
+        0.599581
+      ],
+      "source": "written",
+      "value": "15",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Canopy Dominants | NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No. Altitude Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        356.916,
+        65.19,
+        367.096
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.599581,
+        0.155389,
+        0.616682
+      ],
+      "source": "written",
+      "value": "207",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | Plot No. | NOTES: e.g. birds, Plot Easting No."
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 3,
+      "bbox_points": [
+        65.19,
+        356.916,
+        105.396,
+        367.096
+      ],
+      "bbox_norm": [
+        0.155389,
+        0.599581,
+        0.251225,
+        0.616682
+      ],
+      "source": "written",
+      "value": "47",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Easting | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error No."
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 6,
+      "bbox_points": [
+        105.396,
+        356.916,
+        145.604,
+        367.096
+      ],
+      "bbox_norm": [
+        0.251225,
+        0.599581,
+        0.347066,
+        0.616682
+      ],
+      "source": "written",
+      "value": "32",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "E | Northing | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error Altitude No."
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 9,
+      "bbox_points": [
+        145.604,
+        356.916,
+        172.316,
+        367.096
+      ],
+      "bbox_norm": [
+        0.347066,
+        0.599581,
+        0.410737,
+        0.616682
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Error | forest character, pests Northing Error Altitude"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 12,
+      "bbox_points": [
+        172.316,
+        356.916,
+        204.631,
+        367.096
+      ],
+      "bbox_norm": [
+        0.410737,
+        0.599581,
+        0.487765,
+        0.616682
+      ],
+      "source": "written",
+      "value": "182",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Altitude | character, pests NON-POSSUM Plot Species No. Northing Error Altitude Aspect Slope"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 15,
+      "bbox_points": [
+        204.631,
+        356.916,
+        233.418,
+        367.096
+      ],
+      "bbox_norm": [
+        0.487765,
+        0.599581,
+        0.556382,
+        0.616682
+      ],
+      "source": "written",
+      "value": "148",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Aspect | NON-POSSUM BROWSE Plot Species No. Altitude Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 19,
+      "bbox_points": [
+        233.418,
+        356.916,
+        259.295,
+        367.096
+      ],
+      "bbox_norm": [
+        0.556382,
+        0.599581,
+        0.618064,
+        0.616682
+      ],
+      "source": "written",
+      "value": "53",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Slope | NON-POSSUM BROWSE Plot Species Low No. Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 23,
+      "bbox_points": [
+        259.295,
+        356.916,
+        291.289,
+        367.096
+      ],
+      "bbox_norm": [
+        0.618064,
+        0.599581,
+        0.694326,
+        0.616682
+      ],
+      "source": "written",
+      "value": "9",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Physiog | NON-POSSUM BROWSE Plot Species Low Mod Heavy No. Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 27,
+      "bbox_points": [
+        291.289,
+        356.916,
+        376.505,
+        367.096
+      ],
+      "bbox_norm": [
+        0.694326,
+        0.599581,
+        0.897448,
+        0.616682
+      ],
+      "source": "written",
+      "value": "10",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Canopy Dominants | NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No. Altitude Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        367.096,
+        65.19,
+        377.276
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.616682,
+        0.155389,
+        0.633784
+      ],
+      "source": "written",
+      "value": "55",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | Plot No. | NOTES: e.g. birds, Plot Easting No."
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 3,
+      "bbox_points": [
+        65.19,
+        367.096,
+        105.396,
+        377.276
+      ],
+      "bbox_norm": [
+        0.155389,
+        0.616682,
+        0.251225,
+        0.633784
+      ],
+      "source": "written",
+      "value": "51",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Easting | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error No."
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 6,
+      "bbox_points": [
+        105.396,
+        367.096,
+        145.604,
+        377.276
+      ],
+      "bbox_norm": [
+        0.251225,
+        0.616682,
+        0.347066,
+        0.633784
+      ],
+      "source": "written",
+      "value": "26",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "E | Northing | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error Altitude No."
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 9,
+      "bbox_points": [
+        145.604,
+        367.096,
+        172.316,
+        377.276
+      ],
+      "bbox_norm": [
+        0.347066,
+        0.616682,
+        0.410737,
+        0.633784
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Error | forest character, pests Northing Error Altitude"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 12,
+      "bbox_points": [
+        172.316,
+        367.096,
+        204.631,
+        377.276
+      ],
+      "bbox_norm": [
+        0.410737,
+        0.616682,
+        0.487765,
+        0.633784
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "Altitude | character, pests NON-POSSUM Plot Species No. Northing Error Altitude Aspect Slope"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 15,
+      "bbox_points": [
+        204.631,
+        367.096,
+        233.418,
+        377.276
+      ],
+      "bbox_norm": [
+        0.487765,
+        0.616682,
+        0.556382,
+        0.633784
+      ],
+      "source": "written",
+      "value": "21",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Aspect | NON-POSSUM BROWSE Plot Species No. Altitude Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 19,
+      "bbox_points": [
+        233.418,
+        367.096,
+        259.295,
+        377.276
+      ],
+      "bbox_norm": [
+        0.556382,
+        0.616682,
+        0.618064,
+        0.633784
+      ],
+      "source": "written",
+      "value": "206",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Slope | NON-POSSUM BROWSE Plot Species Low No. Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 23,
+      "bbox_points": [
+        259.295,
+        367.096,
+        291.289,
+        377.276
+      ],
+      "bbox_norm": [
+        0.618064,
+        0.616682,
+        0.694326,
+        0.633784
+      ],
+      "source": "written",
+      "value": "25",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Physiog | NON-POSSUM BROWSE Plot Species Low Mod Heavy No. Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 27,
+      "bbox_points": [
+        291.289,
+        367.096,
+        376.505,
+        377.276
+      ],
+      "bbox_norm": [
+        0.694326,
+        0.616682,
+        0.897448,
+        0.633784
+      ],
+      "source": "written",
+      "value": "47",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Canopy Dominants | NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No. Altitude Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        377.276,
+        65.19,
+        387.478
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.633784,
+        0.155389,
+        0.650922
+      ],
+      "source": "written",
+      "value": "119",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | Plot No. | NOTES: e.g. birds, Plot Easting No."
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 3,
+      "bbox_points": [
+        65.19,
+        377.276,
+        105.396,
+        387.478
+      ],
+      "bbox_norm": [
+        0.155389,
+        0.633784,
+        0.251225,
+        0.650922
+      ],
+      "source": "written",
+      "value": "32",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Easting | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error No."
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 6,
+      "bbox_points": [
+        105.396,
+        377.276,
+        145.604,
+        387.478
+      ],
+      "bbox_norm": [
+        0.251225,
+        0.633784,
+        0.347066,
+        0.650922
+      ],
+      "source": "written",
+      "value": "135",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "E | Northing | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error Altitude No."
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 9,
+      "bbox_points": [
+        145.604,
+        377.276,
+        172.316,
+        387.478
+      ],
+      "bbox_norm": [
+        0.347066,
+        0.633784,
+        0.410737,
+        0.650922
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Error | forest character, pests Northing Error Altitude"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 12,
+      "bbox_points": [
+        172.316,
+        377.276,
+        204.631,
+        387.478
+      ],
+      "bbox_norm": [
+        0.410737,
+        0.633784,
+        0.487765,
+        0.650922
+      ],
+      "source": "written",
+      "value": "213",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Altitude | character, pests NON-POSSUM Plot Species No. Northing Error Altitude Aspect Slope"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 15,
+      "bbox_points": [
+        204.631,
+        377.276,
+        233.418,
+        387.478
+      ],
+      "bbox_norm": [
+        0.487765,
+        0.633784,
+        0.556382,
+        0.650922
+      ],
+      "source": "written",
+      "value": "167",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Aspect | NON-POSSUM BROWSE Plot Species No. Altitude Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 19,
+      "bbox_points": [
+        233.418,
+        377.276,
+        259.295,
+        387.478
+      ],
+      "bbox_norm": [
+        0.556382,
+        0.633784,
+        0.618064,
+        0.650922
+      ],
+      "source": "written",
+      "value": "66",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Slope | NON-POSSUM BROWSE Plot Species Low No. Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 23,
+      "bbox_points": [
+        259.295,
+        377.276,
+        291.289,
+        387.478
+      ],
+      "bbox_norm": [
+        0.618064,
+        0.633784,
+        0.694326,
+        0.650922
+      ],
+      "source": "written",
+      "value": "42",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Physiog | NON-POSSUM BROWSE Plot Species Low Mod Heavy No. Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 27,
+      "bbox_points": [
+        291.289,
+        377.276,
+        376.505,
+        387.478
+      ],
+      "bbox_norm": [
+        0.694326,
+        0.633784,
+        0.897448,
+        0.650922
+      ],
+      "source": "written",
+      "value": "20",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Canopy Dominants | NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No. Altitude Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        387.478,
+        65.19,
+        397.68
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.650922,
+        0.155389,
+        0.668059
+      ],
+      "source": "written",
+      "value": "64",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | Plot No. | NOTES: e.g. birds, Plot Easting No."
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 3,
+      "bbox_points": [
+        65.19,
+        387.478,
+        105.396,
+        397.68
+      ],
+      "bbox_norm": [
+        0.155389,
+        0.650922,
+        0.251225,
+        0.668059
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Easting | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error No."
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 6,
+      "bbox_points": [
+        105.396,
+        387.478,
+        145.604,
+        397.68
+      ],
+      "bbox_norm": [
+        0.251225,
+        0.650922,
+        0.347066,
+        0.668059
+      ],
+      "source": "written",
+      "value": "134",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "E | Northing | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error Altitude No."
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 9,
+      "bbox_points": [
+        145.604,
+        387.478,
+        172.316,
+        397.68
+      ],
+      "bbox_norm": [
+        0.347066,
+        0.650922,
+        0.410737,
+        0.668059
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Error | forest character, pests Northing Error Altitude"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 12,
+      "bbox_points": [
+        172.316,
+        387.478,
+        204.631,
+        397.68
+      ],
+      "bbox_norm": [
+        0.410737,
+        0.650922,
+        0.487765,
+        0.668059
+      ],
+      "source": "written",
+      "value": "71",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Altitude | character, pests NON-POSSUM Plot Species No. Northing Error Altitude Aspect Slope"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 15,
+      "bbox_points": [
+        204.631,
+        387.478,
+        233.418,
+        397.68
+      ],
+      "bbox_norm": [
+        0.487765,
+        0.650922,
+        0.556382,
+        0.668059
+      ],
+      "source": "written",
+      "value": "220",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Aspect | NON-POSSUM BROWSE Plot Species No. Altitude Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 19,
+      "bbox_points": [
+        233.418,
+        387.478,
+        259.295,
+        397.68
+      ],
+      "bbox_norm": [
+        0.556382,
+        0.650922,
+        0.618064,
+        0.668059
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Slope | NON-POSSUM BROWSE Plot Species Low No. Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 23,
+      "bbox_points": [
+        259.295,
+        387.478,
+        291.289,
+        397.68
+      ],
+      "bbox_norm": [
+        0.618064,
+        0.650922,
+        0.694326,
+        0.668059
+      ],
+      "source": "written",
+      "value": "173",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Physiog | NON-POSSUM BROWSE Plot Species Low Mod Heavy No. Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 27,
+      "bbox_points": [
+        291.289,
+        387.478,
+        376.505,
+        397.68
+      ],
+      "bbox_norm": [
+        0.694326,
+        0.650922,
+        0.897448,
+        0.668059
+      ],
+      "source": "written",
+      "value": "43",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Canopy Dominants | NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No. Altitude Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        397.68,
+        65.19,
+        407.859
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.668059,
+        0.155389,
+        0.68516
+      ],
+      "source": "written",
+      "value": "74",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | Plot No. | NOTES: e.g. birds, Plot Easting No."
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 3,
+      "bbox_points": [
+        65.19,
+        397.68,
+        105.396,
+        407.859
+      ],
+      "bbox_norm": [
+        0.155389,
+        0.668059,
+        0.251225,
+        0.68516
+      ],
+      "source": "written",
+      "value": "245",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Easting | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error No."
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 6,
+      "bbox_points": [
+        105.396,
+        397.68,
+        145.604,
+        407.859
+      ],
+      "bbox_norm": [
+        0.251225,
+        0.668059,
+        0.347066,
+        0.68516
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "E | Northing | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error Altitude No."
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 9,
+      "bbox_points": [
+        145.604,
+        397.68,
+        172.316,
+        407.859
+      ],
+      "bbox_norm": [
+        0.347066,
+        0.668059,
+        0.410737,
+        0.68516
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Error | forest character, pests Northing Error Altitude"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 12,
+      "bbox_points": [
+        172.316,
+        397.68,
+        204.631,
+        407.859
+      ],
+      "bbox_norm": [
+        0.410737,
+        0.668059,
+        0.487765,
+        0.68516
+      ],
+      "source": "written",
+      "value": "193",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Altitude | character, pests NON-POSSUM Plot Species No. Northing Error Altitude Aspect Slope"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 15,
+      "bbox_points": [
+        204.631,
+        397.68,
+        233.418,
+        407.859
+      ],
+      "bbox_norm": [
+        0.487765,
+        0.668059,
+        0.556382,
+        0.68516
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "Aspect | NON-POSSUM BROWSE Plot Species No. Altitude Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 19,
+      "bbox_points": [
+        233.418,
+        397.68,
+        259.295,
+        407.859
+      ],
+      "bbox_norm": [
+        0.556382,
+        0.668059,
+        0.618064,
+        0.68516
+      ],
+      "source": "written",
+      "value": "7",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Slope | NON-POSSUM BROWSE Plot Species Low No. Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 23,
+      "bbox_points": [
+        259.295,
+        397.68,
+        291.289,
+        407.859
+      ],
+      "bbox_norm": [
+        0.618064,
+        0.668059,
+        0.694326,
+        0.68516
+      ],
+      "source": "written",
+      "value": "168",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Physiog | NON-POSSUM BROWSE Plot Species Low Mod Heavy No. Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 27,
+      "bbox_points": [
+        291.289,
+        397.68,
+        376.505,
+        407.859
+      ],
+      "bbox_norm": [
+        0.694326,
+        0.668059,
+        0.897448,
+        0.68516
+      ],
+      "source": "written",
+      "value": "89",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Canopy Dominants | NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No. Altitude Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        407.859,
+        65.19,
+        418.04
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.68516,
+        0.155389,
+        0.702262
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | Plot No. | NOTES: e.g. birds, Plot Easting No."
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 3,
+      "bbox_points": [
+        65.19,
+        407.859,
+        105.396,
+        418.04
+      ],
+      "bbox_norm": [
+        0.155389,
+        0.68516,
+        0.251225,
+        0.702262
+      ],
+      "source": "written",
+      "value": "224",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Easting | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error No."
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 6,
+      "bbox_points": [
+        105.396,
+        407.859,
+        145.604,
+        418.04
+      ],
+      "bbox_norm": [
+        0.251225,
+        0.68516,
+        0.347066,
+        0.702262
+      ],
+      "source": "written",
+      "value": "55",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "E | Northing | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error Altitude No."
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 9,
+      "bbox_points": [
+        145.604,
+        407.859,
+        172.316,
+        418.04
+      ],
+      "bbox_norm": [
+        0.347066,
+        0.68516,
+        0.410737,
+        0.702262
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Error | forest character, pests Northing Error Altitude"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 12,
+      "bbox_points": [
+        172.316,
+        407.859,
+        204.631,
+        418.04
+      ],
+      "bbox_norm": [
+        0.410737,
+        0.68516,
+        0.487765,
+        0.702262
+      ],
+      "source": "written",
+      "value": "248",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Altitude | character, pests NON-POSSUM Plot Species No. Northing Error Altitude Aspect Slope"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 15,
+      "bbox_points": [
+        204.631,
+        407.859,
+        233.418,
+        418.04
+      ],
+      "bbox_norm": [
+        0.487765,
+        0.68516,
+        0.556382,
+        0.702262
+      ],
+      "source": "written",
+      "value": "243",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Aspect | NON-POSSUM BROWSE Plot Species No. Altitude Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 19,
+      "bbox_points": [
+        233.418,
+        407.859,
+        259.295,
+        418.04
+      ],
+      "bbox_norm": [
+        0.556382,
+        0.68516,
+        0.618064,
+        0.702262
+      ],
+      "source": "written",
+      "value": "199",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Slope | NON-POSSUM BROWSE Plot Species Low No. Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 23,
+      "bbox_points": [
+        259.295,
+        407.859,
+        291.289,
+        418.04
+      ],
+      "bbox_norm": [
+        0.618064,
+        0.68516,
+        0.694326,
+        0.702262
+      ],
+      "source": "written",
+      "value": "37",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Physiog | NON-POSSUM BROWSE Plot Species Low Mod Heavy No. Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 27,
+      "bbox_points": [
+        291.289,
+        407.859,
+        376.505,
+        418.04
+      ],
+      "bbox_norm": [
+        0.694326,
+        0.68516,
+        0.897448,
+        0.702262
+      ],
+      "source": "written",
+      "value": "34",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Canopy Dominants | NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No. Altitude Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        418.04,
+        65.19,
+        428.241
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.702262,
+        0.155389,
+        0.719399
+      ],
+      "source": "written",
+      "value": "207",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | Plot No. | NOTES: e.g. birds, Plot Easting No."
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 3,
+      "bbox_points": [
+        65.19,
+        418.04,
+        105.396,
+        428.241
+      ],
+      "bbox_norm": [
+        0.155389,
+        0.702262,
+        0.251225,
+        0.719399
+      ],
+      "source": "written",
+      "value": "10",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Easting | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error No."
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 6,
+      "bbox_points": [
+        105.396,
+        418.04,
+        145.604,
+        428.241
+      ],
+      "bbox_norm": [
+        0.251225,
+        0.702262,
+        0.347066,
+        0.719399
+      ],
+      "source": "written",
+      "value": "224",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "E | Northing | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error Altitude No."
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 9,
+      "bbox_points": [
+        145.604,
+        418.04,
+        172.316,
+        428.241
+      ],
+      "bbox_norm": [
+        0.347066,
+        0.702262,
+        0.410737,
+        0.719399
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Error | forest character, pests Northing Error Altitude"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 12,
+      "bbox_points": [
+        172.316,
+        418.04,
+        204.631,
+        428.241
+      ],
+      "bbox_norm": [
+        0.410737,
+        0.702262,
+        0.487765,
+        0.719399
+      ],
+      "source": "written",
+      "value": "198",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Altitude | character, pests NON-POSSUM Plot Species No. Northing Error Altitude Aspect Slope"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 15,
+      "bbox_points": [
+        204.631,
+        418.04,
+        233.418,
+        428.241
+      ],
+      "bbox_norm": [
+        0.487765,
+        0.702262,
+        0.556382,
+        0.719399
+      ],
+      "source": "written",
+      "value": "101",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Aspect | NON-POSSUM BROWSE Plot Species No. Altitude Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 19,
+      "bbox_points": [
+        233.418,
+        418.04,
+        259.295,
+        428.241
+      ],
+      "bbox_norm": [
+        0.556382,
+        0.702262,
+        0.618064,
+        0.719399
+      ],
+      "source": "written",
+      "value": "92",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Slope | NON-POSSUM BROWSE Plot Species Low No. Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 23,
+      "bbox_points": [
+        259.295,
+        418.04,
+        291.289,
+        428.241
+      ],
+      "bbox_norm": [
+        0.618064,
+        0.702262,
+        0.694326,
+        0.719399
+      ],
+      "source": "written",
+      "value": "106",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Physiog | NON-POSSUM BROWSE Plot Species Low Mod Heavy No. Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 27,
+      "bbox_points": [
+        291.289,
+        418.04,
+        376.505,
+        428.241
+      ],
+      "bbox_norm": [
+        0.694326,
+        0.702262,
+        0.897448,
+        0.719399
+      ],
+      "source": "written",
+      "value": "52",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Canopy Dominants | NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No. Altitude Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        428.241,
+        65.19,
+        438.443
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.719399,
+        0.155389,
+        0.736537
+      ],
+      "source": "written",
+      "value": "191",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | Plot No. | NOTES: e.g. birds, Plot Easting No."
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 3,
+      "bbox_points": [
+        65.19,
+        428.241,
+        105.396,
+        438.443
+      ],
+      "bbox_norm": [
+        0.155389,
+        0.719399,
+        0.251225,
+        0.736537
+      ],
+      "source": "written",
+      "value": "122",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Easting | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error No."
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 6,
+      "bbox_points": [
+        105.396,
+        428.241,
+        145.604,
+        438.443
+      ],
+      "bbox_norm": [
+        0.251225,
+        0.719399,
+        0.347066,
+        0.736537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "E | Northing | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error Altitude No."
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 9,
+      "bbox_points": [
+        145.604,
+        428.241,
+        172.316,
+        438.443
+      ],
+      "bbox_norm": [
+        0.347066,
+        0.719399,
+        0.410737,
+        0.736537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Error | forest character, pests Northing Error Altitude"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 12,
+      "bbox_points": [
+        172.316,
+        428.241,
+        204.631,
+        438.443
+      ],
+      "bbox_norm": [
+        0.410737,
+        0.719399,
+        0.487765,
+        0.736537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Altitude | character, pests NON-POSSUM Plot Species No. Northing Error Altitude Aspect Slope"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 15,
+      "bbox_points": [
+        204.631,
+        428.241,
+        233.418,
+        438.443
+      ],
+      "bbox_norm": [
+        0.487765,
+        0.719399,
+        0.556382,
+        0.736537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Aspect | NON-POSSUM BROWSE Plot Species No. Altitude Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 19,
+      "bbox_points": [
+        233.418,
+        428.241,
+        259.295,
+        438.443
+      ],
+      "bbox_norm": [
+        0.556382,
+        0.719399,
+        0.618064,
+        0.736537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Slope | NON-POSSUM BROWSE Plot Species Low No. Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 23,
+      "bbox_points": [
+        259.295,
+        428.241,
+        291.289,
+        438.443
+      ],
+      "bbox_norm": [
+        0.618064,
+        0.719399,
+        0.694326,
+        0.736537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Physiog | NON-POSSUM BROWSE Plot Species Low Mod Heavy No. Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 27,
+      "bbox_points": [
+        291.289,
+        428.241,
+        376.505,
+        438.443
+      ],
+      "bbox_norm": [
+        0.694326,
+        0.719399,
+        0.897448,
+        0.736537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Canopy Dominants | NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No. Altitude Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        438.443,
+        65.19,
+        448.623
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.736537,
+        0.155389,
+        0.753639
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | Plot No. | NOTES: e.g. birds, Plot Easting No."
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 3,
+      "bbox_points": [
+        65.19,
+        438.443,
+        105.396,
+        448.623
+      ],
+      "bbox_norm": [
+        0.155389,
+        0.736537,
+        0.251225,
+        0.753639
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Easting | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error No."
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 6,
+      "bbox_points": [
+        105.396,
+        438.443,
+        145.604,
+        448.623
+      ],
+      "bbox_norm": [
+        0.251225,
+        0.736537,
+        0.347066,
+        0.753639
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "E | Northing | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error Altitude No."
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 9,
+      "bbox_points": [
+        145.604,
+        438.443,
+        172.316,
+        448.623
+      ],
+      "bbox_norm": [
+        0.347066,
+        0.736537,
+        0.410737,
+        0.753639
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Error | forest character, pests Northing Error Altitude"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 12,
+      "bbox_points": [
+        172.316,
+        438.443,
+        204.631,
+        448.623
+      ],
+      "bbox_norm": [
+        0.410737,
+        0.736537,
+        0.487765,
+        0.753639
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Altitude | character, pests NON-POSSUM Plot Species No. Northing Error Altitude Aspect Slope"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 15,
+      "bbox_points": [
+        204.631,
+        438.443,
+        233.418,
+        448.623
+      ],
+      "bbox_norm": [
+        0.487765,
+        0.736537,
+        0.556382,
+        0.753639
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Aspect | NON-POSSUM BROWSE Plot Species No. Altitude Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 19,
+      "bbox_points": [
+        233.418,
+        438.443,
+        259.295,
+        448.623
+      ],
+      "bbox_norm": [
+        0.556382,
+        0.736537,
+        0.618064,
+        0.753639
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Slope | NON-POSSUM BROWSE Plot Species Low No. Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 23,
+      "bbox_points": [
+        259.295,
+        438.443,
+        291.289,
+        448.623
+      ],
+      "bbox_norm": [
+        0.618064,
+        0.736537,
+        0.694326,
+        0.753639
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Physiog | NON-POSSUM BROWSE Plot Species Low Mod Heavy No. Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 27,
+      "bbox_points": [
+        291.289,
+        438.443,
+        376.505,
+        448.623
+      ],
+      "bbox_norm": [
+        0.694326,
+        0.736537,
+        0.897448,
+        0.753639
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Canopy Dominants | NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No. Altitude Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        448.623,
+        65.19,
+        458.803
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.753639,
+        0.155389,
+        0.77074
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | Plot No. | NOTES: e.g. birds, Plot Easting No."
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 3,
+      "bbox_points": [
+        65.19,
+        448.623,
+        105.396,
+        458.803
+      ],
+      "bbox_norm": [
+        0.155389,
+        0.753639,
+        0.251225,
+        0.77074
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Easting | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error No."
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 6,
+      "bbox_points": [
+        105.396,
+        448.623,
+        145.604,
+        458.803
+      ],
+      "bbox_norm": [
+        0.251225,
+        0.753639,
+        0.347066,
+        0.77074
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "E | Northing | NOTES: e.g. birds, forest character, pests Plot Easting Northing Error Altitude No."
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 9,
+      "bbox_points": [
+        145.604,
+        448.623,
+        172.316,
+        458.803
+      ],
+      "bbox_norm": [
+        0.347066,
+        0.753639,
+        0.410737,
+        0.77074
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Error | forest character, pests Northing Error Altitude"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 12,
+      "bbox_points": [
+        172.316,
+        448.623,
+        204.631,
+        458.803
+      ],
+      "bbox_norm": [
+        0.410737,
+        0.753639,
+        0.487765,
+        0.77074
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Altitude | character, pests NON-POSSUM Plot Species No. Northing Error Altitude Aspect Slope"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 15,
+      "bbox_points": [
+        204.631,
+        448.623,
+        233.418,
+        458.803
+      ],
+      "bbox_norm": [
+        0.487765,
+        0.753639,
+        0.556382,
+        0.77074
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Aspect | NON-POSSUM BROWSE Plot Species No. Altitude Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 19,
+      "bbox_points": [
+        233.418,
+        448.623,
+        259.295,
+        458.803
+      ],
+      "bbox_norm": [
+        0.556382,
+        0.753639,
+        0.618064,
+        0.77074
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Slope | NON-POSSUM BROWSE Plot Species Low No. Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 23,
+      "bbox_points": [
+        259.295,
+        448.623,
+        291.289,
+        458.803
+      ],
+      "bbox_norm": [
+        0.618064,
+        0.753639,
+        0.694326,
+        0.77074
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Physiog | NON-POSSUM BROWSE Plot Species Low Mod Heavy No. Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 27,
+      "bbox_points": [
+        291.289,
+        448.623,
+        376.505,
+        458.803
+      ],
+      "bbox_norm": [
+        0.694326,
+        0.753639,
+        0.897448,
+        0.77074
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Canopy Dominants | NON-POSSUM BROWSE Plot Species Low Mod Heavy Animal No. Altitude Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 0,
+      "bbox_points": [
+        43.034,
+        458.803,
+        65.19,
+        469.004
+      ],
+      "bbox_norm": [
+        0.102577,
+        0.77074,
+        0.155389,
+        0.787877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "NOTES: e.g. birds, forest character, pests | Plot No. | Plot Easting No."
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 3,
+      "bbox_points": [
+        65.19,
+        458.803,
+        105.396,
+        469.004
+      ],
+      "bbox_norm": [
+        0.155389,
+        0.77074,
+        0.251225,
+        0.787877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Easting | Plot Easting Northing Error No."
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 6,
+      "bbox_points": [
+        105.396,
+        458.803,
+        145.604,
+        469.004
+      ],
+      "bbox_norm": [
+        0.251225,
+        0.77074,
+        0.347066,
+        0.787877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "E | Northing | Plot Easting Northing Error Altitude No."
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 9,
+      "bbox_points": [
+        145.604,
+        458.803,
+        172.316,
+        469.004
+      ],
+      "bbox_norm": [
+        0.347066,
+        0.77074,
+        0.410737,
+        0.787877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Error | Northing Error Altitude"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 12,
+      "bbox_points": [
+        172.316,
+        458.803,
+        204.631,
+        469.004
+      ],
+      "bbox_norm": [
+        0.410737,
+        0.77074,
+        0.487765,
+        0.787877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Altitude | Plot Species No. Northing Error Altitude Aspect Slope"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 15,
+      "bbox_points": [
+        204.631,
+        458.803,
+        233.418,
+        469.004
+      ],
+      "bbox_norm": [
+        0.487765,
+        0.77074,
+        0.556382,
+        0.787877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Aspect | Plot Species No. Altitude Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 19,
+      "bbox_points": [
+        233.418,
+        458.803,
+        259.295,
+        469.004
+      ],
+      "bbox_norm": [
+        0.556382,
+        0.77074,
+        0.618064,
+        0.787877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Slope | Plot Species Low No. Aspect Slope Physiog"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 23,
+      "bbox_points": [
+        259.295,
+        458.803,
+        291.289,
+        469.004
+      ],
+      "bbox_norm": [
+        0.618064,
+        0.77074,
+        0.694326,
+        0.787877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Physiog | Plot Species Low Mod Heavy No. Aspect Slope Physiog Canopy Dominants"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 27,
+      "bbox_points": [
+        291.289,
+        458.803,
+        376.505,
+        469.004
+      ],
+      "bbox_norm": [
+        0.694326,
+        0.77074,
+        0.897448,
+        0.787877
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Canopy Dominants | Plot Species Low Mod Heavy Animal No. Altitude Aspect Slope Physiog Canopy Dominants"
+    }
+  ]
+}

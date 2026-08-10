@@ -1,0 +1,5988 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nvs_tier1_coarse_woody_debris.pdf",
+  "page": 2,
+  "page_size_points": [
+    595.0,
+    842.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 2,
+      "row": 5,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        27.24,
+        117.6,
+        42.66,
+        126.78
+      ],
+      "bbox_norm": [
+        0.045782,
+        0.139668,
+        0.071697,
+        0.15057
+      ],
+      "source": "printed",
+      "value": "Sub",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Sub"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        53.46,
+        117.6,
+        100.14,
+        126.78
+      ],
+      "bbox_norm": [
+        0.089849,
+        0.139668,
+        0.168303,
+        0.15057
+      ],
+      "source": "printed",
+      "value": "Species",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Species"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 10,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        110.94,
+        117.6,
+        154.56,
+        126.78
+      ],
+      "bbox_norm": [
+        0.186454,
+        0.139668,
+        0.259765,
+        0.15057
+      ],
+      "source": "printed",
+      "value": "Tag No.",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        225.48,
+        117.6,
+        253.56,
+        126.78
+      ],
+      "bbox_norm": [
+        0.378958,
+        0.139668,
+        0.426151,
+        0.15057
+      ],
+      "source": "printed",
+      "value": "Length",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Length"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        264.36,
+        117.6,
+        343.56,
+        126.78
+      ],
+      "bbox_norm": [
+        0.444302,
+        0.139668,
+        0.577412,
+        0.15057
+      ],
+      "source": "printed",
+      "value": "\u2126 LED (cm)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "\u2126 LED (cm)"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        354.36,
+        117.6,
+        433.56,
+        126.78
+      ],
+      "bbox_norm": [
+        0.595563,
+        0.139668,
+        0.728672,
+        0.15057
+      ],
+      "source": "printed",
+      "value": "\u2126 SED (cm)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "\u2126 SED (cm)"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 36,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        444.36,
+        117.6,
+        568.56,
+        126.78
+      ],
+      "bbox_norm": [
+        0.746824,
+        0.139668,
+        0.955563,
+        0.15057
+      ],
+      "source": "printed",
+      "value": "Notes",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        154.29,
+        573.96,
+        177.18
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.183242,
+        0.964639,
+        0.210427
+      ],
+      "source": "written",
+      "value": "fallen",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | WOODY DEBRIS RECORD FINISH TIME: MEASURED BY: RECORDED \u2126 LED (cm) SED Notes Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        177.18,
+        573.96,
+        199.77
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.210427,
+        0.964639,
+        0.237257
+      ],
+      "source": "written",
+      "value": "top broken",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | WOODY DEBRIS RECORD FINISH TIME: MEASURED BY: RECORDED \u2126 LED (cm) SED Notes Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        199.77,
+        48.06,
+        222.45
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.237257,
+        0.080773,
+        0.264192
+      ],
+      "source": "written",
+      "value": "149",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        199.77,
+        105.54,
+        222.45
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.237257,
+        0.177378,
+        0.264192
+      ],
+      "source": "written",
+      "value": "Cullenia exarillata",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species | COARSE START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species Tag No. Status 1"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        199.77,
+        159.96,
+        222.45
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.237257,
+        0.26884,
+        0.264192
+      ],
+      "source": "written",
+      "value": "176",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | COARSE WOODY START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species Tag No. Length Status Decay Class 1 2"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        199.77,
+        190.32,
+        222.45
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.237257,
+        0.319866,
+        0.264192
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Status 1 | COARSE WOODY Tag No. Length Status Decay Class 1 2"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        199.77,
+        220.08,
+        222.45
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.237257,
+        0.369882,
+        0.264192
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2 | COARSE WOODY Length Status Decay Class \u2126 (m) 1 2"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        199.77,
+        258.96,
+        222.45
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.237257,
+        0.435227,
+        0.264192
+      ],
+      "source": "written",
+      "value": "119.4",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m) | COARSE WOODY DEBRIS FINISH MEASURED RECORDED Length LED (cm) Status Decay Class \u2126 (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        199.77,
+        303.96,
+        222.45
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.237257,
+        0.510857,
+        0.264192
+      ],
+      "source": "written",
+      "value": "54.8",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1 | COARSE WOODY DEBRIS RECORD FINISH TIME: MEASURED BY: RECORDED \u2126 Length LED (cm) Decay Class (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        199.77,
+        348.96,
+        222.45
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.237257,
+        0.586487,
+        0.264192
+      ],
+      "source": "written",
+      "value": "149.8",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | WOODY DEBRIS RECORD SHEET FINISH TIME: MEASURED BY: RECORDED \u2126 Length LED (cm) SED Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        199.77,
+        393.96,
+        222.45
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.237257,
+        0.662118,
+        0.264192
+      ],
+      "source": "written",
+      "value": "46.2",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1 | DEBRIS RECORD SHEET FINISH TIME: MEASURED BY: RECORDED \u2126 LED (cm) SED 1 Width 2"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        199.77,
+        438.96,
+        222.45
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.237257,
+        0.737748,
+        0.264192
+      ],
+      "source": "written",
+      "value": "145.6",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | Page _____ RECORD SHEET TIME: MEASURED BY: RECORDED \u2126 SED (cm) 2 Width 1"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        199.77,
+        573.96,
+        222.45
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.237257,
+        0.964639,
+        0.264192
+      ],
+      "source": "written",
+      "value": "canopy gap",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | WOODY DEBRIS RECORD FINISH TIME: MEASURED BY: RECORDED \u2126 LED (cm) SED Notes Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        222.45,
+        48.06,
+        245.19
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.264192,
+        0.080773,
+        0.2912
+      ],
+      "source": "written",
+      "value": "197",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        222.45,
+        105.54,
+        245.19
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.264192,
+        0.177378,
+        0.2912
+      ],
+      "source": "written",
+      "value": "Beilschmiedia dalzelli",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species | COARSE START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species Tag No. Status 1"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        222.45,
+        159.96,
+        245.19
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.264192,
+        0.26884,
+        0.2912
+      ],
+      "source": "written",
+      "value": "104",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | COARSE WOODY START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species Tag No. Length Status Decay Class 1 2"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        222.45,
+        190.32,
+        245.19
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.264192,
+        0.319866,
+        0.2912
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1 | COARSE WOODY Tag No. Length Status Decay Class 1 2"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        222.45,
+        220.08,
+        245.19
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.264192,
+        0.369882,
+        0.2912
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2 | COARSE WOODY Length Status Decay Class \u2126 (m) 1 2"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        222.45,
+        258.96,
+        245.19
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.264192,
+        0.435227,
+        0.2912
+      ],
+      "source": "written",
+      "value": "70.0",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m) | COARSE WOODY DEBRIS FINISH MEASURED RECORDED Length LED (cm) Status Decay Class \u2126 (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        222.45,
+        303.96,
+        245.19
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.264192,
+        0.510857,
+        0.2912
+      ],
+      "source": "written",
+      "value": "64.0",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1 | COARSE WOODY DEBRIS RECORD FINISH TIME: MEASURED BY: RECORDED \u2126 Length LED (cm) Decay Class (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        222.45,
+        348.96,
+        245.19
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.264192,
+        0.586487,
+        0.2912
+      ],
+      "source": "written",
+      "value": "57.5",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | WOODY DEBRIS RECORD SHEET FINISH TIME: MEASURED BY: RECORDED \u2126 Length LED (cm) SED Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        222.45,
+        393.96,
+        245.19
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.264192,
+        0.662118,
+        0.2912
+      ],
+      "source": "written",
+      "value": "28.6",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1 | DEBRIS RECORD SHEET FINISH TIME: MEASURED BY: RECORDED \u2126 LED (cm) SED 1 Width 2"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        222.45,
+        438.96,
+        245.19
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.264192,
+        0.737748,
+        0.2912
+      ],
+      "source": "written",
+      "value": "36.9",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | Page _____ RECORD SHEET TIME: MEASURED BY: RECORDED \u2126 SED (cm) 2 Width 1"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        222.45,
+        573.96,
+        245.19
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.264192,
+        0.964639,
+        0.2912
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "short",
+      "semantic_context": "Notes | WOODY DEBRIS RECORD FINISH TIME: MEASURED BY: RECORDED \u2126 LED (cm) SED Notes Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        245.19,
+        48.06,
+        267.87
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.2912,
+        0.080773,
+        0.318135
+      ],
+      "source": "written",
+      "value": "161",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        245.19,
+        105.54,
+        267.87
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.2912,
+        0.177378,
+        0.318135
+      ],
+      "source": "written",
+      "value": "Neolitsea sp.",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species | COARSE START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species Tag No. Status 1"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        245.19,
+        159.96,
+        267.87
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.2912,
+        0.26884,
+        0.318135
+      ],
+      "source": "written",
+      "value": "92",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | COARSE WOODY START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species Tag No. Length Status Decay Class 1 2"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        245.19,
+        190.32,
+        267.87
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.2912,
+        0.319866,
+        0.318135
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1 | COARSE WOODY Tag No. Length Status Decay Class 1 2"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        245.19,
+        220.08,
+        267.87
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.2912,
+        0.369882,
+        0.318135
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2 | COARSE WOODY Length Status Decay Class \u2126 (m) 1 2"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        245.19,
+        258.96,
+        267.87
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.2912,
+        0.435227,
+        0.318135
+      ],
+      "source": "written",
+      "value": "162.5",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m) | COARSE WOODY DEBRIS FINISH MEASURED RECORDED Length LED (cm) Status Decay Class \u2126 (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        245.19,
+        303.96,
+        267.87
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.2912,
+        0.510857,
+        0.318135
+      ],
+      "source": "written",
+      "value": "128.2",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1 | COARSE WOODY DEBRIS RECORD FINISH TIME: MEASURED BY: RECORDED \u2126 Length LED (cm) Decay Class (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        245.19,
+        348.96,
+        267.87
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.2912,
+        0.586487,
+        0.318135
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | WOODY DEBRIS RECORD SHEET FINISH TIME: MEASURED BY: RECORDED \u2126 Length LED (cm) SED Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        245.19,
+        393.96,
+        267.87
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.2912,
+        0.662118,
+        0.318135
+      ],
+      "source": "written",
+      "value": "161.7",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1 | DEBRIS RECORD SHEET FINISH TIME: MEASURED BY: RECORDED \u2126 LED (cm) SED 1 Width 2"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        245.19,
+        438.96,
+        267.87
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.2912,
+        0.737748,
+        0.318135
+      ],
+      "source": "written",
+      "value": "67.7",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | RECORD SHEET TIME: MEASURED BY: RECORDED \u2126 SED (cm) 2 Width 1"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        245.19,
+        573.96,
+        267.87
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.2912,
+        0.964639,
+        0.318135
+      ],
+      "source": "written",
+      "value": "canopy gap",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | WOODY DEBRIS RECORD FINISH TIME: MEASURED BY: RECORDED \u2126 LED (cm) SED Notes Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        267.87,
+        573.96,
+        290.64
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.318135,
+        0.964639,
+        0.345178
+      ],
+      "source": "written",
+      "value": "dead branch",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | WOODY DEBRIS RECORD FINISH TIME: MEASURED BY: RECORDED \u2126 LED (cm) SED Notes Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        290.64,
+        573.96,
+        313.29
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.345178,
+        0.964639,
+        0.372078
+      ],
+      "source": "written",
+      "value": "leaning",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | MEASURED BY: RECORDED \u2126 LED (cm) SED Notes Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        313.29,
+        48.06,
+        335.97
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.372078,
+        0.080773,
+        0.399014
+      ],
+      "source": "written",
+      "value": "242",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | DAY/MONTH/YEAR: Sub Species plot"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        313.29,
+        105.54,
+        335.97
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.372078,
+        0.177378,
+        0.399014
+      ],
+      "source": "written",
+      "value": "Palaquium ravii",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species | DAY/MONTH/YEAR: Sub Species Tag No. Status plot 1"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        313.29,
+        159.96,
+        335.97
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.372078,
+        0.26884,
+        0.399014
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | DAY/MONTH/YEAR: Sub Species Tag No. Length Status Decay Class plot 1 2"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        313.29,
+        190.32,
+        335.97
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.372078,
+        0.319866,
+        0.399014
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1 | Tag No. Length Status Decay Class 1 2"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        313.29,
+        220.08,
+        335.97
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.372078,
+        0.369882,
+        0.399014
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2 | Length Status Decay Class \u2126 (m) 1 2"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        313.29,
+        258.96,
+        335.97
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.372078,
+        0.435227,
+        0.399014
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m) | RECORDED Length LED (cm) Status Decay Class \u2126 (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        313.29,
+        303.96,
+        335.97
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.372078,
+        0.510857,
+        0.399014
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1 | RECORDED BY: \u2126 Length LED (cm) Decay Class (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        313.29,
+        348.96,
+        335.97
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.372078,
+        0.586487,
+        0.399014
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | RECORDED BY: \u2126 Length LED (cm) SED Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        313.29,
+        393.96,
+        335.97
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.372078,
+        0.662118,
+        0.399014
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1 | RECORDED BY: \u2126 LED (cm) SED 1 Width 2"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        313.29,
+        438.96,
+        335.97
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.372078,
+        0.737748,
+        0.399014
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | RECORDED BY: \u2126 SED (cm) 2 Width 1"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        313.29,
+        573.96,
+        335.97
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.372078,
+        0.964639,
+        0.399014
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | RECORDED BY: \u2126 LED (cm) SED Notes Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        335.97,
+        48.06,
+        358.65
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.399014,
+        0.080773,
+        0.42595
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | Sub Species plot"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        335.97,
+        105.54,
+        358.65
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.399014,
+        0.177378,
+        0.42595
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species | Sub Species Tag No. Status plot 1"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        335.97,
+        159.96,
+        358.65
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.399014,
+        0.26884,
+        0.42595
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | Sub Species Tag No. Length Status Decay Class plot 1 2"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        335.97,
+        190.32,
+        358.65
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.399014,
+        0.319866,
+        0.42595
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1 | Tag No. Length Status Decay Class 1 2"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        335.97,
+        220.08,
+        358.65
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.399014,
+        0.369882,
+        0.42595
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2 | Length Status Decay Class \u2126 (m) 1 2"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        335.97,
+        258.96,
+        358.65
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.399014,
+        0.435227,
+        0.42595
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m) | Length LED (cm) Status Decay Class \u2126 (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        335.97,
+        303.96,
+        358.65
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.399014,
+        0.510857,
+        0.42595
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1 | \u2126 Length LED (cm) Decay Class (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        335.97,
+        348.96,
+        358.65
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.399014,
+        0.586487,
+        0.42595
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | \u2126 Length LED (cm) SED Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        335.97,
+        393.96,
+        358.65
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.399014,
+        0.662118,
+        0.42595
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1 | \u2126 LED (cm) SED 1 Width 2"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        335.97,
+        438.96,
+        358.65
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.399014,
+        0.737748,
+        0.42595
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | \u2126 SED (cm) 2 Width 1"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        335.97,
+        573.96,
+        358.65
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.399014,
+        0.964639,
+        0.42595
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | \u2126 LED (cm) SED Notes Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        358.65,
+        48.06,
+        381.39
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.42595,
+        0.080773,
+        0.452957
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        358.65,
+        105.54,
+        381.39
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.42595,
+        0.177378,
+        0.452957
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species | Status"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        358.65,
+        159.96,
+        381.39
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.42595,
+        0.26884,
+        0.452957
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | Status Decay Class"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        358.65,
+        190.32,
+        381.39
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.42595,
+        0.319866,
+        0.452957
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1 | Status Decay Class"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        358.65,
+        220.08,
+        381.39
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.42595,
+        0.369882,
+        0.452957
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2 | Status Decay Class"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        358.65,
+        258.96,
+        381.39
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.42595,
+        0.435227,
+        0.452957
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m) | Status Decay Class Width 1"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        358.65,
+        303.96,
+        381.39
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.42595,
+        0.510857,
+        0.452957
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1 | Decay Class Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        358.65,
+        348.96,
+        381.39
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.42595,
+        0.586487,
+        0.452957
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        358.65,
+        393.96,
+        381.39
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.42595,
+        0.662118,
+        0.452957
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1 | 1 Width 2"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        358.65,
+        438.96,
+        381.39
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.42595,
+        0.737748,
+        0.452957
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | 2 Width 1"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        358.65,
+        573.96,
+        381.39
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.42595,
+        0.964639,
+        0.452957
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        381.39,
+        48.06,
+        404.07
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.452957,
+        0.080773,
+        0.479893
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        381.39,
+        105.54,
+        404.07
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.452957,
+        0.177378,
+        0.479893
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        381.39,
+        159.96,
+        404.07
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.452957,
+        0.26884,
+        0.479893
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        381.39,
+        190.32,
+        404.07
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.452957,
+        0.319866,
+        0.479893
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        381.39,
+        220.08,
+        404.07
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.452957,
+        0.369882,
+        0.479893
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        381.39,
+        258.96,
+        404.07
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.452957,
+        0.435227,
+        0.479893
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m)"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        381.39,
+        303.96,
+        404.07
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.452957,
+        0.510857,
+        0.479893
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        381.39,
+        348.96,
+        404.07
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.452957,
+        0.586487,
+        0.479893
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        381.39,
+        393.96,
+        404.07
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.452957,
+        0.662118,
+        0.479893
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        381.39,
+        438.96,
+        404.07
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.452957,
+        0.737748,
+        0.479893
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        381.39,
+        573.96,
+        404.07
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.452957,
+        0.964639,
+        0.479893
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        404.07,
+        573.96,
+        426.84
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.479893,
+        0.964639,
+        0.506936
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        426.84,
+        573.96,
+        449.49
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.506936,
+        0.964639,
+        0.533836
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        449.49,
+        48.06,
+        472.17
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.533836,
+        0.080773,
+        0.560772
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        449.49,
+        105.54,
+        472.17
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.533836,
+        0.177378,
+        0.560772
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        449.49,
+        159.96,
+        472.17
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.533836,
+        0.26884,
+        0.560772
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        449.49,
+        190.32,
+        472.17
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.533836,
+        0.319866,
+        0.560772
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        449.49,
+        220.08,
+        472.17
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.533836,
+        0.369882,
+        0.560772
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        449.49,
+        258.96,
+        472.17
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.533836,
+        0.435227,
+        0.560772
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m)"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        449.49,
+        303.96,
+        472.17
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.533836,
+        0.510857,
+        0.560772
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        449.49,
+        348.96,
+        472.17
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.533836,
+        0.586487,
+        0.560772
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        449.49,
+        393.96,
+        472.17
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.533836,
+        0.662118,
+        0.560772
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        449.49,
+        438.96,
+        472.17
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.533836,
+        0.737748,
+        0.560772
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        449.49,
+        573.96,
+        472.17
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.533836,
+        0.964639,
+        0.560772
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        472.17,
+        48.06,
+        494.85
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.560772,
+        0.080773,
+        0.587708
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        472.17,
+        105.54,
+        494.85
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.560772,
+        0.177378,
+        0.587708
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        472.17,
+        159.96,
+        494.85
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.560772,
+        0.26884,
+        0.587708
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        472.17,
+        190.32,
+        494.85
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.560772,
+        0.319866,
+        0.587708
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        472.17,
+        220.08,
+        494.85
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.560772,
+        0.369882,
+        0.587708
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        472.17,
+        258.96,
+        494.85
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.560772,
+        0.435227,
+        0.587708
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m)"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        472.17,
+        303.96,
+        494.85
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.560772,
+        0.510857,
+        0.587708
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        472.17,
+        348.96,
+        494.85
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.560772,
+        0.586487,
+        0.587708
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        472.17,
+        393.96,
+        494.85
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.560772,
+        0.662118,
+        0.587708
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        472.17,
+        438.96,
+        494.85
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.560772,
+        0.737748,
+        0.587708
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        472.17,
+        573.96,
+        494.85
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.560772,
+        0.964639,
+        0.587708
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        494.85,
+        48.06,
+        517.59
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.587708,
+        0.080773,
+        0.614715
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        494.85,
+        105.54,
+        517.59
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.587708,
+        0.177378,
+        0.614715
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        494.85,
+        159.96,
+        517.59
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.587708,
+        0.26884,
+        0.614715
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        494.85,
+        190.32,
+        517.59
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.587708,
+        0.319866,
+        0.614715
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        494.85,
+        220.08,
+        517.59
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.587708,
+        0.369882,
+        0.614715
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        494.85,
+        258.96,
+        517.59
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.587708,
+        0.435227,
+        0.614715
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m)"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        494.85,
+        303.96,
+        517.59
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.587708,
+        0.510857,
+        0.614715
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        494.85,
+        348.96,
+        517.59
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.587708,
+        0.586487,
+        0.614715
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        494.85,
+        393.96,
+        517.59
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.587708,
+        0.662118,
+        0.614715
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        494.85,
+        438.96,
+        517.59
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.587708,
+        0.737748,
+        0.614715
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        494.85,
+        573.96,
+        517.59
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.587708,
+        0.964639,
+        0.614715
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        517.59,
+        573.96,
+        540.36
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.614715,
+        0.964639,
+        0.641758
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        540.36,
+        573.96,
+        562.95
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.641758,
+        0.964639,
+        0.668587
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        562.95,
+        48.06,
+        585.69
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.668587,
+        0.080773,
+        0.695594
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        562.95,
+        105.54,
+        585.69
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.668587,
+        0.177378,
+        0.695594
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        562.95,
+        159.96,
+        585.69
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.668587,
+        0.26884,
+        0.695594
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        562.95,
+        190.32,
+        585.69
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.668587,
+        0.319866,
+        0.695594
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        562.95,
+        220.08,
+        585.69
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.668587,
+        0.369882,
+        0.695594
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        562.95,
+        258.96,
+        585.69
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.668587,
+        0.435227,
+        0.695594
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m)"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        562.95,
+        303.96,
+        585.69
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.668587,
+        0.510857,
+        0.695594
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        562.95,
+        348.96,
+        585.69
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.668587,
+        0.586487,
+        0.695594
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        562.95,
+        393.96,
+        585.69
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.668587,
+        0.662118,
+        0.695594
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        562.95,
+        438.96,
+        585.69
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.668587,
+        0.737748,
+        0.695594
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        562.95,
+        573.96,
+        585.69
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.668587,
+        0.964639,
+        0.695594
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        585.69,
+        48.06,
+        608.37
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.695594,
+        0.080773,
+        0.72253
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        585.69,
+        105.54,
+        608.37
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.695594,
+        0.177378,
+        0.72253
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        585.69,
+        159.96,
+        608.37
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.695594,
+        0.26884,
+        0.72253
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        585.69,
+        190.32,
+        608.37
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.695594,
+        0.319866,
+        0.72253
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        585.69,
+        220.08,
+        608.37
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.695594,
+        0.369882,
+        0.72253
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        585.69,
+        258.96,
+        608.37
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.695594,
+        0.435227,
+        0.72253
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m)"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        585.69,
+        303.96,
+        608.37
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.695594,
+        0.510857,
+        0.72253
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        585.69,
+        348.96,
+        608.37
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.695594,
+        0.586487,
+        0.72253
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        585.69,
+        393.96,
+        608.37
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.695594,
+        0.662118,
+        0.72253
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        585.69,
+        438.96,
+        608.37
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.695594,
+        0.737748,
+        0.72253
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        585.69,
+        573.96,
+        608.37
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.695594,
+        0.964639,
+        0.72253
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        608.37,
+        48.06,
+        631.05
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.72253,
+        0.080773,
+        0.749466
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        608.37,
+        105.54,
+        631.05
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.72253,
+        0.177378,
+        0.749466
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        608.37,
+        159.96,
+        631.05
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.72253,
+        0.26884,
+        0.749466
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        608.37,
+        190.32,
+        631.05
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.72253,
+        0.319866,
+        0.749466
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        608.37,
+        220.08,
+        631.05
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.72253,
+        0.369882,
+        0.749466
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        608.37,
+        258.96,
+        631.05
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.72253,
+        0.435227,
+        0.749466
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m)"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        608.37,
+        303.96,
+        631.05
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.72253,
+        0.510857,
+        0.749466
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        608.37,
+        348.96,
+        631.05
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.72253,
+        0.586487,
+        0.749466
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        608.37,
+        393.96,
+        631.05
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.72253,
+        0.662118,
+        0.749466
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        608.37,
+        438.96,
+        631.05
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.72253,
+        0.737748,
+        0.749466
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        608.37,
+        573.96,
+        631.05
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.72253,
+        0.964639,
+        0.749466
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        631.05,
+        573.96,
+        653.88
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.749466,
+        0.964639,
+        0.776579
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        653.88,
+        573.96,
+        676.47
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.776579,
+        0.964639,
+        0.803409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        676.47,
+        48.06,
+        699.15
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.803409,
+        0.080773,
+        0.830344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        676.47,
+        105.54,
+        699.15
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.803409,
+        0.177378,
+        0.830344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        676.47,
+        159.96,
+        699.15
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.803409,
+        0.26884,
+        0.830344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        676.47,
+        190.32,
+        699.15
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.803409,
+        0.319866,
+        0.830344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        676.47,
+        220.08,
+        699.15
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.803409,
+        0.369882,
+        0.830344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        676.47,
+        258.96,
+        699.15
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.803409,
+        0.435227,
+        0.830344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m)"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        676.47,
+        303.96,
+        699.15
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.803409,
+        0.510857,
+        0.830344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        676.47,
+        348.96,
+        699.15
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.803409,
+        0.586487,
+        0.830344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        676.47,
+        393.96,
+        699.15
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.803409,
+        0.662118,
+        0.830344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        676.47,
+        438.96,
+        699.15
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.803409,
+        0.737748,
+        0.830344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        676.47,
+        573.96,
+        699.15
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.803409,
+        0.964639,
+        0.830344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        699.15,
+        48.06,
+        721.89
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.830344,
+        0.080773,
+        0.857352
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        699.15,
+        105.54,
+        721.89
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.830344,
+        0.177378,
+        0.857352
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        699.15,
+        159.96,
+        721.89
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.830344,
+        0.26884,
+        0.857352
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        699.15,
+        190.32,
+        721.89
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.830344,
+        0.319866,
+        0.857352
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        699.15,
+        220.08,
+        721.89
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.830344,
+        0.369882,
+        0.857352
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        699.15,
+        258.96,
+        721.89
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.830344,
+        0.435227,
+        0.857352
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m)"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        699.15,
+        303.96,
+        721.89
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.830344,
+        0.510857,
+        0.857352
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        699.15,
+        348.96,
+        721.89
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.830344,
+        0.586487,
+        0.857352
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        699.15,
+        393.96,
+        721.89
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.830344,
+        0.662118,
+        0.857352
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        699.15,
+        438.96,
+        721.89
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.830344,
+        0.737748,
+        0.857352
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        699.15,
+        573.96,
+        721.89
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.830344,
+        0.964639,
+        0.857352
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        721.89,
+        48.06,
+        744.42
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.857352,
+        0.080773,
+        0.884109
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        721.89,
+        105.54,
+        744.42
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.857352,
+        0.177378,
+        0.884109
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        721.89,
+        159.96,
+        744.42
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.857352,
+        0.26884,
+        0.884109
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        721.89,
+        190.32,
+        744.42
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.857352,
+        0.319866,
+        0.884109
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        721.89,
+        220.08,
+        744.42
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.857352,
+        0.369882,
+        0.884109
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        721.89,
+        258.96,
+        744.42
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.857352,
+        0.435227,
+        0.884109
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m)"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        721.89,
+        303.96,
+        744.42
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.857352,
+        0.510857,
+        0.884109
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        721.89,
+        348.96,
+        744.42
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.857352,
+        0.586487,
+        0.884109
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        721.89,
+        393.96,
+        744.42
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.857352,
+        0.662118,
+        0.884109
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        721.89,
+        438.96,
+        744.42
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.857352,
+        0.737748,
+        0.884109
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        438.96,
+        721.89,
+        573.96,
+        744.42
+      ],
+      "bbox_norm": [
+        0.737748,
+        0.857352,
+        0.964639,
+        0.884109
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 2,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        27.24,
+        126.78,
+        42.66,
+        135.96
+      ],
+      "bbox_norm": [
+        0.045782,
+        0.15057,
+        0.071697,
+        0.161473
+      ],
+      "source": "printed",
+      "value": "plot",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "plot"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 21,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        225.48,
+        126.78,
+        253.56,
+        135.96
+      ],
+      "bbox_norm": [
+        0.378958,
+        0.15057,
+        0.426151,
+        0.161473
+      ],
+      "source": "printed",
+      "value": "\u2126 (m)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "\u2126 (m)"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 24,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        264.36,
+        131.779,
+        298.56,
+        141.0
+      ],
+      "bbox_norm": [
+        0.444302,
+        0.156507,
+        0.501782,
+        0.167458
+      ],
+      "source": "printed",
+      "value": "Width 1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Width 1"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 27,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        309.36,
+        131.779,
+        343.56,
+        141.0
+      ],
+      "bbox_norm": [
+        0.519933,
+        0.156507,
+        0.577412,
+        0.167458
+      ],
+      "source": "printed",
+      "value": "Width 2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Width 2"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 30,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        354.36,
+        131.779,
+        388.56,
+        141.0
+      ],
+      "bbox_norm": [
+        0.595563,
+        0.156507,
+        0.653042,
+        0.167458
+      ],
+      "source": "printed",
+      "value": "Width 1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Width 1"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 33,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        399.36,
+        131.779,
+        433.56,
+        141.0
+      ],
+      "bbox_norm": [
+        0.671193,
+        0.156507,
+        0.728672,
+        0.167458
+      ],
+      "source": "printed",
+      "value": "Width 2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Width 2"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        154.29,
+        48.06,
+        199.77
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.183242,
+        0.080773,
+        0.237257
+      ],
+      "source": "written",
+      "value": "168",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 6,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        154.29,
+        105.54,
+        199.77
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.183242,
+        0.177378,
+        0.237257
+      ],
+      "source": "written",
+      "value": "Antidesma menasu",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species | COARSE START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species Tag No. Status 1"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 9,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        154.29,
+        159.96,
+        199.77
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.183242,
+        0.26884,
+        0.237257
+      ],
+      "source": "written",
+      "value": "74",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | COARSE WOODY START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species Tag No. Length Status Decay Class 1 2"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 12,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        154.29,
+        190.32,
+        199.77
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.183242,
+        0.319866,
+        0.237257
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Status 1 | COARSE WOODY Tag No. Length Status Decay Class 1 2"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 16,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        154.29,
+        220.08,
+        199.77
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.183242,
+        0.369882,
+        0.237257
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2 | COARSE WOODY Length Status Decay Class \u2126 (m) 1 2"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 20,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        154.29,
+        258.96,
+        199.77
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.183242,
+        0.435227,
+        0.237257
+      ],
+      "source": "written",
+      "value": "71.0",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m) | COARSE WOODY DEBRIS FINISH MEASURED RECORDED Length LED (cm) Status Decay Class \u2126 (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 23,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        154.29,
+        303.96,
+        199.77
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.183242,
+        0.510857,
+        0.237257
+      ],
+      "source": "written",
+      "value": "40.5",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1 | COARSE WOODY DEBRIS RECORD FINISH TIME: MEASURED BY: RECORDED \u2126 Length LED (cm) Decay Class (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 26,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        154.29,
+        348.96,
+        199.77
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.183242,
+        0.586487,
+        0.237257
+      ],
+      "source": "written",
+      "value": "141.5",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | WOODY DEBRIS RECORD SHEET FINISH TIME: MEASURED BY: RECORDED \u2126 Length LED (cm) SED Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 29,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        154.29,
+        393.96,
+        199.77
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.183242,
+        0.662118,
+        0.237257
+      ],
+      "source": "written",
+      "value": "85.3",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1 | DEBRIS RECORD SHEET FINISH TIME: MEASURED BY: RECORDED \u2126 LED (cm) SED 1 Width 2"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 32,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        154.29,
+        438.96,
+        199.77
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.183242,
+        0.737748,
+        0.237257
+      ],
+      "source": "written",
+      "value": "39.4",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | Page _____ RECORD SHEET TIME: MEASURED BY: RECORDED \u2126 SED (cm) 2 Width 1"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        267.87,
+        48.06,
+        313.29
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.318135,
+        0.080773,
+        0.372078
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 6,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        267.87,
+        105.54,
+        313.29
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.318135,
+        0.177378,
+        0.372078
+      ],
+      "source": "written",
+      "value": "Syzygium densiflorum",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species | COARSE START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species Tag No. Status 1"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 9,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        267.87,
+        159.96,
+        313.29
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.318135,
+        0.26884,
+        0.372078
+      ],
+      "source": "written",
+      "value": "68",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | COARSE WOODY START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species Tag No. Length Status Decay Class 1 2"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 12,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        267.87,
+        190.32,
+        313.29
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.318135,
+        0.319866,
+        0.372078
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Status 1 | COARSE WOODY Tag No. Length Status Decay Class 1 2"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 16,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        267.87,
+        220.08,
+        313.29
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.318135,
+        0.369882,
+        0.372078
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2 | COARSE WOODY Length Status Decay Class \u2126 (m) 1 2"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 20,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        267.87,
+        258.96,
+        313.29
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.318135,
+        0.435227,
+        0.372078
+      ],
+      "source": "written",
+      "value": "122.8",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m) | COARSE WOODY DEBRIS FINISH MEASURED RECORDED Length LED (cm) Status Decay Class \u2126 (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 23,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        267.87,
+        303.96,
+        313.29
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.318135,
+        0.510857,
+        0.372078
+      ],
+      "source": "written",
+      "value": "39.6",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1 | COARSE WOODY DEBRIS RECORD FINISH TIME: MEASURED BY: RECORDED \u2126 Length LED (cm) Decay Class (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 26,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        267.87,
+        348.96,
+        313.29
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.318135,
+        0.586487,
+        0.372078
+      ],
+      "source": "written",
+      "value": "125.2",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | WOODY DEBRIS RECORD SHEET FINISH TIME: MEASURED BY: RECORDED \u2126 Length LED (cm) SED Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 29,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        267.87,
+        393.96,
+        313.29
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.318135,
+        0.662118,
+        0.372078
+      ],
+      "source": "written",
+      "value": "152.2",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1 | DEBRIS RECORD SHEET FINISH TIME: MEASURED BY: RECORDED \u2126 LED (cm) SED 1 Width 2"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 32,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        267.87,
+        438.96,
+        313.29
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.318135,
+        0.737748,
+        0.372078
+      ],
+      "source": "written",
+      "value": "47.8",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | Page _____ RECORD SHEET TIME: MEASURED BY: RECORDED \u2126 SED (cm) 2 Width 1"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        404.07,
+        48.06,
+        449.49
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.479893,
+        0.080773,
+        0.533836
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 6,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        404.07,
+        105.54,
+        449.49
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.479893,
+        0.177378,
+        0.533836
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species | COARSE START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species Tag No. Status 1"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 9,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        404.07,
+        159.96,
+        449.49
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.479893,
+        0.26884,
+        0.533836
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | COARSE WOODY START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Sub Species Tag No. Length Status Decay Class 1 2"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 12,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        404.07,
+        190.32,
+        449.49
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.479893,
+        0.319866,
+        0.533836
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1 | COARSE WOODY Tag No. Length Status Decay Class 1 2"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 16,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        404.07,
+        220.08,
+        449.49
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.479893,
+        0.369882,
+        0.533836
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2 | COARSE WOODY Length Status Decay Class \u2126 (m) 1 2"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 20,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        404.07,
+        258.96,
+        449.49
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.479893,
+        0.435227,
+        0.533836
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m) | COARSE WOODY DEBRIS FINISH MEASURED RECORDED Length LED (cm) Status Decay Class \u2126 (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 23,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        404.07,
+        303.96,
+        449.49
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.479893,
+        0.510857,
+        0.533836
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1 | COARSE WOODY DEBRIS RECORD FINISH TIME: MEASURED BY: RECORDED \u2126 Length LED (cm) Decay Class (m) Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 26,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        404.07,
+        348.96,
+        449.49
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.479893,
+        0.586487,
+        0.533836
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | WOODY DEBRIS RECORD SHEET FINISH TIME: MEASURED BY: RECORDED \u2126 Length LED (cm) SED Width 1 2"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 29,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        404.07,
+        393.96,
+        449.49
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.479893,
+        0.662118,
+        0.533836
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1 | DEBRIS RECORD SHEET FINISH TIME: MEASURED BY: RECORDED \u2126 LED (cm) SED 1 Width 2"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 32,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        404.07,
+        438.96,
+        449.49
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.479893,
+        0.737748,
+        0.533836
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2 | RECORD SHEET TIME: MEASURED BY: RECORDED \u2126 SED (cm) 2 Width 1"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        517.59,
+        48.06,
+        562.95
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.614715,
+        0.080773,
+        0.668587
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 6,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        517.59,
+        105.54,
+        562.95
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.614715,
+        0.177378,
+        0.668587
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 9,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        517.59,
+        159.96,
+        562.95
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.614715,
+        0.26884,
+        0.668587
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 12,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        517.59,
+        190.32,
+        562.95
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.614715,
+        0.319866,
+        0.668587
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 16,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        517.59,
+        220.08,
+        562.95
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.614715,
+        0.369882,
+        0.668587
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 20,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        517.59,
+        258.96,
+        562.95
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.614715,
+        0.435227,
+        0.668587
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m)"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 23,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        517.59,
+        303.96,
+        562.95
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.614715,
+        0.510857,
+        0.668587
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 26,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        517.59,
+        348.96,
+        562.95
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.614715,
+        0.586487,
+        0.668587
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 29,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        517.59,
+        393.96,
+        562.95
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.614715,
+        0.662118,
+        0.668587
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 32,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        517.59,
+        438.96,
+        562.95
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.614715,
+        0.737748,
+        0.668587
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 5,
+      "bbox_points": [
+        21.84,
+        631.05,
+        48.06,
+        676.47
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.749466,
+        0.080773,
+        0.803409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 6,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        48.06,
+        631.05,
+        105.54,
+        676.47
+      ],
+      "bbox_norm": [
+        0.080773,
+        0.749466,
+        0.177378,
+        0.803409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "DAY/MONTH/YEAR: Species"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 9,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        105.54,
+        631.05,
+        159.96,
+        676.47
+      ],
+      "bbox_norm": [
+        0.177378,
+        0.749466,
+        0.26884,
+        0.803409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 12,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        159.96,
+        631.05,
+        190.32,
+        676.47
+      ],
+      "bbox_norm": [
+        0.26884,
+        0.749466,
+        0.319866,
+        0.803409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Status 1"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 16,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        190.32,
+        631.05,
+        220.08,
+        676.47
+      ],
+      "bbox_norm": [
+        0.319866,
+        0.749466,
+        0.369882,
+        0.803409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay Class 2"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 20,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        220.08,
+        631.05,
+        258.96,
+        676.47
+      ],
+      "bbox_norm": [
+        0.369882,
+        0.749466,
+        0.435227,
+        0.803409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Length \u2126 (m)"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 23,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        258.96,
+        631.05,
+        303.96,
+        676.47
+      ],
+      "bbox_norm": [
+        0.435227,
+        0.749466,
+        0.510857,
+        0.803409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "LED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 26,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        303.96,
+        631.05,
+        348.96,
+        676.47
+      ],
+      "bbox_norm": [
+        0.510857,
+        0.749466,
+        0.586487,
+        0.803409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 29,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        348.96,
+        631.05,
+        393.96,
+        676.47
+      ],
+      "bbox_norm": [
+        0.586487,
+        0.749466,
+        0.662118,
+        0.803409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "SED Width 1"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 32,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        393.96,
+        631.05,
+        438.96,
+        676.47
+      ],
+      "bbox_norm": [
+        0.662118,
+        0.749466,
+        0.737748,
+        0.803409
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u2126 (cm) Width 2"
+    }
+  ]
+}

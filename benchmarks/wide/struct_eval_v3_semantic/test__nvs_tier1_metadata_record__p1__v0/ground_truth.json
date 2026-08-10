@@ -1,0 +1,1156 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nvs_tier1_metadata_record.pdf",
+  "page": 2,
+  "page_size_points": [
+    595.0,
+    842.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 2,
+      "row": 30,
+      "col": 1,
+      "bbox_points": [
+        27.241,
+        595.74,
+        122.28,
+        610.44
+      ],
+      "bbox_norm": [
+        0.045783,
+        0.70753,
+        0.205513,
+        0.724988
+      ],
+      "source": "printed",
+      "value": "Soils collected",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Soils collected"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 8,
+      "bbox_points": [
+        122.28,
+        595.74,
+        205.38,
+        610.44
+      ],
+      "bbox_norm": [
+        0.205513,
+        0.70753,
+        0.345176,
+        0.724988
+      ],
+      "source": "printed",
+      "value": "Yes / No",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Yes / No"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 12,
+      "bbox_points": [
+        205.38,
+        595.74,
+        274.38,
+        610.44
+      ],
+      "bbox_norm": [
+        0.345176,
+        0.70753,
+        0.461143,
+        0.724988
+      ],
+      "source": "printed",
+      "value": "Nested Recce",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Nested Recce"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 16,
+      "bbox_points": [
+        274.38,
+        595.74,
+        343.38,
+        610.44
+      ],
+      "bbox_norm": [
+        0.461143,
+        0.70753,
+        0.577109,
+        0.724988
+      ],
+      "source": "printed",
+      "value": "Yes / No",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Yes / No"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 1,
+      "bbox_points": [
+        27.241,
+        610.44,
+        122.28,
+        625.14
+      ],
+      "bbox_norm": [
+        0.045783,
+        0.724988,
+        0.205513,
+        0.742447
+      ],
+      "source": "printed",
+      "value": "Soils collected by",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Soils collected by"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 8,
+      "bbox_points": [
+        122.28,
+        610.44,
+        343.38,
+        625.14
+      ],
+      "bbox_norm": [
+        0.205513,
+        0.724988,
+        0.577109,
+        0.742447
+      ],
+      "source": "written",
+      "value": "140",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Yes / No | Yes / No Nested Recce Yes / No | ___________________________________________________________________________________________________________________ Collections Soils collected Yes / No Nested Recce by"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 2,
+      "bbox_points": [
+        32.64,
+        658.26,
+        93.84,
+        667.5
+      ],
+      "bbox_norm": [
+        0.054857,
+        0.781781,
+        0.157714,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Substrate",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Substrate"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 7,
+      "bbox_points": [
+        104.64,
+        658.26,
+        156.84,
+        667.5
+      ],
+      "bbox_norm": [
+        0.175866,
+        0.781781,
+        0.263597,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Cover class 1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Cover class 1"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 11,
+      "bbox_points": [
+        167.64,
+        658.26,
+        219.84,
+        667.5
+      ],
+      "bbox_norm": [
+        0.281748,
+        0.781781,
+        0.369479,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Cover class 2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Cover class 2"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 15,
+      "bbox_points": [
+        230.64,
+        658.26,
+        282.84,
+        667.5
+      ],
+      "bbox_norm": [
+        0.38763,
+        0.781781,
+        0.475361,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Cover class 3",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Cover class 3"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 19,
+      "bbox_points": [
+        293.64,
+        658.26,
+        343.38,
+        667.5
+      ],
+      "bbox_norm": [
+        0.493513,
+        0.781781,
+        0.577109,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Cover class 4",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Cover class 4"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 23,
+      "bbox_points": [
+        356.64,
+        658.26,
+        408.84,
+        667.5
+      ],
+      "bbox_norm": [
+        0.599395,
+        0.781781,
+        0.687126,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Cover class 5",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Cover class 5"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 26,
+      "bbox_points": [
+        419.64,
+        658.26,
+        471.84,
+        667.5
+      ],
+      "bbox_norm": [
+        0.705277,
+        0.781781,
+        0.793008,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Cover class 6",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Cover class 6"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 29,
+      "bbox_points": [
+        482.64,
+        658.26,
+        552.84,
+        667.5
+      ],
+      "bbox_norm": [
+        0.81116,
+        0.781781,
+        0.929143,
+        0.792755
+      ],
+      "source": "printed",
+      "value": "Number of bags",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Number of bags"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 1,
+      "bbox_points": [
+        27.241,
+        670.2,
+        99.246,
+        685.32
+      ],
+      "bbox_norm": [
+        0.045783,
+        0.795962,
+        0.166799,
+        0.813919
+      ],
+      "source": "printed",
+      "value": "Soil",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Soil"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 6,
+      "bbox_points": [
+        99.246,
+        670.2,
+        162.414,
+        685.32
+      ],
+      "bbox_norm": [
+        0.166799,
+        0.795962,
+        0.272965,
+        0.813919
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "collection Cover class 1 | ___________________________________________________________________________________________________________________ Collections Soils collected Yes / No Nested Recce by Non-vascular collection Substrate Cover class 1 2 Soil"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 10,
+      "bbox_points": [
+        162.414,
+        670.2,
+        225.246,
+        685.32
+      ],
+      "bbox_norm": [
+        0.272965,
+        0.795962,
+        0.378564,
+        0.813919
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Cover class 2 | Yes / No Nested Recce by Non-vascular collection Collected by:_____________________ Cover class 1 2 3 Soil"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 14,
+      "bbox_points": [
+        225.246,
+        670.2,
+        288.246,
+        685.32
+      ],
+      "bbox_norm": [
+        0.378564,
+        0.795962,
+        0.484446,
+        0.813919
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Collected Cover class 3 | ___________________________________________________________________________________________________________________ No Nested Recce Yes / Collected by:_____________________ 1 Cover class 2 3 4 Soil"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 18,
+      "bbox_points": [
+        288.246,
+        670.2,
+        351.246,
+        685.32
+      ],
+      "bbox_norm": [
+        0.484446,
+        0.795962,
+        0.590329,
+        0.813919
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "by:_____________________ Cover class 4 | ___________________________________________________________________________________________________________________ Nested Recce Yes / No Collected by:_____________________ 2 Cover class 3 4 5 Soil"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 22,
+      "bbox_points": [
+        351.246,
+        670.2,
+        414.226,
+        685.32
+      ],
+      "bbox_norm": [
+        0.590329,
+        0.795962,
+        0.696179,
+        0.813919
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "by:_____________________ Cover class 5 | ___________________________________________________________________________________________________________________ Yes / No Collected by:_____________________ 3 Cover class 4 5 6 Number"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 25,
+      "bbox_points": [
+        414.226,
+        670.2,
+        477.411,
+        685.32
+      ],
+      "bbox_norm": [
+        0.696179,
+        0.795962,
+        0.802372,
+        0.813919
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Cover class 6 | ___________________________________________________________________________________________________________________ by:_____________________ class 4 Cover 5 6 Number of bags"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 28,
+      "bbox_points": [
+        477.411,
+        670.2,
+        558.223,
+        685.32
+      ],
+      "bbox_norm": [
+        0.802372,
+        0.795962,
+        0.93819,
+        0.813919
+      ],
+      "source": "written",
+      "value": "215",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Number of bags | ___________________________________________________________________________________________________________________ by:_____________________ Cover class 5 6 Number of bags"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 1,
+      "bbox_points": [
+        27.241,
+        685.32,
+        99.246,
+        700.26
+      ],
+      "bbox_norm": [
+        0.045783,
+        0.813919,
+        0.166799,
+        0.831663
+      ],
+      "source": "printed",
+      "value": "Litter",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Litter"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 6,
+      "bbox_points": [
+        99.246,
+        685.32,
+        162.414,
+        700.26
+      ],
+      "bbox_norm": [
+        0.166799,
+        0.813919,
+        0.272965,
+        0.831663
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "collection Cover class 1 | Collections Soils collected Yes / No Nested Recce by Non-vascular collection Substrate Cover class 1 2 Soil Litter"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 10,
+      "bbox_points": [
+        162.414,
+        685.32,
+        225.246,
+        700.26
+      ],
+      "bbox_norm": [
+        0.272965,
+        0.813919,
+        0.378564,
+        0.831663
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Cover class 2 | Yes / No Nested Recce by Non-vascular collection Collected by:_____________________ Cover class 1 2 3 Litter"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 14,
+      "bbox_points": [
+        225.246,
+        685.32,
+        288.246,
+        700.26
+      ],
+      "bbox_norm": [
+        0.378564,
+        0.813919,
+        0.484446,
+        0.831663
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Collected Cover class 3 | ___________________________________________________________________________________________________________________ No Nested Recce Yes / Collected by:_____________________ 1 Cover class 2 3 4 Litter"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 18,
+      "bbox_points": [
+        288.246,
+        685.32,
+        351.246,
+        700.26
+      ],
+      "bbox_norm": [
+        0.484446,
+        0.813919,
+        0.590329,
+        0.831663
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "by:_____________________ Cover class 4 | ___________________________________________________________________________________________________________________ Nested Recce Yes / No Collected by:_____________________ 2 Cover class 3 4 5 Litter"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 22,
+      "bbox_points": [
+        351.246,
+        685.32,
+        414.226,
+        700.26
+      ],
+      "bbox_norm": [
+        0.590329,
+        0.813919,
+        0.696179,
+        0.831663
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "by:_____________________ Cover class 5 | ___________________________________________________________________________________________________________________ Yes / No Collected by:_____________________ 3 Cover class 4 5 6 Number"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 25,
+      "bbox_points": [
+        414.226,
+        685.32,
+        477.411,
+        700.26
+      ],
+      "bbox_norm": [
+        0.696179,
+        0.813919,
+        0.802372,
+        0.831663
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Cover class 6 | ___________________________________________________________________________________________________________________ by:_____________________ class 4 Cover 5 6 Number of bags"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 28,
+      "bbox_points": [
+        477.411,
+        685.32,
+        558.223,
+        700.26
+      ],
+      "bbox_norm": [
+        0.802372,
+        0.813919,
+        0.93819,
+        0.831663
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Number of bags | ___________________________________________________________________________________________________________________ by:_____________________ Cover class 5 6 Number of bags"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 1,
+      "bbox_points": [
+        27.241,
+        700.26,
+        99.246,
+        715.2
+      ],
+      "bbox_norm": [
+        0.045783,
+        0.831663,
+        0.166799,
+        0.849406
+      ],
+      "source": "printed",
+      "value": "CWD",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "CWD"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 6,
+      "bbox_points": [
+        99.246,
+        700.26,
+        162.414,
+        715.2
+      ],
+      "bbox_norm": [
+        0.166799,
+        0.831663,
+        0.272965,
+        0.849406
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "collection Cover class 1 | Soils collected Yes / No Nested Recce by Non-vascular collection Substrate Cover class 1 2 Soil Litter CWD"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 10,
+      "bbox_points": [
+        162.414,
+        700.26,
+        225.246,
+        715.2
+      ],
+      "bbox_norm": [
+        0.272965,
+        0.831663,
+        0.378564,
+        0.849406
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Cover class 2 | Yes / No Nested Recce by Non-vascular collection Collected by:_____________________ Cover class 1 2 3 CWD"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 14,
+      "bbox_points": [
+        225.246,
+        700.26,
+        288.246,
+        715.2
+      ],
+      "bbox_norm": [
+        0.378564,
+        0.831663,
+        0.484446,
+        0.849406
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Collected Cover class 3 | ___________________________________________________________________________________________________________________ No Nested Recce Yes / Collected by:_____________________ 1 Cover class 2 3 4 CWD"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 18,
+      "bbox_points": [
+        288.246,
+        700.26,
+        351.246,
+        715.2
+      ],
+      "bbox_norm": [
+        0.484446,
+        0.831663,
+        0.590329,
+        0.849406
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "by:_____________________ Cover class 4 | ___________________________________________________________________________________________________________________ Nested Recce Yes / No Collected by:_____________________ 2 Cover class 3 4 5 CWD"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 22,
+      "bbox_points": [
+        351.246,
+        700.26,
+        414.226,
+        715.2
+      ],
+      "bbox_norm": [
+        0.590329,
+        0.831663,
+        0.696179,
+        0.849406
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "by:_____________________ Cover class 5 | ___________________________________________________________________________________________________________________ Yes / No Collected by:_____________________ 3 Cover class 4 5 6 Number"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 25,
+      "bbox_points": [
+        414.226,
+        700.26,
+        477.411,
+        715.2
+      ],
+      "bbox_norm": [
+        0.696179,
+        0.831663,
+        0.802372,
+        0.849406
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Cover class 6 | ___________________________________________________________________________________________________________________ by:_____________________ class 4 Cover 5 6 Number of bags"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 28,
+      "bbox_points": [
+        477.411,
+        700.26,
+        558.223,
+        715.2
+      ],
+      "bbox_norm": [
+        0.802372,
+        0.831663,
+        0.93819,
+        0.849406
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Number of bags | ___________________________________________________________________________________________________________________ by:_____________________ Cover class 5 6 Number of bags"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 1,
+      "bbox_points": [
+        27.241,
+        715.2,
+        99.246,
+        730.02
+      ],
+      "bbox_norm": [
+        0.045783,
+        0.849406,
+        0.166799,
+        0.867007
+      ],
+      "source": "printed",
+      "value": "Rocky outcrop",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Rocky outcrop"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 6,
+      "bbox_points": [
+        99.246,
+        715.2,
+        162.414,
+        730.02
+      ],
+      "bbox_norm": [
+        0.166799,
+        0.849406,
+        0.272965,
+        0.867007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "collection Cover class 1 | Soils collected Yes / No by Non-vascular collection Substrate Cover class 1 2 Soil Litter CWD Rocky outcrop"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 10,
+      "bbox_points": [
+        162.414,
+        715.2,
+        225.246,
+        730.02
+      ],
+      "bbox_norm": [
+        0.272965,
+        0.849406,
+        0.378564,
+        0.867007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Cover class 2 | Yes / No Nested Recce by Non-vascular collection Collected by:_____________________ Cover class 1 2 3 Rocky outcrop"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 14,
+      "bbox_points": [
+        225.246,
+        715.2,
+        288.246,
+        730.02
+      ],
+      "bbox_norm": [
+        0.378564,
+        0.849406,
+        0.484446,
+        0.867007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Collected Cover class 3 | ___________________________________________________________________________________________________________________ No Nested Recce Yes / Collected by:_____________________ 1 Cover class 2 3 4 Rocky outcrop"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 18,
+      "bbox_points": [
+        288.246,
+        715.2,
+        351.246,
+        730.02
+      ],
+      "bbox_norm": [
+        0.484446,
+        0.849406,
+        0.590329,
+        0.867007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "by:_____________________ Cover class 4 | ___________________________________________________________________________________________________________________ Nested Recce Yes / No Collected by:_____________________ 2 Cover class 3 4 5 Rocky outcrop"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 22,
+      "bbox_points": [
+        351.246,
+        715.2,
+        414.226,
+        730.02
+      ],
+      "bbox_norm": [
+        0.590329,
+        0.849406,
+        0.696179,
+        0.867007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "by:_____________________ Cover class 5 | ___________________________________________________________________________________________________________________ Yes / No Collected by:_____________________ 3 Cover class 4 5 6 Number"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 25,
+      "bbox_points": [
+        414.226,
+        715.2,
+        477.411,
+        730.02
+      ],
+      "bbox_norm": [
+        0.696179,
+        0.849406,
+        0.802372,
+        0.867007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Cover class 6 | ___________________________________________________________________________________________________________________ by:_____________________ class 4 Cover 5 6 Number of bags"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 28,
+      "bbox_points": [
+        477.411,
+        715.2,
+        558.223,
+        730.02
+      ],
+      "bbox_norm": [
+        0.802372,
+        0.849406,
+        0.93819,
+        0.867007
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Number of bags | ___________________________________________________________________________________________________________________ by:_____________________ Cover class 5 6 Number of bags"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 1,
+      "bbox_points": [
+        27.241,
+        730.02,
+        414.226,
+        750.592
+      ],
+      "bbox_norm": [
+        0.045783,
+        0.867007,
+        0.696179,
+        0.89144
+      ],
+      "source": "printed",
+      "value": "If collected in less than 1 hr please state reason:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "If collected in less than 1 hr please state reason:"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 25,
+      "bbox_points": [
+        414.226,
+        730.02,
+        477.411,
+        750.592
+      ],
+      "bbox_norm": [
+        0.696179,
+        0.867007,
+        0.802372,
+        0.89144
+      ],
+      "source": "printed",
+      "value": "Epiphyte",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Epiphyte"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 28,
+      "bbox_points": [
+        477.411,
+        730.02,
+        558.223,
+        750.592
+      ],
+      "bbox_norm": [
+        0.802372,
+        0.867007,
+        0.93819,
+        0.89144
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Number of bags | ___________________________________________________________________________________________________________________ by:_____________________ Cover class 5 6 Number of bags please state reason: Epiphyte"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 1,
+      "bbox_points": [
+        27.241,
+        750.592,
+        414.226,
+        767.033
+      ],
+      "bbox_norm": [
+        0.045783,
+        0.89144,
+        0.696179,
+        0.910965
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "If collected in less than 1 hr please state reason: | Rocky outcrop If collected in less than 1 hr please state reason: | Substrate Cover class 1 Soil Litter CWD Rocky outcrop If collected in less than hr please state reason: Epiphyte Sum of bags:"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 25,
+      "bbox_points": [
+        414.226,
+        750.592,
+        477.411,
+        767.033
+      ],
+      "bbox_norm": [
+        0.696179,
+        0.89144,
+        0.802372,
+        0.910965
+      ],
+      "source": "printed",
+      "value": "Sum of bags:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Sum of bags:"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 28,
+      "bbox_points": [
+        477.411,
+        750.592,
+        558.223,
+        767.033
+      ],
+      "bbox_norm": [
+        0.802372,
+        0.89144,
+        0.93819,
+        0.910965
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Number of bags | ___________________________________________________________________________________________________________________ by:_____________________ Cover class 5 6 Number of bags Epiphyte Sum bags:"
+    }
+  ]
+}

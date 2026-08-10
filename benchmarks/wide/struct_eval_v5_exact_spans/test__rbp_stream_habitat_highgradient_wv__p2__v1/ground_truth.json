@@ -1,0 +1,1260 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "rbp_stream_habitat_highgradient_wv.pdf",
+  "page": 3,
+  "page_size_points": [
+    612.0,
+    792.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 3,
+      "row": 0,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        72.6,
+        81.0,
+        166.2,
+        135.24
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.102273,
+        0.271569,
+        0.170758
+      ],
+      "source": "printed",
+      "value": "WATERSHED FEATURES",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "WATERSHED FEATURES"
+    },
+    {
+      "page": 3,
+      "row": 0,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        166.2,
+        81.0,
+        521.745,
+        135.24
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.102273,
+        0.852525,
+        0.170758
+      ],
+      "source": "printed",
+      "value": "Predominant Surrounding Landuse Local Watershed NPS Pollution Forest Commercial No evidence Some potential sources \u2018 \u2018 \u2018 \u2018 Field/Pasture Industrial Obvious sources \u2018 \u2018 \u2018 Agricultural Other _______________ \u2018 \u2018 Residential Local Watershed Erosion \u2018 None Moderate Heavy \u2018 \u2018 \u2018",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Predominant Surrounding Landuse Local Watershed NPS Pollution Forest Commercial No evidence Some potential sources \u2018 \u2018 \u2018 \u2018 Field/Pasture Industrial Obvious sources \u2018 \u2018 \u2018 Agricultural Other _______________ \u2018 \u2018 Residential Local Watershed Erosion \u2018 None Moderate Heavy \u2018 \u2018 \u2018"
+    },
+    {
+      "page": 3,
+      "row": 1,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        72.6,
+        135.24,
+        166.2,
+        172.68
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.170758,
+        0.271569,
+        0.21803
+      ],
+      "source": "printed",
+      "value": "RIPARIAN VEGETATION (18 meter buffer)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "RIPARIAN VEGETATION (18 meter buffer)"
+    },
+    {
+      "page": 3,
+      "row": 1,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        166.2,
+        135.24,
+        521.745,
+        172.68
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.170758,
+        0.852525,
+        0.21803
+      ],
+      "source": "printed",
+      "value": "Indicate the dominant type and record the dominant species present Trees Shrubs Grasses Herbaceous \u2018 \u2018 \u2018 \u2018 __________________________________________________ dominant species present",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Indicate the dominant type and record the dominant species present Trees Shrubs Grasses Herbaceous \u2018 \u2018 \u2018 \u2018 __________________________________________________ dominant species present"
+    },
+    {
+      "page": 3,
+      "row": 2,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        72.6,
+        172.68,
+        166.2,
+        278.76
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.21803,
+        0.271569,
+        0.35197
+      ],
+      "source": "printed",
+      "value": "INSTREAM FEATURES",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "INSTREAM FEATURES"
+    },
+    {
+      "page": 3,
+      "row": 2,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        166.2,
+        172.68,
+        521.745,
+        278.76
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.21803,
+        0.852525,
+        0.35197
+      ],
+      "source": "printed",
+      "value": "_______m Estimated Reach Length Canopy Cover Partly open Partly shaded Shaded \u2018 \u2018 \u2018 _______m Estimated Stream Width _______m High Water Mark _______m2 Sampling Reach Area Proportion of Reach Represented by Stream Morphology Types _______km2 Area in km2 (m2x1000) Riffle_______% Run_______% \u2018 \u2018 Pool_______% _______m Estimated Stream Depth \u2018 Yes No Channelized _______m/sec Surface Velocity \u2018 \u2018 (at thalweg) Yes No Dam Present \u2018 \u2018",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "_______m Estimated Reach Length Canopy Cover Partly open Partly shaded Shaded \u2018 \u2018 \u2018 _______m Estimated Stream Width _______m High Water Mark _______m2 Sampling Reach Area Proportion of Reach Represented by Stream Morphology Types _______km2 Area in km2 (m2x1000) Riffle_______% Run_______% \u2018 \u2018 Pool_______% _______m Estimated Stream Depth \u2018 Yes No Channelized _______m/sec Surface Velocity \u2018 \u2018 (at thalweg) Yes No Dam Present \u2018 \u2018"
+    },
+    {
+      "page": 3,
+      "row": 3,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        72.6,
+        278.76,
+        166.2,
+        309.96
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.35197,
+        0.271569,
+        0.391364
+      ],
+      "source": "printed",
+      "value": "LARGE WOODY DEBRIS",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "LARGE WOODY DEBRIS"
+    },
+    {
+      "page": 3,
+      "row": 3,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        166.2,
+        278.76,
+        521.745,
+        309.96
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.35197,
+        0.852525,
+        0.391364
+      ],
+      "source": "printed",
+      "value": "_______m2 LWD _______m2/km2 Density of LWD (LWD/ reach area)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "_______m2 LWD _______m2/km2 Density of LWD (LWD/ reach area)"
+    },
+    {
+      "page": 3,
+      "row": 4,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        72.6,
+        309.96,
+        166.2,
+        371.88
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.391364,
+        0.271569,
+        0.469545
+      ],
+      "source": "printed",
+      "value": "AQUATIC VEGETATION",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "AQUATIC VEGETATION"
+    },
+    {
+      "page": 3,
+      "row": 4,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        166.2,
+        309.96,
+        521.745,
+        371.88
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.391364,
+        0.852525,
+        0.469545
+      ],
+      "source": "printed",
+      "value": "Indicate the dominant type and record the dominant species present Rooted emergent Rooted submergent Rooted floating Free floating \u2018 \u2018 \u2018 \u2018 Floating Algae Attached Algae \u2018 \u2018 __________________________________________________ dominant species present _____% Portion of the reach with aquatic vegetation",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Indicate the dominant type and record the dominant species present Rooted emergent Rooted submergent Rooted floating Free floating \u2018 \u2018 \u2018 \u2018 Floating Algae Attached Algae \u2018 \u2018 __________________________________________________ dominant species present _____% Portion of the reach with aquatic vegetation"
+    },
+    {
+      "page": 3,
+      "row": 5,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        72.6,
+        371.88,
+        166.2,
+        470.76
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.469545,
+        0.271569,
+        0.594394
+      ],
+      "source": "printed",
+      "value": "WATER QUALITY",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "WATER QUALITY"
+    },
+    {
+      "page": 3,
+      "row": 5,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        166.2,
+        371.88,
+        521.745,
+        470.76
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.469545,
+        0.852525,
+        0.594394
+      ],
+      "source": "printed",
+      "value": "Temperature________0 C Water Odors Normal/None Sewage \u2018 \u2018 Petroleum Chemical Conductance________ Specific \u2018 \u2018 Fishy Other________________ \u2018 \u2018 ________ Dissolved Oxygen Water Surface Oils Slick Sheen Globs Flecks ________ pH \u2018 \u2018 \u2018 \u2018 None Other_________________________ \u2018 \u2018 ________ Turbidity Turbidity (if not measured) Clear Slightly turbid Turbid _______________ WQ Instrument Used \u2018 \u2018 \u2018 Opaque Stained Other________ \u2018 \u2018 \u2018",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Temperature________0 C Water Odors Normal/None Sewage \u2018 \u2018 Petroleum Chemical Conductance________ Specific \u2018 \u2018 Fishy Other________________ \u2018 \u2018 ________ Dissolved Oxygen Water Surface Oils Slick Sheen Globs Flecks ________ pH \u2018 \u2018 \u2018 \u2018 None Other_________________________ \u2018 \u2018 ________ Turbidity Turbidity (if not measured) Clear Slightly turbid Turbid _______________ WQ Instrument Used \u2018 \u2018 \u2018 Opaque Stained Other________ \u2018 \u2018 \u2018"
+    },
+    {
+      "page": 3,
+      "row": 6,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        72.6,
+        470.76,
+        166.2,
+        531.48
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.594394,
+        0.271569,
+        0.671061
+      ],
+      "source": "printed",
+      "value": "SEDIMENT/ SUBSTRATE",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "SEDIMENT/ SUBSTRATE"
+    },
+    {
+      "page": 3,
+      "row": 6,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        166.2,
+        470.76,
+        521.745,
+        531.48
+      ],
+      "bbox_norm": [
+        0.271569,
+        0.594394,
+        0.852525,
+        0.671061
+      ],
+      "source": "printed",
+      "value": "Odors Deposits Normal Sewage Petroleum Sludge Sawdust Paper fiber Sand \u2018 \u2018 \u2018 \u2018 \u2018 \u2018 \u2018 Chemical Anaerobic None Relict shells Other_________________ \u2018 \u2018 \u2018 \u2018 \u2018 Other__________________________________ \u2018 Looking at stones which are not deeply embedded, Oils are the undersides black in color? Absent Slight Moderate Profuse Yes No \u2018 \u2018 \u2018 \u2018 \u2018 \u2018",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Odors Deposits Normal Sewage Petroleum Sludge Sawdust Paper fiber Sand \u2018 \u2018 \u2018 \u2018 \u2018 \u2018 \u2018 Chemical Anaerobic None Relict shells Other_________________ \u2018 \u2018 \u2018 \u2018 \u2018 Other__________________________________ \u2018 Looking at stones which are not deeply embedded, Oils are the undersides black in color? Absent Slight Moderate Profuse Yes No \u2018 \u2018 \u2018 \u2018 \u2018 \u2018"
+    },
+    {
+      "page": 3,
+      "row": 8,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        72.6,
+        539.64,
+        279.24,
+        564.84
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.681364,
+        0.456275,
+        0.713182
+      ],
+      "source": "printed",
+      "value": "INORGANIC SUBSTRATE COMPONENTS (should add up to 100%)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "INORGANIC SUBSTRATE COMPONENTS (should add up to 100%)"
+    },
+    {
+      "page": 3,
+      "row": 8,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        279.24,
+        539.64,
+        521.745,
+        564.84
+      ],
+      "bbox_norm": [
+        0.456275,
+        0.681364,
+        0.852525,
+        0.713182
+      ],
+      "source": "printed",
+      "value": "ORGANIC SUBSTRATE COMPONENTS (does not necessarily add up to 100%)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "ORGANIC SUBSTRATE COMPONENTS (does not necessarily add up to 100%)"
+    },
+    {
+      "page": 3,
+      "row": 9,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        72.6,
+        564.84,
+        112.2,
+        588.84
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.713182,
+        0.183333,
+        0.743485
+      ],
+      "source": "printed",
+      "value": "Substrate Type",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Substrate Type"
+    },
+    {
+      "page": 3,
+      "row": 9,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        112.2,
+        564.84,
+        198.6,
+        588.84
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.713182,
+        0.32451,
+        0.743485
+      ],
+      "source": "printed",
+      "value": "Diameter",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 3,
+      "row": 9,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.6,
+        564.84,
+        279.24,
+        588.84
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.713182,
+        0.456275,
+        0.743485
+      ],
+      "source": "printed",
+      "value": "% Composition in Sampling Reach",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "% Composition in Sampling Reach"
+    },
+    {
+      "page": 3,
+      "row": 9,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        279.24,
+        564.84,
+        326.04,
+        588.84
+      ],
+      "bbox_norm": [
+        0.456275,
+        0.713182,
+        0.532745,
+        0.743485
+      ],
+      "source": "printed",
+      "value": "Substrate Type",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Substrate Type"
+    },
+    {
+      "page": 3,
+      "row": 9,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        326.04,
+        564.84,
+        424.44,
+        588.84
+      ],
+      "bbox_norm": [
+        0.532745,
+        0.713182,
+        0.693529,
+        0.743485
+      ],
+      "source": "printed",
+      "value": "Characteristic",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Characteristic"
+    },
+    {
+      "page": 3,
+      "row": 9,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        424.44,
+        564.84,
+        521.745,
+        588.84
+      ],
+      "bbox_norm": [
+        0.693529,
+        0.713182,
+        0.852525,
+        0.743485
+      ],
+      "source": "printed",
+      "value": "% Composition in Sampling Area",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "% Composition in Sampling Area"
+    },
+    {
+      "page": 3,
+      "row": 10,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        72.6,
+        588.84,
+        112.2,
+        603.24
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.743485,
+        0.183333,
+        0.761667
+      ],
+      "source": "printed",
+      "value": "Bedrock",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Bedrock"
+    },
+    {
+      "page": 3,
+      "row": 10,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        112.2,
+        588.84,
+        198.6,
+        603.24
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.743485,
+        0.32451,
+        0.761667
+      ],
+      "source": "written",
+      "value": "148.0",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Diameter | INORGANIC SUBSTRATE (should add up to Diameter | INORGANIC (should add up to 100%) Substrate Diameter % Composition in Type Sampling Reach Bedrock Detritus sticks, wood, coarse plant materials (CPOM)"
+    },
+    {
+      "page": 3,
+      "row": 10,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.6,
+        588.84,
+        279.24,
+        603.24
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.743485,
+        0.456275,
+        0.761667
+      ],
+      "source": "written",
+      "value": "67",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "% Composition in Sampling Reach | 100%) % Composition in Sampling Reach | (should add up to 100%) Substrate Diameter % Composition in Characteristic Type Sampling Reach Bedrock Detritus sticks, wood, coarse plant materials (CPOM)"
+    },
+    {
+      "page": 3,
+      "row": 11,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        72.6,
+        603.24,
+        112.2,
+        617.64
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.761667,
+        0.183333,
+        0.779849
+      ],
+      "source": "printed",
+      "value": "Boulder",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Boulder"
+    },
+    {
+      "page": 3,
+      "row": 11,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        112.2,
+        603.24,
+        198.6,
+        617.64
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.761667,
+        0.32451,
+        0.779849
+      ],
+      "source": "printed",
+      "value": "> 256 mm (10\")",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "> 256 mm (10\")"
+    },
+    {
+      "page": 3,
+      "row": 11,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.6,
+        603.24,
+        279.24,
+        617.64
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.761667,
+        0.456275,
+        0.779849
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "% Composition in Sampling Reach | 100%) % Composition in Sampling Reach | (should Substrate Diameter % Composition in Characteristic Type Sampling Reach Bedrock Detritus sticks, wood, coarse materials (CPOM) Boulder > 256 mm (10\")"
+    },
+    {
+      "page": 3,
+      "row": 12,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        72.6,
+        617.64,
+        112.2,
+        632.04
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.779849,
+        0.183333,
+        0.79803
+      ],
+      "source": "printed",
+      "value": "Cobble",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Cobble"
+    },
+    {
+      "page": 3,
+      "row": 12,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        112.2,
+        617.64,
+        198.6,
+        632.04
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.779849,
+        0.32451,
+        0.79803
+      ],
+      "source": "printed",
+      "value": "64-256 mm (2.5\"-10\")",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "64-256 mm (2.5\"-10\")"
+    },
+    {
+      "page": 3,
+      "row": 12,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.6,
+        617.64,
+        279.24,
+        632.04
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.779849,
+        0.456275,
+        0.79803
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "% Composition in Sampling Reach | 100%) % Composition in Sampling Reach | Type Sampling Bedrock Detritus sticks, wood, coarse materials (CPOM) Boulder > 256 mm (10\") Cobble 64-256 (2.5\"-10\") Muck-Mud black, very fine organic (FPOM)"
+    },
+    {
+      "page": 3,
+      "row": 13,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        72.6,
+        632.04,
+        112.2,
+        646.44
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.79803,
+        0.183333,
+        0.816212
+      ],
+      "source": "printed",
+      "value": "Gravel",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Gravel"
+    },
+    {
+      "page": 3,
+      "row": 13,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        112.2,
+        632.04,
+        198.6,
+        646.44
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.79803,
+        0.32451,
+        0.816212
+      ],
+      "source": "printed",
+      "value": "2-64 mm (0.1\"-2.5\")",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "2-64 mm (0.1\"-2.5\")"
+    },
+    {
+      "page": 3,
+      "row": 13,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.6,
+        632.04,
+        279.24,
+        646.44
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.79803,
+        0.456275,
+        0.816212
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "% Composition in Sampling Reach | 100%) % Composition in Sampling Reach | Bedrock Detritus sticks, materials (CPOM) Boulder > 256 mm (10\") Cobble 64-256 (2.5\"-10\") Muck-Mud black, very fine organic (FPOM) Gravel 2-64 (0.1\"-2.5\")"
+    },
+    {
+      "page": 3,
+      "row": 14,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        72.6,
+        646.44,
+        112.2,
+        660.84
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.816212,
+        0.183333,
+        0.834394
+      ],
+      "source": "printed",
+      "value": "Sand",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Sand"
+    },
+    {
+      "page": 3,
+      "row": 14,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        112.2,
+        646.44,
+        198.6,
+        660.84
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.816212,
+        0.32451,
+        0.834394
+      ],
+      "source": "printed",
+      "value": "0.06-2mm (gritty)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "0.06-2mm (gritty)"
+    },
+    {
+      "page": 3,
+      "row": 14,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.6,
+        646.44,
+        279.24,
+        660.84
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.816212,
+        0.456275,
+        0.834394
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "% Composition in Sampling Reach | 100%) % Composition in Sampling Reach | Boulder > 256 mm Cobble 64-256 (2.5\"-10\") Muck-Mud black, very fine organic (FPOM) 2-64 (0.1\"-2.5\") Sand 0.06-2mm (gritty) Marl grey, shell fragments"
+    },
+    {
+      "page": 3,
+      "row": 15,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        72.6,
+        660.84,
+        112.2,
+        675.24
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.834394,
+        0.183333,
+        0.852576
+      ],
+      "source": "printed",
+      "value": "Silt",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Silt"
+    },
+    {
+      "page": 3,
+      "row": 15,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        112.2,
+        660.84,
+        198.6,
+        675.24
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.834394,
+        0.32451,
+        0.852576
+      ],
+      "source": "printed",
+      "value": "0.004-0.06 mm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "0.004-0.06 mm"
+    },
+    {
+      "page": 3,
+      "row": 15,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.6,
+        660.84,
+        279.24,
+        675.24
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.834394,
+        0.456275,
+        0.852576
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "% Composition in Sampling Reach | 100%) % Composition in Sampling Reach | Boulder > Cobble 64-256 mm (2.5\"-10\") Muck-Mud black, very fine organic (FPOM) 2-64 (0.1\"-2.5\") 0.06-2mm (gritty) Marl grey, shell fragments Silt 0.004-0.06"
+    },
+    {
+      "page": 3,
+      "row": 16,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        72.6,
+        675.24,
+        112.2,
+        688.68
+      ],
+      "bbox_norm": [
+        0.118627,
+        0.852576,
+        0.183333,
+        0.869545
+      ],
+      "source": "printed",
+      "value": "Clay",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Clay"
+    },
+    {
+      "page": 3,
+      "row": 16,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        112.2,
+        675.24,
+        198.6,
+        688.68
+      ],
+      "bbox_norm": [
+        0.183333,
+        0.852576,
+        0.32451,
+        0.869545
+      ],
+      "source": "printed",
+      "value": "< 0.004 mm (slick)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "< 0.004 mm (slick)"
+    },
+    {
+      "page": 3,
+      "row": 16,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.6,
+        675.24,
+        279.24,
+        688.68
+      ],
+      "bbox_norm": [
+        0.32451,
+        0.852576,
+        0.456275,
+        0.869545
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "% Composition in Sampling Reach | 100%) % Composition in Sampling Reach | Cobble 64-256 mm (2.5\"-10\") Muck-Mud black, very (FPOM) 2-64 (0.1\"-2.5\") 0.06-2mm (gritty) Marl grey, shell fragments 0.004-0.06 Clay < 0.004 (slick)"
+    },
+    {
+      "page": 3,
+      "row": 10,
+      "col": 4,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        279.24,
+        588.84,
+        326.04,
+        617.64
+      ],
+      "bbox_norm": [
+        0.456275,
+        0.743485,
+        0.532745,
+        0.779849
+      ],
+      "source": "printed",
+      "value": "Detritus",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Detritus"
+    },
+    {
+      "page": 3,
+      "row": 10,
+      "col": 5,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        326.04,
+        588.84,
+        424.44,
+        617.64
+      ],
+      "bbox_norm": [
+        0.532745,
+        0.743485,
+        0.693529,
+        0.779849
+      ],
+      "source": "printed",
+      "value": "sticks, wood, coarse plant materials (CPOM)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "sticks, wood, coarse plant materials (CPOM)"
+    },
+    {
+      "page": 3,
+      "row": 10,
+      "col": 6,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        424.44,
+        588.84,
+        521.745,
+        617.64
+      ],
+      "bbox_norm": [
+        0.693529,
+        0.743485,
+        0.852525,
+        0.779849
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "% Composition in Sampling Area | up to 100%) % Composition in Sampling Area | (does not necessarily Substrate Characteristic % Composition in Type Sampling Area Bedrock Detritus sticks, wood, coarse plant materials (CPOM) Boulder > 256 mm (10\")"
+    },
+    {
+      "page": 3,
+      "row": 12,
+      "col": 4,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        279.24,
+        617.64,
+        326.04,
+        646.44
+      ],
+      "bbox_norm": [
+        0.456275,
+        0.779849,
+        0.532745,
+        0.816212
+      ],
+      "source": "printed",
+      "value": "Muck-Mud",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Muck-Mud"
+    },
+    {
+      "page": 3,
+      "row": 12,
+      "col": 5,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        326.04,
+        617.64,
+        424.44,
+        646.44
+      ],
+      "bbox_norm": [
+        0.532745,
+        0.779849,
+        0.693529,
+        0.816212
+      ],
+      "source": "printed",
+      "value": "black, very fine organic (FPOM)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "black, very fine organic (FPOM)"
+    },
+    {
+      "page": 3,
+      "row": 12,
+      "col": 6,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        424.44,
+        617.64,
+        521.745,
+        646.44
+      ],
+      "bbox_norm": [
+        0.693529,
+        0.779849,
+        0.852525,
+        0.816212
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "% Composition in Sampling Area | up to 100%) % Composition in Sampling Area | Type Sampling Area Detritus sticks, wood, coarse plant materials (CPOM) Cobble 64-256 mm (2.5\"-10\") Muck-Mud black, very fine organic (FPOM) Gravel 2-64 (0.1\"-2.5\")"
+    },
+    {
+      "page": 3,
+      "row": 14,
+      "col": 4,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        279.24,
+        646.44,
+        326.04,
+        688.68
+      ],
+      "bbox_norm": [
+        0.456275,
+        0.816212,
+        0.532745,
+        0.869545
+      ],
+      "source": "printed",
+      "value": "Marl",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Marl"
+    },
+    {
+      "page": 3,
+      "row": 14,
+      "col": 5,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        326.04,
+        646.44,
+        424.44,
+        688.68
+      ],
+      "bbox_norm": [
+        0.532745,
+        0.816212,
+        0.693529,
+        0.869545
+      ],
+      "source": "printed",
+      "value": "grey, shell fragments",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "grey, shell fragments"
+    },
+    {
+      "page": 3,
+      "row": 14,
+      "col": 6,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        424.44,
+        646.44,
+        521.745,
+        688.68
+      ],
+      "bbox_norm": [
+        0.693529,
+        0.816212,
+        0.852525,
+        0.869545
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "% Composition in Sampling Area | up to 100%) % Composition in Sampling Area | Detritus materials (CPOM) Muck-Mud black, very fine organic (FPOM) Sand 0.06-2mm (gritty) Marl grey, shell fragments Silt 0.004-0.06 mm Clay < 0.004 (slick)"
+    }
+  ]
+}

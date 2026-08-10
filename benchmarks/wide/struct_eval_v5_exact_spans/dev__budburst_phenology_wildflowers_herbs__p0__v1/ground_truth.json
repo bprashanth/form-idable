@@ -1,0 +1,444 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "budburst_phenology_wildflowers_herbs.pdf",
+  "page": 1,
+  "page_size_points": [
+    612.0,
+    792.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 4,
+      "col": 17,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        284.971,
+        427.168,
+        312.997,
+        436.774
+      ],
+      "bbox_norm": [
+        0.465639,
+        0.539354,
+        0.511433,
+        0.551482
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "applicable | Address Name City, State/Province, La:tude observaEon the most applicable"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 26,
+      "rowspan": 4,
+      "colspan": 1,
+      "bbox_points": [
+        431.819,
+        429.767,
+        461.267,
+        459.14
+      ],
+      "bbox_norm": [
+        0.705586,
+        0.542636,
+        0.753704,
+        0.579722
+      ],
+      "source": "printed",
+      "value": "ALL",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "ALL"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "col": 28,
+      "rowspan": 4,
+      "colspan": 1,
+      "bbox_points": [
+        517.857,
+        429.767,
+        547.23,
+        459.14
+      ],
+      "bbox_norm": [
+        0.846172,
+        0.542636,
+        0.894166,
+        0.579722
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "below. | code Longitude category below. NONE FIRST ALL"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 17,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        284.971,
+        436.774,
+        312.997,
+        454.584
+      ],
+      "bbox_norm": [
+        0.465639,
+        0.551482,
+        0.511433,
+        0.57397
+      ],
+      "source": "printed",
+      "value": "NONE",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "NONE"
+    },
+    {
+      "page": 1,
+      "row": 7,
+      "col": 7,
+      "rowspan": 3,
+      "colspan": 2,
+      "bbox_points": [
+        146.256,
+        451.995,
+        173.399,
+        478.305
+      ],
+      "bbox_norm": [
+        0.238981,
+        0.5707,
+        0.283332,
+        0.60392
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "doing? | Name or Scien:\ufb01c Nickname e.g. Backyard you make another observaEon in the future. your plant doing? Check NONE FIRST ALL"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 13,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        223.936,
+        478.305,
+        246.026,
+        505.498
+      ],
+      "bbox_norm": [
+        0.365908,
+        0.60392,
+        0.402003,
+        0.638255
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Check the | Scien:\ufb01c Name Backyard Lily. another observaEon Check the most FIRST ALL BUD WITHERED LATE Leaves Flowers"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 20,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        349.975,
+        478.305,
+        372.992,
+        505.498
+      ],
+      "bbox_norm": [
+        0.571854,
+        0.60392,
+        0.609463,
+        0.638255
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "coordinate",
+      "semantic_context": "op0on | City, State/Province, La:tude applicable op0on for FIRST BUD WITHERED LATE Leaves Flowers"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        39.302,
+        492.164,
+        58.402,
+        520.422
+      ],
+      "bbox_norm": [
+        0.064219,
+        0.62142,
+        0.095429,
+        0.657099
+      ],
+      "source": "written",
+      "value": "46.04196",
+      "mark": "text",
+      "value_kind": "coordinate",
+      "semantic_context": "What | Common Plant Nickname This helps on What is ALL WITHERED LATE Flowers BUD Fruit BURST"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 8,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        163.704,
+        492.164,
+        181.547,
+        520.422
+      ],
+      "bbox_norm": [
+        0.26749,
+        0.62142,
+        0.296645,
+        0.657099
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "doing? | or Scien:\ufb01c e.g. Backyard make another observaEon the future. plant doing? Check FIRST BUD LATE Flowers Fruit WITHERED BURST"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 25,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        411.382,
+        492.164,
+        431.819,
+        520.422
+      ],
+      "bbox_norm": [
+        0.672193,
+        0.62142,
+        0.705586,
+        0.657099
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "each | State/Province, Postal Longitude for each category ALL WITHERED FIRST LATE Leaves BUD Fruit EMERGED BURST"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 30,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        550.893,
+        492.164,
+        570.828,
+        520.422
+      ],
+      "bbox_norm": [
+        0.900152,
+        0.62142,
+        0.932726,
+        0.657099
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "OBSERVATIONS HERBS | below. FIRST Leaves Fruit EMERGED WITHERED"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 2,
+      "rowspan": 3,
+      "colspan": 2,
+      "bbox_points": [
+        47.113,
+        536.224,
+        74.255,
+        563.367
+      ],
+      "bbox_norm": [
+        0.076981,
+        0.677051,
+        0.121332,
+        0.711322
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "coordinate",
+      "semantic_context": "LATE | Plant Nickname This helps you on What is your NONE ALL WITHERED Flowers LATE MIDDLE FIRST EARLY"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 7,
+      "rowspan": 3,
+      "colspan": 2,
+      "bbox_points": [
+        146.256,
+        536.224,
+        173.399,
+        563.367
+      ],
+      "bbox_norm": [
+        0.238981,
+        0.677051,
+        0.283332,
+        0.711322
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "BUD BURST | Nickname e.g. you make another observaEon in the future. your plant doing? Check NONE FIRST BUD Flowers BURST MIDDLE EARLY"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 14,
+      "rowspan": 3,
+      "colspan": 2,
+      "bbox_points": [
+        240.146,
+        550.436,
+        268.172,
+        579.246
+      ],
+      "bbox_norm": [
+        0.392395,
+        0.694995,
+        0.438189,
+        0.731371
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "MIDDLE | La:tude Backyard Lily. observaEon Check the most applicable NONE LATE Fruit MIDDLE EARLY UNFOLDED"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 19,
+      "rowspan": 3,
+      "colspan": 2,
+      "bbox_points": [
+        327.858,
+        550.436,
+        356.949,
+        579.246
+      ],
+      "bbox_norm": [
+        0.535716,
+        0.694995,
+        0.58325,
+        0.731371
+      ],
+      "source": "printed",
+      "value": "EARLY",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "EARLY"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 26,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        431.819,
+        550.436,
+        461.267,
+        579.246
+      ],
+      "bbox_norm": [
+        0.705586,
+        0.694995,
+        0.753704,
+        0.731371
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "ALL | ALL UNFOLDED | Longitude for each category below. ALL WITHERED Leaves FIRST UNFOLDED EARLY"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 28,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        517.857,
+        550.436,
+        547.23,
+        579.246
+      ],
+      "bbox_norm": [
+        0.846172,
+        0.694995,
+        0.894166,
+        0.731371
+      ],
+      "source": "printed",
+      "value": "UNFOLDED",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "UNFOLDED"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 5,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        96.764,
+        559.057,
+        123.906,
+        586.334
+      ],
+      "bbox_norm": [
+        0.158111,
+        0.70588,
+        0.202462,
+        0.74032
+      ],
+      "source": "printed",
+      "value": "EARLY",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "EARLY"
+    }
+  ]
+}

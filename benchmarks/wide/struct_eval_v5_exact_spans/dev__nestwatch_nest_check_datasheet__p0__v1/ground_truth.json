@@ -1,0 +1,4284 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nestwatch_nest_check_datasheet.pdf",
+  "page": 1,
+  "page_size_points": [
+    612.0,
+    792.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 9,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 41,
+      "bbox_points": [
+        30.0,
+        80.0,
+        582.0,
+        116.0
+      ],
+      "bbox_norm": [
+        0.04902,
+        0.10101,
+        0.95098,
+        0.146465
+      ],
+      "source": "printed",
+      "value": "Nest check data sheet",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Nest check data sheet"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 39,
+      "bbox_points": [
+        36.166,
+        196.499,
+        575.8,
+        213.0
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.248105,
+        0.94085,
+        0.268939
+      ],
+      "source": "printed",
+      "value": "1. NEST SITE LOCATION 2. DESCRIPTION (see key on back)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1. NEST SITE LOCATION 2. DESCRIPTION (see key on back)"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 39,
+      "bbox_points": [
+        36.166,
+        378.0,
+        575.8,
+        393.5
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.477273,
+        0.94085,
+        0.496843
+      ],
+      "source": "printed",
+      "value": "3. BREEDING DATA If eggs or young are present but not countable, enter \u201cu\u201d for unknown.",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "3. BREEDING DATA If eggs or young are present but not countable, enter \u201cu\u201d for unknown."
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        59.699,
+        393.5,
+        220.119,
+        405.548
+      ],
+      "bbox_norm": [
+        0.097547,
+        0.496843,
+        0.359671,
+        0.512056
+      ],
+      "source": "printed",
+      "value": "DATE HOST SPECIES",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "DATE HOST SPECIES"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 22,
+      "bbox_points": [
+        220.119,
+        393.5,
+        363.629,
+        405.548
+      ],
+      "bbox_norm": [
+        0.359671,
+        0.496843,
+        0.594166,
+        0.512056
+      ],
+      "source": "printed",
+      "value": "STATUS & ACTIVITY CODES",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "STATUS & ACTIVITY CODES"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        363.629,
+        393.5,
+        467.5,
+        405.548
+      ],
+      "bbox_norm": [
+        0.594166,
+        0.496843,
+        0.763889,
+        0.512056
+      ],
+      "source": "printed",
+      "value": "COWBIRD ACTIVITY",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "COWBIRD ACTIVITY"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 37,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        469.6,
+        393.5,
+        575.8,
+        405.548
+      ],
+      "bbox_norm": [
+        0.76732,
+        0.496843,
+        0.94085,
+        0.512056
+      ],
+      "source": "printed",
+      "value": "MORE INFO",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "MORE INFO"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        59.699,
+        405.548,
+        150.1,
+        430.22
+      ],
+      "bbox_norm": [
+        0.097547,
+        0.512056,
+        0.245261,
+        0.543207
+      ],
+      "source": "printed",
+      "value": "Month / Day Eggs (1\u201312) /(1\u201331)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Month / Day Eggs (1\u201312) /(1\u201331)"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        150.1,
+        405.548,
+        185.6,
+        430.22
+      ],
+      "bbox_norm": [
+        0.245261,
+        0.512056,
+        0.303268,
+        0.543207
+      ],
+      "source": "printed",
+      "value": "Live Young",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Live Young"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        185.6,
+        405.548,
+        220.119,
+        430.22
+      ],
+      "bbox_norm": [
+        0.303268,
+        0.512056,
+        0.359671,
+        0.543207
+      ],
+      "source": "printed",
+      "value": "Dead Young",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Dead Young"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        220.119,
+        405.548,
+        256.865,
+        430.22
+      ],
+      "bbox_norm": [
+        0.359671,
+        0.512056,
+        0.419714,
+        0.543207
+      ],
+      "source": "printed",
+      "value": "Nest Status",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Nest Status"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        256.865,
+        405.548,
+        292.451,
+        430.22
+      ],
+      "bbox_norm": [
+        0.419714,
+        0.512056,
+        0.477861,
+        0.543207
+      ],
+      "source": "printed",
+      "value": "Adult Status",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Adult Status"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        292.451,
+        405.548,
+        326.768,
+        430.22
+      ],
+      "bbox_norm": [
+        0.477861,
+        0.512056,
+        0.533935,
+        0.543207
+      ],
+      "source": "printed",
+      "value": "Young Status",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Young Status"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        326.768,
+        405.548,
+        363.629,
+        430.22
+      ],
+      "bbox_norm": [
+        0.533935,
+        0.512056,
+        0.594166,
+        0.543207
+      ],
+      "source": "printed",
+      "value": "Mgmt. Activity",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Mgmt. Activity"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        363.629,
+        405.548,
+        399.134,
+        430.22
+      ],
+      "bbox_norm": [
+        0.594166,
+        0.512056,
+        0.652179,
+        0.543207
+      ],
+      "source": "printed",
+      "value": "Eggs",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Eggs"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        399.134,
+        405.548,
+        434.1,
+        430.22
+      ],
+      "bbox_norm": [
+        0.652179,
+        0.512056,
+        0.709314,
+        0.543207
+      ],
+      "source": "printed",
+      "value": "Live Young",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Live Young"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        434.1,
+        405.548,
+        467.5,
+        430.22
+      ],
+      "bbox_norm": [
+        0.709314,
+        0.512056,
+        0.763889,
+        0.543207
+      ],
+      "source": "printed",
+      "value": "Dead Young",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Dead Young"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 37,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        469.6,
+        405.548,
+        510.0,
+        430.22
+      ],
+      "bbox_norm": [
+        0.76732,
+        0.512056,
+        0.833333,
+        0.543207
+      ],
+      "source": "printed",
+      "value": "Obs. Initials",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Obs. Initials"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 38,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        510.0,
+        405.548,
+        575.8,
+        430.22
+      ],
+      "bbox_norm": [
+        0.833333,
+        0.512056,
+        0.94085,
+        0.543207
+      ],
+      "source": "printed",
+      "value": "Notes (or mark X for notes below)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Notes (or mark X for notes below)"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        36.166,
+        430.22,
+        59.699,
+        449.27
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.543207,
+        0.097547,
+        0.56726
+      ],
+      "source": "printed",
+      "value": "Ex.",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Ex."
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        59.699,
+        430.22,
+        150.1,
+        449.27
+      ],
+      "bbox_norm": [
+        0.097547,
+        0.543207,
+        0.245261,
+        0.56726
+      ],
+      "source": "printed",
+      "value": "05 /06 1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "05 /06 1"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        150.1,
+        430.22,
+        185.6,
+        449.27
+      ],
+      "bbox_norm": [
+        0.245261,
+        0.543207,
+        0.303268,
+        0.56726
+      ],
+      "source": "printed",
+      "value": "0",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "0"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        185.6,
+        430.22,
+        220.119,
+        449.27
+      ],
+      "bbox_norm": [
+        0.303268,
+        0.543207,
+        0.359671,
+        0.56726
+      ],
+      "source": "printed",
+      "value": "0",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "0"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        220.119,
+        430.22,
+        256.865,
+        449.27
+      ],
+      "bbox_norm": [
+        0.359671,
+        0.543207,
+        0.419714,
+        0.56726
+      ],
+      "source": "printed",
+      "value": "cn",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "cn"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        256.865,
+        430.22,
+        292.451,
+        449.27
+      ],
+      "bbox_norm": [
+        0.419714,
+        0.543207,
+        0.477861,
+        0.56726
+      ],
+      "source": "printed",
+      "value": "aa",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "aa"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        292.451,
+        430.22,
+        326.768,
+        449.27
+      ],
+      "bbox_norm": [
+        0.477861,
+        0.543207,
+        0.533935,
+        0.56726
+      ],
+      "source": "printed",
+      "value": "no",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "no"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        326.768,
+        430.22,
+        363.629,
+        449.27
+      ],
+      "bbox_norm": [
+        0.533935,
+        0.543207,
+        0.594166,
+        0.56726
+      ],
+      "source": "printed",
+      "value": "no",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "no"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        363.629,
+        430.22,
+        399.134,
+        449.27
+      ],
+      "bbox_norm": [
+        0.594166,
+        0.543207,
+        0.652179,
+        0.56726
+      ],
+      "source": "printed",
+      "value": "0",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "0"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        399.134,
+        430.22,
+        434.1,
+        449.27
+      ],
+      "bbox_norm": [
+        0.652179,
+        0.543207,
+        0.709314,
+        0.56726
+      ],
+      "source": "printed",
+      "value": "0",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "0"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        434.1,
+        430.22,
+        467.5,
+        449.27
+      ],
+      "bbox_norm": [
+        0.709314,
+        0.543207,
+        0.763889,
+        0.56726
+      ],
+      "source": "printed",
+      "value": "0",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "0"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 37,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        469.6,
+        430.22,
+        510.0,
+        449.27
+      ],
+      "bbox_norm": [
+        0.76732,
+        0.543207,
+        0.833333,
+        0.56726
+      ],
+      "source": "printed",
+      "value": "BB",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "BB"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 38,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        510.0,
+        430.22,
+        575.8,
+        449.27
+      ],
+      "bbox_norm": [
+        0.833333,
+        0.543207,
+        0.94085,
+        0.56726
+      ],
+      "source": "printed",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "X"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        36.166,
+        449.27,
+        59.699,
+        465.27
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.56726,
+        0.097547,
+        0.587462
+      ],
+      "source": "printed",
+      "value": "1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        59.699,
+        449.27,
+        150.1,
+        465.27
+      ],
+      "bbox_norm": [
+        0.097547,
+        0.56726,
+        0.245261,
+        0.587462
+      ],
+      "source": "printed",
+      "value": "/",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        150.1,
+        449.27,
+        185.6,
+        465.27
+      ],
+      "bbox_norm": [
+        0.245261,
+        0.56726,
+        0.303268,
+        0.587462
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | BREEDING DATA If eggs or young are present HOST SPECIES Day Live Dead /(1\u201331) Status /06 1 0 /"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        185.6,
+        449.27,
+        220.119,
+        465.27
+      ],
+      "bbox_norm": [
+        0.303268,
+        0.56726,
+        0.359671,
+        0.587462
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | degrees; ________________________________________________ If eggs or young are present but not HOST SPECIES STATUS Live Dead Nest 0 cn / 1"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        220.119,
+        449.27,
+        256.865,
+        465.27
+      ],
+      "bbox_norm": [
+        0.359671,
+        0.56726,
+        0.419714,
+        0.587462
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "cn | Status cn | or young are present SPECIES STATUS & ACTIVITY Live Dead Nest Adult 0 cn aa no / 1"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        256.865,
+        449.27,
+        292.451,
+        465.27
+      ],
+      "bbox_norm": [
+        0.419714,
+        0.56726,
+        0.477861,
+        0.587462
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "aa | Status aa | are present but not countable, STATUS & ACTIVITY CODES Dead Nest Adult Young Mgmt. cn aa no / 1"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        292.451,
+        449.27,
+        326.768,
+        465.27
+      ],
+      "bbox_norm": [
+        0.477861,
+        0.56726,
+        0.533935,
+        0.587462
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "no | Status no | ________________________________________________ but not countable, enter \u201cu\u201d for unknown. STATUS & ACTIVITY CODES Adult Young Mgmt. aa no / 1"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        326.768,
+        449.27,
+        363.629,
+        465.27
+      ],
+      "bbox_norm": [
+        0.533935,
+        0.56726,
+        0.594166,
+        0.587462
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "no | Activity no | ________________________________________________ Height countable, enter \u201cu\u201d for unknown. ACTIVITY CODES COWBIRD Adult Young Mgmt. Live Eggs Status aa no 0 /"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        363.629,
+        449.27,
+        399.134,
+        465.27
+      ],
+      "bbox_norm": [
+        0.594166,
+        0.56726,
+        0.652179,
+        0.587462
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "0 | 0 | Human modified Height above ground_____________________\u274f enter \u201cu\u201d for unknown. CODES COWBIRD ACTIVITY Young Mgmt. Live Dead Eggs Status no 0"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        399.134,
+        449.27,
+        434.1,
+        465.27
+      ],
+      "bbox_norm": [
+        0.652179,
+        0.56726,
+        0.709314,
+        0.587462
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | within 1 football field Human modified description_ __________________ above ground_____________________\u274f for unknown. COWBIRD ACTIVITY Mgmt. Live Dead Eggs Young 0"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        434.1,
+        449.27,
+        467.5,
+        465.27
+      ],
+      "bbox_norm": [
+        0.709314,
+        0.56726,
+        0.763889,
+        0.587462
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "0 | Young 0 | arm modified description_ __________________ football field length__________________ ground_____________________\u274f unknown. COWBIRD ACTIVITY MORE Live Dead Obs. Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 37,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        469.6,
+        449.27,
+        510.0,
+        465.27
+      ],
+      "bbox_norm": [
+        0.76732,
+        0.56726,
+        0.833333,
+        0.587462
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "BB | Initials BB | ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark Live Dead Obs. for below) Young Initials 0 BB X"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 38,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        510.0,
+        449.27,
+        575.8,
+        465.27
+      ],
+      "bbox_norm": [
+        0.833333,
+        0.56726,
+        0.94085,
+        0.587462
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "X | for notes below) X | description_ ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark X Dead Obs. for below) Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        36.166,
+        465.27,
+        59.699,
+        481.27
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.587462,
+        0.097547,
+        0.607664
+      ],
+      "source": "printed",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "2"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        59.699,
+        465.27,
+        150.1,
+        481.27
+      ],
+      "bbox_norm": [
+        0.097547,
+        0.587462,
+        0.245261,
+        0.607664
+      ],
+      "source": "printed",
+      "value": "/",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        150.1,
+        465.27,
+        185.6,
+        481.27
+      ],
+      "bbox_norm": [
+        0.245261,
+        0.587462,
+        0.303268,
+        0.607664
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | BREEDING DATA If eggs or young are present HOST SPECIES Day Live Dead /(1\u201331) Status /06 1 0 / 2"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        185.6,
+        465.27,
+        220.119,
+        481.27
+      ],
+      "bbox_norm": [
+        0.303268,
+        0.587462,
+        0.359671,
+        0.607664
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | degrees; ________________________________________________ If eggs or young are present but not HOST SPECIES STATUS Live Dead Nest 0 cn / 2"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        220.119,
+        465.27,
+        256.865,
+        481.27
+      ],
+      "bbox_norm": [
+        0.359671,
+        0.587462,
+        0.419714,
+        0.607664
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "cn | Status cn | or young are present SPECIES STATUS & ACTIVITY Live Dead Nest Adult 0 cn aa no / 2"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        256.865,
+        465.27,
+        292.451,
+        481.27
+      ],
+      "bbox_norm": [
+        0.419714,
+        0.587462,
+        0.477861,
+        0.607664
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "aa | Status aa | are present but not countable, STATUS & ACTIVITY CODES Dead Nest Adult Young Mgmt. cn aa no / 2"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        292.451,
+        465.27,
+        326.768,
+        481.27
+      ],
+      "bbox_norm": [
+        0.477861,
+        0.587462,
+        0.533935,
+        0.607664
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "no | Status no | ________________________________________________ but not countable, enter \u201cu\u201d for unknown. STATUS & ACTIVITY CODES Adult Young Mgmt. aa no / 2"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        326.768,
+        465.27,
+        363.629,
+        481.27
+      ],
+      "bbox_norm": [
+        0.533935,
+        0.587462,
+        0.594166,
+        0.607664
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "no | Activity no | ________________________________________________ Height countable, enter \u201cu\u201d for unknown. ACTIVITY CODES COWBIRD Adult Young Mgmt. Live Eggs Status aa no 0 /"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        363.629,
+        465.27,
+        399.134,
+        481.27
+      ],
+      "bbox_norm": [
+        0.594166,
+        0.587462,
+        0.652179,
+        0.607664
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "0 | 0 | Human modified Height above ground_____________________\u274f enter \u201cu\u201d for unknown. CODES COWBIRD ACTIVITY Young Mgmt. Live Dead Eggs Status no 0"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        399.134,
+        465.27,
+        434.1,
+        481.27
+      ],
+      "bbox_norm": [
+        0.652179,
+        0.587462,
+        0.709314,
+        0.607664
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | within 1 football field Human modified description_ __________________ above ground_____________________\u274f for unknown. COWBIRD ACTIVITY Mgmt. Live Dead Eggs Young 0"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        434.1,
+        465.27,
+        467.5,
+        481.27
+      ],
+      "bbox_norm": [
+        0.709314,
+        0.587462,
+        0.763889,
+        0.607664
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "0 | Young 0 | arm modified description_ __________________ football field length__________________ ground_____________________\u274f unknown. COWBIRD ACTIVITY MORE Live Dead Obs. Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 37,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        469.6,
+        465.27,
+        510.0,
+        481.27
+      ],
+      "bbox_norm": [
+        0.76732,
+        0.587462,
+        0.833333,
+        0.607664
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "BB | Initials BB | ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark Live Dead Obs. for below) Young Initials 0 BB X"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 38,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        510.0,
+        465.27,
+        575.8,
+        481.27
+      ],
+      "bbox_norm": [
+        0.833333,
+        0.587462,
+        0.94085,
+        0.607664
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "X | for notes below) X | description_ ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark X Dead Obs. for below) Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        36.166,
+        481.27,
+        59.699,
+        497.27
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.607664,
+        0.097547,
+        0.627866
+      ],
+      "source": "printed",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "3"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        59.699,
+        481.27,
+        150.1,
+        497.27
+      ],
+      "bbox_norm": [
+        0.097547,
+        0.607664,
+        0.245261,
+        0.627866
+      ],
+      "source": "printed",
+      "value": "/",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        150.1,
+        481.27,
+        185.6,
+        497.27
+      ],
+      "bbox_norm": [
+        0.245261,
+        0.607664,
+        0.303268,
+        0.627866
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | BREEDING DATA If eggs or young are present HOST SPECIES Day Live Dead /(1\u201331) Status /06 1 0 / 3"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        185.6,
+        481.27,
+        220.119,
+        497.27
+      ],
+      "bbox_norm": [
+        0.303268,
+        0.607664,
+        0.359671,
+        0.627866
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | degrees; ________________________________________________ If eggs or young are present but not HOST SPECIES STATUS Live Dead Nest 0 cn / 3"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        220.119,
+        481.27,
+        256.865,
+        497.27
+      ],
+      "bbox_norm": [
+        0.359671,
+        0.607664,
+        0.419714,
+        0.627866
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "cn | Status cn | or young are present SPECIES STATUS & ACTIVITY Live Dead Nest Adult 0 cn aa no / 3"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        256.865,
+        481.27,
+        292.451,
+        497.27
+      ],
+      "bbox_norm": [
+        0.419714,
+        0.607664,
+        0.477861,
+        0.627866
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "aa | Status aa | are present but not countable, STATUS & ACTIVITY CODES Dead Nest Adult Young Mgmt. cn aa no / 3"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        292.451,
+        481.27,
+        326.768,
+        497.27
+      ],
+      "bbox_norm": [
+        0.477861,
+        0.607664,
+        0.533935,
+        0.627866
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "no | Status no | ________________________________________________ but not countable, enter \u201cu\u201d for unknown. STATUS & ACTIVITY CODES Adult Young Mgmt. aa no / 3"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        326.768,
+        481.27,
+        363.629,
+        497.27
+      ],
+      "bbox_norm": [
+        0.533935,
+        0.607664,
+        0.594166,
+        0.627866
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "no | Activity no | ________________________________________________ Height countable, enter \u201cu\u201d for unknown. ACTIVITY CODES COWBIRD Adult Young Mgmt. Live Eggs Status aa no 0 /"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        363.629,
+        481.27,
+        399.134,
+        497.27
+      ],
+      "bbox_norm": [
+        0.594166,
+        0.607664,
+        0.652179,
+        0.627866
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "0 | 0 | Human modified Height above ground_____________________\u274f enter \u201cu\u201d for unknown. CODES COWBIRD ACTIVITY Young Mgmt. Live Dead Eggs Status no 0"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        399.134,
+        481.27,
+        434.1,
+        497.27
+      ],
+      "bbox_norm": [
+        0.652179,
+        0.607664,
+        0.709314,
+        0.627866
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | within 1 football field Human modified description_ __________________ above ground_____________________\u274f for unknown. COWBIRD ACTIVITY Mgmt. Live Dead Eggs Young 0"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        434.1,
+        481.27,
+        467.5,
+        497.27
+      ],
+      "bbox_norm": [
+        0.709314,
+        0.607664,
+        0.763889,
+        0.627866
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "0 | Young 0 | arm modified description_ __________________ football field length__________________ ground_____________________\u274f unknown. COWBIRD ACTIVITY MORE Live Dead Obs. Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 37,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        469.6,
+        481.27,
+        510.0,
+        497.27
+      ],
+      "bbox_norm": [
+        0.76732,
+        0.607664,
+        0.833333,
+        0.627866
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "BB | Initials BB | ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark Live Dead Obs. for below) Young Initials 0 BB X"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 38,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        510.0,
+        481.27,
+        575.8,
+        497.27
+      ],
+      "bbox_norm": [
+        0.833333,
+        0.607664,
+        0.94085,
+        0.627866
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "X | for notes below) X | description_ ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark X Dead Obs. for below) Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        36.166,
+        497.27,
+        59.699,
+        513.27
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.627866,
+        0.097547,
+        0.648068
+      ],
+      "source": "printed",
+      "value": "4",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "4"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        59.699,
+        497.27,
+        150.1,
+        513.27
+      ],
+      "bbox_norm": [
+        0.097547,
+        0.627866,
+        0.245261,
+        0.648068
+      ],
+      "source": "printed",
+      "value": "/",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        150.1,
+        497.27,
+        185.6,
+        513.27
+      ],
+      "bbox_norm": [
+        0.245261,
+        0.627866,
+        0.303268,
+        0.648068
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | BREEDING DATA If eggs or young are present HOST SPECIES Day Live Dead /(1\u201331) Status /06 1 0 / 4"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        185.6,
+        497.27,
+        220.119,
+        513.27
+      ],
+      "bbox_norm": [
+        0.303268,
+        0.627866,
+        0.359671,
+        0.648068
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | degrees; ________________________________________________ If eggs or young are present but not HOST SPECIES STATUS Live Dead Nest 0 cn / 4"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        220.119,
+        497.27,
+        256.865,
+        513.27
+      ],
+      "bbox_norm": [
+        0.359671,
+        0.627866,
+        0.419714,
+        0.648068
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "cn | Status cn | or young are present SPECIES STATUS & ACTIVITY Live Dead Nest Adult 0 cn aa no / 4"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        256.865,
+        497.27,
+        292.451,
+        513.27
+      ],
+      "bbox_norm": [
+        0.419714,
+        0.627866,
+        0.477861,
+        0.648068
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "aa | Status aa | are present but not countable, STATUS & ACTIVITY CODES Dead Nest Adult Young Mgmt. cn aa no / 4"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        292.451,
+        497.27,
+        326.768,
+        513.27
+      ],
+      "bbox_norm": [
+        0.477861,
+        0.627866,
+        0.533935,
+        0.648068
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "no | Status no | ________________________________________________ but not countable, enter \u201cu\u201d for unknown. STATUS & ACTIVITY CODES Adult Young Mgmt. aa no / 4"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        326.768,
+        497.27,
+        363.629,
+        513.27
+      ],
+      "bbox_norm": [
+        0.533935,
+        0.627866,
+        0.594166,
+        0.648068
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "no | Activity no | ________________________________________________ Height countable, enter \u201cu\u201d for unknown. ACTIVITY CODES COWBIRD Adult Young Mgmt. Live Eggs Status aa no 0 /"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        363.629,
+        497.27,
+        399.134,
+        513.27
+      ],
+      "bbox_norm": [
+        0.594166,
+        0.627866,
+        0.652179,
+        0.648068
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "0 | 0 | Human modified Height above ground_____________________\u274f enter \u201cu\u201d for unknown. CODES COWBIRD ACTIVITY Young Mgmt. Live Dead Eggs Status no 0"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        399.134,
+        497.27,
+        434.1,
+        513.27
+      ],
+      "bbox_norm": [
+        0.652179,
+        0.627866,
+        0.709314,
+        0.648068
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | within 1 football field Human modified description_ __________________ above ground_____________________\u274f for unknown. COWBIRD ACTIVITY Mgmt. Live Dead Eggs Young 0"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        434.1,
+        497.27,
+        467.5,
+        513.27
+      ],
+      "bbox_norm": [
+        0.709314,
+        0.627866,
+        0.763889,
+        0.648068
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "0 | Young 0 | arm modified description_ __________________ football field length__________________ ground_____________________\u274f unknown. COWBIRD ACTIVITY MORE Live Dead Obs. Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 37,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        469.6,
+        497.27,
+        510.0,
+        513.27
+      ],
+      "bbox_norm": [
+        0.76732,
+        0.627866,
+        0.833333,
+        0.648068
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "BB | Initials BB | ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark Live Dead Obs. for below) Young Initials 0 BB X"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 38,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        510.0,
+        497.27,
+        575.8,
+        513.27
+      ],
+      "bbox_norm": [
+        0.833333,
+        0.627866,
+        0.94085,
+        0.648068
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "X | for notes below) X | description_ ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark X Dead Obs. for below) Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        36.166,
+        513.27,
+        59.699,
+        529.27
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.648068,
+        0.097547,
+        0.66827
+      ],
+      "source": "printed",
+      "value": "5",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "5"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        59.699,
+        513.27,
+        150.1,
+        529.27
+      ],
+      "bbox_norm": [
+        0.097547,
+        0.648068,
+        0.245261,
+        0.66827
+      ],
+      "source": "printed",
+      "value": "/",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        150.1,
+        513.27,
+        185.6,
+        529.27
+      ],
+      "bbox_norm": [
+        0.245261,
+        0.648068,
+        0.303268,
+        0.66827
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | BREEDING DATA If eggs or young are present HOST SPECIES Day Live Dead /(1\u201331) Status /06 1 0 / 5"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        185.6,
+        513.27,
+        220.119,
+        529.27
+      ],
+      "bbox_norm": [
+        0.303268,
+        0.648068,
+        0.359671,
+        0.66827
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | degrees; ________________________________________________ If eggs or young are present but not HOST SPECIES STATUS Live Dead Nest 0 cn / 5"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        220.119,
+        513.27,
+        256.865,
+        529.27
+      ],
+      "bbox_norm": [
+        0.359671,
+        0.648068,
+        0.419714,
+        0.66827
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "cn | Status cn | or young are present SPECIES STATUS & ACTIVITY Live Dead Nest Adult 0 cn aa no / 5"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        256.865,
+        513.27,
+        292.451,
+        529.27
+      ],
+      "bbox_norm": [
+        0.419714,
+        0.648068,
+        0.477861,
+        0.66827
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "aa | Status aa | are present but not countable, STATUS & ACTIVITY CODES Dead Nest Adult Young Mgmt. cn aa no / 5"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        292.451,
+        513.27,
+        326.768,
+        529.27
+      ],
+      "bbox_norm": [
+        0.477861,
+        0.648068,
+        0.533935,
+        0.66827
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "no | Status no | ________________________________________________ but not countable, enter \u201cu\u201d for unknown. STATUS & ACTIVITY CODES Adult Young Mgmt. aa no / 5"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        326.768,
+        513.27,
+        363.629,
+        529.27
+      ],
+      "bbox_norm": [
+        0.533935,
+        0.648068,
+        0.594166,
+        0.66827
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "no | Activity no | ________________________________________________ Height countable, enter \u201cu\u201d for unknown. ACTIVITY CODES COWBIRD Adult Young Mgmt. Live Eggs Status aa no 0 /"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        363.629,
+        513.27,
+        399.134,
+        529.27
+      ],
+      "bbox_norm": [
+        0.594166,
+        0.648068,
+        0.652179,
+        0.66827
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "0 | 0 | Human modified Height above ground_____________________\u274f enter \u201cu\u201d for unknown. CODES COWBIRD ACTIVITY Young Mgmt. Live Dead Eggs Status no 0"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        399.134,
+        513.27,
+        434.1,
+        529.27
+      ],
+      "bbox_norm": [
+        0.652179,
+        0.648068,
+        0.709314,
+        0.66827
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | within 1 football field Human modified description_ __________________ above ground_____________________\u274f for unknown. COWBIRD ACTIVITY Mgmt. Live Dead Eggs Young 0"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        434.1,
+        513.27,
+        467.5,
+        529.27
+      ],
+      "bbox_norm": [
+        0.709314,
+        0.648068,
+        0.763889,
+        0.66827
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "0 | Young 0 | arm modified description_ __________________ football field length__________________ ground_____________________\u274f unknown. COWBIRD ACTIVITY MORE Live Dead Obs. Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 37,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        469.6,
+        513.27,
+        510.0,
+        529.27
+      ],
+      "bbox_norm": [
+        0.76732,
+        0.648068,
+        0.833333,
+        0.66827
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "BB | Initials BB | ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark Live Dead Obs. for below) Young Initials 0 BB X"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 38,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        510.0,
+        513.27,
+        575.8,
+        529.27
+      ],
+      "bbox_norm": [
+        0.833333,
+        0.648068,
+        0.94085,
+        0.66827
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "X | for notes below) X | description_ ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark X Dead Obs. for below) Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        36.166,
+        529.27,
+        59.699,
+        545.27
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.66827,
+        0.097547,
+        0.688472
+      ],
+      "source": "printed",
+      "value": "6",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        59.699,
+        529.27,
+        150.1,
+        545.27
+      ],
+      "bbox_norm": [
+        0.097547,
+        0.66827,
+        0.245261,
+        0.688472
+      ],
+      "source": "printed",
+      "value": "/",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        150.1,
+        529.27,
+        185.6,
+        545.27
+      ],
+      "bbox_norm": [
+        0.245261,
+        0.66827,
+        0.303268,
+        0.688472
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | BREEDING DATA If eggs or young are present HOST SPECIES Day Live Dead /(1\u201331) Status /06 1 0 / 6"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        185.6,
+        529.27,
+        220.119,
+        545.27
+      ],
+      "bbox_norm": [
+        0.303268,
+        0.66827,
+        0.359671,
+        0.688472
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | degrees; ________________________________________________ If eggs or young are present but not HOST SPECIES STATUS Live Dead Nest 0 cn / 6"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        220.119,
+        529.27,
+        256.865,
+        545.27
+      ],
+      "bbox_norm": [
+        0.359671,
+        0.66827,
+        0.419714,
+        0.688472
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "cn | Status cn | or young are present SPECIES STATUS & ACTIVITY Live Dead Nest Adult 0 cn aa no / 6"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        256.865,
+        529.27,
+        292.451,
+        545.27
+      ],
+      "bbox_norm": [
+        0.419714,
+        0.66827,
+        0.477861,
+        0.688472
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "aa | Status aa | are present but not countable, STATUS & ACTIVITY CODES Dead Nest Adult Young Mgmt. cn aa no / 6"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        292.451,
+        529.27,
+        326.768,
+        545.27
+      ],
+      "bbox_norm": [
+        0.477861,
+        0.66827,
+        0.533935,
+        0.688472
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "no | Status no | ________________________________________________ but not countable, enter \u201cu\u201d for unknown. STATUS & ACTIVITY CODES Adult Young Mgmt. aa no / 6"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        326.768,
+        529.27,
+        363.629,
+        545.27
+      ],
+      "bbox_norm": [
+        0.533935,
+        0.66827,
+        0.594166,
+        0.688472
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "no | Activity no | ________________________________________________ Height countable, enter \u201cu\u201d for unknown. ACTIVITY CODES COWBIRD Adult Young Mgmt. Live Eggs Status aa no 0 /"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        363.629,
+        529.27,
+        399.134,
+        545.27
+      ],
+      "bbox_norm": [
+        0.594166,
+        0.66827,
+        0.652179,
+        0.688472
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "0 | 0 | Human modified Height above ground_____________________\u274f enter \u201cu\u201d for unknown. CODES COWBIRD ACTIVITY Young Mgmt. Live Dead Eggs Status no 0"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        399.134,
+        529.27,
+        434.1,
+        545.27
+      ],
+      "bbox_norm": [
+        0.652179,
+        0.66827,
+        0.709314,
+        0.688472
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | within 1 football field Human modified description_ __________________ above ground_____________________\u274f for unknown. COWBIRD ACTIVITY Mgmt. Live Dead Eggs Young 0"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        434.1,
+        529.27,
+        467.5,
+        545.27
+      ],
+      "bbox_norm": [
+        0.709314,
+        0.66827,
+        0.763889,
+        0.688472
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "0 | Young 0 | modified description_ __________________ football field length__________________ ground_____________________\u274f unknown. COWBIRD ACTIVITY MORE Live Dead Obs. Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 37,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        469.6,
+        529.27,
+        510.0,
+        545.27
+      ],
+      "bbox_norm": [
+        0.76732,
+        0.66827,
+        0.833333,
+        0.688472
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "BB | Initials BB | ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark Live Dead Obs. for below) Young Initials 0 BB X"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 38,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        510.0,
+        529.27,
+        575.8,
+        545.27
+      ],
+      "bbox_norm": [
+        0.833333,
+        0.66827,
+        0.94085,
+        0.688472
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "X | for notes below) X | description_ ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark X Dead Obs. for below) Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        36.166,
+        545.27,
+        59.699,
+        561.269
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.688472,
+        0.097547,
+        0.708673
+      ],
+      "source": "printed",
+      "value": "7",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "7"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        59.699,
+        545.27,
+        150.1,
+        561.269
+      ],
+      "bbox_norm": [
+        0.097547,
+        0.688472,
+        0.245261,
+        0.708673
+      ],
+      "source": "printed",
+      "value": "/",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        150.1,
+        545.27,
+        185.6,
+        561.269
+      ],
+      "bbox_norm": [
+        0.245261,
+        0.688472,
+        0.303268,
+        0.708673
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | BREEDING DATA If eggs or young are present HOST SPECIES Day Live Dead /(1\u201331) Status /06 1 0 / 7"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        185.6,
+        545.27,
+        220.119,
+        561.269
+      ],
+      "bbox_norm": [
+        0.303268,
+        0.688472,
+        0.359671,
+        0.708673
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | degrees; ________________________________________________ If eggs or young are present but not HOST SPECIES STATUS Live Dead Nest 0 cn / 7"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        220.119,
+        545.27,
+        256.865,
+        561.269
+      ],
+      "bbox_norm": [
+        0.359671,
+        0.688472,
+        0.419714,
+        0.708673
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "cn | Status cn | or young are present SPECIES STATUS & ACTIVITY Live Dead Nest Adult 0 cn aa no / 7"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        256.865,
+        545.27,
+        292.451,
+        561.269
+      ],
+      "bbox_norm": [
+        0.419714,
+        0.688472,
+        0.477861,
+        0.708673
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "aa | Status aa | are present but not countable, STATUS & ACTIVITY CODES Dead Nest Adult Young Mgmt. cn aa no / 7"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        292.451,
+        545.27,
+        326.768,
+        561.269
+      ],
+      "bbox_norm": [
+        0.477861,
+        0.688472,
+        0.533935,
+        0.708673
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "no | Status no | ________________________________________________ but not countable, enter \u201cu\u201d for unknown. STATUS & ACTIVITY CODES Adult Young Mgmt. aa no / 7"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        326.768,
+        545.27,
+        363.629,
+        561.269
+      ],
+      "bbox_norm": [
+        0.533935,
+        0.688472,
+        0.594166,
+        0.708673
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "no | Activity no | ________________________________________________ Height countable, enter \u201cu\u201d for unknown. ACTIVITY CODES COWBIRD Adult Young Mgmt. Live Eggs Status aa no 0 /"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        363.629,
+        545.27,
+        399.134,
+        561.269
+      ],
+      "bbox_norm": [
+        0.594166,
+        0.688472,
+        0.652179,
+        0.708673
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "0 | 0 | Human modified Height above ground_____________________\u274f enter \u201cu\u201d for unknown. CODES COWBIRD ACTIVITY Young Mgmt. Live Dead Eggs Status no 0"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        399.134,
+        545.27,
+        434.1,
+        561.269
+      ],
+      "bbox_norm": [
+        0.652179,
+        0.688472,
+        0.709314,
+        0.708673
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | within 1 football field Human modified description_ __________________ above ground_____________________\u274f for unknown. COWBIRD ACTIVITY Mgmt. Live Dead Eggs Young 0"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        434.1,
+        545.27,
+        467.5,
+        561.269
+      ],
+      "bbox_norm": [
+        0.709314,
+        0.688472,
+        0.763889,
+        0.708673
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "0 | Young 0 | football field length__________________ modified description_ __________________ ground_____________________\u274f unknown. COWBIRD ACTIVITY MORE Live Dead Obs. Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 37,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        469.6,
+        545.27,
+        510.0,
+        561.269
+      ],
+      "bbox_norm": [
+        0.76732,
+        0.688472,
+        0.833333,
+        0.708673
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "BB | Initials BB | ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark Live Dead Obs. for below) Young Initials 0 BB X"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 38,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        510.0,
+        545.27,
+        575.8,
+        561.269
+      ],
+      "bbox_norm": [
+        0.833333,
+        0.688472,
+        0.94085,
+        0.708673
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "X | for notes below) X | description_ ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark X Dead Obs. for below) Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        36.166,
+        561.269,
+        59.699,
+        577.269
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.708673,
+        0.097547,
+        0.728875
+      ],
+      "source": "printed",
+      "value": "8",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "8"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        59.699,
+        561.269,
+        150.1,
+        577.269
+      ],
+      "bbox_norm": [
+        0.097547,
+        0.708673,
+        0.245261,
+        0.728875
+      ],
+      "source": "printed",
+      "value": "/",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        150.1,
+        561.269,
+        185.6,
+        577.269
+      ],
+      "bbox_norm": [
+        0.245261,
+        0.708673,
+        0.303268,
+        0.728875
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | BREEDING DATA If eggs or young are present HOST SPECIES Day Live Dead /(1\u201331) Status /06 1 0 / 8"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        185.6,
+        561.269,
+        220.119,
+        577.269
+      ],
+      "bbox_norm": [
+        0.303268,
+        0.708673,
+        0.359671,
+        0.728875
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | degrees; ________________________________________________ If eggs or young are present but not HOST SPECIES STATUS Live Dead Nest 0 cn / 8"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        220.119,
+        561.269,
+        256.865,
+        577.269
+      ],
+      "bbox_norm": [
+        0.359671,
+        0.708673,
+        0.419714,
+        0.728875
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "cn | Status cn | or young are present SPECIES STATUS & ACTIVITY Live Dead Nest Adult 0 cn aa no / 8"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        256.865,
+        561.269,
+        292.451,
+        577.269
+      ],
+      "bbox_norm": [
+        0.419714,
+        0.708673,
+        0.477861,
+        0.728875
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "aa | Status aa | are present but not countable, STATUS & ACTIVITY CODES Dead Nest Adult Young Mgmt. cn aa no / 8"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        292.451,
+        561.269,
+        326.768,
+        577.269
+      ],
+      "bbox_norm": [
+        0.477861,
+        0.708673,
+        0.533935,
+        0.728875
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "no | Status no | ________________________________________________ but not countable, enter \u201cu\u201d for unknown. STATUS & ACTIVITY CODES Adult Young Mgmt. aa no / 8"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        326.768,
+        561.269,
+        363.629,
+        577.269
+      ],
+      "bbox_norm": [
+        0.533935,
+        0.708673,
+        0.594166,
+        0.728875
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "no | Activity no | ________________________________________________ Height countable, enter \u201cu\u201d for unknown. ACTIVITY CODES COWBIRD Adult Young Mgmt. Live Eggs Status aa no 0 /"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        363.629,
+        561.269,
+        399.134,
+        577.269
+      ],
+      "bbox_norm": [
+        0.594166,
+        0.708673,
+        0.652179,
+        0.728875
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "0 | 0 | Human modified Height above ground_____________________\u274f enter \u201cu\u201d for unknown. CODES COWBIRD ACTIVITY Young Mgmt. Live Dead Eggs Status no 0"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        399.134,
+        561.269,
+        434.1,
+        577.269
+      ],
+      "bbox_norm": [
+        0.652179,
+        0.708673,
+        0.709314,
+        0.728875
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "0 | Young 0 | Human modified description_ __________________ above ground_____________________\u274f for unknown. COWBIRD ACTIVITY Mgmt. Live Dead Eggs Young 0"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        434.1,
+        561.269,
+        467.5,
+        577.269
+      ],
+      "bbox_norm": [
+        0.709314,
+        0.708673,
+        0.763889,
+        0.728875
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "0 | Young 0 | modified description_ __________________ ground_____________________\u274f unknown. COWBIRD ACTIVITY MORE Live Dead Obs. Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 37,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        469.6,
+        561.269,
+        510.0,
+        577.269
+      ],
+      "bbox_norm": [
+        0.76732,
+        0.708673,
+        0.833333,
+        0.728875
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "BB | Initials BB | ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark Live Dead Obs. for below) Young Initials 0 BB X"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 38,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        510.0,
+        561.269,
+        575.8,
+        577.269
+      ],
+      "bbox_norm": [
+        0.833333,
+        0.708673,
+        0.94085,
+        0.728875
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "X | for notes below) X | description_ ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark X Dead Obs. for below) Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        36.166,
+        577.269,
+        59.699,
+        593.269
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.728875,
+        0.097547,
+        0.749077
+      ],
+      "source": "printed",
+      "value": "9",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "9"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        59.699,
+        577.269,
+        150.1,
+        593.269
+      ],
+      "bbox_norm": [
+        0.097547,
+        0.728875,
+        0.245261,
+        0.749077
+      ],
+      "source": "printed",
+      "value": "/",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        150.1,
+        577.269,
+        185.6,
+        593.269
+      ],
+      "bbox_norm": [
+        0.245261,
+        0.728875,
+        0.303268,
+        0.749077
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | BREEDING DATA If eggs or young are present HOST SPECIES Day Live Dead /(1\u201331) Status /06 1 0 / 9"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        185.6,
+        577.269,
+        220.119,
+        593.269
+      ],
+      "bbox_norm": [
+        0.303268,
+        0.728875,
+        0.359671,
+        0.749077
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | ________________________________________________ If eggs or young are present but not HOST SPECIES STATUS Live Dead Nest 0 cn / 9"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        220.119,
+        577.269,
+        256.865,
+        593.269
+      ],
+      "bbox_norm": [
+        0.359671,
+        0.728875,
+        0.419714,
+        0.749077
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "cn | Status cn | or young are present SPECIES STATUS & ACTIVITY Live Dead Nest Adult 0 cn aa no / 9"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        256.865,
+        577.269,
+        292.451,
+        593.269
+      ],
+      "bbox_norm": [
+        0.419714,
+        0.728875,
+        0.477861,
+        0.749077
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "aa | Status aa | are present but not countable, STATUS & ACTIVITY CODES Dead Nest Adult Young Mgmt. cn aa no / 9"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        292.451,
+        577.269,
+        326.768,
+        593.269
+      ],
+      "bbox_norm": [
+        0.477861,
+        0.728875,
+        0.533935,
+        0.749077
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "no | Status no | ________________________________________________ but not countable, enter \u201cu\u201d for unknown. STATUS & ACTIVITY CODES Adult Young Mgmt. aa no / 9"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        326.768,
+        577.269,
+        363.629,
+        593.269
+      ],
+      "bbox_norm": [
+        0.533935,
+        0.728875,
+        0.594166,
+        0.749077
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "no | Activity no | ________________________________________________ Height countable, enter \u201cu\u201d for unknown. ACTIVITY CODES COWBIRD Adult Young Mgmt. Live Eggs Status aa no 0 /"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        363.629,
+        577.269,
+        399.134,
+        593.269
+      ],
+      "bbox_norm": [
+        0.594166,
+        0.728875,
+        0.652179,
+        0.749077
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "0 | 0 | Height above ground_____________________\u274f enter \u201cu\u201d for unknown. CODES COWBIRD ACTIVITY Young Mgmt. Live Dead Eggs Status no 0"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        399.134,
+        577.269,
+        434.1,
+        593.269
+      ],
+      "bbox_norm": [
+        0.652179,
+        0.728875,
+        0.709314,
+        0.749077
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "0 | Young 0 | above ground_____________________\u274f for unknown. COWBIRD ACTIVITY Mgmt. Live Dead Eggs Young 0"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        434.1,
+        577.269,
+        467.5,
+        593.269
+      ],
+      "bbox_norm": [
+        0.709314,
+        0.728875,
+        0.763889,
+        0.749077
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | ground_____________________\u274f unknown. COWBIRD ACTIVITY MORE Live Dead Obs. Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 37,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        469.6,
+        577.269,
+        510.0,
+        593.269
+      ],
+      "bbox_norm": [
+        0.76732,
+        0.728875,
+        0.833333,
+        0.749077
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "BB | Initials BB | ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark Live Dead Obs. for below) Young Initials 0 BB X"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 38,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        510.0,
+        577.269,
+        575.8,
+        593.269
+      ],
+      "bbox_norm": [
+        0.833333,
+        0.728875,
+        0.94085,
+        0.749077
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "X | for notes below) X | ground_____________________\u274f ft. or m \u274f ACTIVITY MORE INFO Notes (or mark X Dead Obs. for below) Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        36.166,
+        593.269,
+        59.699,
+        609.269
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.749077,
+        0.097547,
+        0.769279
+      ],
+      "source": "printed",
+      "value": "10",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "10"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        59.699,
+        593.269,
+        150.1,
+        609.269
+      ],
+      "bbox_norm": [
+        0.097547,
+        0.749077,
+        0.245261,
+        0.769279
+      ],
+      "source": "printed",
+      "value": "/",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        150.1,
+        593.269,
+        185.6,
+        609.269
+      ],
+      "bbox_norm": [
+        0.245261,
+        0.749077,
+        0.303268,
+        0.769279
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | BREEDING DATA If eggs or young are present HOST SPECIES Day Live Dead /(1\u201331) Status /06 1 0 / 10"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        185.6,
+        593.269,
+        220.119,
+        609.269
+      ],
+      "bbox_norm": [
+        0.303268,
+        0.749077,
+        0.359671,
+        0.769279
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | If eggs or young are present but not HOST SPECIES STATUS Live Dead Nest 0 cn / 10"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        220.119,
+        593.269,
+        256.865,
+        609.269
+      ],
+      "bbox_norm": [
+        0.359671,
+        0.749077,
+        0.419714,
+        0.769279
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "cn | Status cn | or young are present SPECIES STATUS & ACTIVITY Live Dead Nest Adult 0 cn aa no / 10"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        256.865,
+        593.269,
+        292.451,
+        609.269
+      ],
+      "bbox_norm": [
+        0.419714,
+        0.749077,
+        0.477861,
+        0.769279
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "aa | Status aa | are present but not countable, STATUS & ACTIVITY CODES Dead Nest Adult Young Mgmt. cn aa no / 10"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 18,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        292.451,
+        593.269,
+        326.768,
+        609.269
+      ],
+      "bbox_norm": [
+        0.477861,
+        0.749077,
+        0.533935,
+        0.769279
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "no | Status no | but not countable, enter \u201cu\u201d for unknown. STATUS & ACTIVITY CODES Adult Young Mgmt. aa no / 10"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        326.768,
+        593.269,
+        363.629,
+        609.269
+      ],
+      "bbox_norm": [
+        0.533935,
+        0.749077,
+        0.594166,
+        0.769279
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "no | Activity no | countable, enter \u201cu\u201d for unknown. ACTIVITY CODES COWBIRD Adult Young Mgmt. Live Eggs Status aa no 0 /"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        363.629,
+        593.269,
+        399.134,
+        609.269
+      ],
+      "bbox_norm": [
+        0.594166,
+        0.749077,
+        0.652179,
+        0.769279
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "0 | 0 | enter \u201cu\u201d for unknown. CODES COWBIRD ACTIVITY Young Mgmt. Live Dead Eggs Status no 0"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        399.134,
+        593.269,
+        434.1,
+        609.269
+      ],
+      "bbox_norm": [
+        0.652179,
+        0.749077,
+        0.709314,
+        0.769279
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "0 | Young 0 | for unknown. COWBIRD ACTIVITY Mgmt. Live Dead Eggs Young 0"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 35,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        434.1,
+        593.269,
+        467.5,
+        609.269
+      ],
+      "bbox_norm": [
+        0.709314,
+        0.749077,
+        0.763889,
+        0.769279
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "0 | Young 0 | unknown. COWBIRD ACTIVITY MORE Live Dead Obs. Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 37,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        469.6,
+        593.269,
+        510.0,
+        609.269
+      ],
+      "bbox_norm": [
+        0.76732,
+        0.749077,
+        0.833333,
+        0.769279
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "BB | Initials BB | ACTIVITY MORE INFO Notes (or mark Live Dead Obs. for below) Young Initials 0 BB X"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 38,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        510.0,
+        593.269,
+        575.8,
+        609.269
+      ],
+      "bbox_norm": [
+        0.833333,
+        0.749077,
+        0.94085,
+        0.769279
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "X | for notes below) X | ACTIVITY MORE INFO Notes (or mark X Dead Obs. for below) Young Initials 0 BB"
+    },
+    {
+      "page": 1,
+      "row": 28,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 39,
+      "bbox_points": [
+        36.166,
+        612.9,
+        575.8,
+        627.9
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.773864,
+        0.94085,
+        0.792803
+      ],
+      "source": "printed",
+      "value": "4. NESTING ATTEMPT SUMMARY Fill in information for HOST SPECIES TOTALS below after the nesting attempt is complete.",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "4. NESTING ATTEMPT SUMMARY Fill in information for HOST SPECIES TOTALS below after the nesting attempt is complete."
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        36.166,
+        641.4,
+        114.6,
+        657.5
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.809849,
+        0.187255,
+        0.830177
+      ],
+      "source": "printed",
+      "value": "First Egg Date",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "First Egg Date"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 14,
+      "bbox_points": [
+        114.6,
+        641.4,
+        287.483,
+        657.5
+      ],
+      "bbox_norm": [
+        0.187255,
+        0.809849,
+        0.469743,
+        0.830177
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "temperature",
+      "semantic_context": "ATTEMPT SUMMARY Fill in information for | 4. NESTING ATTEMPT SUMMARY Fill in IMPORTANT DATES HOST SPECIES TOTALS First Egg Date Visits Clutch Size Unhatched Live Young Fledglings to nest Eggs"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 39,
+      "bbox_points": [
+        36.166,
+        750.0,
+        575.8,
+        768.0
+      ],
+      "bbox_norm": [
+        0.059095,
+        0.94697,
+        0.94085,
+        0.969697
+      ],
+      "source": "printed",
+      "value": "Please enter data online at www.NestWatch.org",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Please enter data online at www.NestWatch.org"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 19,
+      "rowspan": 2,
+      "colspan": 9,
+      "bbox_points": [
+        304.567,
+        641.4,
+        358.339,
+        665.048
+      ],
+      "bbox_norm": [
+        0.497659,
+        0.809849,
+        0.585521,
+        0.839707
+      ],
+      "source": "printed",
+      "value": "Visits to nest",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Visits to nest"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 28,
+      "rowspan": 2,
+      "colspan": 6,
+      "bbox_points": [
+        358.339,
+        641.4,
+        413.5,
+        665.048
+      ],
+      "bbox_norm": [
+        0.585521,
+        0.809849,
+        0.675654,
+        0.839707
+      ],
+      "source": "printed",
+      "value": "Clutch Size",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Clutch Size"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 34,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        413.5,
+        641.4,
+        467.5,
+        665.048
+      ],
+      "bbox_norm": [
+        0.675654,
+        0.809849,
+        0.763889,
+        0.839707
+      ],
+      "source": "printed",
+      "value": "Unhatched Eggs",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Unhatched Eggs"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 37,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        469.6,
+        641.4,
+        521.5,
+        665.048
+      ],
+      "bbox_norm": [
+        0.76732,
+        0.809849,
+        0.852124,
+        0.839707
+      ],
+      "source": "printed",
+      "value": "Live Young",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Live Young"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 39,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        521.5,
+        641.4,
+        575.8,
+        665.048
+      ],
+      "bbox_norm": [
+        0.852124,
+        0.809849,
+        0.94085,
+        0.839707
+      ],
+      "source": "printed",
+      "value": "Fledglings",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Fledglings"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 3,
+      "rowspan": 2,
+      "colspan": 14,
+      "bbox_points": [
+        114.6,
+        657.5,
+        287.483,
+        673.5
+      ],
+      "bbox_norm": [
+        0.187255,
+        0.830177,
+        0.469743,
+        0.850379
+      ],
+      "source": "written",
+      "value": "-2.4",
+      "mark": "text",
+      "value_kind": "temperature",
+      "semantic_context": "ATTEMPT SUMMARY Fill in information for | 4. NESTING ATTEMPT SUMMARY Fill IMPORTANT DATES HOST SPECIES TOTALS First Egg Date Visits Clutch Size Unhatched Live Young to nest Eggs Hatch"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 19,
+      "rowspan": 2,
+      "colspan": 9,
+      "bbox_points": [
+        304.567,
+        665.048,
+        358.339,
+        683.232
+      ],
+      "bbox_norm": [
+        0.497659,
+        0.839707,
+        0.585521,
+        0.862667
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "species",
+      "semantic_context": "Visits to nest | HOST SPECIES Visits to nest | cn aa no information for HOST SPECIES TOTALS below after the Visits Clutch Size Unhatched to nest Hatch Date Fledge"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 28,
+      "rowspan": 2,
+      "colspan": 6,
+      "bbox_points": [
+        358.339,
+        665.048,
+        413.5,
+        683.232
+      ],
+      "bbox_norm": [
+        0.585521,
+        0.839707,
+        0.675654,
+        0.862667
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "species",
+      "semantic_context": "Clutch Size | TOTALS Clutch Size | no 0 HOST SPECIES TOTALS below after the nesting attempt Visits Clutch Size Unhatched Live to nest Eggs"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 34,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        413.5,
+        665.048,
+        467.5,
+        683.232
+      ],
+      "bbox_norm": [
+        0.675654,
+        0.839707,
+        0.763889,
+        0.862667
+      ],
+      "source": "written",
+      "value": "Neolitsea sp.",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Unhatched Eggs | Unhatched Eggs | no 0 BB TOTALS below after the nesting attempt is complete. SPECIES Clutch Size Unhatched Live Young Fledglings Eggs"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 37,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        469.6,
+        665.048,
+        521.5,
+        683.232
+      ],
+      "bbox_norm": [
+        0.76732,
+        0.839707,
+        0.852124,
+        0.862667
+      ],
+      "source": "written",
+      "value": "11.7",
+      "mark": "text",
+      "value_kind": "temperature",
+      "semantic_context": "Live Young | Live Young | 0 BB X after the nesting attempt is complete. Size Unhatched Live Young Fledglings Eggs"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 39,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        521.5,
+        665.048,
+        575.8,
+        683.232
+      ],
+      "bbox_norm": [
+        0.852124,
+        0.839707,
+        0.94085,
+        0.862667
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "temperature",
+      "semantic_context": "Fledglings | Fledglings | 0 BB X nesting attempt is complete. Unhatched Live Young Fledglings"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 3,
+      "rowspan": 2,
+      "colspan": 14,
+      "bbox_points": [
+        114.6,
+        673.5,
+        287.483,
+        687.548
+      ],
+      "bbox_norm": [
+        0.187255,
+        0.850379,
+        0.469743,
+        0.868116
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "temperature",
+      "semantic_context": "ATTEMPT SUMMARY Fill in information for | 4. NESTING ATTEMPT IMPORTANT DATES HOST SPECIES TOTALS First Egg Date Visits Clutch Size Unhatched Live Young to nest Eggs Hatch Fledge"
+    }
+  ]
+}

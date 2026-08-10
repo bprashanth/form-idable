@@ -1,0 +1,600 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nrcs_pedon_soil_description.pdf",
+  "page": 1,
+  "page_size_points": [
+    792.0,
+    612.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 0,
+      "col": 3,
+      "bbox_points": [
+        48.705,
+        15.906,
+        64.32,
+        136.89
+      ],
+      "bbox_norm": [
+        0.061496,
+        0.02599,
+        0.081212,
+        0.223677
+      ],
+      "source": "printed",
+      "value": "(Tax.): Moist. Regime Soil",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 4,
+      "bbox_points": [
+        64.32,
+        15.906,
+        80.385,
+        136.89
+      ],
+      "bbox_norm": [
+        0.081212,
+        0.02599,
+        0.101496,
+        0.223677
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 10,
+      "bbox_points": [
+        175.41,
+        15.906,
+        207.0,
+        136.89
+      ],
+      "bbox_norm": [
+        0.221477,
+        0.02599,
+        0.261364,
+        0.223677
+      ],
+      "source": "printed",
+      "value": "Area: Local Physio.",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 12,
+      "bbox_points": [
+        222.72,
+        342.96,
+        238.77,
+        374.51
+      ],
+      "bbox_norm": [
+        0.281212,
+        0.560392,
+        0.301477,
+        0.611944
+      ],
+      "source": "printed",
+      "value": "Ksat:",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 8,
+      "bbox_points": [
+        143.7,
+        374.51,
+        159.36,
+        423.51
+      ],
+      "bbox_norm": [
+        0.181439,
+        0.611944,
+        0.201212,
+        0.69201
+      ],
+      "source": "printed",
+      "value": "Aspect:",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 9,
+      "bbox_points": [
+        159.36,
+        374.51,
+        175.41,
+        423.51
+      ],
+      "bbox_norm": [
+        0.201212,
+        0.611944,
+        0.221477,
+        0.69201
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 3,
+      "bbox_points": [
+        48.705,
+        423.51,
+        64.32,
+        479.68
+      ],
+      "bbox_norm": [
+        0.061496,
+        0.69201,
+        0.081212,
+        0.783791
+      ],
+      "source": "printed",
+      "value": "#: Photo",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 4,
+      "bbox_points": [
+        64.32,
+        423.51,
+        80.385,
+        479.68
+      ],
+      "bbox_norm": [
+        0.081212,
+        0.69201,
+        0.101496,
+        0.783791
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 8,
+      "bbox_points": [
+        143.7,
+        423.51,
+        159.36,
+        479.68
+      ],
+      "bbox_norm": [
+        0.181439,
+        0.69201,
+        0.201212,
+        0.783791
+      ],
+      "source": "printed",
+      "value": "Elevation:",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 9,
+      "bbox_points": [
+        159.36,
+        423.51,
+        175.41,
+        479.68
+      ],
+      "bbox_norm": [
+        0.201212,
+        0.69201,
+        0.221477,
+        0.783791
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 4,
+      "bbox_points": [
+        64.32,
+        479.68,
+        80.385,
+        505.535
+      ],
+      "bbox_norm": [
+        0.081212,
+        0.783791,
+        0.101496,
+        0.826038
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 16,
+      "bbox_points": [
+        286.08,
+        479.68,
+        302.13,
+        505.535
+      ],
+      "bbox_norm": [
+        0.361212,
+        0.783791,
+        0.381477,
+        0.826038
+      ],
+      "source": "printed",
+      "value": "Kind:",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 4,
+      "bbox_points": [
+        64.32,
+        555.3,
+        80.385,
+        566.02
+      ],
+      "bbox_norm": [
+        0.081212,
+        0.907353,
+        0.101496,
+        0.924869
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 20,
+      "bbox_points": [
+        353.43,
+        730.98,
+        369.3,
+        777.105
+      ],
+      "bbox_norm": [
+        0.44625,
+        1.194412,
+        0.466288,
+        1.269779
+      ],
+      "source": "printed",
+      "value": "SYMBOL",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 21,
+      "bbox_points": [
+        369.3,
+        730.98,
+        385.08,
+        777.105
+      ],
+      "bbox_norm": [
+        0.466288,
+        1.194412,
+        0.486212,
+        1.269779
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 22,
+      "bbox_points": [
+        385.08,
+        730.98,
+        400.92,
+        777.105
+      ],
+      "bbox_norm": [
+        0.486212,
+        1.194412,
+        0.506212,
+        1.269779
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 23,
+      "bbox_points": [
+        400.92,
+        730.98,
+        416.76,
+        777.105
+      ],
+      "bbox_norm": [
+        0.506212,
+        1.194412,
+        0.526212,
+        1.269779
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 24,
+      "bbox_points": [
+        416.76,
+        730.98,
+        432.6,
+        777.105
+      ],
+      "bbox_norm": [
+        0.526212,
+        1.194412,
+        0.546212,
+        1.269779
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 25,
+      "bbox_points": [
+        432.6,
+        730.98,
+        448.44,
+        777.105
+      ],
+      "bbox_norm": [
+        0.546212,
+        1.194412,
+        0.566212,
+        1.269779
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 26,
+      "bbox_points": [
+        448.44,
+        730.98,
+        464.28,
+        777.105
+      ],
+      "bbox_norm": [
+        0.566212,
+        1.194412,
+        0.586212,
+        1.269779
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 27,
+      "bbox_points": [
+        464.28,
+        730.98,
+        480.12,
+        777.105
+      ],
+      "bbox_norm": [
+        0.586212,
+        1.194412,
+        0.606212,
+        1.269779
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 28,
+      "bbox_points": [
+        480.12,
+        730.98,
+        495.96,
+        777.105
+      ],
+      "bbox_norm": [
+        0.606212,
+        1.194412,
+        0.626212,
+        1.269779
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 29,
+      "bbox_points": [
+        495.96,
+        730.98,
+        511.8,
+        777.105
+      ],
+      "bbox_norm": [
+        0.626212,
+        1.194412,
+        0.646212,
+        1.269779
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 30,
+      "bbox_points": [
+        511.8,
+        730.98,
+        527.64,
+        777.105
+      ],
+      "bbox_norm": [
+        0.646212,
+        1.194412,
+        0.666212,
+        1.269779
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 31,
+      "bbox_points": [
+        527.64,
+        730.98,
+        543.48,
+        777.105
+      ],
+      "bbox_norm": [
+        0.666212,
+        1.194412,
+        0.686212,
+        1.269779
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 32,
+      "bbox_points": [
+        543.48,
+        730.98,
+        559.32,
+        777.105
+      ],
+      "bbox_norm": [
+        0.686212,
+        1.194412,
+        0.706212,
+        1.269779
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 33,
+      "bbox_points": [
+        559.32,
+        730.98,
+        575.16,
+        777.105
+      ],
+      "bbox_norm": [
+        0.706212,
+        1.194412,
+        0.726212,
+        1.269779
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 34,
+      "bbox_points": [
+        575.16,
+        730.98,
+        591.0,
+        777.105
+      ],
+      "bbox_norm": [
+        0.726212,
+        1.194412,
+        0.746212,
+        1.269779
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn"
+    }
+  ]
+}

@@ -1,0 +1,1167 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "ut_tennessee_field_soil_submission_sheet.pdf",
+  "page": 1,
+  "page_size_points": [
+    612.0,
+    792.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 0,
+      "col": 23,
+      "bbox_points": [
+        565.712,
+        114.623,
+        589.755,
+        214.52
+      ],
+      "bbox_norm": [
+        0.924366,
+        0.144726,
+        0.963652,
+        0.270858
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 0,
+      "bbox_points": [
+        36.636,
+        262.149,
+        92.424,
+        276.102
+      ],
+      "bbox_norm": [
+        0.059863,
+        0.330996,
+        0.15102,
+        0.348614
+      ],
+      "source": "printed",
+      "value": "Flood Survey:",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 21,
+      "bbox_points": [
+        528.1,
+        262.149,
+        551.812,
+        276.102
+      ],
+      "bbox_norm": [
+        0.862908,
+        0.330996,
+        0.901654,
+        0.348614
+      ],
+      "source": "printed",
+      "value": "NO",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 23,
+      "bbox_points": [
+        565.712,
+        262.149,
+        589.755,
+        276.102
+      ],
+      "bbox_norm": [
+        0.924366,
+        0.330996,
+        0.963652,
+        0.348614
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 0,
+      "bbox_points": [
+        36.636,
+        313.85,
+        92.424,
+        348.77
+      ],
+      "bbox_norm": [
+        0.059863,
+        0.396275,
+        0.15102,
+        0.440366
+      ],
+      "source": "printed",
+      "value": "(You Sample Name provide)",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 1,
+      "bbox_points": [
+        92.424,
+        313.85,
+        140.66,
+        348.77
+      ],
+      "bbox_norm": [
+        0.15102,
+        0.396275,
+        0.229837,
+        0.440366
+      ],
+      "source": "printed",
+      "value": "Farm (optional) ID",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 2,
+      "bbox_points": [
+        140.66,
+        313.85,
+        187.462,
+        348.77
+      ],
+      "bbox_norm": [
+        0.229837,
+        0.396275,
+        0.30631,
+        0.440366
+      ],
+      "source": "printed",
+      "value": "Crop 1 Use",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 5,
+      "bbox_points": [
+        281.777,
+        313.85,
+        327.67,
+        348.77
+      ],
+      "bbox_norm": [
+        0.460419,
+        0.396275,
+        0.535409,
+        0.440366
+      ],
+      "source": "printed",
+      "value": "sheet Crop 4",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 8,
+      "bbox_points": [
+        354.933,
+        313.85,
+        370.07,
+        348.77
+      ],
+      "bbox_norm": [
+        0.579956,
+        0.396275,
+        0.60469,
+        0.440366
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "col": 21,
+      "bbox_points": [
+        528.1,
+        313.85,
+        551.812,
+        348.77
+      ],
+      "bbox_norm": [
+        0.862908,
+        0.396275,
+        0.901654,
+        0.440366
+      ],
+      "source": "printed",
+      "value": "(We",
+      "mark": "text",
+      "value_kind": "printed"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 7,
+      "bbox_points": [
+        337.761,
+        353.052,
+        354.933,
+        370.071
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.445773,
+        0.579956,
+        0.467261
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 10,
+      "bbox_points": [
+        380.997,
+        353.052,
+        398.17,
+        370.071
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.445773,
+        0.650605,
+        0.467261
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 13,
+      "bbox_points": [
+        422.234,
+        353.052,
+        439.211,
+        370.071
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.445773,
+        0.717666,
+        0.467261
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 16,
+      "bbox_points": [
+        463.47,
+        353.052,
+        480.448,
+        370.071
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.445773,
+        0.785046,
+        0.467261
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 6,
+      "col": 19,
+      "bbox_points": [
+        503.707,
+        353.052,
+        520.685,
+        370.071
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.445773,
+        0.850793,
+        0.467261
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 7,
+      "bbox_points": [
+        337.761,
+        377.27,
+        354.933,
+        394.29
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.476351,
+        0.579956,
+        0.497841
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 10,
+      "bbox_points": [
+        380.997,
+        377.27,
+        398.17,
+        394.29
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.476351,
+        0.650605,
+        0.497841
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 13,
+      "bbox_points": [
+        422.234,
+        377.27,
+        439.211,
+        394.29
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.476351,
+        0.717666,
+        0.497841
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 16,
+      "bbox_points": [
+        463.47,
+        377.27,
+        480.448,
+        394.29
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.476351,
+        0.785046,
+        0.497841
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 19,
+      "bbox_points": [
+        503.707,
+        377.27,
+        520.685,
+        394.29
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.476351,
+        0.850793,
+        0.497841
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 7,
+      "bbox_points": [
+        337.761,
+        401.488,
+        354.933,
+        418.661
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.506929,
+        0.579956,
+        0.528612
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 10,
+      "bbox_points": [
+        380.997,
+        401.488,
+        398.17,
+        418.661
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.506929,
+        0.650605,
+        0.528612
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 13,
+      "bbox_points": [
+        422.234,
+        401.488,
+        439.211,
+        418.661
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.506929,
+        0.717666,
+        0.528612
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 16,
+      "bbox_points": [
+        463.47,
+        401.488,
+        480.448,
+        418.661
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.506929,
+        0.785046,
+        0.528612
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 19,
+      "bbox_points": [
+        503.707,
+        401.488,
+        520.685,
+        418.661
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.506929,
+        0.850793,
+        0.528612
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 7,
+      "bbox_points": [
+        337.761,
+        425.706,
+        354.933,
+        442.879
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.537508,
+        0.579956,
+        0.559191
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 10,
+      "bbox_points": [
+        380.997,
+        425.706,
+        398.17,
+        442.879
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.537508,
+        0.650605,
+        0.559191
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 13,
+      "bbox_points": [
+        422.234,
+        425.706,
+        439.211,
+        442.879
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.537508,
+        0.717666,
+        0.559191
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 16,
+      "bbox_points": [
+        463.47,
+        425.706,
+        480.448,
+        442.879
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.537508,
+        0.785046,
+        0.559191
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 19,
+      "bbox_points": [
+        503.707,
+        425.706,
+        520.685,
+        442.879
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.537508,
+        0.850793,
+        0.559191
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 7,
+      "bbox_points": [
+        337.761,
+        449.925,
+        354.933,
+        467.098
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.568087,
+        0.579956,
+        0.58977
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 10,
+      "bbox_points": [
+        380.997,
+        449.925,
+        398.17,
+        467.098
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.568087,
+        0.650605,
+        0.58977
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 13,
+      "bbox_points": [
+        422.234,
+        449.925,
+        439.211,
+        467.098
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.568087,
+        0.717666,
+        0.58977
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 16,
+      "bbox_points": [
+        463.47,
+        449.925,
+        480.448,
+        467.098
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.568087,
+        0.785046,
+        0.58977
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 19,
+      "bbox_points": [
+        503.707,
+        449.925,
+        520.685,
+        467.098
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.568087,
+        0.850793,
+        0.58977
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 7,
+      "bbox_points": [
+        337.761,
+        474.143,
+        354.933,
+        491.316
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.598665,
+        0.579956,
+        0.620348
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 10,
+      "bbox_points": [
+        380.997,
+        474.143,
+        398.17,
+        491.316
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.598665,
+        0.650605,
+        0.620348
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 13,
+      "bbox_points": [
+        422.234,
+        474.143,
+        439.211,
+        491.316
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.598665,
+        0.717666,
+        0.620348
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 16,
+      "bbox_points": [
+        463.47,
+        474.143,
+        480.448,
+        491.316
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.598665,
+        0.785046,
+        0.620348
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 19,
+      "bbox_points": [
+        503.707,
+        474.143,
+        520.685,
+        491.316
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.598665,
+        0.850793,
+        0.620348
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 7,
+      "bbox_points": [
+        337.761,
+        498.208,
+        354.933,
+        515.534
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.62905,
+        0.579956,
+        0.650927
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 10,
+      "bbox_points": [
+        380.997,
+        498.208,
+        398.17,
+        515.534
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.62905,
+        0.650605,
+        0.650927
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 13,
+      "bbox_points": [
+        422.234,
+        498.208,
+        439.211,
+        515.534
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.62905,
+        0.717666,
+        0.650927
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 16,
+      "bbox_points": [
+        463.47,
+        498.208,
+        480.448,
+        515.534
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.62905,
+        0.785046,
+        0.650927
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 19,
+      "bbox_points": [
+        503.707,
+        498.208,
+        520.685,
+        515.534
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.62905,
+        0.850793,
+        0.650927
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 7,
+      "bbox_points": [
+        337.761,
+        522.427,
+        354.933,
+        539.599
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.65963,
+        0.579956,
+        0.681312
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 10,
+      "bbox_points": [
+        380.997,
+        522.427,
+        398.17,
+        539.599
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.65963,
+        0.650605,
+        0.681312
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 13,
+      "bbox_points": [
+        422.234,
+        522.427,
+        439.211,
+        539.599
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.65963,
+        0.717666,
+        0.681312
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 16,
+      "bbox_points": [
+        463.47,
+        522.427,
+        480.448,
+        539.599
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.65963,
+        0.785046,
+        0.681312
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 19,
+      "bbox_points": [
+        503.707,
+        522.427,
+        520.685,
+        539.599
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.65963,
+        0.850793,
+        0.681312
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 7,
+      "bbox_points": [
+        337.761,
+        546.798,
+        354.933,
+        563.818
+      ],
+      "bbox_norm": [
+        0.551897,
+        0.690402,
+        0.579956,
+        0.711891
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 10,
+      "bbox_points": [
+        380.997,
+        546.798,
+        398.17,
+        563.818
+      ],
+      "bbox_norm": [
+        0.622544,
+        0.690402,
+        0.650605,
+        0.711891
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 13,
+      "bbox_points": [
+        422.234,
+        546.798,
+        439.211,
+        563.818
+      ],
+      "bbox_norm": [
+        0.689925,
+        0.690402,
+        0.717666,
+        0.711891
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 16,
+      "bbox_points": [
+        463.47,
+        546.798,
+        480.448,
+        563.818
+      ],
+      "bbox_norm": [
+        0.757304,
+        0.690402,
+        0.785046,
+        0.711891
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 19,
+      "bbox_points": [
+        503.707,
+        546.798,
+        520.685,
+        563.818
+      ],
+      "bbox_norm": [
+        0.823051,
+        0.690402,
+        0.850793,
+        0.711891
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1"
+    }
+  ]
+}

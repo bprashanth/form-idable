@@ -1,0 +1,123 @@
+{
+  "form": "test__nvs_stem_diameter_sapling__p0__v0",
+  "template": "nvs_stem_diameter_sapling.pdf",
+  "page": 1,
+  "model": "gemini-3.6-flash",
+  "mode": "bands",
+  "tag": "gemini36_bands_v1",
+  "aligned": true,
+  "cells": 240,
+  "targets": 234,
+  "decisions": 234,
+  "missing": [],
+  "extra": [],
+  "duplicates": [],
+  "calls": [
+    {
+      "batch": 0,
+      "model": "gemini-3.6-flash",
+      "in_tok": 10937,
+      "out_tok": 1955,
+      "thinking_tok": 0,
+      "cost_usd": 0.03107,
+      "latency_s": 12.4
+    },
+    {
+      "batch": 1,
+      "model": "gemini-3.6-flash",
+      "in_tok": 11015,
+      "out_tok": 2369,
+      "thinking_tok": 0,
+      "cost_usd": 0.03429,
+      "latency_s": 14.6
+    },
+    {
+      "batch": 2,
+      "model": "gemini-3.6-flash",
+      "in_tok": 10997,
+      "out_tok": 1645,
+      "thinking_tok": 0,
+      "cost_usd": 0.02883,
+      "latency_s": 8.9
+    },
+    {
+      "batch": 3,
+      "model": "gemini-3.6-flash",
+      "in_tok": 11015,
+      "out_tok": 1588,
+      "thinking_tok": 0,
+      "cost_usd": 0.02843,
+      "latency_s": 8.2
+    },
+    {
+      "batch": 4,
+      "model": "gemini-3.6-flash",
+      "in_tok": 9650,
+      "out_tok": 1944,
+      "thinking_tok": 0,
+      "cost_usd": 0.02906,
+      "latency_s": 12.4
+    }
+  ],
+  "cost_usd": 0.15168,
+  "latency_s": 56.5,
+  "wall_s": 56.8,
+  "integrity": {
+    "golden_kind": "exact_layout",
+    "strict_metrics_are_headline": true,
+    "golden_cells": 55,
+    "candidate_cells": 55,
+    "cell_count_ratio": 1.0,
+    "pages": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "golden": 1,
+      "candidate": 1
+    },
+    "content_anywhere": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "occupied_position": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "exact_cell": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "class_imbalance_resistant": {
+      "offmode_accuracy_all": 1.0,
+      "offmode_n": 48,
+      "balanced_class_recall": 1.0,
+      "silent_columns": 0
+    },
+    "oracle_modal_control": {
+      "description": "oracle occupied positions plus per-page/column modes; reads no pixels",
+      "exact_cell_recall": 0.1273,
+      "content_anywhere_f1": 0.1273,
+      "constant_columns": 6,
+      "candidate_content_f1_lift": 0.8727,
+      "candidate_exact_recall_lift": 0.8727
+    },
+    "errors": {
+      "omitted": 0,
+      "wrong_value_at_occupied_position": 0,
+      "false_fill_or_extra_position": 0,
+      "duplicate_row_excess": 0
+    },
+    "shape": {
+      "row_extent_ratio": 1.0,
+      "column_extent_ratio": 1.0
+    },
+    "constancy": {
+      "max_excess_over_golden": 0.0,
+      "candidate_columns_ge_0_98": 0,
+      "golden_columns_ge_0_98": 0
+    }
+  }
+}

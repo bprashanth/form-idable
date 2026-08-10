@@ -1,0 +1,180 @@
+{
+  "decisions": [
+    {
+      "table_id": "table_1",
+      "row_id": "52",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "54",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "55",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "57",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "61",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "66",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "67",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "68",
+      "column_id": "col_leaves_flush",
+      "value": "0/1",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0' with a slash and a '1' written over it."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "68",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "69",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "70",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "71",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "71",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.95,
+      "evidence": "The character is a '0'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "73",
+      "column_id": "col_leaves_flush",
+      "value": "4/1",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '4' with a slash and a '1' written over it."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "79",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "80",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "81",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "84",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "90",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "The character is a '4' with a slightly open top, not an 'H'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "91",
+      "column_id": "col_flowers_open",
+      "value": "0",
+      "confidence": 0.95,
+      "evidence": "The character is a '0'."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "92",
+      "column_id": "col_flowers_open",
+      "value": "null",
+      "confidence": 0.9,
+      "evidence": "The cell is empty."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "92",
+      "column_id": "col_fruits_fallen",
+      "value": "null",
+      "confidence": 0.9,
+      "evidence": "The cell is empty."
+    }
+  ]
+}

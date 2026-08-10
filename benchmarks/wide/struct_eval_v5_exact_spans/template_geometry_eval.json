@@ -1,0 +1,303 @@
+{
+  "version": "formidable-template-geometry-eval-v1",
+  "forms": 84,
+  "positive_pairs": 42,
+  "negative_pairs": 3444,
+  "same_score": {
+    "min": 0.178,
+    "max": 0.992
+  },
+  "different_score": {
+    "min": 0.0,
+    "max": 0.991
+  },
+  "thresholds": [
+    {
+      "threshold": 0.4,
+      "recall": 0.8571,
+      "false_positive_rate": 0.4652,
+      "false_positives": 1602
+    },
+    {
+      "threshold": 0.5,
+      "recall": 0.7381,
+      "false_positive_rate": 0.3208,
+      "false_positives": 1105
+    },
+    {
+      "threshold": 0.6,
+      "recall": 0.6905,
+      "false_positive_rate": 0.1823,
+      "false_positives": 628
+    },
+    {
+      "threshold": 0.7,
+      "recall": 0.4524,
+      "false_positive_rate": 0.0537,
+      "false_positives": 185
+    },
+    {
+      "threshold": 0.8,
+      "recall": 0.3571,
+      "false_positive_rate": 0.0145,
+      "false_positives": 50
+    },
+    {
+      "threshold": 0.9,
+      "recall": 0.2143,
+      "false_positive_rate": 0.0061,
+      "false_positives": 21
+    },
+    {
+      "threshold": 0.95,
+      "recall": 0.119,
+      "false_positive_rate": 0.0029,
+      "false_positives": 10
+    }
+  ],
+  "decision": "reject geometry-only routing; require an independent printed-content channel",
+  "top_false_matches": [
+    {
+      "first": "dev__nvs_recce_grassland_height_tiers__p1__v0",
+      "second": "dev__nvs_recce_plot__p1__v1",
+      "same_template_page": false,
+      "score": 0.991
+    },
+    {
+      "first": "dev__nvs_recce_grassland_height_tiers__p1__v0",
+      "second": "dev__nvs_tier1_recce_site_description__p1__v0",
+      "same_template_page": false,
+      "score": 0.981
+    },
+    {
+      "first": "dev__nvs_recce_plot__p1__v1",
+      "second": "dev__nvs_tier1_recce_site_description__p1__v0",
+      "same_template_page": false,
+      "score": 0.981
+    },
+    {
+      "first": "dev__nvs_recce_plot__p1__v1",
+      "second": "dev__nvs_tier1_recce_site_description__p1__v1",
+      "same_template_page": false,
+      "score": 0.981
+    },
+    {
+      "first": "test__nvs_tier1_stem_diameter_height_sapling__p0__v1",
+      "second": "test__nvs_tier1_stem_diameter_height_sapling__p1__v0",
+      "same_template_page": false,
+      "score": 0.979
+    },
+    {
+      "first": "dev__nrcs_rangeland_stubble_height_form__p0__v0",
+      "second": "dev__nvs_recce_plot__p1__v1",
+      "same_template_page": false,
+      "score": 0.974
+    },
+    {
+      "first": "dev__nrcs_rangeland_stubble_height_form__p0__v1",
+      "second": "dev__nvs_recce_grassland_height_tiers__p1__v0",
+      "same_template_page": false,
+      "score": 0.966
+    },
+    {
+      "first": "dev__nrcs_rangeland_stubble_height_form__p0__v0",
+      "second": "dev__nvs_recce_grassland_height_tiers__p1__v0",
+      "same_template_page": false,
+      "score": 0.965
+    },
+    {
+      "first": "dev__nrcs_rangeland_stubble_height_form__p0__v0",
+      "second": "dev__nvs_tier1_recce_site_description__p1__v0",
+      "same_template_page": false,
+      "score": 0.957
+    },
+    {
+      "first": "dev__nrcs_rangeland_stubble_height_form__p0__v1",
+      "second": "dev__nvs_recce_plot__p1__v1",
+      "same_template_page": false,
+      "score": 0.957
+    },
+    {
+      "first": "dev__nrcs_rangeland_stubble_height_form__p0__v1",
+      "second": "dev__nvs_tier1_recce_site_description__p1__v1",
+      "same_template_page": false,
+      "score": 0.949
+    },
+    {
+      "first": "dev__nrcs_rangeland_stubble_height_form__p0__v1",
+      "second": "dev__nvs_tier1_recce_site_description__p1__v0",
+      "same_template_page": false,
+      "score": 0.94
+    },
+    {
+      "first": "dev__nvs_recce_plot__p1__v0",
+      "second": "dev__nvs_tier1_recce_site_description__p1__v0",
+      "same_template_page": false,
+      "score": 0.924
+    },
+    {
+      "first": "dev__nvs_recce_grassland_height_tiers__p1__v0",
+      "second": "dev__nvs_recce_plot__p1__v0",
+      "same_template_page": false,
+      "score": 0.915
+    },
+    {
+      "first": "dev__nvs_recce_plot__p1__v0",
+      "second": "dev__nvs_tier1_recce_site_description__p1__v1",
+      "same_template_page": false,
+      "score": 0.915
+    },
+    {
+      "first": "dev__nvs_recce_plot__p1__v0",
+      "second": "test__nvs_tier1_metadata_record__p1__v0",
+      "same_template_page": false,
+      "score": 0.915
+    },
+    {
+      "first": "dev__nrcs_rangeland_stubble_height_form__p0__v0",
+      "second": "dev__nvs_recce_plot__p1__v0",
+      "same_template_page": false,
+      "score": 0.907
+    },
+    {
+      "first": "dev__nvs_recce_grassland_height_tiers__p1__v0",
+      "second": "test__nvs_tier1_metadata_record__p1__v0",
+      "same_template_page": false,
+      "score": 0.906
+    },
+    {
+      "first": "dev__nvs_recce_plot__p1__v1",
+      "second": "test__nvs_tier1_metadata_record__p1__v0",
+      "same_template_page": false,
+      "score": 0.906
+    },
+    {
+      "first": "dev__nvs_tier1_recce_site_description__p1__v0",
+      "second": "test__nvs_tier1_metadata_record__p1__v0",
+      "same_template_page": false,
+      "score": 0.906
+    }
+  ],
+  "lowest_true_matches": [
+    {
+      "first": "dev__budburst_phenology_wildflowers_herbs__p0__v0",
+      "second": "dev__budburst_phenology_wildflowers_herbs__p0__v1",
+      "same_template_page": true,
+      "score": 0.178
+    },
+    {
+      "first": "test__nvs_tier1_stem_diameter_height_sapling__p1__v0",
+      "second": "test__nvs_tier1_stem_diameter_height_sapling__p1__v1",
+      "same_template_page": true,
+      "score": 0.33
+    },
+    {
+      "first": "test__nvs_stem_diameter_sapling__p1__v0",
+      "second": "test__nvs_stem_diameter_sapling__p1__v1",
+      "same_template_page": true,
+      "score": 0.352
+    },
+    {
+      "first": "dev__nvs_tier1_coarse_woody_debris__p1__v0",
+      "second": "dev__nvs_tier1_coarse_woody_debris__p1__v1",
+      "same_template_page": true,
+      "score": 0.369
+    },
+    {
+      "first": "dev__agrra_coral_underwater_datasheet__p0__v0",
+      "second": "dev__agrra_coral_underwater_datasheet__p0__v1",
+      "same_template_page": true,
+      "score": 0.38
+    },
+    {
+      "first": "test__rbp_stream_habitat_highgradient_wv__p2__v0",
+      "second": "test__rbp_stream_habitat_highgradient_wv__p2__v1",
+      "same_template_page": true,
+      "score": 0.389
+    },
+    {
+      "first": "test__nvs_stem_diameter_sapling__p0__v0",
+      "second": "test__nvs_stem_diameter_sapling__p0__v1",
+      "same_template_page": true,
+      "score": 0.401
+    },
+    {
+      "first": "dev__hp_forest_nursery_germination_proforma__p0__v0",
+      "second": "dev__hp_forest_nursery_germination_proforma__p0__v1",
+      "same_template_page": true,
+      "score": 0.418
+    },
+    {
+      "first": "dev__nvs_recce_plot__p0__v0",
+      "second": "dev__nvs_recce_plot__p0__v1",
+      "same_template_page": true,
+      "score": 0.44
+    },
+    {
+      "first": "dev__nvs_recce_grassland_height_tiers__p1__v0",
+      "second": "dev__nvs_recce_grassland_height_tiers__p1__v1",
+      "same_template_page": true,
+      "score": 0.446
+    },
+    {
+      "first": "dev__hp_forest_nursery_infrastructure_proforma__p0__v0",
+      "second": "dev__hp_forest_nursery_infrastructure_proforma__p0__v1",
+      "same_template_page": true,
+      "score": 0.478
+    },
+    {
+      "first": "test__nvs_tier1_stem_diameter_height_sapling__p0__v0",
+      "second": "test__nvs_tier1_stem_diameter_height_sapling__p0__v1",
+      "same_template_page": true,
+      "score": 0.592
+    },
+    {
+      "first": "dev__nvs_tier1_coarse_woody_debris__p0__v0",
+      "second": "dev__nvs_tier1_coarse_woody_debris__p0__v1",
+      "same_template_page": true,
+      "score": 0.598
+    },
+    {
+      "first": "dev__iwla_save_our_streams_quality_survey__p0__v0",
+      "second": "dev__iwla_save_our_streams_quality_survey__p0__v1",
+      "same_template_page": true,
+      "score": 0.629
+    },
+    {
+      "first": "dev__nvs_recce_forest_height_tiers__p1__v0",
+      "second": "dev__nvs_recce_forest_height_tiers__p1__v1",
+      "same_template_page": true,
+      "score": 0.642
+    },
+    {
+      "first": "dev__nvs_recce_forest_height_tiers__p0__v0",
+      "second": "dev__nvs_recce_forest_height_tiers__p0__v1",
+      "same_template_page": true,
+      "score": 0.652
+    },
+    {
+      "first": "dev__nestwatch_nest_check_datasheet__p0__v0",
+      "second": "dev__nestwatch_nest_check_datasheet__p0__v1",
+      "same_template_page": true,
+      "score": 0.655
+    },
+    {
+      "first": "test__bird_grassland_point_count__p0__v0",
+      "second": "test__bird_grassland_point_count__p0__v1",
+      "same_template_page": true,
+      "score": 0.655
+    },
+    {
+      "first": "test__nvs_tier1_understorey_record__p0__v0",
+      "second": "test__nvs_tier1_understorey_record__p0__v1",
+      "same_template_page": true,
+      "score": 0.676
+    },
+    {
+      "first": "test__rbp_stream_habitat_highgradient_wv__p1__v0",
+      "second": "test__rbp_stream_habitat_highgradient_wv__p1__v1",
+      "same_template_page": true,
+      "score": 0.683
+    }
+  ]
+}

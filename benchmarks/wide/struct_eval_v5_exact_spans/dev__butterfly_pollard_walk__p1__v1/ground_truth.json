@@ -1,0 +1,5076 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "butterfly_pollard_walk.pdf",
+  "page": 2,
+  "page_size_points": [
+    612.0,
+    792.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 2,
+      "row": 1,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        273.42,
+        229.5,
+        297.45
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.345227,
+        0.375,
+        0.375568
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "temperature",
+      "semantic_context": "Weather: \u00b0C Start Temp ________ End Temp | Elevation ________________ Aspect Start Time _______________ End _____________ Weather: \u00b0C Temp ________ % Sun __________ OBSERVED BUTTERFLIES Section"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 6,
+      "bbox_points": [
+        229.5,
+        273.42,
+        445.5,
+        297.45
+      ],
+      "bbox_norm": [
+        0.375,
+        0.345227,
+        0.727941,
+        0.375568
+      ],
+      "source": "printed",
+      "value": "Section",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Section"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        273.42,
+        562.5,
+        297.45
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.345227,
+        0.919118,
+        0.375568
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Wind __________ | Site ID __________________________________________ __________________________________________________________ _____________________ E _______________________ _______________ Slope (%) _____________ ________ % Sun __________ Wind OBSERVED BUTTERFLIES Section"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        297.45,
+        229.5,
+        311.49
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.375568,
+        0.375,
+        0.393295
+      ],
+      "source": "printed",
+      "value": "Species",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Species"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        297.45,
+        265.5,
+        311.49
+      ],
+      "bbox_norm": [
+        0.375,
+        0.375568,
+        0.433823,
+        0.393295
+      ],
+      "source": "printed",
+      "value": "1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        297.45,
+        301.5,
+        311.49
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.375568,
+        0.492647,
+        0.393295
+      ],
+      "source": "printed",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "2"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        297.45,
+        337.5,
+        311.49
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.375568,
+        0.551471,
+        0.393295
+      ],
+      "source": "printed",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "3"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        297.45,
+        373.5,
+        311.49
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.375568,
+        0.610294,
+        0.393295
+      ],
+      "source": "printed",
+      "value": "4",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "4"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        297.45,
+        409.5,
+        311.49
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.375568,
+        0.669118,
+        0.393295
+      ],
+      "source": "printed",
+      "value": "5",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "5"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        297.45,
+        445.5,
+        311.49
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.375568,
+        0.727941,
+        0.393295
+      ],
+      "source": "printed",
+      "value": "Total",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Total"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        297.45,
+        562.5,
+        311.49
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.375568,
+        0.919118,
+        0.393295
+      ],
+      "source": "printed",
+      "value": "Notes",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        311.49,
+        229.5,
+        325.53
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.393295,
+        0.375,
+        0.411023
+      ],
+      "source": "written",
+      "value": "Drypetes wightii",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Start Time Weather: \u00b0C Temp ________ End % Sun __________ OBSERVED BUTTERFLIES Section Species 1 2 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        311.49,
+        265.5,
+        325.53
+      ],
+      "bbox_norm": [
+        0.375,
+        0.393295,
+        0.433823,
+        0.411023
+      ],
+      "source": "written",
+      "value": "13:15",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "1 | 1 | _______________ Observer __________________________________________ __________________________________________________________ N _____________________ ________________ Aspect End Time _____________ \u00b0C ________ Temp BUTTERFLIES 1 2"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        311.49,
+        301.5,
+        325.53
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.393295,
+        0.492647,
+        0.411023
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "time",
+      "semantic_context": "2 | 2 | Observer __________________________________________ __________________________________________________________ _____________________ Aspect _______________ End Time _____________ \u00b0C Temp ________ % Sun OBSERVED BUTTERFLIES Section 1 2 3"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        311.49,
+        337.5,
+        325.53
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.393295,
+        0.551471,
+        0.411023
+      ],
+      "source": "written",
+      "value": "10:10",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "3 | Section 3 | Observer __________________________________________________________ _____________________ E _______________________ Aspect _______________ End Time _____________ \u00b0C ________ % Sun __________ OBSERVED BUTTERFLIES Section 2 3 4"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        311.49,
+        373.5,
+        325.53
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.393295,
+        0.610294,
+        0.411023
+      ],
+      "source": "written",
+      "value": "67",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "4 | Section 4 | __________________________________________ __________________________________________________________ _____________________ E _______________________ _______________ Slope (%) _____________ ________ % Sun __________ OBSERVED BUTTERFLIES Section 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        311.49,
+        409.5,
+        325.53
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.393295,
+        0.669118,
+        0.411023
+      ],
+      "source": "written",
+      "value": "11",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "5 | 5 | __________________________________________ __________________________________________________________ _____________________ E _______________________ _______________ Slope (%) _____________ % Sun __________ Wind OBSERVED Section 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        311.49,
+        445.5,
+        325.53
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.393295,
+        0.727941,
+        0.411023
+      ],
+      "source": "written",
+      "value": "58",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Total | Total | __________________________________________ __________________________________________________________ E _______________________ _______________ Slope (%) _____________ __________ Wind OBSERVED 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        311.49,
+        562.5,
+        325.53
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.393295,
+        0.919118,
+        0.411023
+      ],
+      "source": "written",
+      "value": "epiphytes present",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | _____________________ E _______________________ _______________ Slope (%) _____________ ________ % Sun __________ Wind OBSERVED BUTTERFLIES Section 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        325.53,
+        229.5,
+        339.45
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.411023,
+        0.375,
+        0.428598
+      ],
+      "source": "written",
+      "value": "Persea macrantha",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Start Time Weather: \u00b0C Temp ________ End % Sun __________ OBSERVED BUTTERFLIES Section Species 1 2 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        325.53,
+        265.5,
+        339.45
+      ],
+      "bbox_norm": [
+        0.375,
+        0.411023,
+        0.433823,
+        0.428598
+      ],
+      "source": "written",
+      "value": "17:30",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "1 | 1 | __________________________________________________________ N _____________________ ________________ Aspect _______________ End Time _____________ \u00b0C ________ Temp BUTTERFLIES 1 2"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        325.53,
+        301.5,
+        339.45
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.411023,
+        0.492647,
+        0.428598
+      ],
+      "source": "written",
+      "value": "12:00",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "2 | 2 | __________________________________________________________ _____________________ Aspect _______________ End Time _____________ \u00b0C Temp ________ % Sun OBSERVED BUTTERFLIES Section 1 2 3"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        325.53,
+        337.5,
+        339.45
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.411023,
+        0.551471,
+        0.428598
+      ],
+      "source": "written",
+      "value": "15:20",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "3 | Section 3 | __________________________________________________________ _____________________ E _______________________ Aspect _______________ End Time _____________ \u00b0C ________ % Sun __________ OBSERVED BUTTERFLIES Section 2 3 4"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        325.53,
+        373.5,
+        339.45
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.411023,
+        0.610294,
+        0.428598
+      ],
+      "source": "written",
+      "value": "46",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "4 | Section 4 | __________________________________________________________ _____________________ E _______________________ _______________ Slope (%) _____________ ________ % Sun __________ OBSERVED BUTTERFLIES Section 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        325.53,
+        409.5,
+        339.45
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.411023,
+        0.669118,
+        0.428598
+      ],
+      "source": "written",
+      "value": "84",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "5 | 5 | __________________________________________________________ _____________________ E _______________________ _______________ Slope (%) _____________ % Sun __________ Wind OBSERVED Section 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        325.53,
+        445.5,
+        339.45
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.411023,
+        0.727941,
+        0.428598
+      ],
+      "source": "written",
+      "value": "29",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Total | Total | __________________________________________________________ E _______________________ _______________ Slope (%) _____________ __________ Wind OBSERVED 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        325.53,
+        562.5,
+        339.45
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.411023,
+        0.919118,
+        0.428598
+      ],
+      "source": "written",
+      "value": "browsed by deer",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | _____________________ E _______________________ _______________ Slope (%) _____________ ________ % Sun __________ Wind OBSERVED BUTTERFLIES Section 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        339.45,
+        229.5,
+        353.49
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.428598,
+        0.375,
+        0.446326
+      ],
+      "source": "written",
+      "value": "Olea dioica",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Start Time Weather: \u00b0C Temp ________ End % Sun __________ OBSERVED BUTTERFLIES Section Species 1 2 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        339.45,
+        265.5,
+        353.49
+      ],
+      "bbox_norm": [
+        0.375,
+        0.428598,
+        0.433823,
+        0.446326
+      ],
+      "source": "written",
+      "value": "05:50",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "1 | 1 | __________________________________________________________ N _____________________ ________________ Aspect _______________ End Time _____________ \u00b0C ________ Temp BUTTERFLIES 1 2"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        339.45,
+        301.5,
+        353.49
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.428598,
+        0.492647,
+        0.446326
+      ],
+      "source": "written",
+      "value": "09:30",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "2 | 2 | __________________________________________________________ _____________________ Aspect _______________ End Time _____________ \u00b0C Temp ________ % Sun OBSERVED BUTTERFLIES Section 1 2 3"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        339.45,
+        337.5,
+        353.49
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.428598,
+        0.551471,
+        0.446326
+      ],
+      "source": "written",
+      "value": "09:10",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "3 | Section 3 | __________________________________________________________ _____________________ E _______________________ Aspect _______________ End Time _____________ \u00b0C ________ % Sun __________ OBSERVED BUTTERFLIES Section 2 3 4"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        339.45,
+        373.5,
+        353.49
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.428598,
+        0.610294,
+        0.446326
+      ],
+      "source": "written",
+      "value": "85",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "4 | Section 4 | __________________________________________________________ _____________________ E _______________________ _______________ Slope (%) _____________ ________ % Sun __________ OBSERVED BUTTERFLIES Section 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        339.45,
+        409.5,
+        353.49
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.428598,
+        0.669118,
+        0.446326
+      ],
+      "source": "written",
+      "value": "7",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "5 | 5 | __________________________________________________________ _____________________ E _______________________ _______________ Slope (%) _____________ % Sun __________ Wind OBSERVED Section 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        339.45,
+        445.5,
+        353.49
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.428598,
+        0.727941,
+        0.446326
+      ],
+      "source": "written",
+      "value": "11",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Total | Total | __________________________________________________________ E _______________________ _______________ Slope (%) _____________ __________ Wind OBSERVED 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        339.45,
+        562.5,
+        353.49
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.428598,
+        0.919118,
+        0.446326
+      ],
+      "source": "written",
+      "value": "leaning",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | _____________________ E _______________________ _______________ Slope (%) _____________ ________ % Sun __________ Wind OBSERVED BUTTERFLIES Section 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        353.49,
+        373.5,
+        367.47
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.446326,
+        0.610294,
+        0.463977
+      ],
+      "source": "written",
+      "value": "87",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "4 | Section 4 | _____________________ E _______________________ _______________ Slope (%) _____________ ________ % Sun __________ OBSERVED BUTTERFLIES Section 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        353.49,
+        409.5,
+        367.47
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.446326,
+        0.669118,
+        0.463977
+      ],
+      "source": "written",
+      "value": "26",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "5 | 5 | _____________________ E _______________________ _______________ Slope (%) _____________ % Sun __________ Wind OBSERVED Section 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        353.49,
+        445.5,
+        367.47
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.446326,
+        0.727941,
+        0.463977
+      ],
+      "source": "written",
+      "value": "32",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Total | Total | E _______________________ _______________ Slope (%) _____________ __________ Wind OBSERVED 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        353.49,
+        562.5,
+        367.47
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.446326,
+        0.919118,
+        0.463977
+      ],
+      "source": "written",
+      "value": "climber load",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | _____________________ E _______________________ _______________ Slope (%) _____________ ________ % Sun __________ Wind OBSERVED BUTTERFLIES Section 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        367.47,
+        373.5,
+        381.51
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.463977,
+        0.610294,
+        0.481705
+      ],
+      "source": "written",
+      "value": "31",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "4 | Section 4 | _____________________ E _______________________ _______________ Slope (%) _____________ ________ % Sun __________ OBSERVED BUTTERFLIES Section 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        367.47,
+        409.5,
+        381.51
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.463977,
+        0.669118,
+        0.481705
+      ],
+      "source": "written",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "5 | 5 | _____________________ E _______________________ _______________ Slope (%) _____________ % Sun __________ Wind OBSERVED Section 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        367.47,
+        445.5,
+        381.51
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.463977,
+        0.727941,
+        0.481705
+      ],
+      "source": "written",
+      "value": "51",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Total | Total | E _______________________ _______________ Slope (%) _____________ __________ Wind OBSERVED 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        367.47,
+        562.5,
+        381.51
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.463977,
+        0.919118,
+        0.481705
+      ],
+      "source": "written",
+      "value": "climber load",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | _____________________ E _______________________ _______________ Slope (%) _____________ ________ % Sun __________ Wind OBSERVED BUTTERFLIES Section 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        381.51,
+        229.5,
+        395.49
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.481705,
+        0.375,
+        0.499356
+      ],
+      "source": "written",
+      "value": "Prunus ceylanica",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Start Time Weather: \u00b0C Temp ________ End % Sun __________ OBSERVED BUTTERFLIES Section Species 1 2 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        381.51,
+        265.5,
+        395.49
+      ],
+      "bbox_norm": [
+        0.375,
+        0.481705,
+        0.433823,
+        0.499356
+      ],
+      "source": "written",
+      "value": "12:20",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "1 | 1 | N _____________________ ________________ Aspect _______________ End Time _____________ \u00b0C ________ Temp BUTTERFLIES 1 2"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        381.51,
+        301.5,
+        395.49
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.481705,
+        0.492647,
+        0.499356
+      ],
+      "source": "written",
+      "value": "18:15",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "2 | 2 | _____________________ Aspect _______________ End Time _____________ \u00b0C Temp ________ % Sun OBSERVED BUTTERFLIES Section 1 2 3"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        381.51,
+        337.5,
+        395.49
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.481705,
+        0.551471,
+        0.499356
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "time",
+      "semantic_context": "3 | Section 3 | _____________________ E _______________________ Aspect _______________ End Time _____________ \u00b0C ________ % Sun __________ OBSERVED BUTTERFLIES Section 2 3 4"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        381.51,
+        373.5,
+        395.49
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.481705,
+        0.610294,
+        0.499356
+      ],
+      "source": "written",
+      "value": "62",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "4 | Section 4 | _____________________ E _______________________ _______________ Slope (%) _____________ ________ % Sun __________ OBSERVED BUTTERFLIES Section 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        381.51,
+        409.5,
+        395.49
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.481705,
+        0.669118,
+        0.499356
+      ],
+      "source": "written",
+      "value": "47",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "5 | 5 | _____________________ E _______________________ _______________ Slope (%) _____________ % Sun __________ Wind OBSERVED Section 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        381.51,
+        445.5,
+        395.49
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.481705,
+        0.727941,
+        0.499356
+      ],
+      "source": "written",
+      "value": "57",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Total | Total | E _______________________ _______________ Slope (%) _____________ __________ Wind OBSERVED 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        381.51,
+        562.5,
+        395.49
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.481705,
+        0.919118,
+        0.499356
+      ],
+      "source": "written",
+      "value": "fallen",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | _____________________ E _______________________ _______________ Slope (%) _____________ ________ % Sun __________ Wind OBSERVED BUTTERFLIES Section 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        395.49,
+        229.5,
+        409.47
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.499356,
+        0.375,
+        0.517008
+      ],
+      "source": "written",
+      "value": "Neolitsea sp.",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Start Time Weather: \u00b0C Temp ________ End % Sun __________ OBSERVED BUTTERFLIES Section Species 1 2 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        395.49,
+        265.5,
+        409.47
+      ],
+      "bbox_norm": [
+        0.375,
+        0.499356,
+        0.433823,
+        0.517008
+      ],
+      "source": "written",
+      "value": "05:50",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "1 | 1 | ________________ Aspect _______________ End Time _____________ \u00b0C ________ Temp BUTTERFLIES 1 2"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        395.49,
+        301.5,
+        409.47
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.499356,
+        0.492647,
+        0.517008
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "time",
+      "semantic_context": "2 | 2 | Aspect _______________ End Time _____________ \u00b0C Temp ________ % Sun OBSERVED BUTTERFLIES Section 1 2 3"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        395.49,
+        337.5,
+        409.47
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.499356,
+        0.551471,
+        0.517008
+      ],
+      "source": "written",
+      "value": "09:15",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "3 | Section 3 | Aspect _______________ End Time _____________ \u00b0C ________ % Sun __________ OBSERVED BUTTERFLIES Section 2 3 4"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        395.49,
+        373.5,
+        409.47
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.499356,
+        0.610294,
+        0.517008
+      ],
+      "source": "written",
+      "value": "8",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "4 | Section 4 | _______________ Slope (%) _____________ ________ % Sun __________ OBSERVED BUTTERFLIES Section 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        395.49,
+        409.5,
+        409.47
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.499356,
+        0.669118,
+        0.517008
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "percent",
+      "semantic_context": "5 | 5 | _______________ Slope (%) _____________ % Sun __________ Wind OBSERVED Section 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        395.49,
+        445.5,
+        409.47
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.499356,
+        0.727941,
+        0.517008
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Total | Total | _______________ Slope (%) _____________ __________ Wind OBSERVED 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        395.49,
+        562.5,
+        409.47
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.499356,
+        0.919118,
+        0.517008
+      ],
+      "source": "written",
+      "value": "new flush",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | _______________ Slope (%) _____________ ________ % Sun __________ Wind OBSERVED BUTTERFLIES Section 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        409.47,
+        373.5,
+        423.45
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.517008,
+        0.610294,
+        0.534659
+      ],
+      "source": "written",
+      "value": "65",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "4 | Section 4 | _____________ ________ % Sun __________ OBSERVED BUTTERFLIES Section 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        409.47,
+        409.5,
+        423.45
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.517008,
+        0.669118,
+        0.534659
+      ],
+      "source": "written",
+      "value": "4",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "5 | 5 | _____________ % Sun __________ Wind OBSERVED Section 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        409.47,
+        445.5,
+        423.45
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.517008,
+        0.727941,
+        0.534659
+      ],
+      "source": "written",
+      "value": "climber load",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Total | Total | _____________ __________ Wind OBSERVED 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        409.47,
+        562.5,
+        423.45
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.517008,
+        0.919118,
+        0.534659
+      ],
+      "source": "written",
+      "value": "climber load",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | _____________ ________ % Sun __________ Wind OBSERVED BUTTERFLIES Section 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        423.45,
+        373.5,
+        437.55
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.534659,
+        0.610294,
+        0.552462
+      ],
+      "source": "written",
+      "value": "30",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "4 | Section 4 | _____________ ________ % Sun __________ OBSERVED BUTTERFLIES Section 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        423.45,
+        409.5,
+        437.55
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.534659,
+        0.669118,
+        0.552462
+      ],
+      "source": "written",
+      "value": "26",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "5 | 5 | _____________ % Sun __________ Wind OBSERVED Section 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        423.45,
+        445.5,
+        437.55
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.534659,
+        0.727941,
+        0.552462
+      ],
+      "source": "written",
+      "value": "leaning",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Total | Total | _____________ __________ Wind OBSERVED 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        423.45,
+        562.5,
+        437.55
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.534659,
+        0.919118,
+        0.552462
+      ],
+      "source": "written",
+      "value": "termite damage",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | _____________ ________ % Sun __________ Wind OBSERVED BUTTERFLIES Section 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        437.55,
+        229.5,
+        451.47
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.552462,
+        0.375,
+        0.570038
+      ],
+      "source": "written",
+      "value": "Elaeocarpus munroii",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Weather: \u00b0C Start Temp ________ End % Sun __________ OBSERVED BUTTERFLIES Section Species 1 2 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        437.55,
+        265.5,
+        451.47
+      ],
+      "bbox_norm": [
+        0.375,
+        0.552462,
+        0.433823,
+        0.570038
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "temperature",
+      "semantic_context": "1 | 1 | \u00b0C ________ End Temp BUTTERFLIES 1 2"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        437.55,
+        301.5,
+        451.47
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.552462,
+        0.492647,
+        0.570038
+      ],
+      "source": "written",
+      "value": "5.4",
+      "mark": "text",
+      "value_kind": "temperature",
+      "semantic_context": "2 | 2 | \u00b0C End Temp ________ % Sun OBSERVED BUTTERFLIES Section 1 2 3"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        437.55,
+        337.5,
+        451.47
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.552462,
+        0.551471,
+        0.570038
+      ],
+      "source": "written",
+      "value": "24.1",
+      "mark": "text",
+      "value_kind": "temperature",
+      "semantic_context": "3 | Section 3 | \u00b0C ________ % Sun __________ OBSERVED BUTTERFLIES Section 2 3 4"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        437.55,
+        373.5,
+        451.47
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.552462,
+        0.610294,
+        0.570038
+      ],
+      "source": "written",
+      "value": "95",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "4 | Section 4 | ________ % Sun __________ OBSERVED BUTTERFLIES Section 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        437.55,
+        409.5,
+        451.47
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.552462,
+        0.669118,
+        0.570038
+      ],
+      "source": "written",
+      "value": "30",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "5 | 5 | % Sun __________ Wind OBSERVED Section 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        437.55,
+        445.5,
+        451.47
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.552462,
+        0.727941,
+        0.570038
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Total | Total | __________ Wind OBSERVED 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        437.55,
+        562.5,
+        451.47
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.552462,
+        0.919118,
+        0.570038
+      ],
+      "source": "written",
+      "value": "canopy gap",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | ________ % Sun __________ Wind OBSERVED BUTTERFLIES Section 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        451.47,
+        229.5,
+        465.45
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.570038,
+        0.375,
+        0.587689
+      ],
+      "source": "written",
+      "value": "Elaeocarpus munroii",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | \u00b0C Start Temp ________ End % Sun __________ OBSERVED BUTTERFLIES Section Species 1 2 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        451.47,
+        265.5,
+        465.45
+      ],
+      "bbox_norm": [
+        0.375,
+        0.570038,
+        0.433823,
+        0.587689
+      ],
+      "source": "written",
+      "value": "38.3",
+      "mark": "text",
+      "value_kind": "temperature",
+      "semantic_context": "1 | 1 | \u00b0C ________ End Temp BUTTERFLIES 1 2"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        451.47,
+        301.5,
+        465.45
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.570038,
+        0.492647,
+        0.587689
+      ],
+      "source": "written",
+      "value": "20.6",
+      "mark": "text",
+      "value_kind": "temperature",
+      "semantic_context": "2 | 2 | \u00b0C End Temp ________ % Sun OBSERVED BUTTERFLIES Section 1 2 3"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        451.47,
+        337.5,
+        465.45
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.570038,
+        0.551471,
+        0.587689
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "temperature",
+      "semantic_context": "3 | Section 3 | \u00b0C ________ % Sun __________ OBSERVED BUTTERFLIES Section 2 3 4"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        451.47,
+        373.5,
+        465.45
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.570038,
+        0.610294,
+        0.587689
+      ],
+      "source": "written",
+      "value": "74",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "4 | Section 4 | ________ % Sun __________ OBSERVED BUTTERFLIES Section 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        451.47,
+        409.5,
+        465.45
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.570038,
+        0.669118,
+        0.587689
+      ],
+      "source": "written",
+      "value": "23",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "5 | 5 | % Sun __________ Wind OBSERVED Section 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        451.47,
+        445.5,
+        465.45
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.570038,
+        0.727941,
+        0.587689
+      ],
+      "source": "written",
+      "value": "termite damage",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Total | Total | __________ Wind OBSERVED 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        451.47,
+        562.5,
+        465.45
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.570038,
+        0.919118,
+        0.587689
+      ],
+      "source": "written",
+      "value": "resprouting",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | ________ % Sun __________ Wind OBSERVED BUTTERFLIES Section 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        465.45,
+        229.5,
+        479.49
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.587689,
+        0.375,
+        0.605417
+      ],
+      "source": "written",
+      "value": "Antidesma menasu",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | OBSERVED BUTTERFLIES Section Species 1 2 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        465.45,
+        265.5,
+        479.49
+      ],
+      "bbox_norm": [
+        0.375,
+        0.587689,
+        0.433823,
+        0.605417
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1 | BUTTERFLIES 1 2"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        465.45,
+        301.5,
+        479.49
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.587689,
+        0.492647,
+        0.605417
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "2 | 2 | OBSERVED BUTTERFLIES Section 1 2 3"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        465.45,
+        337.5,
+        479.49
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.587689,
+        0.551471,
+        0.605417
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "3 | Section 3 | OBSERVED BUTTERFLIES Section 2 3 4"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        465.45,
+        373.5,
+        479.49
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.587689,
+        0.610294,
+        0.605417
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "4 | Section 4 | OBSERVED BUTTERFLIES Section 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        465.45,
+        409.5,
+        479.49
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.587689,
+        0.669118,
+        0.605417
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "5 | 5 | OBSERVED Section 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        465.45,
+        445.5,
+        479.49
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.587689,
+        0.727941,
+        0.605417
+      ],
+      "source": "written",
+      "value": "browsed by deer",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Total | Total | OBSERVED 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        465.45,
+        562.5,
+        479.49
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.587689,
+        0.919118,
+        0.605417
+      ],
+      "source": "written",
+      "value": "top broken",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | OBSERVED BUTTERFLIES Section 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        479.49,
+        229.5,
+        493.53
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.605417,
+        0.375,
+        0.623144
+      ],
+      "source": "written",
+      "value": "Drypetes wightii",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | OBSERVED BUTTERFLIES Section Species 1 2 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        479.49,
+        265.5,
+        493.53
+      ],
+      "bbox_norm": [
+        0.375,
+        0.605417,
+        0.433823,
+        0.623144
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1 | BUTTERFLIES 1 2"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        479.49,
+        301.5,
+        493.53
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.605417,
+        0.492647,
+        0.623144
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "2 | 2 | OBSERVED BUTTERFLIES Section 1 2 3"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        479.49,
+        337.5,
+        493.53
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.605417,
+        0.551471,
+        0.623144
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "3 | Section 3 | OBSERVED BUTTERFLIES Section 2 3 4"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        479.49,
+        373.5,
+        493.53
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.605417,
+        0.610294,
+        0.623144
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "4 | Section 4 | OBSERVED BUTTERFLIES Section 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        479.49,
+        409.5,
+        493.53
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.605417,
+        0.669118,
+        0.623144
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "5 | 5 | OBSERVED Section 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        479.49,
+        445.5,
+        493.53
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.605417,
+        0.727941,
+        0.623144
+      ],
+      "source": "written",
+      "value": "new flush",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Total | Total | OBSERVED 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        479.49,
+        562.5,
+        493.53
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.605417,
+        0.919118,
+        0.623144
+      ],
+      "source": "written",
+      "value": "top broken",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | OBSERVED BUTTERFLIES Section 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        493.53,
+        229.5,
+        507.45
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.623144,
+        0.375,
+        0.64072
+      ],
+      "source": "written",
+      "value": "Olea dioica",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Section Species 1 2 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        493.53,
+        265.5,
+        507.45
+      ],
+      "bbox_norm": [
+        0.375,
+        0.623144,
+        0.433823,
+        0.64072
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1 | 1 2"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        493.53,
+        301.5,
+        507.45
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.623144,
+        0.492647,
+        0.64072
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "2 | 2 | Section 1 2 3"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        493.53,
+        337.5,
+        507.45
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.623144,
+        0.551471,
+        0.64072
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "3 | Section 3 | Section 2 3 4"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        493.53,
+        373.5,
+        507.45
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.623144,
+        0.610294,
+        0.64072
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "4 | Section 4 | Section 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        493.53,
+        409.5,
+        507.45
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.623144,
+        0.669118,
+        0.64072
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "code1",
+      "semantic_context": "5 | 5 | Section 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        493.53,
+        445.5,
+        507.45
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.623144,
+        0.727941,
+        0.64072
+      ],
+      "source": "written",
+      "value": "new flush",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Total | Total | 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        493.53,
+        562.5,
+        507.45
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.623144,
+        0.919118,
+        0.64072
+      ],
+      "source": "written",
+      "value": "climber load",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | Section 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        507.45,
+        229.5,
+        521.49
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.64072,
+        0.375,
+        0.658447
+      ],
+      "source": "written",
+      "value": "Beilschmiedia dalzelli",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Section Species 1 2 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        507.45,
+        265.5,
+        521.49
+      ],
+      "bbox_norm": [
+        0.375,
+        0.64072,
+        0.433823,
+        0.658447
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1 | 1 2"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        507.45,
+        301.5,
+        521.49
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.64072,
+        0.492647,
+        0.658447
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "2 | 2 | Section 1 2 3"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        507.45,
+        337.5,
+        521.49
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.64072,
+        0.551471,
+        0.658447
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "3 | Section 3 | Section 2 3 4"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        507.45,
+        373.5,
+        521.49
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.64072,
+        0.610294,
+        0.658447
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "4 | Section 4 | Section 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        507.45,
+        409.5,
+        521.49
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.64072,
+        0.669118,
+        0.658447
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "5 | 5 | Section 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        507.45,
+        445.5,
+        521.49
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.64072,
+        0.727941,
+        0.658447
+      ],
+      "source": "written",
+      "value": "canopy gap",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Total | Total | 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        507.45,
+        562.5,
+        521.49
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.64072,
+        0.919118,
+        0.658447
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | Section 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        521.49,
+        373.5,
+        535.47
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.658447,
+        0.610294,
+        0.676098
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "4 | Section 4 | 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        521.49,
+        409.5,
+        535.47
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.658447,
+        0.669118,
+        0.676098
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "5 | 5 | 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        521.49,
+        445.5,
+        535.47
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.658447,
+        0.727941,
+        0.676098
+      ],
+      "source": "written",
+      "value": "canopy gap",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Total | Total | 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        521.49,
+        562.5,
+        535.47
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.658447,
+        0.919118,
+        0.676098
+      ],
+      "source": "written",
+      "value": "browsed by deer",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | 3 4 5 Notes Total"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        535.47,
+        373.5,
+        549.51
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.676098,
+        0.610294,
+        0.693826
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "4 | Section 4"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        535.47,
+        409.5,
+        549.51
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.676098,
+        0.669118,
+        0.693826
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "code1",
+      "semantic_context": "5 | 5"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        535.47,
+        445.5,
+        549.51
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.676098,
+        0.727941,
+        0.693826
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Total | Total"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        535.47,
+        562.5,
+        549.51
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.676098,
+        0.919118,
+        0.693826
+      ],
+      "source": "written",
+      "value": "resprouting",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        549.51,
+        229.5,
+        563.49
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.693826,
+        0.375,
+        0.711477
+      ],
+      "source": "written",
+      "value": "Garcinia gummi-gutta",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        549.51,
+        265.5,
+        563.49
+      ],
+      "bbox_norm": [
+        0.375,
+        0.693826,
+        0.433823,
+        0.711477
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        549.51,
+        301.5,
+        563.49
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.693826,
+        0.492647,
+        0.711477
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "2 | 2"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        549.51,
+        337.5,
+        563.49
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.693826,
+        0.551471,
+        0.711477
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "3 | Section 3"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        549.51,
+        373.5,
+        563.49
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.693826,
+        0.610294,
+        0.711477
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "4 | Section 4"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        549.51,
+        409.5,
+        563.49
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.693826,
+        0.669118,
+        0.711477
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "5 | 5"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        549.51,
+        445.5,
+        563.49
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.693826,
+        0.727941,
+        0.711477
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Total | Total"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        549.51,
+        562.5,
+        563.49
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.693826,
+        0.919118,
+        0.711477
+      ],
+      "source": "written",
+      "value": "leaning",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        563.49,
+        229.5,
+        577.47
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.711477,
+        0.375,
+        0.729129
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        563.49,
+        265.5,
+        577.47
+      ],
+      "bbox_norm": [
+        0.375,
+        0.711477,
+        0.433823,
+        0.729129
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        563.49,
+        301.5,
+        577.47
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.711477,
+        0.492647,
+        0.729129
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "2 | 2"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        563.49,
+        337.5,
+        577.47
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.711477,
+        0.551471,
+        0.729129
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "3 | Section 3"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        563.49,
+        373.5,
+        577.47
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.711477,
+        0.610294,
+        0.729129
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "4 | Section 4"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        563.49,
+        409.5,
+        577.47
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.711477,
+        0.669118,
+        0.729129
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "5 | 5"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        563.49,
+        445.5,
+        577.47
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.711477,
+        0.727941,
+        0.729129
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Total | Total"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        563.49,
+        562.5,
+        577.47
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.711477,
+        0.919118,
+        0.729129
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        577.47,
+        373.5,
+        591.45
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.729129,
+        0.610294,
+        0.74678
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "4 | Section 4"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        577.47,
+        409.5,
+        591.45
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.729129,
+        0.669118,
+        0.74678
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "5 | 5"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        577.47,
+        445.5,
+        591.45
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.729129,
+        0.727941,
+        0.74678
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Total | Total"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        577.47,
+        562.5,
+        591.45
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.729129,
+        0.919118,
+        0.74678
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        591.45,
+        373.5,
+        605.55
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.74678,
+        0.610294,
+        0.764583
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "4 | Section 4"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        591.45,
+        409.5,
+        605.55
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.74678,
+        0.669118,
+        0.764583
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "5 | 5"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        591.45,
+        445.5,
+        605.55
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.74678,
+        0.727941,
+        0.764583
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Total | Total"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        591.45,
+        562.5,
+        605.55
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.74678,
+        0.919118,
+        0.764583
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        605.55,
+        229.5,
+        619.47
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.764583,
+        0.375,
+        0.782159
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        605.55,
+        265.5,
+        619.47
+      ],
+      "bbox_norm": [
+        0.375,
+        0.764583,
+        0.433823,
+        0.782159
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        605.55,
+        301.5,
+        619.47
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.764583,
+        0.492647,
+        0.782159
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "2 | 2"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        605.55,
+        337.5,
+        619.47
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.764583,
+        0.551471,
+        0.782159
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "3 | Section 3"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        605.55,
+        373.5,
+        619.47
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.764583,
+        0.610294,
+        0.782159
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "4 | Section 4"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        605.55,
+        409.5,
+        619.47
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.764583,
+        0.669118,
+        0.782159
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "5 | 5"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        605.55,
+        445.5,
+        619.47
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.764583,
+        0.727941,
+        0.782159
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Total | Total"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        605.55,
+        562.5,
+        619.47
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.764583,
+        0.919118,
+        0.782159
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        619.47,
+        229.5,
+        633.45
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.782159,
+        0.375,
+        0.799811
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        619.47,
+        265.5,
+        633.45
+      ],
+      "bbox_norm": [
+        0.375,
+        0.782159,
+        0.433823,
+        0.799811
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        619.47,
+        301.5,
+        633.45
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.782159,
+        0.492647,
+        0.799811
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "2 | 2"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        619.47,
+        337.5,
+        633.45
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.782159,
+        0.551471,
+        0.799811
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "3 | Section 3"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        619.47,
+        373.5,
+        633.45
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.782159,
+        0.610294,
+        0.799811
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "4 | Section 4"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        619.47,
+        409.5,
+        633.45
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.782159,
+        0.669118,
+        0.799811
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "5 | 5"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        619.47,
+        445.5,
+        633.45
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.782159,
+        0.727941,
+        0.799811
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Total | Total"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        619.47,
+        562.5,
+        633.45
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.782159,
+        0.919118,
+        0.799811
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        633.45,
+        229.5,
+        647.49
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.799811,
+        0.375,
+        0.817538
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        633.45,
+        265.5,
+        647.49
+      ],
+      "bbox_norm": [
+        0.375,
+        0.799811,
+        0.433823,
+        0.817538
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        633.45,
+        301.5,
+        647.49
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.799811,
+        0.492647,
+        0.817538
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "2 | 2"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        633.45,
+        337.5,
+        647.49
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.799811,
+        0.551471,
+        0.817538
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "3 | Section 3"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        633.45,
+        373.5,
+        647.49
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.799811,
+        0.610294,
+        0.817538
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "4 | Section 4"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        633.45,
+        409.5,
+        647.49
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.799811,
+        0.669118,
+        0.817538
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "5 | 5"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        633.45,
+        445.5,
+        647.49
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.799811,
+        0.727941,
+        0.817538
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Total | Total"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        633.45,
+        562.5,
+        647.49
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.799811,
+        0.919118,
+        0.817538
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        647.49,
+        229.5,
+        661.68
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.817538,
+        0.375,
+        0.835455
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        647.49,
+        265.5,
+        661.68
+      ],
+      "bbox_norm": [
+        0.375,
+        0.817538,
+        0.433823,
+        0.835455
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        647.49,
+        301.5,
+        661.68
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.817538,
+        0.492647,
+        0.835455
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "2 | 2"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        647.49,
+        337.5,
+        661.68
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.817538,
+        0.551471,
+        0.835455
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "3 | Section 3"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        647.49,
+        373.5,
+        661.68
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.817538,
+        0.610294,
+        0.835455
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "4 | Section 4"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        647.49,
+        409.5,
+        661.68
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.817538,
+        0.669118,
+        0.835455
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "5 | 5"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        647.49,
+        445.5,
+        661.68
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.817538,
+        0.727941,
+        0.835455
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Total | Total"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        647.49,
+        562.5,
+        661.68
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.817538,
+        0.919118,
+        0.835455
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        661.68,
+        229.5,
+        677.7
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.835455,
+        0.375,
+        0.855682
+      ],
+      "source": "printed",
+      "value": "Section",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Section"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        661.68,
+        265.5,
+        677.7
+      ],
+      "bbox_norm": [
+        0.375,
+        0.835455,
+        0.433823,
+        0.855682
+      ],
+      "source": "printed",
+      "value": "1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        661.68,
+        301.5,
+        677.7
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.835455,
+        0.492647,
+        0.855682
+      ],
+      "source": "printed",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "2"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        661.68,
+        337.5,
+        677.7
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.835455,
+        0.551471,
+        0.855682
+      ],
+      "source": "printed",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "3"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        661.68,
+        373.5,
+        677.7
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.835455,
+        0.610294,
+        0.855682
+      ],
+      "source": "printed",
+      "value": "4",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "4"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        661.68,
+        409.5,
+        677.7
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.835455,
+        0.669118,
+        0.855682
+      ],
+      "source": "printed",
+      "value": "5",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "5"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        661.68,
+        445.5,
+        677.7
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.835455,
+        0.727941,
+        0.855682
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Total | Total | 1 2 3 4 5"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        661.68,
+        562.5,
+        677.7
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.835455,
+        0.919118,
+        0.855682
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | Section 1 2 3 4 5"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        677.7,
+        229.5,
+        693.592
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.855682,
+        0.375,
+        0.875748
+      ],
+      "source": "printed",
+      "value": "Sun (S or C)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Sun (S or C)"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        677.7,
+        265.5,
+        693.592
+      ],
+      "bbox_norm": [
+        0.375,
+        0.855682,
+        0.433823,
+        0.875748
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1 | 1 2 Sun (S or C)"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        677.7,
+        301.5,
+        693.592
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.855682,
+        0.492647,
+        0.875748
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "2 | 2 | 1 2 3 Sun (S or C)"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        677.7,
+        337.5,
+        693.592
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.855682,
+        0.551471,
+        0.875748
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "3 | 3 | 2 3 4 Sun (S or C)"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        337.5,
+        677.7,
+        373.5,
+        693.592
+      ],
+      "bbox_norm": [
+        0.551471,
+        0.855682,
+        0.610294,
+        0.875748
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "4 | 4 | 3 4 5 Sun (S or C)"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        373.5,
+        677.7,
+        409.5,
+        693.592
+      ],
+      "bbox_norm": [
+        0.610294,
+        0.855682,
+        0.669118,
+        0.875748
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "5 | 5 | 4 5 or C)"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        409.5,
+        677.7,
+        445.5,
+        693.592
+      ],
+      "bbox_norm": [
+        0.669118,
+        0.855682,
+        0.727941,
+        0.875748
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Total | Total | 5"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        445.5,
+        677.7,
+        562.5,
+        693.592
+      ],
+      "bbox_norm": [
+        0.727941,
+        0.855682,
+        0.919118,
+        0.875748
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes | 3 4 5 Sun (S or C)"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 0,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        353.49,
+        229.5,
+        381.51
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.446326,
+        0.375,
+        0.481705
+      ],
+      "source": "written",
+      "value": "Hopea parviflora",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Start Time Weather: \u00b0C Temp ________ End % Sun __________ OBSERVED BUTTERFLIES Section Species 1 2 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        353.49,
+        265.5,
+        381.51
+      ],
+      "bbox_norm": [
+        0.375,
+        0.446326,
+        0.433823,
+        0.481705
+      ],
+      "source": "written",
+      "value": "14:10",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "1 | 1 | N _____________________ ________________ Aspect _______________ End Time _____________ \u00b0C ________ Temp BUTTERFLIES 1 2"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 2,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        353.49,
+        301.5,
+        381.51
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.446326,
+        0.492647,
+        0.481705
+      ],
+      "source": "written",
+      "value": "06:20",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "2 | 2 | _____________________ Aspect _______________ End Time _____________ \u00b0C Temp ________ % Sun OBSERVED BUTTERFLIES Section 1 2 3"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 3,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        353.49,
+        337.5,
+        381.51
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.446326,
+        0.551471,
+        0.481705
+      ],
+      "source": "written",
+      "value": "08:40",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "3 | Section 3 | _____________________ E _______________________ Aspect _______________ End Time _____________ \u00b0C ________ % Sun __________ OBSERVED BUTTERFLIES Section 2 3 4"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 0,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        409.47,
+        229.5,
+        437.55
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.517008,
+        0.375,
+        0.552462
+      ],
+      "source": "written",
+      "value": "Litsea nigrescens",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Start Time Weather: \u00b0C Temp ________ End % Sun __________ OBSERVED BUTTERFLIES Section Species 1 2 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        409.47,
+        265.5,
+        437.55
+      ],
+      "bbox_norm": [
+        0.375,
+        0.517008,
+        0.433823,
+        0.552462
+      ],
+      "source": "written",
+      "value": "16:20",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "1 | 1 | _______________ End Time _____________ \u00b0C ________ Temp BUTTERFLIES 1 2"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 2,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        409.47,
+        301.5,
+        437.55
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.517008,
+        0.492647,
+        0.552462
+      ],
+      "source": "written",
+      "value": "15:20",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "2 | 2 | End Time _____________ \u00b0C Temp ________ % Sun OBSERVED BUTTERFLIES Section 1 2 3"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 3,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        409.47,
+        337.5,
+        437.55
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.517008,
+        0.551471,
+        0.552462
+      ],
+      "source": "written",
+      "value": "13:50",
+      "mark": "text",
+      "value_kind": "time",
+      "semantic_context": "3 | Section 3 | End Time _____________ \u00b0C ________ % Sun __________ OBSERVED BUTTERFLIES Section 2 3 4"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 0,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        521.49,
+        229.5,
+        549.51
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.658447,
+        0.375,
+        0.693826
+      ],
+      "source": "written",
+      "value": "Litsea nigrescens",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Species 1 2 3 4 5 Total"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        521.49,
+        265.5,
+        549.51
+      ],
+      "bbox_norm": [
+        0.375,
+        0.658447,
+        0.433823,
+        0.693826
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1 | 1 2"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 2,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        521.49,
+        301.5,
+        549.51
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.658447,
+        0.492647,
+        0.693826
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "2 | 2 | 1 2 3"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 3,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        521.49,
+        337.5,
+        549.51
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.658447,
+        0.551471,
+        0.693826
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "3 | Section 3 | 2 3 4"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 0,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        66.6,
+        577.47,
+        229.5,
+        605.55
+      ],
+      "bbox_norm": [
+        0.108824,
+        0.729129,
+        0.375,
+        0.764583
+      ],
+      "source": "written",
+      "value": "Litsea wightiana",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species | Species"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        229.5,
+        577.47,
+        265.5,
+        605.55
+      ],
+      "bbox_norm": [
+        0.375,
+        0.729129,
+        0.433823,
+        0.764583
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 2,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        265.5,
+        577.47,
+        301.5,
+        605.55
+      ],
+      "bbox_norm": [
+        0.433823,
+        0.729129,
+        0.492647,
+        0.764583
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "2 | 2"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 3,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        301.5,
+        577.47,
+        337.5,
+        605.55
+      ],
+      "bbox_norm": [
+        0.492647,
+        0.729129,
+        0.551471,
+        0.764583
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "code1",
+      "semantic_context": "3 | Section 3"
+    }
+  ]
+}

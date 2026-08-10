@@ -1,0 +1,5556 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nvs_stem_diameter_sapling.pdf",
+  "page": 2,
+  "page_size_points": [
+    595.0,
+    842.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 2,
+      "row": 3,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        72.495,
+        65.1,
+        102.795
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.086098,
+        0.109412,
+        0.122084
+      ],
+      "source": "printed",
+      "value": "/",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        72.495,
+        149.1,
+        102.795
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.086098,
+        0.250588,
+        0.122084
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%(' | !\"# $ % #$&$%' () *\" #+ )%(' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        72.495,
+        207.09,
+        102.795
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.086098,
+        0.34805,
+        0.122084
+      ],
+      "source": "printed",
+      "value": "#",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "#"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        72.495,
+        265.11,
+        102.795
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.086098,
+        0.445563,
+        0.122084
+      ],
+      "source": "printed",
+      "value": "-+",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "-+"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        72.495,
+        323.1,
+        102.795
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.086098,
+        0.543025,
+        0.122084
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | *%( ,'% -) '%.\"' % / # -+"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        72.495,
+        571.65,
+        102.795
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.086098,
+        0.960756,
+        0.122084
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' *%( ,'% -) () *\" #+ )%(' '%.\"' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        102.795,
+        65.1,
+        120.33
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.122084,
+        0.109412,
+        0.142909
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' () *\" #+ )%(' /"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        102.795,
+        149.1,
+        120.33
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.122084,
+        0.250588,
+        0.142909
+      ],
+      "source": "written",
+      "value": "203",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%(' | !\"# $ % #$&$%' () *\" #+ )%(' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        102.795,
+        207.09,
+        120.33
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.122084,
+        0.34805,
+        0.142909
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' #+ )%(' # -+"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        102.795,
+        265.11,
+        120.33
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.122084,
+        0.445563,
+        0.142909
+      ],
+      "source": "written",
+      "value": "198",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        102.795,
+        323.1,
+        120.33
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.122084,
+        0.543025,
+        0.142909
+      ],
+      "source": "written",
+      "value": "29",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        102.795,
+        571.65,
+        120.33
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.122084,
+        0.960756,
+        0.142909
+      ],
+      "source": "written",
+      "value": "84",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' *%( ,'% -) () *\" #+ )%(' '%.\"' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        120.33,
+        65.1,
+        137.64
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.142909,
+        0.109412,
+        0.163467
+      ],
+      "source": "written",
+      "value": "161",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' () *\" #+ )%(' /"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        120.33,
+        149.1,
+        137.64
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.142909,
+        0.250588,
+        0.163467
+      ],
+      "source": "written",
+      "value": "7",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%(' | !\"# $ % #$&$%' () *\" #+ )%(' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        120.33,
+        207.09,
+        137.64
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.142909,
+        0.34805,
+        0.163467
+      ],
+      "source": "written",
+      "value": "126",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' #+ )%(' # -+"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        120.33,
+        265.11,
+        137.64
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.142909,
+        0.445563,
+        0.163467
+      ],
+      "source": "written",
+      "value": "173",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        120.33,
+        323.1,
+        137.64
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.142909,
+        0.543025,
+        0.163467
+      ],
+      "source": "written",
+      "value": "64",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        120.33,
+        571.65,
+        137.64
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.142909,
+        0.960756,
+        0.163467
+      ],
+      "source": "written",
+      "value": "95",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' *%( ,'% -) () *\" #+ )%(' '%.\"' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        137.64,
+        65.1,
+        154.92
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.163467,
+        0.109412,
+        0.18399
+      ],
+      "source": "written",
+      "value": "137",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' () *\" #+ )%(' /"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        137.64,
+        149.1,
+        154.92
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.163467,
+        0.250588,
+        0.18399
+      ],
+      "source": "written",
+      "value": "187",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%(' | !\"# $ % #$&$%' () *\" #+ )%(' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        137.64,
+        207.09,
+        154.92
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.163467,
+        0.34805,
+        0.18399
+      ],
+      "source": "written",
+      "value": "131",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' #+ )%(' # -+"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        137.64,
+        265.11,
+        154.92
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.163467,
+        0.445563,
+        0.18399
+      ],
+      "source": "written",
+      "value": "123",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        137.64,
+        323.1,
+        154.92
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.163467,
+        0.543025,
+        0.18399
+      ],
+      "source": "written",
+      "value": "39",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        137.64,
+        571.65,
+        154.92
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.163467,
+        0.960756,
+        0.18399
+      ],
+      "source": "written",
+      "value": "50",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' *%( ,'% -) () *\" #+ )%(' '%.\"' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        154.92,
+        65.1,
+        172.23
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.18399,
+        0.109412,
+        0.204548
+      ],
+      "source": "written",
+      "value": "166",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' () *\" #+ )%(' /"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        154.92,
+        149.1,
+        172.23
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.18399,
+        0.250588,
+        0.204548
+      ],
+      "source": "written",
+      "value": "26",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%(' | !\"# $ % #$&$%' () *\" #+ )%(' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        154.92,
+        207.09,
+        172.23
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.18399,
+        0.34805,
+        0.204548
+      ],
+      "source": "written",
+      "value": "92",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' #+ )%(' # -+"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        154.92,
+        265.11,
+        172.23
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.18399,
+        0.445563,
+        0.204548
+      ],
+      "source": "written",
+      "value": "193",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        154.92,
+        323.1,
+        172.23
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.18399,
+        0.543025,
+        0.204548
+      ],
+      "source": "written",
+      "value": "91",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        154.92,
+        571.65,
+        172.23
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.18399,
+        0.960756,
+        0.204548
+      ],
+      "source": "written",
+      "value": "62",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' *%( ,'% -) () *\" #+ )%(' '%.\"' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        172.23,
+        65.1,
+        189.54
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.204548,
+        0.109412,
+        0.225106
+      ],
+      "source": "written",
+      "value": "53",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' () *\" #+ )%(' /"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        172.23,
+        149.1,
+        189.54
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.204548,
+        0.250588,
+        0.225106
+      ],
+      "source": "written",
+      "value": "9",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%(' | !\"# $ % #$&$%' () *\" #+ )%(' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        172.23,
+        207.09,
+        189.54
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.204548,
+        0.34805,
+        0.225106
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' #+ )%(' # -+"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        172.23,
+        265.11,
+        189.54
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.204548,
+        0.445563,
+        0.225106
+      ],
+      "source": "written",
+      "value": "193",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        172.23,
+        323.1,
+        189.54
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.204548,
+        0.543025,
+        0.225106
+      ],
+      "source": "written",
+      "value": "51",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        172.23,
+        571.65,
+        189.54
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.204548,
+        0.960756,
+        0.225106
+      ],
+      "source": "written",
+      "value": "72",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' *%( ,'% -) () *\" #+ )%(' '%.\"' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        189.54,
+        65.1,
+        206.82
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.225106,
+        0.109412,
+        0.245629
+      ],
+      "source": "written",
+      "value": "210",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' () *\" #+ )%(' /"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        189.54,
+        149.1,
+        206.82
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.225106,
+        0.250588,
+        0.245629
+      ],
+      "source": "written",
+      "value": "228",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%(' | !\"# $ % #$&$%' () *\" #+ )%(' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        189.54,
+        207.09,
+        206.82
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.225106,
+        0.34805,
+        0.245629
+      ],
+      "source": "written",
+      "value": "179",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' #+ )%(' # -+"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        189.54,
+        265.11,
+        206.82
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.225106,
+        0.445563,
+        0.245629
+      ],
+      "source": "written",
+      "value": "132",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        189.54,
+        323.1,
+        206.82
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.225106,
+        0.543025,
+        0.245629
+      ],
+      "source": "written",
+      "value": "40",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        189.54,
+        571.65,
+        206.82
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.225106,
+        0.960756,
+        0.245629
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' *%( ,'% -) () *\" #+ )%(' '%.\"' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        206.82,
+        65.1,
+        224.13
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.245629,
+        0.109412,
+        0.266187
+      ],
+      "source": "written",
+      "value": "159",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' () *\" #+ )%(' /"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        206.82,
+        149.1,
+        224.13
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.245629,
+        0.250588,
+        0.266187
+      ],
+      "source": "written",
+      "value": "9",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%(' | !\"# $ % #$&$%' () *\" #+ )%(' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        206.82,
+        207.09,
+        224.13
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.245629,
+        0.34805,
+        0.266187
+      ],
+      "source": "written",
+      "value": "151",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' #+ )%(' # -+"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        206.82,
+        265.11,
+        224.13
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.245629,
+        0.445563,
+        0.266187
+      ],
+      "source": "written",
+      "value": "173",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        206.82,
+        323.1,
+        224.13
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.245629,
+        0.543025,
+        0.266187
+      ],
+      "source": "written",
+      "value": "42",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        206.82,
+        571.65,
+        224.13
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.245629,
+        0.960756,
+        0.266187
+      ],
+      "source": "written",
+      "value": "55",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' *%( ,'% -) () *\" #+ )%(' '%.\"' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        224.13,
+        65.1,
+        241.44
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.266187,
+        0.109412,
+        0.286745
+      ],
+      "source": "written",
+      "value": "28",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' () *\" #+ )%(' /"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        224.13,
+        149.1,
+        241.44
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.266187,
+        0.250588,
+        0.286745
+      ],
+      "source": "written",
+      "value": "35",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%(' | !\"# $ % #$&$%' () *\" #+ )%(' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        224.13,
+        207.09,
+        241.44
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.266187,
+        0.34805,
+        0.286745
+      ],
+      "source": "written",
+      "value": "239",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' #+ )%(' # -+"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        224.13,
+        265.11,
+        241.44
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.266187,
+        0.445563,
+        0.286745
+      ],
+      "source": "written",
+      "value": "162",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        224.13,
+        323.1,
+        241.44
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.266187,
+        0.543025,
+        0.286745
+      ],
+      "source": "written",
+      "value": "83",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        224.13,
+        571.65,
+        241.44
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.266187,
+        0.960756,
+        0.286745
+      ],
+      "source": "written",
+      "value": "33",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' *%( ,'% -) () *\" #+ )%(' '%.\"' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        241.44,
+        65.1,
+        258.72
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.286745,
+        0.109412,
+        0.307268
+      ],
+      "source": "written",
+      "value": "117",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' () *\" #+ )%(' /"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        241.44,
+        149.1,
+        258.72
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.286745,
+        0.250588,
+        0.307268
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%(' | !\"# $ % #$&$%' () *\" #+ )%(' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        241.44,
+        207.09,
+        258.72
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.286745,
+        0.34805,
+        0.307268
+      ],
+      "source": "written",
+      "value": "234",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' #+ )%(' # -+"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        241.44,
+        265.11,
+        258.72
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.286745,
+        0.445563,
+        0.307268
+      ],
+      "source": "written",
+      "value": "204",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        241.44,
+        323.1,
+        258.72
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.286745,
+        0.543025,
+        0.307268
+      ],
+      "source": "written",
+      "value": "23",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        241.44,
+        571.65,
+        258.72
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.286745,
+        0.960756,
+        0.307268
+      ],
+      "source": "written",
+      "value": "38",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' *%( ,'% -) () *\" #+ )%(' '%.\"' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        258.72,
+        65.1,
+        276.03
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.307268,
+        0.109412,
+        0.327826
+      ],
+      "source": "written",
+      "value": "86",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "/ | / | !\"# $ % #$&$%' () *\" #+ )%(' /"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        258.72,
+        149.1,
+        276.03
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.307268,
+        0.250588,
+        0.327826
+      ],
+      "source": "written",
+      "value": "217",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%(' | !\"# $ % #$&$%' () *\" #+ )%(' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        258.72,
+        207.09,
+        276.03
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.307268,
+        0.34805,
+        0.327826
+      ],
+      "source": "written",
+      "value": "133",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #$&$%' #+ )%(' # -+"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        258.72,
+        265.11,
+        276.03
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.307268,
+        0.445563,
+        0.327826
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | *%( ,'% '%.\"' % # -+"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        258.72,
+        323.1,
+        276.03
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.307268,
+        0.543025,
+        0.327826
+      ],
+      "source": "written",
+      "value": "27",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | *%( ,'% -) '%.\"' % -+"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        258.72,
+        571.65,
+        276.03
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.307268,
+        0.960756,
+        0.327826
+      ],
+      "source": "written",
+      "value": "53",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | !\"# $ % #$&$%' *%( ,'% -) () *\" #+ )%(' '%.\"' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        276.03,
+        65.1,
+        293.31
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.327826,
+        0.109412,
+        0.348349
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "/ | / | () *\" #+ )%(' /"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        276.03,
+        149.1,
+        293.31
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.327826,
+        0.250588,
+        0.348349
+      ],
+      "source": "written",
+      "value": "166",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%(' | () *\" #+ )%(' / # -+"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        276.03,
+        207.09,
+        293.31
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.327826,
+        0.34805,
+        0.348349
+      ],
+      "source": "written",
+      "value": "76",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | #+ )%(' # -+"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        276.03,
+        265.11,
+        293.31
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.327826,
+        0.445563,
+        0.348349
+      ],
+      "source": "written",
+      "value": "241",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | '%.\"' % # -+"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        276.03,
+        323.1,
+        293.31
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.327826,
+        0.543025,
+        0.348349
+      ],
+      "source": "written",
+      "value": "40",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | '%.\"' % -) -+"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        276.03,
+        571.65,
+        293.31
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.327826,
+        0.960756,
+        0.348349
+      ],
+      "source": "written",
+      "value": "42",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | () *\" #+ )%(' '%.\"' % -) / # -+"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        293.31,
+        65.1,
+        310.62
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.348349,
+        0.109412,
+        0.368907
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | / | /"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        293.31,
+        149.1,
+        310.62
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.348349,
+        0.250588,
+        0.368907
+      ],
+      "source": "written",
+      "value": "33",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%(' | / # -+"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        293.31,
+        207.09,
+        310.62
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.348349,
+        0.34805,
+        0.368907
+      ],
+      "source": "written",
+      "value": "243",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | # | # -+"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        293.31,
+        265.11,
+        310.62
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.348349,
+        0.445563,
+        0.368907
+      ],
+      "source": "written",
+      "value": "103",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "-+ | -+ | # -+"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        293.31,
+        323.1,
+        310.62
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.348349,
+        0.543025,
+        0.368907
+      ],
+      "source": "written",
+      "value": "33",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"' | -+"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        293.31,
+        571.65,
+        310.62
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.348349,
+        0.960756,
+        0.368907
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -) | / # -+"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        310.62,
+        65.1,
+        327.93
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.368907,
+        0.109412,
+        0.389465
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        310.62,
+        149.1,
+        327.93
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.368907,
+        0.250588,
+        0.389465
+      ],
+      "source": "written",
+      "value": "170",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        310.62,
+        207.09,
+        327.93
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.368907,
+        0.34805,
+        0.389465
+      ],
+      "source": "written",
+      "value": "35",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        310.62,
+        265.11,
+        327.93
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.368907,
+        0.445563,
+        0.389465
+      ],
+      "source": "written",
+      "value": "07/11/19",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        310.62,
+        323.1,
+        327.93
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.368907,
+        0.543025,
+        0.389465
+      ],
+      "source": "written",
+      "value": "14",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        310.62,
+        571.65,
+        327.93
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.368907,
+        0.960756,
+        0.389465
+      ],
+      "source": "written",
+      "value": "94",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        327.93,
+        65.1,
+        345.21
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.389465,
+        0.109412,
+        0.409988
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        327.93,
+        149.1,
+        345.21
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.389465,
+        0.250588,
+        0.409988
+      ],
+      "source": "written",
+      "value": "206",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        327.93,
+        207.09,
+        345.21
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.389465,
+        0.34805,
+        0.409988
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        327.93,
+        265.11,
+        345.21
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.389465,
+        0.445563,
+        0.409988
+      ],
+      "source": "written",
+      "value": "15/09/20",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        327.93,
+        323.1,
+        345.21
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.389465,
+        0.543025,
+        0.409988
+      ],
+      "source": "written",
+      "value": "44",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        327.93,
+        571.65,
+        345.21
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.389465,
+        0.960756,
+        0.409988
+      ],
+      "source": "written",
+      "value": "34",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        345.21,
+        65.1,
+        362.52
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.409988,
+        0.109412,
+        0.430546
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        345.21,
+        149.1,
+        362.52
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.409988,
+        0.250588,
+        0.430546
+      ],
+      "source": "written",
+      "value": "52",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        345.21,
+        207.09,
+        362.52
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.409988,
+        0.34805,
+        0.430546
+      ],
+      "source": "written",
+      "value": "41",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        345.21,
+        265.11,
+        362.52
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.409988,
+        0.445563,
+        0.430546
+      ],
+      "source": "written",
+      "value": "16/05/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        345.21,
+        323.1,
+        362.52
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.409988,
+        0.543025,
+        0.430546
+      ],
+      "source": "written",
+      "value": "77",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        345.21,
+        571.65,
+        362.52
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.409988,
+        0.960756,
+        0.430546
+      ],
+      "source": "written",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        362.52,
+        65.1,
+        379.83
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.430546,
+        0.109412,
+        0.451104
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        362.52,
+        149.1,
+        379.83
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.430546,
+        0.250588,
+        0.451104
+      ],
+      "source": "written",
+      "value": "97",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        362.52,
+        207.09,
+        379.83
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.430546,
+        0.34805,
+        0.451104
+      ],
+      "source": "written",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        362.52,
+        265.11,
+        379.83
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.430546,
+        0.445563,
+        0.451104
+      ],
+      "source": "written",
+      "value": "11/04/20",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        362.52,
+        323.1,
+        379.83
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.430546,
+        0.543025,
+        0.451104
+      ],
+      "source": "written",
+      "value": "70",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        362.52,
+        571.65,
+        379.83
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.430546,
+        0.960756,
+        0.451104
+      ],
+      "source": "written",
+      "value": "81",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        379.83,
+        65.1,
+        397.11
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.451104,
+        0.109412,
+        0.471627
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        379.83,
+        149.1,
+        397.11
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.451104,
+        0.250588,
+        0.471627
+      ],
+      "source": "written",
+      "value": "118",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        379.83,
+        207.09,
+        397.11
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.451104,
+        0.34805,
+        0.471627
+      ],
+      "source": "written",
+      "value": "29",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        379.83,
+        265.11,
+        397.11
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.451104,
+        0.445563,
+        0.471627
+      ],
+      "source": "written",
+      "value": "17/10/21",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        379.83,
+        323.1,
+        397.11
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.451104,
+        0.543025,
+        0.471627
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        379.83,
+        571.65,
+        397.11
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.451104,
+        0.960756,
+        0.471627
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        397.11,
+        65.1,
+        414.42
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.471627,
+        0.109412,
+        0.492185
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        397.11,
+        149.1,
+        414.42
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.471627,
+        0.250588,
+        0.492185
+      ],
+      "source": "written",
+      "value": "78",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        397.11,
+        207.09,
+        414.42
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.471627,
+        0.34805,
+        0.492185
+      ],
+      "source": "written",
+      "value": "54",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        397.11,
+        265.11,
+        414.42
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.471627,
+        0.445563,
+        0.492185
+      ],
+      "source": "written",
+      "value": "24/02/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        397.11,
+        323.1,
+        414.42
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.471627,
+        0.543025,
+        0.492185
+      ],
+      "source": "written",
+      "value": "25",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        397.11,
+        571.65,
+        414.42
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.471627,
+        0.960756,
+        0.492185
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        414.42,
+        65.1,
+        431.7
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.492185,
+        0.109412,
+        0.512707
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        414.42,
+        149.1,
+        431.7
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.492185,
+        0.250588,
+        0.512707
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        414.42,
+        207.09,
+        431.7
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.492185,
+        0.34805,
+        0.512707
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        414.42,
+        265.11,
+        431.7
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.492185,
+        0.445563,
+        0.512707
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        414.42,
+        323.1,
+        431.7
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.492185,
+        0.543025,
+        0.512707
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        414.42,
+        571.65,
+        431.7
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.492185,
+        0.960756,
+        0.512707
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        431.7,
+        65.1,
+        449.01
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.512707,
+        0.109412,
+        0.533266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        431.7,
+        149.1,
+        449.01
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.512707,
+        0.250588,
+        0.533266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        431.7,
+        207.09,
+        449.01
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.512707,
+        0.34805,
+        0.533266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        431.7,
+        265.11,
+        449.01
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.512707,
+        0.445563,
+        0.533266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        431.7,
+        323.1,
+        449.01
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.512707,
+        0.543025,
+        0.533266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        431.7,
+        571.65,
+        449.01
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.512707,
+        0.960756,
+        0.533266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        449.01,
+        65.1,
+        466.32
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.533266,
+        0.109412,
+        0.553824
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        449.01,
+        149.1,
+        466.32
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.533266,
+        0.250588,
+        0.553824
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        449.01,
+        207.09,
+        466.32
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.533266,
+        0.34805,
+        0.553824
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        449.01,
+        265.11,
+        466.32
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.533266,
+        0.445563,
+        0.553824
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        449.01,
+        323.1,
+        466.32
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.533266,
+        0.543025,
+        0.553824
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        449.01,
+        571.65,
+        466.32
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.533266,
+        0.960756,
+        0.553824
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        466.32,
+        65.1,
+        483.6
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.553824,
+        0.109412,
+        0.574346
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        466.32,
+        149.1,
+        483.6
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.553824,
+        0.250588,
+        0.574346
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        466.32,
+        207.09,
+        483.6
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.553824,
+        0.34805,
+        0.574346
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        466.32,
+        265.11,
+        483.6
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.553824,
+        0.445563,
+        0.574346
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        466.32,
+        323.1,
+        483.6
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.553824,
+        0.543025,
+        0.574346
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        466.32,
+        571.65,
+        483.6
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.553824,
+        0.960756,
+        0.574346
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        483.6,
+        65.1,
+        500.91
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.574346,
+        0.109412,
+        0.594905
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        483.6,
+        149.1,
+        500.91
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.574346,
+        0.250588,
+        0.594905
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        483.6,
+        207.09,
+        500.91
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.574346,
+        0.34805,
+        0.594905
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        483.6,
+        265.11,
+        500.91
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.574346,
+        0.445563,
+        0.594905
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        483.6,
+        323.1,
+        500.91
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.574346,
+        0.543025,
+        0.594905
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        483.6,
+        571.65,
+        500.91
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.574346,
+        0.960756,
+        0.594905
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        500.91,
+        65.1,
+        518.22
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.594905,
+        0.109412,
+        0.615463
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        500.91,
+        149.1,
+        518.22
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.594905,
+        0.250588,
+        0.615463
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        500.91,
+        207.09,
+        518.22
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.594905,
+        0.34805,
+        0.615463
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        500.91,
+        265.11,
+        518.22
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.594905,
+        0.445563,
+        0.615463
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        500.91,
+        323.1,
+        518.22
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.594905,
+        0.543025,
+        0.615463
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        500.91,
+        571.65,
+        518.22
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.594905,
+        0.960756,
+        0.615463
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        518.22,
+        65.1,
+        535.5
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.615463,
+        0.109412,
+        0.635985
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        518.22,
+        149.1,
+        535.5
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.615463,
+        0.250588,
+        0.635985
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        518.22,
+        207.09,
+        535.5
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.615463,
+        0.34805,
+        0.635985
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        518.22,
+        265.11,
+        535.5
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.615463,
+        0.445563,
+        0.635985
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        518.22,
+        323.1,
+        535.5
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.615463,
+        0.543025,
+        0.635985
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        518.22,
+        571.65,
+        535.5
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.615463,
+        0.960756,
+        0.635985
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        535.5,
+        65.1,
+        552.81
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.635985,
+        0.109412,
+        0.656544
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        535.5,
+        149.1,
+        552.81
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.635985,
+        0.250588,
+        0.656544
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        535.5,
+        207.09,
+        552.81
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.635985,
+        0.34805,
+        0.656544
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        535.5,
+        265.11,
+        552.81
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.635985,
+        0.445563,
+        0.656544
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        535.5,
+        323.1,
+        552.81
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.635985,
+        0.543025,
+        0.656544
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        535.5,
+        571.65,
+        552.81
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.635985,
+        0.960756,
+        0.656544
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        552.81,
+        65.1,
+        570.12
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.656544,
+        0.109412,
+        0.677102
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        552.81,
+        149.1,
+        570.12
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.656544,
+        0.250588,
+        0.677102
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        552.81,
+        207.09,
+        570.12
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.656544,
+        0.34805,
+        0.677102
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        552.81,
+        265.11,
+        570.12
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.656544,
+        0.445563,
+        0.677102
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        552.81,
+        323.1,
+        570.12
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.656544,
+        0.543025,
+        0.677102
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        552.81,
+        571.65,
+        570.12
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.656544,
+        0.960756,
+        0.677102
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        570.12,
+        65.1,
+        587.4
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.677102,
+        0.109412,
+        0.697624
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        570.12,
+        149.1,
+        587.4
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.677102,
+        0.250588,
+        0.697624
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        570.12,
+        207.09,
+        587.4
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.677102,
+        0.34805,
+        0.697624
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        570.12,
+        265.11,
+        587.4
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.677102,
+        0.445563,
+        0.697624
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        570.12,
+        323.1,
+        587.4
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.677102,
+        0.543025,
+        0.697624
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        570.12,
+        571.65,
+        587.4
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.677102,
+        0.960756,
+        0.697624
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        587.4,
+        65.1,
+        604.71
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.697624,
+        0.109412,
+        0.718182
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        587.4,
+        149.1,
+        604.71
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.697624,
+        0.250588,
+        0.718182
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        587.4,
+        207.09,
+        604.71
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.697624,
+        0.34805,
+        0.718182
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        587.4,
+        265.11,
+        604.71
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.697624,
+        0.445563,
+        0.718182
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        587.4,
+        323.1,
+        604.71
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.697624,
+        0.543025,
+        0.718182
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        587.4,
+        571.65,
+        604.71
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.697624,
+        0.960756,
+        0.718182
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        604.71,
+        65.1,
+        621.99
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.718182,
+        0.109412,
+        0.738705
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        604.71,
+        149.1,
+        621.99
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.718182,
+        0.250588,
+        0.738705
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        604.71,
+        207.09,
+        621.99
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.718182,
+        0.34805,
+        0.738705
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        604.71,
+        265.11,
+        621.99
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.718182,
+        0.445563,
+        0.738705
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        604.71,
+        323.1,
+        621.99
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.718182,
+        0.543025,
+        0.738705
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        604.71,
+        571.65,
+        621.99
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.718182,
+        0.960756,
+        0.738705
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        621.99,
+        65.1,
+        639.3
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.738705,
+        0.109412,
+        0.759263
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        621.99,
+        149.1,
+        639.3
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.738705,
+        0.250588,
+        0.759263
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        621.99,
+        207.09,
+        639.3
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.738705,
+        0.34805,
+        0.759263
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        621.99,
+        265.11,
+        639.3
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.738705,
+        0.445563,
+        0.759263
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        621.99,
+        323.1,
+        639.3
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.738705,
+        0.543025,
+        0.759263
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        621.99,
+        571.65,
+        639.3
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.738705,
+        0.960756,
+        0.759263
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        639.3,
+        65.1,
+        656.61
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.759263,
+        0.109412,
+        0.779821
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        639.3,
+        149.1,
+        656.61
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.759263,
+        0.250588,
+        0.779821
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        639.3,
+        207.09,
+        656.61
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.759263,
+        0.34805,
+        0.779821
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        639.3,
+        265.11,
+        656.61
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.759263,
+        0.445563,
+        0.779821
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        639.3,
+        323.1,
+        656.61
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.759263,
+        0.543025,
+        0.779821
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        639.3,
+        571.65,
+        656.61
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.759263,
+        0.960756,
+        0.779821
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        656.61,
+        65.1,
+        673.89
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.779821,
+        0.109412,
+        0.800344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        656.61,
+        149.1,
+        673.89
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.779821,
+        0.250588,
+        0.800344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        656.61,
+        207.09,
+        673.89
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.779821,
+        0.34805,
+        0.800344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        656.61,
+        265.11,
+        673.89
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.779821,
+        0.445563,
+        0.800344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        656.61,
+        323.1,
+        673.89
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.779821,
+        0.543025,
+        0.800344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        656.61,
+        571.65,
+        673.89
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.779821,
+        0.960756,
+        0.800344
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        673.89,
+        65.1,
+        691.2
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.800344,
+        0.109412,
+        0.820902
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        673.89,
+        149.1,
+        691.2
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.800344,
+        0.250588,
+        0.820902
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        673.89,
+        207.09,
+        691.2
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.800344,
+        0.34805,
+        0.820902
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        673.89,
+        265.11,
+        691.2
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.800344,
+        0.445563,
+        0.820902
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        673.89,
+        323.1,
+        691.2
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.800344,
+        0.543025,
+        0.820902
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        673.89,
+        571.65,
+        691.2
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.800344,
+        0.960756,
+        0.820902
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        691.2,
+        65.1,
+        708.51
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.820902,
+        0.109412,
+        0.84146
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        691.2,
+        149.1,
+        708.51
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.820902,
+        0.250588,
+        0.84146
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        691.2,
+        207.09,
+        708.51
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.820902,
+        0.34805,
+        0.84146
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        691.2,
+        265.11,
+        708.51
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.820902,
+        0.445563,
+        0.84146
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        691.2,
+        323.1,
+        708.51
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.820902,
+        0.543025,
+        0.84146
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        691.2,
+        571.65,
+        708.51
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.820902,
+        0.960756,
+        0.84146
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        708.51,
+        65.1,
+        725.79
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.84146,
+        0.109412,
+        0.861983
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        708.51,
+        149.1,
+        725.79
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.84146,
+        0.250588,
+        0.861983
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        708.51,
+        207.09,
+        725.79
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.84146,
+        0.34805,
+        0.861983
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        708.51,
+        265.11,
+        725.79
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.84146,
+        0.445563,
+        0.861983
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        708.51,
+        323.1,
+        725.79
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.84146,
+        0.543025,
+        0.861983
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        708.51,
+        571.65,
+        725.79
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.84146,
+        0.960756,
+        0.861983
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        725.79,
+        65.1,
+        743.1
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.861983,
+        0.109412,
+        0.882541
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        725.79,
+        149.1,
+        743.1
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.861983,
+        0.250588,
+        0.882541
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        725.79,
+        207.09,
+        743.1
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.861983,
+        0.34805,
+        0.882541
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        725.79,
+        265.11,
+        743.1
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.861983,
+        0.445563,
+        0.882541
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        725.79,
+        323.1,
+        743.1
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.861983,
+        0.543025,
+        0.882541
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        725.79,
+        571.65,
+        743.1
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.861983,
+        0.960756,
+        0.882541
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        743.1,
+        65.1,
+        760.38
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.882541,
+        0.109412,
+        0.903064
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        743.1,
+        149.1,
+        760.38
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.882541,
+        0.250588,
+        0.903064
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        743.1,
+        207.09,
+        760.38
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.882541,
+        0.34805,
+        0.903064
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        743.1,
+        265.11,
+        760.38
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.882541,
+        0.445563,
+        0.903064
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        743.1,
+        323.1,
+        760.38
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.882541,
+        0.543025,
+        0.903064
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 41,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        743.1,
+        571.65,
+        760.38
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.882541,
+        0.960756,
+        0.903064
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 42,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        760.38,
+        65.1,
+        777.69
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.903064,
+        0.109412,
+        0.923622
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 42,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        760.38,
+        149.1,
+        777.69
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.903064,
+        0.250588,
+        0.923622
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 42,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        760.38,
+        207.09,
+        777.69
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.903064,
+        0.34805,
+        0.923622
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 42,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        760.38,
+        265.11,
+        777.69
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.903064,
+        0.445563,
+        0.923622
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 42,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        760.38,
+        323.1,
+        777.69
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.903064,
+        0.543025,
+        0.923622
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 42,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        760.38,
+        571.65,
+        777.69
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.903064,
+        0.960756,
+        0.923622
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 43,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        777.69,
+        65.1,
+        795.0
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.923622,
+        0.109412,
+        0.94418
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 43,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        777.69,
+        149.1,
+        795.0
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.923622,
+        0.250588,
+        0.94418
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 43,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        777.69,
+        207.09,
+        795.0
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.923622,
+        0.34805,
+        0.94418
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 43,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        777.69,
+        265.11,
+        795.0
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.923622,
+        0.445563,
+        0.94418
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 43,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        777.69,
+        323.1,
+        795.0
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.923622,
+        0.543025,
+        0.94418
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 43,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        777.69,
+        571.65,
+        795.0
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.923622,
+        0.960756,
+        0.94418
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    },
+    {
+      "page": 2,
+      "row": 44,
+      "col": 0,
+      "bbox_points": [
+        27.3,
+        795.0,
+        65.1,
+        812.28
+      ],
+      "bbox_norm": [
+        0.045882,
+        0.94418,
+        0.109412,
+        0.964703
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "/ | /"
+    },
+    {
+      "page": 2,
+      "row": 44,
+      "col": 1,
+      "bbox_points": [
+        65.1,
+        795.0,
+        149.1,
+        812.28
+      ],
+      "bbox_norm": [
+        0.109412,
+        0.94418,
+        0.250588,
+        0.964703
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "% #$&$%' #+ )%('"
+    },
+    {
+      "page": 2,
+      "row": 44,
+      "col": 2,
+      "bbox_points": [
+        149.1,
+        795.0,
+        207.09,
+        812.28
+      ],
+      "bbox_norm": [
+        0.250588,
+        0.94418,
+        0.34805,
+        0.964703
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "# | #"
+    },
+    {
+      "page": 2,
+      "row": 44,
+      "col": 3,
+      "bbox_points": [
+        207.09,
+        795.0,
+        265.11,
+        812.28
+      ],
+      "bbox_norm": [
+        0.34805,
+        0.94418,
+        0.445563,
+        0.964703
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "-+ | -+"
+    },
+    {
+      "page": 2,
+      "row": 44,
+      "col": 4,
+      "bbox_points": [
+        265.11,
+        795.0,
+        323.1,
+        812.28
+      ],
+      "bbox_norm": [
+        0.445563,
+        0.94418,
+        0.543025,
+        0.964703
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "*%( '%.\"'"
+    },
+    {
+      "page": 2,
+      "row": 44,
+      "col": 5,
+      "bbox_points": [
+        323.1,
+        795.0,
+        571.65,
+        812.28
+      ],
+      "bbox_norm": [
+        0.543025,
+        0.94418,
+        0.960756,
+        0.964703
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": ",'% -) % -)"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "iwla_save_our_streams_quality_survey.pdf",
+  "page": 1,
+  "page_size_points": [
+    612.0,
+    792.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 0,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        105.28,
+        36.24,
+        576.003,
+        60.24
+      ],
+      "bbox_norm": [
+        0.172026,
+        0.045758,
+        0.941181,
+        0.076061
+      ],
+      "source": "printed",
+      "value": "THE IZAAK WALTON LEAGUE OF AMERICA",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "THE IZAAK WALTON LEAGUE OF AMERICA"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        36.477,
+        432.48,
+        105.28,
+        502.8
+      ],
+      "bbox_norm": [
+        0.059603,
+        0.546061,
+        0.172026,
+        0.634848
+      ],
+      "source": "printed",
+      "value": "Macroinvertebrate Indicate if the the correct category. totals from each index value. E.g.,",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Macroinvertebrate Indicate if the the correct category. totals from each index value. E.g.,"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        36.477,
+        516.058,
+        216.902,
+        638.149
+      ],
+      "bbox_norm": [
+        0.059603,
+        0.651589,
+        0.354415,
+        0.805743
+      ],
+      "source": "printed",
+      "value": "SENSITIVE _____ Caddisflies (except net spinners) _____ Mayflies _____ Stoneflies _____ Water snipe flies _____ Riffle beetles _____ Water pennies _____ Gilled snails",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "SENSITIVE _____ Caddisflies (except net spinners) _____ Mayflies _____ Stoneflies _____ Water snipe flies _____ Riffle beetles _____ Water pennies _____ Gilled snails"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        216.902,
+        516.058,
+        396.422,
+        638.149
+      ],
+      "bbox_norm": [
+        0.354415,
+        0.651589,
+        0.647748,
+        0.805743
+      ],
+      "source": "printed",
+      "value": "LESS SENSITIVE _____ Dobsonflies _____ Alderflies _____ Fishflies _____ Crayfish _____ Common _____ Scuds net spinning _____ Aquatic Caddisflies sowbugs _____ Crane flies _____ Clams _____ Damselflies _____ Mussels _____ Dragonflies",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "LESS SENSITIVE _____ Dobsonflies _____ Alderflies _____ Fishflies _____ Crayfish _____ Common _____ Scuds net spinning _____ Aquatic Caddisflies sowbugs _____ Crane flies _____ Clams _____ Damselflies _____ Mussels _____ Dragonflies"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        396.422,
+        516.058,
+        576.003,
+        638.149
+      ],
+      "bbox_norm": [
+        0.647748,
+        0.651589,
+        0.941181,
+        0.805743
+      ],
+      "source": "printed",
+      "value": "TOLERANT _____ Aquatic worms _____ Black flies _____ Midge flies _____ Leeches _____ Lunged snails",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "TOLERANT _____ Aquatic worms _____ Black flies _____ Midge flies _____ Leeches _____ Lunged snails"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        36.477,
+        706.08,
+        105.28,
+        721.44
+      ],
+      "bbox_norm": [
+        0.059603,
+        0.891515,
+        0.172026,
+        0.910909
+      ],
+      "source": "printed",
+      "value": "Compare the final",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Compare the final"
+    },
+    {
+      "page": 1,
+      "row": 28,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        36.477,
+        721.44,
+        105.28,
+        756.24
+      ],
+      "bbox_norm": [
+        0.059603,
+        0.910909,
+        0.172026,
+        0.954848
+      ],
+      "source": "printed",
+      "value": "Water Quality _____ Excellent (",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Water Quality _____ Excellent ("
+    },
+    {
+      "page": 1,
+      "row": 0,
+      "col": 0,
+      "rowspan": 5,
+      "colspan": 1,
+      "bbox_points": [
+        36.477,
+        36.24,
+        105.28,
+        108.72
+      ],
+      "bbox_norm": [
+        0.059603,
+        0.045758,
+        0.172026,
+        0.137273
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "THE IZAAK WALTON LEAGUE Save Our Streams Date Stream Quality Survey Time"
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "col": 1,
+      "rowspan": 5,
+      "colspan": 2,
+      "bbox_points": [
+        105.28,
+        63.96,
+        341.04,
+        139.44
+      ],
+      "bbox_norm": [
+        0.172026,
+        0.080758,
+        0.557255,
+        0.176061
+      ],
+      "source": "printed",
+      "value": "Save Our Streams Stream Quality Survey",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Save Our Streams Stream Quality Survey"
+    }
+  ]
+}

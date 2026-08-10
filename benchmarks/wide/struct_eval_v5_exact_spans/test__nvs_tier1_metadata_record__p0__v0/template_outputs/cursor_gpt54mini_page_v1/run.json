@@ -1,0 +1,225 @@
+{
+  "form": "test__nvs_tier1_metadata_record__p0__v0",
+  "template": "nvs_tier1_metadata_record.pdf",
+  "page": 1,
+  "input_page": 1,
+  "template_page": 1,
+  "provider": "external",
+  "model": "gpt-5.4-mini-low",
+  "mode": "page",
+  "tag": "cursor_gpt54mini_page_v1",
+  "aligned": false,
+  "cells": 70,
+  "targets": 39,
+  "decisions": 39,
+  "missing": [],
+  "extra": [],
+  "duplicates": [],
+  "calls": [
+    {
+      "batch": 0,
+      "model": "gpt-5.4-mini-low-via-cursor-cli",
+      "in_tok": null,
+      "out_tok": null,
+      "cost_usd": null,
+      "latency_s": null,
+      "accounting_note": "Cursor subscription agent did not expose attributable request cost or token usage"
+    }
+  ],
+  "cost_usd": null,
+  "cost_complete": false,
+  "latency_s": null,
+  "latency_complete": false,
+  "wall_s": 0.1,
+  "literal": {
+    "golden_kind": "literal_writable_cells",
+    "strict_metrics_are_headline": true,
+    "printed_cells_excluded": true,
+    "writable_cells_including_blanks": 39,
+    "written_nonblank": 16,
+    "blank_or_struck": 23,
+    "exact_written": {
+      "precision": 0.3333,
+      "recall": 0.0625,
+      "f1": 0.1053
+    },
+    "all_writable_accuracy": 0.6154,
+    "blank_specificity": 1.0,
+    "modal_oracle": {
+      "description": "oracle written positions plus per-column mode; reads no pixels",
+      "exact_written_recall": 0.375
+    },
+    "errors": {
+      "wrong": 2,
+      "omitted": 13,
+      "false_fill": 0,
+      "total": 15
+    },
+    "error_cell_ids": {
+      "wrong": [
+        "r34_c5",
+        "r35_c12"
+      ],
+      "omitted": [
+        "r29_c5",
+        "r31_c12",
+        "r31_c15",
+        "r31_c19",
+        "r33_c12",
+        "r33_c15",
+        "r33_c21",
+        "r33_c5",
+        "r34_c15",
+        "r34_c21",
+        "r34_c24",
+        "r35_c15",
+        "r35_c5"
+      ],
+      "false_fill": []
+    },
+    "accuracy_by_value_kind": {
+      "code1": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      },
+      "dec": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      },
+      "int": {
+        "correct": 15,
+        "total": 24,
+        "accuracy": 0.625
+      },
+      "short": {
+        "correct": 1,
+        "total": 3,
+        "accuracy": 0.3333
+      },
+      "time": {
+        "correct": 3,
+        "total": 7,
+        "accuracy": 0.4286
+      },
+      "yn": {
+        "correct": 1,
+        "total": 1,
+        "accuracy": 1.0
+      }
+    },
+    "accuracy_by_mark": {
+      "blank": {
+        "correct": 23,
+        "total": 23,
+        "accuracy": 1.0
+      },
+      "text": {
+        "correct": 1,
+        "total": 16,
+        "accuracy": 0.0625
+      }
+    },
+    "confidence_review_curve": [
+      {
+        "confidence_lte": 0.5,
+        "reviewed": 36,
+        "review_fraction": 0.9231,
+        "caught_errors": 13,
+        "error_recall": 0.8667,
+        "queue_precision": 0.3611
+      },
+      {
+        "confidence_lte": 0.6,
+        "reviewed": 36,
+        "review_fraction": 0.9231,
+        "caught_errors": 13,
+        "error_recall": 0.8667,
+        "queue_precision": 0.3611
+      },
+      {
+        "confidence_lte": 0.7,
+        "reviewed": 37,
+        "review_fraction": 0.9487,
+        "caught_errors": 14,
+        "error_recall": 0.9333,
+        "queue_precision": 0.3784
+      },
+      {
+        "confidence_lte": 0.8,
+        "reviewed": 38,
+        "review_fraction": 0.9744,
+        "caught_errors": 15,
+        "error_recall": 1.0,
+        "queue_precision": 0.3947
+      },
+      {
+        "confidence_lte": 0.9,
+        "reviewed": 39,
+        "review_fraction": 1.0,
+        "caught_errors": 15,
+        "error_recall": 1.0,
+        "queue_precision": 0.3846
+      }
+    ]
+  },
+  "integrity": {
+    "golden_kind": "exact_layout",
+    "strict_metrics_are_headline": true,
+    "golden_cells": 47,
+    "candidate_cells": 34,
+    "cell_count_ratio": 0.7234,
+    "pages": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "golden": 1,
+      "candidate": 1
+    },
+    "content_anywhere": {
+      "precision": 0.9412,
+      "recall": 0.6809,
+      "f1": 0.7901
+    },
+    "occupied_position": {
+      "precision": 1.0,
+      "recall": 0.7234,
+      "f1": 0.8395
+    },
+    "exact_cell": {
+      "precision": 0.9412,
+      "recall": 0.6809,
+      "f1": 0.7901
+    },
+    "class_imbalance_resistant": {
+      "offmode_accuracy_all": 0.7188,
+      "offmode_n": 32,
+      "balanced_class_recall": 0.6809,
+      "silent_columns": 1
+    },
+    "oracle_modal_control": {
+      "description": "oracle occupied positions plus per-page/column modes; reads no pixels",
+      "exact_cell_recall": 0.3191,
+      "content_anywhere_f1": 0.3191,
+      "constant_columns": 4,
+      "candidate_content_f1_lift": 0.471,
+      "candidate_exact_recall_lift": 0.3618
+    },
+    "errors": {
+      "omitted": 13,
+      "wrong_value_at_occupied_position": 2,
+      "false_fill_or_extra_position": 0,
+      "duplicate_row_excess": 0
+    },
+    "shape": {
+      "row_extent_ratio": 1.0,
+      "column_extent_ratio": 1.0
+    },
+    "constancy": {
+      "max_excess_over_golden": 0.0333,
+      "candidate_columns_ge_0_98": 0,
+      "golden_columns_ge_0_98": 0
+    }
+  }
+}

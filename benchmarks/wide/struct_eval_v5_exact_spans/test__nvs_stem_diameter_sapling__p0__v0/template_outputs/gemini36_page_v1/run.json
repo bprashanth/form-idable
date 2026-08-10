@@ -1,0 +1,203 @@
+{
+  "form": "test__nvs_stem_diameter_sapling__p0__v0",
+  "template": "nvs_stem_diameter_sapling.pdf",
+  "page": 1,
+  "input_page": 1,
+  "template_page": 1,
+  "provider": "gemini",
+  "model": "gemini-3.6-flash",
+  "mode": "page",
+  "tag": "gemini36_page_v1",
+  "aligned": false,
+  "cells": 240,
+  "targets": 234,
+  "decisions": 234,
+  "missing": [],
+  "extra": [],
+  "duplicates": [],
+  "calls": [
+    {
+      "batch": 0,
+      "model": "gemini-3.6-flash",
+      "in_tok": 17405,
+      "out_tok": 8533,
+      "thinking_tok": 0,
+      "cost_usd": 0.0901,
+      "latency_s": 41.4
+    }
+  ],
+  "cost_usd": 0.0901,
+  "cost_complete": true,
+  "latency_s": 41.4,
+  "latency_complete": true,
+  "wall_s": 0.0,
+  "literal": {
+    "golden_kind": "literal_writable_cells",
+    "strict_metrics_are_headline": true,
+    "printed_cells_excluded": true,
+    "writable_cells_including_blanks": 237,
+    "written_nonblank": 52,
+    "blank_or_struck": 185,
+    "exact_written": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "all_writable_accuracy": 1.0,
+    "blank_specificity": 1.0,
+    "modal_oracle": {
+      "description": "oracle written positions plus per-column mode; reads no pixels",
+      "exact_written_recall": 0.1346
+    },
+    "errors": {
+      "wrong": 0,
+      "omitted": 0,
+      "false_fill": 0,
+      "total": 0
+    },
+    "error_cell_ids": {
+      "wrong": [],
+      "omitted": [],
+      "false_fill": []
+    },
+    "accuracy_by_value_kind": {
+      "code1": {
+        "correct": 27,
+        "total": 27,
+        "accuracy": 1.0
+      },
+      "int": {
+        "correct": 130,
+        "total": 130,
+        "accuracy": 1.0
+      },
+      "percent": {
+        "correct": 80,
+        "total": 80,
+        "accuracy": 1.0
+      }
+    },
+    "accuracy_by_mark": {
+      "blank": {
+        "correct": 182,
+        "total": 182,
+        "accuracy": 1.0
+      },
+      "dot": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      },
+      "strike": {
+        "correct": 3,
+        "total": 3,
+        "accuracy": 1.0
+      },
+      "text": {
+        "correct": 50,
+        "total": 50,
+        "accuracy": 1.0
+      }
+    },
+    "confidence_review_curve": [
+      {
+        "confidence_lte": 0.5,
+        "reviewed": 3,
+        "review_fraction": 0.0127,
+        "caught_errors": 0,
+        "error_recall": null,
+        "queue_precision": 0.0
+      },
+      {
+        "confidence_lte": 0.6,
+        "reviewed": 3,
+        "review_fraction": 0.0127,
+        "caught_errors": 0,
+        "error_recall": null,
+        "queue_precision": 0.0
+      },
+      {
+        "confidence_lte": 0.7,
+        "reviewed": 3,
+        "review_fraction": 0.0127,
+        "caught_errors": 0,
+        "error_recall": null,
+        "queue_precision": 0.0
+      },
+      {
+        "confidence_lte": 0.8,
+        "reviewed": 3,
+        "review_fraction": 0.0127,
+        "caught_errors": 0,
+        "error_recall": null,
+        "queue_precision": 0.0
+      },
+      {
+        "confidence_lte": 0.9,
+        "reviewed": 3,
+        "review_fraction": 0.0127,
+        "caught_errors": 0,
+        "error_recall": null,
+        "queue_precision": 0.0
+      }
+    ]
+  },
+  "integrity": {
+    "golden_kind": "exact_layout",
+    "strict_metrics_are_headline": true,
+    "golden_cells": 55,
+    "candidate_cells": 55,
+    "cell_count_ratio": 1.0,
+    "pages": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "golden": 1,
+      "candidate": 1
+    },
+    "content_anywhere": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "occupied_position": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "exact_cell": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "class_imbalance_resistant": {
+      "offmode_accuracy_all": 1.0,
+      "offmode_n": 48,
+      "balanced_class_recall": 1.0,
+      "silent_columns": 0
+    },
+    "oracle_modal_control": {
+      "description": "oracle occupied positions plus per-page/column modes; reads no pixels",
+      "exact_cell_recall": 0.1273,
+      "content_anywhere_f1": 0.1273,
+      "constant_columns": 6,
+      "candidate_content_f1_lift": 0.8727,
+      "candidate_exact_recall_lift": 0.8727
+    },
+    "errors": {
+      "omitted": 0,
+      "wrong_value_at_occupied_position": 0,
+      "false_fill_or_extra_position": 0,
+      "duplicate_row_excess": 0
+    },
+    "shape": {
+      "row_extent_ratio": 1.0,
+      "column_extent_ratio": 1.0
+    },
+    "constancy": {
+      "max_excess_over_golden": 0.0,
+      "candidate_columns_ge_0_98": 0,
+      "golden_columns_ge_0_98": 0
+    }
+  }
+}

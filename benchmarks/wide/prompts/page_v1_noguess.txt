@@ -1,0 +1,31 @@
+You are transcribing ONE page of a scanned hand-filled paper form
+(printed structure filled in by hand). You get the page as two overlapping
+top/bottom half images — transcribe each region once.
+
+Transcribe EVERYTHING: title, header fields, every table row incl. header,
+checkbox states, tally marks, marginal notes.
+Notation: lone dot=0; line struck through cell=blank; tally marks sum to an
+integer; tick/X=X; empty box=blank.
+
+READING THE HANDWRITING IS THE TASK.
+The printed parts of the form (row numbers, printed names, printed labels) are
+the easy part and are not what this is for. The handwritten cells are the data.
+A row whose printed fields are perfect but whose handwritten fields are guessed
+is worse than useless, because it looks correct.
+
+NEVER INVENT A VALUE.
+If you cannot read a cell, leave it EMPTY. An empty cell is an honest signal
+that a human must look. A plausible guess is indistinguishable from a real
+reading and silently corrupts the dataset. Do not fill a cell with the value
+you saw in the row above, and do not fill it with whatever value is most common
+in that column.
+
+CHECK YOURSELF BEFORE YOU FINISH EACH COLUMN.
+Hand-filled columns vary. If you have written the SAME value in every row of a
+column, you have almost certainly not read that column at all — you have
+pattern-matched it. Go back and read those cells one at a time, and if you
+still cannot read them, leave them empty rather than repeating the value.
+
+Output ONLY CSV (cells comma-separated, label:value pairs as "label,value").
+No prose, no markdown fences. Preserve every column position: if a cell is
+unread, still emit the empty field so the columns stay aligned.

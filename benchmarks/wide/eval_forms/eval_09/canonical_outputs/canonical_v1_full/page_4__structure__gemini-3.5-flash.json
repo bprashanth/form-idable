@@ -1,0 +1,212 @@
+{
+  "page": 1,
+  "metadata_fields": [
+    {
+      "id": "trail",
+      "label": "Trail",
+      "bbox": [
+        0.084,
+        0.111,
+        0.234,
+        0.132
+      ]
+    },
+    {
+      "id": "date",
+      "label": "Date",
+      "bbox": [
+        0.281,
+        0.101,
+        0.371,
+        0.141
+      ]
+    },
+    {
+      "id": "observers",
+      "label": "Observers",
+      "bbox": [
+        0.438,
+        0.75,
+        0.655,
+        0.132
+      ]
+    },
+    {
+      "id": "weather",
+      "label": "Weather",
+      "bbox": [
+        0.083,
+        0.144,
+        0.234,
+        0.168
+      ]
+    },
+    {
+      "id": "notes",
+      "label": "Notes",
+      "bbox": [
+        0.281,
+        0.141,
+        0.371,
+        0.165
+      ]
+    },
+    {
+      "id": "start_time",
+      "label": "Start time",
+      "bbox": [
+        0.438,
+        0.132,
+        0.615,
+        0.162
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "observation_table",
+      "title": "Observation Table",
+      "bbox": [
+        0.078,
+        0.156,
+        0.895,
+        0.931
+      ],
+      "estimated_rows": 42,
+      "columns": [
+        {
+          "id": "col_tree_no",
+          "label": "Tree No",
+          "parent": null,
+          "value_kind": "integer",
+          "x0": 0.078,
+          "x1": 0.122
+        },
+        {
+          "id": "col_species",
+          "label": "Species",
+          "parent": null,
+          "value_kind": "species",
+          "x0": 0.122,
+          "x1": 0.258
+        },
+        {
+          "id": "col_h",
+          "label": "H (m)",
+          "parent": null,
+          "value_kind": "decimal",
+          "x0": 0.258,
+          "x1": 0.288
+        },
+        {
+          "id": "col_gbh",
+          "label": "GBH (cm)",
+          "parent": null,
+          "value_kind": "integer",
+          "x0": 0.288,
+          "x1": 0.318
+        },
+        {
+          "id": "col_multistem",
+          "label": "Multistem",
+          "parent": null,
+          "value_kind": "free_text",
+          "x0": 0.318,
+          "x1": 0.442
+        },
+        {
+          "id": "col_leaves_flush",
+          "label": "Flush",
+          "parent": "LEAVES",
+          "value_kind": "categorical_code",
+          "x0": 0.442,
+          "x1": 0.481
+        },
+        {
+          "id": "col_leaves_mature",
+          "label": "Mature",
+          "parent": "LEAVES",
+          "value_kind": "categorical_code",
+          "x0": 0.481,
+          "x1": 0.521
+        },
+        {
+          "id": "col_leaves_fallen",
+          "label": "Fallen",
+          "parent": "LEAVES",
+          "value_kind": "categorical_code",
+          "x0": 0.521,
+          "x1": 0.561
+        },
+        {
+          "id": "col_flowers_buds",
+          "label": "Buds",
+          "parent": "FLOWERS",
+          "value_kind": "categorical_code",
+          "x0": 0.561,
+          "x1": 0.601
+        },
+        {
+          "id": "col_flowers_open",
+          "label": "Open",
+          "parent": "FLOWERS",
+          "value_kind": "categorical_code",
+          "x0": 0.601,
+          "x1": 0.641
+        },
+        {
+          "id": "col_flowers_fallen",
+          "label": "Fallen",
+          "parent": "FLOWERS",
+          "value_kind": "categorical_code",
+          "x0": 0.641,
+          "x1": 0.681
+        },
+        {
+          "id": "col_fruits_unripe",
+          "label": "Unripe",
+          "parent": "FRUITS",
+          "value_kind": "categorical_code",
+          "x0": 0.681,
+          "x1": 0.721
+        },
+        {
+          "id": "col_fruits_ripe",
+          "label": "Ripe",
+          "parent": "FRUITS",
+          "value_kind": "categorical_code",
+          "x0": 0.721,
+          "x1": 0.761
+        },
+        {
+          "id": "col_fruits_fallen",
+          "label": "Fallen",
+          "parent": "FRUITS",
+          "value_kind": "categorical_code",
+          "x0": 0.761,
+          "x1": 0.801
+        },
+        {
+          "id": "col_notes",
+          "label": "Notes",
+          "parent": null,
+          "value_kind": "free_text",
+          "x0": 0.801,
+          "x1": 0.895
+        }
+      ]
+    }
+  ],
+  "free_text_regions": [
+    {
+      "id": "page_number",
+      "label": "Page Number Annotation",
+      "bbox": [
+        0.855,
+        0.025,
+        0.885,
+        0.065
+      ]
+    }
+  ]
+}

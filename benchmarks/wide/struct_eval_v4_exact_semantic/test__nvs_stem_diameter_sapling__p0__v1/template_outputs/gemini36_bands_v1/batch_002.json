@@ -1,0 +1,292 @@
+{
+  "cells": [
+    {
+      "cell_id": "r21_c0",
+      "value": "T",
+      "confidence": 0.95,
+      "evidence": "handwritten character 'T' in r21_c0"
+    },
+    {
+      "cell_id": "r21_c1",
+      "value": "115",
+      "confidence": 0.9,
+      "evidence": "handwritten number '115' in r21_c1"
+    },
+    {
+      "cell_id": "r21_c2",
+      "value": "91",
+      "confidence": 0.95,
+      "evidence": "handwritten number '91' in r21_c2"
+    },
+    {
+      "cell_id": "r21_c3",
+      "value": "132",
+      "confidence": 0.95,
+      "evidence": "handwritten number '132' in r21_c3"
+    },
+    {
+      "cell_id": "r21_c4",
+      "value": "90",
+      "confidence": 0.95,
+      "evidence": "handwritten number '90' in r21_c4"
+    },
+    {
+      "cell_id": "r21_c5",
+      "value": "22",
+      "confidence": 0.85,
+      "evidence": "handwritten number '22' in r21_c5"
+    },
+    {
+      "cell_id": "r22_c0",
+      "value": "L",
+      "confidence": 0.95,
+      "evidence": "handwritten character 'L' in r22_c0"
+    },
+    {
+      "cell_id": "r22_c1",
+      "value": "201",
+      "confidence": 0.95,
+      "evidence": "handwritten number '201' in r22_c1"
+    },
+    {
+      "cell_id": "r22_c2",
+      "value": "137",
+      "confidence": 0.9,
+      "evidence": "handwritten number '137' in r22_c2"
+    },
+    {
+      "cell_id": "r22_c3",
+      "value": "131",
+      "confidence": 0.9,
+      "evidence": "handwritten number '131' in r22_c3"
+    },
+    {
+      "cell_id": "r22_c4",
+      "value": "77",
+      "confidence": 0.95,
+      "evidence": "handwritten number '77' in r22_c4"
+    },
+    {
+      "cell_id": "r22_c5",
+      "value": "26",
+      "confidence": 0.95,
+      "evidence": "handwritten number '26' in r22_c5"
+    },
+    {
+      "cell_id": "r23_c0",
+      "value": "N",
+      "confidence": 0.95,
+      "evidence": "handwritten character 'N' in r23_c0"
+    },
+    {
+      "cell_id": "r23_c1",
+      "value": "58",
+      "confidence": 0.95,
+      "evidence": "handwritten number '58' in r23_c1"
+    },
+    {
+      "cell_id": "r23_c2",
+      "value": "17",
+      "confidence": 0.95,
+      "evidence": "handwritten number '17' in r23_c2"
+    },
+    {
+      "cell_id": "r23_c3",
+      "value": "136",
+      "confidence": 0.95,
+      "evidence": "handwritten number '136' in r23_c3"
+    },
+    {
+      "cell_id": "r23_c4",
+      "value": "93",
+      "confidence": 0.95,
+      "evidence": "handwritten number '93' in r23_c4"
+    },
+    {
+      "cell_id": "r23_c5",
+      "value": "65",
+      "confidence": 0.95,
+      "evidence": "handwritten number '65' in r23_c5"
+    },
+    {
+      "cell_id": "r24_c0",
+      "value": "C",
+      "confidence": 0.95,
+      "evidence": "handwritten character 'C' in r24_c0"
+    },
+    {
+      "cell_id": "r24_c1",
+      "value": "208",
+      "confidence": 0.9,
+      "evidence": "handwritten number '208' in r24_c1"
+    },
+    {
+      "cell_id": "r24_c2",
+      "value": "52",
+      "confidence": 0.95,
+      "evidence": "handwritten number '52' in r24_c2"
+    },
+    {
+      "cell_id": "r24_c3",
+      "value": "160",
+      "confidence": 0.95,
+      "evidence": "handwritten number '160' in r24_c3"
+    },
+    {
+      "cell_id": "r24_c4",
+      "value": "34",
+      "confidence": 0.9,
+      "evidence": "handwritten number '34' in r24_c4"
+    },
+    {
+      "cell_id": "r24_c5",
+      "value": "6",
+      "confidence": 0.95,
+      "evidence": "handwritten number '6' in r24_c5"
+    },
+    {
+      "cell_id": "r25_c0",
+      "value": "M",
+      "confidence": 0.95,
+      "evidence": "handwritten character 'M' in r25_c0"
+    },
+    {
+      "cell_id": "r25_c1",
+      "value": "70",
+      "confidence": 0.95,
+      "evidence": "handwritten number '70' in r25_c1"
+    },
+    {
+      "cell_id": "r25_c2",
+      "value": "4",
+      "confidence": 0.95,
+      "evidence": "handwritten number '4' in r25_c2"
+    },
+    {
+      "cell_id": "r25_c3",
+      "value": "174",
+      "confidence": 0.95,
+      "evidence": "handwritten number '174' in r25_c3"
+    },
+    {
+      "cell_id": "r25_c4",
+      "value": "22",
+      "confidence": 0.85,
+      "evidence": "handwritten number '22' in r25_c4"
+    },
+    {
+      "cell_id": "r25_c5",
+      "value": "41",
+      "confidence": 0.9,
+      "evidence": "handwritten number '41' in r25_c5"
+    },
+    {
+      "cell_id": "r26_c0",
+      "value": "C",
+      "confidence": 0.95,
+      "evidence": "handwritten character 'C' in r26_c0"
+    },
+    {
+      "cell_id": "r26_c1",
+      "value": "193",
+      "confidence": 0.95,
+      "evidence": "handwritten number '193' in r26_c1"
+    },
+    {
+      "cell_id": "r26_c2",
+      "value": "36",
+      "confidence": 0.95,
+      "evidence": "handwritten number '36' in r26_c2"
+    },
+    {
+      "cell_id": "r26_c3",
+      "value": "27",
+      "confidence": 0.9,
+      "evidence": "handwritten number '27' in r26_c3"
+    },
+    {
+      "cell_id": "r26_c4",
+      "value": "37",
+      "confidence": 0.95,
+      "evidence": "handwritten number '37' in r26_c4"
+    },
+    {
+      "cell_id": "r26_c5",
+      "value": "68",
+      "confidence": 0.95,
+      "evidence": "handwritten number '68' in r26_c5"
+    },
+    {
+      "cell_id": "r27_c0",
+      "value": "T",
+      "confidence": 0.95,
+      "evidence": "handwritten character 'T' in r27_c0"
+    },
+    {
+      "cell_id": "r27_c1",
+      "value": "134",
+      "confidence": 0.95,
+      "evidence": "handwritten number '134' in r27_c1"
+    },
+    {
+      "cell_id": "r27_c2",
+      "value": "221",
+      "confidence": 0.9,
+      "evidence": "handwritten number '221' in r27_c2"
+    },
+    {
+      "cell_id": "r27_c3",
+      "value": "105",
+      "confidence": 0.95,
+      "evidence": "handwritten number '105' in r27_c3"
+    },
+    {
+      "cell_id": "r27_c4",
+      "value": "69",
+      "confidence": 0.95,
+      "evidence": "handwritten number '69' in r27_c4"
+    },
+    {
+      "cell_id": "r27_c5",
+      "value": "81",
+      "confidence": 0.95,
+      "evidence": "handwritten number '81' in r27_c5"
+    },
+    {
+      "cell_id": "r28_c0",
+      "value": "N",
+      "confidence": 0.95,
+      "evidence": "handwritten character 'N' in r28_c0"
+    },
+    {
+      "cell_id": "r28_c1",
+      "value": "38",
+      "confidence": 0.95,
+      "evidence": "handwritten number '38' in r28_c1"
+    },
+    {
+      "cell_id": "r28_c2",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank cell"
+    },
+    {
+      "cell_id": "r28_c3",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank cell"
+    },
+    {
+      "cell_id": "r28_c4",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank cell"
+    },
+    {
+      "cell_id": "r28_c5",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank cell"
+    }
+  ]
+}

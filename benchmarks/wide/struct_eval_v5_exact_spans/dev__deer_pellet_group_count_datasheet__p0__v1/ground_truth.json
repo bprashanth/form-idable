@@ -1,0 +1,876 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "deer_pellet_group_count_datasheet.pdf",
+  "page": 1,
+  "page_size_points": [
+    612.0,
+    792.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 9,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        42.38,
+        171.345,
+        158.039,
+        214.831
+      ],
+      "bbox_norm": [
+        0.069248,
+        0.216345,
+        0.258234,
+        0.271252
+      ],
+      "source": "printed",
+      "value": "Pellet Group Plot Number",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Pellet Group Plot Number"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        158.039,
+        171.345,
+        274.581,
+        214.831
+      ],
+      "bbox_norm": [
+        0.258234,
+        0.216345,
+        0.448661,
+        0.271252
+      ],
+      "source": "printed",
+      "value": "Number of Recent Pellet Groups per Plot",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Number of Recent Pellet Groups per Plot"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 14,
+      "bbox_points": [
+        274.581,
+        171.345,
+        569.621,
+        214.831
+      ],
+      "bbox_norm": [
+        0.448661,
+        0.216345,
+        0.930753,
+        0.271252
+      ],
+      "source": "printed",
+      "value": "Other Observations (other animal signs)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Other Observations (other animal signs)"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        42.38,
+        214.831,
+        158.039,
+        243.61
+      ],
+      "bbox_norm": [
+        0.069248,
+        0.271252,
+        0.258234,
+        0.307588
+      ],
+      "source": "printed",
+      "value": "1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        158.039,
+        214.831,
+        274.581,
+        243.61
+      ],
+      "bbox_norm": [
+        0.258234,
+        0.271252,
+        0.448661,
+        0.307588
+      ],
+      "source": "written",
+      "value": "249",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Number of Recent Pellet Groups per Plot | Number of Recent Pellet Groups per Plot | the Date ________________________________ Location of Study Site: _________________________________ Pellet Group Number Recent Other Observations Plot Groups (other animal per 1"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 14,
+      "bbox_points": [
+        274.581,
+        214.831,
+        569.621,
+        243.61
+      ],
+      "bbox_norm": [
+        0.448661,
+        0.271252,
+        0.930753,
+        0.307588
+      ],
+      "source": "written",
+      "value": "215",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Other Observations (other animal signs) | Other Observations (other animal signs) | Date ________________________________ Location of Study Site: _________________________________ Pellet Group Number Recent Other Observations Plot Groups (other animal signs) per 1"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        42.38,
+        243.61,
+        158.039,
+        272.389
+      ],
+      "bbox_norm": [
+        0.069248,
+        0.307588,
+        0.258234,
+        0.343925
+      ],
+      "source": "printed",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "2"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        158.039,
+        243.61,
+        274.581,
+        272.389
+      ],
+      "bbox_norm": [
+        0.258234,
+        0.307588,
+        0.448661,
+        0.343925
+      ],
+      "source": "written",
+      "value": "165",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Number of Recent Pellet Groups per Plot | Number of Recent Pellet Groups per Plot | Date ________________________________ Location of Study Site: _________________________________ Pellet Group Number Recent Other Observations Plot Groups (other animal per 1 2"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 14,
+      "bbox_points": [
+        274.581,
+        243.61,
+        569.621,
+        272.389
+      ],
+      "bbox_norm": [
+        0.448661,
+        0.307588,
+        0.930753,
+        0.343925
+      ],
+      "source": "written",
+      "value": "205",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Other Observations (other animal signs) | Other Observations (other animal signs) | Date ________________________________ Location of Study Site: Pellet Group Number Recent Other Observations Plot Groups (other animal signs) per 1 2"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        42.38,
+        272.389,
+        158.039,
+        301.167
+      ],
+      "bbox_norm": [
+        0.069248,
+        0.343925,
+        0.258234,
+        0.380262
+      ],
+      "source": "printed",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "3"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        158.039,
+        272.389,
+        274.581,
+        301.167
+      ],
+      "bbox_norm": [
+        0.258234,
+        0.343925,
+        0.448661,
+        0.380262
+      ],
+      "source": "written",
+      "value": "213",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Number of Recent Pellet Groups per Plot | Number of Recent Pellet Groups per Plot | Date ________________________________ Location of Study Site: Pellet Group Number Recent Other Observations Plot Groups (other animal per 1 2 3"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 14,
+      "bbox_points": [
+        274.581,
+        272.389,
+        569.621,
+        301.167
+      ],
+      "bbox_norm": [
+        0.448661,
+        0.343925,
+        0.930753,
+        0.380262
+      ],
+      "source": "written",
+      "value": "140",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Other Observations (other animal signs) | Other Observations (other animal signs) | Date ________________________________ Location of Study Pellet Group Number Recent Other Observations Plot Groups (other animal signs) per 1 2 3"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        42.38,
+        301.167,
+        158.039,
+        329.946
+      ],
+      "bbox_norm": [
+        0.069248,
+        0.380262,
+        0.258234,
+        0.416599
+      ],
+      "source": "printed",
+      "value": "4",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "4"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        158.039,
+        301.167,
+        274.581,
+        329.946
+      ],
+      "bbox_norm": [
+        0.258234,
+        0.380262,
+        0.448661,
+        0.416599
+      ],
+      "source": "written",
+      "value": "118",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Number of Recent Pellet Groups per Plot | Number of Recent Pellet Groups per Plot | Date ________________________________ Location of Study Pellet Group Number Recent Other Observations Plot Groups (other animal per 1 2 3 4"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 14,
+      "bbox_points": [
+        274.581,
+        301.167,
+        569.621,
+        329.946
+      ],
+      "bbox_norm": [
+        0.448661,
+        0.380262,
+        0.930753,
+        0.416599
+      ],
+      "source": "written",
+      "value": "204",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Other Observations (other animal signs) | Other Observations (other animal signs) | Date ________________________________ Location of Pellet Group Number Recent Other Observations Plot Groups (other animal signs) per 1 2 3 4"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        42.38,
+        329.946,
+        158.039,
+        358.725
+      ],
+      "bbox_norm": [
+        0.069248,
+        0.416599,
+        0.258234,
+        0.452935
+      ],
+      "source": "printed",
+      "value": "5",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "5"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        158.039,
+        329.946,
+        274.581,
+        358.725
+      ],
+      "bbox_norm": [
+        0.258234,
+        0.416599,
+        0.448661,
+        0.452935
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "Number of Recent Pellet Groups per Plot | Number of Recent Pellet Groups per Plot | Date ________________________________ Location of Pellet Group Number Recent Other Observations Plot Groups (other animal per 1 2 3 4 5"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 14,
+      "bbox_points": [
+        274.581,
+        329.946,
+        569.621,
+        358.725
+      ],
+      "bbox_norm": [
+        0.448661,
+        0.416599,
+        0.930753,
+        0.452935
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Other Observations (other animal signs) | Other Observations (other animal signs) | Date ________________________________ Location Pellet Group Number of Recent Other Observations Plot Groups (other animal signs) per 1 2 3 4 5"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        42.38,
+        358.725,
+        158.039,
+        387.503
+      ],
+      "bbox_norm": [
+        0.069248,
+        0.452935,
+        0.258234,
+        0.489272
+      ],
+      "source": "printed",
+      "value": "6",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        158.039,
+        358.725,
+        274.581,
+        387.503
+      ],
+      "bbox_norm": [
+        0.258234,
+        0.452935,
+        0.448661,
+        0.489272
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Number of Recent Pellet Groups per Plot | Number of Recent Pellet Groups per Plot | Date ________________________________ Location Pellet Group Number of Recent Other Observations Plot Groups (other animal per 1 2 3 4 5 6"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 14,
+      "bbox_points": [
+        274.581,
+        358.725,
+        569.621,
+        387.503
+      ],
+      "bbox_norm": [
+        0.448661,
+        0.452935,
+        0.930753,
+        0.489272
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Other Observations (other animal signs) | Other Observations (other animal signs) | Date ________________________________ Pellet Group Number of Recent Other Observations Plot Groups (other animal signs) per 1 2 3 4 5 6"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        42.38,
+        387.503,
+        158.039,
+        416.282
+      ],
+      "bbox_norm": [
+        0.069248,
+        0.489272,
+        0.258234,
+        0.525609
+      ],
+      "source": "printed",
+      "value": "7",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "7"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        158.039,
+        387.503,
+        274.581,
+        416.282
+      ],
+      "bbox_norm": [
+        0.258234,
+        0.489272,
+        0.448661,
+        0.525609
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Number of Recent Pellet Groups per Plot | Number of Recent Pellet Groups per Plot | Date ________________________________ Pellet Group Number of Recent Other Observations Plot Groups (other animal per 1 2 3 4 5 6 7"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 14,
+      "bbox_points": [
+        274.581,
+        387.503,
+        569.621,
+        416.282
+      ],
+      "bbox_norm": [
+        0.448661,
+        0.489272,
+        0.930753,
+        0.525609
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Other Observations (other animal signs) | Other Observations (other animal signs) | Date Pellet Group Number of Recent Other Observations Plot Groups (other animal signs) per 1 2 3 4 5 6 7"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        42.38,
+        416.282,
+        158.039,
+        445.061
+      ],
+      "bbox_norm": [
+        0.069248,
+        0.525609,
+        0.258234,
+        0.561945
+      ],
+      "source": "printed",
+      "value": "8",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "8"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        158.039,
+        416.282,
+        274.581,
+        445.061
+      ],
+      "bbox_norm": [
+        0.258234,
+        0.525609,
+        0.448661,
+        0.561945
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Number of Recent Pellet Groups per Plot | Number of Recent Pellet Groups per Plot | Pellet Group Number of Recent Other Observations Plot Groups (other animal per 1 2 3 4 5 6 7 8"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 14,
+      "bbox_points": [
+        274.581,
+        416.282,
+        569.621,
+        445.061
+      ],
+      "bbox_norm": [
+        0.448661,
+        0.525609,
+        0.930753,
+        0.561945
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Other Observations (other animal signs) | Other Observations (other animal signs) | Pellet Group Number of Recent Other Observations Plot Groups (other animal signs) per 1 2 3 4 5 6 7 8"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        42.38,
+        445.061,
+        158.039,
+        473.839
+      ],
+      "bbox_norm": [
+        0.069248,
+        0.561945,
+        0.258234,
+        0.598282
+      ],
+      "source": "printed",
+      "value": "9",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "9"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        158.039,
+        445.061,
+        274.581,
+        473.839
+      ],
+      "bbox_norm": [
+        0.258234,
+        0.561945,
+        0.448661,
+        0.598282
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Number of Recent Pellet Groups per Plot | Number of Recent Pellet Groups per Plot | 1 2 3 4 5 6 7 8 9"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 14,
+      "bbox_points": [
+        274.581,
+        445.061,
+        569.621,
+        473.839
+      ],
+      "bbox_norm": [
+        0.448661,
+        0.561945,
+        0.930753,
+        0.598282
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Other Observations (other animal signs) | Other Observations (other animal signs) | 1 2 3 4 5 6 7 8 9"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        42.38,
+        473.839,
+        158.039,
+        502.618
+      ],
+      "bbox_norm": [
+        0.069248,
+        0.598282,
+        0.258234,
+        0.634619
+      ],
+      "source": "printed",
+      "value": "10",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "10"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        158.039,
+        473.839,
+        274.581,
+        502.618
+      ],
+      "bbox_norm": [
+        0.258234,
+        0.598282,
+        0.448661,
+        0.634619
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Number of Recent Pellet Groups per Plot | Number of Recent Pellet Groups per Plot | 2 3 4 5 6 7 8 9 10"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 14,
+      "bbox_points": [
+        274.581,
+        473.839,
+        569.621,
+        502.618
+      ],
+      "bbox_norm": [
+        0.448661,
+        0.598282,
+        0.930753,
+        0.634619
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Other Observations (other animal signs) | Other Observations (other animal signs) | 2 3 4 5 6 7 8 9 10"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        42.38,
+        502.618,
+        158.039,
+        531.397
+      ],
+      "bbox_norm": [
+        0.069248,
+        0.634619,
+        0.258234,
+        0.670956
+      ],
+      "source": "printed",
+      "value": "Total",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Total"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        158.039,
+        502.618,
+        274.581,
+        531.397
+      ],
+      "bbox_norm": [
+        0.258234,
+        0.634619,
+        0.448661,
+        0.670956
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Number of Recent Pellet Groups per Plot | Number of Recent Pellet Groups per Plot | 3 4 5 6 7 8 9 10 Total"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 14,
+      "bbox_points": [
+        274.581,
+        502.618,
+        569.621,
+        531.397
+      ],
+      "bbox_norm": [
+        0.448661,
+        0.634619,
+        0.930753,
+        0.670956
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Other Observations (other animal signs) | Other Observations (other animal signs) | 3 4 5 6 7 8 9 10 Total"
+    }
+  ]
+}

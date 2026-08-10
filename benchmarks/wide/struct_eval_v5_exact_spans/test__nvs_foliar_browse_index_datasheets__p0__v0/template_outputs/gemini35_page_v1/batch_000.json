@@ -1,0 +1,1018 @@
+{
+  "cells": [
+    {
+      "cell_id": "r6_c0",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r7_c0",
+      "value": "100",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r8_c0",
+      "value": "120",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r9_c0",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r10_c0",
+      "value": "32",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r11_c0",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r12_c0",
+      "value": "180",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r13_c0",
+      "value": "105",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r14_c0",
+      "value": "57",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r15_c0",
+      "value": "47",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r18_c0",
+      "value": "top broken",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r18_c17",
+      "value": "192",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r18_c25",
+      "value": "Artocarpus hirsutus",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r18_c29",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r18_c31",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r18_c32",
+      "value": "L",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r19_c0",
+      "value": "browsed by deer",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r19_c17",
+      "value": "26",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r19_c25",
+      "value": "Persea macrantha",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r19_c29",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r19_c31",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r19_c32",
+      "value": "S",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r20_c0",
+      "value": "termite damage",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r20_c17",
+      "value": "227",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r20_c25",
+      "value": "Hopea parviflora",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r20_c29",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r20_c31",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r20_c32",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r21_c0",
+      "value": "termite damage",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r21_c17",
+      "value": "233",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r21_c25",
+      "value": "Macaranga indica",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r21_c29",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r21_c31",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r21_c32",
+      "value": "F",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r22_c0",
+      "value": "climber load",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r22_c17",
+      "value": "138",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r22_c25",
+      "value": "Mesua ferrea",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r22_c29",
+      "value": "1",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r22_c31",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r22_c32",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r23_c0",
+      "value": "new flush",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r23_c17",
+      "value": "143",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r23_c25",
+      "value": "Dimocarpus longan",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r23_c29",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r23_c31",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r23_c32",
+      "value": "C",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r24_c0",
+      "value": "resprouting",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r24_c17",
+      "value": "177",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r24_c25",
+      "value": "Hopea parviflora",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r24_c29",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r24_c31",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r24_c32",
+      "value": "C",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r29_c0",
+      "value": "159",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r29_c3",
+      "value": "4",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r29_c6",
+      "value": "169",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r29_c9",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r29_c12",
+      "value": "8",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r29_c15",
+      "value": "177",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r29_c19",
+      "value": "0",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r29_c23",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r29_c27",
+      "value": "20",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r30_c0",
+      "value": "40",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r30_c3",
+      "value": "25",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r30_c6",
+      "value": "55",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r30_c9",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r30_c12",
+      "value": "246",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r30_c15",
+      "value": "160",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r30_c19",
+      "value": "32",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r30_c23",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r30_c27",
+      "value": "82",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r31_c0",
+      "value": "192",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r31_c3",
+      "value": "208",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r31_c6",
+      "value": "14",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r31_c9",
+      "value": "N",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r31_c12",
+      "value": "26",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r31_c15",
+      "value": "236",
+      "confidence": 0.9,
+      "evidence": "handwriting"
+    },
+    {
+      "cell_id": "r31_c19",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r31_c23",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r31_c27",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r32_c0",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r32_c3",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r32_c6",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r32_c9",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r32_c12",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r32_c15",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r32_c19",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r32_c23",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r32_c27",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r33_c0",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r33_c3",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r33_c6",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r33_c9",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r33_c12",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r33_c15",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r33_c19",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r33_c23",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r33_c27",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r34_c0",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r34_c3",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r34_c6",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r34_c9",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r34_c12",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r34_c15",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r34_c19",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r34_c23",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r34_c27",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r35_c0",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r35_c3",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r35_c6",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r35_c9",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r35_c12",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r35_c15",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r35_c19",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r35_c23",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r35_c27",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r36_c0",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r36_c3",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r36_c6",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r36_c9",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r36_c12",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r36_c15",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r36_c19",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r36_c23",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r36_c27",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r37_c0",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r37_c3",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r37_c6",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r37_c9",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r37_c12",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r37_c15",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r37_c19",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r37_c23",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r37_c27",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r38_c0",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r38_c3",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r38_c6",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r38_c9",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r38_c12",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r38_c15",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r38_c19",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r38_c23",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r38_c27",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r39_c0",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r39_c3",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r39_c6",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r39_c9",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r39_c12",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r39_c15",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r39_c19",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r39_c23",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r39_c27",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r40_c0",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r40_c3",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r40_c6",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r40_c9",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r40_c12",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r40_c15",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r40_c19",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r40_c23",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r40_c27",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r41_c0",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r41_c3",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r41_c6",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r41_c9",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r41_c12",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r41_c15",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r41_c19",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r41_c23",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r41_c27",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "blank"
+    }
+  ]
+}

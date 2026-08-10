@@ -1,0 +1,15 @@
+{
+  "form": "test__ut_tennessee_field_soil_submission_sheet__p0__v0",
+  "manifest": "benchmarks/wide/struct_eval_v5_exact_spans/test__ut_tennessee_field_soil_submission_sheet__p0__v0/template_outputs/claude_sonnet5_page_v2/review_manifest.json",
+  "target_cells_including_blanks": 109,
+  "errors": 3,
+  "reviewed": 4,
+  "caught_errors": 3,
+  "error_recall": 1.0,
+  "queue_precision": 0.75,
+  "review_fraction": 0.0367,
+  "errors_outside_queue": [],
+  "reviewed_correct_cells": [
+    "r9_c13"
+  ]
+}

@@ -1,0 +1,6564 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nvs_tier1_stem_diameter_height_sapling.pdf",
+  "page": 2,
+  "page_size_points": [
+    595.0,
+    842.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 2,
+      "row": 8,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        53.28,
+        127.8,
+        103.14,
+        137.291
+      ],
+      "bbox_norm": [
+        0.089546,
+        0.151781,
+        0.173345,
+        0.163053
+      ],
+      "source": "printed",
+      "value": "Species1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        165.12,
+        137.291,
+        190.8,
+        146.52
+      ],
+      "bbox_norm": [
+        0.277513,
+        0.163053,
+        0.320672,
+        0.174014
+      ],
+      "source": "printed",
+      "value": "State2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "State2"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        330.36,
+        137.291,
+        362.04,
+        146.52
+      ],
+      "bbox_norm": [
+        0.555227,
+        0.163053,
+        0.608471,
+        0.174014
+      ],
+      "source": "printed",
+      "value": "lean3 of",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        169.86,
+        580.08,
+        189.72
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.201734,
+        0.974924,
+        0.225321
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Page _____ DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED Class saplings> of Stem Diameter Height Angle Notes State2 lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        189.72,
+        580.08,
+        209.52
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.225321,
+        0.974924,
+        0.248836
+      ],
+      "source": "written",
+      "value": "epiphytes present",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Page _____ DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED Class saplings> of Stem Diameter Height Angle Notes State2 lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        209.52,
+        47.88,
+        229.32
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.248836,
+        0.080471,
+        0.272352
+      ],
+      "source": "written",
+      "value": "150",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Species1 Sub"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        209.52,
+        108.54,
+        229.32
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.248836,
+        0.18242,
+        0.272352
+      ],
+      "source": "written",
+      "value": "Dimocarpus longan",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species1 | STEM DIAMETER/HEIGHT/SAPLING START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Species1 Sub Tag No. State2"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        209.52,
+        159.72,
+        229.32
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.248836,
+        0.268437,
+        0.272352
+      ],
+      "source": "written",
+      "value": "204",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | STEM DIAMETER/HEIGHT/SAPLING START TIME: IDENTIFIER: DAY/MONTH/YEAR: Class Species1 Tag No. State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        209.52,
+        196.2,
+        229.32
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.248836,
+        0.329748,
+        0.272352
+      ],
+      "source": "written",
+      "value": "197",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Stem State2 | STEM DIAMETER/HEIGHT/SAPLING Class Tag No. Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        209.52,
+        225.72,
+        229.32
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.248836,
+        0.379361,
+        0.272352
+      ],
+      "source": "written",
+      "value": "78",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Decay | STEM DIAMETER/HEIGHT/SAPLING Class Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        209.52,
+        275.34,
+        229.32
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.248836,
+        0.462756,
+        0.272352
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter | STEM DIAMETER/HEIGHT/SAPLING FINISH TIME: MEASURED RECORDED Class Diameter Height Angle State2 of Decay"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        209.52,
+        324.96,
+        229.32
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.248836,
+        0.546151,
+        0.272352
+      ],
+      "source": "written",
+      "value": "26.2",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Height | DIAMETER/HEIGHT/SAPLING RECORD FINISH TIME: MEASURED BY: RECORDED Class of Diameter Height Angle lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        209.52,
+        367.44,
+        229.32
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.248836,
+        0.617546,
+        0.272352
+      ],
+      "source": "written",
+      "value": "223",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Angle lean3 of | DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED saplings> of Height Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        209.52,
+        402.9,
+        229.32
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.248836,
+        0.677143,
+        0.272352
+      ],
+      "source": "written",
+      "value": "113",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No. | DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED saplings> of Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        209.52,
+        580.08,
+        229.32
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.248836,
+        0.974924,
+        0.272352
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Page _____ DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED Class saplings> of Stem Diameter Height Angle Notes State2 lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        229.32,
+        47.88,
+        249.12
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.272352,
+        0.080471,
+        0.295867
+      ],
+      "source": "written",
+      "value": "164",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Species1 Sub"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        229.32,
+        108.54,
+        249.12
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.272352,
+        0.18242,
+        0.295867
+      ],
+      "source": "written",
+      "value": "Litsea nigrescens",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species1 | STEM DIAMETER/HEIGHT/SAPLING START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Species1 Sub Tag No. State2"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        229.32,
+        159.72,
+        249.12
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.272352,
+        0.268437,
+        0.295867
+      ],
+      "source": "written",
+      "value": "148",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | STEM DIAMETER/HEIGHT/SAPLING START TIME: IDENTIFIER: DAY/MONTH/YEAR: Class Species1 Tag No. State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        229.32,
+        196.2,
+        249.12
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.272352,
+        0.329748,
+        0.295867
+      ],
+      "source": "written",
+      "value": "158",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Stem State2 | STEM DIAMETER/HEIGHT/SAPLING Class Tag No. Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        229.32,
+        225.72,
+        249.12
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.272352,
+        0.379361,
+        0.295867
+      ],
+      "source": "written",
+      "value": "200",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Decay | STEM DIAMETER/HEIGHT/SAPLING Class Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        229.32,
+        275.34,
+        249.12
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.272352,
+        0.462756,
+        0.295867
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "dec",
+      "semantic_context": "Diameter | STEM DIAMETER/HEIGHT/SAPLING FINISH TIME: MEASURED RECORDED Class Diameter Height Angle State2 of Decay"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        229.32,
+        324.96,
+        249.12
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.272352,
+        0.546151,
+        0.295867
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "dec",
+      "semantic_context": "Height | DIAMETER/HEIGHT/SAPLING RECORD FINISH TIME: MEASURED BY: RECORDED Class of Diameter Height Angle lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        229.32,
+        367.44,
+        249.12
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.272352,
+        0.617546,
+        0.295867
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "Angle lean3 of | DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED saplings> of Height Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        229.32,
+        402.9,
+        249.12
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.272352,
+        0.677143,
+        0.295867
+      ],
+      "source": "written",
+      "value": "87",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No. | DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED saplings> of Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        229.32,
+        580.08,
+        249.12
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.272352,
+        0.974924,
+        0.295867
+      ],
+      "source": "written",
+      "value": "resprouting",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Page _____ DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED Class saplings> of Stem Diameter Height Angle Notes State2 lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        249.12,
+        47.88,
+        268.92
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.295867,
+        0.080471,
+        0.319382
+      ],
+      "source": "written",
+      "value": "198",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Species1 Sub"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        249.12,
+        108.54,
+        268.92
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.295867,
+        0.18242,
+        0.319382
+      ],
+      "source": "written",
+      "value": "Prunus ceylanica",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species1 | STEM DIAMETER/HEIGHT/SAPLING START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Species1 Sub Tag No. State2"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        249.12,
+        159.72,
+        268.92
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.295867,
+        0.268437,
+        0.319382
+      ],
+      "source": "written",
+      "value": "104",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | STEM DIAMETER/HEIGHT/SAPLING START TIME: IDENTIFIER: DAY/MONTH/YEAR: Class Species1 Tag No. State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        249.12,
+        196.2,
+        268.92
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.295867,
+        0.329748,
+        0.319382
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "Stem State2 | STEM DIAMETER/HEIGHT/SAPLING Class Tag No. Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        249.12,
+        225.72,
+        268.92
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.295867,
+        0.379361,
+        0.319382
+      ],
+      "source": "written",
+      "value": "14",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Decay | STEM DIAMETER/HEIGHT/SAPLING Class Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        249.12,
+        275.34,
+        268.92
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.295867,
+        0.462756,
+        0.319382
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter | STEM DIAMETER/HEIGHT/SAPLING FINISH TIME: MEASURED RECORDED Class Diameter Height Angle State2 of Decay"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        249.12,
+        324.96,
+        268.92
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.295867,
+        0.546151,
+        0.319382
+      ],
+      "source": "written",
+      "value": "134.6",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Height | DIAMETER/HEIGHT/SAPLING RECORD FINISH TIME: MEASURED BY: RECORDED Class of Diameter Height Angle lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        249.12,
+        367.44,
+        268.92
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.295867,
+        0.617546,
+        0.319382
+      ],
+      "source": "written",
+      "value": "92",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Angle lean3 of | DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED saplings> of Height Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        249.12,
+        402.9,
+        268.92
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.295867,
+        0.677143,
+        0.319382
+      ],
+      "source": "written",
+      "value": "106",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No. | DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED saplings> of Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        249.12,
+        580.08,
+        268.92
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.295867,
+        0.974924,
+        0.319382
+      ],
+      "source": "written",
+      "value": "dead branch",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED Class saplings> of Stem Diameter Height Angle Notes State2 lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        268.92,
+        47.88,
+        288.72
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.319382,
+        0.080471,
+        0.342898
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Species1 Sub"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        268.92,
+        108.54,
+        288.72
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.319382,
+        0.18242,
+        0.342898
+      ],
+      "source": "written",
+      "value": "Knema attenuata",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species1 | START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Species1 Sub Tag No. Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        268.92,
+        159.72,
+        288.72
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.319382,
+        0.268437,
+        0.342898
+      ],
+      "source": "written",
+      "value": "139",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | START TIME: IDENTIFIER: DAY/MONTH/YEAR: Class Species1 Tag No. Stem State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        268.92,
+        196.2,
+        288.72
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.319382,
+        0.329748,
+        0.342898
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Stem State2 | Class Tag No. Stem Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        268.92,
+        225.72,
+        288.72
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.319382,
+        0.379361,
+        0.342898
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Decay | Class Stem Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        268.92,
+        275.34,
+        288.72
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.319382,
+        0.462756,
+        0.342898
+      ],
+      "source": "written",
+      "value": "71.9",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Diameter | FINISH TIME: MEASURED RECORDED Class Stem Diameter Height Angle State2 of Decay"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        268.92,
+        324.96,
+        288.72
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.319382,
+        0.546151,
+        0.342898
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "dec",
+      "semantic_context": "Height | FINISH TIME: MEASURED BY: RECORDED Class of Diameter Height Angle lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        268.92,
+        367.44,
+        288.72
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.319382,
+        0.617546,
+        0.342898
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Angle lean3 of | FINISH TIME: MEASURED BY: RECORDED saplings> of Height Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        268.92,
+        402.9,
+        288.72
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.319382,
+        0.677143,
+        0.342898
+      ],
+      "source": "written",
+      "value": "62",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No. | FINISH TIME: MEASURED BY: RECORDED saplings> of Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        268.92,
+        580.08,
+        288.72
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.319382,
+        0.974924,
+        0.342898
+      ],
+      "source": "written",
+      "value": "fallen",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | FINISH TIME: MEASURED BY: RECORDED Class saplings> of Stem Diameter Height Angle Notes State2 lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        288.72,
+        47.88,
+        308.52
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.342898,
+        0.080471,
+        0.366413
+      ],
+      "source": "written",
+      "value": "45",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | PLOT IDENTIFIER: DAY/MONTH/YEAR: Species1 Sub"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        288.72,
+        108.54,
+        308.52
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.342898,
+        0.18242,
+        0.366413
+      ],
+      "source": "written",
+      "value": "Neolitsea sp.",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species1 | PLOT IDENTIFIER: DAY/MONTH/YEAR: Species1 Sub Tag No. Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        288.72,
+        159.72,
+        308.52
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.342898,
+        0.268437,
+        0.366413
+      ],
+      "source": "written",
+      "value": "236",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | IDENTIFIER: DAY/MONTH/YEAR: Class Species1 Tag No. Stem State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        288.72,
+        196.2,
+        308.52
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.342898,
+        0.329748,
+        0.366413
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "Stem State2 | Class Tag No. Stem Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        288.72,
+        225.72,
+        308.52
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.342898,
+        0.379361,
+        0.366413
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Decay | Class Stem Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        288.72,
+        275.34,
+        308.52
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.342898,
+        0.462756,
+        0.366413
+      ],
+      "source": "written",
+      "value": "26.8",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Diameter | MEASURED RECORDED Class Stem Diameter Height Angle State2 of Decay"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        288.72,
+        324.96,
+        308.52
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.342898,
+        0.546151,
+        0.366413
+      ],
+      "source": "written",
+      "value": "59.3",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Height | MEASURED BY: RECORDED Class of Diameter Height Angle lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        288.72,
+        367.44,
+        308.52
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.342898,
+        0.617546,
+        0.366413
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "Angle lean3 of | MEASURED BY: RECORDED saplings> of Height Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        288.72,
+        402.9,
+        308.52
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.342898,
+        0.677143,
+        0.366413
+      ],
+      "source": "written",
+      "value": "193",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No. | MEASURED BY: RECORDED saplings> of Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        288.72,
+        580.08,
+        308.52
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.342898,
+        0.974924,
+        0.366413
+      ],
+      "source": "written",
+      "value": "leaning",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | MEASURED BY: RECORDED Class saplings> of Stem Diameter Height Angle Notes State2 lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        308.52,
+        47.88,
+        328.32
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.366413,
+        0.080471,
+        0.389929
+      ],
+      "source": "written",
+      "value": "231",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | DAY/MONTH/YEAR: Species1 Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        308.52,
+        108.54,
+        328.32
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.366413,
+        0.18242,
+        0.389929
+      ],
+      "source": "written",
+      "value": "Holigarna nigra",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species1 | DAY/MONTH/YEAR: Species1 Sub Tag No. Stem State2 plot"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        308.52,
+        159.72,
+        328.32
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.366413,
+        0.268437,
+        0.389929
+      ],
+      "source": "written",
+      "value": "200",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | DAY/MONTH/YEAR: Class Species1 Tag No. Stem State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        308.52,
+        196.2,
+        328.32
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.366413,
+        0.329748,
+        0.389929
+      ],
+      "source": "written",
+      "value": "86",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Stem State2 | Class Tag No. Stem Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        308.52,
+        225.72,
+        328.32
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.366413,
+        0.379361,
+        0.389929
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Decay | Class Stem Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        308.52,
+        275.34,
+        328.32
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.366413,
+        0.462756,
+        0.389929
+      ],
+      "source": "written",
+      "value": "4.2",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Diameter | RECORDED Class Stem Diameter Height Angle State2 of Decay"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        308.52,
+        324.96,
+        328.32
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.366413,
+        0.546151,
+        0.389929
+      ],
+      "source": "written",
+      "value": "1.2",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Height | RECORDED BY: Class of Diameter Height Angle lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        308.52,
+        367.44,
+        328.32
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.366413,
+        0.617546,
+        0.389929
+      ],
+      "source": "written",
+      "value": "176",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Angle lean3 of | RECORDED BY: saplings> of Height Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        308.52,
+        402.9,
+        328.32
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.366413,
+        0.677143,
+        0.389929
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No. | RECORDED BY: saplings> of Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        308.52,
+        580.08,
+        328.32
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.366413,
+        0.974924,
+        0.389929
+      ],
+      "source": "written",
+      "value": "browsed by deer",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | RECORDED BY: Class saplings> of Stem Diameter Height Angle Notes State2 lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        328.32,
+        580.08,
+        348.12
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.389929,
+        0.974924,
+        0.413444
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Class saplings> of Stem Diameter Height Angle Notes State2 lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        348.12,
+        580.08,
+        367.92
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.413444,
+        0.974924,
+        0.43696
+      ],
+      "source": "written",
+      "value": "resprouting",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | Class saplings> of Stem Diameter Height Angle Notes State2 lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        367.92,
+        47.88,
+        387.72
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.43696,
+        0.080471,
+        0.460475
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        367.92,
+        108.54,
+        387.72
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.43696,
+        0.18242,
+        0.460475
+      ],
+      "source": "written",
+      "value": "Litsea wightiana",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        367.92,
+        159.72,
+        387.72
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.43696,
+        0.268437,
+        0.460475
+      ],
+      "source": "written",
+      "value": "168",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | Decay"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        367.92,
+        196.2,
+        387.72
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.43696,
+        0.329748,
+        0.460475
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2 | Decay"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        367.92,
+        225.72,
+        387.72
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.43696,
+        0.379361,
+        0.460475
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Decay | Decay"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        367.92,
+        275.34,
+        387.72
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.43696,
+        0.462756,
+        0.460475
+      ],
+      "source": "written",
+      "value": "3.3",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Diameter | Decay"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        367.92,
+        324.96,
+        387.72
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.43696,
+        0.546151,
+        0.460475
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "dec",
+      "semantic_context": "Height | <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        367.92,
+        367.44,
+        387.72
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.43696,
+        0.617546,
+        0.460475
+      ],
+      "source": "written",
+      "value": "221",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Angle lean3 of | saplings> <No."
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        367.92,
+        402.9,
+        387.72
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.43696,
+        0.677143,
+        0.460475
+      ],
+      "source": "written",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No. | saplings> <No."
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        367.92,
+        580.08,
+        387.72
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.43696,
+        0.974924,
+        0.460475
+      ],
+      "source": "written",
+      "value": "resprouting",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes | saplings> <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        387.72,
+        47.88,
+        407.52
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.460475,
+        0.080471,
+        0.483991
+      ],
+      "source": "written",
+      "value": "141",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        387.72,
+        108.54,
+        407.52
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.460475,
+        0.18242,
+        0.483991
+      ],
+      "source": "written",
+      "value": "Vateria indica",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        387.72,
+        159.72,
+        407.52
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.460475,
+        0.268437,
+        0.483991
+      ],
+      "source": "written",
+      "value": "34",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        387.72,
+        196.2,
+        407.52
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.460475,
+        0.329748,
+        0.483991
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        387.72,
+        225.72,
+        407.52
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.460475,
+        0.379361,
+        0.483991
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        387.72,
+        275.34,
+        407.52
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.460475,
+        0.462756,
+        0.483991
+      ],
+      "source": "written",
+      "value": "67.9",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        387.72,
+        324.96,
+        407.52
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.460475,
+        0.546151,
+        0.483991
+      ],
+      "source": "written",
+      "value": "167.7",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        387.72,
+        367.44,
+        407.52
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.460475,
+        0.617546,
+        0.483991
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        387.72,
+        402.9,
+        407.52
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.460475,
+        0.677143,
+        0.483991
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        387.72,
+        580.08,
+        407.52
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.460475,
+        0.974924,
+        0.483991
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        407.52,
+        47.88,
+        427.32
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.483991,
+        0.080471,
+        0.507506
+      ],
+      "source": "written",
+      "value": "241",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        407.52,
+        108.54,
+        427.32
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.483991,
+        0.18242,
+        0.507506
+      ],
+      "source": "written",
+      "value": "Antidesma menasu",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        407.52,
+        159.72,
+        427.32
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.483991,
+        0.268437,
+        0.507506
+      ],
+      "source": "written",
+      "value": "146",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        407.52,
+        196.2,
+        427.32
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.483991,
+        0.329748,
+        0.507506
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        407.52,
+        225.72,
+        427.32
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.483991,
+        0.379361,
+        0.507506
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        407.52,
+        275.34,
+        427.32
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.483991,
+        0.462756,
+        0.507506
+      ],
+      "source": "written",
+      "value": "96.9",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        407.52,
+        324.96,
+        427.32
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.483991,
+        0.546151,
+        0.507506
+      ],
+      "source": "written",
+      "value": "120.0",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        407.52,
+        367.44,
+        427.32
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.483991,
+        0.617546,
+        0.507506
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        407.52,
+        402.9,
+        427.32
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.483991,
+        0.677143,
+        0.507506
+      ],
+      "source": "written",
+      "value": "11",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        407.52,
+        580.08,
+        427.32
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.483991,
+        0.974924,
+        0.507506
+      ],
+      "source": "written",
+      "value": "leaning",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        427.32,
+        47.88,
+        447.12
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.507506,
+        0.080471,
+        0.531021
+      ],
+      "source": "written",
+      "value": "71",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        427.32,
+        108.54,
+        447.12
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.507506,
+        0.18242,
+        0.531021
+      ],
+      "source": "written",
+      "value": "Syzygium densiflorum",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        427.32,
+        159.72,
+        447.12
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.507506,
+        0.268437,
+        0.531021
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        427.32,
+        196.2,
+        447.12
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.507506,
+        0.329748,
+        0.531021
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        427.32,
+        225.72,
+        447.12
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.507506,
+        0.379361,
+        0.531021
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        427.32,
+        275.34,
+        447.12
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.507506,
+        0.462756,
+        0.531021
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        427.32,
+        324.96,
+        447.12
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.507506,
+        0.546151,
+        0.531021
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        427.32,
+        367.44,
+        447.12
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.507506,
+        0.617546,
+        0.531021
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        427.32,
+        402.9,
+        447.12
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.507506,
+        0.677143,
+        0.531021
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        427.32,
+        580.08,
+        447.12
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.507506,
+        0.974924,
+        0.531021
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        447.12,
+        47.88,
+        466.92
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.531021,
+        0.080471,
+        0.554537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        447.12,
+        108.54,
+        466.92
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.531021,
+        0.18242,
+        0.554537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        447.12,
+        159.72,
+        466.92
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.531021,
+        0.268437,
+        0.554537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        447.12,
+        196.2,
+        466.92
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.531021,
+        0.329748,
+        0.554537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        447.12,
+        225.72,
+        466.92
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.531021,
+        0.379361,
+        0.554537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        447.12,
+        275.34,
+        466.92
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.531021,
+        0.462756,
+        0.554537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        447.12,
+        324.96,
+        466.92
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.531021,
+        0.546151,
+        0.554537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        447.12,
+        367.44,
+        466.92
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.531021,
+        0.617546,
+        0.554537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        447.12,
+        402.9,
+        466.92
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.531021,
+        0.677143,
+        0.554537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        447.12,
+        580.08,
+        466.92
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.531021,
+        0.974924,
+        0.554537
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        466.92,
+        47.88,
+        486.72
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.554537,
+        0.080471,
+        0.578052
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        466.92,
+        108.54,
+        486.72
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.554537,
+        0.18242,
+        0.578052
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        466.92,
+        159.72,
+        486.72
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.554537,
+        0.268437,
+        0.578052
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        466.92,
+        196.2,
+        486.72
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.554537,
+        0.329748,
+        0.578052
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        466.92,
+        225.72,
+        486.72
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.554537,
+        0.379361,
+        0.578052
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        466.92,
+        275.34,
+        486.72
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.554537,
+        0.462756,
+        0.578052
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        466.92,
+        324.96,
+        486.72
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.554537,
+        0.546151,
+        0.578052
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        466.92,
+        367.44,
+        486.72
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.554537,
+        0.617546,
+        0.578052
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        466.92,
+        402.9,
+        486.72
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.554537,
+        0.677143,
+        0.578052
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        466.92,
+        580.08,
+        486.72
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.554537,
+        0.974924,
+        0.578052
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        486.72,
+        580.08,
+        506.52
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.578052,
+        0.974924,
+        0.601568
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        506.52,
+        580.08,
+        526.32
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.601568,
+        0.974924,
+        0.625083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        526.32,
+        47.88,
+        546.12
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.625083,
+        0.080471,
+        0.648599
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        526.32,
+        108.54,
+        546.12
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.625083,
+        0.18242,
+        0.648599
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        526.32,
+        159.72,
+        546.12
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.625083,
+        0.268437,
+        0.648599
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        526.32,
+        196.2,
+        546.12
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.625083,
+        0.329748,
+        0.648599
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        526.32,
+        225.72,
+        546.12
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.625083,
+        0.379361,
+        0.648599
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        526.32,
+        275.34,
+        546.12
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.625083,
+        0.462756,
+        0.648599
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        526.32,
+        324.96,
+        546.12
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.625083,
+        0.546151,
+        0.648599
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        526.32,
+        367.44,
+        546.12
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.625083,
+        0.617546,
+        0.648599
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        526.32,
+        402.9,
+        546.12
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.625083,
+        0.677143,
+        0.648599
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        526.32,
+        580.08,
+        546.12
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.625083,
+        0.974924,
+        0.648599
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        546.12,
+        47.88,
+        565.92
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.648599,
+        0.080471,
+        0.672114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        546.12,
+        108.54,
+        565.92
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.648599,
+        0.18242,
+        0.672114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        546.12,
+        159.72,
+        565.92
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.648599,
+        0.268437,
+        0.672114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        546.12,
+        196.2,
+        565.92
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.648599,
+        0.329748,
+        0.672114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        546.12,
+        225.72,
+        565.92
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.648599,
+        0.379361,
+        0.672114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        546.12,
+        275.34,
+        565.92
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.648599,
+        0.462756,
+        0.672114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        546.12,
+        324.96,
+        565.92
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.648599,
+        0.546151,
+        0.672114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        546.12,
+        367.44,
+        565.92
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.648599,
+        0.617546,
+        0.672114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        546.12,
+        402.9,
+        565.92
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.648599,
+        0.677143,
+        0.672114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        546.12,
+        580.08,
+        565.92
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.648599,
+        0.974924,
+        0.672114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        565.92,
+        47.88,
+        585.72
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.672114,
+        0.080471,
+        0.695629
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        565.92,
+        108.54,
+        585.72
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.672114,
+        0.18242,
+        0.695629
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        565.92,
+        159.72,
+        585.72
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.672114,
+        0.268437,
+        0.695629
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        565.92,
+        196.2,
+        585.72
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.672114,
+        0.329748,
+        0.695629
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        565.92,
+        225.72,
+        585.72
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.672114,
+        0.379361,
+        0.695629
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        565.92,
+        275.34,
+        585.72
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.672114,
+        0.462756,
+        0.695629
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        565.92,
+        324.96,
+        585.72
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.672114,
+        0.546151,
+        0.695629
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        565.92,
+        367.44,
+        585.72
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.672114,
+        0.617546,
+        0.695629
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        565.92,
+        402.9,
+        585.72
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.672114,
+        0.677143,
+        0.695629
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        565.92,
+        580.08,
+        585.72
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.672114,
+        0.974924,
+        0.695629
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        585.72,
+        47.88,
+        605.52
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.695629,
+        0.080471,
+        0.719145
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        585.72,
+        108.54,
+        605.52
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.695629,
+        0.18242,
+        0.719145
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        585.72,
+        159.72,
+        605.52
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.695629,
+        0.268437,
+        0.719145
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        585.72,
+        196.2,
+        605.52
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.695629,
+        0.329748,
+        0.719145
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        585.72,
+        225.72,
+        605.52
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.695629,
+        0.379361,
+        0.719145
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        585.72,
+        275.34,
+        605.52
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.695629,
+        0.462756,
+        0.719145
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        585.72,
+        324.96,
+        605.52
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.695629,
+        0.546151,
+        0.719145
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        585.72,
+        367.44,
+        605.52
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.695629,
+        0.617546,
+        0.719145
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        585.72,
+        402.9,
+        605.52
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.695629,
+        0.677143,
+        0.719145
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        585.72,
+        580.08,
+        605.52
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.695629,
+        0.974924,
+        0.719145
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        605.52,
+        47.88,
+        625.32
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.719145,
+        0.080471,
+        0.74266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        605.52,
+        108.54,
+        625.32
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.719145,
+        0.18242,
+        0.74266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        605.52,
+        159.72,
+        625.32
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.719145,
+        0.268437,
+        0.74266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        605.52,
+        196.2,
+        625.32
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.719145,
+        0.329748,
+        0.74266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        605.52,
+        225.72,
+        625.32
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.719145,
+        0.379361,
+        0.74266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        605.52,
+        275.34,
+        625.32
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.719145,
+        0.462756,
+        0.74266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        605.52,
+        324.96,
+        625.32
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.719145,
+        0.546151,
+        0.74266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        605.52,
+        367.44,
+        625.32
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.719145,
+        0.617546,
+        0.74266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        605.52,
+        402.9,
+        625.32
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.719145,
+        0.677143,
+        0.74266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        605.52,
+        580.08,
+        625.32
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.719145,
+        0.974924,
+        0.74266
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        625.32,
+        47.88,
+        645.12
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.74266,
+        0.080471,
+        0.766176
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        625.32,
+        108.54,
+        645.12
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.74266,
+        0.18242,
+        0.766176
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        625.32,
+        159.72,
+        645.12
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.74266,
+        0.268437,
+        0.766176
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        625.32,
+        196.2,
+        645.12
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.74266,
+        0.329748,
+        0.766176
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        625.32,
+        225.72,
+        645.12
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.74266,
+        0.379361,
+        0.766176
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        625.32,
+        275.34,
+        645.12
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.74266,
+        0.462756,
+        0.766176
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        625.32,
+        324.96,
+        645.12
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.74266,
+        0.546151,
+        0.766176
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        625.32,
+        367.44,
+        645.12
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.74266,
+        0.617546,
+        0.766176
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        625.32,
+        402.9,
+        645.12
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.74266,
+        0.677143,
+        0.766176
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        625.32,
+        580.08,
+        645.12
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.74266,
+        0.974924,
+        0.766176
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        645.12,
+        580.08,
+        664.92
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.766176,
+        0.974924,
+        0.789691
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        664.92,
+        580.08,
+        684.72
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.789691,
+        0.974924,
+        0.813207
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        684.72,
+        47.88,
+        704.52
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.813207,
+        0.080471,
+        0.836722
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        684.72,
+        108.54,
+        704.52
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.813207,
+        0.18242,
+        0.836722
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        684.72,
+        159.72,
+        704.52
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.813207,
+        0.268437,
+        0.836722
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        684.72,
+        196.2,
+        704.52
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.813207,
+        0.329748,
+        0.836722
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        684.72,
+        225.72,
+        704.52
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.813207,
+        0.379361,
+        0.836722
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        684.72,
+        275.34,
+        704.52
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.813207,
+        0.462756,
+        0.836722
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        684.72,
+        324.96,
+        704.52
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.813207,
+        0.546151,
+        0.836722
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        684.72,
+        367.44,
+        704.52
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.813207,
+        0.617546,
+        0.836722
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        684.72,
+        402.9,
+        704.52
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.813207,
+        0.677143,
+        0.836722
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        684.72,
+        580.08,
+        704.52
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.813207,
+        0.974924,
+        0.836722
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        704.52,
+        47.88,
+        726.72
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.836722,
+        0.080471,
+        0.863088
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        704.52,
+        108.54,
+        726.72
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.836722,
+        0.18242,
+        0.863088
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        704.52,
+        159.72,
+        726.72
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.836722,
+        0.268437,
+        0.863088
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        704.52,
+        196.2,
+        726.72
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.836722,
+        0.329748,
+        0.863088
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        704.52,
+        225.72,
+        726.72
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.836722,
+        0.379361,
+        0.863088
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        704.52,
+        275.34,
+        726.72
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.836722,
+        0.462756,
+        0.863088
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        704.52,
+        324.96,
+        726.72
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.836722,
+        0.546151,
+        0.863088
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        704.52,
+        367.44,
+        726.72
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.836722,
+        0.617546,
+        0.863088
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        704.52,
+        402.9,
+        726.72
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.836722,
+        0.677143,
+        0.863088
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        704.52,
+        580.08,
+        726.72
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.836722,
+        0.974924,
+        0.863088
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        726.72,
+        580.08,
+        746.52
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.863088,
+        0.974924,
+        0.886603
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 40,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        402.9,
+        746.52,
+        580.08,
+        766.32
+      ],
+      "bbox_norm": [
+        0.677143,
+        0.886603,
+        0.974924,
+        0.910119
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 6,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        53.28,
+        112.92,
+        103.14,
+        122.16
+      ],
+      "bbox_norm": [
+        0.089546,
+        0.134109,
+        0.173345,
+        0.145083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "IDENTIFIER: DAY/MONTH/YEAR: | STEM START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Class"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 9,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        113.94,
+        112.92,
+        154.32,
+        122.16
+      ],
+      "bbox_norm": [
+        0.191496,
+        0.134109,
+        0.259361,
+        0.145083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "STEM | STEM DIAMETER/HEIGHT/SAPLING TIME: IDENTIFIER: DAY/MONTH/YEAR: Class"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 12,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        165.12,
+        112.92,
+        190.8,
+        122.16
+      ],
+      "bbox_norm": [
+        0.277513,
+        0.134109,
+        0.320672,
+        0.145083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "DIAMETER/HEIGHT/SAPLING | STEM DIAMETER/HEIGHT/SAPLING Class"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 18,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        231.12,
+        112.92,
+        269.94,
+        122.16
+      ],
+      "bbox_norm": [
+        0.388437,
+        0.134109,
+        0.453681,
+        0.145083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "DIAMETER/HEIGHT/SAPLING | DIAMETER/HEIGHT/SAPLING FINISH MEASURED RECORDED Class"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 21,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        280.74,
+        112.92,
+        319.56,
+        122.16
+      ],
+      "bbox_norm": [
+        0.471832,
+        0.134109,
+        0.537076,
+        0.145083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "MEASURED RECORDED | DIAMETER/HEIGHT/SAPLING RECORD FINISH TIME: MEASURED BY: RECORDED Class"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 24,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        330.36,
+        112.92,
+        362.04,
+        122.16
+      ],
+      "bbox_norm": [
+        0.555227,
+        0.134109,
+        0.608471,
+        0.145083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "MEASURED BY: RECORDED BY: | DIAMETER/HEIGHT/SAPLING RECORD FINISH TIME: MEASURED BY: RECORDED Class"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 31,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        408.3,
+        112.92,
+        574.68,
+        122.16
+      ],
+      "bbox_norm": [
+        0.686218,
+        0.134109,
+        0.965849,
+        0.145083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Page _____ of _______ SHEET | Page _____ of _______ DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED Class"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 15,
+      "rowspan": 6,
+      "colspan": 1,
+      "bbox_points": [
+        203.22,
+        112.92,
+        218.7,
+        169.86
+      ],
+      "bbox_norm": [
+        0.341546,
+        0.134109,
+        0.367563,
+        0.201734
+      ],
+      "source": "printed",
+      "value": "Class Decay",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Class Decay"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 27,
+      "rowspan": 6,
+      "colspan": 1,
+      "bbox_points": [
+        372.84,
+        112.92,
+        388.32,
+        169.86
+      ],
+      "bbox_norm": [
+        0.626622,
+        0.134109,
+        0.652639,
+        0.201734
+      ],
+      "source": "printed",
+      "value": "of <No.",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "of <No."
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 9,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        113.94,
+        122.16,
+        154.32,
+        137.291
+      ],
+      "bbox_norm": [
+        0.191496,
+        0.145083,
+        0.259361,
+        0.163053
+      ],
+      "source": "printed",
+      "value": "Tag No.",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 12,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        165.12,
+        122.16,
+        190.8,
+        137.291
+      ],
+      "bbox_norm": [
+        0.277513,
+        0.145083,
+        0.320672,
+        0.163053
+      ],
+      "source": "printed",
+      "value": "Stem",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Stem"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 18,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        231.12,
+        122.16,
+        269.94,
+        137.291
+      ],
+      "bbox_norm": [
+        0.388437,
+        0.145083,
+        0.453681,
+        0.163053
+      ],
+      "source": "printed",
+      "value": "Diameter",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 21,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        280.74,
+        122.16,
+        319.56,
+        137.291
+      ],
+      "bbox_norm": [
+        0.471832,
+        0.145083,
+        0.537076,
+        0.163053
+      ],
+      "source": "printed",
+      "value": "Height",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 24,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        330.36,
+        122.16,
+        362.04,
+        137.291
+      ],
+      "bbox_norm": [
+        0.555227,
+        0.145083,
+        0.608471,
+        0.163053
+      ],
+      "source": "printed",
+      "value": "Angle",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Angle"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 31,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        408.3,
+        122.16,
+        574.68,
+        137.291
+      ],
+      "bbox_norm": [
+        0.686218,
+        0.145083,
+        0.965849,
+        0.163053
+      ],
+      "source": "printed",
+      "value": "Notes",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        169.86,
+        47.88,
+        209.52
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.201734,
+        0.080471,
+        0.248836
+      ],
+      "source": "written",
+      "value": "131",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Species1 Sub"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 5,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        169.86,
+        108.54,
+        209.52
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.201734,
+        0.18242,
+        0.248836
+      ],
+      "source": "written",
+      "value": "Dimocarpus longan",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species1 | STEM DIAMETER/HEIGHT/SAPLING START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Species1 Sub Tag No. State2"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 8,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        169.86,
+        159.72,
+        209.52
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.201734,
+        0.268437,
+        0.248836
+      ],
+      "source": "written",
+      "value": "8",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | STEM DIAMETER/HEIGHT/SAPLING START TIME: IDENTIFIER: DAY/MONTH/YEAR: Class Species1 Tag No. State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 11,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        169.86,
+        196.2,
+        209.52
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.201734,
+        0.329748,
+        0.248836
+      ],
+      "source": "written",
+      "value": "216",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Stem State2 | STEM DIAMETER/HEIGHT/SAPLING Class Tag No. Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 14,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        169.86,
+        225.72,
+        209.52
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.201734,
+        0.379361,
+        0.248836
+      ],
+      "source": "written",
+      "value": "177",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Decay | STEM DIAMETER/HEIGHT/SAPLING Class Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 17,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        169.86,
+        275.34,
+        209.52
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.201734,
+        0.462756,
+        0.248836
+      ],
+      "source": "written",
+      "value": "85.5",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Diameter | STEM DIAMETER/HEIGHT/SAPLING FINISH TIME: MEASURED RECORDED Class Diameter Height Angle State2 of Decay"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 20,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        169.86,
+        324.96,
+        209.52
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.201734,
+        0.546151,
+        0.248836
+      ],
+      "source": "written",
+      "value": "56.4",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Height | DIAMETER/HEIGHT/SAPLING RECORD FINISH TIME: MEASURED BY: RECORDED Class of Diameter Height Angle lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 23,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        169.86,
+        367.44,
+        209.52
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.201734,
+        0.617546,
+        0.248836
+      ],
+      "source": "written",
+      "value": "46",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Angle lean3 of | DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED saplings> of Height Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 26,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        169.86,
+        402.9,
+        209.52
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.201734,
+        0.677143,
+        0.248836
+      ],
+      "source": "written",
+      "value": "83",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No. | DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED saplings> of Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        328.32,
+        47.88,
+        367.92
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.389929,
+        0.080471,
+        0.43696
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "int",
+      "semantic_context": "Sub plot | START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Species1 Sub"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 5,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        328.32,
+        108.54,
+        367.92
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.389929,
+        0.18242,
+        0.43696
+      ],
+      "source": "written",
+      "value": "Mesua ferrea",
+      "mark": "text",
+      "value_kind": "species",
+      "semantic_context": "Species1 | STEM DIAMETER/HEIGHT/SAPLING START TIME: PLOT IDENTIFIER: DAY/MONTH/YEAR: Species1 Sub Tag No. State2"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 8,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        328.32,
+        159.72,
+        367.92
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.389929,
+        0.268437,
+        0.43696
+      ],
+      "source": "written",
+      "value": "242",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Tag No. | STEM DIAMETER/HEIGHT/SAPLING START TIME: IDENTIFIER: DAY/MONTH/YEAR: Class Species1 Tag No. State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 11,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        328.32,
+        196.2,
+        367.92
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.389929,
+        0.329748,
+        0.43696
+      ],
+      "source": "written",
+      "value": "117",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Stem State2 | STEM DIAMETER/HEIGHT/SAPLING Class Tag No. Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 14,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        328.32,
+        225.72,
+        367.92
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.389929,
+        0.379361,
+        0.43696
+      ],
+      "source": "written",
+      "value": "98",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Decay | STEM DIAMETER/HEIGHT/SAPLING Class Diameter State2 Decay"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 17,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        328.32,
+        275.34,
+        367.92
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.389929,
+        0.462756,
+        0.43696
+      ],
+      "source": "written",
+      "value": "8.9",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Diameter | STEM DIAMETER/HEIGHT/SAPLING FINISH TIME: MEASURED RECORDED Class Diameter Height Angle State2 of Decay"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 20,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        328.32,
+        324.96,
+        367.92
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.389929,
+        0.546151,
+        0.43696
+      ],
+      "source": "written",
+      "value": "127.2",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "Height | DIAMETER/HEIGHT/SAPLING RECORD FINISH TIME: MEASURED BY: RECORDED Class of Diameter Height Angle lean3 <No. Decay"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 23,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        328.32,
+        367.44,
+        367.92
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.389929,
+        0.617546,
+        0.43696
+      ],
+      "source": "written",
+      "value": "146",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "Angle lean3 of | DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED saplings> of Height Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 26,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        328.32,
+        402.9,
+        367.92
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.389929,
+        0.677143,
+        0.43696
+      ],
+      "source": "written",
+      "value": "171",
+      "mark": "text",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No. | DIAMETER/HEIGHT/SAPLING RECORD SHEET FINISH TIME: MEASURED BY: RECORDED saplings> of Angle lean3 <No."
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        486.72,
+        47.88,
+        526.32
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.578052,
+        0.080471,
+        0.625083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 5,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        486.72,
+        108.54,
+        526.32
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.578052,
+        0.18242,
+        0.625083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 8,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        486.72,
+        159.72,
+        526.32
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.578052,
+        0.268437,
+        0.625083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 11,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        486.72,
+        196.2,
+        526.32
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.578052,
+        0.329748,
+        0.625083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 14,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        486.72,
+        225.72,
+        526.32
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.578052,
+        0.379361,
+        0.625083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 17,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        486.72,
+        275.34,
+        526.32
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.578052,
+        0.462756,
+        0.625083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 20,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        486.72,
+        324.96,
+        526.32
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.578052,
+        0.546151,
+        0.625083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 23,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        486.72,
+        367.44,
+        526.32
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.578052,
+        0.617546,
+        0.625083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 26,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        486.72,
+        402.9,
+        526.32
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.578052,
+        0.677143,
+        0.625083
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        645.12,
+        47.88,
+        684.72
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.766176,
+        0.080471,
+        0.813207
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 5,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        645.12,
+        108.54,
+        684.72
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.766176,
+        0.18242,
+        0.813207
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 8,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        645.12,
+        159.72,
+        684.72
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.766176,
+        0.268437,
+        0.813207
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 11,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        645.12,
+        196.2,
+        684.72
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.766176,
+        0.329748,
+        0.813207
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 14,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        645.12,
+        225.72,
+        684.72
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.766176,
+        0.379361,
+        0.813207
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 17,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        645.12,
+        275.34,
+        684.72
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.766176,
+        0.462756,
+        0.813207
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 20,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        645.12,
+        324.96,
+        684.72
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.766176,
+        0.546151,
+        0.813207
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 23,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        645.12,
+        367.44,
+        684.72
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.766176,
+        0.617546,
+        0.813207
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 26,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        645.12,
+        402.9,
+        684.72
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.766176,
+        0.677143,
+        0.813207
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        21.84,
+        726.72,
+        47.88,
+        766.32
+      ],
+      "bbox_norm": [
+        0.036706,
+        0.863088,
+        0.080471,
+        0.910119
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Sub plot"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 5,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        47.88,
+        726.72,
+        108.54,
+        766.32
+      ],
+      "bbox_norm": [
+        0.080471,
+        0.863088,
+        0.18242,
+        0.910119
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species1"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 8,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        108.54,
+        726.72,
+        159.72,
+        766.32
+      ],
+      "bbox_norm": [
+        0.18242,
+        0.863088,
+        0.268437,
+        0.910119
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Tag No."
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 11,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        159.72,
+        726.72,
+        196.2,
+        766.32
+      ],
+      "bbox_norm": [
+        0.268437,
+        0.863088,
+        0.329748,
+        0.910119
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "Stem State2"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 14,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        196.2,
+        726.72,
+        225.72,
+        766.32
+      ],
+      "bbox_norm": [
+        0.329748,
+        0.863088,
+        0.379361,
+        0.910119
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Decay"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 17,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        225.72,
+        726.72,
+        275.34,
+        766.32
+      ],
+      "bbox_norm": [
+        0.379361,
+        0.863088,
+        0.462756,
+        0.910119
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Diameter"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 20,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        275.34,
+        726.72,
+        324.96,
+        766.32
+      ],
+      "bbox_norm": [
+        0.462756,
+        0.863088,
+        0.546151,
+        0.910119
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "Height"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 23,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        324.96,
+        726.72,
+        367.44,
+        766.32
+      ],
+      "bbox_norm": [
+        0.546151,
+        0.863088,
+        0.617546,
+        0.910119
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Angle lean3 of"
+    },
+    {
+      "page": 2,
+      "row": 39,
+      "col": 26,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        367.44,
+        726.72,
+        402.9,
+        766.32
+      ],
+      "bbox_norm": [
+        0.617546,
+        0.863088,
+        0.677143,
+        0.910119
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "saplings> of <No."
+    }
+  ]
+}

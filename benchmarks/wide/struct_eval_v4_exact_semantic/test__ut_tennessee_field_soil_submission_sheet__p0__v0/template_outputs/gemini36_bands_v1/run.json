@@ -1,0 +1,96 @@
+{
+  "form": "test__ut_tennessee_field_soil_submission_sheet__p0__v0",
+  "template": "ut_tennessee_field_soil_submission_sheet.pdf",
+  "page": 1,
+  "model": "gemini-3.6-flash",
+  "mode": "bands",
+  "tag": "gemini36_bands_v1",
+  "aligned": true,
+  "cells": 57,
+  "targets": 46,
+  "decisions": 46,
+  "missing": [],
+  "extra": [],
+  "duplicates": [],
+  "calls": [
+    {
+      "batch": 0,
+      "model": "gemini-3.6-flash",
+      "in_tok": 10559,
+      "out_tok": 1944,
+      "thinking_tok": 0,
+      "cost_usd": 0.03042,
+      "latency_s": 9.2
+    },
+    {
+      "batch": 1,
+      "model": "gemini-3.6-flash",
+      "in_tok": 2805,
+      "out_tok": 332,
+      "thinking_tok": 0,
+      "cost_usd": 0.0067,
+      "latency_s": 3.5
+    }
+  ],
+  "cost_usd": 0.03712,
+  "latency_s": 12.7,
+  "wall_s": 12.7,
+  "integrity": {
+    "golden_kind": "exact_layout",
+    "strict_metrics_are_headline": true,
+    "golden_cells": 22,
+    "candidate_cells": 22,
+    "cell_count_ratio": 1.0,
+    "pages": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "golden": 1,
+      "candidate": 1
+    },
+    "content_anywhere": {
+      "precision": 0.9545,
+      "recall": 0.9545,
+      "f1": 0.9545
+    },
+    "occupied_position": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "exact_cell": {
+      "precision": 0.9545,
+      "recall": 0.9545,
+      "f1": 0.9545
+    },
+    "class_imbalance_resistant": {
+      "offmode_accuracy_all": 1.0,
+      "offmode_n": 6,
+      "balanced_class_recall": 0.9524,
+      "silent_columns": 0
+    },
+    "oracle_modal_control": {
+      "description": "oracle occupied positions plus per-page/column modes; reads no pixels",
+      "exact_cell_recall": 0.7273,
+      "content_anywhere_f1": 0.7273,
+      "constant_columns": 0,
+      "candidate_content_f1_lift": 0.2272,
+      "candidate_exact_recall_lift": 0.2272
+    },
+    "errors": {
+      "omitted": 0,
+      "wrong_value_at_occupied_position": 1,
+      "false_fill_or_extra_position": 0,
+      "duplicate_row_excess": 0
+    },
+    "shape": {
+      "row_extent_ratio": 1.0,
+      "column_extent_ratio": 1.0
+    },
+    "constancy": {
+      "max_excess_over_golden": 0.0,
+      "candidate_columns_ge_0_98": 0,
+      "golden_columns_ge_0_98": 0
+    }
+  }
+}

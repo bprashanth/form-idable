@@ -1,0 +1,148 @@
+{
+  "decisions": [
+    {
+      "table_id": "phenology_table",
+      "row_id": "8",
+      "column_id": "fruits_unripe",
+      "value": "01",
+      "confidence": 0.9,
+      "evidence": "The cell contains a '0' with a '1' written over or next to it, appearing as '01'."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "11",
+      "column_id": "flowers_fallen",
+      "value": "X",
+      "confidence": 0.8,
+      "evidence": "The cell contains a single 'X' mark, though it is somewhat messy."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "29",
+      "column_id": "flowers_buds",
+      "value": "D",
+      "confidence": 0.9,
+      "evidence": "The cell contains a clear 'D'."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "29",
+      "column_id": "flowers_open",
+      "value": "D",
+      "confidence": 0.9,
+      "evidence": "The cell contains a clear 'D'."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "29",
+      "column_id": "fruits_unripe",
+      "value": "01",
+      "confidence": 0.8,
+      "evidence": "The cell contains a '0' and a '1' written together, appearing as '01'."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "29",
+      "column_id": "fruits_fallen",
+      "value": "Y",
+      "confidence": 0.8,
+      "evidence": "The cell contains a 'Y' mark, with some scribbling underneath."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "30",
+      "column_id": "multistem",
+      "value": "DEAD/DRY tree (May 2017)",
+      "confidence": 0.9,
+      "evidence": "The text 'DEAD/DRY tree (May 2017)' spans across the row."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "30",
+      "column_id": "leaves_flush",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "The cell is empty, as the text 'DEAD/DRY tree (May 2017)' spans across the row."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "30",
+      "column_id": "leaves_mature",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "The cell is empty, as the text 'DEAD/DRY tree (May 2017)' spans across the row."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "30",
+      "column_id": "leaves_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "The cell is empty, as the text 'DEAD/DRY tree (May 2017)' spans across the row."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "30",
+      "column_id": "flowers_buds",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "The cell is empty, as the text 'DEAD/DRY tree (May 2017)' spans across the row."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "30",
+      "column_id": "flowers_open",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "The cell is empty, as the text 'DEAD/DRY tree (May 2017)' spans across the row."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "30",
+      "column_id": "flowers_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "The cell is empty, as the text 'DEAD/DRY tree (May 2017)' spans across the row."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "30",
+      "column_id": "fruits_unripe",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "The cell is empty, as the text 'DEAD/DRY tree (May 2017)' spans across the row."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "30",
+      "column_id": "fruits_ripe",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "The cell is empty, as the text 'DEAD/DRY tree (May 2017)' spans across the row."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "30",
+      "column_id": "fruits_fallen",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "The cell is empty, as the text 'DEAD/DRY tree (May 2017)' spans across the row."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "30",
+      "column_id": "notes",
+      "value": null,
+      "confidence": 0.9,
+      "evidence": "The cell is empty, as the text 'DEAD/DRY tree (May 2017)' spans across the row."
+    },
+    {
+      "table_id": "phenology_table",
+      "row_id": "48",
+      "column_id": "fruits_fallen",
+      "value": "N",
+      "confidence": 0.8,
+      "evidence": "The cell contains an 'N' mark."
+    }
+  ]
+}

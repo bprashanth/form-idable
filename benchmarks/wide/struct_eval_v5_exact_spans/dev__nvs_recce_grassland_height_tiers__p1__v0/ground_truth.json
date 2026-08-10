@@ -1,0 +1,6060 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nvs_recce_grassland_height_tiers.pdf",
+  "page": 2,
+  "page_size_points": [
+    612.0,
+    792.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 2,
+      "row": 3,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        82.08,
+        124.08,
+        100.77
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.103636,
+        0.202745,
+        0.127235
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "'$7( &RYHU FODVVHV | 5(&&( ,'(17,),(5 '$7( &RYHU FODVVHV \u00b1 7LHU $ %"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        82.08,
+        198.03,
+        100.77
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.103636,
+        0.323578,
+        0.127235
+      ],
+      "source": "printed",
+      "value": "7LHU",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "7LHU"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        82.08,
+        271.95,
+        100.77
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.103636,
+        0.444363,
+        0.127235
+      ],
+      "source": "printed",
+      "value": "7LHU",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "7LHU"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        82.08,
+        345.9,
+        100.77
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.103636,
+        0.565196,
+        0.127235
+      ],
+      "source": "printed",
+      "value": "7LHU $",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "7LHU $"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        82.08,
+        419.82,
+        100.77
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.103636,
+        0.68598,
+        0.127235
+      ],
+      "source": "printed",
+      "value": "7LHU %",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "7LHU %"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        82.08,
+        493.8,
+        100.77
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.103636,
+        0.806863,
+        0.127235
+      ],
+      "source": "printed",
+      "value": "7LHU $",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "7LHU $"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        82.08,
+        567.72,
+        100.77
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.103636,
+        0.927647,
+        0.127235
+      ],
+      "source": "printed",
+      "value": "7LHU %",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "7LHU %"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        100.77,
+        124.08,
+        119.46
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.127235,
+        0.202745,
+        0.150833
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "'$7( &RYHU FODVVHV | 5(&&( ,'(17,),(5 '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        100.77,
+        198.03,
+        119.46
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.127235,
+        0.323578,
+        0.150833
+      ],
+      "source": "printed",
+      "value": "\u00b1 P",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "\u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        100.77,
+        271.95,
+        119.46
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.127235,
+        0.444363,
+        0.150833
+      ],
+      "source": "printed",
+      "value": "\u00b1 P",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "\u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        100.77,
+        345.9,
+        119.46
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.127235,
+        0.565196,
+        0.150833
+      ],
+      "source": "printed",
+      "value": "\u00b1 P",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "\u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        100.77,
+        419.82,
+        119.46
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.127235,
+        0.68598,
+        0.150833
+      ],
+      "source": "printed",
+      "value": "\u00b1 P",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "\u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        100.77,
+        493.8,
+        119.46
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.127235,
+        0.806863,
+        0.150833
+      ],
+      "source": "printed",
+      "value": "\u00b1 P",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "\u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        100.77,
+        567.72,
+        119.46
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.127235,
+        0.927647,
+        0.150833
+      ],
+      "source": "printed",
+      "value": "P",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "P"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        119.46,
+        124.08,
+        138.09
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.150833,
+        0.202745,
+        0.174356
+      ],
+      "source": "printed",
+      "value": "2YHUDOO FRYHU",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "2YHUDOO FRYHU"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        119.46,
+        198.03,
+        138.09
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.150833,
+        0.323578,
+        0.174356
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | 5(&&( ,'(17,),(5 '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        119.46,
+        271.95,
+        138.09
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.150833,
+        0.444363,
+        0.174356
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | ,'(17,),(5 0($685(' %< 5(&25'(' FODVVHV \u00b1 7LHU $ P 2YHUDOO FRYHU"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        119.46,
+        345.9,
+        138.09
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.150833,
+        0.565196,
+        0.174356
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P 2YHUDOO FRYHU"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        119.46,
+        419.82,
+        138.09
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.150833,
+        0.68598,
+        0.174356
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P | 3DJH 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P 2YHUDOO FRYHU"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        119.46,
+        493.8,
+        138.09
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.150833,
+        0.806863,
+        0.174356
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 3DJH RI 0($685(' %< 5(&25'(' \u00b1 7LHU % $ P"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        119.46,
+        567.72,
+        138.09
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.150833,
+        0.927647,
+        0.174356
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P | 3DJH RI 7LHU $ % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        138.09,
+        124.08,
+        156.75
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.174356,
+        0.202745,
+        0.197917
+      ],
+      "source": "written",
+      "value": "12/03/25",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "2YHUDOO FRYHU | 2YHUDOO FRYHU | 5(&&( ,'(17,),(5 '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        138.09,
+        198.03,
+        156.75
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.174356,
+        0.323578,
+        0.197917
+      ],
+      "source": "written",
+      "value": "Rekha",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | 5(&&( ,'(17,),(5 '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        138.09,
+        271.95,
+        156.75
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.174356,
+        0.444363,
+        0.197917
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | ,'(17,),(5 0($685(' %< 5(&25'(' FODVVHV \u00b1 7LHU $ P FRYHU"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        138.09,
+        345.9,
+        156.75
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.174356,
+        0.565196,
+        0.197917
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        138.09,
+        419.82,
+        156.75
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.174356,
+        0.68598,
+        0.197917
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P | 3DJH 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        138.09,
+        493.8,
+        156.75
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.174356,
+        0.806863,
+        0.197917
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 3DJH RI 0($685(' %< 5(&25'(' \u00b1 7LHU % $ P"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        138.09,
+        567.72,
+        156.75
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.174356,
+        0.927647,
+        0.197917
+      ],
+      "source": "written",
+      "value": "97",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P | 3DJH RI 7LHU $ % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        156.75,
+        124.08,
+        175.44
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.197917,
+        0.202745,
+        0.221515
+      ],
+      "source": "printed",
+      "value": "7LHU",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "7LHU"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        156.75,
+        198.03,
+        175.44
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.197917,
+        0.323578,
+        0.221515
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | 5(&&( ,'(17,),(5 '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        156.75,
+        271.95,
+        175.44
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.197917,
+        0.444363,
+        0.221515
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | ,'(17,),(5 0($685(' %< 5(&25'(' FODVVHV \u00b1 7LHU $ P FRYHU"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        156.75,
+        345.9,
+        175.44
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.197917,
+        0.565196,
+        0.221515
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        156.75,
+        419.82,
+        175.44
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.197917,
+        0.68598,
+        0.221515
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P | 3DJH 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        156.75,
+        493.8,
+        175.44
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.197917,
+        0.806863,
+        0.221515
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 3DJH RI 0($685(' %< 5(&25'(' \u00b1 7LHU % $ P"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        156.75,
+        567.72,
+        175.44
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.197917,
+        0.927647,
+        0.221515
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P | 3DJH RI 7LHU $ % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        175.44,
+        124.08,
+        194.13
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.221515,
+        0.202745,
+        0.245114
+      ],
+      "source": "printed",
+      "value": "(SLSK\\WHV",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "(SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        175.44,
+        198.03,
+        194.13
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.221515,
+        0.323578,
+        0.245114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | 5(&&( ,'(17,),(5 '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        175.44,
+        271.95,
+        194.13
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.221515,
+        0.444363,
+        0.245114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | ,'(17,),(5 0($685(' %< 5(&25'(' FODVVHV \u00b1 7LHU $ P FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        175.44,
+        345.9,
+        194.13
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.221515,
+        0.565196,
+        0.245114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        175.44,
+        419.82,
+        194.13
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.221515,
+        0.68598,
+        0.245114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P | 3DJH 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        175.44,
+        493.8,
+        194.13
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.221515,
+        0.806863,
+        0.245114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 3DJH RI 0($685(' %< 5(&25'(' \u00b1 7LHU % $ P"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        175.44,
+        567.72,
+        194.13
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.221515,
+        0.927647,
+        0.245114
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P | 3DJH RI 7LHU $ % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        194.13,
+        124.08,
+        212.82
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.245114,
+        0.202745,
+        0.268712
+      ],
+      "source": "written",
+      "value": "15/10/20",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV | 5(&&( ,'(17,),(5 '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        194.13,
+        198.03,
+        212.82
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.245114,
+        0.323578,
+        0.268712
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | 5(&&( ,'(17,),(5 '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        194.13,
+        271.95,
+        212.82
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.245114,
+        0.444363,
+        0.268712
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | ,'(17,),(5 0($685(' %< 5(&25'(' FODVVHV \u00b1 7LHU $ P FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        194.13,
+        345.9,
+        212.82
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.245114,
+        0.565196,
+        0.268712
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        194.13,
+        419.82,
+        212.82
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.245114,
+        0.68598,
+        0.268712
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P | 3DJH 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        194.13,
+        493.8,
+        212.82
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.245114,
+        0.806863,
+        0.268712
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 3DJH RI 0($685(' %< 5(&25'(' \u00b1 7LHU % $ P"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        194.13,
+        567.72,
+        212.82
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.245114,
+        0.927647,
+        0.268712
+      ],
+      "source": "written",
+      "value": "100",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P | 3DJH RI 7LHU $ % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        212.82,
+        124.08,
+        231.51
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.268712,
+        0.202745,
+        0.292311
+      ],
+      "source": "written",
+      "value": "02/06/19",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV | 5(&&( ,'(17,),(5 '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        212.82,
+        198.03,
+        231.51
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.268712,
+        0.323578,
+        0.292311
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | 5(&&( ,'(17,),(5 '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        212.82,
+        271.95,
+        231.51
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.268712,
+        0.444363,
+        0.292311
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | ,'(17,),(5 0($685(' %< 5(&25'(' FODVVHV \u00b1 7LHU $ P FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        212.82,
+        345.9,
+        231.51
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.268712,
+        0.565196,
+        0.292311
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        212.82,
+        419.82,
+        231.51
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.268712,
+        0.68598,
+        0.292311
+      ],
+      "source": "written",
+      "value": "58",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P | 3DJH 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        212.82,
+        493.8,
+        231.51
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.268712,
+        0.806863,
+        0.292311
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 3DJH RI 0($685(' %< 5(&25'(' \u00b1 7LHU % $ P"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        212.82,
+        567.72,
+        231.51
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.268712,
+        0.927647,
+        0.292311
+      ],
+      "source": "written",
+      "value": "71",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P | 3DJH RI 7LHU $ % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        231.51,
+        124.08,
+        250.14
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.292311,
+        0.202745,
+        0.315833
+      ],
+      "source": "written",
+      "value": "23/03/19",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV | 5(&&( ,'(17,),(5 '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        231.51,
+        198.03,
+        250.14
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.292311,
+        0.323578,
+        0.315833
+      ],
+      "source": "written",
+      "value": "Ramesh",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | 5(&&( ,'(17,),(5 '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        231.51,
+        271.95,
+        250.14
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.292311,
+        0.444363,
+        0.315833
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | ,'(17,),(5 0($685(' %< 5(&25'(' FODVVHV \u00b1 7LHU $ P FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        231.51,
+        345.9,
+        250.14
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.292311,
+        0.565196,
+        0.315833
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        231.51,
+        419.82,
+        250.14
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.292311,
+        0.68598,
+        0.315833
+      ],
+      "source": "written",
+      "value": "64",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P | 3DJH 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        231.51,
+        493.8,
+        250.14
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.292311,
+        0.806863,
+        0.315833
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 3DJH RI 0($685(' %< 5(&25'(' \u00b1 7LHU % $ P"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        231.51,
+        567.72,
+        250.14
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.292311,
+        0.927647,
+        0.315833
+      ],
+      "source": "written",
+      "value": "65",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P | 3DJH RI 7LHU $ % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        250.14,
+        124.08,
+        268.8
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.315833,
+        0.202745,
+        0.339394
+      ],
+      "source": "written",
+      "value": "02/06/22",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV | 5(&&( ,'(17,),(5 '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        250.14,
+        198.03,
+        268.8
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.315833,
+        0.323578,
+        0.339394
+      ],
+      "source": "written",
+      "value": "Deepa",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | 5(&&( ,'(17,),(5 '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        250.14,
+        271.95,
+        268.8
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.315833,
+        0.444363,
+        0.339394
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | ,'(17,),(5 0($685(' %< 5(&25'(' FODVVHV \u00b1 7LHU $ P FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        250.14,
+        345.9,
+        268.8
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.315833,
+        0.565196,
+        0.339394
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        250.14,
+        419.82,
+        268.8
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.315833,
+        0.68598,
+        0.339394
+      ],
+      "source": "written",
+      "value": "89",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P | 0($685(' %< 5(&25'(' \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        250.14,
+        493.8,
+        268.8
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.315833,
+        0.806863,
+        0.339394
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 0($685(' %< 5(&25'(' \u00b1 7LHU % $ P"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        250.14,
+        567.72,
+        268.8
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.315833,
+        0.927647,
+        0.339394
+      ],
+      "source": "written",
+      "value": "26",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P | 7LHU $ % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        268.8,
+        124.08,
+        287.49
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.339394,
+        0.202745,
+        0.362992
+      ],
+      "source": "written",
+      "value": "18/10/20",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV | '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        268.8,
+        198.03,
+        287.49
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.339394,
+        0.323578,
+        0.362992
+      ],
+      "source": "written",
+      "value": "Santosh",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | '$7( &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        268.8,
+        271.95,
+        287.49
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.339394,
+        0.444363,
+        0.362992
+      ],
+      "source": "written",
+      "value": "54",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | 5(&25'(' %< FODVVHV \u00b1 7LHU $ P FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        268.8,
+        345.9,
+        287.49
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.339394,
+        0.565196,
+        0.362992
+      ],
+      "source": "written",
+      "value": "100",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 5(&25'(' %< \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        268.8,
+        419.82,
+        287.49
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.339394,
+        0.68598,
+        0.362992
+      ],
+      "source": "written",
+      "value": "61",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P | 5(&25'(' %< \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        268.8,
+        493.8,
+        287.49
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.339394,
+        0.806863,
+        0.362992
+      ],
+      "source": "written",
+      "value": "18",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 5(&25'(' %< \u00b1 7LHU % $ P"
+    },
+    {
+      "page": 2,
+      "row": 13,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        268.8,
+        567.72,
+        287.49
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.339394,
+        0.927647,
+        0.362992
+      ],
+      "source": "written",
+      "value": "95",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P | 7LHU $ % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        287.49,
+        124.08,
+        306.18
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.362992,
+        0.202745,
+        0.386591
+      ],
+      "source": "written",
+      "value": "03/09/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV | &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        287.49,
+        198.03,
+        306.18
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.362992,
+        0.323578,
+        0.386591
+      ],
+      "source": "written",
+      "value": "Suresh",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | &RYHU FODVVHV \u00b1 7LHU P 2YHUDOO FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        287.49,
+        271.95,
+        306.18
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.362992,
+        0.444363,
+        0.386591
+      ],
+      "source": "written",
+      "value": "28/01/23",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | FODVVHV \u00b1 7LHU $ P FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        287.49,
+        345.9,
+        306.18
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.362992,
+        0.565196,
+        0.386591
+      ],
+      "source": "written",
+      "value": "26",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        287.49,
+        419.82,
+        306.18
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.362992,
+        0.68598,
+        0.386591
+      ],
+      "source": "written",
+      "value": "80",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P | \u00b1 7LHU $ % P"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        287.49,
+        493.8,
+        306.18
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.362992,
+        0.806863,
+        0.386591
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | \u00b1 7LHU % $ P"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        287.49,
+        567.72,
+        306.18
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.362992,
+        0.927647,
+        0.386591
+      ],
+      "source": "written",
+      "value": "63",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P | 7LHU $ % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        306.18,
+        124.08,
+        324.87
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.386591,
+        0.202745,
+        0.410189
+      ],
+      "source": "written",
+      "value": "10/09/25",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV | 7LHU \u00b1 P 2YHUDOO FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        306.18,
+        198.03,
+        324.87
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.386591,
+        0.323578,
+        0.410189
+      ],
+      "source": "written",
+      "value": "Kavita",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | 7LHU \u00b1 P 2YHUDOO FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        306.18,
+        271.95,
+        324.87
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.386591,
+        0.444363,
+        0.410189
+      ],
+      "source": "written",
+      "value": "11/02/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | 7LHU $ \u00b1 P FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        306.18,
+        345.9,
+        324.87
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.386591,
+        0.565196,
+        0.410189
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 7LHU $ % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        306.18,
+        419.82,
+        324.87
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.386591,
+        0.68598,
+        0.410189
+      ],
+      "source": "written",
+      "value": "21",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P | 7LHU $ % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        306.18,
+        493.8,
+        324.87
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.386591,
+        0.806863,
+        0.410189
+      ],
+      "source": "written",
+      "value": "70",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | 7LHU % $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 15,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        306.18,
+        567.72,
+        324.87
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.386591,
+        0.927647,
+        0.410189
+      ],
+      "source": "written",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P | 7LHU $ % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        324.87,
+        124.08,
+        343.56
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.410189,
+        0.202745,
+        0.433788
+      ],
+      "source": "written",
+      "value": "07/02/22",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV | \u00b1 P 2YHUDOO FRYHU 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        324.87,
+        198.03,
+        343.56
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.410189,
+        0.323578,
+        0.433788
+      ],
+      "source": "written",
+      "value": "Santosh",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | \u00b1 P 2YHUDOO FRYHU 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        324.87,
+        271.95,
+        343.56
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.410189,
+        0.444363,
+        0.433788
+      ],
+      "source": "written",
+      "value": "15/01/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | \u00b1 P FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        324.87,
+        345.9,
+        343.56
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.410189,
+        0.565196,
+        0.433788
+      ],
+      "source": "written",
+      "value": "Illupai",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        324.87,
+        419.82,
+        343.56
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.410189,
+        0.68598,
+        0.433788
+      ],
+      "source": "written",
+      "value": "28",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P | \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        324.87,
+        493.8,
+        343.56
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.410189,
+        0.806863,
+        0.433788
+      ],
+      "source": "written",
+      "value": "67.4",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P | \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 16,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        324.87,
+        567.72,
+        343.56
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.410189,
+        0.927647,
+        0.433788
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P | \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        343.56,
+        124.08,
+        362.19
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.433788,
+        0.202745,
+        0.457311
+      ],
+      "source": "written",
+      "value": "05/08/20",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV | 2YHUDOO FRYHU 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        343.56,
+        198.03,
+        362.19
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.433788,
+        0.323578,
+        0.457311
+      ],
+      "source": "written",
+      "value": "Mahesh",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | 2YHUDOO FRYHU 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        343.56,
+        271.95,
+        362.19
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.433788,
+        0.444363,
+        0.457311
+      ],
+      "source": "written",
+      "value": "12/12/19",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | FRYHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        343.56,
+        345.9,
+        362.19
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.433788,
+        0.565196,
+        0.457311
+      ],
+      "source": "written",
+      "value": "Kadukai",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        343.56,
+        419.82,
+        362.19
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.433788,
+        0.68598,
+        0.457311
+      ],
+      "source": "written",
+      "value": "86",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        343.56,
+        493.8,
+        362.19
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.433788,
+        0.806863,
+        0.457311
+      ],
+      "source": "written",
+      "value": "169.6",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 17,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        343.56,
+        567.72,
+        362.19
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.433788,
+        0.927647,
+        0.457311
+      ],
+      "source": "written",
+      "value": "66",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        362.19,
+        124.08,
+        380.88
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.457311,
+        0.202745,
+        0.480909
+      ],
+      "source": "written",
+      "value": "23/08/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        362.19,
+        198.03,
+        380.88
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.457311,
+        0.323578,
+        0.480909
+      ],
+      "source": "written",
+      "value": "Mohan",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        362.19,
+        271.95,
+        380.88
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.457311,
+        0.444363,
+        0.480909
+      ],
+      "source": "written",
+      "value": "15/10/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        362.19,
+        345.9,
+        380.88
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.457311,
+        0.565196,
+        0.480909
+      ],
+      "source": "written",
+      "value": "Neem",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        362.19,
+        419.82,
+        380.88
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.457311,
+        0.68598,
+        0.480909
+      ],
+      "source": "written",
+      "value": "43",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        362.19,
+        493.8,
+        380.88
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.457311,
+        0.806863,
+        0.480909
+      ],
+      "source": "written",
+      "value": "45.7",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 18,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        362.19,
+        567.72,
+        380.88
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.457311,
+        0.927647,
+        0.480909
+      ],
+      "source": "written",
+      "value": "35",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        380.88,
+        124.08,
+        399.54
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.480909,
+        0.202745,
+        0.50447
+      ],
+      "source": "written",
+      "value": "09/07/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        380.88,
+        198.03,
+        399.54
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.480909,
+        0.323578,
+        0.50447
+      ],
+      "source": "written",
+      "value": "Lakshmi",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        380.88,
+        271.95,
+        399.54
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.480909,
+        0.444363,
+        0.50447
+      ],
+      "source": "written",
+      "value": "13/04/23",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        380.88,
+        345.9,
+        399.54
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.480909,
+        0.565196,
+        0.50447
+      ],
+      "source": "written",
+      "value": "Vengai",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        380.88,
+        419.82,
+        399.54
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.480909,
+        0.68598,
+        0.50447
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        380.88,
+        493.8,
+        399.54
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.480909,
+        0.806863,
+        0.50447
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 19,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        380.88,
+        567.72,
+        399.54
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.480909,
+        0.927647,
+        0.50447
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        399.54,
+        124.08,
+        418.23
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.50447,
+        0.202745,
+        0.528068
+      ],
+      "source": "written",
+      "value": "19/02/22",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV | (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        399.54,
+        198.03,
+        418.23
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.50447,
+        0.323578,
+        0.528068
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        399.54,
+        271.95,
+        418.23
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.50447,
+        0.444363,
+        0.528068
+      ],
+      "source": "written",
+      "value": "05/11/25",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P | (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        399.54,
+        345.9,
+        418.23
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.50447,
+        0.565196,
+        0.528068
+      ],
+      "source": "written",
+      "value": "Icoruu",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        399.54,
+        419.82,
+        418.23
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.50447,
+        0.68598,
+        0.528068
+      ],
+      "source": "written",
+      "value": "46",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        399.54,
+        493.8,
+        418.23
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.50447,
+        0.806863,
+        0.528068
+      ],
+      "source": "written",
+      "value": "1.9",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 20,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        399.54,
+        567.72,
+        418.23
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.50447,
+        0.927647,
+        0.528068
+      ],
+      "source": "written",
+      "value": "31",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        418.23,
+        124.08,
+        436.92
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.528068,
+        0.202745,
+        0.551667
+      ],
+      "source": "written",
+      "value": "13/12/25",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        418.23,
+        198.03,
+        436.92
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.528068,
+        0.323578,
+        0.551667
+      ],
+      "source": "written",
+      "value": "Anita",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        418.23,
+        271.95,
+        436.92
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.528068,
+        0.444363,
+        0.551667
+      ],
+      "source": "written",
+      "value": "06/04/23",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        418.23,
+        345.9,
+        436.92
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.528068,
+        0.565196,
+        0.551667
+      ],
+      "source": "written",
+      "value": "Eotti",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        418.23,
+        419.82,
+        436.92
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.528068,
+        0.68598,
+        0.551667
+      ],
+      "source": "written",
+      "value": "24",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        418.23,
+        493.8,
+        436.92
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.528068,
+        0.806863,
+        0.551667
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 21,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        418.23,
+        567.72,
+        436.92
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.528068,
+        0.927647,
+        0.551667
+      ],
+      "source": "written",
+      "value": "21",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        436.92,
+        124.08,
+        455.61
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.551667,
+        0.202745,
+        0.575265
+      ],
+      "source": "written",
+      "value": "22/06/22",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        436.92,
+        198.03,
+        455.61
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.551667,
+        0.323578,
+        0.575265
+      ],
+      "source": "written",
+      "value": "Latha",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        436.92,
+        271.95,
+        455.61
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.551667,
+        0.444363,
+        0.575265
+      ],
+      "source": "written",
+      "value": "02/10/20",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        436.92,
+        345.9,
+        455.61
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.551667,
+        0.565196,
+        0.575265
+      ],
+      "source": "written",
+      "value": "Vagai",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        436.92,
+        419.82,
+        455.61
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.551667,
+        0.68598,
+        0.575265
+      ],
+      "source": "written",
+      "value": "47",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        436.92,
+        493.8,
+        455.61
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.551667,
+        0.806863,
+        0.575265
+      ],
+      "source": "written",
+      "value": "103.6",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 22,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        436.92,
+        567.72,
+        455.61
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.551667,
+        0.927647,
+        0.575265
+      ],
+      "source": "written",
+      "value": "17",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        455.61,
+        124.08,
+        474.24
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.575265,
+        0.202745,
+        0.598788
+      ],
+      "source": "written",
+      "value": "07/05/21",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        455.61,
+        198.03,
+        474.24
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.575265,
+        0.323578,
+        0.598788
+      ],
+      "source": "written",
+      "value": "Prakash",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        455.61,
+        271.95,
+        474.24
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.575265,
+        0.444363,
+        0.598788
+      ],
+      "source": "written",
+      "value": "18/03/21",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        455.61,
+        345.9,
+        474.24
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.575265,
+        0.565196,
+        0.598788
+      ],
+      "source": "written",
+      "value": "Sambrani",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        455.61,
+        419.82,
+        474.24
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.575265,
+        0.68598,
+        0.598788
+      ],
+      "source": "written",
+      "value": "41",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        455.61,
+        493.8,
+        474.24
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.575265,
+        0.806863,
+        0.598788
+      ],
+      "source": "written",
+      "value": "77.2",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 23,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        455.61,
+        567.72,
+        474.24
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.575265,
+        0.927647,
+        0.598788
+      ],
+      "source": "written",
+      "value": "40",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        474.24,
+        124.08,
+        492.93
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.598788,
+        0.202745,
+        0.622386
+      ],
+      "source": "written",
+      "value": "27/08/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        474.24,
+        198.03,
+        492.93
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.598788,
+        0.323578,
+        0.622386
+      ],
+      "source": "written",
+      "value": "Mahesh",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        474.24,
+        271.95,
+        492.93
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.598788,
+        0.444363,
+        0.622386
+      ],
+      "source": "written",
+      "value": "24/12/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        474.24,
+        345.9,
+        492.93
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.598788,
+        0.565196,
+        0.622386
+      ],
+      "source": "written",
+      "value": "Pala",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        474.24,
+        419.82,
+        492.93
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.598788,
+        0.68598,
+        0.622386
+      ],
+      "source": "written",
+      "value": "65",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        474.24,
+        493.8,
+        492.93
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.598788,
+        0.806863,
+        0.622386
+      ],
+      "source": "written",
+      "value": "92.3",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 24,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        474.24,
+        567.72,
+        492.93
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.598788,
+        0.927647,
+        0.622386
+      ],
+      "source": "written",
+      "value": "66",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        492.93,
+        124.08,
+        511.62
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.622386,
+        0.202745,
+        0.645985
+      ],
+      "source": "written",
+      "value": "08/12/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        492.93,
+        198.03,
+        511.62
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.622386,
+        0.323578,
+        0.645985
+      ],
+      "source": "written",
+      "value": "Sarita",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        492.93,
+        271.95,
+        511.62
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.622386,
+        0.444363,
+        0.645985
+      ],
+      "source": "written",
+      "value": "22/11/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        492.93,
+        345.9,
+        511.62
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.622386,
+        0.565196,
+        0.645985
+      ],
+      "source": "written",
+      "value": "Vagai",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        492.93,
+        419.82,
+        511.62
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.622386,
+        0.68598,
+        0.645985
+      ],
+      "source": "written",
+      "value": "15",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        492.93,
+        493.8,
+        511.62
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.622386,
+        0.806863,
+        0.645985
+      ],
+      "source": "written",
+      "value": "147.2",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 25,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        492.93,
+        567.72,
+        511.62
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.622386,
+        0.927647,
+        0.645985
+      ],
+      "source": "written",
+      "value": "74",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        511.62,
+        124.08,
+        530.28
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.645985,
+        0.202745,
+        0.669545
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        511.62,
+        198.03,
+        530.28
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.645985,
+        0.323578,
+        0.669545
+      ],
+      "source": "written",
+      "value": "Dinesh",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        511.62,
+        271.95,
+        530.28
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.645985,
+        0.444363,
+        0.669545
+      ],
+      "source": "written",
+      "value": "26/09/22",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        511.62,
+        345.9,
+        530.28
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.645985,
+        0.565196,
+        0.669545
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        511.62,
+        419.82,
+        530.28
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.645985,
+        0.68598,
+        0.669545
+      ],
+      "source": "written",
+      "value": "12",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        511.62,
+        493.8,
+        530.28
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.645985,
+        0.806863,
+        0.669545
+      ],
+      "source": "written",
+      "value": "157.0",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 26,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        511.62,
+        567.72,
+        530.28
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.645985,
+        0.927647,
+        0.669545
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        530.28,
+        124.08,
+        548.97
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.669545,
+        0.202745,
+        0.693144
+      ],
+      "source": "written",
+      "value": "22/10/23",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        530.28,
+        198.03,
+        548.97
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.669545,
+        0.323578,
+        0.693144
+      ],
+      "source": "written",
+      "value": "Mohan",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        530.28,
+        271.95,
+        548.97
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.669545,
+        0.444363,
+        0.693144
+      ],
+      "source": "written",
+      "value": "21/11/23",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        530.28,
+        345.9,
+        548.97
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.669545,
+        0.565196,
+        0.693144
+      ],
+      "source": "written",
+      "value": "Seengali",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        530.28,
+        419.82,
+        548.97
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.669545,
+        0.68598,
+        0.693144
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        530.28,
+        493.8,
+        548.97
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.669545,
+        0.806863,
+        0.693144
+      ],
+      "source": "written",
+      "value": "0",
+      "mark": "dot",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 27,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        530.28,
+        567.72,
+        548.97
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.669545,
+        0.927647,
+        0.693144
+      ],
+      "source": "written",
+      "value": "10",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        548.97,
+        124.08,
+        567.66
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.693144,
+        0.202745,
+        0.716742
+      ],
+      "source": "written",
+      "value": "14/01/25",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        548.97,
+        198.03,
+        567.66
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.693144,
+        0.323578,
+        0.716742
+      ],
+      "source": "written",
+      "value": "Dinesh",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        548.97,
+        271.95,
+        567.66
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.693144,
+        0.444363,
+        0.716742
+      ],
+      "source": "written",
+      "value": "23/12/21",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        548.97,
+        345.9,
+        567.66
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.693144,
+        0.565196,
+        0.716742
+      ],
+      "source": "written",
+      "value": "Sambrani",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        548.97,
+        419.82,
+        567.66
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.693144,
+        0.68598,
+        0.716742
+      ],
+      "source": "written",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        548.97,
+        493.8,
+        567.66
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.693144,
+        0.806863,
+        0.716742
+      ],
+      "source": "written",
+      "value": "136.2",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 28,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        548.97,
+        567.72,
+        567.66
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.693144,
+        0.927647,
+        0.716742
+      ],
+      "source": "written",
+      "value": "97",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        567.66,
+        124.08,
+        586.29
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.716742,
+        0.202745,
+        0.740265
+      ],
+      "source": "written",
+      "value": "25/02/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        567.66,
+        198.03,
+        586.29
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.716742,
+        0.323578,
+        0.740265
+      ],
+      "source": "written",
+      "value": "Rekha",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        567.66,
+        271.95,
+        586.29
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.716742,
+        0.444363,
+        0.740265
+      ],
+      "source": "written",
+      "value": "24/11/20",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        567.66,
+        345.9,
+        586.29
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.716742,
+        0.565196,
+        0.740265
+      ],
+      "source": "written",
+      "value": "Kislor",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        567.66,
+        419.82,
+        586.29
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.716742,
+        0.68598,
+        0.740265
+      ],
+      "source": "written",
+      "value": "93",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        567.66,
+        493.8,
+        586.29
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.716742,
+        0.806863,
+        0.740265
+      ],
+      "source": "written",
+      "value": "84.5",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 29,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        567.66,
+        567.72,
+        586.29
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.716742,
+        0.927647,
+        0.740265
+      ],
+      "source": "written",
+      "value": "71",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        586.29,
+        124.08,
+        604.98
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.740265,
+        0.202745,
+        0.763864
+      ],
+      "source": "written",
+      "value": "26/08/19",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        586.29,
+        198.03,
+        604.98
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.740265,
+        0.323578,
+        0.763864
+      ],
+      "source": "written",
+      "value": "Ganesh",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        586.29,
+        271.95,
+        604.98
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.740265,
+        0.444363,
+        0.763864
+      ],
+      "source": "written",
+      "value": "13/06/22",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        586.29,
+        345.9,
+        604.98
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.740265,
+        0.565196,
+        0.763864
+      ],
+      "source": "written",
+      "value": "Sambrani",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        586.29,
+        419.82,
+        604.98
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.740265,
+        0.68598,
+        0.763864
+      ],
+      "source": "written",
+      "value": "83",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        586.29,
+        493.8,
+        604.98
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.740265,
+        0.806863,
+        0.763864
+      ],
+      "source": "written",
+      "value": "75.2",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 30,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        586.29,
+        567.72,
+        604.98
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.740265,
+        0.927647,
+        0.763864
+      ],
+      "source": "written",
+      "value": "47",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        604.98,
+        124.08,
+        623.67
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.763864,
+        0.202745,
+        0.787462
+      ],
+      "source": "written",
+      "value": "16/04/21",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        604.98,
+        198.03,
+        623.67
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.763864,
+        0.323578,
+        0.787462
+      ],
+      "source": "written",
+      "value": "Sunita",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        604.98,
+        271.95,
+        623.67
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.763864,
+        0.444363,
+        0.787462
+      ],
+      "source": "written",
+      "value": "09/05/19",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        604.98,
+        345.9,
+        623.67
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.763864,
+        0.565196,
+        0.787462
+      ],
+      "source": "written",
+      "value": "Nooli",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        604.98,
+        419.82,
+        623.67
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.763864,
+        0.68598,
+        0.787462
+      ],
+      "source": "written",
+      "value": "39",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        604.98,
+        493.8,
+        623.67
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.763864,
+        0.806863,
+        0.787462
+      ],
+      "source": "written",
+      "value": "77.8",
+      "mark": "text",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 31,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        604.98,
+        567.72,
+        623.67
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.763864,
+        0.927647,
+        0.787462
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        623.67,
+        124.08,
+        642.36
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.787462,
+        0.202745,
+        0.811061
+      ],
+      "source": "written",
+      "value": "01/06/24",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        623.67,
+        198.03,
+        642.36
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.787462,
+        0.323578,
+        0.811061
+      ],
+      "source": "written",
+      "value": "Kiran",
+      "mark": "text",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        623.67,
+        271.95,
+        642.36
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.787462,
+        0.444363,
+        0.811061
+      ],
+      "source": "written",
+      "value": "05/12/25",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        623.67,
+        345.9,
+        642.36
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.787462,
+        0.565196,
+        0.811061
+      ],
+      "source": "written",
+      "value": "Kadukai",
+      "mark": "text",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        623.67,
+        419.82,
+        642.36
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.787462,
+        0.68598,
+        0.811061
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        623.67,
+        493.8,
+        642.36
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.787462,
+        0.806863,
+        0.811061
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 32,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        623.67,
+        567.72,
+        642.36
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.787462,
+        0.927647,
+        0.811061
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        642.36,
+        124.08,
+        661.02
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.811061,
+        0.202745,
+        0.834621
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        642.36,
+        198.03,
+        661.02
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.811061,
+        0.323578,
+        0.834621
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        642.36,
+        271.95,
+        661.02
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.811061,
+        0.444363,
+        0.834621
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        642.36,
+        345.9,
+        661.02
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.811061,
+        0.565196,
+        0.834621
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        642.36,
+        419.82,
+        661.02
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.811061,
+        0.68598,
+        0.834621
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        642.36,
+        493.8,
+        661.02
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.811061,
+        0.806863,
+        0.834621
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 33,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        642.36,
+        567.72,
+        661.02
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.811061,
+        0.927647,
+        0.834621
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        661.02,
+        124.08,
+        679.71
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.834621,
+        0.202745,
+        0.85822
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        661.02,
+        198.03,
+        679.71
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.834621,
+        0.323578,
+        0.85822
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        661.02,
+        271.95,
+        679.71
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.834621,
+        0.444363,
+        0.85822
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        661.02,
+        345.9,
+        679.71
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.834621,
+        0.565196,
+        0.85822
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        661.02,
+        419.82,
+        679.71
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.834621,
+        0.68598,
+        0.85822
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        661.02,
+        493.8,
+        679.71
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.834621,
+        0.806863,
+        0.85822
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 34,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        661.02,
+        567.72,
+        679.71
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.834621,
+        0.927647,
+        0.85822
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        679.71,
+        124.08,
+        698.34
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.85822,
+        0.202745,
+        0.881742
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        679.71,
+        198.03,
+        698.34
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.85822,
+        0.323578,
+        0.881742
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        679.71,
+        271.95,
+        698.34
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.85822,
+        0.444363,
+        0.881742
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        679.71,
+        345.9,
+        698.34
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.85822,
+        0.565196,
+        0.881742
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        679.71,
+        419.82,
+        698.34
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.85822,
+        0.68598,
+        0.881742
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        679.71,
+        493.8,
+        698.34
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.85822,
+        0.806863,
+        0.881742
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 35,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        679.71,
+        567.72,
+        698.34
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.85822,
+        0.927647,
+        0.881742
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        698.34,
+        124.08,
+        717.03
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.881742,
+        0.202745,
+        0.905341
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        698.34,
+        198.03,
+        717.03
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.881742,
+        0.323578,
+        0.905341
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        698.34,
+        271.95,
+        717.03
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.881742,
+        0.444363,
+        0.905341
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        698.34,
+        345.9,
+        717.03
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.881742,
+        0.565196,
+        0.905341
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        698.34,
+        419.82,
+        717.03
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.881742,
+        0.68598,
+        0.905341
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        698.34,
+        493.8,
+        717.03
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.881742,
+        0.806863,
+        0.905341
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 36,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        698.34,
+        567.72,
+        717.03
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.881742,
+        0.927647,
+        0.905341
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        717.03,
+        124.08,
+        735.72
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.905341,
+        0.202745,
+        0.928939
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        717.03,
+        198.03,
+        735.72
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.905341,
+        0.323578,
+        0.928939
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        717.03,
+        271.95,
+        735.72
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.905341,
+        0.444363,
+        0.928939
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        717.03,
+        345.9,
+        735.72
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.905341,
+        0.565196,
+        0.928939
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        717.03,
+        419.82,
+        735.72
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.905341,
+        0.68598,
+        0.928939
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        717.03,
+        493.8,
+        735.72
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.905341,
+        0.806863,
+        0.928939
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 37,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        717.03,
+        567.72,
+        735.72
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.905341,
+        0.927647,
+        0.928939
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        735.72,
+        124.08,
+        754.41
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.928939,
+        0.202745,
+        0.952538
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "(SLSK\\WHV | 7LHU (SLSK\\WHV"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        124.08,
+        735.72,
+        198.03,
+        754.41
+      ],
+      "bbox_norm": [
+        0.202745,
+        0.928939,
+        0.323578,
+        0.952538
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "person",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        198.03,
+        735.72,
+        271.95,
+        754.41
+      ],
+      "bbox_norm": [
+        0.323578,
+        0.928939,
+        0.444363,
+        0.952538
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "date",
+      "semantic_context": "\u00b1 P | 7LHU \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        271.95,
+        735.72,
+        345.9,
+        754.41
+      ],
+      "bbox_norm": [
+        0.444363,
+        0.928939,
+        0.565196,
+        0.952538
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "vernacular",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        345.9,
+        735.72,
+        419.82,
+        754.41
+      ],
+      "bbox_norm": [
+        0.565196,
+        0.928939,
+        0.68598,
+        0.952538
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "\u00b1 P | 7LHU % \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        419.82,
+        735.72,
+        493.8,
+        754.41
+      ],
+      "bbox_norm": [
+        0.68598,
+        0.928939,
+        0.806863,
+        0.952538
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "\u00b1 P | 7LHU $ \u00b1 P"
+    },
+    {
+      "page": 2,
+      "row": 38,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        493.8,
+        735.72,
+        567.72,
+        754.41
+      ],
+      "bbox_norm": [
+        0.806863,
+        0.928939,
+        0.927647,
+        0.952538
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "P | 7LHU % P"
+    }
+  ]
+}

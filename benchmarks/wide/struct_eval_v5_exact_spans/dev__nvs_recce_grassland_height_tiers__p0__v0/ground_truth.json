@@ -1,0 +1,3060 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nvs_recce_grassland_height_tiers.pdf",
+  "page": 1,
+  "page_size_points": [
+    612.0,
+    792.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 8,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        169.86,
+        291.87,
+        183.42
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.21447,
+        0.476912,
+        0.231591
+      ],
+      "source": "printed",
+      "value": "6,=( 2) 5(&&(",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6,=( 2) 5(&&("
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        374.67,
+        169.86,
+        567.57,
+        183.42
+      ],
+      "bbox_norm": [
+        0.612206,
+        0.21447,
+        0.927402,
+        0.231591
+      ],
+      "source": "printed",
+      "value": "685)$&( &+$5$&7(5,67,&6",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "685)$&( &+$5$&7(5,67,&6"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        183.42,
+        291.87,
+        196.95
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.231591,
+        0.476912,
+        0.248674
+      ],
+      "source": "printed",
+      "value": "$/7,78'( P",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "$/7,78'( P"
+    },
+    {
+      "page": 1,
+      "row": 9,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        374.67,
+        183.42,
+        567.57,
+        196.95
+      ],
+      "bbox_norm": [
+        0.612206,
+        0.231591,
+        0.927402,
+        0.248674
+      ],
+      "source": "printed",
+      "value": "%HGURFN",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "%HGURFN"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        196.95,
+        291.87,
+        210.51
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.248674,
+        0.476912,
+        0.265795
+      ],
+      "source": "printed",
+      "value": "3+<6,2*5$3+< 5LGJH )DFH *XOO\\ 7HUUDFH",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "3+<6,2*5$3+< 5LGJH )DFH *XOO\\ 7HUUDFH"
+    },
+    {
+      "page": 1,
+      "row": 10,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        374.67,
+        196.95,
+        567.57,
+        210.51
+      ],
+      "bbox_norm": [
+        0.612206,
+        0.248674,
+        0.927402,
+        0.265795
+      ],
+      "source": "printed",
+      "value": "%URNHQ URFN",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "%URNHQ URFN"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        210.51,
+        291.87,
+        224.04
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.265795,
+        0.476912,
+        0.282879
+      ],
+      "source": "printed",
+      "value": "$63(&7 \u00b1 \u009e",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "$63(&7 \u00b1 \u009e"
+    },
+    {
+      "page": 1,
+      "row": 11,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        374.67,
+        210.51,
+        567.57,
+        224.04
+      ],
+      "bbox_norm": [
+        0.612206,
+        0.265795,
+        0.927402,
+        0.282879
+      ],
+      "source": "printed",
+      "value": "6L]H RI EURNHQ URFN FP ! FP",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6L]H RI EURNHQ URFN FP ! FP"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        224.04,
+        291.87,
+        237.6
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.282879,
+        0.476912,
+        0.3
+      ],
+      "source": "printed",
+      "value": "6/23( \u009e &RQYH[ &RQFDYH /LQHDU",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6/23( \u009e &RQYH[ &RQFDYH /LQHDU"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        291.87,
+        224.04,
+        374.67,
+        237.6
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.282879,
+        0.612206,
+        0.3
+      ],
+      "source": "printed",
+      "value": "1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        374.67,
+        224.04,
+        567.57,
+        237.6
+      ],
+      "bbox_norm": [
+        0.612206,
+        0.282879,
+        0.927402,
+        0.3
+      ],
+      "source": "printed",
+      "value": "$OOXYLDO &ROOXYLDO 0RUDLQH 9ROFDQLF",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "$OOXYLDO &ROOXYLDO 0RUDLQH 9ROFDQLF"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        291.87,
+        237.6,
+        374.67,
+        251.16
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.3,
+        0.612206,
+        0.317121
+      ],
+      "source": "printed",
+      "value": "1(",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1("
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        374.67,
+        237.6,
+        567.57,
+        251.16
+      ],
+      "bbox_norm": [
+        0.612206,
+        0.3,
+        0.927402,
+        0.317121
+      ],
+      "source": "printed",
+      "value": "*5281' &29(5",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "*5281' &29(5"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        291.87,
+        251.16,
+        374.67,
+        264.69
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.317121,
+        0.612206,
+        0.334205
+      ],
+      "source": "printed",
+      "value": "(",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "("
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        374.67,
+        251.16,
+        567.57,
+        264.69
+      ],
+      "bbox_norm": [
+        0.612206,
+        0.317121,
+        0.927402,
+        0.334205
+      ],
+      "source": "printed",
+      "value": "9HJHWDWLRQ",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "9HJHWDWLRQ"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        264.69,
+        291.87,
+        278.25
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.334205,
+        0.476912,
+        0.351326
+      ],
+      "source": "printed",
+      "value": "'5$,1$*( *RRG 0RGHUDWH 3RRU",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "'5$,1$*( *RRG 0RGHUDWH 3RRU"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        291.87,
+        264.69,
+        374.67,
+        278.25
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.334205,
+        0.612206,
+        0.351326
+      ],
+      "source": "printed",
+      "value": "6(",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6("
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        374.67,
+        264.69,
+        567.57,
+        278.25
+      ],
+      "bbox_norm": [
+        0.612206,
+        0.334205,
+        0.927402,
+        0.351326
+      ],
+      "source": "printed",
+      "value": "1RQ YDVFXODU",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1RQ YDVFXODU"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        291.87,
+        278.25,
+        374.67,
+        291.78
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.351326,
+        0.612206,
+        0.368409
+      ],
+      "source": "printed",
+      "value": "6",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        374.67,
+        278.25,
+        567.57,
+        291.78
+      ],
+      "bbox_norm": [
+        0.612206,
+        0.351326,
+        0.927402,
+        0.368409
+      ],
+      "source": "printed",
+      "value": "/LWWHU",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/LWWHU"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        291.87,
+        291.78,
+        374.67,
+        305.34
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.368409,
+        0.612206,
+        0.38553
+      ],
+      "source": "printed",
+      "value": "6:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6:"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        374.67,
+        291.78,
+        567.57,
+        305.34
+      ],
+      "bbox_norm": [
+        0.612206,
+        0.368409,
+        0.927402,
+        0.38553
+      ],
+      "source": "printed",
+      "value": "%DUH *URXQG",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "%DUH *URXQG"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        305.34,
+        291.87,
+        318.6
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.38553,
+        0.476912,
+        0.402273
+      ],
+      "source": "printed",
+      "value": "$3352$&+",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "$3352$&+"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        291.87,
+        305.34,
+        374.67,
+        318.6
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.38553,
+        0.612206,
+        0.402273
+      ],
+      "source": "printed",
+      "value": ":",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": ":"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        374.67,
+        305.34,
+        567.57,
+        318.6
+      ],
+      "bbox_norm": [
+        0.612206,
+        0.38553,
+        0.927402,
+        0.402273
+      ],
+      "source": "printed",
+      "value": "5RFN",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "5RFN"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        318.6,
+        291.87,
+        332.16
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.402273,
+        0.476912,
+        0.419394
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "$3352$&+ | &O G 0LQHG *UD]HG 7UDFNHG $3352$&+ | &8/785$/ 1RQH %XUQW /RJJHG 6 /LWWHU &O G 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        291.87,
+        318.6,
+        374.67,
+        332.16
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.402273,
+        0.612206,
+        0.419394
+      ],
+      "source": "printed",
+      "value": "1:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1:"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        374.67,
+        318.6,
+        567.57,
+        332.16
+      ],
+      "bbox_norm": [
+        0.612206,
+        0.402273,
+        0.927402,
+        0.419394
+      ],
+      "source": "printed",
+      "value": "$9(5$*( 723 +(,*+7 P",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "$9(5$*( 723 +(,*+7 P"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        332.16,
+        291.87,
+        345.69
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.419394,
+        0.476912,
+        0.436477
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "$3352$&+ | &O G 0LQHG *UD]HG 7UDFNHG $3352$&+ | &8/785$/ 1RQH 6 /LWWHU &O G 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        291.87,
+        332.16,
+        374.67,
+        345.69
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.419394,
+        0.612206,
+        0.436477
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "1: | : 1: | *RRG 0RGHUDWH 3RRU 6( %XUQW /RJJHG 6 /LWWHU 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG : 5RFN 1: $9(5$*( 723 +(,*+7 &$123< &29(5 /2&$7,21 ',$*5$0"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        374.67,
+        332.16,
+        567.57,
+        345.69
+      ],
+      "bbox_norm": [
+        0.612206,
+        0.419394,
+        0.927402,
+        0.436477
+      ],
+      "source": "printed",
+      "value": "&$123< &29(5",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "&$123< &29(5"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        345.69,
+        291.87,
+        359.25
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.436477,
+        0.476912,
+        0.453599
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "$3352$&+ | &O G 0LQHG *UD]HG 7UDFNHG $3352$&+ | &8/785$/ 1RQH 6 /LWWHU &O G 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        359.25,
+        291.87,
+        372.81
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.453599,
+        0.476912,
+        0.47072
+      ],
+      "source": "written",
+      "value": "66",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "$3352$&+ | &O G 0LQHG *UD]HG 7UDFNHG $3352$&+ | &8/785$/ 1RQH 6 /LWWHU &O G 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        372.81,
+        291.87,
+        386.34
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.47072,
+        0.476912,
+        0.487803
+      ],
+      "source": "written",
+      "value": "6",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "$3352$&+ | &O G 0LQHG *UD]HG 7UDFNHG $3352$&+ | &8/785$/ 1RQH 6 /LWWHU &O G 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        386.34,
+        291.87,
+        401.31
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.487803,
+        0.476912,
+        0.506705
+      ],
+      "source": "written",
+      "value": "25",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "$3352$&+ | &O G 0LQHG *UD]HG 7UDFNHG $3352$&+ | &8/785$/ 1RQH 6 /LWWHU &O G 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        401.31,
+        291.87,
+        414.84
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.506705,
+        0.476912,
+        0.523788
+      ],
+      "source": "written",
+      "value": "68",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "$3352$&+ | &O G 0LQHG *UD]HG 7UDFNHG $3352$&+ | &8/785$/ 1RQH 6 /LWWHU &O G 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        414.84,
+        291.87,
+        428.4
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.523788,
+        0.476912,
+        0.540909
+      ],
+      "source": "written",
+      "value": "77",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "$3352$&+ | &O G 0LQHG *UD]HG 7UDFNHG $3352$&+ | &8/785$/ 1RQH 6 /LWWHU &O G 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        428.4,
+        291.87,
+        441.96
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.540909,
+        0.476912,
+        0.55803
+      ],
+      "source": "written",
+      "value": "7",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "$3352$&+ | &O G 0LQHG *UD]HG 7UDFNHG $3352$&+ | 6 &O G 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0 127(6 LQFOXGLQJ FXOWXUDO"
+    },
+    {
+      "page": 1,
+      "row": 28,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        441.96,
+        291.87,
+        455.49
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.55803,
+        0.476912,
+        0.575114
+      ],
+      "source": "printed",
+      "value": "127(6 LQFOXGLQJ FXOWXUDO",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        455.49,
+        291.87,
+        469.05
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.575114,
+        0.476912,
+        0.592235
+      ],
+      "source": "written",
+      "value": "100",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | 6 &O G 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0 127(6 LQFOXGLQJ FXOWXUDO"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        469.05,
+        291.87,
+        482.58
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.592235,
+        0.476912,
+        0.609318
+      ],
+      "source": "written",
+      "value": "98",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | 6 &O G 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0 127(6 LQFOXGLQJ FXOWXUDO"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        482.58,
+        291.87,
+        496.14
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.609318,
+        0.476912,
+        0.626439
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | 6 &O G 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0 127(6 LQFOXGLQJ FXOWXUDO"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        496.14,
+        291.87,
+        509.7
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.626439,
+        0.476912,
+        0.643561
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | 6 &O G 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0 127(6 LQFOXGLQJ FXOWXUDO"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        509.7,
+        291.87,
+        523.23
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.643561,
+        0.476912,
+        0.660644
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | 6 &O G 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0 127(6 LQFOXGLQJ FXOWXUDO"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        523.23,
+        291.87,
+        536.79
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.660644,
+        0.476912,
+        0.677765
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | 0LQHG *UD]HG 7UDFNHG 6: %DUH *URXQG $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0 127(6 LQFOXGLQJ FXOWXUDO"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        536.79,
+        291.87,
+        550.32
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.677765,
+        0.476912,
+        0.694849
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | $3352$&+ : 5RFN 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0 127(6 LQFOXGLQJ FXOWXUDO"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        550.32,
+        291.87,
+        563.88
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.694849,
+        0.476912,
+        0.71197
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | 1: $9(5$*( 723 +(,*+7 P &$123< &29(5 /2&$7,21 ',$*5$0 127(6 LQFOXGLQJ FXOWXUDO"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        563.88,
+        291.87,
+        577.44
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.71197,
+        0.476912,
+        0.729091
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | &$123< &29(5 /2&$7,21 ',$*5$0 127(6 LQFOXGLQJ FXOWXUDO"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        577.44,
+        291.87,
+        590.97
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.729091,
+        0.476912,
+        0.746174
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | /2&$7,21 ',$*5$0 127(6 LQFOXGLQJ FXOWXUDO"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        590.97,
+        291.87,
+        604.53
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.746174,
+        0.476912,
+        0.763295
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        604.53,
+        291.87,
+        618.06
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.763295,
+        0.476912,
+        0.780379
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        618.06,
+        291.87,
+        631.62
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.780379,
+        0.476912,
+        0.7975
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO %52:6("
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 7,
+      "bbox_points": [
+        291.87,
+        618.06,
+        567.57,
+        631.62
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.780379,
+        0.927402,
+        0.7975
+      ],
+      "source": "printed",
+      "value": "%52:6(",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "%52:6("
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        631.62,
+        291.87,
+        645.18
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.7975,
+        0.476912,
+        0.814621
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO %52:6( 6SHFLHV 6HYHULW\\ +HUELYRUH / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        291.87,
+        631.62,
+        337.02,
+        645.18
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.7975,
+        0.550686,
+        0.814621
+      ],
+      "source": "printed",
+      "value": "6SHFLHV",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6SHFLHV"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        337.02,
+        631.62,
+        382.59,
+        645.18
+      ],
+      "bbox_norm": [
+        0.550686,
+        0.7975,
+        0.625147,
+        0.814621
+      ],
+      "source": "printed",
+      "value": "6HYHULW\\",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6HYHULW\\"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        382.59,
+        631.62,
+        427.92,
+        645.18
+      ],
+      "bbox_norm": [
+        0.625147,
+        0.7975,
+        0.699216,
+        0.814621
+      ],
+      "source": "printed",
+      "value": "+HUELYRUH",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "+HUELYRUH"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        427.92,
+        631.62,
+        473.19,
+        645.18
+      ],
+      "bbox_norm": [
+        0.699216,
+        0.7975,
+        0.773186,
+        0.814621
+      ],
+      "source": "printed",
+      "value": "6SHFLHV",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6SHFLHV"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        473.19,
+        631.62,
+        521.49,
+        645.18
+      ],
+      "bbox_norm": [
+        0.773186,
+        0.7975,
+        0.852108,
+        0.814621
+      ],
+      "source": "printed",
+      "value": "6HYHULW\\",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "6HYHULW\\"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        521.49,
+        631.62,
+        567.57,
+        645.18
+      ],
+      "bbox_norm": [
+        0.852108,
+        0.7975,
+        0.927402,
+        0.814621
+      ],
+      "source": "printed",
+      "value": "+HUELYRUH",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "+HUELYRUH"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        645.18,
+        291.87,
+        658.71
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.814621,
+        0.476912,
+        0.831705
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO %52:6( 6SHFLHV 6HYHULW\\ +HUELYRUH / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        291.87,
+        645.18,
+        337.02,
+        658.71
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.814621,
+        0.550686,
+        0.831705
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "6SHFLHV | %52:6( 6SHFLHV | %52:6( 6SHFLHV 6HYHULW\\ +HUELYRUH / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        337.02,
+        645.18,
+        382.59,
+        658.71
+      ],
+      "bbox_norm": [
+        0.550686,
+        0.814621,
+        0.625147,
+        0.831705
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        382.59,
+        645.18,
+        427.92,
+        658.71
+      ],
+      "bbox_norm": [
+        0.625147,
+        0.814621,
+        0.699216,
+        0.831705
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | %52:6( 6SHFLHV 6HYHULW\\ +HUELYRUH / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        427.92,
+        645.18,
+        473.19,
+        658.71
+      ],
+      "bbox_norm": [
+        0.699216,
+        0.814621,
+        0.773186,
+        0.831705
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6SHFLHV | 6SHFLHV | 6HYHULW\\ +HUELYRUH 6SHFLHV / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        473.19,
+        645.18,
+        521.49,
+        658.71
+      ],
+      "bbox_norm": [
+        0.773186,
+        0.814621,
+        0.852108,
+        0.831705
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        521.49,
+        645.18,
+        567.57,
+        658.71
+      ],
+      "bbox_norm": [
+        0.852108,
+        0.814621,
+        0.927402,
+        0.831705
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | 6SHFLHV 6HYHULW\\ +HUELYRUH / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 44,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        658.71,
+        291.87,
+        672.27
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.831705,
+        0.476912,
+        0.848826
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | 6SHFLHV 6HYHULW\\ +HUELYRUH / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 44,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        291.87,
+        658.71,
+        337.02,
+        672.27
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.831705,
+        0.550686,
+        0.848826
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "6SHFLHV | %52:6( 6SHFLHV | %52:6( 6SHFLHV 6HYHULW\\ +HUELYRUH / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 44,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        337.02,
+        658.71,
+        382.59,
+        672.27
+      ],
+      "bbox_norm": [
+        0.550686,
+        0.831705,
+        0.625147,
+        0.848826
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 44,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        382.59,
+        658.71,
+        427.92,
+        672.27
+      ],
+      "bbox_norm": [
+        0.625147,
+        0.831705,
+        0.699216,
+        0.848826
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | %52:6( 6SHFLHV 6HYHULW\\ +HUELYRUH / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 44,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        427.92,
+        658.71,
+        473.19,
+        672.27
+      ],
+      "bbox_norm": [
+        0.699216,
+        0.831705,
+        0.773186,
+        0.848826
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6SHFLHV | 6SHFLHV | 6HYHULW\\ +HUELYRUH 6SHFLHV + / 0"
+    },
+    {
+      "page": 1,
+      "row": 44,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        473.19,
+        658.71,
+        521.49,
+        672.27
+      ],
+      "bbox_norm": [
+        0.773186,
+        0.831705,
+        0.852108,
+        0.848826
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 44,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        521.49,
+        658.71,
+        567.57,
+        672.27
+      ],
+      "bbox_norm": [
+        0.852108,
+        0.831705,
+        0.927402,
+        0.848826
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | 6SHFLHV 6HYHULW\\ +HUELYRUH / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 45,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        672.27,
+        291.87,
+        685.8
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.848826,
+        0.476912,
+        0.865909
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "127(6 LQFOXGLQJ FXOWXUDO | 127(6 LQFOXGLQJ FXOWXUDO | / 0 + )$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH"
+    },
+    {
+      "page": 1,
+      "row": 45,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        291.87,
+        672.27,
+        337.02,
+        685.8
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.848826,
+        0.550686,
+        0.865909
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "6SHFLHV | %52:6( 6SHFLHV | / 0 + )$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH"
+    },
+    {
+      "page": 1,
+      "row": 45,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        337.02,
+        672.27,
+        382.59,
+        685.8
+      ],
+      "bbox_norm": [
+        0.550686,
+        0.848826,
+        0.625147,
+        0.865909
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 45,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        382.59,
+        672.27,
+        427.92,
+        685.8
+      ],
+      "bbox_norm": [
+        0.625147,
+        0.848826,
+        0.699216,
+        0.865909
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | / 0 + PDPPDO ELUG UHSWLOH LQYHUWHEUDWH"
+    },
+    {
+      "page": 1,
+      "row": 45,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        427.92,
+        672.27,
+        473.19,
+        685.8
+      ],
+      "bbox_norm": [
+        0.699216,
+        0.848826,
+        0.773186,
+        0.865909
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6SHFLHV | 6SHFLHV | 6HYHULW\\ + / 0 ELUG UHSWLOH LQYHUWHEUDWH"
+    },
+    {
+      "page": 1,
+      "row": 45,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        473.19,
+        672.27,
+        521.49,
+        685.8
+      ],
+      "bbox_norm": [
+        0.773186,
+        0.848826,
+        0.852108,
+        0.865909
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 45,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        521.49,
+        672.27,
+        567.57,
+        685.8
+      ],
+      "bbox_norm": [
+        0.852108,
+        0.848826,
+        0.927402,
+        0.865909
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | 6SHFLHV 6HYHULW\\ +HUELYRUH / 0 + LQYHUWHEUDWH"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        685.8,
+        291.87,
+        699.36
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.865909,
+        0.476912,
+        0.88303
+      ],
+      "source": "printed",
+      "value": ")$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": ")$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        291.87,
+        685.8,
+        337.02,
+        699.36
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.865909,
+        0.550686,
+        0.88303
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "6SHFLHV | %52:6( 6SHFLHV | / 0 + )$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        337.02,
+        685.8,
+        382.59,
+        699.36
+      ],
+      "bbox_norm": [
+        0.550686,
+        0.865909,
+        0.625147,
+        0.88303
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        382.59,
+        685.8,
+        427.92,
+        699.36
+      ],
+      "bbox_norm": [
+        0.625147,
+        0.865909,
+        0.699216,
+        0.88303
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | / 0 + PDPPDO ELUG UHSWLOH LQYHUWHEUDWH"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        427.92,
+        685.8,
+        473.19,
+        699.36
+      ],
+      "bbox_norm": [
+        0.699216,
+        0.865909,
+        0.773186,
+        0.88303
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6SHFLHV | 6SHFLHV | + / 0 ELUG UHSWLOH LQYHUWHEUDWH"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        473.19,
+        685.8,
+        521.49,
+        699.36
+      ],
+      "bbox_norm": [
+        0.773186,
+        0.865909,
+        0.852108,
+        0.88303
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        521.49,
+        685.8,
+        567.57,
+        699.36
+      ],
+      "bbox_norm": [
+        0.852108,
+        0.865909,
+        0.927402,
+        0.88303
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | 6SHFLHV 6HYHULW\\ / 0 + LQYHUWHEUDWH"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        699.36,
+        291.87,
+        712.92
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.88303,
+        0.476912,
+        0.900152
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": ")$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH | )$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH | )$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        291.87,
+        699.36,
+        337.02,
+        712.92
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.88303,
+        0.550686,
+        0.900152
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "6SHFLHV | %52:6( 6SHFLHV | / 0 + LQYHUWHEUDWH"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        337.02,
+        699.36,
+        382.59,
+        712.92
+      ],
+      "bbox_norm": [
+        0.550686,
+        0.88303,
+        0.625147,
+        0.900152
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        382.59,
+        699.36,
+        427.92,
+        712.92
+      ],
+      "bbox_norm": [
+        0.625147,
+        0.88303,
+        0.699216,
+        0.900152
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        427.92,
+        699.36,
+        473.19,
+        712.92
+      ],
+      "bbox_norm": [
+        0.699216,
+        0.88303,
+        0.773186,
+        0.900152
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6SHFLHV | 6SHFLHV | + / 0"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        473.19,
+        699.36,
+        521.49,
+        712.92
+      ],
+      "bbox_norm": [
+        0.773186,
+        0.88303,
+        0.852108,
+        0.900152
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        521.49,
+        699.36,
+        567.57,
+        712.92
+      ],
+      "bbox_norm": [
+        0.852108,
+        0.88303,
+        0.927402,
+        0.900152
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        712.92,
+        291.87,
+        726.45
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.900152,
+        0.476912,
+        0.917235
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": ")$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH | )$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH | / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        291.87,
+        712.92,
+        337.02,
+        726.45
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.900152,
+        0.550686,
+        0.917235
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "6SHFLHV | %52:6( 6SHFLHV | / 0 + LQYHUWHEUDWH"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        337.02,
+        712.92,
+        382.59,
+        726.45
+      ],
+      "bbox_norm": [
+        0.550686,
+        0.900152,
+        0.625147,
+        0.917235
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        382.59,
+        712.92,
+        427.92,
+        726.45
+      ],
+      "bbox_norm": [
+        0.625147,
+        0.900152,
+        0.699216,
+        0.917235
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        427.92,
+        712.92,
+        473.19,
+        726.45
+      ],
+      "bbox_norm": [
+        0.699216,
+        0.900152,
+        0.773186,
+        0.917235
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6SHFLHV | 6SHFLHV | + / 0"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        473.19,
+        712.92,
+        521.49,
+        726.45
+      ],
+      "bbox_norm": [
+        0.773186,
+        0.900152,
+        0.852108,
+        0.917235
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        521.49,
+        712.92,
+        567.57,
+        726.45
+      ],
+      "bbox_norm": [
+        0.852108,
+        0.900152,
+        0.927402,
+        0.917235
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        726.45,
+        291.87,
+        740.01
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.917235,
+        0.476912,
+        0.934356
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": ")$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH | )$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH | / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        291.87,
+        726.45,
+        337.02,
+        740.01
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.917235,
+        0.550686,
+        0.934356
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "6SHFLHV | %52:6( 6SHFLHV | / 0 LQYHUWHEUDWH +"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        337.02,
+        726.45,
+        382.59,
+        740.01
+      ],
+      "bbox_norm": [
+        0.550686,
+        0.917235,
+        0.625147,
+        0.934356
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        382.59,
+        726.45,
+        427.92,
+        740.01
+      ],
+      "bbox_norm": [
+        0.625147,
+        0.917235,
+        0.699216,
+        0.934356
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        427.92,
+        726.45,
+        473.19,
+        740.01
+      ],
+      "bbox_norm": [
+        0.699216,
+        0.917235,
+        0.773186,
+        0.934356
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6SHFLHV | 6SHFLHV | + / 0"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        473.19,
+        726.45,
+        521.49,
+        740.01
+      ],
+      "bbox_norm": [
+        0.773186,
+        0.917235,
+        0.852108,
+        0.934356
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        521.49,
+        726.45,
+        567.57,
+        740.01
+      ],
+      "bbox_norm": [
+        0.852108,
+        0.917235,
+        0.927402,
+        0.934356
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 50,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        740.01,
+        291.87,
+        753.54
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.934356,
+        0.476912,
+        0.951439
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": ")$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH | )$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH | / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 50,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        291.87,
+        740.01,
+        337.02,
+        753.54
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.934356,
+        0.550686,
+        0.951439
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "6SHFLHV | %52:6( 6SHFLHV | / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 50,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        337.02,
+        740.01,
+        382.59,
+        753.54
+      ],
+      "bbox_norm": [
+        0.550686,
+        0.934356,
+        0.625147,
+        0.951439
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 50,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        382.59,
+        740.01,
+        427.92,
+        753.54
+      ],
+      "bbox_norm": [
+        0.625147,
+        0.934356,
+        0.699216,
+        0.951439
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 50,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        427.92,
+        740.01,
+        473.19,
+        753.54
+      ],
+      "bbox_norm": [
+        0.699216,
+        0.934356,
+        0.773186,
+        0.951439
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6SHFLHV | 6SHFLHV | + / 0"
+    },
+    {
+      "page": 1,
+      "row": 50,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        473.19,
+        740.01,
+        521.49,
+        753.54
+      ],
+      "bbox_norm": [
+        0.773186,
+        0.934356,
+        0.852108,
+        0.951439
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 50,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        521.49,
+        740.01,
+        567.57,
+        753.54
+      ],
+      "bbox_norm": [
+        0.852108,
+        0.934356,
+        0.927402,
+        0.951439
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 51,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        753.54,
+        291.87,
+        767.1
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.951439,
+        0.476912,
+        0.968561
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": ")$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH | )$81$ H J PDPPDO ELUG UHSWLOH LQYHUWHEUDWH | / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 51,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        291.87,
+        753.54,
+        337.02,
+        767.1
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.951439,
+        0.550686,
+        0.968561
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "6SHFLHV | %52:6( 6SHFLHV | / 0 LQYHUWHEUDWH +"
+    },
+    {
+      "page": 1,
+      "row": 51,
+      "col": 2,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        337.02,
+        753.54,
+        382.59,
+        767.1
+      ],
+      "bbox_norm": [
+        0.550686,
+        0.951439,
+        0.625147,
+        0.968561
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 51,
+      "col": 4,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        382.59,
+        753.54,
+        427.92,
+        767.1
+      ],
+      "bbox_norm": [
+        0.625147,
+        0.951439,
+        0.699216,
+        0.968561
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 51,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        427.92,
+        753.54,
+        473.19,
+        767.1
+      ],
+      "bbox_norm": [
+        0.699216,
+        0.951439,
+        0.773186,
+        0.968561
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "6SHFLHV | 6SHFLHV | + / 0"
+    },
+    {
+      "page": 1,
+      "row": 51,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        473.19,
+        753.54,
+        521.49,
+        767.1
+      ],
+      "bbox_norm": [
+        0.773186,
+        0.951439,
+        0.852108,
+        0.968561
+      ],
+      "source": "printed",
+      "value": "/ 0 +",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/ 0 +"
+    },
+    {
+      "page": 1,
+      "row": 51,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        521.49,
+        753.54,
+        567.57,
+        767.1
+      ],
+      "bbox_norm": [
+        0.852108,
+        0.951439,
+        0.927402,
+        0.968561
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "+HUELYRUH | +HUELYRUH | / 0 +"
+    },
+    {
+      "page": 1,
+      "row": 8,
+      "col": 1,
+      "rowspan": 4,
+      "colspan": 2,
+      "bbox_points": [
+        291.87,
+        169.86,
+        374.67,
+        224.04
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.21447,
+        0.612206,
+        0.282879
+      ],
+      "source": "printed",
+      "value": "0(626&$/( 7232*5$3+,& ,1'(; \u009e UHFRUG \u00b1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "0(626&$/( 7232*5$3+,& ,1'(; \u009e UHFRUG \u00b1"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 0,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        237.6,
+        291.87,
+        264.69
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.3,
+        0.476912,
+        0.334205
+      ],
+      "source": "printed",
+      "value": "3$5(17 0$7(5,$/ 0DSSHG 2EVHUYHG",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "3$5(17 0$7(5,$/ 0DSSHG 2EVHUYHG"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 0,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        50.19,
+        278.25,
+        291.87,
+        305.34
+      ],
+      "bbox_norm": [
+        0.08201,
+        0.351326,
+        0.476912,
+        0.38553
+      ],
+      "source": "printed",
+      "value": "&8/785$/ 1RQH %XUQW /RJJHG &O G 0LQHG *UD]HG 7UDFNHG",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "&8/785$/ 1RQH %XUQW /RJJHG &O G 0LQHG *UD]HG 7UDFNHG"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 1,
+      "rowspan": 20,
+      "colspan": 7,
+      "bbox_points": [
+        291.87,
+        345.69,
+        567.57,
+        618.06
+      ],
+      "bbox_norm": [
+        0.476912,
+        0.436477,
+        0.927402,
+        0.780379
+      ],
+      "source": "printed",
+      "value": "/2&$7,21 ',$*5$0",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "/2&$7,21 ',$*5$0"
+    }
+  ]
+}

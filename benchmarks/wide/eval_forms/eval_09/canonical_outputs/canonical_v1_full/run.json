@@ -1,0 +1,203 @@
+{
+  "form": "eval_09",
+  "tag": "canonical_v1_full",
+  "schema_model": "gemini-3.5-flash",
+  "models": [
+    "gemini-3.5-flash",
+    "gemini-3.6-flash"
+  ],
+  "calls": [
+    {
+      "stage": "structure",
+      "page": 1,
+      "model": "gemini-3.5-flash",
+      "in_tok": 1331,
+      "out_tok": 1540,
+      "thinking_tok": 0,
+      "cost_usd": 0.01586,
+      "latency_s": 6.9
+    },
+    {
+      "stage": "extract",
+      "page": 1,
+      "model": "gemini-3.5-flash",
+      "in_tok": 6964,
+      "out_tok": 8301,
+      "thinking_tok": 0,
+      "cost_usd": 0.08515,
+      "latency_s": 29.3
+    },
+    {
+      "stage": "extract",
+      "page": 1,
+      "model": "gemini-3.6-flash",
+      "in_tok": 6964,
+      "out_tok": 8207,
+      "thinking_tok": 0,
+      "cost_usd": 0.072,
+      "latency_s": 38.5
+    },
+    {
+      "stage": "structure",
+      "page": 2,
+      "model": "gemini-3.5-flash",
+      "in_tok": 1319,
+      "out_tok": 1195,
+      "thinking_tok": 0,
+      "cost_usd": 0.01273,
+      "latency_s": 6.4
+    },
+    {
+      "stage": "extract",
+      "page": 2,
+      "model": "gemini-3.5-flash",
+      "in_tok": 6676,
+      "out_tok": 8670,
+      "thinking_tok": 0,
+      "cost_usd": 0.08804,
+      "latency_s": 31.0
+    },
+    {
+      "stage": "extract",
+      "page": 2,
+      "model": "gemini-3.6-flash",
+      "in_tok": 6676,
+      "out_tok": 6452,
+      "thinking_tok": 0,
+      "cost_usd": 0.0584,
+      "latency_s": 27.8
+    },
+    {
+      "stage": "structure",
+      "page": 3,
+      "model": "gemini-3.5-flash",
+      "in_tok": 1319,
+      "out_tok": 1406,
+      "thinking_tok": 0,
+      "cost_usd": 0.01463,
+      "latency_s": 7.2
+    },
+    {
+      "stage": "extract",
+      "page": 3,
+      "model": "gemini-3.5-flash",
+      "in_tok": 6822,
+      "out_tok": 5934,
+      "thinking_tok": 0,
+      "cost_usd": 0.06364,
+      "latency_s": 21.3
+    },
+    {
+      "stage": "extract",
+      "page": 3,
+      "model": "gemini-3.6-flash",
+      "in_tok": 6822,
+      "out_tok": 5876,
+      "thinking_tok": 0,
+      "cost_usd": 0.0543,
+      "latency_s": 25.2
+    },
+    {
+      "stage": "structure",
+      "page": 4,
+      "model": "gemini-3.5-flash",
+      "in_tok": 1303,
+      "out_tok": 1638,
+      "thinking_tok": 0,
+      "cost_usd": 0.0167,
+      "latency_s": 7.9
+    },
+    {
+      "stage": "extract",
+      "page": 4,
+      "model": "gemini-3.5-flash",
+      "in_tok": 6898,
+      "out_tok": 9197,
+      "thinking_tok": 0,
+      "cost_usd": 0.09312,
+      "latency_s": 34.2
+    },
+    {
+      "stage": "extract",
+      "page": 4,
+      "model": "gemini-3.6-flash",
+      "in_tok": 6898,
+      "out_tok": 6475,
+      "thinking_tok": 0,
+      "cost_usd": 0.05891,
+      "latency_s": 29.7
+    },
+    {
+      "stage": "structure",
+      "page": 5,
+      "model": "gemini-3.5-flash",
+      "in_tok": 1341,
+      "out_tok": 1252,
+      "thinking_tok": 0,
+      "cost_usd": 0.01328,
+      "latency_s": 7.1
+    },
+    {
+      "stage": "extract",
+      "page": 5,
+      "model": "gemini-3.5-flash",
+      "in_tok": 6820,
+      "out_tok": 9136,
+      "thinking_tok": 0,
+      "cost_usd": 0.09245,
+      "latency_s": 34.3
+    },
+    {
+      "stage": "extract",
+      "page": 5,
+      "model": "gemini-3.6-flash",
+      "in_tok": 6820,
+      "out_tok": 6489,
+      "thinking_tok": 0,
+      "cost_usd": 0.0589,
+      "latency_s": 31.0
+    },
+    {
+      "stage": "structure",
+      "page": 6,
+      "model": "gemini-3.5-flash",
+      "in_tok": 1331,
+      "out_tok": 1408,
+      "thinking_tok": 0,
+      "cost_usd": 0.01467,
+      "latency_s": 6.8
+    },
+    {
+      "stage": "extract",
+      "page": 6,
+      "model": "gemini-3.5-flash",
+      "in_tok": 6885,
+      "out_tok": 6119,
+      "thinking_tok": 0,
+      "cost_usd": 0.0654,
+      "latency_s": 22.0
+    },
+    {
+      "stage": "extract",
+      "page": 6,
+      "model": "gemini-3.6-flash",
+      "in_tok": 6885,
+      "out_tok": 4563,
+      "thinking_tok": 0,
+      "cost_usd": 0.04455,
+      "latency_s": 21.2
+    }
+  ],
+  "cost_usd": 0.92273,
+  "latency_s": 387.8,
+  "validation_errors": [],
+  "disagreement": {
+    "agreement": 2816,
+    "majority_after_reread": 0,
+    "disagreement": 393,
+    "unresolved_after_reread": 0,
+    "blank_or_illegible": 0,
+    "total": 3209,
+    "review_fraction": 0.1225
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "cells": [
+    {
+      "cell_id": "r10_c0",
+      "value": "LRLR",
+      "confidence": 0.95,
+      "evidence": "LRLR"
+    },
+    {
+      "cell_id": "r10_c1",
+      "value": "Y",
+      "confidence": 0.95,
+      "evidence": "Y"
+    },
+    {
+      "cell_id": "r10_c3",
+      "value": "L",
+      "confidence": 0.95,
+      "evidence": "L"
+    },
+    {
+      "cell_id": "r10_c4",
+      "value": "D",
+      "confidence": 0.95,
+      "evidence": "D"
+    },
+    {
+      "cell_id": "r10_c5",
+      "value": "F",
+      "confidence": 0.95,
+      "evidence": "F"
+    },
+    {
+      "cell_id": "r10_c6",
+      "value": "termite damage",
+      "confidence": 0.95,
+      "evidence": "termite damage"
+    },
+    {
+      "cell_id": "r11_c0",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "struckthrough line"
+    },
+    {
+      "cell_id": "r11_c1",
+      "value": "M",
+      "confidence": 0.95,
+      "evidence": "M"
+    },
+    {
+      "cell_id": "r11_c3",
+      "value": "Y",
+      "confidence": 0.95,
+      "evidence": "Y"
+    },
+    {
+      "cell_id": "r11_c4",
+      "value": "J",
+      "confidence": 0.85,
+      "evidence": "J"
+    },
+    {
+      "cell_id": "r11_c5",
+      "value": "F",
+      "confidence": 0.9,
+      "evidence": "F"
+    },
+    {
+      "cell_id": "r11_c6",
+      "value": "dead branch",
+      "confidence": 0.95,
+      "evidence": "dead branch"
+    },
+    {
+      "cell_id": "r12_c0",
+      "value": "YLEB",
+      "confidence": 0.95,
+      "evidence": "YLEB"
+    },
+    {
+      "cell_id": "r12_c1",
+      "value": "X",
+      "confidence": 0.95,
+      "evidence": "X"
+    },
+    {
+      "cell_id": "r12_c3",
+      "value": "F",
+      "confidence": 0.95,
+      "evidence": "F"
+    },
+    {
+      "cell_id": "r12_c4",
+      "value": "X",
+      "confidence": 0.95,
+      "evidence": "X"
+    },
+    {
+      "cell_id": "r12_c5",
+      "value": "N",
+      "confidence": 0.95,
+      "evidence": "N"
+    },
+    {
+      "cell_id": "r12_c6",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r13_c0",
+      "value": "MACY",
+      "confidence": 0.95,
+      "evidence": "MACY"
+    },
+    {
+      "cell_id": "r13_c1",
+      "value": "Y",
+      "confidence": 0.9,
+      "evidence": "Y"
+    },
+    {
+      "cell_id": "r13_c3",
+      "value": "M",
+      "confidence": 0.95,
+      "evidence": "M"
+    },
+    {
+      "cell_id": "r13_c4",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r13_c5",
+      "value": "Y",
+      "confidence": 0.95,
+      "evidence": "Y"
+    },
+    {
+      "cell_id": "r13_c6",
+      "value": "browsed by deer",
+      "confidence": 0.95,
+      "evidence": "browsed by deer"
+    },
+    {
+      "cell_id": "r14_c0",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r14_c1",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r14_c3",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r14_c4",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r14_c5",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r14_c6",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r15_c0",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r15_c1",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r15_c3",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r15_c4",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r15_c5",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r15_c6",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r16_c0",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r16_c1",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r16_c3",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r16_c4",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r16_c5",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r16_c6",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r17_c0",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r17_c1",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r17_c3",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r17_c4",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r17_c5",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    },
+    {
+      "cell_id": "r17_c6",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": "blank"
+    }
+  ]
+}

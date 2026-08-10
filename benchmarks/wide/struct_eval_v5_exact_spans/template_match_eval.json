@@ -1,0 +1,1680 @@
+{
+  "version": "formidable-template-match-eval-v1",
+  "policy": {
+    "role": "routing candidate only; printed-label confirmation still required",
+    "min_score": 0.5,
+    "min_margin": 0.02
+  },
+  "registry_pages": 42,
+  "top1": {
+    "all": 76,
+    "forms": 84,
+    "top2": 79
+  },
+  "selected_policy": {
+    "dev": {
+      "forms": 56,
+      "accepted": 45,
+      "correct": 45,
+      "wrong_routes": 0,
+      "coverage": 0.8036,
+      "accepted_precision": 1.0
+    },
+    "test": {
+      "forms": 28,
+      "accepted": 25,
+      "correct": 25,
+      "wrong_routes": 0,
+      "coverage": 0.8929,
+      "accepted_precision": 1.0
+    }
+  },
+  "policy_grid": [
+    {
+      "min_score": 0.4,
+      "min_margin": 0.005,
+      "dev": {
+        "forms": 56,
+        "accepted": 48,
+        "correct": 47,
+        "wrong_routes": 1,
+        "coverage": 0.8571,
+        "accepted_precision": 0.9792
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 27,
+        "correct": 25,
+        "wrong_routes": 2,
+        "coverage": 0.9643,
+        "accepted_precision": 0.9259
+      }
+    },
+    {
+      "min_score": 0.4,
+      "min_margin": 0.01,
+      "dev": {
+        "forms": 56,
+        "accepted": 48,
+        "correct": 47,
+        "wrong_routes": 1,
+        "coverage": 0.8571,
+        "accepted_precision": 0.9792
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 26,
+        "correct": 25,
+        "wrong_routes": 1,
+        "coverage": 0.9286,
+        "accepted_precision": 0.9615
+      }
+    },
+    {
+      "min_score": 0.4,
+      "min_margin": 0.02,
+      "dev": {
+        "forms": 56,
+        "accepted": 46,
+        "correct": 46,
+        "wrong_routes": 0,
+        "coverage": 0.8214,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 25,
+        "correct": 25,
+        "wrong_routes": 0,
+        "coverage": 0.8929,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.4,
+      "min_margin": 0.03,
+      "dev": {
+        "forms": 56,
+        "accepted": 46,
+        "correct": 46,
+        "wrong_routes": 0,
+        "coverage": 0.8214,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 24,
+        "correct": 24,
+        "wrong_routes": 0,
+        "coverage": 0.8571,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.4,
+      "min_margin": 0.05,
+      "dev": {
+        "forms": 56,
+        "accepted": 45,
+        "correct": 45,
+        "wrong_routes": 0,
+        "coverage": 0.8036,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 24,
+        "correct": 24,
+        "wrong_routes": 0,
+        "coverage": 0.8571,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.4,
+      "min_margin": 0.1,
+      "dev": {
+        "forms": 56,
+        "accepted": 45,
+        "correct": 45,
+        "wrong_routes": 0,
+        "coverage": 0.8036,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 24,
+        "correct": 24,
+        "wrong_routes": 0,
+        "coverage": 0.8571,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.45,
+      "min_margin": 0.005,
+      "dev": {
+        "forms": 56,
+        "accepted": 47,
+        "correct": 46,
+        "wrong_routes": 1,
+        "coverage": 0.8393,
+        "accepted_precision": 0.9787
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 27,
+        "correct": 25,
+        "wrong_routes": 2,
+        "coverage": 0.9643,
+        "accepted_precision": 0.9259
+      }
+    },
+    {
+      "min_score": 0.45,
+      "min_margin": 0.01,
+      "dev": {
+        "forms": 56,
+        "accepted": 47,
+        "correct": 46,
+        "wrong_routes": 1,
+        "coverage": 0.8393,
+        "accepted_precision": 0.9787
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 26,
+        "correct": 25,
+        "wrong_routes": 1,
+        "coverage": 0.9286,
+        "accepted_precision": 0.9615
+      }
+    },
+    {
+      "min_score": 0.45,
+      "min_margin": 0.02,
+      "dev": {
+        "forms": 56,
+        "accepted": 45,
+        "correct": 45,
+        "wrong_routes": 0,
+        "coverage": 0.8036,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 25,
+        "correct": 25,
+        "wrong_routes": 0,
+        "coverage": 0.8929,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.45,
+      "min_margin": 0.03,
+      "dev": {
+        "forms": 56,
+        "accepted": 45,
+        "correct": 45,
+        "wrong_routes": 0,
+        "coverage": 0.8036,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 24,
+        "correct": 24,
+        "wrong_routes": 0,
+        "coverage": 0.8571,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.45,
+      "min_margin": 0.05,
+      "dev": {
+        "forms": 56,
+        "accepted": 44,
+        "correct": 44,
+        "wrong_routes": 0,
+        "coverage": 0.7857,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 24,
+        "correct": 24,
+        "wrong_routes": 0,
+        "coverage": 0.8571,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.45,
+      "min_margin": 0.1,
+      "dev": {
+        "forms": 56,
+        "accepted": 44,
+        "correct": 44,
+        "wrong_routes": 0,
+        "coverage": 0.7857,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 24,
+        "correct": 24,
+        "wrong_routes": 0,
+        "coverage": 0.8571,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.5,
+      "min_margin": 0.005,
+      "dev": {
+        "forms": 56,
+        "accepted": 47,
+        "correct": 46,
+        "wrong_routes": 1,
+        "coverage": 0.8393,
+        "accepted_precision": 0.9787
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 26,
+        "correct": 25,
+        "wrong_routes": 1,
+        "coverage": 0.9286,
+        "accepted_precision": 0.9615
+      }
+    },
+    {
+      "min_score": 0.5,
+      "min_margin": 0.01,
+      "dev": {
+        "forms": 56,
+        "accepted": 47,
+        "correct": 46,
+        "wrong_routes": 1,
+        "coverage": 0.8393,
+        "accepted_precision": 0.9787
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 26,
+        "correct": 25,
+        "wrong_routes": 1,
+        "coverage": 0.9286,
+        "accepted_precision": 0.9615
+      }
+    },
+    {
+      "min_score": 0.5,
+      "min_margin": 0.02,
+      "dev": {
+        "forms": 56,
+        "accepted": 45,
+        "correct": 45,
+        "wrong_routes": 0,
+        "coverage": 0.8036,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 25,
+        "correct": 25,
+        "wrong_routes": 0,
+        "coverage": 0.8929,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.5,
+      "min_margin": 0.03,
+      "dev": {
+        "forms": 56,
+        "accepted": 45,
+        "correct": 45,
+        "wrong_routes": 0,
+        "coverage": 0.8036,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 24,
+        "correct": 24,
+        "wrong_routes": 0,
+        "coverage": 0.8571,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.5,
+      "min_margin": 0.05,
+      "dev": {
+        "forms": 56,
+        "accepted": 44,
+        "correct": 44,
+        "wrong_routes": 0,
+        "coverage": 0.7857,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 24,
+        "correct": 24,
+        "wrong_routes": 0,
+        "coverage": 0.8571,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.5,
+      "min_margin": 0.1,
+      "dev": {
+        "forms": 56,
+        "accepted": 44,
+        "correct": 44,
+        "wrong_routes": 0,
+        "coverage": 0.7857,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 24,
+        "correct": 24,
+        "wrong_routes": 0,
+        "coverage": 0.8571,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.55,
+      "min_margin": 0.005,
+      "dev": {
+        "forms": 56,
+        "accepted": 45,
+        "correct": 44,
+        "wrong_routes": 1,
+        "coverage": 0.8036,
+        "accepted_precision": 0.9778
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 26,
+        "correct": 25,
+        "wrong_routes": 1,
+        "coverage": 0.9286,
+        "accepted_precision": 0.9615
+      }
+    },
+    {
+      "min_score": 0.55,
+      "min_margin": 0.01,
+      "dev": {
+        "forms": 56,
+        "accepted": 45,
+        "correct": 44,
+        "wrong_routes": 1,
+        "coverage": 0.8036,
+        "accepted_precision": 0.9778
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 26,
+        "correct": 25,
+        "wrong_routes": 1,
+        "coverage": 0.9286,
+        "accepted_precision": 0.9615
+      }
+    },
+    {
+      "min_score": 0.55,
+      "min_margin": 0.02,
+      "dev": {
+        "forms": 56,
+        "accepted": 44,
+        "correct": 44,
+        "wrong_routes": 0,
+        "coverage": 0.7857,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 25,
+        "correct": 25,
+        "wrong_routes": 0,
+        "coverage": 0.8929,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.55,
+      "min_margin": 0.03,
+      "dev": {
+        "forms": 56,
+        "accepted": 44,
+        "correct": 44,
+        "wrong_routes": 0,
+        "coverage": 0.7857,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 24,
+        "correct": 24,
+        "wrong_routes": 0,
+        "coverage": 0.8571,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.55,
+      "min_margin": 0.05,
+      "dev": {
+        "forms": 56,
+        "accepted": 44,
+        "correct": 44,
+        "wrong_routes": 0,
+        "coverage": 0.7857,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 24,
+        "correct": 24,
+        "wrong_routes": 0,
+        "coverage": 0.8571,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.55,
+      "min_margin": 0.1,
+      "dev": {
+        "forms": 56,
+        "accepted": 44,
+        "correct": 44,
+        "wrong_routes": 0,
+        "coverage": 0.7857,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 24,
+        "correct": 24,
+        "wrong_routes": 0,
+        "coverage": 0.8571,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.6,
+      "min_margin": 0.005,
+      "dev": {
+        "forms": 56,
+        "accepted": 44,
+        "correct": 43,
+        "wrong_routes": 1,
+        "coverage": 0.7857,
+        "accepted_precision": 0.9773
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 24,
+        "correct": 23,
+        "wrong_routes": 1,
+        "coverage": 0.8571,
+        "accepted_precision": 0.9583
+      }
+    },
+    {
+      "min_score": 0.6,
+      "min_margin": 0.01,
+      "dev": {
+        "forms": 56,
+        "accepted": 44,
+        "correct": 43,
+        "wrong_routes": 1,
+        "coverage": 0.7857,
+        "accepted_precision": 0.9773
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 24,
+        "correct": 23,
+        "wrong_routes": 1,
+        "coverage": 0.8571,
+        "accepted_precision": 0.9583
+      }
+    },
+    {
+      "min_score": 0.6,
+      "min_margin": 0.02,
+      "dev": {
+        "forms": 56,
+        "accepted": 43,
+        "correct": 43,
+        "wrong_routes": 0,
+        "coverage": 0.7679,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 23,
+        "correct": 23,
+        "wrong_routes": 0,
+        "coverage": 0.8214,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.6,
+      "min_margin": 0.03,
+      "dev": {
+        "forms": 56,
+        "accepted": 43,
+        "correct": 43,
+        "wrong_routes": 0,
+        "coverage": 0.7679,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 23,
+        "correct": 23,
+        "wrong_routes": 0,
+        "coverage": 0.8214,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.6,
+      "min_margin": 0.05,
+      "dev": {
+        "forms": 56,
+        "accepted": 43,
+        "correct": 43,
+        "wrong_routes": 0,
+        "coverage": 0.7679,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 23,
+        "correct": 23,
+        "wrong_routes": 0,
+        "coverage": 0.8214,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.6,
+      "min_margin": 0.1,
+      "dev": {
+        "forms": 56,
+        "accepted": 43,
+        "correct": 43,
+        "wrong_routes": 0,
+        "coverage": 0.7679,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 23,
+        "correct": 23,
+        "wrong_routes": 0,
+        "coverage": 0.8214,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.7,
+      "min_margin": 0.005,
+      "dev": {
+        "forms": 56,
+        "accepted": 41,
+        "correct": 40,
+        "wrong_routes": 1,
+        "coverage": 0.7321,
+        "accepted_precision": 0.9756
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 21,
+        "correct": 21,
+        "wrong_routes": 0,
+        "coverage": 0.75,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.7,
+      "min_margin": 0.01,
+      "dev": {
+        "forms": 56,
+        "accepted": 41,
+        "correct": 40,
+        "wrong_routes": 1,
+        "coverage": 0.7321,
+        "accepted_precision": 0.9756
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 21,
+        "correct": 21,
+        "wrong_routes": 0,
+        "coverage": 0.75,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.7,
+      "min_margin": 0.02,
+      "dev": {
+        "forms": 56,
+        "accepted": 40,
+        "correct": 40,
+        "wrong_routes": 0,
+        "coverage": 0.7143,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 21,
+        "correct": 21,
+        "wrong_routes": 0,
+        "coverage": 0.75,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.7,
+      "min_margin": 0.03,
+      "dev": {
+        "forms": 56,
+        "accepted": 40,
+        "correct": 40,
+        "wrong_routes": 0,
+        "coverage": 0.7143,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 21,
+        "correct": 21,
+        "wrong_routes": 0,
+        "coverage": 0.75,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.7,
+      "min_margin": 0.05,
+      "dev": {
+        "forms": 56,
+        "accepted": 40,
+        "correct": 40,
+        "wrong_routes": 0,
+        "coverage": 0.7143,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 21,
+        "correct": 21,
+        "wrong_routes": 0,
+        "coverage": 0.75,
+        "accepted_precision": 1.0
+      }
+    },
+    {
+      "min_score": 0.7,
+      "min_margin": 0.1,
+      "dev": {
+        "forms": 56,
+        "accepted": 40,
+        "correct": 40,
+        "wrong_routes": 0,
+        "coverage": 0.7143,
+        "accepted_precision": 1.0
+      },
+      "test": {
+        "forms": 28,
+        "accepted": 21,
+        "correct": 21,
+        "wrong_routes": 0,
+        "coverage": 0.75,
+        "accepted_precision": 1.0
+      }
+    }
+  ],
+  "rows": [
+    {
+      "form": "dev__agrra_benthos_underwater_datasheet__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "agrra_benthos_underwater_datasheet.pdf#page=1",
+      "top": "agrra_benthos_underwater_datasheet.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.94097,
+      "margin": 0.249009
+    },
+    {
+      "form": "dev__agrra_benthos_underwater_datasheet__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "agrra_benthos_underwater_datasheet.pdf#page=1",
+      "top": "agrra_benthos_underwater_datasheet.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.936215,
+      "margin": 0.231949
+    },
+    {
+      "form": "dev__agrra_coral_underwater_datasheet__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "agrra_coral_underwater_datasheet.pdf#page=1",
+      "top": "agrra_coral_underwater_datasheet.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.951841,
+      "margin": 0.18068
+    },
+    {
+      "form": "dev__agrra_coral_underwater_datasheet__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "agrra_coral_underwater_datasheet.pdf#page=1",
+      "top": "nvs_recce_forest_height_tiers.pdf#page=1",
+      "expected_rank": 6,
+      "correct_top1": false,
+      "top_score": 0.728114,
+      "margin": 0.01046
+    },
+    {
+      "form": "dev__agrra_fish_underwater_datasheet__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "agrra_fish_underwater_datasheet.pdf#page=1",
+      "top": "agrra_fish_underwater_datasheet.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.955122,
+      "margin": 0.377583
+    },
+    {
+      "form": "dev__agrra_fish_underwater_datasheet__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "agrra_fish_underwater_datasheet.pdf#page=1",
+      "top": "agrra_fish_underwater_datasheet.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.950135,
+      "margin": 0.372734
+    },
+    {
+      "form": "dev__budburst_phenology_wildflowers_herbs__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "budburst_phenology_wildflowers_herbs.pdf#page=1",
+      "top": "budburst_phenology_wildflowers_herbs.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.97068,
+      "margin": 0.655024
+    },
+    {
+      "form": "dev__budburst_phenology_wildflowers_herbs__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "budburst_phenology_wildflowers_herbs.pdf#page=1",
+      "top": "budburst_phenology_wildflowers_herbs.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.897453,
+      "margin": 0.576842
+    },
+    {
+      "form": "dev__butterfly_pollard_walk__p1__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "butterfly_pollard_walk.pdf#page=2",
+      "top": "butterfly_pollard_walk.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.90041,
+      "margin": 0.378948
+    },
+    {
+      "form": "dev__butterfly_pollard_walk__p1__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "butterfly_pollard_walk.pdf#page=2",
+      "top": "butterfly_pollard_walk.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.841846,
+      "margin": 0.346612
+    },
+    {
+      "form": "dev__deer_pellet_group_count_datasheet__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "deer_pellet_group_count_datasheet.pdf#page=1",
+      "top": "deer_pellet_group_count_datasheet.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.976495,
+      "margin": 0.425859
+    },
+    {
+      "form": "dev__deer_pellet_group_count_datasheet__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "deer_pellet_group_count_datasheet.pdf#page=1",
+      "top": "deer_pellet_group_count_datasheet.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.984341,
+      "margin": 0.427572
+    },
+    {
+      "form": "dev__hp_forest_nursery_cost_statement_proforma__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "hp_forest_nursery_cost_statement_proforma.pdf#page=1",
+      "top": "hp_forest_nursery_cost_statement_proforma.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.741422,
+      "margin": 0.178917
+    },
+    {
+      "form": "dev__hp_forest_nursery_cost_statement_proforma__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "hp_forest_nursery_cost_statement_proforma.pdf#page=1",
+      "top": "hp_forest_nursery_cost_statement_proforma.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.602474,
+      "margin": 0.178645
+    },
+    {
+      "form": "dev__hp_forest_nursery_germination_proforma__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "hp_forest_nursery_germination_proforma.pdf#page=1",
+      "top": "hp_forest_nursery_germination_proforma.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.803375,
+      "margin": 0.143166
+    },
+    {
+      "form": "dev__hp_forest_nursery_germination_proforma__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "hp_forest_nursery_germination_proforma.pdf#page=1",
+      "top": "hp_forest_nursery_germination_proforma.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.595325,
+      "margin": 0.140802
+    },
+    {
+      "form": "dev__hp_forest_nursery_infrastructure_proforma__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "hp_forest_nursery_infrastructure_proforma.pdf#page=1",
+      "top": "hp_forest_nursery_infrastructure_proforma.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.862552,
+      "margin": 0.38513
+    },
+    {
+      "form": "dev__hp_forest_nursery_infrastructure_proforma__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "hp_forest_nursery_infrastructure_proforma.pdf#page=1",
+      "top": "hp_forest_nursery_infrastructure_proforma.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.4401,
+      "margin": 0.121389
+    },
+    {
+      "form": "dev__hp_forest_nursery_stock_position_proforma__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "hp_forest_nursery_stock_position_proforma.pdf#page=1",
+      "top": "hp_forest_nursery_stock_position_proforma.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.78018,
+      "margin": 0.209333
+    },
+    {
+      "form": "dev__hp_forest_nursery_stock_position_proforma__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "hp_forest_nursery_stock_position_proforma.pdf#page=1",
+      "top": "hp_forest_nursery_stock_position_proforma.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.768148,
+      "margin": 0.29478
+    },
+    {
+      "form": "dev__iwla_save_our_streams_quality_survey__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "iwla_save_our_streams_quality_survey.pdf#page=1",
+      "top": "iwla_save_our_streams_quality_survey.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.974618,
+      "margin": 0.434397
+    },
+    {
+      "form": "dev__iwla_save_our_streams_quality_survey__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "iwla_save_our_streams_quality_survey.pdf#page=1",
+      "top": "iwla_save_our_streams_quality_survey.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.713985,
+      "margin": 0.187954
+    },
+    {
+      "form": "dev__kew_seed_collecting_field_data_form__p1__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "kew_seed_collecting_field_data_form.pdf#page=2",
+      "top": "kew_seed_collecting_field_data_form.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.951271,
+      "margin": 0.493785
+    },
+    {
+      "form": "dev__kew_seed_collecting_field_data_form__p1__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "kew_seed_collecting_field_data_form.pdf#page=2",
+      "top": "kew_seed_collecting_field_data_form.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.920503,
+      "margin": 0.475479
+    },
+    {
+      "form": "dev__nestwatch_nest_check_datasheet__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nestwatch_nest_check_datasheet.pdf#page=1",
+      "top": "nestwatch_nest_check_datasheet.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.991294,
+      "margin": 0.370608
+    },
+    {
+      "form": "dev__nestwatch_nest_check_datasheet__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nestwatch_nest_check_datasheet.pdf#page=1",
+      "top": "nestwatch_nest_check_datasheet.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.989148,
+      "margin": 0.367458
+    },
+    {
+      "form": "dev__nrcs_pedon_soil_description__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nrcs_pedon_soil_description.pdf#page=1",
+      "top": "nrcs_pedon_soil_description.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.939446,
+      "margin": 0.380921
+    },
+    {
+      "form": "dev__nrcs_pedon_soil_description__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nrcs_pedon_soil_description.pdf#page=1",
+      "top": "nrcs_pedon_soil_description.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.90715,
+      "margin": 0.351879
+    },
+    {
+      "form": "dev__nrcs_pedon_soil_description__p1__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nrcs_pedon_soil_description.pdf#page=2",
+      "top": "nrcs_pedon_soil_description.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.973133,
+      "margin": 0.434367
+    },
+    {
+      "form": "dev__nrcs_pedon_soil_description__p1__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nrcs_pedon_soil_description.pdf#page=2",
+      "top": "nrcs_pedon_soil_description.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.937153,
+      "margin": 0.421581
+    },
+    {
+      "form": "dev__nrcs_rangeland_stubble_height_form__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nrcs_rangeland_stubble_height_form.pdf#page=1",
+      "top": "nrcs_rangeland_stubble_height_form.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.940177,
+      "margin": 0.315921
+    },
+    {
+      "form": "dev__nrcs_rangeland_stubble_height_form__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nrcs_rangeland_stubble_height_form.pdf#page=1",
+      "top": "nrcs_rangeland_stubble_height_form.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.884519,
+      "margin": 0.265504
+    },
+    {
+      "form": "dev__nvs_recce_forest_height_tiers__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nvs_recce_forest_height_tiers.pdf#page=1",
+      "top": "nvs_recce_forest_height_tiers.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.925676,
+      "margin": 0.272442
+    },
+    {
+      "form": "dev__nvs_recce_forest_height_tiers__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nvs_recce_forest_height_tiers.pdf#page=1",
+      "top": "nvs_recce_plot.pdf#page=1",
+      "expected_rank": 2,
+      "correct_top1": false,
+      "top_score": 0.718049,
+      "margin": 0.001801
+    },
+    {
+      "form": "dev__nvs_recce_forest_height_tiers__p1__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nvs_recce_forest_height_tiers.pdf#page=2",
+      "top": "nvs_recce_forest_height_tiers.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.808079,
+      "margin": 0.220203
+    },
+    {
+      "form": "dev__nvs_recce_forest_height_tiers__p1__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nvs_recce_forest_height_tiers.pdf#page=2",
+      "top": "nvs_recce_forest_height_tiers.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.586999,
+      "margin": 0.001006
+    },
+    {
+      "form": "dev__nvs_recce_grassland_height_tiers__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nvs_recce_grassland_height_tiers.pdf#page=1",
+      "top": "nvs_recce_grassland_height_tiers.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.872033,
+      "margin": 0.301485
+    },
+    {
+      "form": "dev__nvs_recce_grassland_height_tiers__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nvs_recce_grassland_height_tiers.pdf#page=1",
+      "top": "nvs_recce_grassland_height_tiers.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.848178,
+      "margin": 0.285727
+    },
+    {
+      "form": "dev__nvs_recce_grassland_height_tiers__p1__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nvs_recce_grassland_height_tiers.pdf#page=2",
+      "top": "nvs_recce_grassland_height_tiers.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.682083,
+      "margin": 0.102335
+    },
+    {
+      "form": "dev__nvs_recce_grassland_height_tiers__p1__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nvs_recce_grassland_height_tiers.pdf#page=2",
+      "top": "agrra_benthos_underwater_datasheet.pdf#page=1",
+      "expected_rank": 3,
+      "correct_top1": false,
+      "top_score": 0.546582,
+      "margin": 0.002544
+    },
+    {
+      "form": "dev__nvs_recce_plot__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nvs_recce_plot.pdf#page=1",
+      "top": "nvs_recce_plot.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.933048,
+      "margin": 0.307409
+    },
+    {
+      "form": "dev__nvs_recce_plot__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nvs_recce_plot.pdf#page=1",
+      "top": "nvs_recce_forest_height_tiers.pdf#page=1",
+      "expected_rank": 2,
+      "correct_top1": false,
+      "top_score": 0.722436,
+      "margin": 0.004503
+    },
+    {
+      "form": "dev__nvs_recce_plot__p1__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nvs_recce_plot.pdf#page=2",
+      "top": "nvs_recce_plot.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.833543,
+      "margin": 0.254214
+    },
+    {
+      "form": "dev__nvs_recce_plot__p1__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nvs_recce_plot.pdf#page=2",
+      "top": "nvs_recce_plot.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.829708,
+      "margin": 0.26204
+    },
+    {
+      "form": "dev__nvs_tier1_coarse_woody_debris__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nvs_tier1_coarse_woody_debris.pdf#page=1",
+      "top": "nvs_tier1_coarse_woody_debris.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.934074,
+      "margin": 0.004421
+    },
+    {
+      "form": "dev__nvs_tier1_coarse_woody_debris__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nvs_tier1_coarse_woody_debris.pdf#page=1",
+      "top": "nvs_tier1_coarse_woody_debris.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.755447,
+      "margin": 0.002281
+    },
+    {
+      "form": "dev__nvs_tier1_coarse_woody_debris__p1__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nvs_tier1_coarse_woody_debris.pdf#page=2",
+      "top": "nvs_tier1_coarse_woody_debris.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.968704,
+      "margin": 0.000717
+    },
+    {
+      "form": "dev__nvs_tier1_coarse_woody_debris__p1__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nvs_tier1_coarse_woody_debris.pdf#page=2",
+      "top": "nvs_tier1_coarse_woody_debris.pdf#page=1",
+      "expected_rank": 2,
+      "correct_top1": false,
+      "top_score": 0.645582,
+      "margin": 0.003998
+    },
+    {
+      "form": "dev__nvs_tier1_recce_site_description__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nvs_tier1_recce_site_description.pdf#page=1",
+      "top": "nvs_tier1_recce_site_description.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.946366,
+      "margin": 0.362868
+    },
+    {
+      "form": "dev__nvs_tier1_recce_site_description__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nvs_tier1_recce_site_description.pdf#page=1",
+      "top": "nvs_tier1_recce_site_description.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.929331,
+      "margin": 0.351456
+    },
+    {
+      "form": "dev__nvs_tier1_recce_site_description__p1__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nvs_tier1_recce_site_description.pdf#page=2",
+      "top": "nvs_tier1_recce_site_description.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.917471,
+      "margin": 0.207789
+    },
+    {
+      "form": "dev__nvs_tier1_recce_site_description__p1__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nvs_tier1_recce_site_description.pdf#page=2",
+      "top": "nvs_tier1_recce_site_description.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.887203,
+      "margin": 0.260224
+    },
+    {
+      "form": "dev__nvs_understorey_subplot__p0__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nvs_understorey_subplot.pdf#page=1",
+      "top": "nvs_understorey_subplot.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.71878,
+      "margin": 0.112618
+    },
+    {
+      "form": "dev__nvs_understorey_subplot__p0__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nvs_understorey_subplot.pdf#page=1",
+      "top": "nvs_understorey_subplot.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.52102,
+      "margin": 0.049011
+    },
+    {
+      "form": "dev__nvs_understorey_subplot__p1__v0",
+      "split": "dev",
+      "variant": "0",
+      "expected": "nvs_understorey_subplot.pdf#page=2",
+      "top": "nvs_understorey_subplot.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.612623,
+      "margin": 0.122571
+    },
+    {
+      "form": "dev__nvs_understorey_subplot__p1__v1",
+      "split": "dev",
+      "variant": "1",
+      "expected": "nvs_understorey_subplot.pdf#page=2",
+      "top": "nvs_understorey_subplot.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.516122,
+      "margin": 0.014096
+    },
+    {
+      "form": "test__bird_grassland_point_count__p0__v0",
+      "split": "test",
+      "variant": "0",
+      "expected": "bird_grassland_point_count.pdf#page=1",
+      "top": "bird_grassland_point_count.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.826396,
+      "margin": 0.342283
+    },
+    {
+      "form": "test__bird_grassland_point_count__p0__v1",
+      "split": "test",
+      "variant": "1",
+      "expected": "bird_grassland_point_count.pdf#page=1",
+      "top": "bird_grassland_point_count.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.729298,
+      "margin": 0.238321
+    },
+    {
+      "form": "test__bird_grassland_point_count__p1__v0",
+      "split": "test",
+      "variant": "0",
+      "expected": "bird_grassland_point_count.pdf#page=2",
+      "top": "bird_grassland_point_count.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.924065,
+      "margin": 0.284924
+    },
+    {
+      "form": "test__bird_grassland_point_count__p1__v1",
+      "split": "test",
+      "variant": "1",
+      "expected": "bird_grassland_point_count.pdf#page=2",
+      "top": "bird_grassland_point_count.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.912959,
+      "margin": 0.279949
+    },
+    {
+      "form": "test__nvs_foliar_browse_index_datasheets__p0__v0",
+      "split": "test",
+      "variant": "0",
+      "expected": "nvs_foliar_browse_index_datasheets.pdf#page=1",
+      "top": "nvs_foliar_browse_index_datasheets.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.852528,
+      "margin": 0.34237
+    },
+    {
+      "form": "test__nvs_foliar_browse_index_datasheets__p0__v1",
+      "split": "test",
+      "variant": "1",
+      "expected": "nvs_foliar_browse_index_datasheets.pdf#page=1",
+      "top": "nvs_foliar_browse_index_datasheets.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.704613,
+      "margin": 0.28201
+    },
+    {
+      "form": "test__nvs_stem_diameter_sapling__p0__v0",
+      "split": "test",
+      "variant": "0",
+      "expected": "nvs_stem_diameter_sapling.pdf#page=1",
+      "top": "nvs_stem_diameter_sapling.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.695313,
+      "margin": 0.223735
+    },
+    {
+      "form": "test__nvs_stem_diameter_sapling__p0__v1",
+      "split": "test",
+      "variant": "1",
+      "expected": "nvs_stem_diameter_sapling.pdf#page=1",
+      "top": "nvs_recce_grassland_height_tiers.pdf#page=1",
+      "expected_rank": 6,
+      "correct_top1": false,
+      "top_score": 0.46698,
+      "margin": 0.006603
+    },
+    {
+      "form": "test__nvs_stem_diameter_sapling__p1__v0",
+      "split": "test",
+      "variant": "0",
+      "expected": "nvs_stem_diameter_sapling.pdf#page=2",
+      "top": "nvs_stem_diameter_sapling.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.565139,
+      "margin": 0.135149
+    },
+    {
+      "form": "test__nvs_stem_diameter_sapling__p1__v1",
+      "split": "test",
+      "variant": "1",
+      "expected": "nvs_stem_diameter_sapling.pdf#page=2",
+      "top": "agrra_coral_underwater_datasheet.pdf#page=1",
+      "expected_rank": 27,
+      "correct_top1": false,
+      "top_score": 0.396214,
+      "margin": 0.009013
+    },
+    {
+      "form": "test__nvs_tier1_metadata_record__p0__v0",
+      "split": "test",
+      "variant": "0",
+      "expected": "nvs_tier1_metadata_record.pdf#page=1",
+      "top": "nvs_tier1_metadata_record.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.926074,
+      "margin": 0.366459
+    },
+    {
+      "form": "test__nvs_tier1_metadata_record__p0__v1",
+      "split": "test",
+      "variant": "1",
+      "expected": "nvs_tier1_metadata_record.pdf#page=1",
+      "top": "nvs_tier1_metadata_record.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.952596,
+      "margin": 0.40064
+    },
+    {
+      "form": "test__nvs_tier1_metadata_record__p1__v0",
+      "split": "test",
+      "variant": "0",
+      "expected": "nvs_tier1_metadata_record.pdf#page=2",
+      "top": "nvs_tier1_metadata_record.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.977417,
+      "margin": 0.428173
+    },
+    {
+      "form": "test__nvs_tier1_metadata_record__p1__v1",
+      "split": "test",
+      "variant": "1",
+      "expected": "nvs_tier1_metadata_record.pdf#page=2",
+      "top": "nvs_tier1_metadata_record.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.577043,
+      "margin": 0.022808
+    },
+    {
+      "form": "test__nvs_tier1_stem_diameter_height_sapling__p0__v0",
+      "split": "test",
+      "variant": "0",
+      "expected": "nvs_tier1_stem_diameter_height_sapling.pdf#page=1",
+      "top": "nvs_tier1_stem_diameter_height_sapling.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.762013,
+      "margin": 0.176791
+    },
+    {
+      "form": "test__nvs_tier1_stem_diameter_height_sapling__p0__v1",
+      "split": "test",
+      "variant": "1",
+      "expected": "nvs_tier1_stem_diameter_height_sapling.pdf#page=1",
+      "top": "nvs_tier1_stem_diameter_height_sapling.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.840997,
+      "margin": 0.187526
+    },
+    {
+      "form": "test__nvs_tier1_stem_diameter_height_sapling__p1__v0",
+      "split": "test",
+      "variant": "0",
+      "expected": "nvs_tier1_stem_diameter_height_sapling.pdf#page=2",
+      "top": "nvs_tier1_stem_diameter_height_sapling.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.843498,
+      "margin": 0.216695
+    },
+    {
+      "form": "test__nvs_tier1_stem_diameter_height_sapling__p1__v1",
+      "split": "test",
+      "variant": "1",
+      "expected": "nvs_tier1_stem_diameter_height_sapling.pdf#page=2",
+      "top": "agrra_benthos_underwater_datasheet.pdf#page=1",
+      "expected_rank": 4,
+      "correct_top1": false,
+      "top_score": 0.628407,
+      "margin": 0.019955
+    },
+    {
+      "form": "test__nvs_tier1_understorey_record__p0__v0",
+      "split": "test",
+      "variant": "0",
+      "expected": "nvs_tier1_understorey_record.pdf#page=1",
+      "top": "nvs_tier1_understorey_record.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.906173,
+      "margin": 0.193074
+    },
+    {
+      "form": "test__nvs_tier1_understorey_record__p0__v1",
+      "split": "test",
+      "variant": "1",
+      "expected": "nvs_tier1_understorey_record.pdf#page=1",
+      "top": "nvs_tier1_understorey_record.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.822602,
+      "margin": 0.114176
+    },
+    {
+      "form": "test__nvs_tier1_understorey_record__p1__v0",
+      "split": "test",
+      "variant": "0",
+      "expected": "nvs_tier1_understorey_record.pdf#page=2",
+      "top": "nvs_tier1_understorey_record.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.916151,
+      "margin": 0.254962
+    },
+    {
+      "form": "test__nvs_tier1_understorey_record__p1__v1",
+      "split": "test",
+      "variant": "1",
+      "expected": "nvs_tier1_understorey_record.pdf#page=2",
+      "top": "nvs_tier1_understorey_record.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.833253,
+      "margin": 0.242843
+    },
+    {
+      "form": "test__rbp_stream_habitat_highgradient_wv__p1__v0",
+      "split": "test",
+      "variant": "0",
+      "expected": "rbp_stream_habitat_highgradient_wv.pdf#page=2",
+      "top": "rbp_stream_habitat_highgradient_wv.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.985344,
+      "margin": 0.594262
+    },
+    {
+      "form": "test__rbp_stream_habitat_highgradient_wv__p1__v1",
+      "split": "test",
+      "variant": "1",
+      "expected": "rbp_stream_habitat_highgradient_wv.pdf#page=2",
+      "top": "rbp_stream_habitat_highgradient_wv.pdf#page=2",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.99688,
+      "margin": 0.60185
+    },
+    {
+      "form": "test__rbp_stream_habitat_highgradient_wv__p2__v0",
+      "split": "test",
+      "variant": "0",
+      "expected": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "top": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.996899,
+      "margin": 0.465008
+    },
+    {
+      "form": "test__rbp_stream_habitat_highgradient_wv__p2__v1",
+      "split": "test",
+      "variant": "1",
+      "expected": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "top": "rbp_stream_habitat_highgradient_wv.pdf#page=3",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.954764,
+      "margin": 0.424579
+    },
+    {
+      "form": "test__ut_tennessee_field_soil_submission_sheet__p0__v0",
+      "split": "test",
+      "variant": "0",
+      "expected": "ut_tennessee_field_soil_submission_sheet.pdf#page=1",
+      "top": "ut_tennessee_field_soil_submission_sheet.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.968729,
+      "margin": 0.437067
+    },
+    {
+      "form": "test__ut_tennessee_field_soil_submission_sheet__p0__v1",
+      "split": "test",
+      "variant": "1",
+      "expected": "ut_tennessee_field_soil_submission_sheet.pdf#page=1",
+      "top": "ut_tennessee_field_soil_submission_sheet.pdf#page=1",
+      "expected_rank": 1,
+      "correct_top1": true,
+      "top_score": 0.690114,
+      "margin": 0.175517
+    }
+  ]
+}

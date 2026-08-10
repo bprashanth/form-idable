@@ -1,0 +1,36 @@
+{
+  "decisions": [
+    {
+      "table_id": "tree_survey_table",
+      "row_id": "117",
+      "column_id": "col_flowers_buds",
+      "value": "0 X",
+      "confidence": 0.95,
+      "evidence": "Row 117, Buds column contains '0' with an 'X' next to it."
+    },
+    {
+      "table_id": "tree_survey_table",
+      "row_id": "117",
+      "column_id": "col_flowers_open",
+      "value": "0 X",
+      "confidence": 0.95,
+      "evidence": "Row 117, Open column contains '0' with an 'X' next to it."
+    },
+    {
+      "table_id": "tree_survey_table",
+      "row_id": "117",
+      "column_id": "col_flowers_fallen",
+      "value": "N X",
+      "confidence": 0.95,
+      "evidence": "Row 117, Fallen column contains 'N' with an 'X' next to it."
+    },
+    {
+      "table_id": "tree_survey_table",
+      "row_id": "119",
+      "column_id": "col_leaves_flush",
+      "value": "4 0",
+      "confidence": 0.9,
+      "evidence": "Row 119, Flush column contains a '4' crossed out and a '0' written next to it."
+    }
+  ]
+}

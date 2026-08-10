@@ -1,0 +1,1052 @@
+{
+  "decisions": [
+    {
+      "table_id": "table_1",
+      "row_id": "250",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "250",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "251",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "251",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "251",
+      "column_id": "col_flowers_fallen",
+      "value": "NO",
+      "confidence": 0.99,
+      "evidence": "Clear 'NO' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "252",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "252",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "252",
+      "column_id": "col_flowers_fallen",
+      "value": "NO",
+      "confidence": 0.99,
+      "evidence": "Clear 'NO' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "253",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "253",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "254",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "254",
+      "column_id": "col_flowers_fallen",
+      "value": "NO",
+      "confidence": 0.99,
+      "evidence": "Clear 'NO' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "256",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "256",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "256",
+      "column_id": "col_flowers_fallen",
+      "value": "NO",
+      "confidence": 0.99,
+      "evidence": "Clear 'NO' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "257",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "257",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "257",
+      "column_id": "col_flowers_fallen",
+      "value": "NO",
+      "confidence": 0.99,
+      "evidence": "Clear 'NO' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "258",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "258",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "259",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "259",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "259",
+      "column_id": "col_flowers_fallen",
+      "value": "NO",
+      "confidence": 0.99,
+      "evidence": "Clear 'NO' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "260",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "260",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "260",
+      "column_id": "col_flowers_fallen",
+      "value": "NO",
+      "confidence": 0.99,
+      "evidence": "Clear 'NO' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "262",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "262",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "262",
+      "column_id": "col_flowers_fallen",
+      "value": "NO",
+      "confidence": 0.99,
+      "evidence": "Clear 'NO' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "264",
+      "column_id": "col_leaves_flush",
+      "value": "1",
+      "confidence": 0.99,
+      "evidence": "Clear '1' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "264",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "264",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "264",
+      "column_id": "col_flowers_open",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "264",
+      "column_id": "col_flowers_fallen",
+      "value": "X",
+      "confidence": 0.99,
+      "evidence": "Clear 'X' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "264",
+      "column_id": "col_fruits_unripe",
+      "value": "1",
+      "confidence": 0.99,
+      "evidence": "Clear '1' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "264.1",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "264.1",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "264.1",
+      "column_id": "col_flowers_open",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "264.1",
+      "column_id": "col_flowers_fallen",
+      "value": "X",
+      "confidence": 0.99,
+      "evidence": "Clear 'X' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "264.1",
+      "column_id": "col_fruits_unripe",
+      "value": "N",
+      "confidence": 0.99,
+      "evidence": "Clear 'N' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "264.1",
+      "column_id": "col_fruits_ripe",
+      "value": "01",
+      "confidence": 0.99,
+      "evidence": "Clear '01' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "265",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "265",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "265",
+      "column_id": "col_fruits_ripe",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "266",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "266",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "267",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "267",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "269",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "269",
+      "column_id": "col_flowers_fallen",
+      "value": "NO",
+      "confidence": 0.99,
+      "evidence": "Clear 'NO' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "270",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "270",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "270",
+      "column_id": "col_flowers_fallen",
+      "value": "NO",
+      "confidence": 0.99,
+      "evidence": "Clear 'NO' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "271",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "271",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "271",
+      "column_id": "col_flowers_buds",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "271",
+      "column_id": "col_flowers_fallen",
+      "value": "NO",
+      "confidence": 0.99,
+      "evidence": "Clear 'NO' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "272",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "274",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "274",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "275",
+      "column_id": "col_leaves_flush",
+      "value": "1",
+      "confidence": 0.99,
+      "evidence": "Clear '1' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "275",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "275",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "276",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "276",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "277",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "277",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "278",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "278",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "278",
+      "column_id": "col_fruits_fallen",
+      "value": "N",
+      "confidence": 0.99,
+      "evidence": "Clear 'N' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "279",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "279",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "279",
+      "column_id": "col_flowers_buds",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "279",
+      "column_id": "col_flowers_open",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "279",
+      "column_id": "col_fruits_fallen",
+      "value": "N",
+      "confidence": 0.99,
+      "evidence": "Clear 'N' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "280",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "280",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "280",
+      "column_id": "col_flowers_buds",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "280",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "281",
+      "column_id": "col_leaves_flush",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "281",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "281",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "282",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "282",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "282",
+      "column_id": "col_flowers_fallen",
+      "value": "NO",
+      "confidence": 0.99,
+      "evidence": "Clear 'NO' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "283",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "283",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "283",
+      "column_id": "col_flowers_buds",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "283",
+      "column_id": "col_flowers_open",
+      "value": "2",
+      "confidence": 0.99,
+      "evidence": "Clear '2' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "283",
+      "column_id": "col_flowers_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "284",
+      "column_id": "col_leaves_flush",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "284",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "284",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "284",
+      "column_id": "col_flowers_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "285",
+      "column_id": "col_leaves_flush",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "285",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "285",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "285",
+      "column_id": "col_flowers_buds",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "285",
+      "column_id": "col_flowers_fallen",
+      "value": "X",
+      "confidence": 0.99,
+      "evidence": "Clear 'X' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "286",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "286",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "286",
+      "column_id": "col_flowers_buds",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "288",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "288",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "288",
+      "column_id": "col_flowers_fallen",
+      "value": "NO",
+      "confidence": 0.99,
+      "evidence": "Clear 'NO' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "289",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "289",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "289",
+      "column_id": "col_flowers_fallen",
+      "value": "NO",
+      "confidence": 0.99,
+      "evidence": "Clear 'NO' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "290",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "290",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "290",
+      "column_id": "col_flowers_open",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "290",
+      "column_id": "col_flowers_fallen",
+      "value": "NO",
+      "confidence": 0.99,
+      "evidence": "Clear 'NO' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "291",
+      "column_id": "col_leaves_flush",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "291",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "291",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "291",
+      "column_id": "col_flowers_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "292",
+      "column_id": "col_leaves_flush",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "292",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "292",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "292",
+      "column_id": "col_flowers_fallen",
+      "value": "N",
+      "confidence": 0.99,
+      "evidence": "Clear 'N' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "292",
+      "column_id": "col_fruits_fallen",
+      "value": "N",
+      "confidence": 0.99,
+      "evidence": "Clear 'N' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "293",
+      "column_id": "col_leaves_flush",
+      "value": "1",
+      "confidence": 0.99,
+      "evidence": "Clear '1' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "293",
+      "column_id": "col_leaves_mature",
+      "value": "4",
+      "confidence": 0.99,
+      "evidence": "Clear '4' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "293",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "294",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "294",
+      "column_id": "col_fruits_fallen",
+      "value": "N",
+      "confidence": 0.99,
+      "evidence": "Clear 'N' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "295",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "296",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "296",
+      "column_id": "col_fruits_fallen",
+      "value": "N",
+      "confidence": 0.99,
+      "evidence": "Clear 'N' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "297",
+      "column_id": "col_leaves_fallen",
+      "value": "Y",
+      "confidence": 0.99,
+      "evidence": "Clear 'Y' written in the cell."
+    },
+    {
+      "table_id": "table_1",
+      "row_id": "297",
+      "column_id": "col_fruits_unripe",
+      "value": "0",
+      "confidence": 0.99,
+      "evidence": "Clear '0' written in the cell."
+    }
+  ]
+}

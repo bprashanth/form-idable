@@ -1,0 +1,2724 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nrcs_pedon_soil_description.pdf",
+  "page": 2,
+  "page_size_points": [
+    792.0,
+    612.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 2,
+      "row": 0,
+      "col": 25,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        344.895,
+        51.93,
+        370.32,
+        128.64
+      ],
+      "bbox_norm": [
+        0.435473,
+        0.084853,
+        0.467576,
+        0.210196
+      ],
+      "source": "written",
+      "value": "canopy gap",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        370.32,
+        51.93,
+        395.76,
+        128.64
+      ],
+      "bbox_norm": [
+        0.467576,
+        0.084853,
+        0.499697,
+        0.210196
+      ],
+      "source": "written",
+      "value": "bark peeled",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        395.76,
+        51.93,
+        421.2,
+        128.64
+      ],
+      "bbox_norm": [
+        0.499697,
+        0.084853,
+        0.531818,
+        0.210196
+      ],
+      "source": "written",
+      "value": "canopy gap",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 28,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        421.2,
+        51.93,
+        446.64,
+        128.64
+      ],
+      "bbox_norm": [
+        0.531818,
+        0.084853,
+        0.563939,
+        0.210196
+      ],
+      "source": "written",
+      "value": "termite damage",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        446.64,
+        51.93,
+        472.08,
+        128.64
+      ],
+      "bbox_norm": [
+        0.563939,
+        0.084853,
+        0.596061,
+        0.210196
+      ],
+      "source": "written",
+      "value": "termite damage",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        472.08,
+        51.93,
+        497.52,
+        128.64
+      ],
+      "bbox_norm": [
+        0.596061,
+        0.084853,
+        0.628182,
+        0.210196
+      ],
+      "source": "written",
+      "value": "termite damage",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 31,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        497.52,
+        51.93,
+        522.96,
+        128.64
+      ],
+      "bbox_norm": [
+        0.628182,
+        0.084853,
+        0.660303,
+        0.210196
+      ],
+      "source": "written",
+      "value": "climber load",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        522.96,
+        51.93,
+        548.4,
+        128.64
+      ],
+      "bbox_norm": [
+        0.660303,
+        0.084853,
+        0.692424,
+        0.210196
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        548.4,
+        51.93,
+        573.84,
+        128.64
+      ],
+      "bbox_norm": [
+        0.692424,
+        0.084853,
+        0.724545,
+        0.210196
+      ],
+      "source": "written",
+      "value": "fallen",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        573.84,
+        51.93,
+        599.49,
+        128.64
+      ],
+      "bbox_norm": [
+        0.724545,
+        0.084853,
+        0.756932,
+        0.210196
+      ],
+      "source": "written",
+      "value": "resprouting",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 25,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        344.895,
+        128.64,
+        370.32,
+        167.265
+      ],
+      "bbox_norm": [
+        0.435473,
+        0.210196,
+        0.467576,
+        0.273309
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes | Notes Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        370.32,
+        128.64,
+        395.76,
+        167.265
+      ],
+      "bbox_norm": [
+        0.467576,
+        0.210196,
+        0.499697,
+        0.273309
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        395.76,
+        128.64,
+        421.2,
+        167.265
+      ],
+      "bbox_norm": [
+        0.499697,
+        0.210196,
+        0.531818,
+        0.273309
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 28,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        421.2,
+        128.64,
+        446.64,
+        167.265
+      ],
+      "bbox_norm": [
+        0.531818,
+        0.210196,
+        0.563939,
+        0.273309
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        446.64,
+        128.64,
+        472.08,
+        167.265
+      ],
+      "bbox_norm": [
+        0.563939,
+        0.210196,
+        0.596061,
+        0.273309
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        472.08,
+        128.64,
+        497.52,
+        167.265
+      ],
+      "bbox_norm": [
+        0.596061,
+        0.210196,
+        0.628182,
+        0.273309
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 31,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        497.52,
+        128.64,
+        522.96,
+        167.265
+      ],
+      "bbox_norm": [
+        0.628182,
+        0.210196,
+        0.660303,
+        0.273309
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        522.96,
+        128.64,
+        548.4,
+        167.265
+      ],
+      "bbox_norm": [
+        0.660303,
+        0.210196,
+        0.692424,
+        0.273309
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        548.4,
+        128.64,
+        573.84,
+        167.265
+      ],
+      "bbox_norm": [
+        0.692424,
+        0.210196,
+        0.724545,
+        0.273309
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        573.84,
+        128.64,
+        599.49,
+        167.265
+      ],
+      "bbox_norm": [
+        0.724545,
+        0.210196,
+        0.756932,
+        0.273309
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Unified"
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "col": 0,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        19.44,
+        240.6,
+        35.993,
+        265.2
+      ],
+      "bbox_norm": [
+        0.024545,
+        0.393137,
+        0.045445,
+        0.433333
+      ],
+      "source": "written",
+      "value": "16/07/20",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "Date: | Date: | Loc Shp Mst Col Cont. Mottles Date: Sz % LEP Clay Silt Sand"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        319.44,
+        265.2,
+        344.895,
+        311.28
+      ],
+      "bbox_norm": [
+        0.403333,
+        0.433333,
+        0.435473,
+        0.508627
+      ],
+      "source": "printed",
+      "value": "Shp Pores Sz Qty",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 25,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        344.895,
+        265.2,
+        370.32,
+        311.28
+      ],
+      "bbox_norm": [
+        0.435473,
+        0.433333,
+        0.467576,
+        0.508627
+      ],
+      "source": "written",
+      "value": "termite damage",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Ksat | Notes Unified Ksat Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        370.32,
+        265.2,
+        395.76,
+        311.28
+      ],
+      "bbox_norm": [
+        0.467576,
+        0.433333,
+        0.499697,
+        0.508627
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Ksat | Unified Ksat Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        395.76,
+        265.2,
+        421.2,
+        311.28
+      ],
+      "bbox_norm": [
+        0.499697,
+        0.433333,
+        0.531818,
+        0.508627
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 28,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        421.2,
+        265.2,
+        446.64,
+        311.28
+      ],
+      "bbox_norm": [
+        0.531818,
+        0.433333,
+        0.563939,
+        0.508627
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "yn",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 29,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        446.64,
+        265.2,
+        472.08,
+        311.28
+      ],
+      "bbox_norm": [
+        0.563939,
+        0.433333,
+        0.596061,
+        0.508627
+      ],
+      "source": "written",
+      "value": "Y",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        472.08,
+        265.2,
+        497.52,
+        311.28
+      ],
+      "bbox_norm": [
+        0.596061,
+        0.433333,
+        0.628182,
+        0.508627
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 31,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        497.52,
+        265.2,
+        522.96,
+        311.28
+      ],
+      "bbox_norm": [
+        0.628182,
+        0.433333,
+        0.660303,
+        0.508627
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        522.96,
+        265.2,
+        548.4,
+        311.28
+      ],
+      "bbox_norm": [
+        0.660303,
+        0.433333,
+        0.692424,
+        0.508627
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        548.4,
+        265.2,
+        573.84,
+        311.28
+      ],
+      "bbox_norm": [
+        0.692424,
+        0.433333,
+        0.724545,
+        0.508627
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        573.84,
+        265.2,
+        599.49,
+        311.28
+      ],
+      "bbox_norm": [
+        0.724545,
+        0.433333,
+        0.756932,
+        0.508627
+      ],
+      "source": "written",
+      "value": "S",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Pores Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 10,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        35.993,
+        406.32,
+        61.215,
+        443.64
+      ],
+      "bbox_norm": [
+        0.045445,
+        0.663922,
+        0.077292,
+        0.724902
+      ],
+      "source": "printed",
+      "value": "Texture",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Texture"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        61.215,
+        555.12,
+        86.719,
+        579.96
+      ],
+      "bbox_norm": [
+        0.077292,
+        0.907059,
+        0.109493,
+        0.947647
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Matrix Dry | Map Sz Frag Rnd Rock % Knd Texture Moist Color Matrix Concentrations Dry Cont. Bnd"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        86.719,
+        555.12,
+        112.159,
+        579.96
+      ],
+      "bbox_norm": [
+        0.109493,
+        0.907059,
+        0.141615,
+        0.947647
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Dry | Sz Rnd % Knd Moist Concentrations Dry Cont. Bnd"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 7,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        112.159,
+        555.12,
+        137.599,
+        579.96
+      ],
+      "bbox_norm": [
+        0.141615,
+        0.907059,
+        0.173736,
+        0.947647
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Concentrations Cont. Bnd Sz %"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        137.599,
+        555.12,
+        163.039,
+        579.96
+      ],
+      "bbox_norm": [
+        0.173736,
+        0.907059,
+        0.205857,
+        0.947647
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Concentrations Cont. Bnd Sz %"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        163.039,
+        555.12,
+        188.479,
+        579.96
+      ],
+      "bbox_norm": [
+        0.205857,
+        0.907059,
+        0.237978,
+        0.947647
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Concentrations Cont. Bnd Sz %"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        188.479,
+        555.12,
+        213.919,
+        579.96
+      ],
+      "bbox_norm": [
+        0.237978,
+        0.907059,
+        0.270099,
+        0.947647
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Concentrations Cont. Bnd Sz %"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 15,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        213.919,
+        555.12,
+        239.359,
+        579.96
+      ],
+      "bbox_norm": [
+        0.270099,
+        0.907059,
+        0.302221,
+        0.947647
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Concentrations Cont. Bnd Sz %"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        239.359,
+        555.12,
+        264.93,
+        579.96
+      ],
+      "bbox_norm": [
+        0.302221,
+        0.907059,
+        0.334508,
+        0.947647
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Concentrations Cont. Bnd Sz %"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        264.93,
+        555.12,
+        290.239,
+        579.96
+      ],
+      "bbox_norm": [
+        0.334508,
+        0.907059,
+        0.366463,
+        0.947647
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Concentrations Cont. Bnd Sz %"
+    },
+    {
+      "page": 2,
+      "row": 14,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        290.239,
+        555.12,
+        315.81,
+        579.96
+      ],
+      "bbox_norm": [
+        0.366463,
+        0.907059,
+        0.39875,
+        0.947647
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Mst Col | Roots Sz Qty Mst Features Col Loc Surface Dst Con V. % / Ped LocKnd Shp Concentrations Cont. Bnd"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 24,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        319.44,
+        51.93,
+        344.895,
+        167.265
+      ],
+      "bbox_norm": [
+        0.403333,
+        0.084853,
+        0.435473,
+        0.273309
+      ],
+      "source": "printed",
+      "value": "Notes Unified",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Notes Unified"
+    },
+    {
+      "page": 2,
+      "row": 0,
+      "col": 1,
+      "rowspan": 6,
+      "colspan": 2,
+      "bbox_points": [
+        35.993,
+        51.93,
+        61.215,
+        265.2
+      ],
+      "bbox_norm": [
+        0.045445,
+        0.084853,
+        0.077292,
+        0.433333
+      ],
+      "source": "printed",
+      "value": "Loc Shp Mst Col Cont. Mottles Sz % LEP Clay % Silt % Sand %",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Loc Shp Mst Col Cont. Mottles Sz % LEP Clay % Silt % Sand %"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "col": 0,
+      "rowspan": 4,
+      "colspan": 1,
+      "bbox_points": [
+        19.44,
+        128.64,
+        35.993,
+        240.6
+      ],
+      "bbox_norm": [
+        0.024545,
+        0.210196,
+        0.045445,
+        0.393137
+      ],
+      "source": "printed",
+      "value": "Date:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Date:"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 25,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        344.895,
+        167.265,
+        370.32,
+        216.12
+      ],
+      "bbox_norm": [
+        0.435473,
+        0.273309,
+        0.467576,
+        0.353137
+      ],
+      "source": "written",
+      "value": "dead branch",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Unified | Notes Unified"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 26,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        370.32,
+        167.265,
+        395.76,
+        216.12
+      ],
+      "bbox_norm": [
+        0.467576,
+        0.273309,
+        0.499697,
+        0.353137
+      ],
+      "source": "written",
+      "value": "resprouting",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Unified | Unified Notes"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 27,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        395.76,
+        167.265,
+        421.2,
+        216.12
+      ],
+      "bbox_norm": [
+        0.499697,
+        0.273309,
+        0.531818,
+        0.353137
+      ],
+      "source": "written",
+      "value": "climber load",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 28,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        421.2,
+        167.265,
+        446.64,
+        216.12
+      ],
+      "bbox_norm": [
+        0.531818,
+        0.273309,
+        0.563939,
+        0.353137
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 29,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        446.64,
+        167.265,
+        472.08,
+        216.12
+      ],
+      "bbox_norm": [
+        0.563939,
+        0.273309,
+        0.596061,
+        0.353137
+      ],
+      "source": "written",
+      "value": "climber load",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 30,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        472.08,
+        167.265,
+        497.52,
+        216.12
+      ],
+      "bbox_norm": [
+        0.596061,
+        0.273309,
+        0.628182,
+        0.353137
+      ],
+      "source": "written",
+      "value": "top broken",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 31,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        497.52,
+        167.265,
+        522.96,
+        216.12
+      ],
+      "bbox_norm": [
+        0.628182,
+        0.273309,
+        0.660303,
+        0.353137
+      ],
+      "source": "written",
+      "value": "dead branch",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 32,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        522.96,
+        167.265,
+        548.4,
+        216.12
+      ],
+      "bbox_norm": [
+        0.660303,
+        0.273309,
+        0.692424,
+        0.353137
+      ],
+      "source": "written",
+      "value": "canopy gap",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 33,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        548.4,
+        167.265,
+        573.84,
+        216.12
+      ],
+      "bbox_norm": [
+        0.692424,
+        0.273309,
+        0.724545,
+        0.353137
+      ],
+      "source": "written",
+      "value": "climber load",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 34,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        573.84,
+        167.265,
+        599.49,
+        216.12
+      ],
+      "bbox_norm": [
+        0.724545,
+        0.273309,
+        0.756932,
+        0.353137
+      ],
+      "source": "written",
+      "value": "epiphytes present",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "col": 24,
+      "rowspan": 4,
+      "colspan": 1,
+      "bbox_points": [
+        319.44,
+        167.265,
+        344.895,
+        265.2
+      ],
+      "bbox_norm": [
+        0.403333,
+        0.273309,
+        0.435473,
+        0.433333
+      ],
+      "source": "printed",
+      "value": "Notes Ksat",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Notes Ksat"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 25,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        344.895,
+        216.12,
+        370.32,
+        265.2
+      ],
+      "bbox_norm": [
+        0.435473,
+        0.353137,
+        0.467576,
+        0.433333
+      ],
+      "source": "written",
+      "value": "leaning",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Unified | Notes Unified Ksat"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 26,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        370.32,
+        216.12,
+        395.76,
+        265.2
+      ],
+      "bbox_norm": [
+        0.467576,
+        0.353137,
+        0.499697,
+        0.433333
+      ],
+      "source": "written",
+      "value": "dead branch",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Unified | Unified Notes Ksat"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 27,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        395.76,
+        216.12,
+        421.2,
+        265.2
+      ],
+      "bbox_norm": [
+        0.499697,
+        0.353137,
+        0.531818,
+        0.433333
+      ],
+      "source": "written",
+      "value": "termite damage",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes Ksat"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 28,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        421.2,
+        216.12,
+        446.64,
+        265.2
+      ],
+      "bbox_norm": [
+        0.531818,
+        0.353137,
+        0.563939,
+        0.433333
+      ],
+      "source": "written",
+      "value": "bark peeled",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes Ksat"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 29,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        446.64,
+        216.12,
+        472.08,
+        265.2
+      ],
+      "bbox_norm": [
+        0.563939,
+        0.353137,
+        0.596061,
+        0.433333
+      ],
+      "source": "written",
+      "value": "resprouting",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes Ksat"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 30,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        472.08,
+        216.12,
+        497.52,
+        265.2
+      ],
+      "bbox_norm": [
+        0.596061,
+        0.353137,
+        0.628182,
+        0.433333
+      ],
+      "source": "written",
+      "value": "new flush",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes Ksat"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 31,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        497.52,
+        216.12,
+        522.96,
+        265.2
+      ],
+      "bbox_norm": [
+        0.628182,
+        0.353137,
+        0.660303,
+        0.433333
+      ],
+      "source": "written",
+      "value": "termite damage",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes Ksat"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 32,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        522.96,
+        216.12,
+        548.4,
+        265.2
+      ],
+      "bbox_norm": [
+        0.660303,
+        0.353137,
+        0.692424,
+        0.433333
+      ],
+      "source": "written",
+      "value": "epiphytes present",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes Ksat"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 33,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        548.4,
+        216.12,
+        573.84,
+        265.2
+      ],
+      "bbox_norm": [
+        0.692424,
+        0.353137,
+        0.724545,
+        0.433333
+      ],
+      "source": "written",
+      "value": "climber load",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes Ksat"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "col": 34,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        573.84,
+        216.12,
+        599.49,
+        265.2
+      ],
+      "bbox_norm": [
+        0.724545,
+        0.353137,
+        0.756932,
+        0.433333
+      ],
+      "source": "written",
+      "value": "leaning",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Notes Ksat"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        35.993,
+        265.2,
+        61.215,
+        334.08
+      ],
+      "bbox_norm": [
+        0.045445,
+        0.433333,
+        0.077292,
+        0.545882
+      ],
+      "source": "printed",
+      "value": "Type Structure Sz Grade",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Type Structure Sz Grade"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 3,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        61.215,
+        265.2,
+        86.719,
+        334.08
+      ],
+      "bbox_norm": [
+        0.077292,
+        0.433333,
+        0.109493,
+        0.545882
+      ],
+      "source": "written",
+      "value": "43",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Sand % | Mottles Date: Sz % LEP Clay Silt Sand Shp Type Pores Symbol: Structure Qty Grade Loc Unit Roots"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 5,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        86.719,
+        265.2,
+        112.159,
+        334.08
+      ],
+      "bbox_norm": [
+        0.109493,
+        0.433333,
+        0.141615,
+        0.545882
+      ],
+      "source": "written",
+      "value": "32",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "% % | Loc Shp Mst Col Cont. Sz % Type Pores Symbol: Structure Qty Grade Unit Roots"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 7,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        112.159,
+        265.2,
+        137.599,
+        334.08
+      ],
+      "bbox_norm": [
+        0.141615,
+        0.433333,
+        0.173736,
+        0.545882
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Type Pores Symbol: Structure Sz Qty Grade Loc Unit Roots"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 9,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        137.599,
+        265.2,
+        163.039,
+        334.08
+      ],
+      "bbox_norm": [
+        0.173736,
+        0.433333,
+        0.205857,
+        0.545882
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Type Pores Symbol: Structure Sz Qty Grade Loc Unit Roots"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 11,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        163.039,
+        265.2,
+        188.479,
+        334.08
+      ],
+      "bbox_norm": [
+        0.205857,
+        0.433333,
+        0.237978,
+        0.545882
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Shp Type Pores Symbol: Structure Sz Qty Grade Loc Unit Roots"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 13,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        188.479,
+        265.2,
+        213.919,
+        334.08
+      ],
+      "bbox_norm": [
+        0.237978,
+        0.433333,
+        0.270099,
+        0.545882
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Type Pores Symbol: Structure Sz Qty Grade Loc Unit Roots"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 15,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        213.919,
+        265.2,
+        239.359,
+        334.08
+      ],
+      "bbox_norm": [
+        0.270099,
+        0.433333,
+        0.302221,
+        0.545882
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "code1",
+      "semantic_context": "Shp Type Pores Symbol: Structure Sz Qty Grade Loc Unit Roots"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 17,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        239.359,
+        265.2,
+        264.93,
+        334.08
+      ],
+      "bbox_norm": [
+        0.302221,
+        0.433333,
+        0.334508,
+        0.545882
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Shp Type Pores Symbol: Structure Sz Qty Grade Loc Unit Roots"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 19,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        264.93,
+        265.2,
+        290.239,
+        334.08
+      ],
+      "bbox_norm": [
+        0.334508,
+        0.433333,
+        0.366463,
+        0.545882
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "code1",
+      "semantic_context": "Shp Type Pores Symbol: Structure Sz Qty Grade Loc Unit Roots"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 21,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        290.239,
+        265.2,
+        315.81,
+        334.08
+      ],
+      "bbox_norm": [
+        0.366463,
+        0.433333,
+        0.39875,
+        0.545882
+      ],
+      "source": "written",
+      "value": "X",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Ksat | Notes Unified Ksat Shp Type Pores Symbol: Structure Sz Qty Grade Loc Unit Roots"
+    },
+    {
+      "page": 2,
+      "row": 6,
+      "col": 0,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        19.44,
+        265.2,
+        35.993,
+        358.32
+      ],
+      "bbox_norm": [
+        0.024545,
+        0.433333,
+        0.045445,
+        0.58549
+      ],
+      "source": "printed",
+      "value": "Symbol: Unit Map",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Symbol: Unit Map"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 24,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        319.44,
+        311.28,
+        344.895,
+        358.32
+      ],
+      "bbox_norm": [
+        0.403333,
+        0.508627,
+        0.435473,
+        0.58549
+      ],
+      "source": "printed",
+      "value": "Loc Roots Sz Qty",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Loc Roots Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 25,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        344.895,
+        311.28,
+        370.32,
+        358.32
+      ],
+      "bbox_norm": [
+        0.435473,
+        0.508627,
+        0.467576,
+        0.58549
+      ],
+      "source": "written",
+      "value": "bark peeled",
+      "mark": "text",
+      "value_kind": "short",
+      "semantic_context": "Pores Sz Qty | Notes Unified Ksat Shp Pores Sz Qty Loc Roots"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 26,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        370.32,
+        311.28,
+        395.76,
+        358.32
+      ],
+      "bbox_norm": [
+        0.467576,
+        0.508627,
+        0.499697,
+        0.58549
+      ],
+      "source": "written",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Sz Qty | Unified Ksat Shp Sz Qty Loc Roots"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 27,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        395.76,
+        311.28,
+        421.2,
+        358.32
+      ],
+      "bbox_norm": [
+        0.499697,
+        0.508627,
+        0.531818,
+        0.58549
+      ],
+      "source": "written",
+      "value": "F",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Loc Roots Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 28,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        421.2,
+        311.28,
+        446.64,
+        358.32
+      ],
+      "bbox_norm": [
+        0.531818,
+        0.508627,
+        0.563939,
+        0.58549
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Loc Roots Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 29,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        446.64,
+        311.28,
+        472.08,
+        358.32
+      ],
+      "bbox_norm": [
+        0.563939,
+        0.508627,
+        0.596061,
+        0.58549
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "yn",
+      "semantic_context": "Loc Roots Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 30,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        472.08,
+        311.28,
+        497.52,
+        358.32
+      ],
+      "bbox_norm": [
+        0.596061,
+        0.508627,
+        0.628182,
+        0.58549
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Loc Roots Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 31,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        497.52,
+        311.28,
+        522.96,
+        358.32
+      ],
+      "bbox_norm": [
+        0.628182,
+        0.508627,
+        0.660303,
+        0.58549
+      ],
+      "source": "written",
+      "value": "R",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Loc Roots Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 32,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        522.96,
+        311.28,
+        548.4,
+        358.32
+      ],
+      "bbox_norm": [
+        0.660303,
+        0.508627,
+        0.692424,
+        0.58549
+      ],
+      "source": "written",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Loc Roots Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 33,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        548.4,
+        311.28,
+        573.84,
+        358.32
+      ],
+      "bbox_norm": [
+        0.692424,
+        0.508627,
+        0.724545,
+        0.58549
+      ],
+      "source": "written",
+      "value": "T",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Loc Roots Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 7,
+      "col": 34,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        573.84,
+        311.28,
+        599.49,
+        358.32
+      ],
+      "bbox_norm": [
+        0.724545,
+        0.508627,
+        0.756932,
+        0.58549
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Loc Roots Sz Qty"
+    },
+    {
+      "page": 2,
+      "row": 8,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 2,
+      "bbox_points": [
+        35.993,
+        334.08,
+        61.215,
+        406.32
+      ],
+      "bbox_norm": [
+        0.045445,
+        0.545882,
+        0.077292,
+        0.663922
+      ],
+      "source": "printed",
+      "value": "Sz Frag Rnd Rock % Knd",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Sz Frag Rnd Rock % Knd"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 0,
+      "rowspan": 2,
+      "colspan": 1,
+      "bbox_points": [
+        19.44,
+        358.32,
+        35.993,
+        443.64
+      ],
+      "bbox_norm": [
+        0.024545,
+        0.58549,
+        0.045445,
+        0.724902
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "Symbol: Unit Map | Unit Map | Mottles Date: % LEP Clay Silt Sand Type Symbol: Structure Sz Grade Unit Map Frag Rnd Rock Knd Texture"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 25,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        344.895,
+        358.32,
+        370.32,
+        471.6
+      ],
+      "bbox_norm": [
+        0.435473,
+        0.58549,
+        0.467576,
+        0.770588
+      ],
+      "source": "written",
+      "value": "94",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Roots Sz Qty | Notes Unified Ksat Shp Pores Sz Qty Loc Roots Mst Features Col Surface Dst Con V. % / Ped LocKnd"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 26,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        370.32,
+        358.32,
+        395.76,
+        471.6
+      ],
+      "bbox_norm": [
+        0.467576,
+        0.58549,
+        0.499697,
+        0.770588
+      ],
+      "source": "written",
+      "value": "78",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Sz Qty | Unified Ksat Shp Sz Qty Loc Mst Features Col Surface Dst Con V. % / Ped LocKnd"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 27,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        395.76,
+        358.32,
+        421.2,
+        471.6
+      ],
+      "bbox_norm": [
+        0.499697,
+        0.58549,
+        0.531818,
+        0.770588
+      ],
+      "source": "written",
+      "value": "33",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Mst Features Col Loc Surface Dst Con V. % / Ped LocKnd"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 28,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        421.2,
+        358.32,
+        446.64,
+        471.6
+      ],
+      "bbox_norm": [
+        0.531818,
+        0.58549,
+        0.563939,
+        0.770588
+      ],
+      "source": "written",
+      "value": "22",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Mst Features Col Loc Surface Dst Con V. % / Ped LocKnd"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 29,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        446.64,
+        358.32,
+        472.08,
+        471.6
+      ],
+      "bbox_norm": [
+        0.563939,
+        0.58549,
+        0.596061,
+        0.770588
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Mst Features Col Loc Surface Dst Con V. % / Ped LocKnd"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 30,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        472.08,
+        358.32,
+        497.52,
+        471.6
+      ],
+      "bbox_norm": [
+        0.596061,
+        0.58549,
+        0.628182,
+        0.770588
+      ],
+      "source": "written",
+      "value": "75",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Mst Features Col Loc Surface Dst Con V. % / Ped LocKnd"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 31,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        497.52,
+        358.32,
+        522.96,
+        471.6
+      ],
+      "bbox_norm": [
+        0.628182,
+        0.58549,
+        0.660303,
+        0.770588
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "strike",
+      "value_kind": "percent",
+      "semantic_context": "Mst Features Col Loc Surface Dst Con V. % / Ped LocKnd"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 32,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        522.96,
+        358.32,
+        548.4,
+        471.6
+      ],
+      "bbox_norm": [
+        0.660303,
+        0.58549,
+        0.692424,
+        0.770588
+      ],
+      "source": "written",
+      "value": "97",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Mst Features Col Loc Surface Dst Con V. % / Ped LocKnd"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 33,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        548.4,
+        358.32,
+        573.84,
+        471.6
+      ],
+      "bbox_norm": [
+        0.692424,
+        0.58549,
+        0.724545,
+        0.770588
+      ],
+      "source": "written",
+      "value": "84",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Mst Features Col Loc Surface Dst Con V. % / Ped LocKnd"
+    },
+    {
+      "page": 2,
+      "row": 9,
+      "col": 34,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        573.84,
+        358.32,
+        599.49,
+        471.6
+      ],
+      "bbox_norm": [
+        0.724545,
+        0.58549,
+        0.756932,
+        0.770588
+      ],
+      "source": "written",
+      "value": "7",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "Mst Features Col Loc Surface Dst Con V. % / Ped LocKnd"
+    },
+    {
+      "page": 2,
+      "row": 11,
+      "col": 0,
+      "rowspan": 3,
+      "colspan": 1,
+      "bbox_points": [
+        19.44,
+        443.64,
+        35.993,
+        555.12
+      ],
+      "bbox_norm": [
+        0.024545,
+        0.724902,
+        0.045445,
+        0.907059
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "Symbol: Unit Map | Unit Map | Clay % Silt Sand Type Symbol: Structure Sz Grade Unit Map Frag Rnd Rock Knd Texture Moist Color Matrix Dry"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 25,
+      "rowspan": 4,
+      "colspan": 1,
+      "bbox_points": [
+        344.895,
+        471.6,
+        370.32,
+        602.58
+      ],
+      "bbox_norm": [
+        0.435473,
+        0.770588,
+        0.467576,
+        0.984608
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "V. % / Ped | Loc Roots Sz Qty Mst Features Col Surface Dst Con V. % / Ped LocKnd Shp Concentrations Cont. ShapeKnd"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 26,
+      "rowspan": 4,
+      "colspan": 1,
+      "bbox_points": [
+        370.32,
+        471.6,
+        395.76,
+        602.58
+      ],
+      "bbox_norm": [
+        0.467576,
+        0.770588,
+        0.499697,
+        0.984608
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Con % | Unified Ksat Shp Sz Qty Loc Mst Col Dst Con % LocKnd Concentrations Cont. ShapeKnd"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 27,
+      "rowspan": 4,
+      "colspan": 1,
+      "bbox_points": [
+        395.76,
+        471.6,
+        421.2,
+        602.58
+      ],
+      "bbox_norm": [
+        0.499697,
+        0.770588,
+        0.531818,
+        0.984608
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "LocKnd Shp Concentrations Mst Col Cont. Sz % ShapeKnd"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 28,
+      "rowspan": 4,
+      "colspan": 1,
+      "bbox_points": [
+        421.2,
+        471.6,
+        446.64,
+        602.58
+      ],
+      "bbox_norm": [
+        0.531818,
+        0.770588,
+        0.563939,
+        0.984608
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "LocKnd Shp Concentrations Mst Col Cont. Sz % ShapeKnd"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 29,
+      "rowspan": 4,
+      "colspan": 1,
+      "bbox_points": [
+        446.64,
+        471.6,
+        472.08,
+        602.58
+      ],
+      "bbox_norm": [
+        0.563939,
+        0.770588,
+        0.596061,
+        0.984608
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "LocKnd Shp Concentrations Mst Col Cont. Sz % ShapeKnd"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 30,
+      "rowspan": 4,
+      "colspan": 1,
+      "bbox_points": [
+        472.08,
+        471.6,
+        497.52,
+        602.58
+      ],
+      "bbox_norm": [
+        0.596061,
+        0.770588,
+        0.628182,
+        0.984608
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "LocKnd Shp Concentrations Mst Col Cont. Sz % ShapeKnd"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 31,
+      "rowspan": 4,
+      "colspan": 1,
+      "bbox_points": [
+        497.52,
+        471.6,
+        522.96,
+        602.58
+      ],
+      "bbox_norm": [
+        0.628182,
+        0.770588,
+        0.660303,
+        0.984608
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "LocKnd Shp Concentrations Mst Col Cont. Sz % ShapeKnd"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 32,
+      "rowspan": 4,
+      "colspan": 1,
+      "bbox_points": [
+        522.96,
+        471.6,
+        548.4,
+        602.58
+      ],
+      "bbox_norm": [
+        0.660303,
+        0.770588,
+        0.692424,
+        0.984608
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "LocKnd Shp Concentrations Mst Col Cont. Sz % ShapeKnd"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 33,
+      "rowspan": 4,
+      "colspan": 1,
+      "bbox_points": [
+        548.4,
+        471.6,
+        573.84,
+        602.58
+      ],
+      "bbox_norm": [
+        0.692424,
+        0.770588,
+        0.724545,
+        0.984608
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "LocKnd Shp Concentrations Mst Col Cont. Sz % ShapeKnd"
+    },
+    {
+      "page": 2,
+      "row": 12,
+      "col": 34,
+      "rowspan": 4,
+      "colspan": 1,
+      "bbox_points": [
+        573.84,
+        471.6,
+        599.49,
+        602.58
+      ],
+      "bbox_norm": [
+        0.724545,
+        0.770588,
+        0.756932,
+        0.984608
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "LocKnd Shp Concentrations Mst Col Cont. Sz % ShapeKnd"
+    }
+  ]
+}

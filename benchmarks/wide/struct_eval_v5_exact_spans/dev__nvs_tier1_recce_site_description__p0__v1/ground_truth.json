@@ -1,0 +1,4308 @@
+{
+  "version": "formidable-layout-ground-truth-v1",
+  "template": "nvs_tier1_recce_site_description.pdf",
+  "page": 1,
+  "page_size_points": [
+    595.0,
+    842.0
+  ],
+  "legibility": "intended values before degradation; degraded hard variants may contain human-illegible cells and require a sampled ceiling audit",
+  "cells": [
+    {
+      "page": 1,
+      "row": 12,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        25.74,
+        216.24,
+        140.64,
+        233.04
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.256817,
+        0.23637,
+        0.27677
+      ],
+      "source": "printed",
+      "value": "PLOT AXES",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "PLOT AXES"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        140.64,
+        216.24,
+        248.096,
+        233.04
+      ],
+      "bbox_norm": [
+        0.23637,
+        0.256817,
+        0.416968,
+        0.27677
+      ],
+      "source": "printed",
+      "value": "A\u2013D",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "A\u2013D"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        248.096,
+        216.24,
+        357.836,
+        233.04
+      ],
+      "bbox_norm": [
+        0.416968,
+        0.256817,
+        0.601405,
+        0.27677
+      ],
+      "source": "printed",
+      "value": "D\u2013M",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "D\u2013M"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        357.836,
+        216.24,
+        467.756,
+        233.04
+      ],
+      "bbox_norm": [
+        0.601405,
+        0.256817,
+        0.786145,
+        0.27677
+      ],
+      "source": "printed",
+      "value": "M\u2013P",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "M\u2013P"
+    },
+    {
+      "page": 1,
+      "row": 12,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        467.756,
+        216.24,
+        580.56,
+        233.04
+      ],
+      "bbox_norm": [
+        0.786145,
+        0.256817,
+        0.975731,
+        0.27677
+      ],
+      "source": "printed",
+      "value": "P\u2013A",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "P\u2013A"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        25.74,
+        233.04,
+        140.64,
+        250.2
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.27677,
+        0.23637,
+        0.29715
+      ],
+      "source": "printed",
+      "value": "SECTION",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "SECTION"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        140.64,
+        233.04,
+        175.26,
+        250.2
+      ],
+      "bbox_norm": [
+        0.23637,
+        0.27677,
+        0.294555,
+        0.29715
+      ],
+      "source": "printed",
+      "value": "1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        175.26,
+        233.04,
+        211.628,
+        250.2
+      ],
+      "bbox_norm": [
+        0.294555,
+        0.27677,
+        0.355676,
+        0.29715
+      ],
+      "source": "printed",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "2"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        211.628,
+        233.04,
+        248.096,
+        250.2
+      ],
+      "bbox_norm": [
+        0.355676,
+        0.27677,
+        0.416968,
+        0.29715
+      ],
+      "source": "printed",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "3"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        248.096,
+        233.04,
+        284.595,
+        250.2
+      ],
+      "bbox_norm": [
+        0.416968,
+        0.27677,
+        0.478311,
+        0.29715
+      ],
+      "source": "printed",
+      "value": "1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        284.595,
+        233.04,
+        321.248,
+        250.2
+      ],
+      "bbox_norm": [
+        0.478311,
+        0.27677,
+        0.539912,
+        0.29715
+      ],
+      "source": "printed",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "2"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        321.248,
+        233.04,
+        357.836,
+        250.2
+      ],
+      "bbox_norm": [
+        0.539912,
+        0.27677,
+        0.601405,
+        0.29715
+      ],
+      "source": "printed",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "3"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        357.836,
+        233.04,
+        394.515,
+        250.2
+      ],
+      "bbox_norm": [
+        0.601405,
+        0.27677,
+        0.66305,
+        0.29715
+      ],
+      "source": "printed",
+      "value": "1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 22,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        394.515,
+        233.04,
+        431.272,
+        250.2
+      ],
+      "bbox_norm": [
+        0.66305,
+        0.27677,
+        0.724828,
+        0.29715
+      ],
+      "source": "printed",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "2"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        431.272,
+        233.04,
+        467.756,
+        250.2
+      ],
+      "bbox_norm": [
+        0.724828,
+        0.27677,
+        0.786145,
+        0.29715
+      ],
+      "source": "printed",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "3"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        467.756,
+        233.04,
+        504.375,
+        250.2
+      ],
+      "bbox_norm": [
+        0.786145,
+        0.27677,
+        0.847689,
+        0.29715
+      ],
+      "source": "printed",
+      "value": "1",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "1"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        504.375,
+        233.04,
+        540.967,
+        250.2
+      ],
+      "bbox_norm": [
+        0.847689,
+        0.27677,
+        0.909189,
+        0.29715
+      ],
+      "source": "printed",
+      "value": "2",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "2"
+    },
+    {
+      "page": 1,
+      "row": 13,
+      "col": 36,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        540.967,
+        233.04,
+        580.56,
+        250.2
+      ],
+      "bbox_norm": [
+        0.909189,
+        0.27677,
+        0.975731,
+        0.29715
+      ],
+      "source": "printed",
+      "value": "3",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "3"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        25.74,
+        250.2,
+        140.64,
+        266.52
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.29715,
+        0.23637,
+        0.316532
+      ],
+      "source": "printed",
+      "value": "BEARING(\u00b0)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "BEARING(\u00b0)"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        140.64,
+        250.2,
+        175.26,
+        266.52
+      ],
+      "bbox_norm": [
+        0.23637,
+        0.29715,
+        0.294555,
+        0.316532
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1 | RECCE SITE IDENTIFIER: SUB-CATCHMENT: BY: CLASS: A\u2013D 1 2 3 BEARING(\u00b0)"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 6,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        180.54,
+        250.2,
+        206.22,
+        266.52
+      ],
+      "bbox_norm": [
+        0.303429,
+        0.29715,
+        0.346588,
+        0.316532
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "A\u2013D 2 | RECCE SITE DESCRIPTION A\u2013D 1 2 3 BEARING(\u00b0)"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 9,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        217.02,
+        250.2,
+        242.7,
+        266.52
+      ],
+      "bbox_norm": [
+        0.36474,
+        0.29715,
+        0.407899,
+        0.316532
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "3 | SITE DESCRIPTION A\u2013D 2 3 1 BEARING(\u00b0)"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        248.096,
+        250.2,
+        284.595,
+        266.52
+      ],
+      "bbox_norm": [
+        0.416968,
+        0.29715,
+        0.478311,
+        0.316532
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "time",
+      "semantic_context": "1 | 1 | SITE DESCRIPTION FINISH TIME: DAY/MONTH/YEAR: TOPO. MAP GPS Make Easting: Northing: FIX: ACCURACY: LAND-USE A\u2013D D\u2013M 3 1 2 BEARING(\u00b0)"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 14,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        289.92,
+        250.2,
+        315.84,
+        266.52
+      ],
+      "bbox_norm": [
+        0.487261,
+        0.29715,
+        0.530824,
+        0.316532
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "D\u2013M 2 | DESCRIPTION RECORD FINISH TIME: DAY/MONTH/YEAR: TOPO. MAP GPS Make & Easting: Northing: FIX: Single ACCURACY: LAND-USE CLASS: D\u2013M 1 2 3 BEARING(\u00b0)"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        326.16,
+        250.2,
+        352.44,
+        266.52
+      ],
+      "bbox_norm": [
+        0.548168,
+        0.29715,
+        0.592336,
+        0.316532
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "3 | TOPO. MAP NO. GPS Make & Model: Easting: Northing: FIX: Single / Averaged; ACCURACY: 100% LAND-USE CLASS: D\u2013M 2 3 1 BEARING(\u00b0)"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        357.836,
+        250.2,
+        394.515,
+        266.52
+      ],
+      "bbox_norm": [
+        0.601405,
+        0.29715,
+        0.66305,
+        0.316532
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1 | Make & Easting: Northing: GPS FIX: Single / Averaged; 2D ACCURACY: 100% Y N LAND-USE CLASS: D\u2013M M\u2013P 3 1 2"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 23,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        399.9,
+        250.2,
+        425.76,
+        266.52
+      ],
+      "bbox_norm": [
+        0.672101,
+        0.29715,
+        0.715563,
+        0.316532
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "M\u2013P 2 | RECORD SHEET DAY/MONTH/YEAR: & NAME: Model: / Averaged; 2D 3D ACCURACY: 100% Y N ; \u00b1 CLASS: M\u2013P 1 2 3"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 28,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        436.56,
+        250.2,
+        462.36,
+        266.52
+      ],
+      "bbox_norm": [
+        0.733714,
+        0.29715,
+        0.777076,
+        0.316532
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "3 | SHEET Page NAME: Averaged; 2D / 3D Datum: 100% Y N ; \u00b1 ___________m M\u2013P 2 3 1"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        467.756,
+        250.2,
+        504.375,
+        266.52
+      ],
+      "bbox_norm": [
+        0.786145,
+        0.29715,
+        0.847689,
+        0.316532
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "1 | 1 | SHEET Page of_____ 2D / 3D Datum: NZGD2000 N ; \u00b1 ___________m M\u2013P P\u2013A 3 1 2"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 33,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        509.76,
+        250.2,
+        535.56,
+        266.52
+      ],
+      "bbox_norm": [
+        0.85674,
+        0.29715,
+        0.900101,
+        0.316532
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "P\u2013A 2 | Page of_____ Datum: NZGD2000 ___________m P\u2013A 1 2 3"
+    },
+    {
+      "page": 1,
+      "row": 14,
+      "col": 37,
+      "rowspan": 1,
+      "colspan": 1,
+      "bbox_points": [
+        546.36,
+        250.2,
+        575.16,
+        266.52
+      ],
+      "bbox_norm": [
+        0.918252,
+        0.29715,
+        0.966655,
+        0.316532
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "3 | Page of_____ NZGD2000 ___________m P\u2013A 2 3"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        25.74,
+        266.52,
+        140.64,
+        283.62
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.316532,
+        0.23637,
+        0.336841
+      ],
+      "source": "printed",
+      "value": "TIGHT TAPE DISTANCE (M)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "TIGHT TAPE DISTANCE (M)"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        140.64,
+        266.52,
+        175.26,
+        283.62
+      ],
+      "bbox_norm": [
+        0.23637,
+        0.316532,
+        0.294555,
+        0.336841
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1 | RECCE SITE IDENTIFIER: SUB-CATCHMENT: BY: CLASS: A\u2013D 1 2 3 TIGHT TAPE DISTANCE (M)"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        175.26,
+        266.52,
+        211.628,
+        283.62
+      ],
+      "bbox_norm": [
+        0.294555,
+        0.316532,
+        0.355676,
+        0.336841
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "2 | A\u2013D 2 | RECCE SITE DESCRIPTION A\u2013D 1 2 3 TIGHT TAPE DISTANCE (M)"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        211.628,
+        266.52,
+        248.096,
+        283.62
+      ],
+      "bbox_norm": [
+        0.355676,
+        0.316532,
+        0.416968,
+        0.336841
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "coordinate",
+      "semantic_context": "3 | 3 | RECCE SITE DESCRIPTION FINISH DAY/MONTH/YEAR: TOPO. GPS LAND-USE A\u2013D 2 3 1 TIGHT TAPE DISTANCE (M)"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        248.096,
+        266.52,
+        284.595,
+        283.62
+      ],
+      "bbox_norm": [
+        0.416968,
+        0.316532,
+        0.478311,
+        0.336841
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "time",
+      "semantic_context": "1 | 1 | FINISH TIME: DAY/MONTH/YEAR: TOPO. MAP GPS Make Easting: Northing: FIX: ACCURACY: LAND-USE A\u2013D D\u2013M 3 1 2 TIGHT TAPE DISTANCE (M)"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        284.595,
+        266.52,
+        321.248,
+        283.62
+      ],
+      "bbox_norm": [
+        0.478311,
+        0.316532,
+        0.539912,
+        0.336841
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "2 | D\u2013M 2 | TOPO. MAP GPS Make & Model: Easting: Northing: FIX: Single ACCURACY: LAND-USE CLASS: D\u2013M 1 2 3 TIGHT TAPE DISTANCE (M)"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        321.248,
+        266.52,
+        357.836,
+        283.62
+      ],
+      "bbox_norm": [
+        0.539912,
+        0.316532,
+        0.601405,
+        0.336841
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "3 | 3 | GPS Make & Model: Easting: Northing: FIX: Single / Averaged; ACCURACY: 100% LAND-USE CLASS: D\u2013M 2 3 1 TAPE DISTANCE (M)"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        357.836,
+        266.52,
+        394.515,
+        283.62
+      ],
+      "bbox_norm": [
+        0.601405,
+        0.316532,
+        0.66305,
+        0.336841
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1 | Easting: Northing: GPS FIX: Single / Averaged; 2D ACCURACY: 100% Y N LAND-USE CLASS: D\u2013M M\u2013P 3 1 2 DISTANCE (M)"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 22,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        394.515,
+        266.52,
+        431.272,
+        283.62
+      ],
+      "bbox_norm": [
+        0.66305,
+        0.316532,
+        0.724828,
+        0.336841
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "2 | M\u2013P 2 | Model: Easting: Northing: Single / Averaged; 2D 3D ACCURACY: 100% Y N ; \u00b1 ___________m CLASS: M\u2013P 1 2 3 (M)"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        431.272,
+        266.52,
+        467.756,
+        283.62
+      ],
+      "bbox_norm": [
+        0.724828,
+        0.316532,
+        0.786145,
+        0.336841
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "3 | 3 | RECORD SHEET Page NAME: Averaged; 2D / 3D Datum: NZGD2000 100% Y N ; \u00b1 ___________m M\u2013P 2 3 1"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        467.756,
+        266.52,
+        504.375,
+        283.62
+      ],
+      "bbox_norm": [
+        0.786145,
+        0.316532,
+        0.847689,
+        0.336841
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "1 | 1 | SHEET Page of_____ 2D / 3D Datum: NZGD2000 N ; \u00b1 ___________m M\u2013P P\u2013A 3 1 2"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        504.375,
+        266.52,
+        540.967,
+        283.62
+      ],
+      "bbox_norm": [
+        0.847689,
+        0.316532,
+        0.909189,
+        0.336841
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "2 | P\u2013A 2 | SHEET Page of_____ 3D Datum: NZGD2000 \u00b1 ___________m P\u2013A 1 2 3"
+    },
+    {
+      "page": 1,
+      "row": 15,
+      "col": 36,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        540.967,
+        266.52,
+        580.56,
+        283.62
+      ],
+      "bbox_norm": [
+        0.909189,
+        0.316532,
+        0.975731,
+        0.336841
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "3 | 3 | Page of_____ Datum: NZGD2000 ___________m P\u2013A 2 3"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        25.74,
+        283.62,
+        140.64,
+        309.66
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.336841,
+        0.23637,
+        0.367767
+      ],
+      "source": "printed",
+      "value": "TIGHT TAPE SLOPE (\u00ba,+/\u2013)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "TIGHT TAPE SLOPE (\u00ba,+/\u2013)"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        140.64,
+        283.62,
+        175.26,
+        309.66
+      ],
+      "bbox_norm": [
+        0.23637,
+        0.336841,
+        0.294555,
+        0.367767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1 | IDENTIFIER: SUB-CATCHMENT: BY: CLASS: A\u2013D 1 2 3 DISTANCE (M) TIGHT TAPE SLOPE (\u00ba,+/\u2013)"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        175.26,
+        283.62,
+        211.628,
+        309.66
+      ],
+      "bbox_norm": [
+        0.294555,
+        0.336841,
+        0.355676,
+        0.367767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "2 | A\u2013D 2 | A\u2013D 1 2 3 (M) TIGHT TAPE SLOPE (\u00ba,+/\u2013)"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        211.628,
+        283.62,
+        248.096,
+        309.66
+      ],
+      "bbox_norm": [
+        0.355676,
+        0.336841,
+        0.416968,
+        0.367767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "coordinate",
+      "semantic_context": "3 | 3 | FINISH DAY/MONTH/YEAR: TOPO. GPS LAND-USE A\u2013D 2 3 1 TIGHT TAPE SLOPE (\u00ba,+/\u2013)"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        248.096,
+        283.62,
+        284.595,
+        309.66
+      ],
+      "bbox_norm": [
+        0.416968,
+        0.336841,
+        0.478311,
+        0.367767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "time",
+      "semantic_context": "1 | 1 | FINISH TIME: DAY/MONTH/YEAR: TOPO. MAP GPS Make Easting: Northing: FIX: ACCURACY: LAND-USE A\u2013D D\u2013M 3 1 2 TIGHT TAPE SLOPE (\u00ba,+/\u2013)"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        284.595,
+        283.62,
+        321.248,
+        309.66
+      ],
+      "bbox_norm": [
+        0.478311,
+        0.336841,
+        0.539912,
+        0.367767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "2 | D\u2013M 2 | TOPO. MAP GPS Make & Model: Easting: Northing: FIX: Single ACCURACY: LAND-USE CLASS: D\u2013M 1 2 3 TIGHT TAPE SLOPE (\u00ba,+/\u2013)"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        321.248,
+        283.62,
+        357.836,
+        309.66
+      ],
+      "bbox_norm": [
+        0.539912,
+        0.336841,
+        0.601405,
+        0.367767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "3 | 3 | TOPO. GPS Make & Model: Easting: Northing: FIX: Single / Averaged; ACCURACY: 100% LAND-USE CLASS: D\u2013M 2 3 1 TAPE SLOPE"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        357.836,
+        283.62,
+        394.515,
+        309.66
+      ],
+      "bbox_norm": [
+        0.601405,
+        0.336841,
+        0.66305,
+        0.367767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1 | Make Easting: Northing: GPS FIX: Single / Averaged; 2D ACCURACY: 100% Y N LAND-USE CLASS: D\u2013M M\u2013P 3 1 2 SLOPE"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 22,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        394.515,
+        283.62,
+        431.272,
+        309.66
+      ],
+      "bbox_norm": [
+        0.66305,
+        0.336841,
+        0.724828,
+        0.367767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "2 | M\u2013P 2 | NO. Model: Easting: Northing: Single / Averaged; 2D 3D ACCURACY: 100% Y N ; \u00b1 ___________m CLASS: M\u2013P 1 2 3"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        431.272,
+        283.62,
+        467.756,
+        309.66
+      ],
+      "bbox_norm": [
+        0.724828,
+        0.336841,
+        0.786145,
+        0.367767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "3 | 3 | NAME: Averaged; 2D / 3D Datum: NZGD2000 100% Y N ; \u00b1 ___________m M\u2013P 2 3 1"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        467.756,
+        283.62,
+        504.375,
+        309.66
+      ],
+      "bbox_norm": [
+        0.786145,
+        0.336841,
+        0.847689,
+        0.367767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "1 | 1 | 2D / 3D Datum: NZGD2000 N ; \u00b1 ___________m M\u2013P P\u2013A 3 1 2"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        504.375,
+        283.62,
+        540.967,
+        309.66
+      ],
+      "bbox_norm": [
+        0.847689,
+        0.336841,
+        0.909189,
+        0.367767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "2 | P\u2013A 2 | 3D Datum: NZGD2000 \u00b1 ___________m P\u2013A 1 2 3"
+    },
+    {
+      "page": 1,
+      "row": 16,
+      "col": 36,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        540.967,
+        283.62,
+        580.56,
+        309.66
+      ],
+      "bbox_norm": [
+        0.909189,
+        0.336841,
+        0.975731,
+        0.367767
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "3 | 3 | Datum: NZGD2000 ___________m P\u2013A 2 3"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        25.74,
+        309.66,
+        140.64,
+        326.52
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.367767,
+        0.23637,
+        0.387791
+      ],
+      "source": "printed",
+      "value": "HORIZONTAL DIST (M) VERTEX",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "HORIZONTAL DIST (M) VERTEX"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        140.64,
+        309.66,
+        175.26,
+        326.52
+      ],
+      "bbox_norm": [
+        0.23637,
+        0.367767,
+        0.294555,
+        0.387791
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1 | SUB-CATCHMENT: BY: CLASS: A\u2013D 1 2 3 DISTANCE (M) SLOPE HORIZONTAL DIST VERTEX"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 5,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        175.26,
+        309.66,
+        211.628,
+        326.52
+      ],
+      "bbox_norm": [
+        0.294555,
+        0.367767,
+        0.355676,
+        0.387791
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "2 | A\u2013D 2 | A\u2013D 1 2 3 (M) HORIZONTAL DIST VERTEX"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 8,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        211.628,
+        309.66,
+        248.096,
+        326.52
+      ],
+      "bbox_norm": [
+        0.355676,
+        0.367767,
+        0.416968,
+        0.387791
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "coordinate",
+      "semantic_context": "3 | 3 | TOPO. GPS LAND-USE A\u2013D 2 3 1 HORIZONTAL DIST (M) VERTEX"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        248.096,
+        309.66,
+        284.595,
+        326.52
+      ],
+      "bbox_norm": [
+        0.416968,
+        0.367767,
+        0.478311,
+        0.387791
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "coordinate",
+      "semantic_context": "1 | 1 | TOPO. MAP GPS Make Easting: Northing: FIX: ACCURACY: LAND-USE A\u2013D D\u2013M 3 1 2 HORIZONTAL DIST (M) VERTEX"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 13,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        284.595,
+        309.66,
+        321.248,
+        326.52
+      ],
+      "bbox_norm": [
+        0.478311,
+        0.367767,
+        0.539912,
+        0.387791
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "2 | D\u2013M 2 | TOPO. MAP GPS Make & Model: Easting: Northing: FIX: Single ACCURACY: LAND-USE CLASS: D\u2013M 1 2 3 HORIZONTAL DIST (M) VERTEX"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 16,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        321.248,
+        309.66,
+        357.836,
+        326.52
+      ],
+      "bbox_norm": [
+        0.539912,
+        0.367767,
+        0.601405,
+        0.387791
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "3 | 3 | GPS Make & Easting: Northing: FIX: Single / Averaged; ACCURACY: 100% LAND-USE CLASS: D\u2013M 2 3 1 HORIZONTAL DIST (M) VERTEX"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        357.836,
+        309.66,
+        394.515,
+        326.52
+      ],
+      "bbox_norm": [
+        0.601405,
+        0.367767,
+        0.66305,
+        0.387791
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "1 | 1 | Northing: GPS FIX: Single / Averaged; 2D ACCURACY: 100% Y N LAND-USE CLASS: D\u2013M M\u2013P 3 1 2 DIST (M) VERTEX"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 22,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        394.515,
+        309.66,
+        431.272,
+        326.52
+      ],
+      "bbox_norm": [
+        0.66305,
+        0.367767,
+        0.724828,
+        0.387791
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "2 | M\u2013P 2 | Model: Easting: Northing: Single / Averaged; 2D 3D ACCURACY: 100% Y N ; \u00b1 ___________m CLASS: M\u2013P 1 2 3 VERTEX"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 27,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        431.272,
+        309.66,
+        467.756,
+        326.52
+      ],
+      "bbox_norm": [
+        0.724828,
+        0.367767,
+        0.786145,
+        0.387791
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "3 | 3 | NAME: Averaged; 2D / 3D Datum: NZGD2000 100% Y N ; \u00b1 ___________m M\u2013P 2 3 1"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        467.756,
+        309.66,
+        504.375,
+        326.52
+      ],
+      "bbox_norm": [
+        0.786145,
+        0.367767,
+        0.847689,
+        0.387791
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "1 | 1 | 2D / 3D Datum: NZGD2000 N ; \u00b1 ___________m M\u2013P P\u2013A 3 1 2"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 32,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        504.375,
+        309.66,
+        540.967,
+        326.52
+      ],
+      "bbox_norm": [
+        0.847689,
+        0.367767,
+        0.909189,
+        0.387791
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "code1",
+      "semantic_context": "2 | P\u2013A 2 | 3D Datum: NZGD2000 \u00b1 ___________m P\u2013A 1 2 3"
+    },
+    {
+      "page": 1,
+      "row": 17,
+      "col": 36,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        540.967,
+        309.66,
+        580.56,
+        326.52
+      ],
+      "bbox_norm": [
+        0.909189,
+        0.367767,
+        0.975731,
+        0.387791
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "3 | 3 | Datum: NZGD2000 ___________m P\u2013A 2 3"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        25.74,
+        326.52,
+        140.64,
+        343.38
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.387791,
+        0.23637,
+        0.407815
+      ],
+      "source": "printed",
+      "value": "PHOTO IN \u2013 DATE AND TIME",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "PHOTO IN \u2013 DATE AND TIME"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        140.64,
+        326.52,
+        248.096,
+        343.38
+      ],
+      "bbox_norm": [
+        0.23637,
+        0.387791,
+        0.416968,
+        0.407815
+      ],
+      "source": "printed",
+      "value": "A",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "A"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        248.096,
+        326.52,
+        357.836,
+        343.38
+      ],
+      "bbox_norm": [
+        0.416968,
+        0.387791,
+        0.601405,
+        0.407815
+      ],
+      "source": "printed",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "D"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        357.836,
+        326.52,
+        467.756,
+        343.38
+      ],
+      "bbox_norm": [
+        0.601405,
+        0.387791,
+        0.786145,
+        0.407815
+      ],
+      "source": "printed",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "M"
+    },
+    {
+      "page": 1,
+      "row": 18,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        467.756,
+        326.52,
+        580.56,
+        343.38
+      ],
+      "bbox_norm": [
+        0.786145,
+        0.387791,
+        0.975731,
+        0.407815
+      ],
+      "source": "printed",
+      "value": "P",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "P"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 2,
+      "bbox_points": [
+        25.74,
+        343.38,
+        140.64,
+        360.18
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.407815,
+        0.23637,
+        0.427767
+      ],
+      "source": "written",
+      "value": "08/09/19",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "PHOTO IN \u2013 DATE AND TIME | HORIZONTAL DIST (M) VERTEX PHOTO IN \u2013 DATE AND TIME | SECTION 1 2 BEARING(\u00b0) TIGHT TAPE DISTANCE (M) SLOPE (\u00ba,+/\u2013) HORIZONTAL DIST VERTEX A D PHOTO IN \u2013 DATE AND TIME"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 3,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        140.64,
+        343.38,
+        248.096,
+        360.18
+      ],
+      "bbox_norm": [
+        0.23637,
+        0.407815,
+        0.416968,
+        0.427767
+      ],
+      "source": "written",
+      "value": "13/12/23",
+      "mark": "text",
+      "value_kind": "date",
+      "semantic_context": "A | A | SECTION 1 BEARING(\u00b0) TIGHT TAPE DISTANCE (M) SLOPE (\u00ba,+/\u2013) HORIZONTAL DIST VERTEX A D M PHOTO IN \u2013 DATE AND TIME"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 11,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        248.096,
+        343.38,
+        357.836,
+        360.18
+      ],
+      "bbox_norm": [
+        0.416968,
+        0.407815,
+        0.601405,
+        0.427767
+      ],
+      "source": "written",
+      "value": "N",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "D | D | CLASS: A\u2013D D\u2013M M\u2013P 1 2 3 DISTANCE (M) VERTEX A D M P AND TIME"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 19,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        357.836,
+        343.38,
+        467.756,
+        360.18
+      ],
+      "bbox_norm": [
+        0.601405,
+        0.407815,
+        0.786145,
+        0.427767
+      ],
+      "source": "written",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "M | M | GPS ACCURACY: 100% Y / N LAND-USE CLASS: D\u2013M M\u2013P P\u2013A 3 1 2 D M P"
+    },
+    {
+      "page": 1,
+      "row": 19,
+      "col": 30,
+      "rowspan": 1,
+      "colspan": 9,
+      "bbox_points": [
+        467.756,
+        343.38,
+        580.56,
+        360.18
+      ],
+      "bbox_norm": [
+        0.786145,
+        0.407815,
+        0.975731,
+        0.427767
+      ],
+      "source": "written",
+      "value": "L",
+      "mark": "text",
+      "value_kind": "code1",
+      "semantic_context": "P | P | FIX: Single / ACCURACY: 100% Y N ; \u00b1 ___________m LAND-USE CLASS: M\u2013P P\u2013A 3 1 2 M P"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        360.18,
+        275.94,
+        374.58
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.427767,
+        0.463765,
+        0.444869
+      ],
+      "source": "printed",
+      "value": "ALTITUDE (m) (GPS) (MAP)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "ALTITUDE (m) (GPS) (MAP)"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 15,
+      "bbox_points": [
+        421.68,
+        360.18,
+        580.56,
+        374.58
+      ],
+      "bbox_norm": [
+        0.708706,
+        0.427767,
+        0.975731,
+        0.444869
+      ],
+      "source": "printed",
+      "value": "SURFACE CHARACTERISTICS",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "SURFACE CHARACTERISTICS"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        374.58,
+        275.94,
+        392.4
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.444869,
+        0.463765,
+        0.466033
+      ],
+      "source": "printed",
+      "value": "PHYSIOGRAPHY Ridge, Face, Gully, Terrace",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "PHYSIOGRAPHY Ridge, Face, Gully, Terrace"
+    },
+    {
+      "page": 1,
+      "row": 21,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 15,
+      "bbox_points": [
+        421.68,
+        374.58,
+        580.56,
+        392.4
+      ],
+      "bbox_norm": [
+        0.708706,
+        0.444869,
+        0.975731,
+        0.466033
+      ],
+      "source": "printed",
+      "value": "Bedrock %",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Bedrock %"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        392.4,
+        275.94,
+        406.8
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.466033,
+        0.463765,
+        0.483135
+      ],
+      "source": "printed",
+      "value": "ASPECT (0\u2013359\u00ba)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "ASPECT (0\u2013359\u00ba)"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        372.48,
+        392.4,
+        421.68,
+        406.8
+      ],
+      "bbox_norm": [
+        0.626017,
+        0.466033,
+        0.708706,
+        0.483135
+      ],
+      "source": "printed",
+      "value": "A",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "A"
+    },
+    {
+      "page": 1,
+      "row": 22,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 15,
+      "bbox_points": [
+        421.68,
+        392.4,
+        580.56,
+        406.8
+      ],
+      "bbox_norm": [
+        0.708706,
+        0.466033,
+        0.975731,
+        0.483135
+      ],
+      "source": "printed",
+      "value": "Broken rock %",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Broken rock %"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        372.48,
+        406.8,
+        421.68,
+        421.2
+      ],
+      "bbox_norm": [
+        0.626017,
+        0.483135,
+        0.708706,
+        0.500238
+      ],
+      "source": "printed",
+      "value": "D",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "D"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 15,
+      "bbox_points": [
+        421.68,
+        406.8,
+        580.56,
+        421.2
+      ],
+      "bbox_norm": [
+        0.708706,
+        0.483135,
+        0.975731,
+        0.500238
+      ],
+      "source": "printed",
+      "value": "Size of broken rock <30cm/>30cm",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Size of broken rock <30cm/>30cm"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        275.94,
+        421.2,
+        326.16,
+        435.6
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.500238,
+        0.548168,
+        0.51734
+      ],
+      "source": "printed",
+      "value": "N 0 \u00ba",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "N 0 \u00ba"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.16,
+        421.2,
+        372.48,
+        435.6
+      ],
+      "bbox_norm": [
+        0.548168,
+        0.500238,
+        0.626017,
+        0.51734
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "MESOSCALE TOPOGRAPHIC record +/\u2013) | SURFACE (cm) MESOSCALE Bedrock TOPOGRAPHIC A Broken INDEX (\u00ba, record +/\u2013) D Size Convex, Concave, Linear M N Alluvial, Colluvial, Moraine, Volcanic 0 \u00ba"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        372.48,
+        421.2,
+        421.68,
+        435.6
+      ],
+      "bbox_norm": [
+        0.626017,
+        0.500238,
+        0.708706,
+        0.51734
+      ],
+      "source": "printed",
+      "value": "M",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "M"
+    },
+    {
+      "page": 1,
+      "row": 24,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 15,
+      "bbox_points": [
+        421.68,
+        421.2,
+        580.56,
+        435.6
+      ],
+      "bbox_norm": [
+        0.708706,
+        0.500238,
+        0.975731,
+        0.51734
+      ],
+      "source": "printed",
+      "value": "Alluvial, Colluvial, Moraine, Volcanic",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Alluvial, Colluvial, Moraine, Volcanic"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        275.94,
+        435.6,
+        326.16,
+        450.0
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.51734,
+        0.548168,
+        0.534442
+      ],
+      "source": "printed",
+      "value": "NE 45 \u00ba",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "NE 45 \u00ba"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.16,
+        435.6,
+        372.48,
+        450.0
+      ],
+      "bbox_norm": [
+        0.548168,
+        0.51734,
+        0.626017,
+        0.534442
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "MESOSCALE TOPOGRAPHIC record +/\u2013) | TOPOGRAPHIC A Broken INDEX (\u00ba, record +/\u2013) D Size Linear M N Alluvial, 0 \u00ba P PARENT MATERIAL NE GROUND COVER %: 45"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        372.48,
+        435.6,
+        421.68,
+        450.0
+      ],
+      "bbox_norm": [
+        0.626017,
+        0.51734,
+        0.708706,
+        0.534442
+      ],
+      "source": "printed",
+      "value": "P",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "P"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 15,
+      "bbox_points": [
+        421.68,
+        435.6,
+        580.56,
+        450.0
+      ],
+      "bbox_norm": [
+        0.708706,
+        0.51734,
+        0.975731,
+        0.534442
+      ],
+      "source": "printed",
+      "value": "GROUND COVER %:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "GROUND COVER %:"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        275.94,
+        450.0,
+        326.16,
+        464.4
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.534442,
+        0.548168,
+        0.551544
+      ],
+      "source": "printed",
+      "value": "E 90 \u00ba",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "E 90 \u00ba"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.16,
+        450.0,
+        372.48,
+        464.4
+      ],
+      "bbox_norm": [
+        0.548168,
+        0.534442,
+        0.626017,
+        0.551544
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "MESOSCALE TOPOGRAPHIC record +/\u2013) | INDEX (\u00ba, record D Size Linear M N Alluvial, 0 \u00ba P NE GROUND 45 C Mapped / Observed E Vegetation 90"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 20,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        372.48,
+        450.0,
+        421.68,
+        464.4
+      ],
+      "bbox_norm": [
+        0.626017,
+        0.534442,
+        0.708706,
+        0.551544
+      ],
+      "source": "printed",
+      "value": "C",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "C"
+    },
+    {
+      "page": 1,
+      "row": 26,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 15,
+      "bbox_points": [
+        421.68,
+        450.0,
+        580.56,
+        464.4
+      ],
+      "bbox_norm": [
+        0.708706,
+        0.534442,
+        0.975731,
+        0.551544
+      ],
+      "source": "printed",
+      "value": "Vegetation",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Vegetation"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        464.4,
+        275.94,
+        478.8
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.551544,
+        0.463765,
+        0.568646
+      ],
+      "source": "printed",
+      "value": "DRAINAGE Good, Moderate, Poor",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "DRAINAGE Good, Moderate, Poor"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        275.94,
+        464.4,
+        326.16,
+        478.8
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.551544,
+        0.548168,
+        0.568646
+      ],
+      "source": "printed",
+      "value": "SE 135 \u00ba",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "SE 135 \u00ba"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.16,
+        464.4,
+        372.48,
+        478.8
+      ],
+      "bbox_norm": [
+        0.548168,
+        0.551544,
+        0.626017,
+        0.568646
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "MESOSCALE TOPOGRAPHIC record +/\u2013) | M N Alluvial, 0 \u00ba P NE GROUND 45 C Observed E Vegetation 90 DRAINAGE Good, Moderate, Poor SE Non-vascular 135"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 15,
+      "bbox_points": [
+        421.68,
+        464.4,
+        580.56,
+        478.8
+      ],
+      "bbox_norm": [
+        0.708706,
+        0.551544,
+        0.975731,
+        0.568646
+      ],
+      "source": "printed",
+      "value": "Non-vascular",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Non-vascular"
+    },
+    {
+      "page": 1,
+      "row": 28,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        275.94,
+        478.8,
+        326.16,
+        493.2
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.568646,
+        0.548168,
+        0.585748
+      ],
+      "source": "printed",
+      "value": "S 180 \u00ba",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "S 180 \u00ba"
+    },
+    {
+      "page": 1,
+      "row": 28,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.16,
+        478.8,
+        372.48,
+        493.2
+      ],
+      "bbox_norm": [
+        0.548168,
+        0.568646,
+        0.626017,
+        0.585748
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "MESOSCALE TOPOGRAPHIC record +/\u2013) | P NE GROUND 45 \u00ba C Observed E Vegetation 90 SE Non-vascular 135 CULTURAL None, Burnt, Logged, Cleared, S Litter 180"
+    },
+    {
+      "page": 1,
+      "row": 28,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 15,
+      "bbox_points": [
+        421.68,
+        478.8,
+        580.56,
+        493.2
+      ],
+      "bbox_norm": [
+        0.708706,
+        0.568646,
+        0.975731,
+        0.585748
+      ],
+      "source": "printed",
+      "value": "Litter",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Litter"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        275.94,
+        493.2,
+        326.16,
+        507.6
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.585748,
+        0.548168,
+        0.60285
+      ],
+      "source": "printed",
+      "value": "SW 225 \u00ba",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "SW 225 \u00ba"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.16,
+        493.2,
+        372.48,
+        507.6
+      ],
+      "bbox_norm": [
+        0.548168,
+        0.585748,
+        0.626017,
+        0.60285
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "MESOSCALE TOPOGRAPHIC record +/\u2013) | GROUND C Observed E Vegetation 90 \u00ba SE Non-vascular 135 Cleared, S Litter 180 Mined, Grazed, Tracked SW Bare 225"
+    },
+    {
+      "page": 1,
+      "row": 29,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 15,
+      "bbox_points": [
+        421.68,
+        493.2,
+        580.56,
+        507.6
+      ],
+      "bbox_norm": [
+        0.708706,
+        0.585748,
+        0.975731,
+        0.60285
+      ],
+      "source": "printed",
+      "value": "Bare Ground",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Bare Ground"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        275.94,
+        507.6,
+        326.16,
+        521.7
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.60285,
+        0.548168,
+        0.619596
+      ],
+      "source": "printed",
+      "value": "W 270 \u00ba",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "W 270 \u00ba"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.16,
+        507.6,
+        372.48,
+        521.7
+      ],
+      "bbox_norm": [
+        0.548168,
+        0.60285,
+        0.626017,
+        0.619596
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "yn",
+      "semantic_context": "MESOSCALE TOPOGRAPHIC record +/\u2013) | GROUND C Observed E Vegetation 90 \u00ba SE Non-vascular 135 Cleared, S Litter 180 SW Bare 225 W Rock 270"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 15,
+      "bbox_points": [
+        421.68,
+        507.6,
+        580.56,
+        521.7
+      ],
+      "bbox_norm": [
+        0.708706,
+        0.60285,
+        0.975731,
+        0.619596
+      ],
+      "source": "printed",
+      "value": "Rock",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Rock"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        275.94,
+        521.7,
+        326.16,
+        535.8
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.619596,
+        0.548168,
+        0.636342
+      ],
+      "source": "printed",
+      "value": "NW 315 \u00ba",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "NW 315 \u00ba"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        326.16,
+        521.7,
+        372.48,
+        535.8
+      ],
+      "bbox_norm": [
+        0.548168,
+        0.619596,
+        0.626017,
+        0.636342
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "dec",
+      "semantic_context": "MESOSCALE TOPOGRAPHIC record +/\u2013) | SE Non-vascular 135 Cleared, S Litter 180 \u00ba SW Bare 225 W Rock 270 NW AVERAGE TOP HEIGHT (m) APPROACH 315"
+    },
+    {
+      "page": 1,
+      "row": 31,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 15,
+      "bbox_points": [
+        421.68,
+        521.7,
+        580.56,
+        535.8
+      ],
+      "bbox_norm": [
+        0.708706,
+        0.619596,
+        0.975731,
+        0.636342
+      ],
+      "source": "printed",
+      "value": "AVERAGE TOP HEIGHT (m)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "AVERAGE TOP HEIGHT (m)"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        535.8,
+        275.94,
+        550.2
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.636342,
+        0.463765,
+        0.653444
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH | APPROACH | CULTURAL Mined, Grazed, Tracked SW Bare Ground 225 \u00ba W Rock 270 NW AVERAGE TOP HEIGHT (m) APPROACH 315 CANOPY COVER (%)"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 8,
+      "bbox_points": [
+        275.94,
+        535.8,
+        372.48,
+        550.2
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.636342,
+        0.626017,
+        0.653444
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "NW 315 \u00ba | W 270 \u00ba NW 315 \u00ba | Burnt, Logged, Cleared, S Mined, Grazed, Tracked SW Bare Ground 225 \u00ba W Rock 270 NW AVERAGE TOP 315 CANOPY COVER (%)"
+    },
+    {
+      "page": 1,
+      "row": 32,
+      "col": 24,
+      "rowspan": 1,
+      "colspan": 15,
+      "bbox_points": [
+        421.68,
+        535.8,
+        580.56,
+        550.2
+      ],
+      "bbox_norm": [
+        0.708706,
+        0.636342,
+        0.975731,
+        0.653444
+      ],
+      "source": "printed",
+      "value": "CANOPY COVER (%)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "CANOPY COVER (%)"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        550.2,
+        275.94,
+        564.6
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.653444,
+        0.463765,
+        0.670546
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH | APPROACH | Mined, Grazed, Tracked SW Bare Ground 225 W Rock 270 \u00ba NW AVERAGE TOP HEIGHT (m) APPROACH 315 CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 34,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        564.6,
+        275.94,
+        579.0
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.670546,
+        0.463765,
+        0.687648
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH | APPROACH | Mined, Grazed, Tracked SW Bare Ground 225 W Rock 270 \u00ba NW AVERAGE TOP HEIGHT (m) APPROACH 315 CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 35,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        579.0,
+        275.94,
+        593.4
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.687648,
+        0.463765,
+        0.704751
+      ],
+      "source": "written",
+      "value": "41",
+      "mark": "text",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH | APPROACH | Mined, Grazed, Tracked SW Bare Ground 225 W Rock 270 \u00ba NW AVERAGE TOP HEIGHT (m) APPROACH 315 CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 36,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        593.4,
+        275.94,
+        607.8
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.704751,
+        0.463765,
+        0.721853
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH | APPROACH | Mined, Grazed, Tracked SW Bare Ground 225 W Rock 270 \u00ba NW AVERAGE TOP HEIGHT (m) APPROACH 315 CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 37,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        607.8,
+        275.94,
+        623.7
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.721853,
+        0.463765,
+        0.740736
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH | APPROACH | Mined, Grazed, Tracked SW Bare Ground 225 W Rock 270 \u00ba NW AVERAGE TOP HEIGHT (m) APPROACH 315 CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 38,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        623.7,
+        275.94,
+        638.1
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.740736,
+        0.463765,
+        0.757838
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH | APPROACH | Mined, Grazed, Tracked SW Bare Ground 225 W Rock 270 \u00ba NW AVERAGE TOP HEIGHT (m) APPROACH 315 CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 39,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        638.1,
+        275.94,
+        652.5
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.757838,
+        0.463765,
+        0.774941
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH | APPROACH | Mined, Grazed, Tracked SW Bare Ground 225 W Rock 270 \u00ba NW AVERAGE TOP HEIGHT (m) APPROACH 315 CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 40,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        652.5,
+        275.94,
+        666.9
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.774941,
+        0.463765,
+        0.792043
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH | APPROACH | Mined, Grazed, Tracked SW Bare Ground 225 W Rock 270 \u00ba NW AVERAGE TOP HEIGHT (m) APPROACH 315 CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 41,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        666.9,
+        275.94,
+        681.3
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.792043,
+        0.463765,
+        0.809145
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH | APPROACH | Mined, Grazed, Tracked SW Bare Ground 225 W Rock 270 \u00ba NW AVERAGE TOP HEIGHT (m) APPROACH 315 CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 42,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        681.3,
+        275.94,
+        695.7
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.809145,
+        0.463765,
+        0.826247
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH | APPROACH | Mined, Grazed, Tracked SW Bare Ground 225 W Rock 270 \u00ba NW AVERAGE TOP HEIGHT (m) APPROACH 315 CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 43,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        695.7,
+        275.94,
+        710.1
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.826247,
+        0.463765,
+        0.843349
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH | APPROACH | Mined, Grazed, Tracked SW Bare Ground 225 W Rock 270 \u00ba NW AVERAGE TOP HEIGHT (m) APPROACH 315 CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 44,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        710.1,
+        275.94,
+        724.5
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.843349,
+        0.463765,
+        0.860451
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH | APPROACH | Mined, Grazed, Tracked SW Bare Ground 225 W Rock 270 \u00ba NW AVERAGE TOP HEIGHT (m) APPROACH 315 CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 45,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        724.5,
+        275.94,
+        738.9
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.860451,
+        0.463765,
+        0.877553
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "APPROACH | APPROACH | Mined, Grazed, Tracked SW Bare Ground 225 W Rock 270 \u00ba NW AVERAGE TOP HEIGHT (m) APPROACH 315 CANOPY COVER (%) LOCATION DIAGRAM"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        738.9,
+        275.94,
+        753.3
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.877553,
+        0.463765,
+        0.894656
+      ],
+      "source": "printed",
+      "value": "VEGETATION DESCRIPTION AND NOTES",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "VEGETATION DESCRIPTION AND NOTES"
+    },
+    {
+      "page": 1,
+      "row": 46,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 27,
+      "bbox_points": [
+        275.94,
+        738.9,
+        580.56,
+        753.3
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.877553,
+        0.975731,
+        0.894656
+      ],
+      "source": "printed",
+      "value": "BROWSE:",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "BROWSE:"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        753.3,
+        275.94,
+        767.7
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.894656,
+        0.463765,
+        0.911758
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION AND NOTES | VEGETATION DESCRIPTION AND NOTES | NW AVERAGE TOP HEIGHT (m) APPROACH 315 \u00ba CANOPY COVER (%) LOCATION DIAGRAM VEGETATION DESCRIPTION AND NOTES BROWSE: Species Severity Herbivore"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        275.94,
+        753.3,
+        326.16,
+        767.7
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.894656,
+        0.548168,
+        0.911758
+      ],
+      "source": "printed",
+      "value": "Species",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Species"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        326.16,
+        753.3,
+        377.76,
+        767.7
+      ],
+      "bbox_norm": [
+        0.548168,
+        0.894656,
+        0.634891,
+        0.911758
+      ],
+      "source": "printed",
+      "value": "Severity",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Severity"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        377.76,
+        753.3,
+        428.7,
+        767.7
+      ],
+      "bbox_norm": [
+        0.634891,
+        0.894656,
+        0.720504,
+        0.911758
+      ],
+      "source": "printed",
+      "value": "Herbivore",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Herbivore"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        428.7,
+        753.3,
+        479.52,
+        767.7
+      ],
+      "bbox_norm": [
+        0.720504,
+        0.894656,
+        0.805916,
+        0.911758
+      ],
+      "source": "printed",
+      "value": "Species",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Species"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 31,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        479.52,
+        753.3,
+        530.4,
+        767.7
+      ],
+      "bbox_norm": [
+        0.805916,
+        0.894656,
+        0.891429,
+        0.911758
+      ],
+      "source": "printed",
+      "value": "Severity",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Severity"
+    },
+    {
+      "page": 1,
+      "row": 47,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        530.4,
+        753.3,
+        580.56,
+        767.7
+      ],
+      "bbox_norm": [
+        0.891429,
+        0.894656,
+        0.975731,
+        0.911758
+      ],
+      "source": "printed",
+      "value": "Herbivore",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Herbivore"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        767.7,
+        275.94,
+        782.1
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.911758,
+        0.463765,
+        0.92886
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION AND NOTES | VEGETATION DESCRIPTION AND NOTES | CANOPY COVER (%) LOCATION DIAGRAM VEGETATION DESCRIPTION AND NOTES BROWSE: Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        275.94,
+        767.7,
+        326.16,
+        782.1
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.911758,
+        0.548168,
+        0.92886
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | BROWSE: Species | LOCATION DIAGRAM NOTES BROWSE: Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        326.16,
+        767.7,
+        377.76,
+        782.1
+      ],
+      "bbox_norm": [
+        0.548168,
+        0.911758,
+        0.634891,
+        0.92886
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        377.76,
+        767.7,
+        428.7,
+        782.1
+      ],
+      "bbox_norm": [
+        0.634891,
+        0.911758,
+        0.720504,
+        0.92886
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Herbivore | Herbivore | CANOPY COVER LOCATION DIAGRAM BROWSE: Severity Herbivore Species L M H"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        428.7,
+        767.7,
+        479.52,
+        782.1
+      ],
+      "bbox_norm": [
+        0.720504,
+        0.911758,
+        0.805916,
+        0.92886
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | CANOPY COVER (%) DIAGRAM Herbivore Species Severity L M H"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 31,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        479.52,
+        767.7,
+        530.4,
+        782.1
+      ],
+      "bbox_norm": [
+        0.805916,
+        0.911758,
+        0.891429,
+        0.92886
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 48,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        530.4,
+        767.7,
+        580.56,
+        782.1
+      ],
+      "bbox_norm": [
+        0.891429,
+        0.911758,
+        0.975731,
+        0.92886
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "Herbivore | Herbivore | COVER (%) Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        782.1,
+        275.94,
+        796.5
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.92886,
+        0.463765,
+        0.945962
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION AND NOTES | VEGETATION DESCRIPTION AND NOTES | LOCATION VEGETATION DESCRIPTION AND NOTES BROWSE: Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        275.94,
+        782.1,
+        326.16,
+        796.5
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.92886,
+        0.548168,
+        0.945962
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | BROWSE: Species | LOCATION DIAGRAM NOTES BROWSE: Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        326.16,
+        782.1,
+        377.76,
+        796.5
+      ],
+      "bbox_norm": [
+        0.548168,
+        0.92886,
+        0.634891,
+        0.945962
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        377.76,
+        782.1,
+        428.7,
+        796.5
+      ],
+      "bbox_norm": [
+        0.634891,
+        0.92886,
+        0.720504,
+        0.945962
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Herbivore | Herbivore | LOCATION DIAGRAM BROWSE: Severity Herbivore Species L M H"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        428.7,
+        782.1,
+        479.52,
+        796.5
+      ],
+      "bbox_norm": [
+        0.720504,
+        0.92886,
+        0.805916,
+        0.945962
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | DIAGRAM Herbivore Species Severity H L M"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 31,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        479.52,
+        782.1,
+        530.4,
+        796.5
+      ],
+      "bbox_norm": [
+        0.805916,
+        0.92886,
+        0.891429,
+        0.945962
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 49,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        530.4,
+        782.1,
+        580.56,
+        796.5
+      ],
+      "bbox_norm": [
+        0.891429,
+        0.92886,
+        0.975731,
+        0.945962
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Herbivore | Herbivore | Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 50,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        796.5,
+        275.94,
+        810.9
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.945962,
+        0.463765,
+        0.963064
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION AND NOTES | VEGETATION DESCRIPTION AND NOTES | Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 50,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        275.94,
+        796.5,
+        326.16,
+        810.9
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.945962,
+        0.548168,
+        0.963064
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | BROWSE: Species | NOTES BROWSE: Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 50,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        326.16,
+        796.5,
+        377.76,
+        810.9
+      ],
+      "bbox_norm": [
+        0.548168,
+        0.945962,
+        0.634891,
+        0.963064
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 50,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        377.76,
+        796.5,
+        428.7,
+        810.9
+      ],
+      "bbox_norm": [
+        0.634891,
+        0.945962,
+        0.720504,
+        0.963064
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Herbivore | Herbivore | BROWSE: Severity Herbivore Species L M H"
+    },
+    {
+      "page": 1,
+      "row": 50,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        428.7,
+        796.5,
+        479.52,
+        810.9
+      ],
+      "bbox_norm": [
+        0.720504,
+        0.945962,
+        0.805916,
+        0.963064
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Herbivore Species Severity H L M"
+    },
+    {
+      "page": 1,
+      "row": 50,
+      "col": 31,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        479.52,
+        796.5,
+        530.4,
+        810.9
+      ],
+      "bbox_norm": [
+        0.805916,
+        0.945962,
+        0.891429,
+        0.963064
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 50,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        530.4,
+        796.5,
+        580.56,
+        810.9
+      ],
+      "bbox_norm": [
+        0.891429,
+        0.945962,
+        0.975731,
+        0.963064
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Herbivore | Herbivore | Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 51,
+      "col": 1,
+      "rowspan": 1,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        810.9,
+        275.94,
+        825.3
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.963064,
+        0.463765,
+        0.980166
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "short",
+      "semantic_context": "VEGETATION DESCRIPTION AND NOTES | VEGETATION DESCRIPTION AND NOTES | L M H"
+    },
+    {
+      "page": 1,
+      "row": 51,
+      "col": 12,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        275.94,
+        810.9,
+        326.16,
+        825.3
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.963064,
+        0.548168,
+        0.980166
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | BROWSE: Species | NOTES BROWSE: Species Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 51,
+      "col": 17,
+      "rowspan": 1,
+      "colspan": 4,
+      "bbox_points": [
+        326.16,
+        810.9,
+        377.76,
+        825.3
+      ],
+      "bbox_norm": [
+        0.548168,
+        0.963064,
+        0.634891,
+        0.980166
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 51,
+      "col": 21,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        377.76,
+        810.9,
+        428.7,
+        825.3
+      ],
+      "bbox_norm": [
+        0.634891,
+        0.963064,
+        0.720504,
+        0.980166
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Herbivore | Herbivore | BROWSE: Severity Herbivore Species L M H"
+    },
+    {
+      "page": 1,
+      "row": 51,
+      "col": 26,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        428.7,
+        810.9,
+        479.52,
+        825.3
+      ],
+      "bbox_norm": [
+        0.720504,
+        0.963064,
+        0.805916,
+        0.980166
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "species",
+      "semantic_context": "Species | Species | Herbivore Species Severity H L M"
+    },
+    {
+      "page": 1,
+      "row": 51,
+      "col": 31,
+      "rowspan": 1,
+      "colspan": 3,
+      "bbox_points": [
+        479.52,
+        810.9,
+        530.4,
+        825.3
+      ],
+      "bbox_norm": [
+        0.805916,
+        0.963064,
+        0.891429,
+        0.980166
+      ],
+      "source": "printed",
+      "value": "L M H",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "L M H"
+    },
+    {
+      "page": 1,
+      "row": 51,
+      "col": 34,
+      "rowspan": 1,
+      "colspan": 5,
+      "bbox_points": [
+        530.4,
+        810.9,
+        580.56,
+        825.3
+      ],
+      "bbox_norm": [
+        0.891429,
+        0.963064,
+        0.975731,
+        0.980166
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "int",
+      "semantic_context": "Herbivore | Herbivore | Severity Herbivore L M H"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 20,
+      "rowspan": 2,
+      "colspan": 4,
+      "bbox_points": [
+        372.48,
+        360.18,
+        421.68,
+        392.4
+      ],
+      "bbox_norm": [
+        0.626017,
+        0.427767,
+        0.708706,
+        0.466033
+      ],
+      "source": "printed",
+      "value": "Soil depth (cm)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "Soil depth (cm)"
+    },
+    {
+      "page": 1,
+      "row": 20,
+      "col": 12,
+      "rowspan": 4,
+      "colspan": 8,
+      "bbox_points": [
+        275.94,
+        360.18,
+        372.48,
+        421.2
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.427767,
+        0.626017,
+        0.500238
+      ],
+      "source": "printed",
+      "value": "MESOSCALE TOPOGRAPHIC INDEX (\u00ba, record +/\u2013)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "MESOSCALE TOPOGRAPHIC INDEX (\u00ba, record +/\u2013)"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 3,
+      "bbox_points": [
+        25.74,
+        406.8,
+        150.84,
+        435.6
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.483135,
+        0.253513,
+        0.51734
+      ],
+      "source": "printed",
+      "value": "SLOPE (\u00ba)",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "SLOPE (\u00ba)"
+    },
+    {
+      "page": 1,
+      "row": 23,
+      "col": 4,
+      "rowspan": 2,
+      "colspan": 8,
+      "bbox_points": [
+        150.84,
+        406.8,
+        275.94,
+        435.6
+      ],
+      "bbox_norm": [
+        0.253513,
+        0.483135,
+        0.463765,
+        0.51734
+      ],
+      "source": "printed",
+      "value": "TYPE Convex, Concave, Linear",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "TYPE Convex, Concave, Linear"
+    },
+    {
+      "page": 1,
+      "row": 25,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        435.6,
+        275.94,
+        464.4
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.51734,
+        0.463765,
+        0.551544
+      ],
+      "source": "printed",
+      "value": "PARENT MATERIAL Mapped / Observed",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "PARENT MATERIAL Mapped / Observed"
+    },
+    {
+      "page": 1,
+      "row": 27,
+      "col": 20,
+      "rowspan": 6,
+      "colspan": 4,
+      "bbox_points": [
+        372.48,
+        464.4,
+        421.68,
+        550.2
+      ],
+      "bbox_norm": [
+        0.626017,
+        0.551544,
+        0.708706,
+        0.653444
+      ],
+      "source": "blank",
+      "value": null,
+      "mark": "blank",
+      "value_kind": "percent",
+      "semantic_context": "C | P C | SE Non-vascular 135 \u00ba Litter 180 SW Bare Ground 225 W Rock 270 NW AVERAGE TOP HEIGHT 315 CANOPY COVER"
+    },
+    {
+      "page": 1,
+      "row": 28,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        478.8,
+        275.94,
+        507.6
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.568646,
+        0.463765,
+        0.60285
+      ],
+      "source": "printed",
+      "value": "CULTURAL None, Burnt, Logged, Cleared, Mined, Grazed, Tracked",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "CULTURAL None, Burnt, Logged, Cleared, Mined, Grazed, Tracked"
+    },
+    {
+      "page": 1,
+      "row": 30,
+      "col": 1,
+      "rowspan": 2,
+      "colspan": 11,
+      "bbox_points": [
+        25.74,
+        507.6,
+        275.94,
+        535.8
+      ],
+      "bbox_norm": [
+        0.043261,
+        0.60285,
+        0.463765,
+        0.636342
+      ],
+      "source": "printed",
+      "value": "APPROACH",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "APPROACH"
+    },
+    {
+      "page": 1,
+      "row": 33,
+      "col": 12,
+      "rowspan": 13,
+      "colspan": 27,
+      "bbox_points": [
+        275.94,
+        550.2,
+        580.56,
+        738.9
+      ],
+      "bbox_norm": [
+        0.463765,
+        0.653444,
+        0.975731,
+        0.877553
+      ],
+      "source": "printed",
+      "value": "LOCATION DIAGRAM",
+      "mark": "text",
+      "value_kind": "printed",
+      "semantic_context": "LOCATION DIAGRAM"
+    }
+  ]
+}
