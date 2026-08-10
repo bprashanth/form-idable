@@ -35,6 +35,7 @@ def main():
     parser.add_argument("--state", type=Path, default=DEFAULT_STATE)
     parser.add_argument("--parallel", type=int, default=3)
     parser.add_argument("--poll-seconds", type=int, default=15)
+    parser.add_argument("--retry-failed", action="store_true")
     args = parser.parse_args()
     api = os.environ["FORMIDABLE_API_URL"].rstrip("/")
     token = os.environ["FORMIDABLE_ID_TOKEN"]
@@ -49,6 +50,14 @@ def main():
             "source": json.loads((fixture / "source_map.json").read_text())["original_path"],
             "status": "not_started",
         })
+        if args.retry_failed and record["status"] == "failed":
+            record.setdefault("failed_attempts", []).append({
+                key: record.get(key) for key in
+                ("job_id", "started_at", "finished_at", "error")
+            })
+            for key in ("job_id", "name", "started_at", "finished_at", "progress", "error"):
+                record.pop(key, None)
+            record["status"] = "not_started"
         if record["status"] != "not_started":
             continue
         name = f"high-fieldtrip-{fixture.name}-{Path(record['source']).stem}"

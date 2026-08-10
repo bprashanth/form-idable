@@ -248,7 +248,10 @@ def openrouter_json(model: str, prompt: str, images: list[Path], schema: dict,
     payload = {
         "model": model,
         "temperature": 0,
-        "max_tokens": 32768,
+        # The largest observed completion across 204 all-form benchmark calls
+        # is 12,522 tokens. A 16,384 cap keeps 30% headroom while avoiding a
+        # provider-side credit reservation for twice the demonstrated need.
+        "max_tokens": 16384,
         "messages": [{"role": "user", "content": content}],
         "response_format": {"type": "json_schema", "json_schema": {
             "name": "formidable_extraction", "strict": True, "schema": schema}},
