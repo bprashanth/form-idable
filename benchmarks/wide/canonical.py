@@ -303,7 +303,7 @@ def resolve(document: dict[str, Any]) -> dict[str, Any]:
 
 
 def _repair_compound_identifier_columns(table):
-    """Split a consistently merged numeric ID + adjacent one-letter code."""
+    """Split a reader's consistently merged numeric ID + one-letter code."""
     columns = table.get("columns") or []
     rows = table.get("rows") or []
     for index in range(len(columns) - 1):
@@ -316,34 +316,45 @@ def _repair_compound_identifier_columns(table):
             continue
         pairs = [(row["cells"][index], row["cells"][index + 1]) for row in rows
                  if len(row.get("cells") or []) > index + 1]
-        present = [(source, target) for source, target in pairs
-                   if norm_value(source.get("value"))]
-        if len(present) < 8 or any(norm_value(target.get("value"))
-                                   for _source, target in pairs):
-            continue
-        matches = [re.fullmatch(r"(\d+)([A-Za-z])", str(source.get("value")).strip())
-                   for source, _target in present]
-        if sum(match is not None for match in matches) / len(present) < .9:
-            continue
-        for (source, target), match in zip(present, matches):
-            if match is None:
+        models = {reading.get("model") for source, target in pairs
+                  for cell in (source, target) for reading in cell.get("readings") or []}
+        affected = set()
+        for model in models:
+            observations = []
+            for source, target in pairs:
+                source_reading = next((item for item in source.get("readings") or []
+                                       if item.get("model") == model), None)
+                target_reading = next((item for item in target.get("readings") or []
+                                       if item.get("model") == model), None)
+                if source_reading and norm_value(source_reading.get("value")):
+                    observations.append((source, target, source_reading, target_reading))
+            if len(observations) < 8 or any(
+                    target_reading and norm_value(target_reading.get("value"))
+                    for _source, _target, _source_reading, target_reading in observations):
                 continue
-            repaired_source, repaired_target = [], []
-            for reading in source.get("readings") or []:
-                reading_match = re.fullmatch(
-                    r"(\d+)([A-Za-z])", str(reading.get("value") or "").strip())
-                base = {**reading, "bbox": source.get("bbox")}
-                repaired_source.append({**base,
-                                        "value": reading_match.group(1) if reading_match else None})
-                repaired_target.append({**base, "bbox": target.get("bbox"),
-                                        "value": reading_match.group(2) if reading_match else None})
-            source["readings"], target["readings"] = repaired_source, repaired_target
-            _resolve_item(source)
-            _resolve_item(target)
-            provenance = (f"split compound identifier into {source_column.get('label')} and "
-                          f"{target_column.get('label')} after table-wide empty-column check")
-            source["layout_repair"] = provenance
-            target["layout_repair"] = provenance
+            matches = [re.fullmatch(r"(\d+)([A-Za-z])", str(reading.get("value")).strip())
+                       for _source, _target, reading, _target_reading in observations]
+            if sum(match is not None for match in matches) / len(observations) < .9:
+                continue
+            for (source, target, source_reading, target_reading), match in zip(observations, matches):
+                if match is None or target_reading is None:
+                    continue
+                source_reading["value"] = match.group(1)
+                target_reading.update({"value": match.group(2),
+                                       "confidence": source_reading.get("confidence", 0),
+                                       "illegible": source_reading.get("illegible", False),
+                                       "missing": False, "bbox": target.get("bbox")})
+                affected.add((id(source), id(target)))
+                provenance = (f"split {model} compound identifier into "
+                              f"{source_column.get('label')} and {target_column.get('label')} "
+                              "after model-wide empty-column check")
+                source["layout_repair"] = provenance
+                target["layout_repair"] = provenance
+        if affected:
+            for source, target in pairs:
+                if (id(source), id(target)) in affected:
+                    _resolve_item(source)
+                    _resolve_item(target)
 
 
 def _flag_sparse_structural_rows(table):

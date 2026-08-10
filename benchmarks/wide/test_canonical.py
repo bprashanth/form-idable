@@ -124,7 +124,21 @@ def main():
     canonical._repair_compound_identifier_columns(compound_table)
     assert compound_table["rows"][0]["cells"][0]["value"] == "1"
     assert compound_table["rows"][0]["cells"][1]["value"] == "A"
-    assert "table-wide empty-column check" in compound_table["rows"][0]["cells"][1]["layout_repair"]
+    assert "model-wide empty-column check" in compound_table["rows"][0]["cells"][1]["layout_repair"]
+
+    # A merged peer is normalized against an already-correct primary instead
+    # of creating two false disagreements.
+    for row in compound_table["rows"]:
+        source, target = row["cells"]
+        source["readings"][0]["value"] = source["value"]
+        target["readings"][0]["value"] = "A"
+        source["readings"][1]["value"] = f"{source['value']}A"
+        target["readings"][1]["value"] = None
+        canonical._resolve_item(source)
+        canonical._resolve_item(target)
+    canonical._repair_compound_identifier_columns(compound_table)
+    assert compound_table["rows"][0]["cells"][0]["status"] == "agreement"
+    assert compound_table["rows"][0]["cells"][1]["status"] == "agreement"
 
     with tempfile.TemporaryDirectory() as temporary:
         document = {"pages": [{"page_number": 1, "metadata_fields": [], "tables": [{
