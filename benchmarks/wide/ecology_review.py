@@ -208,11 +208,12 @@ def taxonomy_findings(records, client, latitude=None, longitude=None):
                 f"GBIF did not return a high-confidence taxon match (confidence {confidence})",
                 gbif=match, source_url=source, proposed_value=None))
             continue
-        distance = edit_distance(query, canonical_name)
+        comparison_query = query.strip(" \t.,;:")
+        distance = edit_distance(comparison_query, canonical_name)
         # A large difference commonly means GBIF resolved a common name or
         # synonym to its scientific canonical name. That is useful matching
         # context, not evidence that the written value needs review.
-        if query.casefold() != canonical_name.casefold() and distance <= 3:
+        if comparison_query.casefold() != canonical_name.casefold() and distance <= 3:
             severity = "medium" if confidence >= 95 else "info"
             proposed = (canonical_name if query.casefold() == original.casefold()
                         else original.replace(query, canonical_name))

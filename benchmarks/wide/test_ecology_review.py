@@ -12,6 +12,9 @@ class FakeGBIF:
         if name == "White-cheeked barbet":
             return ({"canonicalName": "Psilopogon viridis", "confidence": 100},
                     "https://example.test/match")
+        if name == "Litsea floribunda.":
+            return ({"canonicalName": "Litsea floribunda", "confidence": 100},
+                    "https://example.test/match")
         return ({"confidence": 0}, "https://example.test/match")
 
     def nearby_count(self, *_args, **_kwargs):
@@ -45,6 +48,7 @@ def test_taxonomy_queue_only_contains_a_defensible_specific_suggestion():
                "LITSEA TREE\nLitsea floribnda"),
         Record({"page": 1, "table": "trees"}, "Species", "Vast mal"),
         Record({"page": 1, "table": "trees"}, "Species", "White-cheeked barbet"),
+        Record({"page": 1, "table": "trees"}, "Species", "Litsea floribunda."),
         Record({"page": 1, "field": "legend", "kind": "free_text"},
                "Other species", "1) Polygonum\n2) Grasses"),
     ]
