@@ -8,6 +8,7 @@ side so the deployment decision cannot be made from a hand-picked form.
 from __future__ import annotations
 
 import argparse
+import concurrent.futures
 import json
 import os
 import subprocess
@@ -69,6 +70,11 @@ def run_one(fixture: Path, output: Path, image: str, force: bool,
             "-e", "OPENROUTER_API_KEY",
             "-v", f"{(fixture / 'input.pdf').resolve()}:/input.pdf:ro",
             "-v", f"{output.resolve()}:/run",
+        ]
+        codex_auth = Path.home() / ".codex/auth.json"
+        if codex_auth.exists():
+            command += ["-v", f"{codex_auth.resolve()}:/root/.codex/auth.json:ro"]
+        command += [
             image, "python3", "-c",
             "from pathlib import Path; from high_worker import process; "
             f"process(Path('/input.pdf'), Path('/run'), "
@@ -106,6 +112,8 @@ def main() -> int:
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--only", action="append", help="fixture id, e.g. eval_13")
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--workers", type=int, choices=(1, 2), default=1,
+                        help="parallel form containers; capped at 2 for DGX memory safety")
     parser.add_argument(
         "--rebuild-from-evidence", action="store_true",
         help="regenerate canonical/review/analytics/crops from saved model responses; no model calls",
@@ -117,20 +125,32 @@ def main() -> int:
         raise SystemExit("No PDF fixtures selected")
 
     args.output.mkdir(parents=True, exist_ok=True)
-    results = []
-    for index, fixture in enumerate(selected, 1):
-        print(f"[{index}/{len(selected)}] {fixture.name}", flush=True)
-        results.append(run_one(fixture, args.output / fixture.name,
-                               args.image, args.force, args.rebuild_from_evidence))
-        (args.output / "summary.json").write_text(json.dumps({
-            "version": "formidable-high-sweep-v1",
-            "selected": [item.name for item in selected],
-            "completed": results,
-        }, indent=2) + "\n")
-        high = results[-1]["high"]
-        low = results[-1]["low"] or {}
-        print(f"  semantic F1 low={low.get('semantic_all_f1')} "
-              f"high={high.get('semantic_all_f1')}", flush=True)
+    results_by_fixture = {}
+
+    def finish(fixture):
+        return run_one(fixture, args.output / fixture.name,
+                       args.image, args.force, args.rebuild_from_evidence)
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
+        pending = {}
+        for index, fixture in enumerate(selected, 1):
+            print(f"[{index}/{len(selected)}] {fixture.name}", flush=True)
+            pending[executor.submit(finish, fixture)] = fixture
+        for future in concurrent.futures.as_completed(pending):
+            fixture = pending[future]
+            result = future.result()
+            results_by_fixture[fixture.name] = result
+            results = [results_by_fixture[item.name] for item in selected
+                       if item.name in results_by_fixture]
+            (args.output / "summary.json").write_text(json.dumps({
+                "version": "formidable-high-sweep-v1",
+                "selected": [item.name for item in selected],
+                "completed": results,
+            }, indent=2) + "\n")
+            high = result["high"]
+            low = result["low"] or {}
+            print(f"  {fixture.name}: semantic F1 low={low.get('semantic_all_f1')} "
+                  f"high={high.get('semantic_all_f1')}", flush=True)
     return 0
 
 

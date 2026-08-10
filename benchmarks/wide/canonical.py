@@ -121,6 +121,7 @@ def normalize_structure(raw: dict[str, Any], page_number: int) -> dict[str, Any]
             "title": str(table.get("title") or "").strip(),
             "bbox": region,
             "estimated_rows": max(0, int(table.get("estimated_rows") or 0)),
+            "physical_rows": max(0, int(table.get("_geometry_verified_rows") or 0)),
             "columns": columns,
             "rows": [],
         })
@@ -530,6 +531,7 @@ def resolve(document: dict[str, Any]) -> dict[str, Any]:
             _resolve_item(item)
         for table in page["tables"]:
             table["rows"].sort(key=lambda row: row["bbox"][1])
+            _pad_verified_blank_rows(table, models)
             for row in table["rows"]:
                 for cell in row["cells"]:
                     _order_model_readings(cell, models)
@@ -537,6 +539,46 @@ def resolve(document: dict[str, Any]) -> dict[str, Any]:
             _repair_compound_identifier_columns(table)
             _flag_sparse_structural_rows(table)
     return document
+
+
+def _pad_verified_blank_rows(table, models):
+    """Materialize physically proven trailing blank rows in the canonical IR."""
+    target = int(table.get("physical_rows") or 0)
+    rows = table.get("rows") or []
+    if target <= len(rows) or not table.get("columns"):
+        return
+
+    numeric_ids = []
+    for row in rows:
+        match = re.fullmatch(r"\s*(\d+)\s*", str(row.get("id") or ""))
+        if not match:
+            numeric_ids = []
+            break
+        numeric_ids.append(int(match.group(1)))
+    sequential_ids = numeric_ids == list(range(1, len(rows) + 1))
+
+    table_box = table["bbox"]
+    data_top = (min((row["bbox"][1] for row in rows), default=table_box[1]))
+    pitch = ((table_box[3] - data_top) / target) if target else 0
+    for index in range(len(rows), target):
+        y0 = data_top + index * pitch
+        y1 = data_top + (index + 1) * pitch
+        row_id = str(index + 1) if sequential_ids else f"physical_blank_{index + 1}"
+        row = {"id": row_id, "bbox": [table_box[0], y0, table_box[2], y1],
+               "key_fingerprint": None, "physical_blank": True, "cells": []}
+        for column_index, column in enumerate(table["columns"]):
+            value = row_id if sequential_ids and column_index == 0 else None
+            bbox_value = [column["x0"], y0, column["x1"], y1]
+            row["cells"].append({
+                "column_id": column["id"], "bbox": bbox_value,
+                "physical_blank": value is None,
+                "readings": [{
+                    "model": model, "value": value, "confidence": 1.0,
+                    "illegible": False, "geometry_derived": True,
+                    "bbox": bbox_value,
+                } for model in models],
+            })
+        rows.append(row)
 
 
 def _repair_compound_identifier_columns(table):

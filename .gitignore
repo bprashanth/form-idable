@@ -220,6 +220,7 @@ server/deploy/test-credentials.env
 # Playwright test artifacts (screenshots, videos, traces)
 benchmarks/high_runs/sweep_v1/
 benchmarks/high_runs/prod_sweep_v*/
+benchmarks/high_runs/codex_v*/
 test-results/
 pwa/test-results/
 
