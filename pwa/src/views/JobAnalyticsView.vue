@@ -38,7 +38,7 @@
           <SummaryCard label="Pages" :value="analytics.summary.pages" />
           <SummaryCard label="Cells mapped" :value="analytics.summary.cells" />
           <SummaryCard label="Filled" :value="analytics.summary.filled" />
-          <SummaryCard label="Reader disputes" :value="analytics.summary.disagreements" tone="red" />
+          <SummaryCard label="Transcription alerts" :value="analytics.summary.disagreements" tone="red" />
           <SummaryCard label="Ecology flags" :value="analytics.summary.ecology_findings" tone="orange" />
         </section>
 
