@@ -4,11 +4,12 @@ Post-extraction quality layer. After the Fargate worker produces an xlsx,
 these features help a human reviewer decide whether the transcription is
 trustworthy before downloading it.
 
-**Status:** the deterministic high-effort review/analytics layer is built
-locally; production deployment remains gated on the all-form benchmark. The
-older speculative design below is retained for context, but the implemented
-system does not ask an LLM to rewrite the spreadsheet or generate arbitrary
-Vega-Lite.
+**Status:** the deterministic high-effort review/analytics layer passed its
+local production gate on 14 PDFs / 68 pages with zero artifact errors. The
+aggregate and per-form results, including five raw-score regressions, are in
+`benchmarks/HIGH_SWEEP_V1.md`. The older speculative design below is retained
+for context, but the implemented system does not ask an LLM to rewrite the
+spreadsheet or generate arbitrary Vega-Lite.
 
 Current high QA uses a canonical page/cell IR, immutable-primary two-reader
 diff, generic numeric/domain checks, GBIF taxonomy context, and deterministic

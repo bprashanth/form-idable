@@ -137,3 +137,30 @@ success. Broader benchmark and production browser gates follow.
   286/1,503 cells (19.0%): high is materially safer, but this handwriting is
   still beyond the point where more model confidence should replace focused
   human review.
+
+## Final uniform replay and decision
+
+After all provider calls completed, every saved response was rebuilt through
+the same final code. This removed experiment-order bias: late layout repairs
+could not improve only the form that revealed them. The independent result is
+14/14 PDFs, 68/68 pages and zero artifact errors.
+
+Aggregate semantic F1 is 0.923 high versus 0.887 low. High precision is 0.939
+versus 0.854; recall is 0.907 versus 0.924. Word F1 rises 0.807→0.869 and coded
+marks 0.874→0.939; numeric F1 slips 0.965→0.958. High therefore earns an
+opt-in production release, not replacement of low. Five raw form scores
+regress: eval_03 (-0.016), eval_06 (-0.069), eval_07 (-0.017), eval_11
+(-0.009), and eval_12 (-0.011). The eval_06 regression is material and is
+explicitly part of the release limitation.
+
+The final review surface contains 18,993 targets, 1,756 red cells (9.25%), and
+36 orange cells. Model calls cost $7.4874 total or $0.1101/page. All 33 browser
+tests pass, including every page of all 14 real PDFs. See
+`benchmarks/HIGH_SWEEP_V1.md` for the complete table.
+
+One more layout failure justifies the IR/review gate. On the quarterly
+dendroband form, one reader omitted a leading blank column. Token F1 remained
+0.982, but 933/1,633 cells turned red and a 40-row page became 46 rows. A
+response-wide proof using leading/trailing blanks restored visible row counts
+39/40/40 and reduced red review to 11/1,555 without changing the token score.
+This is why aggregate OCR tokens alone cannot certify a form workflow.
