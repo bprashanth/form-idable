@@ -154,7 +154,12 @@ def numeric_findings(records):
 def taxonomy_findings(records, client, latitude=None, longitude=None):
     findings, cache = [], {}
     for record in records:
-        if kind_of(record.label) != "species" or not str(record.value or "").strip():
+        # A prose/legend region can mention species without being one taxon.
+        # Sending an entire multiline list to a taxonomic matcher creates a
+        # noisy orange review item with no defensible replacement.
+        if (kind_of(record.label) != "species"
+                or record.location.get("kind") == "free_text"
+                or not str(record.value or "").strip()):
             continue
         original = " ".join(str(record.value).split())
         if original.casefold() in cache:
@@ -171,7 +176,7 @@ def taxonomy_findings(records, client, latitude=None, longitude=None):
         confidence = int(match.get("confidence") or 0)
         if not canonical_name or confidence < 90:
             findings.append(finding(
-                record, "taxonomy_unmatched", "medium",
+                record, "taxonomy_unmatched", "info",
                 f"GBIF did not return a high-confidence taxon match (confidence {confidence})",
                 gbif=match, source_url=source, proposed_value=None))
             continue
@@ -239,6 +244,7 @@ def canonical_records(document):
                                   field["label"], field.get("value")))
         for item in page.get("free_text_regions") or []:
             records.append(Record({"page": page["page_number"], "field": item["id"],
+                                   "kind": "free_text",
                                    "bbox": item.get("bbox"),
                                    "xlsx_row": item.get("xlsx_row"),
                                    "xlsx_column": item.get("xlsx_column")},
