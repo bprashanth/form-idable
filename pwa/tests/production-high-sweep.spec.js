@@ -6,8 +6,11 @@ const PROD = process.env.FORMIDABLE_PROD_URL
 const USERNAME = process.env.FORMIDABLE_PROD_USERNAME
 const PASSWORD = process.env.FORMIDABLE_PROD_PASSWORD
 const ROOT = path.resolve(import.meta.dirname, '../..')
-const STATE = path.join(ROOT, 'benchmarks/high_runs/prod_sweep_v1/state.json')
-const SCREENSHOTS = path.join(ROOT, 'benchmarks/high_visuals/prod-sweep-v1')
+const STATE = process.env.FORMIDABLE_PROD_SWEEP_STATE
+  ? path.resolve(ROOT, process.env.FORMIDABLE_PROD_SWEEP_STATE)
+  : path.join(ROOT, 'benchmarks/high_runs/prod_sweep_v1/state.json')
+const sweepName = path.basename(path.dirname(STATE)).replaceAll('_', '-')
+const SCREENSHOTS = path.join(ROOT, 'benchmarks/high_visuals', sweepName)
 const jobs = fs.existsSync(STATE)
   ? Object.values(JSON.parse(fs.readFileSync(STATE, 'utf8')).jobs)
     .filter(item => item.status === 'complete')

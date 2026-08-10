@@ -2,6 +2,7 @@
 """Download and independently score every completed production high job."""
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import urllib.request
@@ -11,8 +12,7 @@ import run_high_sweep
 import wide_diff
 from openpyxl import load_workbook
 
-STATE = run_high_sweep.REPO / "benchmarks/high_runs/prod_sweep_v1/state.json"
-OUTPUT = run_high_sweep.REPO / "benchmarks/high_runs/prod_sweep_v1"
+DEFAULT_STATE = run_high_sweep.REPO / "benchmarks/high_runs/prod_sweep_v1/state.json"
 
 
 def request_json(url: str, token: str) -> dict:
@@ -47,9 +47,13 @@ def extend_tokens(bucket: dict, workbook: Path) -> None:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--state", type=Path, default=DEFAULT_STATE)
+    args = parser.parse_args()
     api = os.environ["FORMIDABLE_API_URL"].rstrip("/")
     token = os.environ["FORMIDABLE_ID_TOKEN"]
-    state = json.loads(STATE.read_text())
+    state = json.loads(args.state.read_text())
+    output = args.state.parent
     records = []
     token_sets = {name: {side: {kind: [] for kind in ("nums", "words", "codes")}
                          for side in ("golden", "candidate")}
@@ -57,7 +61,7 @@ def main() -> None:
     for name, job in sorted(state["jobs"].items()):
         if job["status"] != "complete":
             raise RuntimeError(f"production job is not complete: {name}={job['status']}")
-        run = OUTPUT / name
+        run = output / name
         xlsx = request_json(f"{api}/api/jobs/{job['job_id']}/xlsx", token)
         download(xlsx["url"], run / "output.xlsx")
         for endpoint, filename in (
@@ -113,7 +117,7 @@ def main() -> None:
         }
     report = {"version": "formidable-production-high-audit-v1", "forms": records,
               "aggregate": aggregate}
-    (OUTPUT / "audit.json").write_text(json.dumps(report, indent=2) + "\n")
+    (output / "audit.json").write_text(json.dumps(report, indent=2) + "\n")
     low_f1 = sum(item["low"]["semantic_all_f1"] for item in records) / len(records)
     high_f1 = sum(item["high"]["semantic_all_f1"] for item in records) / len(records)
     print(json.dumps({"forms": len(records), "low_mean_f1": low_f1,
