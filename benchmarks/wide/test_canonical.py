@@ -92,6 +92,24 @@ def main():
     assert sparse_table["rows"][0]["cells"][1]["status"] == "structural_anomaly"
     assert "literal value retained" in sparse_table["rows"][0]["cells"][1]["structural_reason"]
 
+    compound_table = {"columns": [
+        {"id": "plant", "label": "PlantId", "value_kind": "identifier"},
+        {"id": "stem", "label": "StemId", "value_kind": "categorical_code"},
+    ], "rows": []}
+    for number in range(1, 9):
+        compound_table["rows"].append({"cells": [
+            {"column_id": "plant", "bbox": [0, 0, .5, 1], "value": f"{number}A",
+             "readings": [{"model": "primary", "value": f"{number}A", "confidence": .9},
+                          {"model": "peer", "value": f"{number}A", "confidence": .9}]},
+            {"column_id": "stem", "bbox": [.5, 0, 1, 1], "value": None,
+             "readings": [{"model": "primary", "value": None, "confidence": .9},
+                          {"model": "peer", "value": None, "confidence": .9}]},
+        ]})
+    canonical._repair_compound_identifier_columns(compound_table)
+    assert compound_table["rows"][0]["cells"][0]["value"] == "1"
+    assert compound_table["rows"][0]["cells"][1]["value"] == "A"
+    assert "table-wide empty-column check" in compound_table["rows"][0]["cells"][1]["layout_repair"]
+
     with tempfile.TemporaryDirectory() as temporary:
         document = {"pages": [{"page_number": 1, "metadata_fields": [], "tables": [{
             "id": "t", "title": "", "columns": [

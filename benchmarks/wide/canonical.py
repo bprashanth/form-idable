@@ -276,8 +276,53 @@ def resolve(document: dict[str, Any]) -> dict[str, Any]:
                 for cell in row["cells"]:
                     _order_model_readings(cell, models)
                     _resolve_item(cell)
+            _repair_compound_identifier_columns(table)
             _flag_sparse_structural_rows(table)
     return document
+
+
+def _repair_compound_identifier_columns(table):
+    """Split a consistently merged numeric ID + adjacent one-letter code."""
+    columns = table.get("columns") or []
+    rows = table.get("rows") or []
+    for index in range(len(columns) - 1):
+        source_column, target_column = columns[index:index + 2]
+        source_kind = str(source_column.get("value_kind") or "").casefold()
+        target_kind = str(target_column.get("value_kind") or "").casefold()
+        if source_kind not in {"identifier", "integer"}:
+            continue
+        if target_kind not in {"identifier", "categorical_code"}:
+            continue
+        pairs = [(row["cells"][index], row["cells"][index + 1]) for row in rows
+                 if len(row.get("cells") or []) > index + 1]
+        present = [(source, target) for source, target in pairs
+                   if norm_value(source.get("value"))]
+        if len(present) < 8 or any(norm_value(target.get("value"))
+                                   for _source, target in pairs):
+            continue
+        matches = [re.fullmatch(r"(\d+)([A-Za-z])", str(source.get("value")).strip())
+                   for source, _target in present]
+        if sum(match is not None for match in matches) / len(present) < .9:
+            continue
+        for (source, target), match in zip(present, matches):
+            if match is None:
+                continue
+            repaired_source, repaired_target = [], []
+            for reading in source.get("readings") or []:
+                reading_match = re.fullmatch(
+                    r"(\d+)([A-Za-z])", str(reading.get("value") or "").strip())
+                base = {**reading, "bbox": source.get("bbox")}
+                repaired_source.append({**base,
+                                        "value": reading_match.group(1) if reading_match else None})
+                repaired_target.append({**base, "bbox": target.get("bbox"),
+                                        "value": reading_match.group(2) if reading_match else None})
+            source["readings"], target["readings"] = repaired_source, repaired_target
+            _resolve_item(source)
+            _resolve_item(target)
+            provenance = (f"split compound identifier into {source_column.get('label')} and "
+                          f"{target_column.get('label')} after table-wide empty-column check")
+            source["layout_repair"] = provenance
+            target["layout_repair"] = provenance
 
 
 def _flag_sparse_structural_rows(table):
@@ -514,6 +559,8 @@ def _write_value(cell, item):
     details = [f"status: {status}", f"bbox: {item.get('bbox')}"]
     if item.get("structural_reason"):
         details.append(item["structural_reason"])
+    if item.get("layout_repair"):
+        details.append(item["layout_repair"])
     details.extend(f"{r.get('model')}: {r.get('value')!r} (confidence {r.get('confidence')})"
                    for r in readings)
     if item.get("alternatives"):
