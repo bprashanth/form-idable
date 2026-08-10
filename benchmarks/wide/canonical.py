@@ -172,9 +172,11 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
             illegible = {int(x) for x in (raw_row.get("illegible_columns") or [])
                          if str(x).lstrip("-").isdigit()}
             row_id = str(raw_row.get("row_id") or f"y{region[1]:.4f}")
-            # Match rows from multiple models by explicit label first, then by
-            # vertical overlap. This never looks at the values being scored.
-            row = _match_row(table["rows"], row_id, region, model)
+            fingerprint = _row_key_fingerprint(table["columns"], values)
+            # Match rows by printed identifiers before geometry. Model bbox
+            # scales can drift on dense pages even when their literal keys do
+            # not; no reference/golden value participates in this join.
+            row = _match_row(table["rows"], row_id, region, model, fingerprint)
             if row is None:
                 unique_row_id = row_id
                 used_row_ids = {existing["id"] for existing in table["rows"]}
@@ -182,7 +184,8 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
                 while unique_row_id in used_row_ids:
                     unique_row_id = f"{row_id}__{suffix}"
                     suffix += 1
-                row = {"id": unique_row_id, "bbox": region, "cells": []}
+                row = {"id": unique_row_id, "bbox": region,
+                       "key_fingerprint": fingerprint, "cells": []}
                 for col_index, column in enumerate(table["columns"]):
                     row["cells"].append({
                         "column_id": column["id"],
@@ -220,7 +223,21 @@ def _reading(raw, model, default_bbox):
     }
 
 
-def _match_row(rows, row_id, region, model=None):
+def _row_key_fingerprint(columns, values):
+    key_parts = []
+    stop_kinds = {"species", "local_name", "free_text", "decimal", "number",
+                  "measurement", "temperature", "percent"}
+    for column, value in zip(columns, values):
+        if str(column.get("value_kind") or "").casefold() in stop_kinds:
+            break
+        part = re.sub(r"[^0-9a-z]+", "", str(value or "").casefold())
+        if part:
+            key_parts.append(part)
+    fingerprint = "".join(key_parts)
+    return fingerprint if len(fingerprint) >= 2 and any(char.isdigit() for char in fingerprint) else None
+
+
+def _match_row(rows, row_id, region, model=None, fingerprint=None):
     # A row can receive at most one reading from a given model. This prevents a
     # duplicate emission within one response from collapsing onto real data.
     available = [row for row in rows
@@ -228,6 +245,10 @@ def _match_row(rows, row_id, region, model=None):
                      reading.get("model") == model
                      for cell in row.get("cells") or []
                      for reading in cell.get("readings") or [])]
+    keyed = [row for row in available
+             if fingerprint and row.get("key_fingerprint") == fingerprint]
+    if len(keyed) == 1:
+        return keyed[0]
     labelled = [row for row in available if row_id and row["id"] == row_id]
     if len(labelled) == 1:
         return labelled[0]

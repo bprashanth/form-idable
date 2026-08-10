@@ -81,6 +81,22 @@ def main():
     assert canonical.row_bbox([.173, .082, .194, .884]) == [.082, .173, .884, .194]
     assert canonical.row_bbox([.075, .665, .92, .688]) == [.075, .665, .92, .688]
 
+    key_columns = [
+        {"value_kind": "categorical_code"}, {"value_kind": "integer"},
+        {"value_kind": "integer"}, {"value_kind": "identifier"},
+        {"value_kind": "categorical_code"}, {"value_kind": "species"},
+    ]
+    assert canonical._row_key_fingerprint(
+        key_columns, ["MAN", "9", "6", "85", "A", "PALELL"]
+    ) == canonical._row_key_fingerprint(
+        key_columns, ["MAN", "9", "6", "85A", None, "PALELL"]
+    )
+    keyed_row = {"id": "1", "bbox": [0, .1, 1, .12], "key_fingerprint": "man9685a",
+                 "cells": [{"readings": [{"model": "primary"}]}]}
+    assert canonical._match_row(
+        [keyed_row], "y_0.8", [0, .8, 1, .82], "peer", "man9685a"
+    ) is keyed_row
+
     sparse_table = {"columns": [
         {"id": "species", "value_kind": "species"},
         {"id": "height", "value_kind": "decimal"},
