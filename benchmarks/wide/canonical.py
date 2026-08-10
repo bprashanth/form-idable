@@ -45,6 +45,23 @@ def bbox(value) -> list[float] | None:
     return [round(x0, 6), round(y0, 6), round(x1, 6), round(y1, 6)]
 
 
+def row_bbox(value) -> list[float] | None:
+    """Repair common coordinate-order drift using row shape, not content."""
+    if not isinstance(value, list) or len(value) != 4:
+        return None
+    a, b, c, d = value
+    candidates = ([a, b, c, d], [b, a, d, c],
+                  [b, a, c, d], [a, b, d, c])
+    regions = [region for region in (bbox(candidate) for candidate in candidates)
+               if region is not None]
+    if not regions:
+        return None
+    # Physical table rows are wide and short. This also handles providers that
+    # inconsistently emit y/x order between pages.
+    return max(regions, key=lambda region:
+               (region[2] - region[0]) / max(1e-6, region[3] - region[1]))
+
+
 def normalize_structure(raw: dict[str, Any], page_number: int) -> dict[str, Any]:
     """Repair harmless model formatting drift while rejecting ambiguous IDs."""
     page = {
@@ -145,14 +162,9 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
             continue
         ncols = len(table["columns"])
         for row_index, raw_row in enumerate(source.get("rows") or []):
-            region = bbox(raw_row.get("bbox"))
+            region = row_bbox(raw_row.get("bbox"))
             if region is None:
                 continue
-            # Some models emit row boxes as [y0,x0,y1,x1]. A row should be
-            # wide and short inside its table; transpose the conspicuous case.
-            if ((region[2] - region[0]) < 0.12
-                    and (region[3] - region[1]) > 0.35):
-                region = bbox([region[1], region[0], region[3], region[2]])
             values = list(raw_row.get("values") or [])[:ncols]
             values += [None] * (ncols - len(values))
             confidences = list(raw_row.get("confidences") or [])[:ncols]
@@ -162,9 +174,15 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
             row_id = str(raw_row.get("row_id") or f"y{region[1]:.4f}")
             # Match rows from multiple models by explicit label first, then by
             # vertical overlap. This never looks at the values being scored.
-            row = _match_row(table["rows"], row_id, region)
+            row = _match_row(table["rows"], row_id, region, model)
             if row is None:
-                row = {"id": row_id, "bbox": region, "cells": []}
+                unique_row_id = row_id
+                used_row_ids = {existing["id"] for existing in table["rows"]}
+                suffix = 2
+                while unique_row_id in used_row_ids:
+                    unique_row_id = f"{row_id}__{suffix}"
+                    suffix += 1
+                row = {"id": unique_row_id, "bbox": region, "cells": []}
                 for col_index, column in enumerate(table["columns"]):
                     row["cells"].append({
                         "column_id": column["id"],
@@ -202,17 +220,39 @@ def _reading(raw, model, default_bbox):
     }
 
 
-def _match_row(rows, row_id, region):
-    labelled = [row for row in rows if row_id and row["id"] == row_id]
+def _match_row(rows, row_id, region, model=None):
+    # A row can receive at most one reading from a given model. This prevents a
+    # duplicate emission within one response from collapsing onto real data.
+    available = [row for row in rows
+                 if not model or not any(
+                     reading.get("model") == model
+                     for cell in row.get("cells") or []
+                     for reading in cell.get("readings") or [])]
+    labelled = [row for row in available if row_id and row["id"] == row_id]
     if len(labelled) == 1:
         return labelled[0]
-    # A literal key is a stronger anchor than geometry. Never merge a new
-    # printed ID (including non-consecutive IDs) into a neighbouring row.
+
+    cy = (region[1] + region[3]) / 2
+    height = max(1e-6, region[3] - region[1])
+    strong = []
+    for row in available:
+        other_height = max(1e-6, row["bbox"][3] - row["bbox"][1])
+        ry = (row["bbox"][1] + row["bbox"][3]) / 2
+        overlap = max(0.0, min(region[3], row["bbox"][3])
+                      - max(region[1], row["bbox"][1]))
+        overlap_fraction = overlap / min(height, other_height)
+        if (overlap_fraction >= 0.65
+                and abs(cy - ry) <= max(0.006, min(height, other_height) * .5)):
+            strong.append((abs(cy - ry), row))
+    if strong:
+        return min(strong, key=lambda pair: pair[0])[1]
+
+    # Outside strong geometric agreement, a literal key remains a hard anchor:
+    # non-consecutive IDs must not be merged into a neighbouring row.
     if row_id and not row_id.casefold().startswith("y_"):
         return None
-    cy = (region[1] + region[3]) / 2
     close = []
-    for row in rows:
+    for row in available:
         ry = (row["bbox"][1] + row["bbox"][3]) / 2
         overlap = max(0.0, min(region[3], row["bbox"][3]) - max(region[1], row["bbox"][1]))
         if overlap > 0 or abs(cy - ry) < 0.012:
@@ -222,17 +262,38 @@ def _match_row(rows, row_id, region):
 
 def resolve(document: dict[str, Any]) -> dict[str, Any]:
     """Resolve exact agreement; preserve alternatives on disagreement."""
+    models = document.get("models") or []
     for page in document["pages"]:
         for field in page.get("metadata_fields") or []:
+            _order_model_readings(field, models)
             _resolve_item(field)
         for item in page.get("free_text_regions") or []:
+            _order_model_readings(item, models)
             _resolve_item(item)
         for table in page["tables"]:
             table["rows"].sort(key=lambda row: row["bbox"][1])
             for row in table["rows"]:
                 for cell in row["cells"]:
+                    _order_model_readings(cell, models)
                     _resolve_item(cell)
     return document
+
+
+def _order_model_readings(item, models):
+    """Make cross-reader coverage loss an explicit disagreement.
+
+    Rows are discovered independently. If only the peer emits one, its reading
+    must never slide into primary position and silently become truth.
+    """
+    if not models:
+        return
+    by_model = {reading.get("model"): reading for reading in item.get("readings") or []}
+    item["readings"] = [
+        by_model.get(model, {"model": model, "value": None, "confidence": 0.0,
+                             "illegible": True, "missing": True,
+                             "bbox": item.get("bbox")})
+        for model in models
+    ]
 
 
 def _resolve_item(item):
@@ -305,6 +366,9 @@ def validate(document: dict[str, Any]) -> list[str]:
             column_ids = [column["id"] for column in table.get("columns") or []]
             if len(set(column_ids)) != len(column_ids):
                 errors.append(f"page {page['page_number']} table {table['id']}: duplicate columns")
+            row_ids = [row["id"] for row in table.get("rows") or []]
+            if len(set(row_ids)) != len(row_ids):
+                errors.append(f"page {page['page_number']} table {table['id']}: duplicate rows")
             for row in table.get("rows") or []:
                 cell_ids = [cell["column_id"] for cell in row.get("cells") or []]
                 if cell_ids != column_ids:

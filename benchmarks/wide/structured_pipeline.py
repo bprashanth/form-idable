@@ -157,7 +157,10 @@ column index in illegible_columns. A low-confidence guess is worse than an
 explicit unreadable cell. Printed legends are context for interpreting marks,
 not permission to snap ambiguous ink onto a legal value.
 
-Row and field bboxes are full-page fractions. row_id is the literal printed or
+Row and field bboxes are full-page fractions. Every row bbox is strictly
+`[left, top, right, bottom]`: first/third are horizontal x coordinates and
+second/fourth are vertical y coordinates. A table row bbox must be wide and
+short, never a tall column or a large page block. row_id is the literal printed or
 written row key when one exists; otherwise use a stable y-based label such as
 y_0.372. Confidence is visual confidence from 0 to 1, not ecological
 plausibility. Do not apply species dictionaries or ecological corrections in

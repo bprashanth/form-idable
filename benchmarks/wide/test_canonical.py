@@ -53,6 +53,34 @@ def main():
     assert page["free_text_regions"][0]["value"] == "do not drop me"
     assert page["free_text_regions"][0]["status"] == "agreement"
 
+    peer_only = {"models": ["primary", "peer"], "pages": [{
+        "page_number": 1, "metadata_fields": [], "free_text_regions": [],
+        "tables": [{"id": "t", "columns": [{"id": "v"}], "rows": [{
+            "id": "peer-row", "bbox": [0, 0, 1, .1], "cells": [{
+                "column_id": "v", "bbox": [0, 0, 1, .1], "readings": [{
+                    "model": "peer", "value": "found", "confidence": .9,
+                    "illegible": False,
+                }],
+            }],
+        }]}],
+    }]}
+    canonical.resolve(peer_only)
+    peer_cell = peer_only["pages"][0]["tables"][0]["rows"][0]["cells"][0]
+    assert peer_cell["value"] is None
+    assert peer_cell["status"] == "disagreement"
+    assert peer_cell["alternatives"] == ["found"]
+    assert [reading["model"] for reading in peer_cell["readings"]] == ["primary", "peer"]
+
+    aligned = [{"id": "C 21", "bbox": [0, .2, 1, .22], "cells": [{
+        "readings": [{"model": "primary"}],
+    }]}]
+    assert canonical._match_row(aligned, "c21", [0, .201, 1, .221], "peer") is aligned[0]
+    assert canonical._match_row(aligned, "C 22", [0, .23, 1, .25], "peer") is None
+    assert canonical._match_row(aligned, "C 21", [0, .2, 1, .22], "primary") is None
+    assert canonical.row_bbox([.66, .158, .915, .685]) == [.158, .66, .915, .685]
+    assert canonical.row_bbox([.173, .082, .194, .884]) == [.082, .173, .884, .194]
+    assert canonical.row_bbox([.075, .665, .92, .688]) == [.075, .665, .92, .688]
+
     with tempfile.TemporaryDirectory() as temporary:
         document = {"pages": [{"page_number": 1, "metadata_fields": [], "tables": [{
             "id": "t", "title": "", "columns": [

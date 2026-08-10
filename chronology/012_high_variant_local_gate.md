@@ -60,6 +60,15 @@ letting a second model or ecological knowledge overwrite literal pixels.
   review, xlsx, crops, analytics and ecology coordinate discovery. Rebuilding
   saved responses (no new calls) raised eval 01 semantic F1 0.828→0.838 and
   eval 13 0.872→0.882; eval 13 content cell fraction became exactly 1.000.
+- A second stopped sweep found row-coverage disagreements could be hidden when
+  only one reader emitted a row, and peer-only values could slide into primary
+  position. Missing readings are now explicit and ordered by declared model.
+  This initially exposed 437 red cells on eval 01, most caused by provider row
+  boxes with swapped coordinate orders and harmless row-ID spelling drift.
+  Sector-agnostic wide/short row-box repair plus strong geometric alignment
+  reduced that to 129/1,168 targets (11.0%) while semantic F1 reached 0.935,
+  versus low's 0.728. The residual queue reflects actual value/blank/coverage
+  differences and is retained for human review.
 
 ## First real form result
 
