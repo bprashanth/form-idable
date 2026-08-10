@@ -43,6 +43,9 @@ def main():
     assert ecology_review.location_coordinates([
         ecology_review.Record({"page": 1}, "Latitude", "999"),
     ]) == (None, None)
+    assert ecology_review.location_coordinates([
+        ecology_review.Record({"page": 1}, "GPS point", "M13NE4 (Seedling weeding)"),
+    ]) == (None, None)
 
 
 if __name__ == "__main__":

@@ -260,7 +260,8 @@ def location_coordinates(records):
         if not any(term in label for term in ("gps", "coordinate", "location")):
             continue
         values = [float(value) for value in re.findall(
-            r"[-+]?\d{1,3}(?:\.\d+)?", str(record.value or "").replace(",", " "))]
+            r"(?<![A-Za-z0-9])[-+]?\d{1,3}(?:\.\d+)?(?![A-Za-z0-9])",
+            str(record.value or "").replace(",", " "))]
         for first, second in zip(values, values[1:]):
             if -90 <= first <= 90 and -180 <= second <= 180:
                 return first, second
