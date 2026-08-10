@@ -54,10 +54,13 @@ def compact(metrics: dict) -> dict:
     return {name: metrics.get(name) for name in names}
 
 
-def run_one(fixture: Path, output: Path, image: str, force: bool) -> dict:
+def run_one(fixture: Path, output: Path, image: str, force: bool,
+            rebuild_from_evidence: bool = False) -> dict:
     output.mkdir(parents=True, exist_ok=True)
     finished = output / "run.json"
-    if not finished.exists() or force:
+    if rebuild_from_evidence and not finished.exists():
+        raise RuntimeError(f"Cannot rebuild incomplete run {output}")
+    if not finished.exists() or force or rebuild_from_evidence:
         started = time.time()
         environment = os.environ.copy()
         environment["OPENROUTER_API_KEY"] = provider_key()
@@ -68,7 +71,8 @@ def run_one(fixture: Path, output: Path, image: str, force: bool) -> dict:
             "-v", f"{output.resolve()}:/run",
             image, "python3", "-c",
             "from pathlib import Path; from high_worker import process; "
-            "process(Path('/input.pdf'), Path('/run'))",
+            f"process(Path('/input.pdf'), Path('/run'), "
+            f"reuse_existing={rebuild_from_evidence!r})",
         ]
         subprocess.run(command, check=True, env=environment)
         (output / "wall_time.json").write_text(json.dumps({
@@ -102,6 +106,10 @@ def main() -> int:
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--only", action="append", help="fixture id, e.g. eval_13")
     parser.add_argument("--force", action="store_true")
+    parser.add_argument(
+        "--rebuild-from-evidence", action="store_true",
+        help="regenerate canonical/review/analytics/crops from saved model responses; no model calls",
+    )
     args = parser.parse_args()
     selected = [item for item in pdf_fixtures()
                 if not args.only or item.name in set(args.only)]
@@ -113,7 +121,7 @@ def main() -> int:
     for index, fixture in enumerate(selected, 1):
         print(f"[{index}/{len(selected)}] {fixture.name}", flush=True)
         results.append(run_one(fixture, args.output / fixture.name,
-                               args.image, args.force))
+                               args.image, args.force, args.rebuild_from_evidence))
         (args.output / "summary.json").write_text(json.dumps({
             "version": "formidable-high-sweep-v1",
             "selected": [item.name for item in selected],

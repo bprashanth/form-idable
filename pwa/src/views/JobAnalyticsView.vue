@@ -85,13 +85,26 @@
           </div>
         </section>
 
-        <section v-if="analytics.ecology_findings.length">
+        <section v-if="actionableEcology.length">
           <p class="eyebrow text-orange-700">Ecology observations</p><h3 class="section-title mb-3">Investigate; do not auto-correct</h3>
-          <div class="grid lg:grid-cols-2 gap-3"><article v-for="(item, index) in analytics.ecology_findings" :key="index" class="border-l-4 border-orange-500 bg-orange-50 p-4">
+          <div class="grid lg:grid-cols-2 gap-3"><article v-for="(item, index) in actionableEcology" :key="index" class="border-l-4 border-orange-500 bg-orange-50 p-4">
             <div class="flex justify-between"><strong class="text-sm">{{ item.label || item.code }}</strong><span class="text-[9px] uppercase font-black text-orange-700">{{ item.severity }}</span></div>
             <p class="text-xs mt-2">{{ item.message }}</p><p class="text-[10px] text-on-surface-variant mt-2">Observed {{ item.observed ?? '—' }} · Page {{ item.location?.page ?? '—' }}</p>
           </article></div>
         </section>
+
+        <details v-if="informationalEcology.length" class="border border-outline-variant/25 bg-surface-container-lowest p-4">
+          <summary class="cursor-pointer text-xs font-black text-primary">
+            {{ informationalEcology.length }} informational ecology checks — not in the review queue
+          </summary>
+          <p class="text-[10px] text-on-surface-variant mt-2">Grouped context only. A failed catalogue lookup is not treated as a bad field value.</p>
+          <div class="grid lg:grid-cols-2 gap-3 mt-4">
+            <article v-for="group in ecologyInfoGroups" :key="group.code" class="bg-surface-container-low p-3">
+              <div class="flex justify-between gap-3"><strong class="text-xs">{{ group.label }}</strong><span class="font-mono text-[10px]">{{ group.count }}</span></div>
+              <p class="text-[10px] text-on-surface-variant mt-2">Examples: {{ group.examples.join(' · ') }}</p>
+            </article>
+          </div>
+        </details>
       </div>
     </main>
   </div>
@@ -108,6 +121,22 @@ const { fetchAnalytics } = useJobStore(); const analytics = ref(null); const loa
 onMounted(async () => { try { analytics.value = await fetchAnalytics(jobId) } finally { loading.value = false } })
 const numericCharts = computed(() => (analytics.value?.charts ?? []).filter(item => item.type === 'numeric').slice(0, 12))
 const categoricalCharts = computed(() => (analytics.value?.charts ?? []).filter(item => item.type === 'categorical').slice(0, 12))
+const actionableEcology = computed(() => (analytics.value?.ecology_findings ?? [])
+  .filter(item => ['medium', 'high'].includes(item.severity)))
+const informationalEcology = computed(() => (analytics.value?.ecology_findings ?? [])
+  .filter(item => !['medium', 'high'].includes(item.severity)))
+const ecologyInfoGroups = computed(() => {
+  const groups = new Map()
+  for (const item of informationalEcology.value) {
+    const code = item.code || 'context'
+    const group = groups.get(code) || { code, label: code.replaceAll('_', ' '), count: 0, examples: [] }
+    group.count += 1
+    const example = String(item.observed ?? '').trim()
+    if (example && group.examples.length < 3 && !group.examples.includes(example)) group.examples.push(example)
+    groups.set(code, group)
+  }
+  return [...groups.values()].sort((a, b) => b.count - a.count)
+})
 function percent(value, total) { return `${Math.min(100, total ? value / total * 100 : 0)}%` }
 function barHeight(value, bins) { return `${Math.max(4, value / Math.max(...bins.map(bin => bin.count), 1) * 100)}%` }
 function scale(value, chart) { return percent(value - chart.min, chart.max - chart.min) }

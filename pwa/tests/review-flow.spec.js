@@ -302,8 +302,14 @@ test.describe('Focused review queues', () => {
           { type: 'categorical', label: 'Phenophase', n: 4,
             values: [{ label: 'leaf flush', count: 3 }, { label: 'flower', count: 1 }] },
         ],
-        ecology_findings: [{ code: 'within_form_numeric_outlier', severity: 'medium',
-          label: 'Soil temperature', observed: 150, message: 'Investigate this tail', location: { page: 1 } }],
+        ecology_findings: [
+          { code: 'within_form_numeric_outlier', severity: 'medium',
+            label: 'Soil temperature', observed: 150, message: 'Investigate this tail', location: { page: 1 } },
+          { code: 'taxonomy_unmatched', severity: 'info', observed: 'Ficus excur',
+            message: 'Catalogue match unavailable', location: { page: 1 } },
+          { code: 'taxonomy_unmatched', severity: 'info', observed: 'Vast mal',
+            message: 'Catalogue match unavailable', location: { page: 1 } },
+        ],
       }),
     }))
     await page.locator('[data-testid="analytics-nav"]').click()
@@ -311,6 +317,10 @@ test.describe('Focused review queues', () => {
     await expect(page.locator('[data-testid="analytics-view"]')).toBeVisible()
     await expect(page.locator('[data-testid="numeric-chart"]')).toContainText('Soil temperature')
     await expect(page.locator('[data-testid="categorical-chart"]')).toContainText('Phenophase')
+    await expect(page.getByText('2 informational ecology checks — not in the review queue')).toBeVisible()
+    await expect(page.getByText('Ficus excur')).toBeHidden()
+    await page.getByText('2 informational ecology checks — not in the review queue').click()
+    await expect(page.getByText('Examples: Ficus excur · Vast mal')).toBeVisible()
     await expect(page.getByText('SUBMIT REVIEW')).toHaveCount(0)
     if (process.env.FORMIDABLE_ANALYTICS_SCREENSHOT) {
       await page.screenshot({ path: process.env.FORMIDABLE_ANALYTICS_SCREENSHOT, fullPage: true })
