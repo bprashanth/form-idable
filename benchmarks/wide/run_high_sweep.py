@@ -74,6 +74,9 @@ def run_one(fixture: Path, output: Path, image: str, force: bool,
         codex_auth = Path.home() / ".codex/auth.json"
         if codex_auth.exists():
             command += ["-v", f"{codex_auth.resolve()}:/root/.codex/auth.json:ro"]
+        for name in ("HIGH_SCHEMA_MODEL", "HIGH_PRIMARY_MODEL", "HIGH_PEER_MODEL"):
+            if environment.get(name):
+                command += ["-e", name]
         command += [
             image, "python3", "-c",
             "from pathlib import Path; from high_worker import process; "

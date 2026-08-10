@@ -142,9 +142,9 @@ values. Include marginal annotations as free-text regions.
 
 
 EXTRACT_PROMPT = """You are the visual transcription stage of a general paper-form
-digitizer. You receive one full-page overview followed by four overlapping
-high-resolution tiles (top-left, top-right, bottom-left, bottom-right). They
-show the SAME page; do not duplicate rows from overlaps.
+digitizer. You receive one full-page overview followed by focused high-resolution
+crops of the declared tables, lists, metadata, and notes. They show the SAME
+page; do not duplicate rows or fields across crops.
 
 The structure stage's schema is below. Populate it exactly. For every table
 row with recorded content, return one values array in the declared column
@@ -196,6 +196,50 @@ def render_page_inputs(form_dir: Path, page: int) -> tuple[Path, list[Path]]:
                            check=True, capture_output=True)
         tiles.append(path)
     return overview, tiles
+
+
+def render_declared_crops(form_dir: Path, page: int, structure: dict,
+                          *, limit: int = 6) -> list[Path]:
+    """Render schema-derived evidence regions at high zoom, sector-agnostically."""
+    output = form_dir / "canonical_tiles"
+    regions = []
+    # Repeated data gets priority because small table handwriting is the main
+    # fixed-tile failure. Notes come next. Metadata fields are combined into a
+    # single envelope so headers do not consume the entire image budget.
+    for item in structure.get("tables") or []:
+        if item.get("bbox"):
+            regions.append(("table", item["bbox"]))
+    for item in structure.get("free_text_regions") or []:
+        if item.get("bbox"):
+            regions.append(("text", item["bbox"]))
+    metadata = [item.get("bbox") for item in structure.get("metadata_fields") or []
+                if item.get("bbox")]
+    if metadata:
+        regions.append(("metadata", [
+            min(box[0] for box in metadata), min(box[1] for box in metadata),
+            max(box[2] for box in metadata), max(box[3] for box in metadata),
+        ]))
+
+    paths = []
+    for index, (kind, raw_box) in enumerate(regions[:limit]):
+        try:
+            x0, y0, x1, y1 = (float(value) for value in raw_box)
+        except (TypeError, ValueError):
+            continue
+        pad = .012
+        box = [max(0, x0 - pad), max(0, y0 - pad),
+               min(1, x1 + pad), min(1, y1 + pad)]
+        if box[2] <= box[0] or box[3] <= box[1]:
+            continue
+        path = output / f"page_{page}_declared_{index}_{kind}.png"
+        if not path.exists():
+            subprocess.run([
+                sys.executable, str(wide_bench.RENDER), str(form_dir / "input.pdf"),
+                "--page", str(page), "--bbox", ",".join(str(value) for value in box),
+                "--zoom", "10", "--out", str(path),
+            ], check=True, capture_output=True)
+        paths.append(path)
+    return paths
 
 
 def gemini_json(model: str, prompt: str, images: list[Path], schema: dict,
@@ -525,12 +569,14 @@ def run(form_dir: Path, schema_model: str, models: list[str], tag: str,
         page = canonical.normalize_structure(raw_structure, page_number)
         declared = {key: value for key, value in page.items() if key != "rows"}
         prompt = EXTRACT_PROMPT.format(schema=json.dumps(declared, ensure_ascii=False))
+        focused = render_declared_crops(form_dir, page_number, raw_structure)
+        evidence_images = [overview, *(focused or tiles)]
         # Literal readers are intentionally independent. Run them concurrently
         # once the shared sector-agnostic schema exists, then attach responses
         # in declared primary/peer order so provenance remains deterministic.
         with concurrent.futures.ThreadPoolExecutor(max_workers=len(models)) as executor:
             futures = [executor.submit(
-                provider_json, model, prompt, [overview, *tiles], EXTRACTION_SCHEMA)
+                provider_json, model, prompt, evidence_images, EXTRACTION_SCHEMA)
                 for model in models]
             responses = [future.result() for future in futures]
         for model, (raw, meta) in zip(models, responses):
