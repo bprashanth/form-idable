@@ -81,6 +81,17 @@ def main():
     assert canonical.row_bbox([.173, .082, .194, .884]) == [.082, .173, .884, .194]
     assert canonical.row_bbox([.075, .665, .92, .688]) == [.075, .665, .92, .688]
 
+    sparse_table = {"columns": [
+        {"id": "species", "value_kind": "species"},
+        {"id": "height", "value_kind": "decimal"},
+    ], "rows": [{"cells": [
+        {"column_id": "species", "value": None, "status": "blank_or_illegible"},
+        {"column_id": "height", "value": "16.0", "status": "agreement"},
+    ]}]}
+    canonical._flag_sparse_structural_rows(sparse_table)
+    assert sparse_table["rows"][0]["cells"][1]["status"] == "structural_anomaly"
+    assert "literal value retained" in sparse_table["rows"][0]["cells"][1]["structural_reason"]
+
     with tempfile.TemporaryDirectory() as temporary:
         document = {"pages": [{"page_number": 1, "metadata_fields": [], "tables": [{
             "id": "t", "title": "", "columns": [

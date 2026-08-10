@@ -276,7 +276,37 @@ def resolve(document: dict[str, Any]) -> dict[str, Any]:
                 for cell in row["cells"]:
                     _order_model_readings(cell, models)
                     _resolve_item(cell)
+            _flag_sparse_structural_rows(table)
     return document
+
+
+def _flag_sparse_structural_rows(table):
+    """Queue likely row shifts while retaining every literal value."""
+    columns = table.get("columns") or []
+    descriptor_kinds = {"species", "text", "free_text", "categorical"}
+    measurement_kinds = {"decimal", "number", "measurement", "count",
+                         "temperature", "percent"}
+    descriptors = [index for index, column in enumerate(columns)
+                   if str(column.get("value_kind") or "").casefold() in descriptor_kinds]
+    measurements = [index for index, column in enumerate(columns)
+                    if str(column.get("value_kind") or "").casefold() in measurement_kinds]
+    if not descriptors or not measurements:
+        return
+    for row in table.get("rows") or []:
+        cells = row.get("cells") or []
+        missing = [index for index in descriptors
+                   if index < len(cells) and not norm_value(cells[index].get("value"))]
+        populated = [index for index in measurements
+                     if index < len(cells) and norm_value(cells[index].get("value"))]
+        if not missing or not populated or min(populated) <= min(missing):
+            continue
+        reason = ("measurement present after an empty descriptor; possible row or column shift; "
+                  "literal value retained")
+        for index in populated:
+            cell = cells[index]
+            if cell.get("status") == "agreement":
+                cell["status"] = "structural_anomaly"
+                cell["structural_reason"] = reason
 
 
 def _order_model_readings(item, models):
@@ -474,13 +504,16 @@ def _write_value(cell, item):
     has_ecology_review = any(flag.get("severity") in ("high", "medium")
                              for flag in ecology_flags)
     is_disagreement = status in {
-        "disagreement", "majority_after_reread", "unresolved_after_reread"}
+        "disagreement", "majority_after_reread", "unresolved_after_reread",
+        "structural_anomaly"}
     # Human priority is transcription first: a cell that is both disputed and
     # ecologically unusual stays red. Ecology-only cells are orange.
     cell.fill = (RED if is_disagreement else ORANGE if has_ecology_review
                  else GREEN if status == "agreement" else YELLOW)
     readings = item.get("readings") or []
     details = [f"status: {status}", f"bbox: {item.get('bbox')}"]
+    if item.get("structural_reason"):
+        details.append(item["structural_reason"])
     details.extend(f"{r.get('model')}: {r.get('value')!r} (confidence {r.get('confidence')})"
                    for r in readings)
     if item.get("alternatives"):

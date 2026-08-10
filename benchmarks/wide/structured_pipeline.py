@@ -439,13 +439,15 @@ def disagreement_stats(document):
             for row in table["rows"]:
                 cells.extend(row["cells"])
     statuses = ("agreement", "majority_after_reread", "disagreement",
-                "unresolved_after_reread", "blank_or_illegible")
+                "unresolved_after_reread", "blank_or_illegible",
+                "structural_anomaly")
     counts = {status: sum(cell.get("status") == status for cell in cells)
               for status in statuses}
     counts["total"] = len(cells)
     counts["review_fraction"] = round(
         (counts["majority_after_reread"] + counts["disagreement"]
          + counts["unresolved_after_reread"]
+         + counts["structural_anomaly"]
          + counts["blank_or_illegible"]) / len(cells), 4
     ) if cells else 0.0
     return counts
