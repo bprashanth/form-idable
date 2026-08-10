@@ -58,15 +58,15 @@ cd good-shepherd/agents/formidable/deploy
 
 ### Additive High release (does not rebuild low)
 
-Use the high-only scripts when changing per-job effort routing, dual readers,
-ecology, or Analytics. `push_high.sh` builds/pushes the API handler and the new
-high image, and registers only `formidable-high-worker`. It never builds,
-pushes, or registers `formidable-worker`.
+Use the high-only deploy when changing per-job effort routing, dual readers,
+ecology, or Analytics. It snapshots the low image digest and task revision,
+creates only high infrastructure, pushes the handler plus high image, runs a
+real authenticated high job, validates the workbook/review/analytics
+artifacts, and fails if low moved at all.
 
 ```
 cd good-shepherd/agents/formidable/deploy
-./setup_high.sh       # idempotent: high ECR/role/secret/log/routes only
-./push_high.sh
+./deploy_high.sh
 ```
 
 The deployment host is ARM64 but the existing Lambda is x86_64. The script
@@ -84,6 +84,10 @@ The provider config is read from
 `FORMIDABLE_OPENROUTER_CONFIG`) and stored in Secrets Manager. Never use the
 ordinary `push.sh` for a high-only release because it intentionally rebuilds
 the low worker too.
+
+The component scripts remain available for diagnosis: `setup_high.sh`,
+`push_high.sh`, and `verify_high.sh`. The normal release path is
+`deploy_high.sh` because it enforces rollback and the low-invariance check.
 
 ---
 

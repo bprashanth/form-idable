@@ -48,6 +48,11 @@ letting a second model or ecological knowledge overwrite literal pixels.
 - This ARM64 host would have built an image incompatible with the existing
   x86_64 Lambda. Deployment now explicitly cross-builds the handler for amd64,
   declares the new Fargate task ARM64, and has a high-only rollback path.
+- The high download adds an ecology audit sheet. Counting its repeated labels,
+  observations and explanatory prose as transcription would falsely depress
+  precision. Accuracy therefore scores the immutable page-only workbook; a
+  separate packaging gate checks the deployed workbook's page order, styles,
+  page count and final audit sheet.
 
 ## First real form result
 
@@ -84,6 +89,9 @@ residual margin, not permission to silently choose the peer.
 - One browser flow using the real high artifacts passes and was visually
   opened at `benchmarks/high_visuals/actual-eval13-*.png`.
 - Actual high worker container builds and processes the two-page form.
+- The x86_64 API image builds on this ARM host and its in-container effort
+  routing test passes. The high release wrapper snapshots and asserts the low
+  ECR digest and task-definition ARN before and after deployment.
 
 This is a local checkpoint, not permission to claim all-form or production
 success. Broader benchmark and production browser gates follow.
