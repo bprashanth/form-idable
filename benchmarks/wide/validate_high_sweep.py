@@ -161,21 +161,35 @@ def main() -> int:
             "semantic_code": wide_diff._prf(golden["codes"], candidate["codes"]),
         }
     regressions = [row["fixture"] for row in rows if row["semantic_f1_delta"] < 0]
+    targets = sum(row["review"].get("target_cells_including_blanks", 0) for row in rows)
+    attention = sum(row["review"].get("transcription_review_cells", 0) for row in rows)
+    ecology_flags = sum(row["review"].get("ecology_findings", 0) for row in rows)
+    total_cost = round(sum(row["cost_usd"] or 0 for row in rows), 4)
+    completed_pages = sum(row["pages"] for row in rows)
     report = {
         "version": "formidable-high-sweep-audit-v1",
         "expected_forms": len(fixtures), "completed_forms": len(rows),
         "expected_pages": sum(fitz.open(item / "input.pdf").page_count for item in fixtures),
-        "completed_pages": sum(row["pages"] for row in rows),
+        "completed_pages": completed_pages,
         "artifact_errors": errors, "per_form": rows, "aggregate": aggregates,
         "high_semantic_f1_regressions": regressions,
-        "total_model_cost_usd": round(sum(row["cost_usd"] or 0 for row in rows), 4),
+        "human_attention": {
+            "targets_including_blanks": targets,
+            "red_transcription_cells": attention,
+            "red_fraction": round(attention / targets, 4) if targets else 0,
+            "orange_ecology_cells": ecology_flags,
+        },
+        "total_model_cost_usd": total_cost,
+        "model_cost_per_page_usd": round(total_cost / completed_pages, 4)
+        if completed_pages else None,
     }
     destination = args.output or args.root / "audit.json"
     destination.write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps({key: report[key] for key in
                       ("expected_forms", "completed_forms", "expected_pages",
                        "completed_pages", "artifact_errors",
-                       "high_semantic_f1_regressions", "total_model_cost_usd")}, indent=2))
+                       "high_semantic_f1_regressions", "human_attention",
+                       "total_model_cost_usd", "model_cost_per_page_usd")}, indent=2))
     return 1 if errors else 0
 
 
