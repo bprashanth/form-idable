@@ -111,3 +111,29 @@ residual margin, not permission to silently choose the peer.
 
 This is a local checkpoint, not permission to claim all-form or production
 success. Broader benchmark and production browser gates follow.
+
+## Later all-form gate findings
+
+- A six-page annual-monitoring form initially produced 59 rows on a page that
+  visibly contained 49. The peer reader had omitted a whole Stem ID column,
+  merged values such as `85` + `A` into `85A`, and shifted every later value
+  left. A strict layout repair now runs only when a response is one column
+  short on at least 90% of eight or more rows and the same numeric-ID plus
+  one-letter signature holds on at least 90%. It uses no golden values. The
+  rebuilt page counts are `49, 49, 49, 13, 39, 49`; false red review cells
+  fell from 1,255/4,225 (29.7%) to 83/4,065 (2.0%). Semantic F1 stayed 0.953
+  versus low's 0.970, so this is recorded as a layout/reviewer-fatigue repair,
+  not an accuracy win.
+- The first eight-PDF browser sweep loaded every page image and exact review
+  overlay, but it also caught a real asynchronous-image test bug on page 4 of
+  the 24-page bird form: DOM visibility can precede image decoding. The gate
+  now waits for decoded natural dimensions over 500 px, checks red/orange
+  overlay counts against each page manifest, requires real workbook rows, and
+  opens a deterministic numeric or categorical chart. It produces one review
+  and one Analytics screenshot for every PDF.
+- On the dense three-page Survival and Growth notebook form, high semantic F1
+  is 0.906 versus low's 0.834. Recall is similar (0.952 versus 0.963), while
+  precision improves 0.736 to 0.864. The cost is $0.48323 and the red queue is
+  286/1,503 cells (19.0%): high is materially safer, but this handwriting is
+  still beyond the point where more model confidence should replace focused
+  human review.
