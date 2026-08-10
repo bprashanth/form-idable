@@ -278,6 +278,11 @@ def openrouter_json(model: str, prompt: str, images: list[Path], schema: dict,
                 continue
             raise RuntimeError(
                 f"OpenRouter {model} failed with HTTP {error.code}: {body!r}") from error
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as error:
+            if attempt < len(retry_delays):
+                continue
+            raise RuntimeError(
+                f"OpenRouter {model} network failure after {attempt} attempts: {error}") from error
         except (KeyError, IndexError, TypeError, json.JSONDecodeError) as error:
             if attempt < len(retry_delays):
                 continue
