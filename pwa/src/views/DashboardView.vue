@@ -171,14 +171,23 @@
                 <!-- Thumbnail -->
                 <td class="py-3 px-6" @click.stop="selectMode ? toggleSelect(job.job_id) : (['queued','processing','uploading'].includes(job.status) ? handleRowClick(job) : openLightbox(job))">
                   <div class="w-10 h-14 bg-surface-container-highest border border-outline-variant/40 flex items-center justify-center overflow-hidden hover:border-primary/60 transition-colors group relative">
-                    <img
-                      :src="thumbnailUrls[job.job_id]"
-                      class="w-full h-full object-cover opacity-70 grayscale group-hover:opacity-90 group-hover:grayscale-0 transition-all"
-                      :alt="job.name"
-                    />
-                    <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/20 transition-opacity">
-                      <span class="material-symbols-outlined text-white text-sm">zoom_in</span>
-                    </div>
+                    <!-- Only render the <img> once we actually have a URL. Otherwise
+                         the browser draws its broken-image icon for every row without
+                         a thumbnail (non-complete jobs, or ones still loading). -->
+                    <template v-if="thumbnailUrls[job.job_id]">
+                      <img
+                        :src="thumbnailUrls[job.job_id]"
+                        class="w-full h-full object-cover opacity-70 grayscale group-hover:opacity-90 group-hover:grayscale-0 transition-all"
+                        :alt="job.name"
+                        @error="reloadThumbnail(job.job_id)"
+                        @load="onThumbnailLoad(job.job_id)"
+                      />
+                      <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/20 transition-opacity">
+                        <span class="material-symbols-outlined text-white text-sm">zoom_in</span>
+                      </div>
+                    </template>
+                    <!-- Placeholder while there is no thumbnail yet. -->
+                    <span v-else class="material-symbols-outlined text-outline/40 text-lg">description</span>
                   </div>
                 </td>
                 <td class="py-3 px-6">
@@ -498,7 +507,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { useJobStore } from '@/composables/useJobStore.js'
 import { useCognitoAuth } from '@/composables/useCognitoAuth.js'
@@ -516,6 +525,15 @@ const { logout } = useCognitoAuth()
 // updates correctly ordered without waiting for a refetch.
 const sortedJobs = computed(() =>
   [...jobs.value].sort((a, b) => (b.created_at || '').localeCompare(a.created_at || ''))
+)
+
+// Re-fetch thumbnails whenever the set of complete jobs changes — e.g. a job
+// finishes via polling after the initial mount load, which loadThumbnails() (run
+// once in onMounted) would otherwise miss until a remount. loadThumbnails only
+// fetches URLs it doesn't already hold, so re-running it is cheap.
+watch(
+  () => jobs.value.filter(j => j.status === 'complete').map(j => j.job_id).join(','),
+  () => loadThumbnails(),
 )
 
 // "Submitted" timestamp — created_at is an ISO8601 string; show a compact
@@ -764,14 +782,56 @@ function _clearUploadError(job_id, status) {
   uploadErrors.value = next
 }
 
+// Presign one page URL, retrying transient failures. The presign endpoint is a
+// Lambda that returns 503 ("Service Unavailable") when hit by a burst of
+// concurrent requests, so a single try loses thumbnails; retry with backoff.
+async function _fetchThumbUrl(jobId, attempts = 4) {
+  for (let a = 0; a < attempts; a++) {
+    const url = await fetchAuthedUrl(pageUrl(jobId, 'page_1.png'))
+    if (url) return url
+    // 200ms, 400ms, 800ms … with jitter — enough to ride out a throttle wave.
+    await new Promise(r => setTimeout(r, 200 * 2 ** a + Math.random() * 100))
+  }
+  return null
+}
+
+// Load all missing thumbnails through a small concurrency pool. Firing one
+// request per complete job all at once (25+ on a full dashboard) bursts the
+// presign Lambda and it 503s part of the batch — which showed up as "most
+// thumbnails broken on a fresh load". A pool keeps the backend under its limit;
+// _fetchThumbUrl recovers the occasional 503 that still slips through.
+const THUMB_CONCURRENCY = 4
 async function loadThumbnails() {
-  for (const job of jobs.value) {
-    if (job.status === 'complete' && !thumbnailUrls.value[job.job_id]) {
-      fetchAuthedUrl(pageUrl(job.job_id, 'page_1.png')).then(url => {
-        if (url) thumbnailUrls.value = { ...thumbnailUrls.value, [job.job_id]: url }
-      })
+  const pending = jobs.value
+    .filter(j => j.status === 'complete' && !thumbnailUrls.value[j.job_id])
+    .map(j => j.job_id)
+  let i = 0
+  const worker = async () => {
+    while (i < pending.length) {
+      const jobId = pending[i++]
+      const url = await _fetchThumbUrl(jobId)
+      if (url) thumbnailUrls.value = { ...thumbnailUrls.value, [jobId]: url }
     }
   }
+  await Promise.all(
+    Array.from({ length: Math.min(THUMB_CONCURRENCY, pending.length) }, worker)
+  )
+}
+
+// Page URLs are presigned with a 5-minute TTL (backend ExpiresIn=300). On a
+// dashboard left open longer than that — polling, navigating in and out — an
+// <img> outlives its URL and fails to load. Re-fetch (with the same retry) on
+// error, and reset the per-job attempt counter on a successful load so a later
+// expiry can retry again. The cap stops a genuinely missing image from looping.
+const thumbRetries = {}
+async function reloadThumbnail(jobId) {
+  if ((thumbRetries[jobId] ?? 0) >= 2) return
+  thumbRetries[jobId] = (thumbRetries[jobId] ?? 0) + 1
+  const url = await _fetchThumbUrl(jobId)
+  if (url) thumbnailUrls.value = { ...thumbnailUrls.value, [jobId]: url }
+}
+function onThumbnailLoad(jobId) {
+  delete thumbRetries[jobId]
 }
 
 // ── Lifecycle ──────────────────────────────────────────────────────────────────
