@@ -60,6 +60,8 @@ test.describe('all-PDF high visual gate', () => {
       await page.goto(`/review/${job}`)
       await expect(page.locator('[data-testid="review-summary"]')).toBeVisible({ timeout: 15_000 })
       await expect(page.locator('[data-testid="xlsx-panel"]')).toBeVisible()
+      await expect(page.locator('[data-testid="xlsx-panel"] tbody tr').first())
+        .toBeVisible({ timeout: 15_000 })
 
       for (let pageNumber = 1; pageNumber <= manifest.pages.length; pageNumber++) {
         const image = page.locator(`[data-testid="page-img-${pageNumber}"]`)
