@@ -151,6 +151,25 @@ def main():
         [{"label": "Block", "value_kind": "integer"}, *sparse_columns[1:]],
         sparse_source)
 
+    shifted_table = {"columns": [
+        {"value_kind": "integer"}, {"value_kind": "integer"},
+        {"value_kind": "categorical_code"}, {"value_kind": "species"},
+    ], "rows": []}
+    incoming_rows = []
+    for index in range(8):
+        cells = []
+        for value in [str(index), "A", "DRY WIG", None]:
+            cells.append({"bbox": [0, 0, 1, 1], "readings": [{
+                "model": "primary", "value": value, "confidence": .9,
+                "illegible": False,
+            }]})
+        shifted_table["rows"].append({"cells": cells})
+        incoming_rows.append({"values": [None, str(index), "A", "DRY WIG"]})
+    assert canonical._repair_left_shifted_existing_readings(
+        shifted_table, incoming_rows, 4, "peer")
+    assert [cell["readings"][0]["value"]
+            for cell in shifted_table["rows"][2]["cells"]] == [None, "2", "A", "DRY WIG"]
+
     sparse_table = {"columns": [
         {"id": "species", "value_kind": "species"},
         {"id": "height", "value_kind": "decimal"},

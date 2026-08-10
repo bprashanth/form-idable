@@ -162,6 +162,8 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
             continue
         ncols = len(table["columns"])
         source_rows = source.get("rows") or []
+        _repair_left_shifted_existing_readings(
+            table, source_rows, ncols, model)
         omitted_column = _omitted_compound_identifier_column(
             table["columns"], source_rows)
         omitted_leading = _omitted_sparse_leading_column(table["columns"], source_rows)
@@ -322,6 +324,74 @@ def _ordinal_alignment_is_safe(rows, source_rows, ncols, model):
     aligned = score(0)
     shifted = max(score(-1), score(1))
     return aligned >= .7 and aligned >= shifted + .15
+
+
+def _repair_left_shifted_existing_readings(table, source_rows, ncols, model):
+    """Restore an omitted leading blank when the peer proves a column shift.
+
+    This is deliberately stricter than ordinary disagreement resolution: the
+    row counts must agree, the incoming reader must preserve the leading blank,
+    the existing reader must have a trailing blank, and a one-cell shift must
+    explain most nonblank values across the whole table.
+    """
+    rows = table.get("rows") or []
+    if len(rows) < 8 or len(rows) != len(source_rows) or ncols < 3:
+        return False
+    existing_model = next((reading.get("model")
+                           for row in rows for cell in row.get("cells") or []
+                           for reading in cell.get("readings") or []
+                           if reading.get("model") != model), None)
+    if not existing_model:
+        return False
+
+    candidates = []
+    leading_blank = trailing_blank = 0
+    for row, raw_row in zip(rows, source_rows):
+        existing = []
+        for cell in (row.get("cells") or [])[:ncols]:
+            reading = next((item for item in cell.get("readings") or []
+                            if item.get("model") == existing_model), None)
+            existing.append(norm_value(reading.get("value")) if reading else "")
+        incoming = [norm_value(value) for value in list(raw_row.get("values") or [])[:ncols]]
+        incoming += [""] * (ncols - len(incoming))
+        leading_blank += not incoming[0]
+        trailing_blank += not existing[-1]
+        pairs = [(a, b) for a, b in zip(existing[:-1], incoming[1:]) if a and b]
+        if len(pairs) >= 2:
+            candidates.append(sum(a == b for a, b in pairs) / len(pairs))
+    if (leading_blank / len(rows) < .9 or trailing_blank / len(rows) < .9
+            or len(candidates) < len(rows) * .7
+            or sum(candidates) / len(candidates) < .8):
+        return False
+
+    for row in rows:
+        cells = (row.get("cells") or [])[:ncols]
+        snapshots = []
+        for cell in cells:
+            reading = next((item for item in cell.get("readings") or []
+                            if item.get("model") == existing_model), None)
+            snapshots.append(dict(reading) if reading else None)
+        for index, cell in enumerate(cells):
+            reading = next((item for item in cell.get("readings") or []
+                            if item.get("model") == existing_model), None)
+            if reading is None:
+                continue
+            if index == 0:
+                reading.update({"value": None, "confidence": 0.0, "illegible": False,
+                                "missing": False, "bbox": cell.get("bbox")})
+            elif snapshots[index - 1] is not None:
+                reading.update(snapshots[index - 1])
+                reading["bbox"] = cell.get("bbox")
+            cell["layout_repair"] = (
+                f"shifted {existing_model} one column right after response-wide "
+                "leading/trailing blank alignment")
+        values = []
+        for cell in cells:
+            reading = next((item for item in cell.get("readings") or []
+                            if item.get("model") == existing_model), None)
+            values.append(reading.get("value") if reading else None)
+        row["key_fingerprint"] = _row_key_fingerprint(table.get("columns") or [], values)
+    return True
 
 
 def _reading(raw, model, default_bbox):
