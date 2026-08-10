@@ -348,7 +348,8 @@ def prepare_structures(form_dir: Path, schema_model: str, tag: str,
 
 
 def run(form_dir: Path, schema_model: str, models: list[str], tag: str,
-        page_numbers: list[int] | None = None, *, reuse_structure=False) -> dict:
+        page_numbers: list[int] | None = None, *, reuse_structure=False,
+        progress_callback=None) -> dict:
     output = form_dir / "canonical_outputs" / tag
     output.mkdir(parents=True, exist_ok=True)
     page_count = fitz.open(form_dir / "input.pdf").page_count
@@ -372,6 +373,8 @@ def run(form_dir: Path, schema_model: str, models: list[str], tag: str,
         pages.append(page)
         print(f"page {page_number}/{page_count}: {len(page['tables'])} tables, "
               f"{sum(len(t['rows']) for t in page['tables'])} aligned rows", flush=True)
+        if progress_callback:
+            progress_callback(page_number, len(selected_pages))
 
     document = canonical.new_document(str(form_dir / "input.pdf"), pages, models)
     canonical.resolve(document)
