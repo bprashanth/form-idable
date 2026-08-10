@@ -13,6 +13,18 @@ from pathlib import Path
 VERSION = "formidable-analytics-v1"
 
 
+def _identifier_like(label):
+    """Catch row keys even when a reader omitted the value-kind hint."""
+    leaf = str(label or "").rsplit("/", 1)[-1].strip().casefold()
+    leaf = re.sub(r"[._-]+", " ", leaf)
+    leaf = " ".join(leaf.split())
+    return bool(re.fullmatch(
+        r"(?:s(?:l)?\s*(?:no|number)|serial(?:\s*(?:no|number))?|"
+        r"row(?:\s*(?:no|number|id))?|identifier|timestamp|date|time)",
+        leaf,
+    ))
+
+
 def _number(value):
     if value is None or isinstance(value, bool):
         return None
@@ -88,7 +100,8 @@ def build(document, ecology=None):
     for (_table, _column, label, value_kind), raw_values in groups.items():
         # Row keys, dates and timestamps have high cardinality by design; their
         # histograms consume attention without describing the measured system.
-        if value_kind in {"identifier", "serial", "date", "time"}:
+        if (value_kind in {"identifier", "serial", "date", "time"}
+                or _identifier_like(label)):
             continue
         present = [value for value in raw_values if str(value or "").strip()]
         numeric = [value for value in (_number(item) for item in present) if value is not None]

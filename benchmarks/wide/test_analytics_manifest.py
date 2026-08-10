@@ -29,8 +29,8 @@ def main():
     assert categorical["values"] == [{"label": "Y", "count": 4}, {"label": "N", "count": 4}]
 
     identifier_document = {"pages": [{"page_number": 1, "tables": [{
-        "id": "t", "title": "", "columns": [{"id": "serial", "label": "S No",
-                                                  "value_kind": "identifier"}],
+        "id": "t", "title": "", "columns": [{"id": "serial", "label": "S. No",
+                                                  "value_kind": "unknown"}],
         "rows": [{"cells": [{"value": str(index), "status": "agreement"}]}
                  for index in range(8)],
     }]}]}
