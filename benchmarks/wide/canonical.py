@@ -161,16 +161,34 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
         if not source:
             continue
         ncols = len(table["columns"])
-        for row_index, raw_row in enumerate(source.get("rows") or []):
+        source_rows = source.get("rows") or []
+        omitted_column = _omitted_compound_identifier_column(
+            table["columns"], source_rows)
+        for row_index, raw_row in enumerate(source_rows):
             region = row_bbox(raw_row.get("bbox"))
             if region is None:
                 continue
             values = list(raw_row.get("values") or [])[:ncols]
+            if omitted_column is not None and len(values) == ncols - 1:
+                source_index, target_index = omitted_column
+                match = re.fullmatch(
+                    r"\s*(\d+)\s*([A-Za-z])\s*", str(values[source_index] or ""))
+                if match:
+                    values[source_index] = match.group(1)
+                    values.insert(target_index, match.group(2))
             values += [None] * (ncols - len(values))
             confidences = list(raw_row.get("confidences") or [])[:ncols]
+            if omitted_column is not None and len(confidences) == ncols - 1:
+                source_index, target_index = omitted_column
+                confidence = confidences[source_index] if source_index < len(confidences) else 0.0
+                confidences.insert(target_index, confidence)
             confidences += [0.0] * (ncols - len(confidences))
             illegible = {int(x) for x in (raw_row.get("illegible_columns") or [])
                          if str(x).lstrip("-").isdigit()}
+            if omitted_column is not None:
+                _source_index, target_index = omitted_column
+                illegible = {index + 1 if index >= target_index else index
+                             for index in illegible}
             row_id = str(raw_row.get("row_id") or f"y{region[1]:.4f}")
             fingerprint = _row_key_fingerprint(table["columns"], values)
             # Match rows by printed identifiers before geometry. Model bbox
@@ -207,6 +225,34 @@ def attach_extraction(page: dict[str, Any], raw: dict[str, Any], model: str) -> 
                     "bbox": cell["bbox"],
                 })
     return page
+
+
+def _omitted_compound_identifier_column(columns, rows):
+    """Find a consistently omitted code column without using expected values.
+
+    Some readers merge a numeric identifier and a one-letter subidentifier,
+    then emit every remaining value one slot early. Repair is permitted only
+    for a response-wide, one-column-short pattern with a strong signature.
+    """
+    if len(rows) < 8 or not columns:
+        return None
+    value_rows = [list(row.get("values") or []) for row in rows]
+    short_fraction = sum(len(values) == len(columns) - 1 for values in value_rows) / len(value_rows)
+    if short_fraction < .9:
+        return None
+    for source_index in range(len(columns) - 1):
+        source_kind = str(columns[source_index].get("value_kind") or "").casefold()
+        target_kind = str(columns[source_index + 1].get("value_kind") or "").casefold()
+        if source_kind not in {"identifier", "integer"}:
+            continue
+        if target_kind not in {"identifier", "categorical_code"}:
+            continue
+        eligible = [values for values in value_rows if len(values) > source_index]
+        matches = [re.fullmatch(r"\s*\d+\s*[A-Za-z]\s*", str(values[source_index] or ""))
+                   for values in eligible]
+        if eligible and sum(match is not None for match in matches) / len(eligible) >= .9:
+            return source_index, source_index + 1
+    return None
 
 
 def _reading(raw, model, default_bbox):

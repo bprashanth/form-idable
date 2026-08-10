@@ -97,6 +97,32 @@ def main():
         [keyed_row], "y_0.8", [0, .8, 1, .82], "peer", "man9685a"
     ) is keyed_row
 
+    short_rows = [{"values": ["MAN", "9", "6", f"{number}A", "PALELL", "5.2"]}
+                  for number in range(85, 93)]
+    assert canonical._omitted_compound_identifier_column(
+        key_columns + [{"value_kind": "decimal"}], short_rows
+    ) == (3, 4)
+
+    shifted_page = canonical.normalize_structure({
+        "metadata_fields": [], "free_text_regions": [], "tables": [{
+            "id": "trees", "bbox": [0, 0, 1, 1], "columns": [
+                {"id": f"c{i}", "label": f"c{i}", "value_kind": column["value_kind"],
+                 "x0": i / 7, "x1": (i + 1) / 7}
+                for i, column in enumerate(key_columns + [{"value_kind": "decimal"}])
+            ],
+        }],
+    }, 1)
+    canonical.attach_extraction(shifted_page, {"tables": [{
+        "table_id": "trees", "rows": [dict(
+            row, row_id=str(index), bbox=[0, index / 20, 1, (index + 1) / 20],
+            confidences=[.9] * 6)
+            for index, row in enumerate(short_rows, 1)]
+    }]}, "peer")
+    first_shifted = shifted_page["tables"][0]["rows"][0]
+    assert [cell["readings"][0]["value"] for cell in first_shifted["cells"]] == [
+        "MAN", "9", "6", "85", "A", "PALELL", "5.2"]
+    assert first_shifted["key_fingerprint"] == "man9685a"
+
     sparse_table = {"columns": [
         {"id": "species", "value_kind": "species"},
         {"id": "height", "value_kind": "decimal"},
