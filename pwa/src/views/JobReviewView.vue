@@ -115,6 +115,25 @@
         >
           <span class="material-symbols-outlined text-lg">fit_screen</span>
         </button>
+        <template v-if="reviewManifest">
+          <div class="w-px h-4 bg-outline-variant/40 mx-1" />
+          <button
+            class="p-1.5 rounded-sm text-on-surface-variant hover:bg-surface-container transition-colors"
+            title="Rotate page left"
+            data-testid="rotate-page-left"
+            @click="rotatePage(-90)"
+          >
+            <span class="material-symbols-outlined text-lg">rotate_left</span>
+          </button>
+          <button
+            class="p-1.5 rounded-sm text-on-surface-variant hover:bg-surface-container transition-colors"
+            title="Rotate page right"
+            data-testid="rotate-page-right"
+            @click="rotatePage(90)"
+          >
+            <span class="material-symbols-outlined text-lg">rotate_right</span>
+          </button>
+        </template>
         <span class="ml-3 text-[10px] text-on-surface-variant">
           {{ imgZoom > 1 ? 'Drag to pan · Hover crop to sync table · Click to inspect' : 'Hover crop to sync table · Click to inspect · Scroll or +/− to zoom' }}
         </span>
@@ -608,6 +627,7 @@ const imgNatH    = ref(0)
 const imgZoom    = ref(1)
 const panX       = ref(0)
 const panY       = ref(0)
+const pageRotation = ref(0)
 
 // Sync Excel scroll (both axes) on pan; skip the default (0,0) position on initial load.
 watch([panX, panY], ([x, y]) => {
@@ -724,7 +744,7 @@ const canvasStyle = computed(() => {
     ? (dragMoved ? 'grabbing' : 'grab')
     : (z > 1 ? 'grab' : 'default')
   return {
-    transform:  `scale(${z}) translate(${panX.value}px, ${panY.value}px)`,
+    transform:  `scale(${z}) translate(${panX.value}px, ${panY.value}px) rotate(${pageRotation.value}deg)`,
     transformOrigin: 'center center',
     cursor: cur,
     willChange: 'transform',
@@ -799,10 +819,18 @@ function fitToViewport() {
   if (!viewport.value || !imgNatW.value) return
   const vw = viewport.value.clientWidth  - 48
   const vh = viewport.value.clientHeight - 48
-  const scale = Math.min(1, vw / imgNatW.value, vh / imgNatH.value)
+  const sideways = Math.abs(pageRotation.value) % 180 === 90
+  const displayW = sideways ? imgNatH.value : imgNatW.value
+  const displayH = sideways ? imgNatW.value : imgNatH.value
+  const scale = Math.min(1, vw / displayW, vh / displayH)
   imgZoom.value = Math.max(0.1, scale)
   panX.value = 0
   panY.value = 0
+}
+
+function rotatePage(delta) {
+  pageRotation.value = (pageRotation.value + delta + 360) % 360
+  nextTick(fitToViewport)
 }
 
 // ── Zoom controls ────────────────────────────────────────────────────────────
@@ -856,8 +884,13 @@ function onImgClick(e) {
   if (dragMoved) { dragMoved = false; return }
   resetModalZoom()
   const rect  = pageImg.value.getBoundingClientRect()
-  const fracX = (e.clientX - rect.left) / rect.width
-  const fracY = (e.clientY - rect.top)  / rect.height
+  const visualX = (e.clientX - rect.left) / rect.width
+  const visualY = (e.clientY - rect.top)  / rect.height
+  const rotation = pageRotation.value
+  const [fracX, fracY] = rotation === 90 ? [visualY, 1 - visualX]
+    : rotation === 180 ? [1 - visualX, 1 - visualY]
+      : rotation === 270 ? [1 - visualY, visualX]
+        : [visualX, visualY]
   const rows  = estimateRows(fracY, xlsxRows.value, 4)
   modal.value = { type: 'free', fracX, fracY, note: null, rows }
   nextTick(() => drawZoom(fracX, fracY))
@@ -1042,6 +1075,7 @@ function goPage(n) {
   if (n < 1 || n > totalPages.value) return
   currentPage.value = n
   imgZoom.value = 1; panX.value = 0; panY.value = 0
+  pageRotation.value = 0
   closeModal()
 }
 

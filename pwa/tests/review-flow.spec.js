@@ -214,6 +214,7 @@ test.describe('Review page', () => {
     await expect(page.locator('[data-testid="review-summary"]')).toHaveCount(0)
     await expect(page.locator('[data-testid^="attention-"]')).toHaveCount(0)
     await expect(page.locator('[data-testid^="ecology-overlay-"]')).toHaveCount(0)
+    await expect(page.locator('[data-testid="rotate-page-right"]')).toHaveCount(0)
     await page.locator('[data-testid="analytics-nav"]').click()
     await expect(page).toHaveURL(`/review/${JOB_ID}`)
   })
@@ -267,6 +268,9 @@ test.describe('Focused review queues', () => {
     await expect(page.locator('[data-testid="review-summary"]')).toBeVisible()
     await expect(page.locator('[data-testid^="attention-"]').first()).toBeVisible()
     await expect(page.locator('[data-testid^="ecology-overlay-"]').first()).toBeVisible()
+    await page.locator('[data-testid="rotate-page-right"]').click()
+    await expect(page.locator('[data-testid="page-image-wrapper"]'))
+      .toHaveAttribute('style', /rotate\(90deg\)/)
 
     await page.locator('[data-testid="review-mode-attention"]').click()
     await expect(page.locator('[data-testid="attention-queue"]')).toContainText('literal readers disagree')
