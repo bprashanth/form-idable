@@ -109,6 +109,23 @@ def finding(record, code, severity, message, **extra):
             "observed": record.value, **extra}
 
 
+def taxon_query(value):
+    """Choose one taxon-shaped line from a cell without inventing a name.
+
+    Survey cells often retain both a common name and a scientific binomial.
+    The catalogue should check the written binomial, not concatenate the two.
+    Single-line values are left literal so common-name matching still works.
+    """
+    lines = [" ".join(line.split()) for line in str(value or "").splitlines()
+             if line.strip()]
+    if len(lines) > 1:
+        binomials = [line for line in lines if re.fullmatch(
+            r"[A-Z][a-z]+(?:\s+[a-z][a-z.-]+){1,2}", line)]
+        if binomials:
+            return binomials[-1]
+    return " ".join(str(value or "").split())
+
+
 def numeric_findings(records):
     findings = []
     hard_bounds = {"percent": (0, 100), "ph": (0, 14), "latitude": (-90, 90),
@@ -162,16 +179,17 @@ def taxonomy_findings(records, client, latitude=None, longitude=None):
                 or not str(record.value or "").strip()):
             continue
         original = " ".join(str(record.value).split())
-        if original.casefold() in cache:
-            match, source = cache[original.casefold()]
+        query = taxon_query(record.value)
+        if query.casefold() in cache:
+            match, source = cache[query.casefold()]
         else:
             try:
-                match, source = client.match(original)
+                match, source = client.match(query)
             except Exception as error:  # network failure is not a data finding
                 findings.append(finding(record, "taxonomy_check_unavailable", "info",
                                         f"GBIF lookup failed: {type(error).__name__}", proposed_value=None))
                 continue
-            cache[original.casefold()] = (match, source)
+            cache[query.casefold()] = (match, source)
         canonical_name = match.get("canonicalName")
         confidence = int(match.get("confidence") or 0)
         if not canonical_name or confidence < 90:
@@ -180,18 +198,20 @@ def taxonomy_findings(records, client, latitude=None, longitude=None):
                 f"GBIF did not return a high-confidence taxon match (confidence {confidence})",
                 gbif=match, source_url=source, proposed_value=None))
             continue
-        distance = edit_distance(original, canonical_name)
+        distance = edit_distance(query, canonical_name)
         # A large difference commonly means GBIF resolved a common name or
         # synonym to its scientific canonical name. That is useful matching
         # context, not evidence that the written value needs review.
-        if original.casefold() != canonical_name.casefold() and distance <= 3:
+        if query.casefold() != canonical_name.casefold() and distance <= 3:
             severity = "medium" if confidence >= 95 else "info"
+            proposed = (canonical_name if query.casefold() == original.casefold()
+                        else original.replace(query, canonical_name))
             findings.append(finding(
                 record, "taxonomy_spelling_suggestion", severity,
                 f"GBIF matched this name to {canonical_name!r} (confidence {confidence})",
                 gbif=match, source_url=source,
-                proposed_value=canonical_name if severity == "medium" else None,
-                edit_distance=distance))
+                proposed_value=proposed if severity == "medium" else None,
+                matched_input=query, edit_distance=distance))
         if latitude is not None and longitude is not None and match.get("usageKey"):
             try:
                 occurrence, occurrence_url = client.nearby_count(
