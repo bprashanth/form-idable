@@ -143,8 +143,10 @@ values. Include marginal annotations as free-text regions.
 
 EXTRACT_PROMPT = """You are the visual transcription stage of a general paper-form
 digitizer. You receive one full-page overview followed by focused high-resolution
-crops of the declared tables, lists, metadata, and notes. They show the SAME
-page; do not duplicate rows or fields across crops.
+crops of the declared tables, lists, metadata, and notes. Tall table crops are
+horizontal bands with the printed header repeated above each band; adjacent
+bands may overlap by one row. They show the SAME page; deduplicate by literal
+row key and do not duplicate rows or fields across crops.
 
 The structure stage's schema is below. Populate it exactly. For every table
 row with recorded content, return one values array in the declared column
@@ -160,7 +162,15 @@ common value merely to make the table complete. Use null for a visibly blank
 cell. If ink is present but unreadable, also use null and list that zero-based
 column index in illegible_columns. A low-confidence guess is worse than an
 explicit unreadable cell. Printed legends are context for interpreting marks,
-not permission to snap ambiguous ink onto a legal value.
+not permission to snap ambiguous ink onto a legal value. Honor each column's
+declared value_kind: for example, an integer cell must be transcribed as a
+numeral rather than an alphabetic lookalike. Resolve an ambiguous glyph using
+only a legend visibly printed on this same page; if no such legend applies,
+return null and mark the column illegible instead of coercing it.
+
+Before answering, cross-check the nonblank row keys across every table band.
+Include the first and last recorded row exactly once, and do not silently drop
+a partially filled final row.
 
 Row and field bboxes are full-page fractions. Every row bbox is strictly
 `[left, top, right, bottom]`: first/third are horizontal x coordinates and
@@ -198,16 +208,43 @@ def render_page_inputs(form_dir: Path, page: int) -> tuple[Path, list[Path]]:
     return overview, tiles
 
 
+def _table_band_boxes(table: dict, *, rows_per_band: int = 12,
+                      overlap: int = 1) -> list[tuple[list[float], list[float]]]:
+    """Return (header, data) page-coordinate boxes for a tall ruled table."""
+    rows = max(0, int(table.get("estimated_rows") or 0))
+    if rows <= 20:
+        return []
+    x0, y0, x1, y1 = (float(value) for value in table["bbox"])
+    header_rows = 2 if any(column.get("parent") for column in
+                           table.get("columns") or []) else 1
+    row_height = (y1 - y0) / max(1, rows + header_rows)
+    data_top = y0 + header_rows * row_height
+    header = [x0, y0, x1, data_top]
+    result = []
+    step = max(1, rows_per_band - overlap)
+    for start in range(0, rows, step):
+        end = min(rows, start + rows_per_band)
+        result.append((header, [x0, data_top + start * row_height,
+                                x1, data_top + end * row_height]))
+        if end == rows:
+            break
+    return result
+
+
 def render_declared_crops(form_dir: Path, page: int, structure: dict,
-                          *, limit: int = 6) -> list[Path]:
+                          *, limit: int = 8) -> list[Path]:
     """Render schema-derived evidence regions at high zoom, sector-agnostically."""
     output = form_dir / "canonical_tiles"
     regions = []
     # Repeated data gets priority because small table handwriting is the main
     # fixed-tile failure. Notes come next. Metadata fields are combined into a
     # single envelope so headers do not consume the entire image budget.
-    for item in structure.get("tables") or []:
-        if item.get("bbox"):
+    tables = [item for item in structure.get("tables") or [] if item.get("bbox")]
+    for item in tables:
+        bands = _table_band_boxes(item)
+        if bands:
+            regions.extend(("table_band", pair) for pair in bands)
+        else:
             regions.append(("table", item["bbox"]))
     for item in structure.get("free_text_regions") or []:
         if item.get("bbox"):
@@ -220,24 +257,52 @@ def render_declared_crops(form_dir: Path, page: int, structure: dict,
             max(box[2] for box in metadata), max(box[3] for box in metadata),
         ]))
 
-    paths = []
-    for index, (kind, raw_box) in enumerate(regions[:limit]):
+    def padded(raw_box):
         try:
             x0, y0, x1, y1 = (float(value) for value in raw_box)
         except (TypeError, ValueError):
-            continue
+            return None
         pad = .012
         box = [max(0, x0 - pad), max(0, y0 - pad),
                min(1, x1 + pad), min(1, y1 + pad)]
         if box[2] <= box[0] or box[3] <= box[1]:
-            continue
+            return None
+        return box
+
+    def render(box, destination):
+        subprocess.run([
+            sys.executable, str(wide_bench.RENDER), str(form_dir / "input.pdf"),
+            "--page", str(page), "--bbox", ",".join(str(value) for value in box),
+            "--zoom", "10", "--out", str(destination),
+        ], check=True, capture_output=True)
+
+    paths = []
+    for index, (kind, raw_box) in enumerate(regions[:limit]):
         path = output / f"page_{page}_declared_{index}_{kind}.png"
-        if not path.exists():
-            subprocess.run([
-                sys.executable, str(wide_bench.RENDER), str(form_dir / "input.pdf"),
-                "--page", str(page), "--bbox", ",".join(str(value) for value in box),
-                "--zoom", "10", "--out", str(path),
-            ], check=True, capture_output=True)
+        if kind == "table_band":
+            header_box, data_box = raw_box
+            header_box, data_box = padded(header_box), padded(data_box)
+            if header_box is None or data_box is None:
+                continue
+            if not path.exists():
+                with tempfile.TemporaryDirectory(prefix="formidable-band-") as temporary:
+                    header_path = Path(temporary) / "header.png"
+                    data_path = Path(temporary) / "data.png"
+                    render(header_box, header_path)
+                    render(data_box, data_path)
+                    header = Image.open(header_path).convert("RGB")
+                    data = Image.open(data_path).convert("RGB")
+                    width = max(header.width, data.width)
+                    stacked = Image.new("RGB", (width, header.height + data.height), "white")
+                    stacked.paste(header, (0, 0))
+                    stacked.paste(data, (0, header.height))
+                    stacked.save(path)
+        else:
+            box = padded(raw_box)
+            if box is None:
+                continue
+            if not path.exists():
+                render(box, path)
         paths.append(path)
     return paths
 
@@ -399,6 +464,60 @@ def codex_json(model: str, prompt: str, images: list[Path], schema: dict,
         }
 
 
+def claude_json(model: str, prompt: str, images: list[Path], schema: dict,
+                *, thinking: str = "minimal") -> tuple[dict, dict]:
+    """Strict structured vision through Claude Code's OAuth credential.
+
+    Replacing Claude Code's large default system prompt is material here: the
+    generic coding-agent preamble cost roughly 40k cached tokens in a two-field
+    image probe. The reader gets only the Read tool, the named evidence images,
+    and the literal-transcription contract.
+    """
+    del thinking  # Claude Code chooses the configured model's reasoning policy.
+    started = time.time()
+    image_list = "\n".join(f"- {image.resolve()}" for image in images)
+    reader_prompt = (
+        f"{prompt}\n\nUse the Read tool to inspect every evidence image below before "
+        f"answering. Return only facts visible in those pixels.\n{image_list}"
+    )
+    command = [
+        "claude", "-p", "--model", model,
+        "--output-format", "json", "--json-schema", json.dumps(schema),
+        "--permission-mode", "dontAsk", "--tools", "Read",
+        "--allowedTools", "Read", "--no-session-persistence",
+        "--system-prompt",
+        ("You are a literal visual form reader. Use Read only for the named "
+         "images. Preserve printed structure, handwriting, blanks, ditto marks, "
+         "and uncertainty. Never repair values with domain knowledge."),
+        reader_prompt,
+    ]
+    try:
+        result = subprocess.run(command, text=True, capture_output=True,
+                                timeout=900, check=False)
+    except subprocess.TimeoutExpired as error:
+        raise RuntimeError(f"Claude {model} timed out after 900 seconds") from error
+    if result.returncode != 0:
+        detail = (result.stderr or result.stdout)[-1000:]
+        raise RuntimeError(f"Claude {model} failed rc={result.returncode}: {detail}")
+    try:
+        envelope = json.loads(result.stdout)
+        parsed = envelope.get("structured_output")
+        if not isinstance(parsed, dict):
+            parsed = json.loads(envelope["result"])
+    except (json.JSONDecodeError, KeyError, TypeError) as error:
+        raise RuntimeError(f"Claude {model} returned invalid structured JSON") from error
+    usage = envelope.get("usage") or {}
+    return parsed, {
+        "provider": "claude_subscription", "model": model,
+        "in_tok": usage.get("input_tokens"),
+        "out_tok": usage.get("output_tokens"),
+        "cache_creation_tok": usage.get("cache_creation_input_tokens"),
+        "cache_read_tok": usage.get("cache_read_input_tokens"),
+        "thinking_tok": None, "cost_usd": envelope.get("total_cost_usd"),
+        "latency_s": round(time.time() - started, 1),
+    }
+
+
 def provider_json(model_spec: str, prompt: str, images: list[Path], schema: dict,
                   *, thinking: str = "minimal") -> tuple[dict, dict]:
     if model_spec.startswith("openrouter:"):
@@ -407,6 +526,9 @@ def provider_json(model_spec: str, prompt: str, images: list[Path], schema: dict
     if model_spec.startswith("codex:"):
         return codex_json(model_spec.split(":", 1)[1], prompt, images, schema,
                           thinking=thinking)
+    if model_spec.startswith("claude:"):
+        return claude_json(model_spec.split(":", 1)[1], prompt, images, schema,
+                           thinking=thinking)
     return gemini_json(model_spec, prompt, images, schema, thinking=thinking)
 
 

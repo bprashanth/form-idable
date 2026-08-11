@@ -60,7 +60,7 @@ A user authenticates against Cognito through the PWA and receives a short-lived 
 
 When a user uploads a PDF, the Lambda writes the file to S3 under `formidable/jobs/{job_id}/input.pdf`, creates a DynamoDB record with status `queued`, and stores the requested `effort`. `low` launches the existing `formidable-worker`; `high` launches the separate `formidable-high-worker`. Historical jobs without this field are always low. The Lambda returns the job ID immediately without waiting for the worker.
 
-The low worker downloads the PDF, renders each page, and runs `codex exec` exactly as before. The high worker first maps page geometry, then reads every declared cell with Gemini 3.6 Flash (immutable primary) and Gemini 3.5 Flash (peer) through OpenRouter. Disagreements select red human-attention regions and never replace the primary. A separate ecology pass creates orange, suggestion-only findings. High additionally writes `canonical.json`, `review_manifest.json`, `analytics.json`, `ecology_review.json`, `run.json`, and raw reader evidence.
+The low worker downloads the PDF, renders each page, and runs `codex exec` exactly as before. The additive high API/UI contract also supports `canonical.json`, `review_manifest.json`, `analytics.json`, `ecology_review.json`, `run.json`, and raw reader evidence. The original Gemini/OpenRouter high image is currently rolled back and unavailable because its provider credit is depleted. Codex-only and Claude-only replacements failed the local accuracy gate and have not been deployed. The candidate now under local evaluation retains the frozen low workbook as immutable primary content and uses Terra/Luna peer consensus only to select red review regions; ecology remains orange and suggestion-only. See `chronology/013_subscription_reader_gates_and_additive_primary.md`.
 
 ```
 formidable/jobs/{job_id}/
@@ -171,10 +171,11 @@ USER_ID                 Cognito user ID, injected per-task
 NOTIFICATION_EMAIL      Recipient email, injected per-task if provided
 ```
 
-The high worker instead reads `PROVIDER_SECRET_NAME` (the OpenRouter key) and
-publishes optional high-only artifacts. Its Fargate runtime is explicitly
-ARM64; the existing Lambda remains x86_64 and the low task/image is not
-re-registered by `push_high.sh`.
+The locally gated high candidate reads the same `CODEX_SECRET_NAME` credential
+as low but pins a separate Codex CLI/image and model roles. It has not replaced
+the rolled-back production high image. Any accepted high image publishes only
+optional high artifacts; its Fargate runtime is ARM64, the Lambda remains
+x86_64, and `push_high.sh` never re-registers the frozen low task/image.
 
 The PWA reads one build-time variable:
 

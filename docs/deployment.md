@@ -79,11 +79,13 @@ and rerun. Roll back only the additive surfaces with:
 ./rollback_high.sh
 ```
 
-The provider config is read from
-`~/.config/formidable/openrouter.json` (override with
-`FORMIDABLE_OPENROUTER_CONFIG`) and stored in Secrets Manager. Never use the
-ordinary `push.sh` for a high-only release because it intentionally rebuilds
-the low worker too.
+The subscription-reader high candidate reads `formidable/codex-auth`, the same
+credential source as low, but from its own task role and isolated image.
+`HIGH_CODEX_VERSION` is pinned separately in `config.sh`; changing it requires
+the full local all-form gate. This candidate has not been deployed: the current
+rolled-back high image still references the historical OpenRouter secret and
+cannot process while that account has no credit. Never use the ordinary
+`push.sh` for a high-only release because it intentionally rebuilds low too.
 
 The component scripts remain available for diagnosis: `setup_high.sh`,
 `push_high.sh`, and `verify_high.sh`. The normal release path is

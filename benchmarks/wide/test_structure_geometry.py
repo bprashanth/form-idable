@@ -57,3 +57,21 @@ def test_geometry_restores_blank_rows_without_reducing_model_count(tmp_path: Pat
     assert len(table["rows"]) == 12
     assert table["rows"][-1]["cells"][0]["value"] == "12"
     assert table["rows"][-1]["cells"][0]["status"] == "agreement"
+
+
+def test_tall_table_bands_repeat_header_and_overlap():
+    table = {
+        "bbox": [0.1, 0.2, 0.9, 0.8], "estimated_rows": 49,
+        "columns": [{"parent": "Measurements"}, {"parent": "Measurements"}],
+    }
+    bands = structured_pipeline._table_band_boxes(table)
+
+    assert len(bands) == 5
+    assert all(header == bands[0][0] for header, _data in bands)
+    # Two header intervals precede 49 equal physical data intervals.
+    expected_data_top = 0.2 + 2 * (0.6 / 51)
+    assert abs(bands[0][1][1] - expected_data_top) < 1e-9
+    # 12-row bands advance by 11 rows, producing one-row overlap.
+    row_height = 0.6 / 51
+    assert abs(bands[1][1][1] - (expected_data_top + 11 * row_height)) < 1e-9
+    assert abs(bands[-1][1][3] - 0.8) < 1e-9

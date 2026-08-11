@@ -221,6 +221,7 @@ server/deploy/test-credentials.env
 benchmarks/high_runs/sweep_v1/
 benchmarks/high_runs/prod_sweep_v*/
 benchmarks/high_runs/codex_v*/
+benchmarks/high_runs/claude_v*/
 test-results/
 pwa/test-results/
 
