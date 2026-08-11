@@ -28,10 +28,16 @@ def download(url: str, target: Path) -> None:
 
 
 def literal_page_workbook(source: Path, target: Path) -> None:
-    """Exclude high-only audit sheets from literal transcription scoring."""
+    """Exclude only high-only audit sheets from transcription scoring.
+
+    A healthy agentic-primary route deliberately preserves Low's historical
+    single ``v2`` sheet. A structured fallback uses one ``pageN`` sheet per
+    paper page. Both are valid content layouts; deleting everything not named
+    ``page*`` would erase the primary route before it was scored.
+    """
     workbook = load_workbook(source)
     for sheet in list(workbook.worksheets):
-        if not sheet.title.lower().startswith("page"):
+        if sheet.title.casefold() == "ecology_review":
             workbook.remove(sheet)
     if not workbook.worksheets:
         raise RuntimeError(f"no literal page sheets in {source}")
@@ -86,6 +92,14 @@ def main() -> None:
             raise RuntimeError(f"bad analytics for {name}")
         if analytics["summary"]["pages"] != len(manifest["pages"]):
             raise RuntimeError(f"page count mismatch for {name}")
+        content_sheets = set(load_workbook(
+            run / "content_output.xlsx", read_only=True).sheetnames)
+        missing_sheets = sorted({
+            cell.get("xlsx_sheet") for cell in review.get("cells") or []
+            if cell.get("xlsx_sheet") and cell.get("xlsx_sheet") not in content_sheets
+        })
+        if missing_sheets:
+            raise RuntimeError(f"review coordinates reference missing sheets: {missing_sheets}")
         records.append({
             "fixture": name,
             "job_id": job["job_id"],
