@@ -600,6 +600,21 @@ function syncExcelScroll() {
   }
 }
 
+function scrollSharedWorkbookToPage() {
+  if (xlsxPages.value.length !== 1 || totalPages.value <= 1 || !xlsxPanel.value) return
+  const candidates = currentCrops.value
+    .map(crop => {
+      const [start, end = start] = String(crop.rows ?? '').split(':').map(Number)
+      return { start, span: end - start }
+    })
+    .filter(item => Number.isFinite(item.start))
+    .sort((a, b) => b.span - a.span || a.start - b.start)
+  const target = candidates[0]
+  if (!target) return
+  const row = xlsxPanel.value.querySelector(`tr[data-rownum="${target.start}"]`)
+  if (row) xlsxPanel.value.scrollTop = Math.max(0, row.offsetTop - 16)
+}
+
 // ── Data ─────────────────────────────────────────────────────────────────────
 const loading     = ref(true)
 const loadError   = ref(null)
@@ -1101,6 +1116,7 @@ function goPage(n) {
   imgZoom.value = 1; panX.value = 0; panY.value = 0
   pageRotation.value = 0
   closeModal()
+  nextTick(scrollSharedWorkbookToPage)
 }
 
 async function submitReview() {
