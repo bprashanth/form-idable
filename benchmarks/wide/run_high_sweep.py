@@ -51,6 +51,8 @@ def run_one(fixture: Path, output: Path, image: str, force: bool,
         raise RuntimeError(f"Cannot rebuild incomplete run {output}")
     if not finished.exists() or force or rebuild_from_evidence:
         started = time.time()
+        resume_existing = (rebuild_from_evidence or
+                           (not force and (output / "primary" / "output.xlsx").exists()))
         command = [
             "docker", "run", "--rm", "--memory", "8g", "--memory-swap", "8g",
             "-v", f"{(fixture / 'input.pdf').resolve()}:/input.pdf:ro",
@@ -67,7 +69,7 @@ def run_one(fixture: Path, output: Path, image: str, force: bool,
             image, "python3", "-c",
             "from pathlib import Path; from high_worker import process; "
             f"process(Path('/input.pdf'), Path('/run'), "
-            f"reuse_existing={rebuild_from_evidence!r})",
+            f"reuse_existing={resume_existing!r})",
         ]
         subprocess.run(command, check=True)
         (output / "wall_time.json").write_text(json.dumps({
@@ -120,6 +122,26 @@ def main() -> int:
         return run_one(fixture, args.output / fixture.name,
                        args.image, args.force, args.rebuild_from_evidence)
 
+    def record(fixture, result):
+        results_by_fixture[fixture.name] = result
+        results = [results_by_fixture[item.name] for item in selected
+                   if item.name in results_by_fixture]
+        (args.output / "summary.json").write_text(json.dumps({
+            "version": "formidable-high-sweep-v1",
+            "selected": [item.name for item in selected],
+            "completed": results,
+        }, indent=2) + "\n")
+        high = result["high"]
+        low = result["low"] or {}
+        print(f"  {fixture.name}: semantic F1 low={low.get('semantic_all_f1')} "
+              f"high={high.get('semantic_all_f1')}", flush=True)
+
+    if args.workers == 1:
+        for index, fixture in enumerate(selected, 1):
+            print(f"[{index}/{len(selected)}] {fixture.name}", flush=True)
+            record(fixture, finish(fixture))
+        return 0
+
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
         pending = {}
         for index, fixture in enumerate(selected, 1):
@@ -127,19 +149,7 @@ def main() -> int:
             pending[executor.submit(finish, fixture)] = fixture
         for future in concurrent.futures.as_completed(pending):
             fixture = pending[future]
-            result = future.result()
-            results_by_fixture[fixture.name] = result
-            results = [results_by_fixture[item.name] for item in selected
-                       if item.name in results_by_fixture]
-            (args.output / "summary.json").write_text(json.dumps({
-                "version": "formidable-high-sweep-v1",
-                "selected": [item.name for item in selected],
-                "completed": results,
-            }, indent=2) + "\n")
-            high = result["high"]
-            low = result["low"] or {}
-            print(f"  {fixture.name}: semantic F1 low={low.get('semantic_all_f1')} "
-                  f"high={high.get('semantic_all_f1')}", flush=True)
+            record(fixture, future.result())
     return 0
 
 

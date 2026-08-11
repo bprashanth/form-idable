@@ -443,15 +443,25 @@ def codex_json(model: str, prompt: str, images: list[Path], schema: dict,
         for image in images:
             command.extend(["--image", str(image.resolve())])
         command.append("-")
-        try:
-            result = subprocess.run(
-                command, input=prompt, text=True, capture_output=True,
-                timeout=900, check=False)
-        except subprocess.TimeoutExpired as error:
-            raise RuntimeError(f"Codex {model} timed out after 900 seconds") from error
-        if result.returncode != 0 or not output_path.exists():
+        retries = max(0, int(os.environ.get("FORMIDABLE_CODEX_TRANSIENT_RETRIES", "2")))
+        result = None
+        for attempt in range(1, retries + 2):
+            output_path.unlink(missing_ok=True)
+            try:
+                result = subprocess.run(
+                    command, input=prompt, text=True, capture_output=True,
+                    timeout=900, check=False)
+            except subprocess.TimeoutExpired as error:
+                raise RuntimeError(f"Codex {model} timed out after 900 seconds") from error
+            if result.returncode == 0 and output_path.exists():
+                break
             detail = (result.stderr or result.stdout)[-1000:]
-            raise RuntimeError(f"Codex {model} failed rc={result.returncode}: {detail}")
+            transient = any(marker in detail.casefold() for marker in (
+                "at capacity", "rate limit", "too many requests", "temporarily unavailable"))
+            if not transient or attempt > retries:
+                raise RuntimeError(f"Codex {model} failed rc={result.returncode}: {detail}")
+            time.sleep(min(45, 15 * attempt))
+        assert result is not None
         try:
             parsed = json.loads(output_path.read_text())
         except json.JSONDecodeError as error:
@@ -463,6 +473,7 @@ def codex_json(model: str, prompt: str, images: list[Path], schema: dict,
             "total_tok": int(match.group(1).replace(",", "")) if match else None,
             "thinking_tok": None, "cost_usd": None,
             "latency_s": round(time.time() - started, 1),
+            "attempts": attempt,
         }
 
 
@@ -676,7 +687,7 @@ def prepare_structures(form_dir: Path, schema_model: str, tag: str,
 
 def run(form_dir: Path, schema_model: str, models: list[str], tag: str,
         page_numbers: list[int] | None = None, *, reuse_structure=False,
-        progress_callback=None) -> dict:
+        reuse_existing=False, progress_callback=None) -> dict:
     output = form_dir / "canonical_outputs" / tag
     output.mkdir(parents=True, exist_ok=True)
     page_count = fitz.open(form_dir / "input.pdf").page_count
@@ -686,7 +697,8 @@ def run(form_dir: Path, schema_model: str, models: list[str], tag: str,
         if not 1 <= page_number <= page_count:
             raise ValueError(f"page {page_number} outside 1..{page_count}")
         overview, tiles, raw_structure, meta = _read_structure(
-            form_dir, output, page_number, schema_model, reuse=reuse_structure)
+            form_dir, output, page_number, schema_model,
+            reuse=reuse_structure or reuse_existing)
         geometry = refine_structure_geometry(raw_structure, overview)
         calls.append({"stage": "structure", "page": page_number,
                       "geometry_refinements": geometry, **meta})
@@ -698,15 +710,26 @@ def run(form_dir: Path, schema_model: str, models: list[str], tag: str,
         # Literal readers are intentionally independent. Run them concurrently
         # once the shared sector-agnostic schema exists, then attach responses
         # in declared primary/peer order so provenance remains deterministic.
+        def read_model(model):
+            raw_path = output / f"page_{page_number}__extract__{model_filename(model)}.json"
+            meta_path = output / f"page_{page_number}__extract__{model_filename(model)}.meta.json"
+            if reuse_existing and raw_path.exists():
+                raw = json.loads(raw_path.read_text())
+                meta = (json.loads(meta_path.read_text()) if meta_path.exists() else {
+                    "provider": "cached_evidence", "model": model,
+                    "cost_usd": 0, "latency_s": 0, "attempts": 0,
+                })
+                return raw, meta
+            raw, meta = provider_json(model, prompt, evidence_images, EXTRACTION_SCHEMA)
+            raw_path.write_text(json.dumps(raw, indent=2))
+            meta_path.write_text(json.dumps(meta, indent=2))
+            return raw, meta
+
         with concurrent.futures.ThreadPoolExecutor(max_workers=len(models)) as executor:
-            futures = [executor.submit(
-                provider_json, model, prompt, evidence_images, EXTRACTION_SCHEMA)
-                for model in models]
+            futures = [executor.submit(read_model, model) for model in models]
             responses = [future.result() for future in futures]
         for model, (raw, meta) in zip(models, responses):
             calls.append({"stage": "extract", "page": page_number, **meta})
-            (output / f"page_{page_number}__extract__{model_filename(model)}.json").write_text(
-                json.dumps(raw, indent=2))
             canonical.attach_extraction(page, raw, model)
         pages.append(page)
         print(f"page {page_number}/{page_count}: {len(page['tables'])} tables, "
