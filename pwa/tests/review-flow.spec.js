@@ -235,26 +235,33 @@ test.describe('Focused review queues', () => {
           },
           summary: {
             target_cells_including_blanks: 120,
-            transcription_review_cells: 1,
+            transcription_review_cells: 2,
             ecology_findings: 1,
           },
           cells: [{
-            id: 'p1:r1_c1', page: 1, xlsx_row: 2, xlsx_column: 2,
+            id: 'p1:r1_c1', page: 1, xlsx_sheet: 'page1', xlsx_row: 2, xlsx_column: 2,
             bbox: [0.2, 0.3, 0.3, 0.35], presented_value: '8.4',
+          }, {
+            id: 'p1:blank', page: 1, xlsx_sheet: 'page1', xlsx_row: 20, xlsx_column: 2,
+            bbox: [0.2, 0.4, 0.3, 0.45], presented_value: null,
           }],
           views: {
             transcription_attention: [{
               cell_id: 'p1:r1_c1', page: 1, bbox: [0.2, 0.3, 0.3, 0.35],
               priority: 'high', reason: 'literal readers disagree',
               presented_value: '8.4', alternatives: ['6.4'],
+            }, {
+              cell_id: 'p1:blank', page: 1, bbox: [0.2, 0.4, 0.3, 0.45],
+              priority: 'high', reason: 'peer recovered omitted content',
+              presented_value: null, alternatives: ['mark'],
             }],
             ecology_anomalies: [{
               finding_id: 1, code: 'within_form_numeric_outlier', severity: 'medium',
               message: '150 is a robust within-column outlier', label: 'Soil temperature',
               observed: '150', median: 8.2, mad: 1.1,
               proposed_value: null, bbox: [0.54, 0.3, 0.64, 0.35],
-              xlsx_row: 2, xlsx_column: 1,
-              location: { page: 1, bbox: [0.54, 0.3, 0.64, 0.35], xlsx_row: 2, xlsx_column: 1 },
+              xlsx_sheet: 'page1', xlsx_row: 2, xlsx_column: 1,
+              location: { page: 1, bbox: [0.54, 0.3, 0.64, 0.35], xlsx_sheet: 'page1', xlsx_row: 2, xlsx_column: 1 },
             }],
           },
         }),
@@ -282,6 +289,11 @@ test.describe('Focused review queues', () => {
     await page.locator('[data-testid="review-mode-ecology"]').click()
     await expect(page.locator('[data-testid="ecology-queue"]')).toContainText('robust within-column outlier')
     await expect(page.locator('[data-testid="ecology-queue"]')).toContainText('Flag only—no value was changed.')
+  })
+
+  test('renders review coordinates beyond the workbook used range', async ({ page }) => {
+    await expect(page.locator('[data-testid="xlsx-cell-1-20-1"]')).toHaveCSS(
+      'background-color', 'rgba(186, 26, 26, 0.14)')
   })
 
   test('opens the exact attention bbox for literal correction', async ({ page }) => {

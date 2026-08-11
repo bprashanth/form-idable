@@ -605,6 +605,7 @@ const loading     = ref(true)
 const loadError   = ref(null)
 const manifest    = ref(null)
 const xlsxPages   = ref([])
+const xlsxSheetNames = ref([])
 const reviewManifest = ref(null)
 const reviewMode  = ref('all')
 const currentPage = ref(1)
@@ -615,8 +616,17 @@ const zoomCanvas  = ref(null)
 // New exact-layout outputs contain one workbook sheet per paper page. Legacy
 // production workbooks may still be one flat sheet, so retain page one as the
 // explicit fallback instead of silently showing it as if it matched every page.
+const currentSheetIndex = computed(() => {
+  const exact = xlsxSheetNames.value.indexOf(`page${currentPage.value}`)
+  if (exact >= 0) return exact
+  return xlsxPages.value.length === 1 ? 0 : Math.min(
+    currentPage.value - 1, Math.max(0, xlsxPages.value.length - 1))
+})
+const currentSheetName = computed(() =>
+  xlsxSheetNames.value[currentSheetIndex.value] ?? null
+)
 const xlsxRows = computed(() =>
-  xlsxPages.value[currentPage.value - 1] ?? xlsxPages.value[0] ?? []
+  xlsxPages.value[currentSheetIndex.value] ?? xlsxPages.value[0] ?? []
 )
 
 // ── Image / zoom refs ────────────────────────────────────────────────────────
@@ -709,7 +719,7 @@ const reviewCellsByCoordinate = computed(() => {
   const attentionIds = new Set(allAttention.value.map(item => item.cell_id))
   for (const cell of reviewManifest.value?.cells ?? []) {
     if (attentionIds.has(cell.id) && cell.xlsx_row != null && cell.xlsx_column != null) {
-      result.set(`${cell.page}:${cell.xlsx_row}:${cell.xlsx_column}`, cell)
+      result.set(`${cell.xlsx_sheet}:${cell.xlsx_row}:${cell.xlsx_column}`, cell)
     }
   }
   return result
@@ -721,7 +731,7 @@ const ecologyCellsByCoordinate = computed(() => {
   const result = new Map()
   for (const item of allEcology.value) {
     if (item.xlsx_row != null && item.xlsx_column != null) {
-      result.set(`${item.page}:${item.xlsx_row}:${item.xlsx_column}`, item)
+      result.set(`${item.xlsx_sheet}:${item.xlsx_row}:${item.xlsx_column}`, item)
     }
   }
   return result
@@ -770,6 +780,9 @@ onMounted(async () => {
     const detail = await fetchJobDetail(jobId)
     manifest.value = detail.manifest
     xlsxPages.value = detail.xlsxPages?.length ? detail.xlsxPages : [detail.xlsxRows]
+    xlsxSheetNames.value = detail.xlsxSheetNames?.length
+      ? detail.xlsxSheetNames
+      : xlsxPages.value.map((_page, index) => `page${index + 1}`)
     reviewManifest.value = detail.reviewManifest
   } catch (e) {
     console.error('Failed to load job detail', e)
@@ -791,6 +804,9 @@ async function retryLoad() {
     const detail = await fetchJobDetail(jobId)
     manifest.value = detail.manifest
     xlsxPages.value = detail.xlsxPages?.length ? detail.xlsxPages : [detail.xlsxRows]
+    xlsxSheetNames.value = detail.xlsxSheetNames?.length
+      ? detail.xlsxSheetNames
+      : xlsxPages.value.map((_page, index) => `page${index + 1}`)
     reviewManifest.value = detail.reviewManifest
   } catch (e) {
     loadError.value = e.message ?? String(e)
@@ -992,10 +1008,10 @@ function getCellValue(rowNum, ci, cell) {
 
 function cellBgStyle(rowNum, ci, cell) {
   if (isCellCorrected(rowNum, ci)) return { backgroundColor: 'rgba(255,183,125,0.25)' }
-  if (reviewCellsByCoordinate.value.has(`${currentPage.value}:${rowNum}:${ci + 1}`)) {
+  if (reviewCellsByCoordinate.value.has(`${currentSheetName.value}:${rowNum}:${ci + 1}`)) {
     return { backgroundColor: 'rgba(186,26,26,0.14)', boxShadow: 'inset 0 0 0 1px rgba(186,26,26,0.35)' }
   }
-  if (ecologyCellsByCoordinate.value.has(`${currentPage.value}:${rowNum}:${ci + 1}`)) {
+  if (ecologyCellsByCoordinate.value.has(`${currentSheetName.value}:${rowNum}:${ci + 1}`)) {
     return { backgroundColor: 'rgba(251,146,60,0.18)', boxShadow: 'inset 0 0 0 1px rgba(234,88,12,0.35)' }
   }
   if (cell.color) {

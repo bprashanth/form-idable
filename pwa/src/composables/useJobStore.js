@@ -51,8 +51,6 @@ export function useJobStore() {
     if (!xlsxFetch.ok) throw new Error(`xlsx S3 fetch failed: ${xlsxFetch.status}`)
     const xlsxBuf  = await xlsxFetch.arrayBuffer()
     const wb       = XLSX.read(xlsxBuf, { type: 'array', cellStyles: true })
-    const xlsxPages = wb.SheetNames.map(name => _parseSheet(wb.Sheets[name]))
-    const xlsxRows = xlsxPages[0] ?? []
     let reviewManifest = null
     if (reviewRes.ok) {
       try {
@@ -63,8 +61,16 @@ export function useJobStore() {
         // not make the form or its original xlsx impossible to review.
       }
     }
+    const xlsxSheets = wb.SheetNames.map(name => ({
+      name,
+      rows: _parseSheet(wb.Sheets[name]),
+    }))
+    _ensureReviewCoordinates(xlsxSheets, reviewManifest)
+    const xlsxPages = xlsxSheets.map(sheet => sheet.rows)
+    const xlsxSheetNames = xlsxSheets.map(sheet => sheet.name)
+    const xlsxRows = xlsxPages[0] ?? []
 
-    cache[jobId] = { manifest, xlsxRows, xlsxPages, reviewManifest }
+    cache[jobId] = { manifest, xlsxRows, xlsxPages, xlsxSheetNames, reviewManifest }
     return cache[jobId]
   }
 
@@ -189,6 +195,32 @@ export function useJobStore() {
       rows.push({ rowNum: r + 1, cells })
     }
     return rows
+  }
+
+  function _ensureReviewCoordinates(sheets, reviewManifest) {
+    if (!reviewManifest) return
+    const byName = new Map(sheets.map(sheet => [sheet.name, sheet]))
+    for (const target of reviewManifest.cells ?? []) {
+      const sheet = byName.get(target.xlsx_sheet)
+      const rowNumber = Number(target.xlsx_row)
+      const columnNumber = Number(target.xlsx_column)
+      if (!sheet || !Number.isInteger(rowNumber) || rowNumber < 1
+          || !Number.isInteger(columnNumber) || columnNumber < 1) continue
+      const existingColumns = Math.max(
+        columnNumber,
+        ...sheet.rows.map(row => row.cells.length),
+        0,
+      )
+      while (sheet.rows.length < rowNumber) {
+        sheet.rows.push({
+          rowNum: sheet.rows.length + 1,
+          cells: Array.from({ length: existingColumns }, () => ({ value: '', color: null })),
+        })
+      }
+      for (const row of sheet.rows) {
+        while (row.cells.length < existingColumns) row.cells.push({ value: '', color: null })
+      }
+    }
   }
 
   function _cellColor(cell) {
