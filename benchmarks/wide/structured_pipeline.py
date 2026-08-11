@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures
 import json
+import os
 import re
 import subprocess
 import sys
@@ -433,7 +434,8 @@ def codex_json(model: str, prompt: str, images: list[Path], schema: dict,
         output_path = root / "output.json"
         schema_path.write_text(json.dumps(schema))
         command = [
-            "codex", "exec", "--ephemeral", "--ignore-user-config",
+            os.environ.get("FORMIDABLE_CODEX_BIN", "codex"),
+            "exec", "--ephemeral", "--ignore-user-config",
             "--skip-git-repo-check", "--sandbox", "read-only",
             "--model", model, "--output-schema", str(schema_path),
             "--output-last-message", str(output_path),

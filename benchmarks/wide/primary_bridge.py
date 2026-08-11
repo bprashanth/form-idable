@@ -493,9 +493,10 @@ def bind_primary(document: dict, canonical_xlsx: str | Path,
                         ranked_titles.append((_label_score(title, observed), binding))
                 if ranked_titles and max(ranked_titles, key=lambda item: item[0])[0] >= 0.5:
                     title_binding = max(ranked_titles, key=lambda item: item[0])[1]
-            data_binding = next((bindings.get((canonical_sheet_name,
-                                               row["cells"][0].get("xlsx_row")))
-                                 for row in rows if row.get("cells")), None)
+            data_binding = next((binding for row in rows if row.get("cells")
+                                 if (binding := bindings.get((
+                                     canonical_sheet_name,
+                                     row["cells"][0].get("xlsx_row"))))), None)
             anchor = title_binding or header_binding or data_binding
             if not anchor:
                 for row in rows:

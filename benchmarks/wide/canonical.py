@@ -861,7 +861,7 @@ def _write_value(cell, item):
                              for flag in ecology_flags)
     is_disagreement = status in {
         "disagreement", "majority_after_reread", "unresolved_after_reread",
-        "structural_anomaly"}
+        "structural_anomaly", "peer_consensus_disagreement"}
     # Human priority is transcription first: a cell that is both disputed and
     # ecologically unusual stays red. Ecology-only cells are orange.
     cell.fill = (RED if is_disagreement else ORANGE if has_ecology_review

@@ -13,14 +13,15 @@ def main():
         ]})
     document = {"pages": [{"page_number": 1,
         "metadata_fields": [{"value": "Plot 1", "status": "agreement"}],
-        "free_text_regions": [{"value": "margin note", "status": "disagreement"}],
+        "free_text_regions": [{"value": "margin note", "status": "disagreement"},
+                              {"value": "peer audit", "status": "peer_split"}],
         "tables": [{"id": "trees", "title": "Trees",
         "columns": [{"id": "height", "label": "Height"}, {"id": "state", "label": "State"}],
         "rows": rows}]}]}
     result = analytics_manifest.build(document, {"findings": [
         {"code": "outlier", "severity": "medium"}]})
     assert result["version"] == "formidable-analytics-v1"
-    assert result["summary"] == {"pages": 1, "cells": 18, "filled": 18, "blank": 0,
+    assert result["summary"] == {"pages": 1, "cells": 19, "filled": 19, "blank": 0,
                                  "completeness": 1.0, "disagreements": 2,
                                  "ecology_findings": 1, "ecology_information": 0}
     numeric = next(chart for chart in result["charts"] if chart["type"] == "numeric")

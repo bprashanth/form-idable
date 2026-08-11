@@ -57,7 +57,11 @@ def main():
             "free_text_regions": [{"id": "note", "label": "Note", "bbox": [0, .9, .5, 1],
                                    "xlsx_row": 2, "xlsx_column": 2, "value": "faint",
                                    "status": "disagreement", "confidence": 0,
-                                   "alternatives": ["paint"]}],
+                                   "alternatives": ["paint"]},
+                                  {"id": "split", "label": "Split", "bbox": [0, .8, .5, .9],
+                                   "xlsx_sheet": "v2", "xlsx_row": 3, "xlsx_column": 2,
+                                   "value": "primary", "status": "peer_split",
+                                   "confidence": 1, "alternatives": ["a", "b"]}],
             "tables": [{"id": "table", "columns": [{"id": "value", "label": "Value"}],
                         "rows": [{"id": "1", "cells": [{
                             "column_id": "value", "bbox": [0, 0, 1, 1],
@@ -73,8 +77,11 @@ def main():
         assert table_attention["alternatives"] == ["0"]
         assert table_attention["bbox"] == [0, 0, 1, 1]
         assert table_attention["reason"] == "measurement after an empty descriptor"
-        assert len(canonical_manifest["cells"]) == 3
+        assert len(canonical_manifest["cells"]) == 4
         assert canonical_manifest["cells"][0]["xlsx_row"] == 1
+        split = next(item for item in canonical_manifest["cells"] if item["context"] == "Split")
+        assert split["xlsx_sheet"] == "v2"
+        assert all(item["cell_id"] != split["id"] for item in attention)
 
         ecology_filtered = review_manifest.from_canonical({"pages": []}, {"findings": [
             {"severity": "info", "code": "context", "location": {"page": 1}},

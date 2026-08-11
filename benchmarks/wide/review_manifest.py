@@ -15,6 +15,10 @@ from typing import Any
 
 
 VERSION = "formidable-review-v1"
+REVIEW_STATUSES = {
+    "peer_consensus_disagreement", "disagreement", "majority_after_reread",
+    "unresolved_after_reread", "structural_anomaly",
+}
 
 
 def norm(value: Any) -> str:
@@ -157,6 +161,7 @@ def from_canonical(document: dict[str, Any], ecology: dict[str, Any] | None = No
                             if norm(value) != norm(cell.get("value"))]
             item = {"id": cell_id, "page": page["page_number"],
                     "bbox": cell.get("bbox"), "context": cell.get("label"),
+                    "xlsx_sheet": cell.get("xlsx_sheet"),
                     "xlsx_row": cell.get("xlsx_row"),
                     "xlsx_column": cell.get("xlsx_column"),
                     "presented_value": cell.get("value"), "status": cell.get("status"),
@@ -164,7 +169,7 @@ def from_canonical(document: dict[str, Any], ecology: dict[str, Any] | None = No
                     "alternatives": alternatives,
                     "ecology_flags": cell.get("ecology_flags") or []}
             cells.append(item)
-            if item["status"] not in {"agreement", "blank_or_illegible"}:
+            if item["status"] in REVIEW_STATUSES:
                 attention.append({"cell_id": cell_id, "page": item["page"],
                                   "bbox": item["bbox"], "priority": "high",
                                   "reason": cell.get("structural_reason") or item["status"],
@@ -180,6 +185,7 @@ def from_canonical(document: dict[str, Any], ecology: dict[str, Any] | None = No
                                     if norm(value) != norm(cell.get("value"))]
                     item = {"id": cell_id, "page": page["page_number"],
                             "bbox": cell.get("bbox"), "context": column.get("label"),
+                            "xlsx_sheet": cell.get("xlsx_sheet"),
                             "xlsx_row": cell.get("xlsx_row"),
                             "xlsx_column": cell.get("xlsx_column"),
                             "presented_value": cell.get("value"), "status": cell.get("status"),
@@ -187,7 +193,7 @@ def from_canonical(document: dict[str, Any], ecology: dict[str, Any] | None = No
                             "alternatives": alternatives,
                             "ecology_flags": cell.get("ecology_flags") or []}
                     cells.append(item)
-                    if item["status"] not in {"agreement", "blank_or_illegible"}:
+                    if item["status"] in REVIEW_STATUSES:
                         attention.append({"cell_id": cell_id, "page": item["page"],
                                           "bbox": item["bbox"], "priority": "high",
                                           "reason": cell.get("structural_reason") or item["status"],
@@ -202,6 +208,7 @@ def from_canonical(document: dict[str, Any], ecology: dict[str, Any] | None = No
         location = finding.get("location") or {}
         anomaly = {"finding_id": index + 1, **finding,
                    "page": location.get("page"), "bbox": location.get("bbox"),
+                   "xlsx_sheet": location.get("xlsx_sheet"),
                    "xlsx_row": location.get("xlsx_row"),
                    "xlsx_column": location.get("xlsx_column")}
         anomalies.append(anomaly)

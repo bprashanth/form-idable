@@ -11,6 +11,10 @@ from collections import Counter
 from pathlib import Path
 
 VERSION = "formidable-analytics-v1"
+REVIEW_STATUSES = {
+    "peer_consensus_disagreement", "disagreement", "majority_after_reread",
+    "unresolved_after_reread", "structural_anomaly",
+}
 
 
 def _identifier_like(label):
@@ -74,7 +78,7 @@ def build(document, ecology=None):
             if str(cell.get("value") or "").strip():
                 filled += 1
                 stats["filled"] += 1
-            if cell.get("status") not in {"agreement", "blank_or_illegible"}:
+            if cell.get("status") in REVIEW_STATUSES:
                 stats["disagreements"] += 1
             stats["ecology_flags"] += len(cell.get("ecology_flags") or [])
         for table in page.get("tables") or []:
@@ -92,7 +96,7 @@ def build(document, ecology=None):
                     if str(cell.get("value") or "").strip():
                         filled += 1
                         stats["filled"] += 1
-                    if cell.get("status") not in {"agreement", "blank_or_illegible"}:
+                    if cell.get("status") in REVIEW_STATUSES:
                         stats["disagreements"] += 1
                     stats["ecology_flags"] += len(cell.get("ecology_flags") or [])
 

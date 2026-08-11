@@ -27,18 +27,6 @@ sys.path.insert(0, str(HERE))
 import wide_diff  # noqa: E402
 
 
-def provider_key() -> str:
-    existing = os.environ.get("OPENROUTER_API_KEY")
-    if existing:
-        return existing
-    path = Path.home() / ".config/formidable/openrouter.json"
-    value = json.loads(path.read_text())
-    key = value.get("api_key") or value.get("OPENROUTER_API_KEY")
-    if not key:
-        raise RuntimeError(f"No OpenRouter key in {path}")
-    return key
-
-
 def pdf_fixtures() -> list[Path]:
     return [directory for directory in sorted(FORMS.glob("eval_*"))
             if json.loads((directory / "source_map.json").read_text())[
@@ -63,19 +51,17 @@ def run_one(fixture: Path, output: Path, image: str, force: bool,
         raise RuntimeError(f"Cannot rebuild incomplete run {output}")
     if not finished.exists() or force or rebuild_from_evidence:
         started = time.time()
-        environment = os.environ.copy()
-        environment["OPENROUTER_API_KEY"] = provider_key()
         command = [
             "docker", "run", "--rm", "--memory", "8g", "--memory-swap", "8g",
-            "-e", "OPENROUTER_API_KEY",
             "-v", f"{(fixture / 'input.pdf').resolve()}:/input.pdf:ro",
             "-v", f"{output.resolve()}:/run",
         ]
         codex_auth = Path.home() / ".codex/auth.json"
-        if codex_auth.exists():
-            command += ["-v", f"{codex_auth.resolve()}:/root/.codex/auth.json:ro"]
+        if not codex_auth.exists():
+            raise RuntimeError(f"Codex subscription auth not found at {codex_auth}")
+        command += ["-v", f"{codex_auth.resolve()}:/root/.codex/auth.json:ro"]
         for name in ("HIGH_SCHEMA_MODEL", "HIGH_PRIMARY_MODEL", "HIGH_PEER_MODEL"):
-            if environment.get(name):
+            if os.environ.get(name):
                 command += ["-e", name]
         command += [
             image, "python3", "-c",
@@ -83,15 +69,16 @@ def run_one(fixture: Path, output: Path, image: str, force: bool,
             f"process(Path('/input.pdf'), Path('/run'), "
             f"reuse_existing={rebuild_from_evidence!r})",
         ]
-        subprocess.run(command, check=True, env=environment)
+        subprocess.run(command, check=True)
         (output / "wall_time.json").write_text(json.dumps({
             "seconds": round(time.time() - started, 1),
         }, indent=2) + "\n")
 
-    # Score only literal page sheets. The production download additionally
-    # carries an ecology_review audit sheet whose repeated observed values and
-    # explanatory prose are useful to people but are not model transcription.
-    content_workbook = output / "form" / "canonical_outputs" / "high_v1" / "output.xlsx"
+    # Score the immutable primary workbook that is copied into the production
+    # download. The delivered workbook adds an ecology_review audit sheet, while
+    # the structured peer workbook is evidence only and must never be reported
+    # as high's transcription quality.
+    content_workbook = output / "primary" / "output.xlsx"
     high = score(fixture, content_workbook)
     low_path = fixture / "codex_work" / "output.xlsx"
     low = score(fixture, low_path) if low_path.exists() else None
