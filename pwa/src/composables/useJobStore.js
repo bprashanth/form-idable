@@ -61,10 +61,12 @@ export function useJobStore() {
         // not make the form or its original xlsx impossible to review.
       }
     }
-    const xlsxSheets = wb.SheetNames.map(name => ({
+    const xlsxSheets = wb.SheetNames
+      .filter(name => name.toLocaleLowerCase() !== 'ecology_review')
+      .map(name => ({
       name,
       rows: _parseSheet(wb.Sheets[name]),
-    }))
+      }))
     _ensureReviewCoordinates(xlsxSheets, reviewManifest)
     const xlsxPages = xlsxSheets.map(sheet => sheet.rows)
     const xlsxSheetNames = xlsxSheets.map(sheet => sheet.name)

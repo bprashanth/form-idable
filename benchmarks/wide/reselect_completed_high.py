@@ -130,6 +130,49 @@ def repair_fallback_coordinates(run_dir, run, document):
         run.get("routing_evidence") or {}
 
 
+def repair_ecology_coordinates(run_dir):
+    """Backfill worksheet names in ecology artifacts from canonical identity."""
+    run = json.loads((run_dir / "run.json").read_text())
+    document = json.loads((run_dir / "canonical.json").read_text())
+    ecology = json.loads((run_dir / "ecology_review.json").read_text())
+    existing_review = json.loads((run_dir / "review_manifest.json").read_text())
+    records = ecology_review.canonical_records(document)
+    identity = ("page", "field", "table", "row", "column")
+    changed = 0
+    for finding in ecology.get("findings") or []:
+        location = finding.get("location") or {}
+        if location.get("xlsx_sheet"):
+            continue
+        candidates = [
+            record for record in records
+            if all(record.location.get(key) == location.get(key)
+                   for key in identity)
+        ]
+        sheets = {record.location.get("xlsx_sheet") for record in candidates
+                  if record.location.get("xlsx_sheet")}
+        if len(sheets) == 1:
+            location["xlsx_sheet"] = sheets.pop()
+            changed += 1
+    if not changed:
+        return False, run.get("route"), {"ecology_sheets_repaired": 0}
+
+    review = review_manifest.from_canonical(document, ecology)
+    review["route"] = existing_review.get("route") or review["route"]
+    errors = review_manifest.validate(review)
+    if errors:
+        raise RuntimeError("invalid ecology-repaired review manifest: " + "; ".join(errors))
+    analytics = analytics_manifest.build(document, ecology)
+    (run_dir / "ecology_review.json").write_text(
+        json.dumps(ecology, indent=2, ensure_ascii=False) + "\n")
+    (run_dir / "review_manifest.json").write_text(
+        json.dumps(review, indent=2, ensure_ascii=False) + "\n")
+    (run_dir / "analytics.json").write_text(
+        json.dumps(analytics, indent=2, ensure_ascii=False) + "\n")
+    run.update({"review": review["summary"], "analytics": analytics["summary"]})
+    (run_dir / "run.json").write_text(json.dumps(run, indent=2) + "\n")
+    return True, run.get("route"), {"ecology_sheets_repaired": changed}
+
+
 def replay(run_dir, *, force=False):
     run = json.loads((run_dir / "run.json").read_text())
     document = json.loads((run_dir / "canonical.json").read_text())
@@ -203,11 +246,21 @@ def upload(s3, bucket, prefix, job_id, run_dir):
                        ExtraArgs={"ContentType": content_type})
 
 
+def upload_review_metadata(s3, bucket, prefix, job_id, run_dir):
+    for name in ("review_manifest.json", "ecology_review.json", "analytics.json",
+                 "run.json"):
+        s3.upload_file(str(run_dir / name), bucket, f"{prefix}/jobs/{job_id}/{name}",
+                       ExtraArgs={"ContentType": "application/json"})
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--state", type=Path, required=True)
     parser.add_argument("--upload", action="store_true")
+    parser.add_argument("--upload-all", action="store_true",
+                        help="upload every selected artifact, including prior local repairs")
     parser.add_argument("--force-fixture", action="append", default=[])
+    parser.add_argument("--repair-ecology", action="store_true")
     parser.add_argument("--bucket", default="formidable-storage")
     parser.add_argument("--prefix", default="formidable")
     args = parser.parse_args()
@@ -218,13 +271,20 @@ def main():
         if args.force_fixture and fixture not in args.force_fixture:
             continue
         run_dir = args.state.parent / fixture
-        did_change, route, evidence = replay(
-            run_dir, force=fixture in args.force_fixture)
+        if args.repair_ecology:
+            did_change, route, evidence = repair_ecology_coordinates(run_dir)
+        else:
+            did_change, route, evidence = replay(
+                run_dir, force=fixture in args.force_fixture)
         print(json.dumps({"fixture": fixture, "changed": did_change, "route": route,
                           "routing_evidence": evidence}, sort_keys=True))
         if did_change:
             changed.append(fixture)
-            if s3:
+        if s3 and (did_change or args.upload_all):
+            if args.repair_ecology:
+                upload_review_metadata(
+                    s3, args.bucket, args.prefix, job["job_id"], run_dir)
+            else:
                 upload(s3, args.bucket, args.prefix, job["job_id"], run_dir)
     print(json.dumps({"changed": changed, "uploaded": bool(args.upload)}))
 

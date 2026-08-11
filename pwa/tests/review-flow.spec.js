@@ -10,6 +10,11 @@ for (let page = 1; page <= 3; page++) {
     `page${page}`,
   )
 }
+XLSX.utils.book_append_sheet(
+  workbook,
+  XLSX.utils.aoa_to_sheet([['Ecology audit only — never a paper page']]),
+  'ecology_review',
+)
 const XLSX_FIXTURE = XLSX.write(workbook, { type: 'buffer', bookType: 'xlsx' })
 const IMAGE_FIXTURE = `
   <svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
