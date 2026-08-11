@@ -4,11 +4,12 @@ Post-extraction quality layer. After the Fargate worker produces an xlsx,
 these features help a human reviewer decide whether the transcription is
 trustworthy before downloading it.
 
-**Status:** the additive subscription High layer passed its local production
-gate on 14 PDFs / 68 pages with zero artifact errors. Micro semantic F1 improves
-0.887 to 0.910 and precision 0.854 to 0.917 while recall falls 0.924 to 0.904.
-The exact routes, five historical-score regressions, paired no-regression
-control and review burden are in `benchmarks/HIGH_ADDITIVE_V1.md`.
+**Status:** the additive subscription High layer passed local and production
+gates on 14 PDFs / 68 pages with zero artifact errors. The controlled
+production replay improves micro semantic F1 0.887 to 0.913 and precision 0.854
+to 0.922 while recall falls 0.924 to 0.905. The initial production selector
+failed at 0.867; this failure and the corrected literal-support gate are
+recorded in `chronology/015_production_selector_and_workbook_provenance_gate.md`.
 
 Current High uses a canonical page/cell IR, a coverage-gated Low-compatible
 primary, Luna structure plus Terra/Luna literal readings, generic numeric/domain
@@ -22,13 +23,17 @@ sheets are excluded from extraction accuracy and validated separately.
 1. Run the frozen Low-compatible agent in the isolated High container.
 2. Map every page with bounded Luna structured output.
 3. Read each declared cell independently with Terra and Luna.
-4. If primary nonblank mapping coverage is at least 80%, deliver it unchanged
-   and mark only peer-consensus differences red.
+4. Deliver primary unchanged only when geometry coverage is at least 80%, its
+   literal support is at least 75% of the strongest peer, peer-consensus
+   conflicts are at most 20%, and no peer materially recovers at least 15%
+   more evidence while leading the other peer by at least 10%. Mark only
+   peer-consensus differences red.
 5. Otherwise use Terra; switch to Luna only for at least 10% more nonblank
    evidence, and mark every peer difference red.
 6. Run ecology after transcription. Suggestions are orange and never edits.
 7. Build Analytics from delivered values, then independently check exact
-   canonical/workbook/review coordinates.
+   canonical/workbook/review coordinates, including blank targets outside
+   Excel's saved used range.
 
 The 14-form gate used 204 structured calls, 3.79M reported subscription tokens
 and 14,468.5 seconds of summed provider latency (212.8 seconds/page), plus the

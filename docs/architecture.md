@@ -64,15 +64,19 @@ The low worker downloads the PDF, renders each page, and runs `codex exec`
 exactly as before. High first runs a Low-compatible agentic primary, then uses
 Luna for bounded page geometry and Terra/Luna for two literal readings in the
 same schema. With healthy primary coverage, the primary workbook remains
-unchanged and only peer-consensus differences become red. With collapsed
-coverage, High selects a bounded structured reader and exposes every peer
-difference. Ecology runs afterward and can only create orange suggestions.
+unchanged and only peer-consensus differences become red. Health requires
+geometry coverage, literal support, a bounded peer-consensus conflict rate and
+no material recovery by one peer. Otherwise High selects a bounded structured
+reader and exposes every peer difference. Ecology runs afterward and can only
+create orange suggestions.
 
 The additive contract includes `content.xlsx`, `canonical.json`,
 `review_manifest.json`, `analytics.json`, `ecology_review.json`, `run.json`
 and raw reader evidence. `output.xlsx` contains the selected literal content
 plus the final ecology audit sheet. See
-`chronology/014_additive_subscription_high_all_form_gate.md`.
+`chronology/014_additive_subscription_high_all_form_gate.md` and the production
+failure/recovery record in
+`chronology/015_production_selector_and_workbook_provenance_gate.md`.
 
 ```
 formidable/jobs/{job_id}/
