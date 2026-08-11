@@ -15,7 +15,8 @@
           <span class="material-symbols-outlined">dashboard</span>
           <span>Dashboard</span>
         </a>
-        <a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-colors cursor-pointer">
+        <a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-colors cursor-pointer"
+           @click="router.push('/builder')">
           <span class="material-symbols-outlined">architecture</span>
           <span>Form Builder</span>
         </a>
@@ -259,11 +260,18 @@
                   </template>
                   <button
                     v-else
-                    class="flex items-center gap-1.5 ml-auto border border-outline-variant/40 px-3 py-1.5 text-xs font-bold text-on-surface hover:bg-surface-container transition-colors"
+                    class="inline-flex items-center gap-1.5 border border-outline-variant/40 px-3 py-1.5 text-xs font-bold text-on-surface hover:bg-surface-container transition-colors"
+                    @click="router.push({ name: 'form-builder-clone', params: { jobId: job.job_id } })"
+                  >
+                    <span class="material-symbols-outlined text-sm">content_copy</span>
+                    Clone
+                  </button>
+                  <button
+                    v-if="job.status === 'complete'"
+                    class="inline-flex items-center gap-1.5 ml-2 border border-outline-variant/40 px-3 py-1.5 text-xs font-bold text-on-surface hover:bg-surface-container transition-colors"
                     @click="downloadXlsx(job)"
                   >
-                    <span class="material-symbols-outlined text-sm">download</span>
-                    Excel
+                    <span class="material-symbols-outlined text-sm">download</span> Excel
                   </button>
                 </td>
               </tr>

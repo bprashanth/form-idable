@@ -70,6 +70,24 @@ test.describe('Dashboard', () => {
     await expect(page.locator('[data-testid="map"]')).toBeVisible()
   })
 
+  test('form builder clones a completed workbook into an empty QR OMR sheet', async ({ page }) => {
+    await page.goto('/dashboard')
+    await page.getByText('Form Builder', { exact: true }).click()
+    await expect(page).toHaveURL('/builder')
+    await expect(page.locator('[data-testid="builder-gallery"]')).toBeVisible()
+    await page.locator('[data-testid^="clone-form-"]').first().click()
+    await expect(page.locator('[data-testid="builder-preview"]')).toBeVisible()
+    await expect(page.locator('[data-testid="builder-qr"]')).toHaveAttribute('src', /^data:image\/png/)
+    const rowCount = await page.locator('[data-testid="builder-preview"] tbody tr').count()
+    const columnCount = await page.locator('[data-testid="builder-preview"] thead th').count()
+    await expect(page.locator('[data-testid="omr-left-marks"] span')).toHaveCount(rowCount + 2)
+    await expect(page.locator('[data-testid="omr-right-marks"] span')).toHaveCount(rowCount + 2)
+    await expect(page.locator('[data-testid="omr-column-marks"] span')).toHaveCount(columnCount + 1)
+    const written = await page.locator('[data-testid="builder-preview"] tbody td')
+      .evaluateAll(cells => cells.map(cell => cell.textContent.trim()).filter(Boolean))
+    expect(written).toEqual([])
+  })
+
   test('clicking a row navigates to review page', async ({ page }) => {
     await page.goto('/dashboard')
     await page.locator(`[data-testid="job-row-${JOB_ID}"]`).waitFor()

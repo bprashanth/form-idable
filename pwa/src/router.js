@@ -5,12 +5,15 @@ import LoginView from '@/views/LoginView.vue'
 import DashboardView from '@/views/DashboardView.vue'
 import JobReviewView from '@/views/JobReviewView.vue'
 import JobAnalyticsView from '@/views/JobAnalyticsView.vue'
+import FormBuilderView from '@/views/FormBuilderView.vue'
 
 const routes = [
   { path: '/login', name: 'login', component: LoginView, meta: { newLayout: true } },
   { path: '/dashboard', name: 'dashboard', component: DashboardView, meta: { newLayout: true } },
   { path: '/review/:jobId', name: 'job-review', component: JobReviewView, meta: { newLayout: true } },
   { path: '/analytics/:jobId', name: 'job-analytics', component: JobAnalyticsView, meta: { newLayout: true } },
+  { path: '/builder', name: 'form-builder', component: FormBuilderView, meta: { newLayout: true } },
+  { path: '/builder/:jobId', name: 'form-builder-clone', component: FormBuilderView, meta: { newLayout: true } },
   { path: '/', redirect: '/dashboard' },
 ]
 
