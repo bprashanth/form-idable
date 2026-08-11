@@ -731,7 +731,15 @@ const ecologyCellsByCoordinate = computed(() => {
   const result = new Map()
   for (const item of allEcology.value) {
     if (item.xlsx_row != null && item.xlsx_column != null) {
-      result.set(`${item.xlsx_sheet}:${item.xlsx_row}:${item.xlsx_column}`, item)
+      const unambiguousLegacySheet = xlsxSheetNames.value.length === 1
+        ? xlsxSheetNames.value[0]
+        : null
+      const pageNumber = item.location?.page ?? item.page
+      const pageSheet = xlsxSheetNames.value.includes(`page${pageNumber}`)
+        ? `page${pageNumber}`
+        : null
+      const sheet = item.xlsx_sheet ?? pageSheet ?? unambiguousLegacySheet
+      if (sheet) result.set(`${sheet}:${item.xlsx_row}:${item.xlsx_column}`, item)
     }
   }
   return result

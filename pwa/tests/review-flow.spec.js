@@ -260,8 +260,8 @@ test.describe('Focused review queues', () => {
               message: '150 is a robust within-column outlier', label: 'Soil temperature',
               observed: '150', median: 8.2, mad: 1.1,
               proposed_value: null, bbox: [0.54, 0.3, 0.64, 0.35],
-              xlsx_sheet: 'page1', xlsx_row: 2, xlsx_column: 1,
-              location: { page: 1, bbox: [0.54, 0.3, 0.64, 0.35], xlsx_sheet: 'page1', xlsx_row: 2, xlsx_column: 1 },
+              xlsx_sheet: null, xlsx_row: 2, xlsx_column: 1,
+              location: { page: 1, bbox: [0.54, 0.3, 0.64, 0.35], xlsx_row: 2, xlsx_column: 1 },
             }],
           },
         }),
@@ -294,6 +294,8 @@ test.describe('Focused review queues', () => {
   test('renders review coordinates beyond the workbook used range', async ({ page }) => {
     await expect(page.locator('[data-testid="xlsx-cell-1-20-1"]')).toHaveCSS(
       'background-color', 'rgba(186, 26, 26, 0.14)')
+    await expect(page.locator('[data-testid="xlsx-cell-1-2-0"]')).toHaveCSS(
+      'background-color', 'rgba(251, 146, 60, 0.18)')
   })
 
   test('opens the exact attention bbox for literal correction', async ({ page }) => {

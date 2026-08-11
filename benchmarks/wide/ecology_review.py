@@ -274,6 +274,7 @@ def canonical_records(document):
         for field in page.get("metadata_fields") or []:
             records.append(Record({"page": page["page_number"], "field": field["id"],
                                    "bbox": field.get("bbox"),
+                                   "xlsx_sheet": field.get("xlsx_sheet"),
                                    "xlsx_row": field.get("xlsx_row"),
                                    "xlsx_column": field.get("xlsx_column")},
                                   field["label"], field.get("value")))
@@ -281,6 +282,7 @@ def canonical_records(document):
             records.append(Record({"page": page["page_number"], "field": item["id"],
                                    "kind": "free_text",
                                    "bbox": item.get("bbox"),
+                                   "xlsx_sheet": item.get("xlsx_sheet"),
                                    "xlsx_row": item.get("xlsx_row"),
                                    "xlsx_column": item.get("xlsx_column")},
                                   item["label"], item.get("value")))
@@ -293,6 +295,7 @@ def canonical_records(document):
                         {"page": page["page_number"], "table": table["id"],
                          "row": row["id"], "column": column["id"],
                          "bbox": cell.get("bbox"),
+                         "xlsx_sheet": cell.get("xlsx_sheet"),
                          "xlsx_row": cell.get("xlsx_row"),
                          "xlsx_column": cell.get("xlsx_column")},
                         label, cell.get("value")))

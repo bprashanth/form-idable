@@ -68,6 +68,8 @@ def test_free_text_records_are_marked_as_prose_not_single_taxa():
     records = canonical_records({"pages": [{
         "page_number": 1, "metadata_fields": [], "tables": [],
         "free_text_regions": [{"id": "legend", "label": "Other species",
+                               "xlsx_sheet": "page1",
                                "value": "1) Polygonum\n2) Grasses"}],
     }]})
     assert records[0].location["kind"] == "free_text"
+    assert records[0].location["xlsx_sheet"] == "page1"

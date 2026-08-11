@@ -128,6 +128,15 @@ def validate_fixture(name: str, root: Path) -> tuple[dict, list[str]]:
             errors.append(f"ecology finding {item.get('finding_id')}: invalid bbox")
         if not isinstance(item.get("page"), int) or not 1 <= item["page"] <= pdf_pages:
             errors.append(f"ecology finding {item.get('finding_id')}: invalid page")
+        if item.get("xlsx_row") is not None and item.get("xlsx_column") is not None:
+            sheet_name = item.get("xlsx_sheet")
+            if not sheet_name and f"page{item.get('page')}" in content.sheetnames:
+                sheet_name = f"page{item.get('page')}"
+            if not sheet_name and len(content.sheetnames) == 1:
+                sheet_name = content.sheetnames[0]
+            if sheet_name not in content.sheetnames:
+                errors.append(
+                    f"ecology finding {item.get('finding_id')}: unresolved workbook sheet")
 
     summary = review.get("summary") or {}
     if summary.get("target_cells_including_blanks") != len(cells):
