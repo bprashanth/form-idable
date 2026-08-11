@@ -94,13 +94,16 @@ another reason not to report one model run as a deterministic truth.
 
 ## 5. Release and invariants
 
-The corrected High image passed a fresh authenticated production job:
+The corrected High image passed a fresh authenticated production job. A final
+provenance-only revision then carried worksheet names into ecology findings and
+also passed:
 
-- verification job `5b128b19-67a4-4667-807d-daa835019499`
-- route `agentic_primary`, 3 pages, 15 red disagreements, 17 ecology flags
+- final verification job `c387903a-b552-4d56-bb1b-11d313113f60`
+- route `agentic_primary`, 3 pages, 5 red disagreements, 3 ecology flags
+- all three ecology findings explicitly reference worksheet `v2`
 - High ECR digest
-  `sha256:0e13474a250fb33015c6c7e1a71213daf67b3d409eee9ee626d793237db3de2e`
-- High task `formidable-high-worker:6`
+  `sha256:231f223f3fd8a0a478a9a1669d20da855241bca70d7f43b2071e97fe10fbf627`
+- High task `formidable-high-worker:7`
 
 The frozen Low control did not move:
 
@@ -108,6 +111,10 @@ The frozen Low control did not move:
   `sha256:aacbe354d16bb79dda0ac30239e8d59a12b1353ab8ad75a245a5840fc21cc9bc`
 - Low task `formidable-worker:15`
 
-The backend release is accepted only together with the frontend all-page
-browser sweep. The selector improvement alone is not sufficient if a reviewer
-cannot see the exact source and workbook targets it selected.
+The backend release was accepted together with the frontend all-page browser
+sweep: 14/14 production cases and 68/68 paper pages passed. Visual inspection
+found and fixed two issues beyond the assertions: the `ecology_review` audit
+sheet was initially counted as a paper page, and a shared `v2` workbook opened
+at its top instead of the rows for the current paper page. Audit sheets are now
+excluded from paper-page mapping and shared workbooks scroll to the largest
+data crop on page changes.

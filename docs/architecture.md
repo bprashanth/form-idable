@@ -92,6 +92,12 @@ After writing all outputs the worker updates the DynamoDB record to status `done
 
 The PWA polls `GET /vision/jobs/{job_id}` until status is `done`, then fetches presigned S3 URLs for the manifest, xlsx, page images, and crop images. All assets are loaded directly from S3 using those presigned URLs -- no binary data passes through the Lambda on the read path.
 
+The PWA also contains a Form Builder prototype. It can clone any completed
+job into an empty printable QR/OMR sheet in the browser. High canonical context
+is used for labels when available; Low falls back to conservative workbook
+header inference. This prototype does not yet persist a template descriptor or
+alter the extraction route. See `chronology/016_qr_omr_form_builder_prototype.md`.
+
 ---
 
 ## crops_manifest.json format

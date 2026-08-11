@@ -119,8 +119,8 @@ accepted until `verify_high.sh` validates a real authenticated job and the
 browser opens Review and Analytics. Record the resulting High task revision
 and image digest together with the unchanged Low digest/task in chronology.
 
-The 2026-08-11 selector/provenance release is High digest `sha256:0e13474a...`
-at `formidable-high-worker:6`. Its immutable Low control is digest
+The 2026-08-11 selector/provenance release is High digest `sha256:231f223f...`
+at `formidable-high-worker:7`. Its immutable Low control is digest
 `sha256:aacbe354...` at `formidable-worker:15`; full identifiers and the failed
 first production gate are in `chronology/015_production_selector_and_workbook_provenance_gate.md`.
 
