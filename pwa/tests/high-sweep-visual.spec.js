@@ -3,8 +3,10 @@ import fs from 'node:fs'
 import path from 'node:path'
 
 const ROOT = path.resolve(import.meta.dirname, '../..')
-const SWEEP = path.join(ROOT, 'benchmarks/high_runs/sweep_v1')
-const SCREENSHOTS = path.join(ROOT, 'benchmarks/high_visuals/sweep-v1')
+const SWEEP = process.env.HIGH_SWEEP_ROOT
+  ? path.resolve(process.env.HIGH_SWEEP_ROOT)
+  : path.join(ROOT, 'benchmarks/high_runs/additive_v1')
+const SCREENSHOTS = path.join(ROOT, 'benchmarks/high_visuals/additive-v1')
 
 const runs = fs.existsSync(SWEEP)
   ? fs.readdirSync(SWEEP)

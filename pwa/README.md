@@ -27,7 +27,8 @@ development-only auth bypass:
 $ npx playwright test
 ```
 
-The backend endpoint is not deployed as part of this prototype.
+The optional artifacts are produced only by High jobs. Low jobs retain the
+original review surface and do not expose High Analytics or attention queues.
 
 ## Server discovery
 

@@ -79,13 +79,12 @@ and rerun. Roll back only the additive surfaces with:
 ./rollback_high.sh
 ```
 
-The subscription-reader high candidate reads `formidable/codex-auth`, the same
-credential source as low, but from its own task role and isolated image.
-`HIGH_CODEX_VERSION` is pinned separately in `config.sh`; changing it requires
-the full local all-form gate. This candidate has not been deployed: the current
-rolled-back high image still references the historical OpenRouter secret and
-cannot process while that account has no credit. Never use the ordinary
-`push.sh` for a high-only release because it intentionally rebuilds low too.
+The subscription-reader High reads `formidable/codex-auth`, the same credential
+source as Low, but from its own task role and isolated image. It pins both the
+Low-compatible primary CLI (`LOW_CODEX_VERSION`) and bounded-reader CLI
+(`HIGH_CODEX_VERSION`). Changing either requires the full local all-form gate.
+The High image has no OpenRouter/Gemini dependency. Never use ordinary
+`push.sh` for a high-only release because it intentionally rebuilds Low too.
 
 The component scripts remain available for diagnosis: `setup_high.sh`,
 `push_high.sh`, and `verify_high.sh`. The normal release path is
@@ -114,6 +113,11 @@ To tail Fargate worker logs for a specific task:
 ```
 aws logs tail /ecs/formidable-worker --since 30m --follow --region ap-south-1
 ```
+
+High writes to `/ecs/formidable-high-worker`. A production High release is not
+accepted until `verify_high.sh` validates a real authenticated job and the
+browser opens Review and Analytics. Record the resulting High task revision
+and image digest together with the unchanged Low digest/task in chronology.
 
 ---
 

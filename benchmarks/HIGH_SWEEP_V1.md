@@ -1,5 +1,9 @@
 # High v1 — all-PDF production gate
 
+> Historical experiment: this file describes the Gemini/OpenRouter candidate.
+> That provider account is depleted and this is not the current release image.
+> See `HIGH_ADDITIVE_V1.md` for the subscription-reader High gate.
+
 Date: 2026-08-11. Candidate commit: `dc72a30` plus documentation commits.
 
 ## Decision

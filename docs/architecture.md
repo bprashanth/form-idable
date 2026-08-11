@@ -60,7 +60,19 @@ A user authenticates against Cognito through the PWA and receives a short-lived 
 
 When a user uploads a PDF, the Lambda writes the file to S3 under `formidable/jobs/{job_id}/input.pdf`, creates a DynamoDB record with status `queued`, and stores the requested `effort`. `low` launches the existing `formidable-worker`; `high` launches the separate `formidable-high-worker`. Historical jobs without this field are always low. The Lambda returns the job ID immediately without waiting for the worker.
 
-The low worker downloads the PDF, renders each page, and runs `codex exec` exactly as before. The additive high API/UI contract also supports `canonical.json`, `review_manifest.json`, `analytics.json`, `ecology_review.json`, `run.json`, and raw reader evidence. The original Gemini/OpenRouter high image is currently rolled back and unavailable because its provider credit is depleted. Codex-only and Claude-only replacements failed the local accuracy gate and have not been deployed. The candidate now under local evaluation retains the frozen low workbook as immutable primary content and uses Terra/Luna peer consensus only to select red review regions; ecology remains orange and suggestion-only. See `chronology/013_subscription_reader_gates_and_additive_primary.md`.
+The low worker downloads the PDF, renders each page, and runs `codex exec`
+exactly as before. High first runs a Low-compatible agentic primary, then uses
+Luna for bounded page geometry and Terra/Luna for two literal readings in the
+same schema. With healthy primary coverage, the primary workbook remains
+unchanged and only peer-consensus differences become red. With collapsed
+coverage, High selects a bounded structured reader and exposes every peer
+difference. Ecology runs afterward and can only create orange suggestions.
+
+The additive contract includes `content.xlsx`, `canonical.json`,
+`review_manifest.json`, `analytics.json`, `ecology_review.json`, `run.json`
+and raw reader evidence. `output.xlsx` contains the selected literal content
+plus the final ecology audit sheet. See
+`chronology/014_additive_subscription_high_all_form_gate.md`.
 
 ```
 formidable/jobs/{job_id}/
@@ -171,11 +183,10 @@ USER_ID                 Cognito user ID, injected per-task
 NOTIFICATION_EMAIL      Recipient email, injected per-task if provided
 ```
 
-The locally gated high candidate reads the same `CODEX_SECRET_NAME` credential
-as low but pins a separate Codex CLI/image and model roles. It has not replaced
-the rolled-back production high image. Any accepted high image publishes only
-optional high artifacts; its Fargate runtime is ARM64, the Lambda remains
-x86_64, and `push_high.sh` never re-registers the frozen low task/image.
+High reads the same `CODEX_SECRET_NAME` credential as low but pins a separate
+Codex CLI/image and model roles. High artifacts are optional and do not alter
+the Low review contract. Its Fargate runtime is ARM64, the Lambda remains
+x86_64, and `push_high.sh` never re-registers the frozen Low task/image.
 
 The PWA reads one build-time variable:
 
@@ -191,4 +202,7 @@ To run the PWA against the production API, set `API_TARGET` in `pwa/.env.local` 
 
 To run against a local mock instead, start `mock_api.py` from the good-shepherd repo on port 8072 and point `API_TARGET` at `http://localhost:8072`. The mock returns static fixture data and does not talk to AWS.
 
-The backend (Lambda + Fargate) cannot be run locally in a meaningful way because it depends on ECS, Secrets Manager, and a live Cognito pool. Use the mock for frontend development and the real deployed stack for backend testing.
+The API/UI can use the local mock. High extraction can also run locally with
+the authenticated Codex subscription and repository fixtures; the production
+gate still requires a real Fargate job because task IAM, Secrets Manager, S3
+publication and DynamoDB state are cloud-specific.

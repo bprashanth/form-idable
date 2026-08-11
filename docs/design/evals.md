@@ -4,20 +4,39 @@ Post-extraction quality layer. After the Fargate worker produces an xlsx,
 these features help a human reviewer decide whether the transcription is
 trustworthy before downloading it.
 
-**Status:** the deterministic high-effort review/analytics layer passed its
-local production gate on 14 PDFs / 68 pages with zero artifact errors. The
-aggregate and per-form results, including five raw-score regressions, are in
-`benchmarks/HIGH_SWEEP_V1.md`. The older speculative design below is retained
-for context, but the implemented system does not ask an LLM to rewrite the
-spreadsheet or generate arbitrary Vega-Lite.
+**Status:** the additive subscription High layer passed its local production
+gate on 14 PDFs / 68 pages with zero artifact errors. Micro semantic F1 improves
+0.887 to 0.910 and precision 0.854 to 0.917 while recall falls 0.924 to 0.904.
+The exact routes, five historical-score regressions, paired no-regression
+control and review burden are in `benchmarks/HIGH_ADDITIVE_V1.md`.
 
-Current high QA uses a canonical page/cell IR, immutable-primary two-reader
-diff, generic numeric/domain checks, GBIF taxonomy context, and deterministic
-histogram/categorical manifests. Raw accuracy metrics remain, plus semantic
-metrics that treat only visually equivalent checked marks (`✓`, `✔`, `☑`,
-`X`) as the same code. Ecology audit sheets must be excluded from extraction
-accuracy scoring. See `chronology/012_high_variant_local_gate.md` for the first
-real-container result and its low/high tradeoff.
+Current High uses a canonical page/cell IR, a coverage-gated Low-compatible
+primary, Luna structure plus Terra/Luna literal readings, generic numeric/domain
+checks, taxonomy context, and deterministic histogram/categorical manifests.
+Raw accuracy metrics remain, plus semantic metrics that treat only visually
+equivalent checked marks (`✓`, `✔`, `☑`, `X`) as the same code. Ecology audit
+sheets are excluded from extraction accuracy and validated separately.
+
+## Implemented release architecture
+
+1. Run the frozen Low-compatible agent in the isolated High container.
+2. Map every page with bounded Luna structured output.
+3. Read each declared cell independently with Terra and Luna.
+4. If primary nonblank mapping coverage is at least 80%, deliver it unchanged
+   and mark only peer-consensus differences red.
+5. Otherwise use Terra; switch to Luna only for at least 10% more nonblank
+   evidence, and mark every peer difference red.
+6. Run ecology after transcription. Suggestions are orange and never edits.
+7. Build Analytics from delivered values, then independently check exact
+   canonical/workbook/review coordinates.
+
+The 14-form gate used 204 structured calls, 3.79M reported subscription tokens
+and 14,468.5 seconds of summed provider latency (212.8 seconds/page), plus the
+agentic primary and Fargate overhead. The CLI reports no marginal API price;
+this must be described as subscription-unmetered, not free. A Sol tie-breaker
+was rejected because it scored below Terra on its targeted fixture.
+
+## Historical speculative design (not the current implementation)
 
 ---
 
