@@ -44,6 +44,26 @@ All 14 saved form types were opened through the builder:
 Screenshots are under `benchmarks/high_visuals/builder-v1/`. eval_01, eval_02,
 eval_09 and eval_13 were visually inspected after the all-form gate.
 
+## Production gate
+
+The implementation was pushed to `main` and Netlify served asset
+`/assets/index-CzzQcnL8.js`. A separate authenticated Playwright gate then
+opened every saved production High job through the live Netlify, Cognito, API
+Gateway and S3 paths:
+
+- 14/14 live builder cases passed in 43.1 seconds;
+- the same QR, empty-body, canonical-label and OMR-count invariants passed;
+- screenshots for all 14 are under
+  `benchmarks/high_visuals/prod-builder-v1/`;
+- all 14 screenshots were visually opened, not merely asserted.
+
+The visual sweep found no missing or overlapping geometry. It also exposed the
+remaining semantic boundary instead of concealing it: complex/multi-section
+sources can retain generic labels (`Column 8`, `Unlabeled column`), repeated
+numeric headings, or source metadata such as `Printed file path`. No guessed
+replacement was introduced. These are confirmation-editor inputs, not safe
+automatic corrections.
+
 ## Honest boundary
 
 This is a UI prototype, not yet paperroast's complete template system. Printing
