@@ -222,6 +222,7 @@ benchmarks/high_runs/sweep_v1/
 benchmarks/high_runs/prod_sweep_v*/
 benchmarks/high_runs/codex_v*/
 benchmarks/high_runs/claude_v*/
+benchmarks/high_runs/additive_v*/
 test-results/
 pwa/test-results/
 

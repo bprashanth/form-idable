@@ -74,11 +74,10 @@ def run_one(fixture: Path, output: Path, image: str, force: bool,
             "seconds": round(time.time() - started, 1),
         }, indent=2) + "\n")
 
-    # Score the immutable primary workbook that is copied into the production
-    # download. The delivered workbook adds an ecology_review audit sheet, while
-    # the structured peer workbook is evidence only and must never be reported
-    # as high's transcription quality.
-    content_workbook = output / "primary" / "output.xlsx"
+    # Score exactly the content workbook selected by the production coverage
+    # gate. The delivered workbook differs only by its ecology_review audit
+    # sheet, which is excluded from transcription metrics.
+    content_workbook = output / "content.xlsx"
     high = score(fixture, content_workbook)
     low_path = fixture / "codex_work" / "output.xlsx"
     low = score(fixture, low_path) if low_path.exists() else None
