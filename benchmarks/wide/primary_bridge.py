@@ -12,6 +12,7 @@ from __future__ import annotations
 import re
 from collections import Counter
 from dataclasses import dataclass
+from decimal import Decimal, InvalidOperation
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -34,6 +35,12 @@ def semantic_value(value) -> str:
     text = normalize(value)
     if text in {"x", "✓", "✔", "☑", "✅"}:
         return "<checked>"
+    try:
+        number = Decimal(text)
+        if number.is_finite():
+            return f"<number:{number.normalize()}>"
+    except InvalidOperation:
+        pass
     return text
 
 
@@ -440,6 +447,17 @@ def _bind_item(item: dict, primary_value, primary_model: str,
         if semantic_value(reading.get("value")) != observed))
 
 
+def _mark_unmapped(item: dict) -> None:
+    """Keep peer evidence but never present it as delivered primary content."""
+    item["value"] = None
+    item["confidence"] = 0.0
+    item["status"] = "unmapped_primary"
+    item.pop("xlsx_sheet", None)
+    item["alternatives"] = list(dict.fromkeys(
+        reading.get("value") for reading in item.get("readings") or []
+        if semantic_value(reading.get("value"))))
+
+
 def bind_primary(document: dict, canonical_xlsx: str | Path,
                  primary_xlsx: str | Path, *, primary_model="codex:agentic-low",
                  minimum_score: float = 0.38) -> dict:
@@ -462,7 +480,7 @@ def bind_primary(document: dict, canonical_xlsx: str | Path,
             total += 1
             binding = bindings.get((canonical_sheet_name, item.get("xlsx_row")))
             if not binding:
-                item["status"] = "unmapped_primary"
+                _mark_unmapped(item)
                 continue
             column = item.get("xlsx_column", 2) + binding["column_offset"]
             primary_sheet = primary_book[binding["primary_sheet"]]
@@ -503,7 +521,7 @@ def bind_primary(document: dict, canonical_xlsx: str | Path,
                     for cell in row.get("cells") or []:
                         total += 1
                         nonblank_peer += cell.get("value") not in (None, "")
-                        cell["status"] = "unmapped_primary"
+                        _mark_unmapped(cell)
                 continue
             primary_sheet = primary_book[anchor["primary_sheet"]]
             column_map = _table_column_map(
@@ -522,11 +540,11 @@ def bind_primary(document: dict, canonical_xlsx: str | Path,
                     is_nonblank = cell.get("value") not in (None, "")
                     nonblank_peer += is_nonblank
                     if not binding:
-                        cell["status"] = "unmapped_primary"
+                        _mark_unmapped(cell)
                         continue
                     primary_column = column_map.get(cell.get("xlsx_column"))
                     if not primary_column:
-                        cell["status"] = "unmapped_primary"
+                        _mark_unmapped(cell)
                         continue
                     value = primary_sheet.cell(binding["primary_row"],
                                                primary_column).value

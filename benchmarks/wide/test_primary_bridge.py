@@ -122,3 +122,22 @@ def test_bind_primary_uses_printed_header_to_cross_spacer_columns(tmp_path: Path
 def test_checkmark_and_x_are_semantically_equal():
     assert primary_bridge.semantic_value("X") == primary_bridge.semantic_value("✓")
     assert primary_bridge.semantic_value("X") != primary_bridge.semantic_value("Y")
+
+
+def test_numeric_formatting_is_semantically_equal():
+    assert primary_bridge.semantic_value("7.2") == primary_bridge.semantic_value("7.20")
+    assert primary_bridge.semantic_value(7) == primary_bridge.semantic_value("7.0")
+    assert primary_bridge.semantic_value("7.2") != primary_bridge.semantic_value("7.3")
+
+
+def test_unmapped_peer_value_is_evidence_not_presented_content():
+    item = {
+        "value": "peer-only",
+        "xlsx_sheet": "page1",
+        "readings": [{"model": "peer-a", "value": "peer-only"}],
+    }
+    primary_bridge._mark_unmapped(item)
+    assert item["value"] is None
+    assert item["status"] == "unmapped_primary"
+    assert item["alternatives"] == ["peer-only"]
+    assert "xlsx_sheet" not in item

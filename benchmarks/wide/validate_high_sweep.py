@@ -38,6 +38,7 @@ def norm(value):
 def audit_artifacts(fixture: Path, output: Path) -> list[str]:
     errors = []
     document = json.loads((output / "canonical.json").read_text())
+    run = json.loads((output / "run.json").read_text())
     review = json.loads((output / "review_manifest.json").read_text())
     analytics = json.loads((output / "analytics.json").read_text())
     crops = json.loads((output / "crops_manifest.json").read_text())
@@ -48,8 +49,9 @@ def audit_artifacts(fixture: Path, output: Path) -> list[str]:
     if analytics.get("summary", {}).get("pages") != pdf_pages:
         errors.append("analytics page count differs from PDF")
 
+    content_workbook = openpyxl.load_workbook(output / "content.xlsx", data_only=True)
     workbook = openpyxl.load_workbook(output / "output.xlsx", data_only=True)
-    expected_sheets = [f"page{number}" for number in range(1, pdf_pages + 1)] + ["ecology_review"]
+    expected_sheets = [*content_workbook.sheetnames, "ecology_review"]
     if workbook.sheetnames != expected_sheets:
         errors.append(f"workbook sheets {workbook.sheetnames!r} != {expected_sheets!r}")
 
@@ -59,7 +61,6 @@ def audit_artifacts(fixture: Path, output: Path) -> list[str]:
         if not 1 <= page_number <= pdf_pages:
             errors.append(f"invalid canonical page {page_number}")
             continue
-        sheet = workbook[f"page{page_number}"]
         for item in items(page):
             canonical_items.append(item)
             if not valid_bbox(item.get("bbox")):
@@ -68,6 +69,15 @@ def audit_artifacts(fixture: Path, output: Path) -> list[str]:
             if not isinstance(row, int) or not isinstance(column, int):
                 errors.append(f"page {page_number}: item lacks xlsx coordinate")
                 continue
+            if run.get("route") == "agentic_primary" and not item.get("xlsx_sheet"):
+                if item.get("status") != "unmapped_primary" or item.get("value") is not None:
+                    errors.append(f"page {page_number}: unmapped primary item presents content")
+                continue
+            sheet_name = item.get("xlsx_sheet") or f"page{page_number}"
+            if sheet_name not in workbook:
+                errors.append(f"page {page_number}: missing xlsx sheet {sheet_name}")
+                continue
+            sheet = workbook[sheet_name]
             cell = sheet.cell(row, column)
             if norm(cell.value) != norm(item.get("value")):
                 errors.append(f"page {page_number} {row}:{column}: xlsx/canonical mismatch")
@@ -131,7 +141,7 @@ def main() -> int:
         if not (output / "run.json").exists():
             errors.append(f"{fixture.name}: incomplete")
             continue
-        content = output / "form/canonical_outputs/high_v1/output.xlsx"
+        content = output / "content.xlsx"
         low = fixture / "codex_work/output.xlsx"
         high_metrics = run_high_sweep.compact(run_high_sweep.score(fixture, content))
         low_metrics = run_high_sweep.compact(run_high_sweep.score(fixture, low))
