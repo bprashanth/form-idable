@@ -55,9 +55,13 @@ def extend_tokens(bucket: dict, workbook: Path) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--state", type=Path, default=DEFAULT_STATE)
+    parser.add_argument("--no-download", action="store_true",
+                        help="score already-downloaded artifacts without API reads")
     args = parser.parse_args()
-    api = os.environ["FORMIDABLE_API_URL"].rstrip("/")
-    token = os.environ["FORMIDABLE_ID_TOKEN"]
+    api = os.environ.get("FORMIDABLE_API_URL", "").rstrip("/")
+    token = os.environ.get("FORMIDABLE_ID_TOKEN", "")
+    if not args.no_download and (not api or not token):
+        raise RuntimeError("FORMIDABLE_API_URL and FORMIDABLE_ID_TOKEN are required")
     state = json.loads(args.state.read_text())
     output = args.state.parent
     records = []
@@ -68,15 +72,16 @@ def main() -> None:
         if job["status"] != "complete":
             raise RuntimeError(f"production job is not complete: {name}={job['status']}")
         run = output / name
-        xlsx = request_json(f"{api}/api/jobs/{job['job_id']}/xlsx", token)
-        download(xlsx["url"], run / "output.xlsx")
-        for endpoint, filename in (
-            ("manifest", "crops_manifest.json"),
-            ("review-manifest", "review_manifest.json"),
-            ("analytics", "analytics.json"),
-        ):
-            payload = request_json(f"{api}/api/jobs/{job['job_id']}/{endpoint}", token)
-            (run / filename).write_text(json.dumps(payload, indent=2) + "\n")
+        if not args.no_download:
+            xlsx = request_json(f"{api}/api/jobs/{job['job_id']}/xlsx", token)
+            download(xlsx["url"], run / "output.xlsx")
+            for endpoint, filename in (
+                ("manifest", "crops_manifest.json"),
+                ("review-manifest", "review_manifest.json"),
+                ("analytics", "analytics.json"),
+            ):
+                payload = request_json(f"{api}/api/jobs/{job['job_id']}/{endpoint}", token)
+                (run / filename).write_text(json.dumps(payload, indent=2) + "\n")
 
         fixture = run_high_sweep.FORMS / name
         literal_page_workbook(run / "output.xlsx", run / "content_output.xlsx")

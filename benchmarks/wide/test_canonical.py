@@ -259,6 +259,8 @@ def main():
                  "ecology_flags": [{"severity": "medium"}]}]}]}]}]}
         path = Path(temporary) / "colors.xlsx"
         canonical.write_xlsx(document, path)
+        assert document["pages"][0]["tables"][0]["rows"][0]["cells"][0][
+            "xlsx_sheet"] == "page1"
         sheet = openpyxl.load_workbook(path)["page1"]
         assert sheet["A2"].fill.fgColor.rgb.endswith("F4CCCC")
         assert sheet["B2"].fill.fgColor.rgb.endswith("FCE4D6")

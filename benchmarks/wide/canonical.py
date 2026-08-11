@@ -765,11 +765,14 @@ def validate(document: dict[str, Any]) -> list[str]:
 def assign_xlsx_coordinates(document: dict[str, Any]) -> dict[str, Any]:
     """Attach the exact page-local Excel coordinate used by ``write_xlsx``."""
     for page in document["pages"]:
+        sheet_name = f"page{page['page_number']}"
         row_cursor = 1
         for field in page.get("metadata_fields") or []:
+            field["xlsx_sheet"] = sheet_name
             field["xlsx_row"], field["xlsx_column"] = row_cursor, 2
             row_cursor += 1
         for item in page.get("free_text_regions") or []:
+            item["xlsx_sheet"] = sheet_name
             item["xlsx_row"], item["xlsx_column"] = row_cursor, 2
             row_cursor += 1
         if (page.get("metadata_fields") or page.get("free_text_regions")):
@@ -782,6 +785,7 @@ def assign_xlsx_coordinates(document: dict[str, Any]) -> dict[str, Any]:
             row_cursor += 1  # leaf labels
             for row in table["rows"]:
                 for index, item in enumerate(row["cells"], 1):
+                    item["xlsx_sheet"] = sheet_name
                     item["xlsx_row"], item["xlsx_column"] = row_cursor, index
                 row_cursor += 1
             row_cursor += 2
