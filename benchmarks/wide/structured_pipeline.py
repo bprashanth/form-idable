@@ -412,11 +412,57 @@ def openrouter_json(model: str, prompt: str, images: list[Path], schema: dict,
         return parsed, {
             "provider": "openrouter", "model": model,
             "in_tok": usage.get("prompt_tokens"), "out_tok": usage.get("completion_tokens"),
-            "thinking_tok": usage.get("reasoning_tokens", 0),
+            "cached_in_tok": (usage.get("prompt_tokens_details") or {}).get("cached_tokens"),
+            "thinking_tok": (usage.get("completion_tokens_details") or {}).get(
+                "reasoning_tokens", usage.get("reasoning_tokens", 0)),
             "cost_usd": usage.get("cost"), "latency_s": round(time.time() - started, 1),
-            "attempts": attempt,
+            "attempts": attempt, "raw_usage": usage,
+            "provider_name": response.get("provider"),
+            "generation_id": response.get("id"),
         }
     raise AssertionError("unreachable")
+
+
+def local_json(model: str, prompt: str, images: list[Path], schema: dict,
+               *, thinking: str = "minimal") -> tuple[dict, dict]:
+    """Use a capped local vLLM server with the identical High JSON contract."""
+    del thinking  # Current local instruct models do not expose a reasoning knob.
+    endpoints = {
+        "qwen3-vl-2b-v3": "http://localhost:8010/v1/chat/completions",
+        "qwen3-vl-8b-v4": "http://localhost:8021/v1/chat/completions",
+    }
+    endpoint = endpoints.get(model)
+    if endpoint is None:
+        raise KeyError(f"No audited capped local endpoint for {model!r}")
+    content = [{"type": "text", "text": prompt}]
+    content.extend({"type": "image_url", "image_url": {
+        "url": f"data:image/png;base64,{wide_bench._b64(image)}"}}
+                   for image in images)
+    payload = {
+        # Both audited local servers were deliberately launched with an 8k
+        # total-context cap.  Keep the High prompt/schema/images unchanged,
+        # but respect that serving limit so the comparison exercises the
+        # model rather than failing at request validation.
+        "model": model, "temperature": 0, "max_tokens": 6144,
+        "messages": [{"role": "user", "content": content}],
+        "response_format": {"type": "json_schema", "json_schema": {
+            "name": "formidable_extraction", "strict": True, "schema": schema}},
+    }
+    started = time.time()
+    try:
+        response = wide_bench._post(endpoint, payload, {}, timeout=900)
+    except urllib.error.HTTPError as error:
+        raise RuntimeError(
+            f"Local {model} rejected unchanged High request: {error.read()[:500]!r}") from error
+    message = response["choices"][0]["message"]["content"]
+    usage = response.get("usage") or {}
+    return json.loads(message), {
+        "provider": "local_capped_vllm", "model": model,
+        "in_tok": usage.get("prompt_tokens"), "out_tok": usage.get("completion_tokens"),
+        "thinking_tok": 0, "cost_usd": None,
+        "latency_s": round(time.time() - started, 1), "raw_usage": usage,
+        "endpoint": endpoint, "attempts": 1,
+    }
 
 
 def codex_json(model: str, prompt: str, images: list[Path], schema: dict,
@@ -542,7 +588,22 @@ def provider_json(model_spec: str, prompt: str, images: list[Path], schema: dict
     if model_spec.startswith("claude:"):
         return claude_json(model_spec.split(":", 1)[1], prompt, images, schema,
                            thinking=thinking)
+    if model_spec.startswith("local:"):
+        return local_json(model_spec.split(":", 1)[1], prompt, images, schema,
+                          thinking=thinking)
     return gemini_json(model_spec, prompt, images, schema, thinking=thinking)
+
+
+def configured_thinking() -> str:
+    """Return the explicit experiment setting without changing production default.
+
+    Historically every structured call used ``minimal`` at this call site, but
+    the Codex adapter ignored it and therefore retained each model's implicit
+    default. Keeping the default here preserves that behavior. Experiments may
+    set ``FORMIDABLE_STRUCTURED_REASONING`` for providers that honor the knob;
+    every run records the provider's actual reasoning-token usage.
+    """
+    return os.environ.get("FORMIDABLE_STRUCTURED_REASONING", "minimal")
 
 
 def model_filename(model_spec: str) -> str:
@@ -651,7 +712,9 @@ def _read_structure(form_dir, output, page_number, schema_model, *, reuse=False)
     meta_path = output / f"page_{page_number}__structure__{model_file}.meta.json"
     if reuse and raw_path.exists() and meta_path.exists():
         return overview, tiles, json.loads(raw_path.read_text()), json.loads(meta_path.read_text())
-    raw, meta = provider_json(schema_model, STRUCTURE_PROMPT, [overview], STRUCTURE_SCHEMA)
+    raw, meta = provider_json(
+        schema_model, STRUCTURE_PROMPT, [overview], STRUCTURE_SCHEMA,
+        thinking=configured_thinking())
     raw_path.write_text(json.dumps(raw, indent=2))
     meta_path.write_text(json.dumps(meta, indent=2))
     return overview, tiles, raw, meta
@@ -720,7 +783,9 @@ def run(form_dir: Path, schema_model: str, models: list[str], tag: str,
                     "cost_usd": 0, "latency_s": 0, "attempts": 0,
                 })
                 return raw, meta
-            raw, meta = provider_json(model, prompt, evidence_images, EXTRACTION_SCHEMA)
+            raw, meta = provider_json(
+                model, prompt, evidence_images, EXTRACTION_SCHEMA,
+                thinking=configured_thinking())
             raw_path.write_text(json.dumps(raw, indent=2))
             meta_path.write_text(json.dumps(meta, indent=2))
             return raw, meta

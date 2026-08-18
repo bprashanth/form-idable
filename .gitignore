@@ -224,6 +224,11 @@ benchmarks/high_runs/prod_additive_v*/
 benchmarks/high_runs/codex_v*/
 benchmarks/high_runs/claude_v*/
 benchmarks/high_runs/additive_v*/
+benchmarks/api_cost_runs/
+benchmarks/wide/eval_forms/*/canonical_outputs/api_*/
+benchmarks/wide/eval_forms/*/canonical_outputs/fair_high_*/
+benchmarks/wide/struct_eval_*/**/canonical_outputs/api_*/
+benchmarks/wide/struct_eval_*/**/canonical_outputs/fair_high_*/
 test-results/
 pwa/test-results/
 
