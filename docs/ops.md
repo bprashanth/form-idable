@@ -142,9 +142,9 @@ aws logs tail /ecs/formidable-worker --since 1h --region ap-south-1
 Common failure modes:
 
 - **codex auth stale/expired** — `run.log` shows "could not fetch codex auth" or
-  a codex auth error. `~/.codex/auth.json` holds rotating OAuth tokens; re-run
-  `deploy/push_secrets.sh` (or a full `push.sh`) to refresh the Secrets Manager
-  copy from your current local login.
+  a codex auth error. Run `codex login`, then `deploy/deploy.sh credentials`.
+  This changes only the shared secret, verifies real Low and High jobs, and
+  restores the captured secret version if either fails.
 - **Job stuck in `queued`** — ECS couldn't launch the task (task limit, subnet).
   No automatic retry today (see scaling.md).
 - **Synchronous 30s timeout** — API Gateway HTTP APIs cap integrations at ~30s.
@@ -155,39 +155,36 @@ Common failure modes:
 
 ## Deploying
 
-The full deploy is **self-verifying and self-reverting**:
+The authoritative backend release runbook is
+`../good-shepherd/agents/formidable/docs/deployment.md`. Choose the smallest
+release surface that matches the change:
 
 ```bash
-./deploy.sh
-#  build.sh --test           local container health check (free)
-#  push.sh                   retag current images :latest→:rollback, then build+push
-#                            new :latest (codex pinned), refresh secret, update Lambda,
-#                            register a new worker task-def revision
-#  verify_prod.sh            mint JWT → real /vision/extract → presigned upload →
-#                            /start → poll → download xlsx → tolerant-diff vs golden
-#     PASS → done
-#     FAIL → rollback.sh → verify_prod.sh
-#              PASS → prod restored to previous image, exit 1 (this deploy failed)
-#              FAIL → rollback.sh --with-secret → verify_prod.sh → exit 1 or 2
+./deploy.sh credentials  # shared Codex auth only
+./deploy.sh low          # Lambda + Low; High frozen
+./deploy.sh high         # Lambda + High; Low frozen
+./deploy.sh all          # Lambda + both workers
 ```
 
-Each `verify_prod.sh` runs one real codex job (~$0.02 + one form), so a rollback
-path can run codex 2–3 times. Deploys are infrequent; this is the price of a safe
-gate. `config.sh` holds every resource name/ID and is sourced by all scripts. See
-deployment.md for first-time `setup.sh`.
+Every mode verifies both real routes because the Lambda router and Codex secret
+are shared. Code releases do not rotate credentials. Credential releases do not
+rebuild images. A rollback path can therefore identify whether the failed
+surface was auth, Low code, High code or their shared API instead of reverting
+unrelated working components.
 
-`verify_prod.sh` needs Cognito test creds: `deploy/test-credentials.env`
-(`TEST_USERNAME`/`TEST_PASSWORD`), falling back to the server repo's copy at
+`verify_prod.sh` and `verify_high.sh` need Cognito test credentials in
+`deploy/test-credentials.env`, falling back to
 `good-shepherd/server/deploy/test-credentials.env`.
 
 ### Rolling back
 
-`deploy.sh` rolls back automatically on a failed verify. To do it by hand:
+Mode wrappers roll back automatically on a failed verify. For diagnosis:
 
 ```bash
-./rollback.sh                # restore :rollback→:latest, redeploy Lambda + worker task-def
-./rollback.sh --with-secret  # ALSO revert the codex secret to its prior version
-./verify_prod.sh             # confirm prod is healthy again
+./rollback.sh                       # restore Lambda + Low
+./rollback_high.sh                  # restore Lambda + High
+./rollback_secret.sh <version-id>   # restore only a captured auth version
+./verify_prod.sh && ./verify_high.sh
 ```
 
 How it works:
@@ -199,25 +196,22 @@ How it works:
   it must be re-pointed).
 - **Worker:** task defs reference the `:latest` tag, so moving the tag back is
   enough; `rollback.sh` also re-registers a revision so the family head is clear.
-- **Secret:** `--with-secret` swaps the Secrets Manager `AWSPREVIOUS` label back to
-  `AWSCURRENT`. **Ordering:** image/task-def first; revert the secret only if an
-  image rollback alone doesn't fix prod — the previous OAuth token is *older* and
-  may be closer to expiry, so reverting it can make an auth problem worse.
+- **Secret:** `deploy_credentials.sh` captures the exact current version before
+  rotation and `rollback_secret.sh` restores that version only. It never moves
+  worker images or task definitions.
 
 ---
 
 ## Secrets & codex
 
-- **codex auth:** `deploy/push_secrets.sh` copies `~/.codex/auth.json` →
-  Secrets Manager `formidable/codex-auth`. The worker writes it back to
-  `$HOME/.codex/auth.json` at startup. It's a manual snapshot of rotating OAuth
-  tokens — `push.sh` refreshes it every deploy, but it's only as fresh as your
-  local login at push time.
-- **codex version:** **pinned** via `CODEX_VERSION` in `config.sh` (default
-  `0.142.5`), passed as a `--build-arg` into both Dockerfiles — the image's codex
-  matches your validated local `codex --version`. To upgrade: bump `CODEX_VERSION`
-  and run a full `./deploy.sh` so `verify_prod.sh` confirms the new version works
-  before it sticks (and auto-reverts if it doesn't).
+- **codex auth:** `deploy/deploy.sh credentials` copies
+  `~/.codex/auth.json` to Secrets Manager `formidable/codex-auth`. Both workers
+  write it to their runtime Codex home at task startup. Code deployments leave
+  it unchanged.
+- **codex versions:** Low and High CLIs are pinned by `CODEX_VERSION` and
+  `HIGH_CODEX_VERSION` in `config.sh`. A coordinated version change requires
+  `./deploy.sh all` after the complete local model/artifact gate; both real
+  routes are then verified before acceptance.
 - **SES:** sandbox mode (recipients must be verified). `ses:SendEmail` +
   `ses:SendRawEmail` (raw = MIME/attachments) are on the worker task role in
   `deploy/fargate-task-policy.json`.

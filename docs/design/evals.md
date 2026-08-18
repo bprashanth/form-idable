@@ -1,208 +1,165 @@
-# Form QA & Eval Analysis — Design
+# Evaluation and benchmark workflow
 
-Post-extraction quality layer. After the Fargate worker produces an xlsx,
-these features help a human reviewer decide whether the transcription is
-trustworthy before downloading it.
+This is the entry point for evaluating extraction models, pipeline changes and
+review UX. Production runtime code lives in
+`../good-shepherd/agents/formidable/high_pipeline/`; the similarly named
+`benchmarks/wide/` modules are an experimental workspace and are never copied
+into a production image.
 
-**Status:** the additive subscription High layer passed local and production
-gates on 14 PDFs / 68 pages with zero artifact errors. The controlled
-production replay improves micro semantic F1 0.887 to 0.913 and precision 0.854
-to 0.922 while recall falls 0.924 to 0.905. The initial production selector
-failed at 0.867; this failure and the corrected literal-support gate are
-recorded in `chronology/015_production_selector_and_workbook_provenance_gate.md`.
+The accepted control is recorded in `chronology/015_*`: 14 PDFs, 68 pages,
+micro semantic F1 0.913 versus Low 0.887, with 14/14 artifact and browser gates
+passing. Do not replace that control with the result of a single form.
 
-Current High uses a canonical page/cell IR, a coverage-gated Low-compatible
-primary, Luna structure plus Terra/Luna literal readings, generic numeric/domain
-checks, taxonomy context, and deterministic histogram/categorical manifests.
-Raw accuracy metrics remain, plus semantic metrics that treat only visually
-equivalent checked marks (`✓`, `✔`, `☑`, `X`) as the same code. Ecology audit
-sheets are excluded from extraction accuracy and validated separately.
+## First decide what is changing
 
-## Implemented release architecture
+| Experiment | What to hold fixed | Minimum useful gate | Production action |
+| --- | --- | --- | --- |
+| Model or prompt | pipeline, IR, selector, UX and fixtures | API usage + exact-cell controls + five-form diversity set | none until the 14-form gate passes |
+| Harness or pipeline | saved model responses where possible, fixtures and UX | artifact validator + paired score/review-capture comparison | promote reviewed code into Good Shepherd, then build High image |
+| Review/Analytics UX | saved High artifacts and backend contracts | mocked Playwright all-page visual suite | PWA-only release after local screenshots |
+| Backend API contract | old PWA behavior and both workers | backend tests + real Low and High smoke jobs | backend first, backward compatible |
+| End to end | frozen Low and prior High | 14 forms / 68 pages + production browser sweep | backend, then PWA, then chronology acceptance |
 
-1. Run the frozen Low-compatible agent in the isolated High container.
-2. Map every page with bounded Luna structured output.
-3. Read each declared cell independently with Terra and Luna.
-4. Deliver primary unchanged only when geometry coverage is at least 80%, its
-   literal support is at least 75% of the strongest peer, peer-consensus
-   conflicts are at most 20%, and no peer materially recovers at least 15%
-   more evidence while leading the other peer by at least 10%. Mark only
-   peer-consensus differences red.
-5. Otherwise use Terra; switch to Luna only for at least 10% more nonblank
-   evidence, and mark every peer difference red.
-6. Run ecology after transcription. Suggestions are orange and never edits.
-7. Build Analytics from delivered values, then independently check exact
-   canonical/workbook/review coordinates, including blank targets outside
-   Excel's saved used range.
+Do not claim that an API-only model call represents High. Current High contains
+an agentic primary, geometry mapping, two literal readers, deterministic route
+selection, ecology, workbook construction and review/Analytics contracts.
+Architecture ablations and model substitutions must be labeled separately.
 
-The 14-form gate used 204 structured calls, 3.79M reported subscription tokens
-and 14,468.5 seconds of summed provider latency (212.8 seconds/page), plus the
-agentic primary and Fargate overhead. The CLI reports no marginal API price;
-this must be described as subscription-unmetered, not free. A Sol tie-breaker
-was rejected because it scored below Terra on its targeted fixture.
+## Controls before spending model calls
 
-## Historical speculative design (not the current implementation)
+For every experiment record:
 
----
+- Formidable and Good Shepherd commit IDs;
+- exact fixture IDs and prior output used as control;
+- model/provider/version, reasoning setting and authentication path;
+- prompt/schema hash or source commit;
+- raw input, cached-input, output and reasoning usage per call;
+- durable vendor-list cost and actual promotional bill as separate values;
+- semantic precision/recall/F1, per-form tails and review-error capture;
+- page/table/row/column parity, blank specificity, duplication and omission;
+- paths to raw outputs, validators and screenshots.
 
-## 1  LLM anomaly report
+Include negative controls: known blank cells, deliberately sparse forms,
+multi-page forms, repeated values, merged headers, handwritten marginal notes
+and forms where a plausible ecological value is intentionally unusual. A model
+must not get credit for silently deleting hard cells or changing layout.
 
-Send the stored xlsx (already in S3) as CSV text to a cheap LLM. Ask it to
-identify anomalies using its own domain knowledge — no human needs to
-specify what kind of form it is.
+## Local promotion ladder
 
-### Prompt approach
+Stop at the first failed stage and record the failure in chronology.
 
-One pass. The LLM infers form type from available context signals:
+1. **Request contract:** one page from `eval_09`; confirm valid schema, page and
+   cell coordinates, usage capture and no blank invention.
+2. **Representative form:** all six pages of `eval_09`; compare content,
+   geometry and known-error capture with the saved production High result.
+3. **Diversity set:** `eval_05,07,09,11,13`; inspect individual tails rather
+   than only aggregate F1.
+4. **Exact synthetic controls:** require correct physical columns/spans, page
+   parity and zero unsupported fills in known blank cells.
+5. **All-form gate:** all 14 real PDFs and 68 pages; validate every delivered
+   workbook, canonical cell, review box, ecology flag, page render and crop.
+6. **Local browser gate:** load saved artifacts through the PWA, visit every
+   page and Analytics, assert exact red/orange counts and save screenshots.
+7. **Production smoke:** deploy with the appropriate Good Shepherd release
+   mode; its automated gate runs real Low and High jobs.
+8. **Production all-form/browser gate:** required for model, layout, selector,
+   artifact-contract or major UX changes. Record job IDs and screenshots.
 
-```
-You are a scientific data reviewer. A scanned field form was processed by
-OCR into the spreadsheet below.
+Minor copy/style changes do not require paid model replay, but must still build
+and run the relevant mocked browser tests.
 
-Filename: {filename}
-Form notes from extraction:
-  {crop_notes joined from crops_manifest.json, e.g.
-   "page 1 header, date, treatment, observers"
-   "page 1 table A, blocks 1-5"}
-Column headers: {row 7 of xlsx, the first non-metadata row}
+## Model and harness experiments
 
-Data (CSV):
-{full xlsxRows as CSV, all pages}
+API-key cost and model substitutions live in `benchmarks/api_cost/`; start with
+its README. Keep production High frozen while experimenting. Raw responses and
+run directories are gitignored.
 
-Tasks:
-1. In one sentence, identify what this data records.
-2. List up to 8 anomalies: values that are biologically implausible,
-   internally inconsistent, or statistically unusual. For each, give
-   row/col, the value, and why it's suspicious.
-3. Note any systematic patterns suggesting transcription error
-   (e.g. a whole block is zero, one species appears only once,
-   a treatment label is inconsistent with the others).
-```
+Typical progression:
 
-### Model choice
+```bash
+python benchmarks/api_cost/unified_pipeline.py --pages 1
 
-- **Gemini 2.5 Flash** (recommended): ~$0.15/1M input, ~$0.60/1M output.
-  A 150-row × 15-col xlsx ≈ 8–12K tokens → ≈$0.001 per analysis run.
-- **Gemini 2.0 Flash**: half the price, slightly less capable reasoning.
-- **Google AI Studio free tier**: 15 req/min, 1M tokens/day — sufficient
-  for development and light production use.
-- **Avoid**: OpenRouter free models (inconsistent quality/availability).
+python benchmarks/api_cost/run_openrouter_unified.py \
+  --reasoning none
 
-### Backend
-
-New route on the Lambda HTTP handler:
-
-```
-POST /vision/jobs/{job_id}/analyze
-Authorization: Bearer {cognito_token}
-Body: { "query": null }          // null = standard anomaly report
-      { "query": "plot ..." }    // string = distribution query (see §2)
+uv run --with openpyxl --with pillow --with pymupdf \
+  python benchmarks/wide/validate_high_sweep.py \
+  --root benchmarks/high_runs/additive_v1
 ```
 
-Handler:
-1. Fetch `crops_manifest.json` and xlsx from S3 (both already stored)
-2. Convert xlsxRows to CSV string
-3. Build prompt with filename + crop notes + headers + CSV
-4. Call Gemini via `google-generativeai` Python SDK (API key in env/secret)
-5. Return `{ "type": "anomaly_report", "findings": "...", "form_type": "..." }`
+Use `--reuse-existing` or saved provider responses for pipeline/selector
+ablations so a stochastic reread is not mistaken for an algorithmic gain.
+Never tune thresholds on the same form later reported as held-out evidence.
 
-### Frontend
+An experiment is ready to promote only when its change is deliberately applied
+to Good Shepherd's `high_pipeline/` and the production container is rebuilt.
+Formidable benchmark files themselves are not production inputs.
 
-"QA Report" button in the review page header (next to "Submit Review").
-On click: POST to `/analyze`, show a collapsible panel below the toolbar
-with the bullet-point findings. Highlight referenced rows in the Excel
-panel (if the model returns structured row/col refs — request JSON output
-format for easier parsing).
+## UX-only visual benchmark
 
----
+UX work should use saved artifacts, not rerun models. This isolates human-review
+behavior from model variance and cost.
 
-## 2  Distribution plots (natural language queries)
-
-Same endpoint, non-null `query`. User types: "show me treatment vs species count"
-or "plot DBH by site". Backend sends query + CSV to Gemini and asks for a
-**Vega-Lite spec** (JSON). Frontend renders it natively using `vega-embed`
-(no image encoding needed, no matplotlib dependency).
-
-```
-// extended prompt when query is set:
-The user asks: "{query}"
-Produce a valid Vega-Lite v5 JSON spec that answers this question using
-the data above. Inline the data in the spec (values array). Return only
-valid JSON, no markdown fences.
-```
-
-### Frontend
-
-Small chat input below the Excel panel ("Ask about this data…"). Submits
-query, renders the returned Vega-Lite spec via `vega-embed`. Package:
-`vega`, `vega-lite`, `vega-embed` (~450KB gzipped total).
-
----
-
-## 3  Second-model diff (future)
-
-Run Gemini Flash alongside codex in the Fargate worker. Both emit a
-normalised flat JSON array: `[{row, col_name, value}, ...]`. Diff at cell
-key level. Store disagreeing cells in DynamoDB alongside the job record.
-Review page shows a fourth highlight colour ("models disagree") alongside
-yellow (low confidence), amber (human correction).
-
-Key constraint: both models must use an identical strict JSON schema in
-their system prompt to make the diff viable. Format mismatch is the main
-failure mode.
-
-**Not yet scoped** — depends on §1 first.
-
----
-
-## Build order
-
-1. Backend route + Gemini SDK integration (one Python file change on the Lambda)
-2. Frontend "QA Report" button + collapsible panel
-3. Vega-embed package + query input
-4. Second-model diff (future sprint)
-
----
-
-## Environment variables needed
-
-```
-GEMINI_API_KEY   Lambda env or Secrets Manager   Gemini API key
-GEMINI_MODEL     Lambda env                      e.g. gemini-2.5-flash
-```
-
-The Lambda already has access to S3 (to read xlsx + manifest) via its task role.
-
----
-
-## Testing dev changes
-
-The review page has an end-to-end Playwright suite in `pwa/tests/`. It covers upload, job polling, and the review UI including crop overlays. To run it against a real job:
-
-```
+```bash
 cd pwa
+npm install
 npx playwright test
+
+HIGH_SWEEP_ROOT=../benchmarks/high_runs/additive_v1 \
+  npx playwright test tests/high-sweep-visual.spec.js
 ```
 
-By default the tests run against the production API (set via `API_TARGET` in `pwa/.env.local`). To run against the local mock instead, set `API_TARGET=http://localhost:8072` and start the mock server first.
+The all-page suite verifies decoded source pages, workbook rows, red
+transcription boxes/cells, orange ecology boxes/cells and read-only Analytics.
+Screenshots are written below `benchmarks/high_visuals/` and should be manually
+opened at full resolution before accepting layout or review changes.
 
-When the `/vision/jobs/{job_id}/analyze` endpoint is built, add a test in `pwa/tests/review-flow.spec.js` that clicks the "QA Report" button and asserts that the result panel appears with at least one finding. The test should use a known seed job (e.g. `bd6a19ac-b14d-4a67-8cfa-50df8bd78121`) so the fixture data is stable and the Gemini call can be stubbed with `page.route()` to avoid live API costs in CI.
+## API-only production benchmark
 
-For agents iterating on the prompt or the anomaly logic without touching the UI, the backend can be tested directly:
+Use this when evaluating backend extraction without changing the UI. Mint a
+Cognito token as described in `docs/ops.md`, then run:
 
-```
-TOKEN=$(aws cognito-idp initiate-auth \
-  --auth-flow USER_PASSWORD_AUTH \
-  --client-id <client_id> \
-  --auth-parameters USERNAME=<user>,PASSWORD=<pass> \
-  --region ap-south-1 \
-  --query 'AuthenticationResult.IdToken' --output text)
-
-curl -s -X POST \
-  https://hachry61xe.execute-api.ap-south-1.amazonaws.com/prod/vision/jobs/bd6a19ac-b14d-4a67-8cfa-50df8bd78121/analyze \
-  -H "Authorization: Bearer $TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{"query": null}' | jq .
+```bash
+FORMIDABLE_API_URL=https://hachry61xe.execute-api.ap-south-1.amazonaws.com/prod \
+FORMIDABLE_ID_TOKEN="$TOKEN" \
+python benchmarks/wide/run_prod_high_sweep.py \
+  --state benchmarks/high_runs/prod_sweep_candidate/state.json \
+  --parallel 3
 ```
 
-Use the credentials in `good-shepherd/server/deploy/test-credentials.env` for the Cognito call. Pass `{"query": "plot treatment vs species count"}` in the body to test the distribution plot path instead.
+Download and score the resulting artifacts with the same frozen evaluator.
+This validates API routing and extraction, but not what a human sees.
+
+## End-to-end production browser benchmark
+
+After the API sweep completes and the PWA candidate is live:
+
+```bash
+cd pwa
+FORMIDABLE_PROD_URL=https://fomoscribe.netlify.app \
+FORMIDABLE_PROD_USERNAME="$TEST_USERNAME" \
+FORMIDABLE_PROD_PASSWORD="$TEST_PASSWORD" \
+FORMIDABLE_PROD_SWEEP_STATE=benchmarks/high_runs/prod_sweep_candidate/state.json \
+  npx playwright test tests/production-high-sweep.spec.js
+```
+
+This is the acceptance gate for changes spanning extraction and UX. Inspect the
+saved review and Analytics screenshots for all forms; passing assertions alone
+does not certify that handwriting, table layout or overlays are visually useful.
+
+## Acceptance rules
+
+- Never accept on aggregate F1 alone; report worst-form deltas.
+- Never treat token-bag equality as layout correctness.
+- Never treat model agreement as truth without blank/geometry controls.
+- Ecology remains suggestion-only and is scored separately from transcription.
+- Report how much of the known-error set the red queue captures and how much
+  human review it demands.
+- Use durable vendor prices for architecture decisions; show temporary provider
+  discounts separately.
+- If extra calls buy a small average gain while worsening tails or attention
+  quality, stop and route the uncertainty to a human.
+
+The current Mid/API measurements and exact commands are in
+`benchmarks/api_cost/README.md`. The accepted High release evidence is in
+`benchmarks/HIGH_ADDITIVE_V1.md`.

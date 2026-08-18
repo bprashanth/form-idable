@@ -28,14 +28,17 @@ The Lambda handler and the Fargate worker are built from separate Docker images 
 
 The system spans two repos, split along a frontend/data vs backend line:
 
-- **`form-idable` (this repo)** — the PWA (`pwa/`), documentation (`docs/`),
-  benchmarks and datasets (`benchmarks/`), and the golden regression fixture.
+- **`form-idable` (this repo)** — the PWA (`pwa/`), product/evaluation
+  documentation (`docs/` and `chronology/`), experimental benchmark harnesses
+  and datasets (`benchmarks/`), and the golden regression fixture.
   The old `agent/` FastAPI server here is the retired Textract-era code, not in
   use.
 - **`good-shepherd/agents/formidable/`** — the entire live backend: the Lambda
-  handler (`main.py`), the Fargate worker (`worker.py`), Dockerfiles, deploy
-  scripts, prompts, and the nightly regression suite. The Python is
-  self-contained (no imports from `good-shepherd/server/`).
+  handler (`main.py`), both Fargate workers, canonical production High pipeline
+  (`high_pipeline/`), Dockerfiles, deploy scripts, prompts, and the nightly
+  regression suite. A production Docker build is self-contained and does not
+  read from this repository. The Python has no imports from
+  `good-shepherd/server/`.
 
 The **AWS infra** belongs to neither repo — it's deployed in `ap-south-1` by the
 good-shepherd deploy scripts. Ownership matters when reasoning about changes:
@@ -49,8 +52,11 @@ good-shepherd deploy scripts. Ownership matters when reasoning about changes:
   sources it. `agents/` is structured as a multi-agent host — formidable is the
   first agent.
 
-Practical consequence: working on the formidable **backend** requires the
-good-shepherd repo checked out alongside this one. Operational runbook: `ops.md`.
+Practical consequence: the backend team can build and deploy from Good Shepherd
+alone. Cross-repository model and browser evaluation still uses both checkouts:
+Good Shepherd supplies the candidate runtime while this repository supplies
+fixtures, scorers and the PWA. Operational runbook: `ops.md`; authoritative
+backend release modes: `../good-shepherd/agents/formidable/docs/deployment.md`.
 
 ---
 
@@ -196,7 +202,9 @@ NOTIFICATION_EMAIL      Recipient email, injected per-task if provided
 High reads the same `CODEX_SECRET_NAME` credential as low but pins a separate
 Codex CLI/image and model roles. High artifacts are optional and do not alter
 the Low review contract. Its Fargate runtime is ARM64, the Lambda remains
-x86_64, and `push_high.sh` never re-registers the frozen Low task/image.
+x86_64, and a High-only release never re-registers the frozen Low task/image.
+Both workers fetch Codex auth from Secrets Manager at task startup; credential
+rotation rebuilds no image and is verified independently on both routes.
 
 The PWA reads one build-time variable:
 

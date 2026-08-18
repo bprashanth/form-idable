@@ -6,54 +6,51 @@ The backend runs entirely on AWS (ap-south-1). The PWA is hosted on Netlify.
 
 ---
 
-## >>> HOW TO DEPLOY THE BACKEND <<<
+## >>> HOW TO DEPLOY <<<
 
-The backend source does NOT live in this repo. It lives in the sibling repo at
-`../good-shepherd/agents/formidable/`. To deploy it:
+The PWA deploys through Netlify when this repository's `main` branch changes.
+The self-contained backend lives in `../good-shepherd/agents/formidable/`.
+Choose an explicit backend release mode:
 
 ```
 cd ../good-shepherd/agents/formidable/deploy
-./deploy.sh
+./deploy.sh credentials  # Codex auth only; rebuild nothing; verify Low + High
+./deploy.sh low          # Lambda + Low; assert High unchanged; verify both
+./deploy.sh high         # Lambda + High; assert Low unchanged; verify both
+./deploy.sh all          # Lambda + both workers; verify both
 ```
 
-That single command does everything:
-
-1. Reads your local codex auth (`~/.codex/auth.json`) and pushes it to AWS
-   Secrets Manager. Run `codex login` first if your token is stale.
-2. Builds both container images (HTTP handler + Fargate worker), pinned to the
-   codex version in `deploy/config.sh`.
-3. Retags the current images as `:rollback` so a bad deploy can be undone.
-4. Pushes the images, updates the Lambda, and registers a new Fargate task
-   definition.
-5. Runs ONE real codex job against prod and diffs the result against the golden
-   fixture. If it fails, it rolls back the image (and, as a last resort, the
-   secret) and complains loudly.
+Credentials and code are intentionally separate release surfaces. Both workers
+read the same Secrets Manager auth at task startup; rotating it does not rebuild
+an image. The production High pipeline is owned by Good Shepherd, so backend
+deploys do not require this PWA/benchmark checkout.
 
 Notes:
 
 - You need a good network connection. The two image pushes are large and have
   stalled mid-push on flaky connections before.
-- Each run costs roughly one codex job (~$0.02 Fargate + one form). A rollback
-  path runs codex two or three times.
+- A successful code or credential gate runs one real Low and one real High job;
+  rollback paths run them again.
 - This deploys the BACKEND only. The frontend (this repo's `pwa/`) deploys
   separately via Netlify on a push to `main`.
 
-Full deploy and ops detail: `docs/deployment.md` and `docs/ops.md`.
+Authoritative backend commands:
+`../good-shepherd/agents/formidable/docs/deployment.md`. Product-level release
+order: `docs/deployment.md`. Operations: `docs/ops.md`.
 
 ---
 
 ## Replicating this on another machine
 
-The code is safe to `git add . && git push` (credentials are gitignored: `.env`,
-venvs, `deploy/test-credentials.env`, `deploy/outputs.env`, `CLAUDE.md`,
-`AGENTS.md`; the only tracked env file, `pwa/.env.production`, holds just the
-public API Gateway URL). But a fresh clone alone does NOT reproduce the deploy
-flow, because a few things are deliberately kept out of git.
+Never use a blanket `git add .`: model outputs and cross-project scratch files
+may be present. Credentials, venvs and generated benchmark runs are gitignored;
+stage reviewed source/docs by explicit path. The only tracked env file,
+`pwa/.env.production`, contains the public API Gateway URL.
 
 ### Option A: fresh clone (you re-provision the secrets)
 
-1. Clone BOTH repos as siblings under the same parent:
-   `.../bprashanth/form-idable` and `.../bprashanth/good-shepherd`.
+1. Clone Good Shepherd to deploy the backend. Clone Formidable too when working
+   on the PWA or running the full model/visual benchmark suite.
 2. `codex login` locally so `~/.codex/auth.json` exists (deploy reads it and
    pushes it to Secrets Manager; it is never in git).
 3. Configure AWS credentials locally (`aws sts get-caller-identity` must work).
@@ -133,9 +130,10 @@ User reviews output in the browser
 ```
 docs/architecture.md      System components, data flow, API routes, local dev setup
 docs/deployment.md        How to build and push, first-time setup, periodic cleanup
+docs/chronology.md         How experiments, failures and releases are recorded
 docs/onboarding.md        Adding a user (Cognito + SES), Netlify deploy
 docs/scaling.md           Concurrency limits, free tier, cost per form
-docs/design/evals.md      Planned QA analysis layer (anomaly detection, distribution plots)
+docs/design/evals.md      Model, harness, UX and end-to-end benchmark workflow
 ```
 
 Historical design notes and experiments are in `docs/archive/`.

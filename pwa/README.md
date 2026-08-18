@@ -27,6 +27,12 @@ development-only auth bypass:
 $ npx playwright test
 ```
 
+For review/Analytics changes, run the saved 14-form visual gate and inspect the
+generated full-page screenshots before merging. For changes spanning models,
+artifacts and UX, follow the local-to-production ladder in
+[`docs/design/evals.md`](../docs/design/evals.md); do not rerun model APIs merely
+to test frontend behavior.
+
 The optional artifacts are produced only by High jobs. Low jobs retain the
 original review surface and do not expose High Analytics or attention queues.
 
